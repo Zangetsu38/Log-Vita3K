@@ -1,281 +1,655 @@
-[07:13:26.033] |I| [load_app_impl]: cpu-backend: Dynarmic
-[07:13:26.033] |I| [load_app_impl]: CPU Optimisation state: true
-[07:13:26.033] |I| [load_app_impl]: at9 audio decoder state: true
-[07:13:26.033] |I| [load_app_impl]: ngs experimental state: true
-[07:13:26.033] |I| [load_app_impl]: video player state: true
-[07:13:26.033] |I| [load_app_impl]: lle-modules: libSceJson,liblocation,libSceXml,libpgf,libvoice,librudp,libSceSqlite,libvoiceqos,libsas
-[07:13:26.033] |I| [load_app_impl]: Title: MUD - FIM Motocross World Championship™
-[07:13:26.033] |I| [load_app_impl]: Serial: PCSB00182
-[07:13:26.034] |I| [load_app_impl]: Version: 1.00
-[07:13:26.034] |I| [load_app_impl]: Category: gd
-[07:13:26.040] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[07:13:26.040] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000437DC / 0x81000000] (size: 0x0003C7DC) of module ux0:app\PCSB00182\sce_module\libc.suprx
-[07:13:26.040] |I| [load_self]: Loaded module segment 1 @ [0x00044000 - 0x00046374 / 0x8103D000] (size: 0x00002374) of module ux0:app\PCSB00182\sce_module\libc.suprx
-[07:13:26.041] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00182\sce_module\libc.suprx
-[07:13:26.042] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x35220
-[07:13:26.042] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x389F0, setting to stub value 0xDEADBEEF
-[07:13:26.042] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00182\sce_module\libc.suprx") loaded
-[07:13:26.048] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[07:13:26.048] |I| [load_self]: Loaded module segment 0 @ [0x00048000 - 0x0006A1B0 / 0x81000000] (size: 0x000221B0) of module ux0:app\PCSB00182\sce_module\libfios2.suprx
-[07:13:26.049] |I| [load_self]: Loaded module segment 1 @ [0x0006B000 - 0x000701B8 / 0x81023000] (size: 0x000051B8) of module ux0:app\PCSB00182\sce_module\libfios2.suprx
-[07:13:26.050] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00182\sce_module\libfios2.suprx
-[07:13:26.050] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x63CB0
-[07:13:26.051] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00182\sce_module\libfios2.suprx") loaded
-[07:13:26.054] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[07:13:26.054] |I| [load_self]: Loaded module segment 0 @ [0x00071000 - 0x0008506C / 0x81000000] (size: 0x0001406C) of module ux0:app\PCSB00182\sce_module\libult.suprx
-[07:13:26.055] |I| [load_self]: Loaded module segment 1 @ [0x00086000 - 0x00086814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSB00182\sce_module\libult.suprx
-[07:13:26.055] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00182\sce_module\libult.suprx
-[07:13:26.056] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81B68
-[07:13:26.056] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00182\sce_module\libult.suprx") loaded
-[07:13:26.063] |I| [load_self]: Loaded module segment 0 @ [0x00087000 - 0x000D7F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[07:13:26.063] |I| [load_self]: Loaded module segment 1 @ [0x000D8000 - 0x000D82F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[07:13:26.064] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[07:13:26.064] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC37DC
-[07:13:26.065] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC2F10
-[07:13:26.065] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD7EE0, setting to stub value 0xDEADBEEF
-[07:13:26.066] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[07:13:26.068] |I| [load_self]: Loaded module segment 0 @ [0x000DA000 - 0x000E9F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[07:13:26.068] |I| [load_self]: Loaded module segment 1 @ [0x000EA000 - 0x000EA008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[07:13:26.069] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[07:13:26.069] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE8710
-[07:13:26.070] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE8300
-[07:13:26.070] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[07:13:26.399] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[07:13:26.400] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x822390B0 / 0x81000000] (size: 0x012390B0) of module app0:eboot.bin
-[07:13:26.400] |I| [load_self]: Loaded module segment 1 @ [0x8223A000 - 0x82394A6C / 0x8223A000] (size: 0x0015AA6C) of module app0:eboot.bin
-[07:13:26.401] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[07:13:26.402] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x820AC778
-[07:13:26.402] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8223A098
-[07:13:26.403] |I| [load_app_impl]: Main executable Launcher_PSVITA (eboot.bin) loaded
-[07:13:26.411] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
-[07:13:26.451] |I| [export_sceIoOpen]: Opening file: tty0:
-[07:13:26.451] |I| [export_sceIoOpen]: Opening file: tty0:
-[07:13:26.452] |I| [export_sceIoOpen]: Opening file: tty1:
-[07:13:26.457] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00182\sce_module\libc.suprx") module_start returned 0x0
-[07:13:26.461] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x48001
-[07:13:26.469] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[07:13:26.469] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayGetList import called. (Set pActualIDs to 0)
-[07:13:26.469] |D| [export__sceFiosKernelOverlayGetList]: pid: 0
-[07:13:26.470] |D| [export__sceFiosKernelOverlayGetList]: buffer_size: 0
-[07:13:26.470] |D| [export__sceFiosKernelOverlayGetList]: maxIDs: 0
-[07:13:26.471] |D| [export__sceFiosKernelOverlayGetList]: pActualIDs: 0
-[07:13:26.471] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00182\sce_module\libfios2.suprx") module_start returned 0x0
-[07:13:26.475] |D| [run_app]: Running module_start of library: SceUlt at address 0x74B71
-[07:13:26.482] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00182\sce_module\libult.suprx") module_start returned 0x0
-[07:13:28.842] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[07:13:28.843] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
-[07:13:28.844] |W| [stubbed_impl]: Stubbed sceKernelWaitLwCondCB import called. (no CB)
-[07:13:28.901] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
-[07:13:28.905] |I| [export_sceIoOpen]: Opening file: app0:/PSVITA/MIXFILES.LST
-[07:13:28.905] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/PSVITA/MIXFILES.LST (target path: app0:/PSVITA/MIXFILES.LST)
-[07:13:28.906] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:28.912] |I| [export_sceIoOpen]: Opening file: app0:/MIXFILES.LST
-[07:13:28.930] |I| [export_sceIoOpen]: Opening file: app0:/BIKES.PSARC
-[07:13:28.951] |I| [export_sceIoOpen]: Opening file: app0:/BIKES.PSARC
-[07:13:28.976] |I| [export_sceIoOpen]: Opening file: app0:/DATA.PSARC
-[07:13:28.977] |I| [export_sceIoOpen]: Opening file: app0:/DATA.PSARC
-[07:13:28.978] |I| [export_sceIoOpen]: Opening file: app0:/GFX.PSARC
-[07:13:28.979] |I| [export_sceIoOpen]: Opening file: app0:/GFX.PSARC
-[07:13:28.980] |I| [export_sceIoOpen]: Opening file: app0:/GFXPAK.PSARC
-[07:13:28.980] |I| [export_sceIoOpen]: Opening file: app0:/GFXPAK.PSARC
-[07:13:28.981] |I| [export_sceIoOpen]: Opening file: app0:/MEDIA.PSARC
-[07:13:28.982] |I| [export_sceIoOpen]: Opening file: app0:/MEDIA.PSARC
-[07:13:28.983] |I| [export_sceIoOpen]: Opening file: app0:/MENU.PSARC
-[07:13:28.983] |I| [export_sceIoOpen]: Opening file: app0:/MENU.PSARC
-[07:13:28.984] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC.PSARC
-[07:13:28.985] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC.PSARC
-[07:13:28.985] |I| [export_sceIoOpen]: Opening file: app0:/RIDER.PSARC
-[07:13:28.986] |I| [export_sceIoOpen]: Opening file: app0:/RIDER.PSARC
-[07:13:28.987] |I| [export_sceIoOpen]: Opening file: app0:/SFX.PSARC
-[07:13:28.988] |I| [export_sceIoOpen]: Opening file: app0:/SFX.PSARC
-[07:13:28.989] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP.PSARC
-[07:13:28.989] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP.PSARC
-[07:13:28.992] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP_2.PSARC
-[07:13:28.994] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP_2.PSARC
-[07:13:28.995] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN.PSARC
-[07:13:28.995] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN.PSARC
-[07:13:28.996] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN_2.PSARC
-[07:13:28.997] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN_2.PSARC
-[07:13:28.999] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA.PSARC
-[07:13:29.000] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA.PSARC
-[07:13:29.001] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA_2.PSARC
-[07:13:29.001] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA_2.PSARC
-[07:13:29.003] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BELGIUM.PSARC
-[07:13:29.004] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BELGIUM.PSARC
-[07:13:29.005] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BRAZIL.PSARC
-[07:13:29.006] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BRAZIL.PSARC
-[07:13:29.011] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BULGARIA.PSARC
-[07:13:29.012] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BULGARIA.PSARC
-[07:13:29.013] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/FRANCE.PSARC
-[07:13:29.013] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/FRANCE.PSARC
-[07:13:29.014] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GERMANY.PSARC
-[07:13:29.015] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GERMANY.PSARC
-[07:13:29.016] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GREAT_BRITAIN.PSARC
-[07:13:29.017] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GREAT_BRITAIN.PSARC
-[07:13:29.018] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ITALY.PSARC
-[07:13:29.018] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ITALY.PSARC
-[07:13:29.019] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/NETHERLANDS.PSARC
-[07:13:29.020] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/NETHERLANDS.PSARC
-[07:13:29.021] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/PORTUGAL.PSARC
-[07:13:29.022] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/PORTUGAL.PSARC
-[07:13:29.025] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SPAIN.PSARC
-[07:13:29.025] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SPAIN.PSARC
-[07:13:29.026] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SWEDEN.PSARC
-[07:13:29.027] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SWEDEN.PSARC
-[07:13:29.028] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/USA.PSARC
-[07:13:29.029] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/USA.PSARC
-[07:13:29.513] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[07:13:29.514] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
-[07:13:29.558] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[07:13:29.574] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[07:13:29.575] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[07:13:29.631] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[07:13:29.796] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
-[07:13:29.797] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
-[07:13:29.805] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[07:13:29.806] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[07:13:29.808] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[07:13:29.809] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[07:13:29.812] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[07:13:29.812] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[07:13:29.817] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[07:13:29.817] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[07:13:29.848] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[07:13:29.848] |D| [export_sceNgsVoicePause]: sceNgsVoicePause
-[07:13:29.849] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
-[07:13:29.852] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
-[07:13:29.869] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[07:13:29.870] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
-[07:13:29.870] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
-[07:13:29.904] |W| [unimplemented_impl]: Unimplemented sceGxmSetVisibilityBuffer import called.
-[07:13:29.916] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[07:13:29.942] |I| [renderer::gl::load_shader_generic]: Generating frag shader d2173a78b03c1476d0c3bba224754a15b13e75250e4ad2fefcf609abde2b210c
-[07:13:29.944] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
-[07:13:29.947] |I| [renderer::gl::load_shader_generic]: Generating vert shader 7f90be123cc673417c63226e375063a161cde56411f44763eb4c5ac094ffaefb
-[07:13:29.948] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[07:13:29.948] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) depthValue
-[07:13:29.953] |E| [renderer::gl::compile_program]: Fragment info
+[01:11:26.919] |I| [load_app_impl]: cpu-backend: Dynarmic
+[01:11:26.919] |I| [load_app_impl]: CPU Optimisation state: true
+[01:11:26.919] |I| [load_app_impl]: at9 audio decoder state: true
+[01:11:26.919] |I| [load_app_impl]: ngs experimental state: true
+[01:11:26.920] |I| [load_app_impl]: video player state: true
+[01:11:26.920] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[01:11:26.920] |I| [load_app_impl]: Title: MUD - FIM Motocross World Championship™
+[01:11:26.920] |I| [load_app_impl]: Serial: PCSB00182
+[01:11:26.920] |I| [load_app_impl]: Version: 1.00
+[01:11:26.920] |I| [load_app_impl]: Category: gd
+[01:11:26.964] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:11:26.964] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000437DC / 0x81000000] (size: 0x0003C7DC) of module ux0:app\PCSB00182\sce_module\libc.suprx
+[01:11:26.964] |I| [load_self]: Loaded module segment 1 @ [0x00044000 - 0x00046374 / 0x8103D000] (size: 0x00002374) of module ux0:app\PCSB00182\sce_module\libc.suprx
+[01:11:26.964] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00182\sce_module\libc.suprx
+[01:11:26.965] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x35220
+[01:11:26.965] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x389F0, setting to stub value 0xDEADBEEF
+[01:11:26.965] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00182\sce_module\libc.suprx") loaded
+[01:11:26.983] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:11:26.983] |I| [load_self]: Loaded module segment 0 @ [0x00048000 - 0x0006A1B0 / 0x81000000] (size: 0x000221B0) of module ux0:app\PCSB00182\sce_module\libfios2.suprx
+[01:11:26.983] |I| [load_self]: Loaded module segment 1 @ [0x0006B000 - 0x000701B8 / 0x81023000] (size: 0x000051B8) of module ux0:app\PCSB00182\sce_module\libfios2.suprx
+[01:11:26.984] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00182\sce_module\libfios2.suprx
+[01:11:26.984] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x63CB0
+[01:11:26.984] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00182\sce_module\libfios2.suprx") loaded
+[01:11:26.994] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:11:26.994] |I| [load_self]: Loaded module segment 0 @ [0x00071000 - 0x0008506C / 0x81000000] (size: 0x0001406C) of module ux0:app\PCSB00182\sce_module\libult.suprx
+[01:11:26.994] |I| [load_self]: Loaded module segment 1 @ [0x00086000 - 0x00086814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSB00182\sce_module\libult.suprx
+[01:11:26.995] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00182\sce_module\libult.suprx
+[01:11:26.995] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81B68
+[01:11:26.995] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00182\sce_module\libult.suprx") loaded
+[01:11:27.003] |I| [load_self]: Loaded module segment 0 @ [0x00087000 - 0x000D7F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[01:11:27.003] |I| [load_self]: Loaded module segment 1 @ [0x000D8000 - 0x000D82F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[01:11:27.003] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[01:11:27.003] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC37DC
+[01:11:27.003] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC2F10
+[01:11:27.004] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD7EE0, setting to stub value 0xDEADBEEF
+[01:11:27.004] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[01:11:27.007] |I| [load_self]: Loaded module segment 0 @ [0x000DA000 - 0x000E9F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[01:11:27.008] |I| [load_self]: Loaded module segment 1 @ [0x000EA000 - 0x000EA008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[01:11:27.008] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[01:11:27.009] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE8710
+[01:11:27.009] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE8300
+[01:11:27.009] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[01:11:27.373] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:11:27.373] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x822390B0 / 0x81000000] (size: 0x012390B0) of module app0:eboot.bin
+[01:11:27.374] |I| [load_self]: Loaded module segment 1 @ [0x8223A000 - 0x82394A6C / 0x8223A000] (size: 0x0015AA6C) of module app0:eboot.bin
+[01:11:27.374] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[01:11:27.374] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x820AC778
+[01:11:27.374] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8223A098
+[01:11:27.374] |I| [load_app_impl]: Main executable Launcher_PSVITA (eboot.bin) loaded
+[01:11:27.383] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
+[01:11:27.423] |I| [export_sceIoOpen]: Opening file: tty0:
+[01:11:27.423] |I| [export_sceIoOpen]: Opening file: tty0:
+[01:11:27.423] |I| [export_sceIoOpen]: Opening file: tty1:
+[01:11:27.428] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00182\sce_module\libc.suprx") module_start returned 0x0
+[01:11:27.433] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x48001
+[01:11:27.441] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[01:11:27.441] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayGetList import called. (Set pActualIDs to 0)
+[01:11:27.441] |D| [export__sceFiosKernelOverlayGetList]: pid: 0
+[01:11:27.441] |D| [export__sceFiosKernelOverlayGetList]: buffer_size: 0
+[01:11:27.441] |D| [export__sceFiosKernelOverlayGetList]: maxIDs: 0
+[01:11:27.442] |D| [export__sceFiosKernelOverlayGetList]: pActualIDs: 0
+[01:11:27.442] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00182\sce_module\libfios2.suprx") module_start returned 0x0
+[01:11:27.446] |D| [run_app]: Running module_start of library: SceUlt at address 0x74B71
+[01:11:27.453] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00182\sce_module\libult.suprx") module_start returned 0x0
+[01:11:29.760] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[01:11:29.761] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[01:11:29.762] |W| [stubbed_impl]: Stubbed sceKernelWaitLwCondCB import called. (no CB)
+[01:11:29.820] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[01:11:29.824] |I| [export_sceIoOpen]: Opening file: app0:/PSVITA/MIXFILES.LST
+[01:11:29.824] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/PSVITA/MIXFILES.LST (target path: app0:/PSVITA/MIXFILES.LST)
+[01:11:29.824] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:29.830] |I| [export_sceIoOpen]: Opening file: app0:/MIXFILES.LST
+[01:11:29.856] |I| [export_sceIoOpen]: Opening file: app0:/BIKES.PSARC
+[01:11:29.899] |I| [export_sceIoOpen]: Opening file: app0:/BIKES.PSARC
+[01:11:29.926] |I| [export_sceIoOpen]: Opening file: app0:/DATA.PSARC
+[01:11:29.930] |I| [export_sceIoOpen]: Opening file: app0:/DATA.PSARC
+[01:11:29.931] |I| [export_sceIoOpen]: Opening file: app0:/GFX.PSARC
+[01:11:29.933] |I| [export_sceIoOpen]: Opening file: app0:/GFX.PSARC
+[01:11:29.934] |I| [export_sceIoOpen]: Opening file: app0:/GFXPAK.PSARC
+[01:11:29.943] |I| [export_sceIoOpen]: Opening file: app0:/GFXPAK.PSARC
+[01:11:29.944] |I| [export_sceIoOpen]: Opening file: app0:/MEDIA.PSARC
+[01:11:29.961] |I| [export_sceIoOpen]: Opening file: app0:/MEDIA.PSARC
+[01:11:29.962] |I| [export_sceIoOpen]: Opening file: app0:/MENU.PSARC
+[01:11:29.978] |I| [export_sceIoOpen]: Opening file: app0:/MENU.PSARC
+[01:11:29.979] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC.PSARC
+[01:11:29.984] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC.PSARC
+[01:11:29.985] |I| [export_sceIoOpen]: Opening file: app0:/RIDER.PSARC
+[01:11:29.994] |I| [export_sceIoOpen]: Opening file: app0:/RIDER.PSARC
+[01:11:29.995] |I| [export_sceIoOpen]: Opening file: app0:/SFX.PSARC
+[01:11:30.010] |I| [export_sceIoOpen]: Opening file: app0:/SFX.PSARC
+[01:11:30.011] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP.PSARC
+[01:11:30.070] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP.PSARC
+[01:11:30.073] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP_2.PSARC
+[01:11:30.087] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_CZECH_REP_2.PSARC
+[01:11:30.088] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN.PSARC
+[01:11:30.101] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN.PSARC
+[01:11:30.102] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN_2.PSARC
+[01:11:30.114] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_SPAIN_2.PSARC
+[01:11:30.115] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA.PSARC
+[01:11:30.122] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA.PSARC
+[01:11:30.123] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA_2.PSARC
+[01:11:30.132] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ARENA_USA_2.PSARC
+[01:11:30.133] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BELGIUM.PSARC
+[01:11:30.143] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BELGIUM.PSARC
+[01:11:30.144] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BRAZIL.PSARC
+[01:11:30.154] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BRAZIL.PSARC
+[01:11:30.156] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BULGARIA.PSARC
+[01:11:30.171] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/BULGARIA.PSARC
+[01:11:30.172] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/FRANCE.PSARC
+[01:11:30.185] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/FRANCE.PSARC
+[01:11:30.186] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GERMANY.PSARC
+[01:11:30.201] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GERMANY.PSARC
+[01:11:30.202] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GREAT_BRITAIN.PSARC
+[01:11:30.211] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/GREAT_BRITAIN.PSARC
+[01:11:30.213] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ITALY.PSARC
+[01:11:30.223] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/ITALY.PSARC
+[01:11:30.224] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/NETHERLANDS.PSARC
+[01:11:30.240] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/NETHERLANDS.PSARC
+[01:11:30.241] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/PORTUGAL.PSARC
+[01:11:30.252] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/PORTUGAL.PSARC
+[01:11:30.253] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SPAIN.PSARC
+[01:11:30.265] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SPAIN.PSARC
+[01:11:30.267] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SWEDEN.PSARC
+[01:11:30.277] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/SWEDEN.PSARC
+[01:11:30.279] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/USA.PSARC
+[01:11:30.294] |I| [export_sceIoOpen]: Opening file: app0:/TRACKS/USA.PSARC
+[01:11:30.773] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[01:11:30.774] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[01:11:30.818] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[01:11:30.839] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[01:11:30.839] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[01:11:30.913] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[01:11:31.084] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
+[01:11:31.084] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
+[01:11:31.092] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[01:11:31.092] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[01:11:31.095] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[01:11:31.095] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:11:31.098] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[01:11:31.099] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[01:11:31.103] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:11:31.104] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:11:31.127] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[01:11:31.127] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
+[01:11:31.131] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[01:11:31.136] |D| [export_sceNgsVoicePause]: sceNgsVoicePause
+[01:11:31.142] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[01:11:31.143] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
+[01:11:31.143] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
+[01:11:31.162] |W| [stubbed_impl]: Stubbed sceGxmSetVisibilityBuffer import called. (Set all visible)
+[01:11:31.175] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[01:11:31.194] |I| [renderer::gl::load_shader_generic]: Generating frag shader d2173a78b03c1476d0c3bba224754a15b13e75250e4ad2fefcf609abde2b210c
+[01:11:31.196] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
+[01:11:31.199] |I| [renderer::gl::load_shader_generic]: Generating vert shader 7f90be123cc673417c63226e375063a161cde56411f44763eb4c5ac094ffaefb
+[01:11:31.199] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[01:11:31.199] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) depthValue
+[01:11:31.202] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(19) : warning C7050: "pa[0].zw" might be used before being initialized
+0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[07:13:29.956] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[07:13:29.960] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[07:13:30.013] |I| [export_sceIoOpen]: Opening file: app0:/DATA/OFFICQA.QAF
-[07:13:30.014] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/DATA/OFFICQA.QAF (target path: app0:/DATA/OFFICQA.QAF)
-[07:13:30.015] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.152] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[07:13:30.152] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[07:13:30.185] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/MENU.BNK
-[07:13:30.185] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/MENU.BNK (target path: app0:/MUSIC/PSVITA/MENU.BNK)
-[07:13:30.187] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.188] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/MENU.BNK
-[07:13:30.188] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/MENU.BNK (target path: app0:/MUSIC/MENU.BNK)
-[07:13:30.189] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.208] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/INGAME.BNK
-[07:13:30.208] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/INGAME.BNK (target path: app0:/MUSIC/PSVITA/INGAME.BNK)
-[07:13:30.209] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.209] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/INGAME.BNK
-[07:13:30.210] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/INGAME.BNK (target path: app0:/MUSIC/INGAME.BNK)
-[07:13:30.210] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.214] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/REPLAY.BNK
-[07:13:30.214] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/REPLAY.BNK (target path: app0:/MUSIC/PSVITA/REPLAY.BNK)
-[07:13:30.214] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.215] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/REPLAY.BNK
-[07:13:30.215] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/REPLAY.BNK (target path: app0:/MUSIC/REPLAY.BNK)
-[07:13:30.216] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.221] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/CREDITS.BNK
-[07:13:30.221] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/CREDITS.BNK (target path: app0:/MUSIC/PSVITA/CREDITS.BNK)
-[07:13:30.222] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.223] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/CREDITS.BNK
-[07:13:30.223] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/CREDITS.BNK (target path: app0:/MUSIC/CREDITS.BNK)
-[07:13:30.223] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[07:13:30.268] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[07:13:30.269] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[07:13:30.269] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[07:13:30.270] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
-[07:13:30.270] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[07:13:30.270] |W| [unimplemented_impl]: Unimplemented sceNpActivityInit import called.
-[07:13:30.271] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
-[07:13:30.271] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
-[07:13:30.272] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
-[07:13:30.726] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.726] |I| [renderer::gl::load_shader_generic]: Generating frag shader a6a2cb70be9e13143abcf1987a092b0346dfca6429a53a23ba5cfb818dc0b495
-[07:13:30.727] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_v4ColorModulation
-[07:13:30.730] |I| [renderer::gl::load_shader_generic]: Generating vert shader 30a07b44ec7acffd272efc146949263eb24b3c58513d612f982586199ca669b5
-[07:13:30.731] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
-[07:13:30.731] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_TexCoord
-[07:13:30.736] |E| [renderer::gl::compile_program]: Fragment info
+[01:11:31.205] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[01:11:31.212] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[01:11:31.297] |I| [export_sceIoOpen]: Opening file: app0:/DATA/OFFICQA.QAF
+[01:11:31.298] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/DATA/OFFICQA.QAF (target path: app0:/DATA/OFFICQA.QAF)
+[01:11:31.298] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.442] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[01:11:31.442] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[01:11:31.475] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/MENU.BNK
+[01:11:31.476] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/MENU.BNK (target path: app0:/MUSIC/PSVITA/MENU.BNK)
+[01:11:31.476] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.477] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/MENU.BNK
+[01:11:31.477] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/MENU.BNK (target path: app0:/MUSIC/MENU.BNK)
+[01:11:31.477] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.497] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/INGAME.BNK
+[01:11:31.498] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/INGAME.BNK (target path: app0:/MUSIC/PSVITA/INGAME.BNK)
+[01:11:31.498] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.498] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/INGAME.BNK
+[01:11:31.499] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/INGAME.BNK (target path: app0:/MUSIC/INGAME.BNK)
+[01:11:31.499] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.502] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/REPLAY.BNK
+[01:11:31.502] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/REPLAY.BNK (target path: app0:/MUSIC/PSVITA/REPLAY.BNK)
+[01:11:31.502] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.503] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/REPLAY.BNK
+[01:11:31.503] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/REPLAY.BNK (target path: app0:/MUSIC/REPLAY.BNK)
+[01:11:31.503] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.506] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/PSVITA/CREDITS.BNK
+[01:11:31.506] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/PSVITA/CREDITS.BNK (target path: app0:/MUSIC/PSVITA/CREDITS.BNK)
+[01:11:31.507] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.507] |I| [export_sceIoOpen]: Opening file: app0:/MUSIC/CREDITS.BNK
+[01:11:31.507] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MUSIC/CREDITS.BNK (target path: app0:/MUSIC/CREDITS.BNK)
+[01:11:31.507] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:31.568] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[01:11:31.568] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[01:11:31.568] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[01:11:31.569] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
+[01:11:31.569] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[01:11:31.569] |W| [unimplemented_impl]: Unimplemented sceNpActivityInit import called.
+[01:11:31.570] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[01:11:31.570] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
+[01:11:31.570] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
+[01:11:31.994] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:31.995] |I| [renderer::gl::load_shader_generic]: Generating frag shader a6a2cb70be9e13143abcf1987a092b0346dfca6429a53a23ba5cfb818dc0b495
+[01:11:31.996] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_v4ColorModulation
+[01:11:31.998] |I| [renderer::gl::load_shader_generic]: Generating vert shader 30a07b44ec7acffd272efc146949263eb24b3c58513d612f982586199ca669b5
+[01:11:31.999] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
+[01:11:31.999] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_TexCoord
+[01:11:32.002] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(21) : warning C7050: "pa[0].zw" might be used before being initialized
+0(22) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[07:13:30.742] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.759] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.776] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.792] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.826] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.859] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.892] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.926] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.959] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:30.993] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.026] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.059] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.092] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.126] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.159] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.192] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.226] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.259] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.292] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.326] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.359] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.392] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.426] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.459] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.492] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.526] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.559] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.592] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.626] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.659] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.692] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.726] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.759] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.793] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.826] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.859] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.892] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.926] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.959] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:31.992] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.026] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.059] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.092] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.126] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.159] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.192] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.226] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.259] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.292] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.326] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.359] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.392] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.426] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.459] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.509] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.526] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.559] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.631] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[07:13:32.631] |W| [unimplemented_impl]: Unimplemented sceNpBasicCheckCallback import called.
-[07:13:32.632] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
-[07:13:32.633] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
-[07:13:32.643] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.676] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.709] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.722] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[07:13:32.743] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.776] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.809] |W| [renderer::gl::sync_texture]: Texture has null data.
-[07:13:32.84
+[01:11:32.011] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.027] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.044] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.061] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.094] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.127] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.161] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.227] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.261] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.344] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.361] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.427] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.527] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.561] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.594] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.627] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.661] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.694] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.727] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.761] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.794] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.827] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.861] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.894] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.927] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.961] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:32.994] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.044] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.078] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.094] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.127] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.161] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.227] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.261] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.327] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.361] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.427] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.527] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.561] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.594] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.627] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.661] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.694] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.727] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.761] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.794] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.827] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.861] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.894] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.944] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.961] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:33.994] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.074] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.075] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[01:11:34.076] |W| [unimplemented_impl]: Unimplemented sceNpBasicCheckCallback import called.
+[01:11:34.076] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
+[01:11:34.076] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[01:11:34.094] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.127] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.161] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.227] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.261] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.327] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.361] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.427] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.528] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.561] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.573] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[01:11:34.594] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.627] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.661] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.694] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.727] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.806] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.827] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.861] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.894] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.927] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.977] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:34.978] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3b07554d2d33ad3affd135420532c81725d991f22d41e7809b26bdbe57c2de4a
+[01:11:34.979] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[01:11:34.993] |I| [renderer::gl::load_shader_generic]: Generating vert shader 34fbe1ffa6dc9648e1d974c9e92b3650542a01bbbc5aef051bde9e0680e7bfab
+[01:11:34.994] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
+[01:11:34.994] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_Color
+[01:11:34.995] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_mWorldViewProj[4]
+[01:11:34.995] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_v4ColorModulation
+[01:11:35.021] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(23) : warning C7050: "internals[0].w" might be used before being initialized
+
+Fragment info
+-------------
+0(16) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[01:11:35.021] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:35.028] |I| [renderer::gl::load_shader_generic]: Generating frag shader d14136af42a78e9c002806f77075388b04b47b594afbfd53d9cd22b4e1f1b345
+[01:11:35.029] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[01:11:35.032] |I| [renderer::gl::load_shader_generic]: Generating vert shader aa97a88dc51e717ff8324511e4e07f58d68e221d6067076e3cfad9ea305be46a
+[01:11:35.033] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
+[01:11:35.033] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_Color
+[01:11:35.033] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_TexCoord
+[01:11:35.033] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_mWorldViewProj[4]
+[01:11:35.033] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_v4ColorModulation
+[01:11:35.047] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(25) : warning C7050: "internals[0].w" might be used before being initialized
+
+Fragment info
+-------------
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[01:11:35.048] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:35.057] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.078] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.111] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.144] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.211] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.244] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.277] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.311] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.345] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.411] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.444] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.477] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.511] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.544] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.578] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.611] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.644] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.677] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.711] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.761] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.777] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.811] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.844] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.877] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.911] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.961] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:35.977] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.027] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.044] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.077] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.111] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.144] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.211] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.261] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.311] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.344] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.411] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.477] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.511] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.561] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.577] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.611] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.644] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.677] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.711] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.744] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.777] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.811] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.844] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.877] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.911] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.944] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:36.994] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.011] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.044] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.077] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.111] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.161] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.177] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.211] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.244] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.277] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.311] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.344] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.377] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.411] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.477] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.511] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.544] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.594] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.611] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.644] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.677] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.711] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.744] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.777] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.811] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.861] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.877] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.911] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.961] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:37.978] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.011] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.044] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.077] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.111] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.144] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.177] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.211] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.244] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.277] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.311] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.344] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.411] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.444] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.511] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.544] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.577] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.611] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.661] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.677] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.711] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.744] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.777] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.811] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.844] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.877] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.927] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.944] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:38.977] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.011] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.044] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.094] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.111] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.144] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.177] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.211] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.261] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.311] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.344] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.377] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.411] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.527] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.544] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.577] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.611] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.644] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.677] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.711] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.744] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.777] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.811] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.861] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.877] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.911] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.944] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:39.977] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.011] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.044] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.077] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.096] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/PSVITA/FRENCH/BLACKBEA.MP4
+[01:11:40.097] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/PSVITA/FRENCH/BLACKBEA.MP4 (target path: app0:/MOVIES/PSVITA/FRENCH/BLACKBEA.MP4)
+[01:11:40.097] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.097] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/PSVITA/BLACKBEA.MP4
+[01:11:40.097] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/PSVITA/BLACKBEA.MP4 (target path: app0:/MOVIES/PSVITA/BLACKBEA.MP4)
+[01:11:40.098] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.098] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/FRENCH/BLACKBEA.MP4
+[01:11:40.099] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/FRENCH/BLACKBEA.MP4 (target path: app0:/MOVIES/FRENCH/BLACKBEA.MP4)
+[01:11:40.099] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.099] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/BLACKBEA.MP4
+[01:11:40.111] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.116] |D| [export_SceMp4OpenFile]: path: movies\BlackBea.MP4, log_level: 0
+[01:11:40.124] |W| [unimplemented_impl]: Unimplemented SceMp4Init import called.
+[01:11:40.144] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.244] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.321] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.327] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.337] |W| [unimplemented_impl]: Unimplemented SceMp4CloseFile import called.
+[01:11:40.337] |W| [unimplemented_impl]: Unimplemented SceMp4DestroyFileInfo import called.
+[01:11:40.338] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[01:11:40.338] |W| [unimplemented_impl]: Unimplemented sceKernelCloseMutex import called.
+[01:11:40.342] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/PSVITA/FRENCH/MILESTON.MP4
+[01:11:40.342] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/PSVITA/FRENCH/MILESTON.MP4 (target path: app0:/MOVIES/PSVITA/FRENCH/MILESTON.MP4)
+[01:11:40.342] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.343] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/PSVITA/MILESTON.MP4
+[01:11:40.343] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/PSVITA/MILESTON.MP4 (target path: app0:/MOVIES/PSVITA/MILESTON.MP4)
+[01:11:40.343] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.343] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/FRENCH/MILESTON.MP4
+[01:11:40.343] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/FRENCH/MILESTON.MP4 (target path: app0:/MOVIES/FRENCH/MILESTON.MP4)
+[01:11:40.344] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.344] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/MILESTON.MP4
+[01:11:40.355] |D| [export_SceMp4OpenFile]: path: movies\Mileston.MP4, log_level: 0
+[01:11:40.377] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.411] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.477] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.553] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.559] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.611] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.627] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.634] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/PSVITA/FRENCH/INTRO.MP4
+[01:11:40.635] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/PSVITA/FRENCH/INTRO.MP4 (target path: app0:/MOVIES/PSVITA/FRENCH/INTRO.MP4)
+[01:11:40.635] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.635] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/PSVITA/INTRO.MP4
+[01:11:40.635] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/PSVITA/INTRO.MP4 (target path: app0:/MOVIES/PSVITA/INTRO.MP4)
+[01:11:40.636] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.637] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/FRENCH/INTRO.MP4
+[01:11:40.637] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00182/MOVIES/FRENCH/INTRO.MP4 (target path: app0:/MOVIES/FRENCH/INTRO.MP4)
+[01:11:40.637] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:40.637] |I| [export_sceIoOpen]: Opening file: app0:/MOVIES/INTRO.MP4
+[01:11:40.644] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.662] |D| [export_SceMp4OpenFile]: path: movies\Intro.MP4, log_level: 0
+[01:11:40.677] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.711] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.844] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.861] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.877] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.894] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.927] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.961] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:40.961] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:40.963] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:40.971] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:40.978] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[01:11:40.994] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.027] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.061] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.094] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.144] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.160] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.244] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.277] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.327] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.361] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.444] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.477] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.527] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.561] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.594] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.644] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.661] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.694] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.727] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.761] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.794] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.844] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.877] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.911] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.927] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.961] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:41.994] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.027] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.061] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.090] |D| [export_sceNgsVoiceInit]: flags: 0
+[01:11:42.094] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.101] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:11:42.101] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetParamsBlock import called.
+[01:11:42.127] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.161] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.244] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.277] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.327] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.361] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.427] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.544] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.561] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.594] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.627] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.661] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.694] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.727] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.761] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.794] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.827] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.861] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.861] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:42.876] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:42.891] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:42.927] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.961] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:42.994] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.028] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.061] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.111] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.112] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:43.119] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:43.126] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:43.134] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:43.142] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:43.146] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:43.154] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:11:43.165] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.194] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.227] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.261] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.294] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.327] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.361] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.394] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.427] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.461] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.494] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.527] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.561] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.594] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.627] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.661] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.694] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.727] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.761] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.794] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.827] |W| [renderer::gl::sync_texture]: Texture has null data.
+[01:11:43.861] |W| [renderer::gl::sync_texture]: T

@@ -1,573 +1,166 @@
-[10:18:17.920] |I| [load_app_impl]: cpu-backend: Dynarmic
-[10:18:17.920] |I| [load_app_impl]: CPU Optimisation state: true
-[10:18:17.920] |I| [load_app_impl]: at9 audio decoder state: true
-[10:18:17.920] |I| [load_app_impl]: ngs experimental state: true
-[10:18:17.920] |I| [load_app_impl]: video player state: true
-[10:18:17.920] |I| [load_app_impl]: lle-modules: libSceJson,liblocation,libSceXml,libpgf,libvoice,librudp,libSceSqlite,libvoiceqos,libsas
-[10:18:17.920] |I| [load_app_impl]: Title: DEMON GAZE II
-[10:18:17.921] |I| [load_app_impl]: Serial: PCSB01150
-[10:18:17.921] |I| [load_app_impl]: Version: 1.01
-[10:18:17.921] |I| [load_app_impl]: Category: gp
-[10:18:17.966] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[10:18:17.966] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSB01150\sce_module\libc.suprx
-[10:18:17.966] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSB01150\sce_module\libc.suprx
-[10:18:17.967] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libc.suprx
-[10:18:17.968] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[10:18:17.968] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[10:18:17.968] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[10:18:17.969] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[10:18:17.970] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB01150\sce_module\libc.suprx") loaded
-[10:18:17.978] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[10:18:17.978] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSB01150\sce_module\libface.suprx
-[10:18:17.979] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB01150\sce_module\libface.suprx
-[10:18:17.980] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libface.suprx
-[10:18:17.980] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
-[10:18:17.981] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
-[10:18:17.981] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB01150\sce_module\libface.suprx") loaded
-[10:18:17.999] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[10:18:17.999] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSB01150\sce_module\libfios2.suprx
-[10:18:18.000] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSB01150\sce_module\libfios2.suprx
-[10:18:18.001] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libfios2.suprx
-[10:18:18.001] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
-[10:18:18.002] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
-[10:18:18.002] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB01150\sce_module\libfios2.suprx") loaded
-[10:18:18.050] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[10:18:18.051] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSB01150\sce_module\libsmart.suprx
-[10:18:18.052] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSB01150\sce_module\libsmart.suprx
-[10:18:18.053] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libsmart.suprx
-[10:18:18.053] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
-[10:18:18.054] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
-[10:18:18.054] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB01150\sce_module\libsmart.suprx") loaded
-[10:18:18.064] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[10:18:18.064] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSB01150\sce_module\libult.suprx
-[10:18:18.065] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB01150\sce_module\libult.suprx
-[10:18:18.068] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libult.suprx
-[10:18:18.068] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
-[10:18:18.069] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
-[10:18:18.070] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB01150\sce_module\libult.suprx") loaded
-[10:18:18.076] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[10:18:18.077] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[10:18:18.078] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[10:18:18.078] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
-[10:18:18.079] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
-[10:18:18.079] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[10:18:18.081] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[10:18:18.083] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[10:18:18.084] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[10:18:18.084] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
-[10:18:18.085] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
-[10:18:18.085] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[10:18:18.179] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[10:18:18.179] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x00589084 / 0x81000000] (size: 0x00254084) of module app0:eboot.bin
-[10:18:18.180] |I| [load_self]: Loaded module segment 1 @ [0x0058A000 - 0x00C539A8 / 0x81255000] (size: 0x006C99A8) of module app0:eboot.bin
-[10:18:18.181] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[10:18:18.181] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x523D84
-[10:18:18.182] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x591C84
-[10:18:18.182] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x5662D0
-[10:18:18.182] |I| [load_app_impl]: Main executable DG2 (eboot.bin) loaded
-[10:18:18.191] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[10:18:18.246] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB01150\sce_module\libc.suprx") module_start returned 0x0
-[10:18:18.250] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
-[10:18:18.259] |I| [run_app]: Module SceFace (at "ux0:app\PCSB01150\sce_module\libface.suprx") module_start returned 0x0
-[10:18:18.263] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
-[10:18:18.270] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[10:18:18.271] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[10:18:18.271] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[10:18:18.272] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB01150\sce_module\libfios2.suprx") module_start returned 0x0
-[10:18:18.275] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
-[10:18:18.286] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB01150\sce_module\libsmart.suprx") module_start returned 0x0
-[10:18:18.290] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
-[10:18:18.297] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[10:18:18.298] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB01150\sce_module\libult.suprx") module_start returned 0x0
-[10:18:18.431] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[10:18:18.433] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSB01150, thread ID: 10)
-[10:18:18.451] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[10:18:18.451] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[10:18:18.486] |I| [export_sceIoOpen]: Opening file: app0:lang.ini
-[10:18:18.509] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[10:18:18.510] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[10:18:18.510] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
-[10:18:18.510] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[10:18:18.520] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[10:18:18.521] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[10:18:18.548] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[10:18:18.614] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[10:18:18.631] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[10:18:18.644] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_v.vpo
-[10:18:18.668] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_f.fpo
-[10:18:18.683] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
-[10:18:18.683] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestEnable import called.
-[10:18:18.690] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_model.vpo
-[10:18:18.711] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_sprite.vpo
-[10:18:18.712] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_other.vpo
-[10:18:18.713] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_wipe.vpo
-[10:18:18.714] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvs_tileshader.vpo
-[10:18:18.716] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_blursprite.vpo
-[10:18:18.717] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_modelinstance.vpo
-[10:18:18.719] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default.fpo
-[10:18:18.721] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default_noblend.fpo
-[10:18:18.722] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash.fpo
-[10:18:18.723] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash_noblend.fpo
-[10:18:18.724] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono.fpo
-[10:18:18.726] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono_noblend.fpo
-[10:18:18.727] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli.fpo
-[10:18:18.728] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli_noblend.fpo
-[10:18:18.729] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model.fpo
-[10:18:18.730] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model_noblend.fpo
-[10:18:18.731] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_blursprite.fpo
-[10:18:18.735] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[10:18:18.763] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
-[10:18:18.802] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
-[10:18:18.847] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
-[10:18:18.882] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
-[10:18:18.998] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_layout.lod (target path: app0:/table_layout.lod)
-[10:18:18.999] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:19.040] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_texparts.lod (target path: app0:/table_texparts.lod)
-[10:18:19.041] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:19.250] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_ui_com.hed (target path: app0:/graphic_ui_com.hed)
-[10:18:19.251] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:19.293] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_ui_com.dat (target path: app0:/graphic_ui_com.dat)
-[10:18:19.294] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:19.673] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/bg_status.exg (target path: app0:/bg_status.exg)
-[10:18:19.674] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:19.701] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[10:18:19.702] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
-[10:18:19.703] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
-[10:18:19.703] |W| [unimplemented_impl]: Unimplemented sceTouchDisableTouchForce import called.
-[10:18:19.704] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_bgm.gpd (target path: app0:/table_bgm.gpd)
-[10:18:19.704] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:19.706] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_se.gpd (target path: app0:/table_se.gpd)
-[10:18:19.706] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:19.708] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_voice.gpd (target path: app0:/table_voice.gpd)
-[10:18:19.709] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:20.210] |W| [unimplemented_impl]: Unimplemented sceAtracCreateDecoderGroup import called.
-[10:18:20.217] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
-[10:18:20.218] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
-[10:18:20.226] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[10:18:20.226] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[10:18:20.227] |D| [export_sceNgsVoiceInit]: flags: 7
-[10:18:20.227] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[10:18:20.230] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[10:18:20.230] |D| [export_sceNgsVoiceInit]: flags: 7
-[10:18:20.231] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[10:18:20.236] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[10:18:20.243] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[10:18:20.243] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[10:18:20.263] |I| [export_sceIoOpen]: Opening file: app0:/sound_dg2_bgm.bnk
-[10:18:20.269] |I| [export_sceIoOpen]: Opening file: app0:/sound_dg2_se.bnk
-[10:18:20.374] |I| [export_sceIoOpen]: Opening file: app0:/sound_dg2_voice.bnk
-[10:18:20.420] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[10:18:20.420] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[10:18:20.421] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[10:18:20.422] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
-[10:18:20.431] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
-[10:18:20.431] |W| [unimplemented_impl]: Unimplemented sceNpScoreCreateTitleCtx import called.
-[10:18:20.433] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
-[10:18:20.433] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:20.437] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
-[10:18:20.437] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:20.441] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
-[10:18:20.442] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:20.445] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
-[10:18:20.445] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:20.449] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/fontdata_fontdata01.exp (target path: app0:/fontdata_fontdata01.exp)
-[10:18:20.450] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:20.770] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/fontdata_fontdata02.exp (target path: app0:/fontdata_fontdata02.exp)
-[10:18:20.771] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:20.930] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[10:18:20.931] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
-[10:18:20.931] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
-[10:18:20.940] |W| [unimplemented_impl]: Unimplemented sceKernelGetSemaInfo import called.
-[10:18:20.940] |W| [unimplemented_impl]: Unimplemented sceKernelGetEventFlagInfo import called.
-[10:18:20.999] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[10:18:21.025] |I| [renderer::gl::load_shader_generic]: Generating frag shader bb8cabb0006f3af752d21c3f61e564512d20b19f5a851e47ef509498c0a6b786
-[10:18:21.026] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
-[10:18:21.042] |I| [renderer::gl::load_shader_generic]: Generating vert shader d74f365afc606e520fe52b8b5165b92a10ae4a59c5978ed6a8b9e049b2346418
-[10:18:21.043] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[10:18:21.070] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(20) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[10:18:21.073] |I| [renderer::gl::load_shader_generic]: Generating frag shader 53980a3b73d63a21bf47eb72baa2138f3f808ad3d266ce37df1e457e9e8c1dc3
-[10:18:21.074] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[10:18:21.080] |I| [renderer::gl::load_shader_generic]: Generating vert shader f825584fa77282f43c89c1ea1260dc7c938932fe29fd728a9df31fbbbd9aa29f
-[10:18:21.081] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
-[10:18:21.081] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_DifColor
-[10:18:21.081] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_Tex
-[10:18:21.095] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(18) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[10:18:21.098] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[10:18:21.157] |I| [renderer::gl::load_shader_generic]: Generating frag shader 61c541697bd435d98dbd09092a73285deb688a3fab4b7e686e948b010a765f95
-[10:18:21.159] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[10:18:21.164] |I| [renderer::gl::load_shader_generic]: Generating vert shader 59ea1ad9b42d876ab3f57296af83a7f6fd6fa3d970e183394ea16bb4b87223f4
-[10:18:21.165] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
-[10:18:21.165] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_DifColor
-[10:18:21.249] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[10:18:21.275] |I| [renderer::gl::load_shader_generic]: Generating frag shader 41fe1172024d8fe5fefb07da99df51fb0a4be04e3a31547d9aa879d9dc5ec223
-[10:18:21.276] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[10:18:21.288] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(16) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[10:18:21.330] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/portrait.dat (target path: app0:/portrait.dat)
-[10:18:21.332] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.345] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/portrait.hed (target path: app0:/portrait.hed)
-[10:18:21.346] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.407] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_tablepack.dat (target path: app0:/table_tablepack.dat)
-[10:18:21.408] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.426] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_tablepack.hed (target path: app0:/table_tablepack.hed)
-[10:18:21.426] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.482] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/map_mapdatpack.hed (target path: app0:/map_mapdatpack.hed)
-[10:18:21.483] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.493] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/map_mapdatpack.dat (target path: app0:/map_mapdatpack.dat)
-[10:18:21.493] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.523] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_efc_effect.hed (target path: app0:/graphic_efc_effect.hed)
-[10:18:21.523] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.533] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_efc_effect.dat (target path: app0:/graphic_efc_effect.dat)
-[10:18:21.533] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.535] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_effect.hed (target path: app0:/graphic_effect.hed)
-[10:18:21.536] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.545] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_effect.dat (target path: app0:/graphic_effect.dat)
-[10:18:21.545] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[10:18:21.955] |I| [export_sceIoOpen]: Opening file: savedata0:DGSYS.SAV
-[10:18:21.967] |I| [export_sceIoOpen]: Opening file: savedata0:DGSYS.SAV
-[10:18:21.969] |W| [unimplemented_impl]: Unimplemented sceAppUtilLoadSafeMemory import called.
-[10:18:21.970] |I| [export_sceIoOpen]: Opening file: savedata0:data00.bin
-[10:18:21.970] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data00.bin (target path: savedata0:data00.bin)
-[10:18:21.971] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.971] |I| [export_sceIoOpen]: Opening file: savedata0:data01.bin
-[10:18:21.972] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data01.bin (target path: savedata0:data01.bin)
-[10:18:21.972] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.973] |I| [export_sceIoOpen]: Opening file: savedata0:data02.bin
-[10:18:21.973] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data02.bin (target path: savedata0:data02.bin)
-[10:18:21.977] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.978] |I| [export_sceIoOpen]: Opening file: savedata0:data03.bin
-[10:18:21.979] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data03.bin (target path: savedata0:data03.bin)
-[10:18:21.979] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.980] |I| [export_sceIoOpen]: Opening file: savedata0:data04.bin
-[10:18:21.980] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data04.bin (target path: savedata0:data04.bin)
-[10:18:21.981] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.981] |I| [export_sceIoOpen]: Opening file: savedata0:data05.bin
-[10:18:21.982] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data05.bin (target path: savedata0:data05.bin)
-[10:18:21.983] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.983] |I| [export_sceIoOpen]: Opening file: savedata0:data06.bin
-[10:18:21.983] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data06.bin (target path: savedata0:data06.bin)
-[10:18:21.984] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.985] |I| [export_sceIoOpen]: Opening file: savedata0:data07.bin
-[10:18:21.986] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data07.bin (target path: savedata0:data07.bin)
-[10:18:21.987] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.987] |I| [export_sceIoOpen]: Opening file: savedata0:data08.bin
-[10:18:21.987] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data08.bin (target path: savedata0:data08.bin)
-[10:18:21.988] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.989] |I| [export_sceIoOpen]: Opening file: savedata0:data09.bin
-[10:18:21.990] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data09.bin (target path: savedata0:data09.bin)
-[10:18:21.994] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.995] |I| [export_sceIoOpen]: Opening file: savedata0:data10.bin
-[10:18:21.995] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data10.bin (target path: savedata0:data10.bin)
-[10:18:21.996] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.997] |I| [export_sceIoOpen]: Opening file: savedata0:data11.bin
-[10:18:21.997] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data11.bin (target path: savedata0:data11.bin)
-[10:18:21.998] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:21.999] |I| [export_sceIoOpen]: Opening file: savedata0:data12.bin
-[10:18:21.999] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data12.bin (target path: savedata0:data12.bin)
-[10:18:22.000] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.001] |I| [export_sceIoOpen]: Opening file: savedata0:data13.bin
-[10:18:22.001] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data13.bin (target path: savedata0:data13.bin)
-[10:18:22.002] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.003] |I| [export_sceIoOpen]: Opening file: savedata0:data14.bin
-[10:18:22.003] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data14.bin (target path: savedata0:data14.bin)
-[10:18:22.004] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.005] |I| [export_sceIoOpen]: Opening file: savedata0:data15.bin
-[10:18:22.005] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data15.bin (target path: savedata0:data15.bin)
-[10:18:22.009] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.010] |I| [export_sceIoOpen]: Opening file: savedata0:data16.bin
-[10:18:22.010] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data16.bin (target path: savedata0:data16.bin)
-[10:18:22.011] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.012] |I| [export_sceIoOpen]: Opening file: savedata0:data17.bin
-[10:18:22.012] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data17.bin (target path: savedata0:data17.bin)
-[10:18:22.013] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.014] |I| [export_sceIoOpen]: Opening file: savedata0:data18.bin
-[10:18:22.014] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data18.bin (target path: savedata0:data18.bin)
-[10:18:22.015] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.016] |I| [export_sceIoOpen]: Opening file: savedata0:data19.bin
-[10:18:22.016] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data19.bin (target path: savedata0:data19.bin)
-[10:18:22.017] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.018] |I| [export_sceIoOpen]: Opening file: savedata0:data20.bin
-[10:18:22.018] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data20.bin (target path: savedata0:data20.bin)
-[10:18:22.019] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.020] |I| [export_sceIoOpen]: Opening file: savedata0:data21.bin
-[10:18:22.020] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data21.bin (target path: savedata0:data21.bin)
-[10:18:22.025] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.026] |I| [export_sceIoOpen]: Opening file: savedata0:data22.bin
-[10:18:22.026] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data22.bin (target path: savedata0:data22.bin)
-[10:18:22.027] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.028] |I| [export_sceIoOpen]: Opening file: savedata0:data23.bin
-[10:18:22.028] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data23.bin (target path: savedata0:data23.bin)
-[10:18:22.029] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.030] |I| [export_sceIoOpen]: Opening file: savedata0:data24.bin
-[10:18:22.030] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data24.bin (target path: savedata0:data24.bin)
-[10:18:22.031] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.032] |I| [export_sceIoOpen]: Opening file: savedata0:data25.bin
-[10:18:22.032] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data25.bin (target path: savedata0:data25.bin)
-[10:18:22.033] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.034] |I| [export_sceIoOpen]: Opening file: savedata0:data26.bin
-[10:18:22.034] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data26.bin (target path: savedata0:data26.bin)
-[10:18:22.035] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.036] |I| [export_sceIoOpen]: Opening file: savedata0:data27.bin
-[10:18:22.036] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data27.bin (target path: savedata0:data27.bin)
-[10:18:22.040] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.041] |I| [export_sceIoOpen]: Opening file: savedata0:data28.bin
-[10:18:22.041] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data28.bin (target path: savedata0:data28.bin)
-[10:18:22.042] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.043] |I| [export_sceIoOpen]: Opening file: savedata0:data29.bin
-[10:18:22.043] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data29.bin (target path: savedata0:data29.bin)
-[10:18:22.044] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.045] |I| [export_sceIoOpen]: Opening file: savedata0:data30.bin
-[10:18:22.045] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data30.bin (target path: savedata0:data30.bin)
-[10:18:22.046] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.047] |I| [export_sceIoOpen]: Opening file: savedata0:data31.bin
-[10:18:22.047] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data31.bin (target path: savedata0:data31.bin)
-[10:18:22.048] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.049] |I| [export_sceIoOpen]: Opening file: savedata0:data32.bin
-[10:18:22.049] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data32.bin (target path: savedata0:data32.bin)
-[10:18:22.050] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.051] |I| [export_sceIoOpen]: Opening file: savedata0:data33.bin
-[10:18:22.051] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data33.bin (target path: savedata0:data33.bin)
-[10:18:22.056] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.057] |I| [export_sceIoOpen]: Opening file: savedata0:data34.bin
-[10:18:22.057] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data34.bin (target path: savedata0:data34.bin)
-[10:18:22.059] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.059] |I| [export_sceIoOpen]: Opening file: savedata0:data35.bin
-[10:18:22.059] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data35.bin (target path: savedata0:data35.bin)
-[10:18:22.060] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.061] |I| [export_sceIoOpen]: Opening file: savedata0:data36.bin
-[10:18:22.061] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data36.bin (target path: savedata0:data36.bin)
-[10:18:22.062] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.062] |I| [export_sceIoOpen]: Opening file: savedata0:data37.bin
-[10:18:22.063] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data37.bin (target path: savedata0:data37.bin)
-[10:18:22.063] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.064] |I| [export_sceIoOpen]: Opening file: savedata0:data38.bin
-[10:18:22.064] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data38.bin (target path: savedata0:data38.bin)
-[10:18:22.065] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.065] |I| [export_sceIoOpen]: Opening file: savedata0:data39.bin
-[10:18:22.066] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data39.bin (target path: savedata0:data39.bin)
-[10:18:22.067] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.067] |I| [export_sceIoOpen]: Opening file: savedata0:data40.bin
-[10:18:22.071] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data40.bin (target path: savedata0:data40.bin)
-[10:18:22.072] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.072] |I| [export_sceIoOpen]: Opening file: savedata0:data41.bin
-[10:18:22.073] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data41.bin (target path: savedata0:data41.bin)
-[10:18:22.073] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.074] |I| [export_sceIoOpen]: Opening file: savedata0:data42.bin
-[10:18:22.075] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data42.bin (target path: savedata0:data42.bin)
-[10:18:22.076] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.076] |I| [export_sceIoOpen]: Opening file: savedata0:data43.bin
-[10:18:22.077] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data43.bin (target path: savedata0:data43.bin)
-[10:18:22.078] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.078] |I| [export_sceIoOpen]: Opening file: savedata0:data44.bin
-[10:18:22.079] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data44.bin (target path: savedata0:data44.bin)
-[10:18:22.079] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.080] |I| [export_sceIoOpen]: Opening file: savedata0:data45.bin
-[10:18:22.080] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data45.bin (target path: savedata0:data45.bin)
-[10:18:22.081] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.082] |I| [export_sceIoOpen]: Opening file: savedata0:data46.bin
-[10:18:22.082] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data46.bin (target path: savedata0:data46.bin)
-[10:18:22.086] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.087] |I| [export_sceIoOpen]: Opening file: savedata0:data47.bin
-[10:18:22.087] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data47.bin (target path: savedata0:data47.bin)
-[10:18:22.088] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.088] |I| [export_sceIoOpen]: Opening file: savedata0:data48.bin
-[10:18:22.089] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data48.bin (target path: savedata0:data48.bin)
-[10:18:22.089] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.090] |I| [export_sceIoOpen]: Opening file: savedata0:data49.bin
-[10:18:22.091] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data49.bin (target path: savedata0:data49.bin)
-[10:18:22.091] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.092] |I| [export_sceIoOpen]: Opening file: savedata0:data50.bin
-[10:18:22.092] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data50.bin (target path: savedata0:data50.bin)
-[10:18:22.093] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.094] |I| [export_sceIoOpen]: Opening file: savedata0:data51.bin
-[10:18:22.094] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data51.bin (target path: savedata0:data51.bin)
-[10:18:22.095] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.096] |I| [export_sceIoOpen]: Opening file: savedata0:data52.bin
-[10:18:22.096] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data52.bin (target path: savedata0:data52.bin)
-[10:18:22.097] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.098] |I| [export_sceIoOpen]: Opening file: savedata0:data53.bin
-[10:18:22.098] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data53.bin (target path: savedata0:data53.bin)
-[10:18:22.103] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.103] |I| [export_sceIoOpen]: Opening file: savedata0:data54.bin
-[10:18:22.103] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data54.bin (target path: savedata0:data54.bin)
-[10:18:22.104] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.105] |I| [export_sceIoOpen]: Opening file: savedata0:data55.bin
-[10:18:22.105] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data55.bin (target path: savedata0:data55.bin)
-[10:18:22.106] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.107] |I| [export_sceIoOpen]: Opening file: savedata0:data56.bin
-[10:18:22.107] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data56.bin (target path: savedata0:data56.bin)
-[10:18:22.108] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.108] |I| [export_sceIoOpen]: Opening file: savedata0:data57.bin
-[10:18:22.109] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data57.bin (target path: savedata0:data57.bin)
-[10:18:22.110] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.110] |I| [export_sceIoOpen]: Opening file: savedata0:data58.bin
-[10:18:22.111] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data58.bin (target path: savedata0:data58.bin)
-[10:18:22.111] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.112] |I| [export_sceIoOpen]: Opening file: savedata0:data59.bin
-[10:18:22.112] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data59.bin (target path: savedata0:data59.bin)
-[10:18:22.113] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.114] |I| [export_sceIoOpen]: Opening file: savedata0:DGSYS.SAV
-[10:18:22.128] |I| [export_sceIoOpen]: Opening file: savedata0:DGSYS.SAV
-[10:18:22.129] |I| [export_sceIoOpen]: Opening file: savedata0:data00.bin
-[10:18:22.129] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data00.bin (target path: savedata0:data00.bin)
-[10:18:22.131] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.131] |I| [export_sceIoOpen]: Opening file: savedata0:data01.bin
-[10:18:22.132] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data01.bin (target path: savedata0:data01.bin)
-[10:18:22.132] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.133] |I| [export_sceIoOpen]: Opening file: savedata0:data02.bin
-[10:18:22.133] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data02.bin (target path: savedata0:data02.bin)
-[10:18:22.134] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.135] |I| [export_sceIoOpen]: Opening file: savedata0:data03.bin
-[10:18:22.135] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data03.bin (target path: savedata0:data03.bin)
-[10:18:22.136] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.137] |I| [export_sceIoOpen]: Opening file: savedata0:data04.bin
-[10:18:22.137] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data04.bin (target path: savedata0:data04.bin)
-[10:18:22.138] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.138] |I| [export_sceIoOpen]: Opening file: savedata0:data05.bin
-[10:18:22.139] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data05.bin (target path: savedata0:data05.bin)
-[10:18:22.140] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.140] |I| [export_sceIoOpen]: Opening file: savedata0:data06.bin
-[10:18:22.140] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data06.bin (target path: savedata0:data06.bin)
-[10:18:22.141] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.142] |I| [export_sceIoOpen]: Opening file: savedata0:data07.bin
-[10:18:22.142] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data07.bin (target path: savedata0:data07.bin)
-[10:18:22.143] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.144] |I| [export_sceIoOpen]: Opening file: savedata0:data08.bin
-[10:18:22.144] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data08.bin (target path: savedata0:data08.bin)
-[10:18:22.148] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.149] |I| [export_sceIoOpen]: Opening file: savedata0:data09.bin
-[10:18:22.149] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data09.bin (target path: savedata0:data09.bin)
-[10:18:22.150] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.151] |I| [export_sceIoOpen]: Opening file: savedata0:data10.bin
-[10:18:22.151] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data10.bin (target path: savedata0:data10.bin)
-[10:18:22.152] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.153] |I| [export_sceIoOpen]: Opening file: savedata0:data11.bin
-[10:18:22.153] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data11.bin (target path: savedata0:data11.bin)
-[10:18:22.154] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.154] |I| [export_sceIoOpen]: Opening file: savedata0:data12.bin
-[10:18:22.155] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data12.bin (target path: savedata0:data12.bin)
-[10:18:22.155] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.156] |I| [export_sceIoOpen]: Opening file: savedata0:data13.bin
-[10:18:22.156] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data13.bin (target path: savedata0:data13.bin)
-[10:18:22.157] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.157] |I| [export_sceIoOpen]: Opening file: savedata0:data14.bin
-[10:18:22.158] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data14.bin (target path: savedata0:data14.bin)
-[10:18:22.159] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.159] |I| [export_sceIoOpen]: Opening file: savedata0:data15.bin
-[10:18:22.160] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data15.bin (target path: savedata0:data15.bin)
-[10:18:22.165] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.166] |I| [export_sceIoOpen]: Opening file: savedata0:data16.bin
-[10:18:22.166] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data16.bin (target path: savedata0:data16.bin)
-[10:18:22.166] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.167] |I| [export_sceIoOpen]: Opening file: savedata0:data17.bin
-[10:18:22.167] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data17.bin (target path: savedata0:data17.bin)
-[10:18:22.168] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.169] |I| [export_sceIoOpen]: Opening file: savedata0:data18.bin
-[10:18:22.169] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data18.bin (target path: savedata0:data18.bin)
-[10:18:22.170] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.170] |I| [export_sceIoOpen]: Opening file: savedata0:data19.bin
-[10:18:22.171] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data19.bin (target path: savedata0:data19.bin)
-[10:18:22.172] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.172] |I| [export_sceIoOpen]: Opening file: savedata0:data20.bin
-[10:18:22.173] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data20.bin (target path: savedata0:data20.bin)
-[10:18:22.173] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.174] |I| [export_sceIoOpen]: Opening file: savedata0:data21.bin
-[10:18:22.175] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data21.bin (target path: savedata0:data21.bin)
-[10:18:22.175] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.179] |I| [export_sceIoOpen]: Opening file: savedata0:data22.bin
-[10:18:22.179] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data22.bin (target path: savedata0:data22.bin)
-[10:18:22.180] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.181] |I| [export_sceIoOpen]: Opening file: savedata0:data23.bin
-[10:18:22.181] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data23.bin (target path: savedata0:data23.bin)
-[10:18:22.182] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.183] |I| [export_sceIoOpen]: Opening file: savedata0:data24.bin
-[10:18:22.183] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data24.bin (target path: savedata0:data24.bin)
-[10:18:22.184] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.184] |I| [export_sceIoOpen]: Opening file: savedata0:data25.bin
-[10:18:22.185] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data25.bin (target path: savedata0:data25.bin)
-[10:18:22.185] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.186] |I| [export_sceIoOpen]: Opening file: savedata0:data26.bin
-[10:18:22.186] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data26.bin (target path: savedata0:data26.bin)
-[10:18:22.187] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.188] |I| [export_sceIoOpen]: Opening file: savedata0:data27.bin
-[10:18:22.188] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data27.bin (target path: savedata0:data27.bin)
-[10:18:22.189] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.190] |I| [export_sceIoOpen]: Opening file: savedata0:data28.bin
-[10:18:22.190] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data28.bin (target path: savedata0:data28.bin)
-[10:18:22.191] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.195] |I| [export_sceIoOpen]: Opening file: savedata0:data29.bin
-[10:18:22.196] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data29.bin (target path: savedata0:data29.bin)
-[10:18:22.196] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.197] |I| [export_sceIoOpen]: Opening file: savedata0:data30.bin
-[10:18:22.197] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data30.bin (target path: savedata0:data30.bin)
-[10:18:22.198] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.199] |I| [export_sceIoOpen]: Opening file: savedata0:data31.bin
-[10:18:22.199] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data31.bin (target path: savedata0:data31.bin)
-[10:18:22.199] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.200] |I| [export_sceIoOpen]: Opening file: savedata0:data32.bin
-[10:18:22.200] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data32.bin (target path: savedata0:data32.bin)
-[10:18:22.201] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.202] |I| [export_sceIoOpen]: Opening file: savedata0:data33.bin
-[10:18:22.202] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data33.bin (target path: savedata0:data33.bin)
-[10:18:22.203] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.204] |I| [export_sceIoOpen]: Opening file: savedata0:data34.bin
-[10:18:22.204] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data34.bin (target path: savedata0:data34.bin)
-[10:18:22.205] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.205] |I| [export_sceIoOpen]: Opening file: savedata0:data35.bin
-[10:18:22.206] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data35.bin (target path: savedata0:data35.bin)
-[10:18:22.206] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.211] |I| [export_sceIoOpen]: Opening file: savedata0:data36.bin
-[10:18:22.211] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data36.bin (target path: savedata0:data36.bin)
-[10:18:22.212] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.213] |I| [export_sceIoOpen]: Opening file: savedata0:data37.bin
-[10:18:22.213] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data37.bin (target path: savedata0:data37.bin)
-[10:18:22.214] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.214] |I| [export_sceIoOpen]: Opening file: savedata0:data38.bin
-[10:18:22.215] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data38.bin (target path: savedata0:data38.bin)
-[10:18:22.215] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.216] |I| [export_sceIoOpen]: Opening file: savedata0:data39.bin
-[10:18:22.216] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data39.bin (target path: savedata0:data39.bin)
-[10:18:22.217] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.218] |I| [export_sceIoOpen]: Opening file: savedata0:data40.bin
-[10:18:22.218] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data40.bin (target path: savedata0:data40.bin)
-[10:18:22.219] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.219] |I| [export_sceIoOpen]: Opening file: savedata0:data41.bin
-[10:18:22.220] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data41.bin (target path: savedata0:data41.bin)
-[10:18:22.220] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.221] |I| [export_sceIoOpen]: Opening file: savedata0:data42.bin
-[10:18:22.221] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data42.bin (target path: savedata0:data42.bin)
-[10:18:22.222] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.226] |I| [export_sceIoOpen]: Opening file: savedata0:data43.bin
-[10:18:22.226] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data43.bin (target path: savedata0:data43.bin)
-[10:18:22.227] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.228] |I| [export_sceIoOpen]: Opening file: savedata0:data44.bin
-[10:18:22.228] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data44.bin (target path: savedata0:data44.bin)
-[10:18:22.229] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.230] |I| [export_sceIoOpen]: Opening file: savedata0:data45.bin
-[10:18:22.230] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data45.bin (target path: savedata0:data45.bin)
-[10:18:22.231] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.231] |I| [export_sceIoOpen]: Opening file: savedata0:data46.bin
-[10:18:22.231] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data46.bin (target path: savedata0:data46.bin)
-[10:18:22.232] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.233] |I| [export_sceIoOpen]: Opening file: savedata0:data47.bin
-[10:18:22.233] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data47.bin (target path: savedata0:data47.bin)
-[10:18:22.234] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.234] |I| [export_sceIoOpen]: Opening file: savedata0:data48.bin
-[10:18:22.235] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data48.bin (target path: savedata0:data48.bin)
-[10:18:22.235] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.236] |I| [export_sceIoOpen]: Opening file: savedata0:data49.bin
-[10:18:22.236] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01150/data49.bin (target path: savedata0:data49.bin)
-[10:18:22.237] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[10:18:22.238] |I| [export_sceIoOpen]: Opening file: savedata0:data50.bin
-[10:18:22.242] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedat
+[03:04:58.818] |I| [load_app_impl]: cpu-backend: Dynarmic
+[03:04:58.818] |I| [load_app_impl]: CPU Optimisation state: true
+[03:04:58.818] |I| [load_app_impl]: at9 audio decoder state: true
+[03:04:58.818] |I| [load_app_impl]: ngs experimental state: true
+[03:04:58.818] |I| [load_app_impl]: video player state: true
+[03:04:58.819] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[03:04:58.819] |I| [load_app_impl]: Title: DEMON GAZE II
+[03:04:58.819] |I| [load_app_impl]: Serial: PCSB01150
+[03:04:58.819] |I| [load_app_impl]: Version: 1.01
+[03:04:58.819] |I| [load_app_impl]: Category: gp
+[03:04:58.889] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:04:58.890] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSB01150\sce_module\libc.suprx
+[03:04:58.890] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSB01150\sce_module\libc.suprx
+[03:04:58.890] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libc.suprx
+[03:04:58.891] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[03:04:58.891] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[03:04:58.892] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[03:04:58.893] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[03:04:58.894] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB01150\sce_module\libc.suprx") loaded
+[03:04:58.903] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:04:58.904] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSB01150\sce_module\libface.suprx
+[03:04:58.904] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB01150\sce_module\libface.suprx
+[03:04:58.905] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libface.suprx
+[03:04:58.906] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
+[03:04:58.906] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
+[03:04:58.907] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB01150\sce_module\libface.suprx") loaded
+[03:04:58.924] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:04:58.925] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSB01150\sce_module\libfios2.suprx
+[03:04:58.926] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSB01150\sce_module\libfios2.suprx
+[03:04:58.926] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libfios2.suprx
+[03:04:58.928] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
+[03:04:58.929] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
+[03:04:58.929] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB01150\sce_module\libfios2.suprx") loaded
+[03:04:58.984] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:04:58.985] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSB01150\sce_module\libsmart.suprx
+[03:04:58.986] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSB01150\sce_module\libsmart.suprx
+[03:04:58.987] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libsmart.suprx
+[03:04:58.988] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
+[03:04:58.988] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
+[03:04:58.989] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB01150\sce_module\libsmart.suprx") loaded
+[03:04:58.998] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:04:58.998] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSB01150\sce_module\libult.suprx
+[03:04:58.999] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB01150\sce_module\libult.suprx
+[03:04:58.999] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01150\sce_module\libult.suprx
+[03:04:59.000] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
+[03:04:59.001] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
+[03:04:59.001] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB01150\sce_module\libult.suprx") loaded
+[03:04:59.009] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[03:04:59.009] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[03:04:59.010] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[03:04:59.011] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
+[03:04:59.011] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
+[03:04:59.012] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[03:04:59.014] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[03:04:59.015] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[03:04:59.016] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[03:04:59.016] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
+[03:04:59.017] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
+[03:04:59.017] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[03:04:59.103] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:04:59.104] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x00589084 / 0x81000000] (size: 0x00254084) of module app0:eboot.bin
+[03:04:59.105] |I| [load_self]: Loaded module segment 1 @ [0x0058A000 - 0x00C539A8 / 0x81255000] (size: 0x006C99A8) of module app0:eboot.bin
+[03:04:59.105] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[03:04:59.106] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x523D84
+[03:04:59.106] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x591C84
+[03:04:59.107] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x5662D0
+[03:04:59.107] |I| [load_app_impl]: Main executable DG2 (eboot.bin) loaded
+[03:04:59.116] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[03:04:59.171] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB01150\sce_module\libc.suprx") module_start returned 0x0
+[03:04:59.175] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
+[03:04:59.184] |I| [run_app]: Module SceFace (at "ux0:app\PCSB01150\sce_module\libface.suprx") module_start returned 0x0
+[03:04:59.188] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
+[03:04:59.196] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[03:04:59.196] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[03:04:59.197] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[03:04:59.197] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB01150\sce_module\libfios2.suprx") module_start returned 0x0
+[03:04:59.203] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
+[03:04:59.212] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB01150\sce_module\libsmart.suprx") module_start returned 0x0
+[03:04:59.217] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
+[03:04:59.224] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[03:04:59.224] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB01150\sce_module\libult.suprx") module_start returned 0x0
+[03:04:59.351] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[03:04:59.353] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSB01150, thread ID: 10)
+[03:04:59.371] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[03:04:59.372] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[03:04:59.412] |I| [export_sceIoOpen]: Opening file: app0:lang.ini
+[03:04:59.426] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[03:04:59.426] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[03:04:59.427] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[03:04:59.427] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[03:04:59.440] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[03:04:59.442] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[03:04:59.478] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[03:04:59.508] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[03:04:59.526] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[03:04:59.539] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_v.vpo
+[03:04:59.552] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_f.fpo
+[03:04:59.569] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
+[03:04:59.569] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestEnable import called.
+[03:04:59.577] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_model.vpo
+[03:04:59.593] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_sprite.vpo
+[03:04:59.595] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_other.vpo
+[03:04:59.597] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_wipe.vpo
+[03:04:59.600] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvs_tileshader.vpo
+[03:04:59.602] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_blursprite.vpo
+[03:04:59.604] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_modelinstance.vpo
+[03:04:59.606] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default.fpo
+[03:04:59.608] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default_noblend.fpo
+[03:04:59.610] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash.fpo
+[03:04:59.612] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash_noblend.fpo
+[03:04:59.616] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono.fpo
+[03:04:59.618] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono_noblend.fpo
+[03:04:59.620] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli.fpo
+[03:04:59.622] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli_noblend.fpo
+[03:04:59.623] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model.fpo
+[03:04:59.625] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model_noblend.fpo
+[03:04:59.627] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_blursprite.fpo
+[03:04:59.633] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[03:04:59.661] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
+[03:04:59.692] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
+[03:04:59.749] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
+[03:04:59.782] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
+[03:04:59.898] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_layout.lod (target path: app0:/table_layout.lod)
+[03:04:59.900] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:04:59.939] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_texparts.lod (target path: app0:/table_texparts.lod)
+[03:04:59.940] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:05:00.149] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_ui_com.hed (target path: app0:/graphic_ui_com.hed)
+[03:05:00.150] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:05:00.176] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/graphic_ui_com.dat (target path: app0:/graphic_ui_com.dat)
+[03:05:00.176] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:05:00.560] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/bg_status.exg (target path: app0:/bg_status.exg)
+[03:05:00.562] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:05:00.601] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[03:05:00.603] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
+[03:05:00.604] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[03:05:00.604] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[03:05:00.605] |D| [export_sceTouchDisableTouchForce]: port: 1
+[03:05:00.606] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_bgm.gpd (target path: app0:/table_bgm.gpd)
+[03:05:00.606] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:05:00.607] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_se.gpd (target path: app0:/table_se.gpd)
+[03:05:00.608] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:05:00.610] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01150/table_voice.gpd (target path: app0:/table_voice.gpd)
+[03:05:00.611] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:05:01.112] |W| [unimplemented_impl]: Unimplemented sceAtracCreateDecoderGroup import called.
+[03:05:01.119] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
+[03:05:01.120] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
+[03:05:01.131] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[03:05:01.131] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[03:05:01.133] |D| [export_sceNgsVoiceInit]: flags: 7
+[03:05:01.133] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[03:05:01.135] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[03:05:01.136] |D| [export_sceNgsVoiceInit]: flags: 7
+[03:05:01.137] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:05:01.141] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[03:05:01.148] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:05:01.148] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:05:01.172] |I| [export_sceIoOpen]: Opening file: app0:/sound_dg2_bgm.bnk
+[03:05:01.178] |I| [export_sceIoOpen]: Opening file: app0:/sound_dg2_se.bnk
+[03:05:01.290] |I| [export_sceIoOpen]: Opening file: app0:/sound_dg2_voice.bnk
+[03:05:01.345] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[03:05:01.346] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[03:05:01.346] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[03:05:01.347] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[03:05:01.357] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
+[03:05:01.357] |W| [unimplemented_impl]: Unimplemented sceNpScoreCreateTitleCtx import called.
+[03:05:01.359] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB0115

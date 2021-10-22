@@ -1,1549 +1,448 @@
-[22:06:54.334] |I| [load_app_impl]: cpu-backend: Dynarmic
-[22:06:54.335] |I| [load_app_impl]: CPU Optimisation state: true
-[22:06:54.335] |I| [load_app_impl]: at9 audio decoder state: true
-[22:06:54.335] |I| [load_app_impl]: ngs experimental state: true
-[22:06:54.336] |I| [load_app_impl]: video player state: true
-[22:06:54.336] |I| [load_app_impl]: Title: Atelier Ayesha Plus ~The Alchemist of Dusk~
-[22:06:54.336] |I| [load_app_impl]: Serial: PCSB00700
-[22:06:54.337] |I| [load_app_impl]: Version: 1.00
-[22:06:54.337] |I| [load_app_impl]: Category: gd
-[22:06:54.346] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[22:06:54.346] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000543BC / 0x81000000] (size: 0x0004D3BC) of module ux0:app\PCSB00700\sce_module\libc.suprx
-[22:06:54.346] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F0 / 0x8104E000] (size: 0x000026F0) of module ux0:app\PCSB00700\sce_module\libc.suprx
-[22:06:54.347] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00700\sce_module\libc.suprx
-[22:06:54.348] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A164
-[22:06:54.348] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x400FC
-[22:06:54.348] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x440BC, setting to stub value 0xDEADBEEF
-[22:06:54.349] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x45B70, setting to stub value 0xDEADBEEF
-[22:06:54.349] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00700\sce_module\libc.suprx") loaded
-[22:06:54.355] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[22:06:54.356] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x0008512C / 0x81000000] (size: 0x0002B12C) of module ux0:app\PCSB00700\sce_module\libfios2.suprx
-[22:06:54.356] |I| [load_self]: Loaded module segment 1 @ [0x00086000 - 0x0008B23D / 0x8102C000] (size: 0x0000523D) of module ux0:app\PCSB00700\sce_module\libfios2.suprx
-[22:06:54.357] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00700\sce_module\libfios2.suprx
-[22:06:54.357] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x85034
-[22:06:54.358] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7C548
-[22:06:54.358] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00700\sce_module\libfios2.suprx") loaded
-[22:06:54.361] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[22:06:54.361] |I| [load_self]: Loaded module segment 0 @ [0x0008C000 - 0x0009FA9C / 0x81000000] (size: 0x00013A9C) of module ux0:app\PCSB00700\sce_module\libult.suprx
-[22:06:54.361] |I| [load_self]: Loaded module segment 1 @ [0x000A0000 - 0x000A0814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00700\sce_module\libult.suprx
-[22:06:54.362] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00700\sce_module\libult.suprx
-[22:06:54.362] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9E3C8
-[22:06:54.363] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9B944
-[22:06:54.363] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00700\sce_module\libult.suprx") loaded
-[22:06:54.370] |I| [load_self]: Loaded module segment 0 @ [0x000A1000 - 0x000F1F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[22:06:54.371] |I| [load_self]: Loaded module segment 1 @ [0x000F2000 - 0x000F22F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[22:06:54.372] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[22:06:54.372] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xDD7DC
-[22:06:54.372] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xDCF10
-[22:06:54.373] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[22:06:54.377] |I| [load_self]: Loaded module segment 0 @ [0x000F3000 - 0x00102F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[22:06:54.377] |I| [load_self]: Loaded module segment 1 @ [0x00103000 - 0x00103008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[22:06:54.378] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[22:06:54.378] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x101710
-[22:06:54.378] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x101300
-[22:06:54.379] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[22:06:54.604] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[22:06:54.604] |I| [load_self]: Loaded module segment 0 @ [0x00104000 - 0x0086A0AC / 0x81000000] (size: 0x007660AC) of module app0:eboot.bin
-[22:06:54.605] |I| [load_self]: Loaded module segment 1 @ [0x0086B000 - 0x00B743B8 / 0x81767000] (size: 0x003093B8) of module app0:eboot.bin
-[22:06:54.606] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[22:06:54.606] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x50C904
-[22:06:54.606] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x98FF80
-[22:06:54.607] |I| [load_app_impl]: Main executable A14V_ReleasePSARC (eboot.bin) loaded
-[22:06:54.615] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
-[22:06:54.633] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00700\sce_module\libc.suprx") module_start returned 0x0
-[22:06:54.637] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5A001
-[22:06:54.645] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[22:06:54.646] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
-[22:06:54.646] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[22:06:54.646] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00700\sce_module\libfios2.suprx") module_start returned 0x0
-[22:06:54.650] |D| [run_app]: Running module_start of library: SceUlt at address 0x8F769
-[22:06:54.657] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[22:06:54.658] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00700\sce_module\libult.suprx") module_start returned 0x0
-[22:06:54.663] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
-[22:06:54.951] |I| [export_sceIoOpen]: Opening file: sampleArg.txt
-[22:06:54.951] |E| [open_file]: Cannot find device for path: sampleArg.txt
-[22:06:54.952] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:06:54.997] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[22:06:55.028] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[22:06:55.070] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[22:06:55.071] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[22:06:55.076] |W| [unimplemented_impl]: Unimplemented sceGxmProgramParameterIsRegFormat import called.
-[22:06:55.226] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCurrentPriority import called.
-[22:06:55.226] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
-[22:06:55.286] |I| [export_sceIoOpen]: Opening file: app0:./Res/debug/ascii.g1t
-[22:06:55.286] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00700/./Res/debug/ascii.g1t (target path: app0:./Res/debug/ascii.g1t)
-[22:06:55.287] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:06:55.289] |W| [unimplemented_impl]: Unimplemented sceCoredumpRegisterCoredumpHandler import called.
-[22:06:55.289] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[22:06:55.305] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[22:06:55.305] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[22:06:55.356] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[22:06:55.361] |I| [export_sceIoOpen]: Opening file: app0:/Res/resources1.psarc
-[22:06:55.392] |I| [export_sceIoOpen]: Opening file: app0:/Res/resources1.psarc
-[22:06:55.538] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[22:06:55.696] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[22:06:55.704] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[22:06:55.784] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[22:06:55.785] |I| [export_sceIoOpen]: Opening file: savedata0:SYS-DATA
-[22:06:55.810] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[22:06:55.810] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[22:06:55.819] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUMEFT0/DLC/keyfile/DLC_costume02.dat
-[22:06:55.819] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUME1ST/DLC/keyfile/DLC_costume00.dat
-[22:06:55.820] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUMEEX0/DLC/keyfile/DLC_costume03.dat
-[22:06:55.820] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUMEDP0/DLC/keyfile/DLC_costume01.dat
-[22:06:55.820] |I| [export_sceIoOpen]: Opening file: addcont0:COSTUME444DOCOMO/DLC/keyfile/DLC_costume04.dat
-[22:06:55.821] |I| [export_sceIoOpen]: Opening file: addcont0:ACCESSORY4DOCOMO/DLC/keyfile/DLC_costume05.dat
-[22:06:55.822] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[22:06:55.823] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
-[22:06:55.823] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[22:06:55.823] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[22:06:55.842] |I| [renderer::gl::load_shader_generic]: Generating frag shader 1522dadde1140927e7c55f57cdd6bd25f32a99c8e8995e7e64fe75fe547c8c78
-[22:06:55.843] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:06:55.846] |I| [renderer::gl::load_shader_generic]: Generating vert shader c41ebcde8e43e8044605668239121784587a332f7116ed6facecec5ea90b5798
-[22:06:55.846] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float2) pos
-[22:06:55.846] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color_depth[2]
-[22:06:55.851] |E| [renderer::gl::compile_program]: Vertex info
+[01:29:17.197] |I| [load_app_impl]: cpu-backend: Dynarmic
+[01:29:17.197] |I| [load_app_impl]: CPU Optimisation state: true
+[01:29:17.197] |I| [load_app_impl]: at9 audio decoder state: true
+[01:29:17.197] |I| [load_app_impl]: ngs experimental state: true
+[01:29:17.197] |I| [load_app_impl]: video player state: true
+[01:29:17.198] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[01:29:17.198] |I| [load_app_impl]: Title: Atelier Ayesha Plus ~The Alchemist of Dusk~
+[01:29:17.198] |I| [load_app_impl]: Serial: PCSB00700
+[01:29:17.198] |I| [load_app_impl]: Version: 1.00
+[01:29:17.198] |I| [load_app_impl]: Category: gd
+[01:29:17.289] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:29:17.289] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000543BC / 0x81000000] (size: 0x0004D3BC) of module ux0:app\PCSB00700\sce_module\libc.suprx
+[01:29:17.289] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F0 / 0x8104E000] (size: 0x000026F0) of module ux0:app\PCSB00700\sce_module\libc.suprx
+[01:29:17.290] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00700\sce_module\libc.suprx
+[01:29:17.291] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A164
+[01:29:17.291] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x400FC
+[01:29:17.292] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x440BC, setting to stub value 0xDEADBEEF
+[01:29:17.293] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x45B70, setting to stub value 0xDEADBEEF
+[01:29:17.294] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00700\sce_module\libc.suprx") loaded
+[01:29:17.314] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:29:17.314] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x0008512C / 0x81000000] (size: 0x0002B12C) of module ux0:app\PCSB00700\sce_module\libfios2.suprx
+[01:29:17.316] |I| [load_self]: Loaded module segment 1 @ [0x00086000 - 0x0008B23D / 0x8102C000] (size: 0x0000523D) of module ux0:app\PCSB00700\sce_module\libfios2.suprx
+[01:29:17.317] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00700\sce_module\libfios2.suprx
+[01:29:17.317] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x85034
+[01:29:17.318] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7C548
+[01:29:17.318] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00700\sce_module\libfios2.suprx") loaded
+[01:29:17.333] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:29:17.333] |I| [load_self]: Loaded module segment 0 @ [0x0008C000 - 0x0009FA9C / 0x81000000] (size: 0x00013A9C) of module ux0:app\PCSB00700\sce_module\libult.suprx
+[01:29:17.334] |I| [load_self]: Loaded module segment 1 @ [0x000A0000 - 0x000A0814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00700\sce_module\libult.suprx
+[01:29:17.335] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00700\sce_module\libult.suprx
+[01:29:17.336] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9E3C8
+[01:29:17.336] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9B944
+[01:29:17.337] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00700\sce_module\libult.suprx") loaded
+[01:29:17.345] |I| [load_self]: Loaded module segment 0 @ [0x000A1000 - 0x000F1F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[01:29:17.345] |I| [load_self]: Loaded module segment 1 @ [0x000F2000 - 0x000F22F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[01:29:17.346] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[01:29:17.347] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xDD7DC
+[01:29:17.347] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xDCF10
+[01:29:17.348] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[01:29:17.353] |I| [load_self]: Loaded module segment 0 @ [0x000F3000 - 0x00102F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[01:29:17.354] |I| [load_self]: Loaded module segment 1 @ [0x00103000 - 0x00103008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[01:29:17.354] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[01:29:17.355] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x101710
+[01:29:17.355] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x101300
+[01:29:17.356] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[01:29:17.624] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:29:17.625] |I| [load_self]: Loaded module segment 0 @ [0x00104000 - 0x0086A0AC / 0x81000000] (size: 0x007660AC) of module app0:eboot.bin
+[01:29:17.626] |I| [load_self]: Loaded module segment 1 @ [0x0086B000 - 0x00B743B8 / 0x81767000] (size: 0x003093B8) of module app0:eboot.bin
+[01:29:17.627] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[01:29:17.627] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x50C904
+[01:29:17.628] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x98FF80
+[01:29:17.629] |I| [load_app_impl]: Main executable A14V_ReleasePSARC (eboot.bin) loaded
+[01:29:17.638] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
+[01:29:17.659] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00700\sce_module\libc.suprx") module_start returned 0x0
+[01:29:17.664] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5A001
+[01:29:17.671] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[01:29:17.672] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
+[01:29:17.672] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[01:29:17.673] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00700\sce_module\libfios2.suprx") module_start returned 0x0
+[01:29:17.677] |D| [run_app]: Running module_start of library: SceUlt at address 0x8F769
+[01:29:17.684] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[01:29:17.685] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00700\sce_module\libult.suprx") module_start returned 0x0
+[01:29:17.690] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[01:29:18.008] |I| [export_sceIoOpen]: Opening file: sampleArg.txt
+[01:29:18.008] |E| [open_file]: Cannot find device for path: sampleArg.txt
+[01:29:18.009] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:18.056] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[01:29:18.091] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[01:29:18.130] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[01:29:18.131] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[01:29:18.136] |W| [unimplemented_impl]: Unimplemented sceGxmProgramParameterIsRegFormat import called.
+[01:29:18.284] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCurrentPriority import called.
+[01:29:18.285] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
+[01:29:18.368] |I| [export_sceIoOpen]: Opening file: app0:./Res/debug/ascii.g1t
+[01:29:18.369] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00700/./Res/debug/ascii.g1t (target path: app0:./Res/debug/ascii.g1t)
+[01:29:18.370] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:18.373] |W| [unimplemented_impl]: Unimplemented sceCoredumpRegisterCoredumpHandler import called.
+[01:29:18.374] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[01:29:18.392] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[01:29:18.392] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[01:29:18.463] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[01:29:18.470] |I| [export_sceIoOpen]: Opening file: app0:/Res/resources1.psarc
+[01:29:18.537] |I| [export_sceIoOpen]: Opening file: app0:/Res/resources1.psarc
+[01:29:18.724] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHABGMCHANGE0/DLC/bgm/psarc/dlc_pack00.psarc
+[01:29:18.784] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0xFFFFFFFF
+[01:29:18.788] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[01:29:19.590] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[01:29:19.598] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[01:29:19.662] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[01:29:19.684] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[01:29:19.684] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[01:29:19.689] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[01:29:19.699] |I| [export_sceIoOpen]: Opening file: savedata0:SYS-DATA
+[01:29:19.715] |I| [renderer::gl::load_shader_generic]: Generating frag shader 1522dadde1140927e7c55f57cdd6bd25f32a99c8e8995e7e64fe75fe547c8c78
+[01:29:19.717] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[01:29:19.733] |I| [renderer::gl::load_shader_generic]: Generating vert shader c41ebcde8e43e8044605668239121784587a332f7116ed6facecec5ea90b5798
+[01:29:19.735] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float2) pos
+[01:29:19.735] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color_depth[2]
+[01:29:19.762] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
-Fragment info
+
+[01:29:19.766] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufCB import called. (move after setframebuf)
+[01:29:19.774] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUMEFT0/DLC/keyfile/DLC_costume02.dat
+[01:29:19.799] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUME1ST/DLC/keyfile/DLC_costume00.dat
+[01:29:19.825] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUMEEX0/DLC/keyfile/DLC_costume03.dat
+[01:29:19.825] |I| [export_sceIoOpen]: Opening file: addcont0:AYESHACOSTUMEDP0/DLC/keyfile/DLC_costume01.dat
+[01:29:19.826] |I| [export_sceIoOpen]: Opening file: addcont0:COSTUME444DOCOMO/DLC/keyfile/DLC_costume04.dat
+[01:29:19.832] |I| [export_sceIoOpen]: Opening file: addcont0:ACCESSORY4DOCOMO/DLC/keyfile/DLC_costume05.dat
+[01:29:19.858] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[01:29:19.858] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[01:29:19.859] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[01:29:19.859] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[01:29:20.989] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
+[01:29:20.989] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[01:29:20.990] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[01:29:20.991] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[01:29:20.996] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:29:20.997] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:29:20.997] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:29:20.998] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:29:21.007] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[01:29:21.018] |W| [unimplemented_impl]: Unimplemented sceNgsSystemLock import called.
+[01:29:21.018] |W| [unimplemented_impl]: Unimplemented sceNgsSystemUnlock import called.
+[01:29:21.138] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
+[01:29:21.161] |I| [renderer::gl::load_shader_generic]: Generating frag shader 93c467c360ef07172f7e26df152102fdf9b2800758750af6b3e911a4ff22171e
+[01:29:21.163] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) rate
+[01:29:21.169] |I| [renderer::gl::load_shader_generic]: Generating vert shader 494df11989e6a9823af333b7d5b7e82b39adc67f11981e4f8ef0bec96f21c271
+[01:29:21.171] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[01:29:21.171] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_uv
+[01:29:21.173] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
+[01:29:21.188] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(15) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[22:06:55.853] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufCB import called. (move after setframebuf)
-[22:06:56.926] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
-[22:06:56.927] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[22:06:56.927] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[22:06:56.928] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[22:06:56.934] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:06:56.934] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:06:56.934] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:06:56.934] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:06:56.943] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
-[22:06:56.953] |W| [unimplemented_impl]: Unimplemented sceNgsSystemLock import called.
-[22:06:56.953] |W| [unimplemented_impl]: Unimplemented sceNgsSystemUnlock import called.
-[22:06:57.065] |I| [renderer::gl::load_shader_generic]: Generating frag shader 93c467c360ef07172f7e26df152102fdf9b2800758750af6b3e911a4ff22171e
-[22:06:57.066] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) rate
-[22:06:57.070] |I| [renderer::gl::load_shader_generic]: Generating vert shader 494df11989e6a9823af333b7d5b7e82b39adc67f11981e4f8ef0bec96f21c271
-[22:06:57.072] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
-[22:06:57.072] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_uv
-[22:06:57.072] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:06:57.077] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(23) : warning C7050: "internals[0].w" might be used before being initialized
-0(23) : warning C7050: "internals[1]" might be used before being initialized
-
-
-[22:07:03.514] |E| [call_import]: Import function for NID 0xE340C006 not found (thread name: PCSB00700, thread ID: 8)
-[22:07:04.442] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3b1c82de1bccba70efe7a58be31a8bd47d1fade7cb925f6e1508793fe4e3ec0a
-[22:07:04.444] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:07:04.446] |I| [renderer::gl::load_shader_generic]: Generating vert shader 02a43cfa7054cc2f565406bd716322073dae0edce672c48be0fef2d666d84d89
-[22:07:04.447] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
-[22:07:04.447] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
-[22:07:04.475] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3722ba60c14c64d46349e988002752b8875ac0906a8d21e8486c3acac4d18756
-[22:07:04.477] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:07:04.481] |I| [renderer::gl::load_shader_generic]: Generating vert shader 8c5e2815490b9fbe6b5401f9371086dd1c601ad69de09456ec54845f072c564c
-[22:07:04.481] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
-[22:07:04.482] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
-[22:07:04.482] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord
-[22:07:04.487] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(18) : warning C7050: "sa[0]" might be used before being initialized
-
-
-[22:07:06.815] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0000
-[22:07:06.816] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0000 (target path: savedata0:USR-DATA0000)
-[22:07:06.816] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.818] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0001
-[22:07:06.818] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0001 (target path: savedata0:USR-DATA0001)
-[22:07:06.818] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.819] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0002
-[22:07:06.819] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0002 (target path: savedata0:USR-DATA0002)
-[22:07:06.820] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.820] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0003
-[22:07:06.820] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0003 (target path: savedata0:USR-DATA0003)
-[22:07:06.821] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.821] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0004
-[22:07:06.822] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0004 (target path: savedata0:USR-DATA0004)
-[22:07:06.822] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.823] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0005
-[22:07:06.823] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0005 (target path: savedata0:USR-DATA0005)
-[22:07:06.824] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.824] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0006
-[22:07:06.824] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0006 (target path: savedata0:USR-DATA0006)
-[22:07:06.825] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.825] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0007
-[22:07:06.826] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0007 (target path: savedata0:USR-DATA0007)
-[22:07:06.826] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.828] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0008
-[22:07:06.829] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0008 (target path: savedata0:USR-DATA0008)
-[22:07:06.829] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.830] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0009
-[22:07:06.830] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0009 (target path: savedata0:USR-DATA0009)
-[22:07:06.831] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.831] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0010
-[22:07:06.831] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0010 (target path: savedata0:USR-DATA0010)
-[22:07:06.832] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.832] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0011
-[22:07:06.833] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0011 (target path: savedata0:USR-DATA0011)
-[22:07:06.833] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.834] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0012
-[22:07:06.834] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0012 (target path: savedata0:USR-DATA0012)
-[22:07:06.835] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.835] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0013
-[22:07:06.835] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0013 (target path: savedata0:USR-DATA0013)
-[22:07:06.836] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.836] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0014
-[22:07:06.837] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0014 (target path: savedata0:USR-DATA0014)
-[22:07:06.837] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.838] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0015
-[22:07:06.838] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0015 (target path: savedata0:USR-DATA0015)
-[22:07:06.839] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.839] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0016
-[22:07:06.839] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0016 (target path: savedata0:USR-DATA0016)
-[22:07:06.840] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.840] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0017
-[22:07:06.840] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0017 (target path: savedata0:USR-DATA0017)
-[22:07:06.841] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.841] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0018
-[22:07:06.842] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0018 (target path: savedata0:USR-DATA0018)
-[22:07:06.844] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.844] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0019
-[22:07:06.845] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0019 (target path: savedata0:USR-DATA0019)
-[22:07:06.845] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.846] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0020
-[22:07:06.846] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0020 (target path: savedata0:USR-DATA0020)
-[22:07:06.847] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.847] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0021
-[22:07:06.847] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0021 (target path: savedata0:USR-DATA0021)
-[22:07:06.848] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.848] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0022
-[22:07:06.849] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0022 (target path: savedata0:USR-DATA0022)
-[22:07:06.849] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.850] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0023
-[22:07:06.850] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0023 (target path: savedata0:USR-DATA0023)
-[22:07:06.851] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.851] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0024
-[22:07:06.851] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0024 (target path: savedata0:USR-DATA0024)
-[22:07:06.852] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.852] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0025
-[22:07:06.853] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0025 (target path: savedata0:USR-DATA0025)
-[22:07:06.853] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.853] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0026
-[22:07:06.854] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0026 (target path: savedata0:USR-DATA0026)
-[22:07:06.854] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.855] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0027
-[22:07:06.855] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0027 (target path: savedata0:USR-DATA0027)
-[22:07:06.856] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.856] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0028
-[22:07:06.856] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0028 (target path: savedata0:USR-DATA0028)
-[22:07:06.857] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.857] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0029
-[22:07:06.858] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0029 (target path: savedata0:USR-DATA0029)
-[22:07:06.860] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.861] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0030
-[22:07:06.861] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0030 (target path: savedata0:USR-DATA0030)
-[22:07:06.862] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.862] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0031
-[22:07:06.862] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0031 (target path: savedata0:USR-DATA0031)
-[22:07:06.863] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.863] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0032
-[22:07:06.864] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0032 (target path: savedata0:USR-DATA0032)
-[22:07:06.864] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.865] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0033
-[22:07:06.865] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0033 (target path: savedata0:USR-DATA0033)
-[22:07:06.865] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.866] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0034
-[22:07:06.866] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0034 (target path: savedata0:USR-DATA0034)
-[22:07:06.867] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.867] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0035
-[22:07:06.867] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0035 (target path: savedata0:USR-DATA0035)
-[22:07:06.868] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.868] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0036
-[22:07:06.869] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0036 (target path: savedata0:USR-DATA0036)
-[22:07:06.869] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.870] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0037
-[22:07:06.870] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0037 (target path: savedata0:USR-DATA0037)
-[22:07:06.871] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.871] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0038
-[22:07:06.871] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0038 (target path: savedata0:USR-DATA0038)
-[22:07:06.872] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.872] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0039
-[22:07:06.873] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0039 (target path: savedata0:USR-DATA0039)
-[22:07:06.873] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.875] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0040
-[22:07:06.876] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0040 (target path: savedata0:USR-DATA0040)
-[22:07:06.877] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.877] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0041
-[22:07:06.877] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0041 (target path: savedata0:USR-DATA0041)
-[22:07:06.878] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.878] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0042
-[22:07:06.879] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0042 (target path: savedata0:USR-DATA0042)
-[22:07:06.879] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.880] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0043
-[22:07:06.880] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0043 (target path: savedata0:USR-DATA0043)
-[22:07:06.881] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.881] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0044
-[22:07:06.881] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0044 (target path: savedata0:USR-DATA0044)
-[22:07:06.882] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.882] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0045
-[22:07:06.883] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0045 (target path: savedata0:USR-DATA0045)
-[22:07:06.883] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.884] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0046
-[22:07:06.884] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0046 (target path: savedata0:USR-DATA0046)
-[22:07:06.885] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.885] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0047
-[22:07:06.885] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0047 (target path: savedata0:USR-DATA0047)
-[22:07:06.886] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.886] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0048
-[22:07:06.887] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0048 (target path: savedata0:USR-DATA0048)
-[22:07:06.887] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.888] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0049
-[22:07:06.888] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0049 (target path: savedata0:USR-DATA0049)
-[22:07:06.889] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.891] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0050
-[22:07:06.891] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0050 (target path: savedata0:USR-DATA0050)
-[22:07:06.892] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.892] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0051
-[22:07:06.892] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0051 (target path: savedata0:USR-DATA0051)
-[22:07:06.893] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.893] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0052
-[22:07:06.894] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0052 (target path: savedata0:USR-DATA0052)
-[22:07:06.894] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.895] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0053
-[22:07:06.895] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0053 (target path: savedata0:USR-DATA0053)
-[22:07:06.896] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.896] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0054
-[22:07:06.896] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0054 (target path: savedata0:USR-DATA0054)
-[22:07:06.897] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.897] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0055
-[22:07:06.898] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0055 (target path: savedata0:USR-DATA0055)
-[22:07:06.898] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.899] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0056
-[22:07:06.899] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0056 (target path: savedata0:USR-DATA0056)
-[22:07:06.899] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.900] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0057
-[22:07:06.900] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0057 (target path: savedata0:USR-DATA0057)
-[22:07:06.901] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.901] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0058
-[22:07:06.901] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0058 (target path: savedata0:USR-DATA0058)
-[22:07:06.902] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.902] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0059
-[22:07:06.903] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0059 (target path: savedata0:USR-DATA0059)
-[22:07:06.903] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.904] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0060
-[22:07:06.904] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0060 (target path: savedata0:USR-DATA0060)
-[22:07:06.906] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.907] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0061
-[22:07:06.907] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0061 (target path: savedata0:USR-DATA0061)
-[22:07:06.907] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.908] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0062
-[22:07:06.908] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0062 (target path: savedata0:USR-DATA0062)
-[22:07:06.909] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.909] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0063
-[22:07:06.910] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0063 (target path: savedata0:USR-DATA0063)
-[22:07:06.910] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.911] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0064
-[22:07:06.911] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0064 (target path: savedata0:USR-DATA0064)
-[22:07:06.912] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.912] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0065
-[22:07:06.912] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0065 (target path: savedata0:USR-DATA0065)
-[22:07:06.913] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.913] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0066
-[22:07:06.914] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0066 (target path: savedata0:USR-DATA0066)
-[22:07:06.914] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.915] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0067
-[22:07:06.915] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0067 (target path: savedata0:USR-DATA0067)
-[22:07:06.916] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.916] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0068
-[22:07:06.916] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0068 (target path: savedata0:USR-DATA0068)
-[22:07:06.917] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.917] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0069
-[22:07:06.918] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0069 (target path: savedata0:USR-DATA0069)
-[22:07:06.918] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.919] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0070
-[22:07:06.919] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0070 (target path: savedata0:USR-DATA0070)
-[22:07:06.920] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.922] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0071
-[22:07:06.922] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0071 (target path: savedata0:USR-DATA0071)
-[22:07:06.923] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.923] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0072
-[22:07:06.923] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0072 (target path: savedata0:USR-DATA0072)
-[22:07:06.924] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.924] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0073
-[22:07:06.925] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0073 (target path: savedata0:USR-DATA0073)
-[22:07:06.925] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.926] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0074
-[22:07:06.927] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0074 (target path: savedata0:USR-DATA0074)
-[22:07:06.927] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.927] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0075
-[22:07:06.928] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0075 (target path: savedata0:USR-DATA0075)
-[22:07:06.928] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.929] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0076
-[22:07:06.929] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0076 (target path: savedata0:USR-DATA0076)
-[22:07:06.930] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.930] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0077
-[22:07:06.930] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0077 (target path: savedata0:USR-DATA0077)
-[22:07:06.931] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.931] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0078
-[22:07:06.932] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0078 (target path: savedata0:USR-DATA0078)
-[22:07:06.932] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.933] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0079
-[22:07:06.933] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0079 (target path: savedata0:USR-DATA0079)
-[22:07:06.934] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.934] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0080
-[22:07:06.934] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0080 (target path: savedata0:USR-DATA0080)
-[22:07:06.935] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.935] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0081
-[22:07:06.937] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0081 (target path: savedata0:USR-DATA0081)
-[22:07:06.938] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.938] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0082
-[22:07:06.939] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0082 (target path: savedata0:USR-DATA0082)
-[22:07:06.939] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.940] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0083
-[22:07:06.940] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0083 (target path: savedata0:USR-DATA0083)
-[22:07:06.941] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.941] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0084
-[22:07:06.941] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0084 (target path: savedata0:USR-DATA0084)
-[22:07:06.942] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.942] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0085
-[22:07:06.943] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0085 (target path: savedata0:USR-DATA0085)
-[22:07:06.943] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.944] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0086
-[22:07:06.944] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0086 (target path: savedata0:USR-DATA0086)
-[22:07:06.945] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.945] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0087
-[22:07:06.946] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0087 (target path: savedata0:USR-DATA0087)
-[22:07:06.946] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.947] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0088
-[22:07:06.947] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0088 (target path: savedata0:USR-DATA0088)
-[22:07:06.947] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.948] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0089
-[22:07:06.948] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0089 (target path: savedata0:USR-DATA0089)
-[22:07:06.949] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.949] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0090
-[22:07:06.949] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0090 (target path: savedata0:USR-DATA0090)
-[22:07:06.950] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.950] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0091
-[22:07:06.951] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0091 (target path: savedata0:USR-DATA0091)
-[22:07:06.953] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.953] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0092
-[22:07:06.954] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0092 (target path: savedata0:USR-DATA0092)
-[22:07:06.954] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.955] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0093
-[22:07:06.955] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0093 (target path: savedata0:USR-DATA0093)
-[22:07:06.956] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.956] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0094
-[22:07:06.956] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0094 (target path: savedata0:USR-DATA0094)
-[22:07:06.957] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.957] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0095
-[22:07:06.958] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0095 (target path: savedata0:USR-DATA0095)
-[22:07:06.958] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.959] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0096
-[22:07:06.959] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0096 (target path: savedata0:USR-DATA0096)
-[22:07:06.960] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.960] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0097
-[22:07:06.960] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0097 (target path: savedata0:USR-DATA0097)
-[22:07:06.961] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:06.961] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0098
-[22:07:06.962] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0098 (target path: savedata0:USR-DATA0098)
-[22:07:06.962] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[22:07:07.067] |D| [export_sceAvPlayerInit]: auto start: false
-[22:07:07.067] |D| [export_sceAvPlayerAddSource]: path: 
-[22:07:07.068] |I| [PlayerState::queue]: Queued video: 'D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00700/Res/movie/opening.mp4'.
-[22:07:07.118] |I| [float_to_half_init]: AVX+F16C instruction set supported. Use fast f32 to f16 conversion
-[22:07:07.145] |I| [renderer::gl::load_shader_generic]: Generating frag shader 0386da048b9e022fbbfd251be3e73612e972a54515aa8eecade1f31280d336da
-[22:07:07.146] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) diffuse
-[22:07:07.146] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
-[22:07:07.149] |I| [renderer::gl::load_shader_generic]: Generating vert shader 03964d7b3bfe0f2e4af61def279c123928fb808edaeeec56d8e4e4bcf427e8dd
-[22:07:07.150] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
-[22:07:07.150] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_uv
-[22:07:07.150] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_color
-[22:07:07.151] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:07:07.158] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(22) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[22:07:07.177] |I| [renderer::gl::load_shader_generic]: Generating frag shader 91cd08b9bfb7bfe58f8cda9df16b87f805b89cfc75a1d6202cda3b20c6bd4ae3
-[22:07:07.180] |I| [renderer::gl::load_shader_generic]: Generating vert shader 95b45df28d01c1b162d773efe8ef775d835fbf4a74fa9dd1f53cf825cbab07ed
-[22:07:07.181] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_screenVertex
-[22:07:07.181] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_UV
-[22:07:07.184] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(16) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[22:07:07.186] |W| [stubbed_impl]: Stubbed sceAvPlayerStreamCount import called. (ALWAYS RETURN 2 (VIDEO AND AUDIO))
-[22:07:07.187] |W| [stubbed_impl]: Stubbed sceAvPlayerGetStreamInfo import called. (ALWAYS SUSPECTS 2 STREAMS: VIDEO AND AUDIO)
-[22:07:07.187] |D| [export_sceAvPlayerEnableStream]: sceAvPlayerEnableStream, stream no: 0
-[22:07:07.188] |D| [export_sceAvPlayerEnableStream]: sceAvPlayerEnableStream, stream no: 1
-[22:09:00.294] |D| [export_sceAvPlayerClose]: sceAvPlayerClose
-[22:09:00.303] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
-[22:09:00.412] |I| [renderer::gl::load_shader_generic]: Generating frag shader e1624ed93bf56a66e76160844277761fe5f4c91201f5b62967720b81e6e55d8d
-[22:09:00.414] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:00.416] |I| [renderer::gl::load_shader_generic]: Generating vert shader d8b6202b12e4d74715be8c7125dcf5622c25b0d31c0325ae3ccbd22ee0864c9e
-[22:09:00.417] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_screenVertex
-[22:09:00.417] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) rate
-[22:09:00.418] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) sColor
-[22:09:00.418] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) eColor
-[22:09:00.424] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(15) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[22:09:02.084] |D| [export_sceNgsVoiceInit]: flags: 7
-[22:09:02.086] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[22:09:02.091] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:02.094] |E| [logging::ret_error_impl]: sceKernelWaitEventFlag returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
-[22:09:03.072] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:03.430] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:04.494] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:04.494] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:05.738] |D| [export_sceNgsVoiceInit]: flags: 7
-[22:09:06.106] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
-[22:09:06.180] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
-[22:09:06.197] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSB00700, thread ID: 8)
-[22:09:06.199] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
-[22:09:06.200] |W| [stubbed_impl]: Stubbed sceKernelSendSignal import called. (sceKernelSendSignal)
-[22:09:06.202] |W| [stubbed_impl]: Stubbed _sceFiberAttachContextAndSwitch import called. (Todo: not sure for now)
-[22:09:06.406] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
-[22:09:06.533] |I| [renderer::gl::load_shader_generic]: Generating frag shader e49de6a3031095b40dc5d18379e9f86948f529006101f478a57b497498a44802
-[22:09:06.535] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:06.539] |I| [renderer::gl::load_shader_generic]: Generating vert shader 638e977907aa48e0d625f1314352ce10861a86a456693eec6ae53359b7f49e84
-[22:09:06.540] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) SkinnableVertex
-[22:09:06.540] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) SkinnableNormal
-[22:09:06.540] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) uv
-[22:09:06.541] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) SkinWeights
-[22:09:06.541] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) SkinIndices
-[22:09:06.541] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half4) diffuse
-[22:09:06.542] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) PSSGLightModelViewProj[4]
-[22:09:06.542] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) skinMatrix[800]
-[22:09:06.902] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(28) : warning C7050: "internals[1].w" might be used before being initialized
-
-Fragment info
--------------
-0(17) : warning C7050: "pa[0].zw" might be used before being initialized
-0(18) : warning C7050: "sa[0].zw" might be used before being initialized
-
-
-[22:09:07.026] |I| [renderer::gl::load_shader_generic]: Generating frag shader 2669a541adc48c382c1274c9e466037bb60004e7466b2dc180953b6a0dc818ba
-[22:09:07.028] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) HdrRangeInv
-[22:09:07.028] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (half1) g_alpha_ref
-[22:09:07.029] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) fogColor
-[22:09:07.029] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half1) overlayModifier
-[22:09:07.029] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) diffuse
-[22:09:07.030] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:07.030] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half1) v_TexCoord2
-[22:09:07.030] |D| [shader::create_fragment_inputs]: Iterator: pa5 = (half2) v_TexCoord5
-[22:09:07.045] |I| [renderer::gl::load_shader_generic]: Generating vert shader b9d6c2c90a406faa9766c2977118a9f6c76a2704a557e224a71f2aca9d241d61
-[22:09:07.046] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:07.046] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:07.046] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_color
-[22:09:07.046] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_UV
-[22:09:07.047] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float4) Model[4]
-[22:09:07.047] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (float4) ModelView[4]
-[22:09:07.047] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) ViewProjection[4]
-[22:09:07.048] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (half3) g_af3PtLitPosW0
-[22:09:07.048] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (half3) g_af3PtLitPosW1
-[22:09:07.048] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (half3) g_af3PtLitPosW2
-[22:09:07.049] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (half3) g_af3PtLitPosW3
-[22:09:07.049] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (half3) g_af3PtLitCol0
-[22:09:07.049] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (half3) g_af3PtLitCol1
-[22:09:07.050] |D| [shader::create_parameters]: [DEFAULT  + 78] sa78 = (half3) g_af3PtLitCol2
-[22:09:07.050] |D| [shader::create_parameters]: [DEFAULT  + 80] sa80 = (half3) g_af3PtLitCol3
-[22:09:07.051] |D| [shader::create_parameters]: [DEFAULT  + 82] sa82 = (half3) g_af3PtLitAtten0
-[22:09:07.051] |D| [shader::create_parameters]: [DEFAULT  + 84] sa84 = (half3) g_af3PtLitAtten1
-[22:09:07.051] |D| [shader::create_parameters]: [DEFAULT  + 86] sa86 = (half3) g_af3PtLitAtten2
-[22:09:07.052] |D| [shader::create_parameters]: [DEFAULT  + 88] sa88 = (half3) g_af3PtLitAtten3
-[22:09:07.052] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (int1) g_nDualFace
-[22:09:07.052] |D| [shader::create_parameters]: [DEFAULT  + 90] sa90 = (half3) g_f3DarkColor
-[22:09:07.053] |D| [shader::create_parameters]: [DEFAULT  + 92] sa92 = (half4) g_lightEnable
-[22:09:07.053] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) g_windAll[4]
-[22:09:07.053] |D| [shader::create_parameters]: [DEFAULT  + 94] sa94 = (half3) g_f3OneShotPosW
-[22:09:07.054] |D| [shader::create_parameters]: [DEFAULT  + 96] sa96 = (half3) g_f3OneShotCol
-[22:09:07.054] |D| [shader::create_parameters]: [DEFAULT  + 98] sa98 = (half3) g_f3OneShotAtten
-[22:09:07.054] |D| [shader::create_parameters]: [DEFAULT  + 100] sa100 = (float1) fogDistanceMin
-[22:09:07.055] |D| [shader::create_parameters]: [DEFAULT  + 101] sa101 = (float1) fogDistanceMax
-[22:09:07.057] |D| [shader::create_parameters]: [DEFAULT  + 102] sa102 = (float1) fogRitu
-[22:09:07.057] |D| [shader::create_parameters]: [DEFAULT  + 103] sa103 = (half1) overlayH
-[22:09:07.057] |D| [shader::create_parameters]: [DEFAULT  + 104] sa104 = (half1) overlayFallOffMin
-[22:09:07.058] |D| [shader::create_parameters]: [DEFAULT  + 105] sa105 = (half1) overlayFallOffMax
-[22:09:08.343] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(25) : warning C7050: "pa[0].zw" might be used before being initialized
-0(25) : warning C7050: "pa[1]" might be used before being initialized
-0(28) : warning C7050: "r[0]" might be used before being initialized
-
-
-[22:09:08.368] |I| [renderer::gl::load_shader_generic]: Generating frag shader 1a16074af2189c0c83475edf59122ccbe1e47eb0570efa0dea2c8e4ec9f021f3
-[22:09:08.369] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) HdrRangeInv
-[22:09:08.369] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) fogColor
-[22:09:08.370] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half1) overlayModifier
-[22:09:08.370] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) diffuse
-[22:09:08.371] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:08.371] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half1) v_TexCoord2
-[22:09:08.371] |D| [shader::create_fragment_inputs]: Iterator: pa5 = (half2) v_TexCoord5
-[22:09:09.560] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(25) : warning C7050: "pa[0].zw" might be used before being initialized
-0(25) : warning C7050: "pa[1]" might be used before being initialized
-0(28) : warning C7050: "r[0].xyw" might be used before being initialized
-
-
-[22:09:09.605] |I| [renderer::gl::load_shader_generic]: Generating frag shader bf868aaac9379db8aa0af43e80676d33f1f0e023f6727bf1ab0a3825fa233932
-[22:09:09.607] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) g_alpha_ref
-[22:09:09.607] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) HdrRange
-[22:09:09.607] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:09:09.608] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_Color1
-[22:09:09.608] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float1) v_TexCoord1
-[22:09:09.617] |I| [renderer::gl::load_shader_generic]: Generating vert shader b80804e936aa0d0380c61b923fd4a616e056a090fdb79998f12e3307680bf2d6
-[22:09:09.618] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:09.618] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_UV
-[22:09:09.618] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) WvpXf[4]
-[22:09:09.619] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) WorldXf[4]
-[22:09:09.619] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) WvIXf[4]
-[22:09:09.619] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) WvXf[4]
-[22:09:09.620] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float4) diffuse
-[22:09:09.620] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float1) fogDistanceMin
-[22:09:09.620] |D| [shader::create_parameters]: [DEFAULT  + 69] sa69 = (float1) fogDistanceMax
-[22:09:09.621] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float1) fogRitu
-[22:09:09.621] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float4) fogColor
-[22:09:09.676] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(26) : warning C7050: "internals[0].zw" might be used before being initialized
-0(26) : warning C7050: "internals[1].w" might be used before being initialized
-0(26) : warning C7050: "internals[2].w" might be used before being initialized
-0(27) : warning C7050: "r[0]" might be used before being initialized
-0(27) : warning C7050: "r[1]" might be used before being initialized
-0(27) : warning C7050: "r[2]" might be used before being initialized
-0(27) : warning C7050: "r[3]" might be used before being initialized
-0(27) : warning C7050: "r[4]" might be used before being initialized
-0(27) : warning C7050: "r[5]" might be used before being initialized
-
-Fragment info
--------------
-0(24) : warning C7050: "pa[3]" might be used before being initialized
-0(26) : warning C7050: "internals[0].w" might be used before being initialized
-0(26) : warning C7050: "internals[1].w" might be used before being initialized
-0(26) : warning C7050: "internals[2]" might be used before being initialized
-
-
-[22:09:09.685] |I| [renderer::gl::load_shader_generic]: Generating frag shader 9d7a3c3600217b1d314a254b55c7604b698ea9ffb6d52464f2916932fea26175
-[22:09:09.687] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) HdrRange
-[22:09:09.687] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:09:09.692] |I| [renderer::gl::load_shader_generic]: Generating vert shader b12b54f04ef2d20982543263d0e883598fa75b0b41de07ab30ddef98f9224b5f
-[22:09:09.694] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:09.694] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
-[22:09:09.694] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:09.694] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) WvpXf[4]
-[22:09:09.695] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) gTimer
-[22:09:09.695] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) diffuse
-[22:09:09.695] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float1) uSpeed
-[22:09:09.696] |D| [shader::create_parameters]: [DEFAULT  + 23] sa23 = (float1) vSpeed
-[22:09:09.702] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(25) : warning C7050: "internals[0].w" might be used before being initialized
-
-Fragment info
--------------
+0(24) : warning C7050: "internals[0].w" might be used before being initialized
 0(24) : warning C7050: "internals[1]" might be used before being initialized
 
 
-[22:09:09.708] |I| [renderer::gl::load_shader_generic]: Generating frag shader ecd6a0d1db523e5eb4d89f56f714e93153627d14425ff511d2e8414fc5926b62
-[22:09:09.710] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) g_alpha_ref
-[22:09:09.710] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (half1) HdrRange
-[22:09:09.711] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:09.711] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[22:09:09.711] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half1) v_TexCoord1
-[22:09:09.719] |I| [renderer::gl::load_shader_generic]: Generating vert shader d80a1c5eff93fc3818cf8409f1fe13d77a77e4d9e10bd63b222d1f9dd833e0a0
-[22:09:09.720] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:09.720] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
-[22:09:09.721] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:09.721] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) WvpXf[4]
-[22:09:09.722] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) WvXf[4]
-[22:09:09.722] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float1) gTimer
-[22:09:09.722] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float4) diffuse
-[22:09:09.723] |D| [shader::create_parameters]: [DEFAULT  + 38] sa38 = (float1) uSpeed
-[22:09:09.723] |D| [shader::create_parameters]: [DEFAULT  + 39] sa39 = (float1) vSpeed
-[22:09:09.725] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float1) fogDistanceMin
-[22:09:09.725] |D| [shader::create_parameters]: [DEFAULT  + 41] sa41 = (float1) fogDistanceMax
-[22:09:09.726] |D| [shader::create_parameters]: [DEFAULT  + 42] sa42 = (float1) fogRitu
-[22:09:09.726] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) fogColor
-[22:09:09.764] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(27) : warning C7050: "internals[0]" might be used before being initialized
-0(27) : warning C7050: "internals[1]" might be used before being initialized
-
-Fragment info
+[01:29:23.899] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[01:29:27.739] |E| [call_import]: Import function for NID 0xE340C006 not found (thread name: PCSB00700, thread ID: 8)
+[01:29:28.632] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3b1c82de1bccba70efe7a58be31a8bd47d1fade7cb925f6e1508793fe4e3ec0a
+[01:29:28.634] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[01:29:28.638] |I| [renderer::gl::load_shader_generic]: Generating vert shader 02a43cfa7054cc2f565406bd716322073dae0edce672c48be0fef2d666d84d89
+[01:29:28.639] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
+[01:29:28.639] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[01:29:28.651] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[01:29:28.677] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3722ba60c14c64d46349e988002752b8875ac0906a8d21e8486c3acac4d18756
+[01:29:28.679] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[01:29:28.681] |D| [shader::usse::USSETranslatorVisitor::vtst]: load_data_type: 5, bits max: 8
+[01:29:28.687] |I| [renderer::gl::load_shader_generic]: Generating vert shader 8c5e2815490b9fbe6b5401f9371086dd1c601ad69de09456ec54845f072c564c
+[01:29:28.689] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
+[01:29:28.689] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[01:29:28.689] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord
+[01:29:28.703] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(24) : warning C7050: "pa[0].zw" might be used before being initialized
-0(24) : warning C7050: "pa[1].zw" might be used before being initialized
-
-
-[22:09:09.781] |D| [renderer::gl::texture::translate_format]: Using X8U24
-[22:09:09.781] |D| [renderer::gl::texture::upload_bound_texture]: Using X8U24
-[22:09:09.782] |D| [renderer::gl::texture::translate_format]: Using X8U24
-[22:09:09.784] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8777d3e08b3f66fffec1b2d4fd7a4c754ad688e225103275d37a363b508540e9
-[22:09:09.785] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half3) fogColor
-[22:09:09.786] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half1) HdrRangeInv
-[22:09:09.786] |D| [shader::create_parameters]: [DEFAULT  + 3] sa3 = (half1) overlayModifier
-[22:09:09.787] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half4) diffuse
-[22:09:09.787] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:09.787] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord3
-[22:09:09.788] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half1) v_TexCoord2
-[22:09:09.788] |D| [shader::create_fragment_inputs]: Iterator: pa9 = (float1) v_TexCoord4
-[22:09:09.788] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half2) v_TexCoord5
-[22:09:09.799] |E| [shader::usse::USSETranslatorVisitor::smp]: Sampler LOD custom mode not implemented!
-[22:09:09.817] |I| [renderer::gl::load_shader_generic]: Generating vert shader bcc5ddad48a8352f02cbb8cce166c67352eca0fc9cd1b33a7d2175834dce0bc2
-[22:09:09.819] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:09.819] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:09.819] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_color
-[22:09:09.819] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_UV
-[22:09:09.820] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (float4) Model[4]
-[22:09:09.820] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float4) ModelView[4]
-[22:09:09.820] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) ViewProjection[4]
-[22:09:09.821] |D| [shader::create_parameters]: [DEFAULT  + 82] sa82 = (half3) g_af3PtLitPosW0
-[22:09:09.821] |D| [shader::create_parameters]: [DEFAULT  + 84] sa84 = (half3) g_af3PtLitPosW1
-[22:09:09.821] |D| [shader::create_parameters]: [DEFAULT  + 86] sa86 = (half3) g_af3PtLitPosW2
-[22:09:09.822] |D| [shader::create_parameters]: [DEFAULT  + 88] sa88 = (half3) g_af3PtLitPosW3
-[22:09:09.822] |D| [shader::create_parameters]: [DEFAULT  + 90] sa90 = (half3) g_af3PtLitCol0
-[22:09:09.823] |D| [shader::create_parameters]: [DEFAULT  + 92] sa92 = (half3) g_af3PtLitCol1
-[22:09:09.823] |D| [shader::create_parameters]: [DEFAULT  + 94] sa94 = (half3) g_af3PtLitCol2
-[22:09:09.823] |D| [shader::create_parameters]: [DEFAULT  + 96] sa96 = (half3) g_af3PtLitCol3
-[22:09:09.824] |D| [shader::create_parameters]: [DEFAULT  + 98] sa98 = (half3) g_af3PtLitAtten0
-[22:09:09.824] |D| [shader::create_parameters]: [DEFAULT  + 102] sa102 = (half3) g_af3PtLitAtten1
-[22:09:09.824] |D| [shader::create_parameters]: [DEFAULT  + 104] sa104 = (half3) g_af3PtLitAtten2
-[22:09:09.825] |D| [shader::create_parameters]: [DEFAULT  + 106] sa106 = (half3) g_af3PtLitAtten3
-[22:09:09.825] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (int1) g_nDualFace
-[22:09:09.825] |D| [shader::create_parameters]: [DEFAULT  + 108] sa108 = (half3) g_f3DarkColor
-[22:09:09.826] |D| [shader::create_parameters]: [DEFAULT  + 110] sa110 = (half4) g_lightEnable
-[22:09:09.826] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) g_windAll[4]
-[22:09:09.826] |D| [shader::create_parameters]: [DEFAULT  + 112] sa112 = (half3) g_f3OneShotPosW
-[22:09:09.827] |D| [shader::create_parameters]: [DEFAULT  + 114] sa114 = (half3) g_f3OneShotCol
-[22:09:09.827] |D| [shader::create_parameters]: [DEFAULT  + 116] sa116 = (half3) g_f3OneShotAtten
-[22:09:09.827] |D| [shader::create_parameters]: [DEFAULT  + 100] sa100 = (float1) fogDistanceMin
-[22:09:09.828] |D| [shader::create_parameters]: [DEFAULT  + 118] sa118 = (float1) fogDistanceMax
-[22:09:09.828] |D| [shader::create_parameters]: [DEFAULT  + 119] sa119 = (float1) fogRitu
-[22:09:09.828] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float4) PSSGLightModelViewProjTex[4]
-[22:09:09.829] |D| [shader::create_parameters]: [DEFAULT  + 120] sa120 = (float4) diffuse
-[22:09:09.829] |D| [shader::create_parameters]: [DEFAULT  + 124] sa124 = (float4) shadowLPos
-[22:09:09.829] |D| [shader::create_parameters]: [DEFAULT  + 128] sa128 = (half1) overlayH
-[22:09:09.830] |D| [shader::create_parameters]: [DEFAULT  + 129] sa129 = (half1) overlayFallOffMin
-[22:09:09.830] |D| [shader::create_parameters]: [DEFAULT  + 130] sa130 = (half1) overlayFallOffMax
-[22:09:11.286] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(28) : warning C7050: "pa[0].zw" might be used before being initialized
-0(28) : warning C7050: "pa[2]" might be used before being initialized
-0(31) : warning C7050: "r[0].zw" might be used before being initialized
-0(31) : warning C7050: "r[1]" might be used before being initialized
-0(30) : warning C7050: "internals[0]" might be used before being initialized
-
-
-[22:09:11.292] |I| [renderer::gl::load_shader_generic]: Generating frag shader e1bfd2459de28a348bb3c06ded603531c62dca0370064560754eac5b6a6f6add
-[22:09:11.294] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) g_lightAll[4]
-[22:09:11.294] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) diffuse
-[22:09:11.294] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) HdrRangeInv
-[22:09:11.294] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) fogColor
-[22:09:11.295] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
-[22:09:11.295] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half1) v_TexCoord4
-[22:09:11.316] |I| [renderer::gl::load_shader_generic]: Generating vert shader e958668431459f1137e414641f40140799422e8f2f4467cdb4172be385dfb9dc
-[22:09:11.317] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:11.317] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:11.318] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:11.318] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (half4) g_lightAll[4]
-[22:09:11.318] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) Model[4]
-[22:09:11.319] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewI[4]
-[22:09:11.319] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelViewProj[4]
-[22:09:11.319] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ModelView[4]
-[22:09:11.320] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float1) fogDistanceMin
-[22:09:11.320] |D| [shader::create_parameters]: [DEFAULT  + 73] sa73 = (float1) fogDistanceMax
-[22:09:11.320] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogRitu
-[22:09:11.443] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(26) : warning C7050: "internals[0]" might be used before being initialized
-0(26) : warning C7050: "internals[1]" might be used before being initialized
-0(26) : warning C7050: "internals[2].w" might be used before being initialized
-
-Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0].xyw" might be used before being initialized
-0(29) : warning C7050: "r[1].yzw" might be used before being initialized
-
-
-[22:09:11.445] |I| [renderer::gl::load_shader_generic]: Generating frag shader 82e1bec9ec544b4637c168b50a2d7e0380903cb1beb7cebeb1e4ff5a820da786
-[22:09:11.447] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) fogColor
-[22:09:11.447] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) g_lightAll[4]
-[22:09:11.447] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) HdrRange
-[22:09:11.448] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:11.448] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half1) v_TexCoord2
-[22:09:11.458] |I| [renderer::gl::load_shader_generic]: Generating vert shader 30abb35e8daeca0923c7bfbc905b655ef3aaba7c578d66c478999cc1118a2664
-[22:09:11.459] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:11.459] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:11.460] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:11.460] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
-[22:09:11.462] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) Model[4]
-[22:09:11.462] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float1) fogDistanceMin
-[22:09:11.463] |D| [shader::create_parameters]: [DEFAULT  + 49] sa49 = (float1) fogDistanceMax
-[22:09:11.463] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (float1) fogRitu
-[22:09:11.463] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:11.464] |D| [shader::create_parameters]: [DEFAULT  + 51] sa51 = (float1) edgeThickness
-[22:09:11.464] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) diffuse
-[22:09:11.530] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(26) : warning C7050: "internals[0]" might be used before being initialized
-0(26) : warning C7050: "internals[1]" might be used before being initialized
-
-Fragment info
--------------
-0(23) : warning C7050: "pa[0].zw" might be used before being initialized
-0(23) : warning C7050: "pa[1]" might be used before being initialized
-0(25) : warning C7050: "internals[0].w" might be used before being initialized
-0(26) : warning C7050: "r[0].zw" might be used before being initialized
-
-
-[22:09:11.532] |I| [renderer::gl::load_shader_generic]: Generating frag shader 825ed9e4f3e75d161d6b7ff9ca59e92dfa592d7608eeabca078eb80f2eb8c91c
-[22:09:11.533] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) g_lightAll[4]
-[22:09:11.533] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) diffuse
-[22:09:11.533] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) g_alpha_ref
-[22:09:11.534] |D| [shader::create_parameters]: [DEFAULT  + 11] sa11 = (half1) HdrRangeInv
-[22:09:11.534] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) fogColor
-[22:09:11.535] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
-[22:09:11.535] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
-[22:09:11.535] |D| [shader::create_fragment_inputs]: Iterator: pa5 = (half1) v_TexCoord4
-[22:09:11.643] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(26) : warning C7050: "internals[0]" might be used before being initialized
-0(26) : warning C7050: "internals[1]" might be used before being initialized
-0(26) : warning C7050: "internals[2].w" might be used before being initialized
-
-Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1].yzw" might be used before being initialized
-
-
-[22:09:11.644] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9c364d841e520082b589e6a20f5b19409d3ab2a368463557a3b06ead87faed9e
-[22:09:11.646] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_SkinnableVertex
-[22:09:11.646] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_SkinnableNormal
-[22:09:11.646] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:11.647] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_SkinWeights
-[22:09:11.647] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) IN_SkinIndices
-[22:09:11.647] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
-[22:09:11.648] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) Model[4]
-[22:09:11.648] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float1) fogDistanceMin
-[22:09:11.648] |D| [shader::create_parameters]: [DEFAULT  + 49] sa49 = (float1) fogDistanceMax
-[22:09:11.649] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (float1) fogRitu
-[22:09:11.649] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:11.649] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float4) skinMatrix[800]
-[22:09:11.650] |D| [shader::create_parameters]: [DEFAULT  + 51] sa51 = (float1) edgeThickness
-[22:09:11.650] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) diffuse
-[22:09:12.067] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(28) : warning C7050: "internals[0]" might be used before being initialized
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1].zw" might be used before being initialized
-0(29) : warning C7050: "r[2]" might be used before being initialized
-0(29) : warning C7050: "r[3]" might be used before being initialized
-0(29) : warning C7050: "r[4]" might be used before being initialized
-0(29) : warning C7050: "r[5]" might be used before being initialized
-0(29) : warning C7050: "r[6]" might be used before being initialized
-0(29) : warning C7050: "r[7]" might be used before being initialized
-0(29) : warning C7050: "r[8]" might be used before being initialized
-0(29) : warning C7050: "r[9]" might be used before being initialized
-0(29) : warning C7050: "r[10]" might be used before being initialized
-0(29) : warning C7050: "r[11]" might be used before being initialized
-0(29) : warning C7050: "r[12]" might be used before being initialized
-0(29) : warning C7050: "r[13]" might be used before being initialized
-0(29) : warning C7050: "r[14]" might be used before being initialized
-
-Fragment info
--------------
-0(23) : warning C7050: "pa[0].zw" might be used before being initialized
-0(23) : warning C7050: "pa[1]" might be used before being initialized
-0(25) : warning C7050: "internals[0].w" might be used before being initialized
-0(26) : warning C7050: "r[0].zw" might be used before being initialized
-
-
-[22:09:12.069] |I| [renderer::gl::load_shader_generic]: Generating vert shader a7ab745e649d0f8fd989065feac963637cfe3135fe57d4208c81a293b633eb22
-[22:09:12.071] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_SkinnableVertex
-[22:09:12.071] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_SkinnableNormal
-[22:09:12.071] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:12.072] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_SkinWeights
-[22:09:12.072] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) IN_SkinIndices
-[22:09:12.072] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (half4) g_lightAll[4]
-[22:09:12.073] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) Model[4]
-[22:09:12.073] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewI[4]
-[22:09:12.073] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelViewProj[4]
-[22:09:12.074] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (float4) skinMatrix[800]
-[22:09:12.074] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ModelView[4]
-[22:09:12.074] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float1) fogDistanceMin
-[22:09:12.075] |D| [shader::create_parameters]: [DEFAULT  + 73] sa73 = (float1) fogDistanceMax
-[22:09:12.075] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogRitu
-[22:09:12.490] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(28) : warning C7050: "internals[0]" might be used before being initialized
-0(28) : warning C7050: "internals[1].w" might be used before being initialized
-0(28) : warning C7050: "internals[2].w" might be used before being initialized
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1]" might be used before being initialized
-0(29) : warning C7050: "r[2].zw" might be used before being initialized
-0(29) : warning C7050: "r[3].zw" might be used before being initialized
-
-Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0].xyw" might be used before being initialized
-0(29) : warning C7050: "r[1].yzw" might be used before being initialized
-
-
-[22:09:12.499] |I| [renderer::gl::load_shader_generic]: Generating frag shader 5de3878f2671a5b09c3bd137f8b47a5daf2070a3ceaa1128a391d86429717acc
-[22:09:12.500] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) g_lightAll[4]
-[22:09:12.500] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) diffuse
-[22:09:12.500] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) fogColor
-[22:09:12.501] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) HdrRangeInv
-[22:09:12.501] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
-[22:09:12.501] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half1) v_TexCoord4
-[22:09:12.520] |I| [renderer::gl::load_shader_generic]: Generating vert shader e61220ecc9e04bdabb062194e6d0acc4f8e2efb5b5e0d9cdf0d6e1d3d201f927
-[22:09:12.522] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_SkinnableVertex
-[22:09:12.522] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_SkinnableNormal
-[22:09:12.522] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:12.522] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_SkinWeights
-[22:09:12.523] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) IN_SkinIndices
-[22:09:12.523] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (half4) g_lightAll[4]
-[22:09:12.523] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) Model[4]
-[22:09:12.524] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewI[4]
-[22:09:12.524] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelViewProj[4]
-[22:09:12.525] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (float4) skinMatrix[800]
-[22:09:12.525] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ModelView[4]
-[22:09:12.525] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float1) fogDistanceMin
-[22:09:12.526] |D| [shader::create_parameters]: [DEFAULT  + 73] sa73 = (float1) fogDistanceMax
-[22:09:12.526] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogRitu
-[22:09:12.980] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1]" might be used before being initialized
-0(29) : warning C7050: "r[2].zw" might be used before being initialized
-0(29) : warning C7050: "r[3].zw" might be used before being initialized
-0(28) : warning C7050: "internals[1].w" might be used before being initialized
-0(28) : warning C7050: "internals[2].w" might be used before being initialized
-
-Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0].xyw" might be used before being initialized
-0(29) : warning C7050: "r[1].yzw" might be used before being initialized
-
-
-[22:09:12.990] |I| [renderer::gl::load_shader_generic]: Generating frag shader dbed2bf3a49f40b9131626c4a4d1b0d3ac4ece484865ec33beb91d91337f54ec
-[22:09:12.991] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) fogColor
-[22:09:12.991] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) g_lightAll[4]
-[22:09:12.992] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) HdrRange
-[22:09:12.992] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:12.992] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half1) v_TexCoord2
-[22:09:13.033] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(26) : warning C7050: "internals[0]" might be used before being initialized
-0(26) : warning C7050: "internals[1]" might be used before being initialized
-
-Fragment info
--------------
-0(23) : warning C7050: "pa[0].zw" might be used before being initialized
-0(23) : warning C7050: "pa[1]" might be used before being initialized
-0(25) : warning C7050: "internals[0].w" might be used before being initialized
-
-
-[22:09:13.036] |I| [renderer::gl::load_shader_generic]: Generating frag shader 9365d748843a30673f7685f5f6c7d28e4c607a9a48669975690ae89af0ea439e
-[22:09:13.038] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) g_lightAll[4]
-[22:09:13.038] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) diffuse
-[22:09:13.038] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) g_alpha_ref
-[22:09:13.038] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) fogColor
-[22:09:13.039] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half1) HdrRangeInv
-[22:09:13.039] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
-[22:09:13.039] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
-[22:09:13.040] |D| [shader::create_fragment_inputs]: Iterator: pa5 = (half1) v_TexCoord4
-[22:09:13.061] |I| [renderer::gl::load_shader_generic]: Generating vert shader b02f59df6125c61629872e979ae6efed32fd4c92bc90ed16fc10b3a5791cbcab
-[22:09:13.062] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:13.062] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:13.063] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:13.063] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (half4) g_lightAll[4]
-[22:09:13.063] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) Model[4]
-[22:09:13.064] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewI[4]
-[22:09:13.064] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelViewProj[4]
-[22:09:13.064] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ModelView[4]
-[22:09:13.065] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float1) fogDistanceMin
-[22:09:13.065] |D| [shader::create_parameters]: [DEFAULT  + 73] sa73 = (float1) fogDistanceMax
-[22:09:13.065] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogRitu
-[22:09:13.199] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(26) : warning C7050: "internals[1]" might be used before being initialized
-0(26) : warning C7050: "internals[2].w" might be used before being initialized
-0(27) : warning C7050: "r[0].yzw" might be used before being initialized
-
-Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1].yzw" might be used before being initialized
-
-
-[22:09:13.203] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4154d7c40ac66ada26228dec187df373f552f47329492383c46e0d93999d079e
-[22:09:13.204] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) HdrRange
-[22:09:13.204] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float3) g_f3LitColor0
-[22:09:13.205] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) g_fLitAtten0
-[22:09:13.205] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float3) g_f3DarkColor
-[22:09:13.205] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float3) fogColor
-[22:09:13.206] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[22:09:13.206] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
-[22:09:13.206] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
-[22:09:13.207] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
-[22:09:13.207] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_Color0
-[22:09:13.208] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (half1) v_TexCoord4
-[22:09:13.244] |I| [renderer::gl::load_shader_generic]: Generating vert shader 96c20d384b8f958f23d70bc695a95188538dcd81b98a926fd3f78bf3eab540e4
-[22:09:13.246] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:13.246] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:13.246] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:13.247] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) Model[4]
-[22:09:13.247] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) ModelView[4]
-[22:09:13.248] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ViewI[4]
-[22:09:13.248] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:13.248] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float1) g_UOffset
-[22:09:13.249] |D| [shader::create_parameters]: [DEFAULT  + 65] sa65 = (float1) g_VOffset
-[22:09:13.249] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float1) g_UScale
-[22:09:13.249] |D| [shader::create_parameters]: [DEFAULT  + 67] sa67 = (float1) g_VScale
-[22:09:13.250] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float1) g_UVRotation
-[22:09:13.250] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float4) diffuse
-[22:09:13.250] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogDistanceMin
-[22:09:13.251] |D| [shader::create_parameters]: [DEFAULT  + 75] sa75 = (float1) fogDistanceMax
-[22:09:13.251] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (float1) fogRitu
-[22:09:13.328] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(29) : warning C7050: "internals[0]" might be used before being initialized
-0(29) : warning C7050: "internals[1]" might be used before being initialized
-0(29) : warning C7050: "internals[2].zw" might be used before being initialized
-0(30) : warning C7050: "r[0].zw" might be used before being initialized
-
-Fragment info
--------------
-0(29) : warning C7050: "pa[5]" might be used before being initialized
-0(31) : warning C7050: "internals[0].w" might be used before being initialized
-0(31) : warning C7050: "internals[2].w" might be used before being initialized
-0(32) : warning C7050: "r[0].zw" might be used before being initialized
-0(32) : warning C7050: "r[1].zw" might be used before being initialized
-
-
-[22:09:13.332] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8ec69ec8572d2a1486acbddc566ad524f7d390f89e294ef19b7405defd86d548
-[22:09:13.333] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) HdrRange
-[22:09:13.333] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float3) g_f3LitColor0
-[22:09:13.333] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) g_fLitAtten0
-[22:09:13.334] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float3) g_f3DarkColor
-[22:09:13.334] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float3) fogColor
-[22:09:13.335] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[22:09:13.335] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
-[22:09:13.335] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
-[22:09:13.335] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
-[22:09:13.336] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_Color0
-[22:09:13.336] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (half1) v_TexCoord4
-[22:09:13.371] |I| [renderer::gl::load_shader_generic]: Generating vert shader c5feb946e84a5c6c976fd201c68dce0317b60e46ad5bb2cadece180438059025
-[22:09:13.372] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:13.372] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:13.373] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:13.373] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) Model[4]
-[22:09:13.373] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) ModelView[4]
-[22:09:13.374] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ViewI[4]
-[22:09:13.374] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:13.374] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float1) g_UOffset
-[22:09:13.375] |D| [shader::create_parameters]: [DEFAULT  + 65] sa65 = (float1) g_VOffset
-[22:09:13.375] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float1) g_UScale
-[22:09:13.375] |D| [shader::create_parameters]: [DEFAULT  + 67] sa67 = (float1) g_VScale
-[22:09:13.376] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float1) g_UVRotation
-[22:09:13.376] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float4) diffuse
-[22:09:13.376] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogDistanceMin
-[22:09:13.377] |D| [shader::create_parameters]: [DEFAULT  + 75] sa75 = (float1) fogDistanceMax
-[22:09:13.377] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (float1) fogRitu
-[22:09:13.452] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(29) : warning C7050: "internals[0]" might be used before being initialized
-0(29) : warning C7050: "internals[1]" might be used before being initialized
-0(29) : warning C7050: "internals[2].zw" might be used before being initialized
-0(30) : warning C7050: "r[0].zw" might be used before being initialized
-
-Fragment info
--------------
-0(29) : warning C7050: "pa[5]" might be used before being initialized
-0(31) : warning C7050: "internals[0].w" might be used before being initialized
-0(31) : warning C7050: "internals[2].w" might be used before being initialized
-0(32) : warning C7050: "r[0].zw" might be used before being initialized
-0(32) : warning C7050: "r[1].zw" might be used before being initialized
-
-
-[22:09:13.811] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(28) : warning C7050: "internals[0]" might be used before being initialized
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1].zw" might be used before being initialized
-0(29) : warning C7050: "r[2]" might be used before being initialized
-0(29) : warning C7050: "r[3]" might be used before being initialized
-0(29) : warning C7050: "r[4]" might be used before being initialized
-0(29) : warning C7050: "r[5]" might be used before being initialized
-0(29) : warning C7050: "r[6]" might be used before being initialized
-0(29) : warning C7050: "r[7]" might be used before being initialized
-0(29) : warning C7050: "r[8]" might be used before being initialized
-0(29) : warning C7050: "r[9]" might be used before being initialized
-0(29) : warning C7050: "r[10]" might be used before being initialized
-0(29) : warning C7050: "r[11]" might be used before being initialized
-0(29) : warning C7050: "r[12]" might be used before being initialized
-0(29) : warning C7050: "r[13]" might be used before being initialized
-0(29) : warning C7050: "r[14]" might be used before being initialized
-
-Fragment info
--------------
-0(23) : warning C7050: "pa[0].zw" might be used before being initialized
-0(23) : warning C7050: "pa[1]" might be used before being initialized
-0(25) : warning C7050: "internals[0].w" might be used before being initialized
-
-
-[22:09:14.201] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1]" might be used before being initialized
-0(29) : warning C7050: "r[2].zw" might be used before being initialized
-0(29) : warning C7050: "r[3].zw" might be used before being initialized
-0(28) : warning C7050: "internals[1].w" might be used before being initialized
-0(28) : warning C7050: "internals[2].w" might be used before being initialized
-
-Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0]" might be used before being initialized
-0(29) : warning C7050: "r[1].yzw" might be used before being initialized
-
-
-[22:09:14.242] |D| [renderer::gl::texture::translate_format]: Using X8U24
-[22:09:14.242] |D| [renderer::gl::texture::upload_bound_texture]: Using X8U24
-[22:09:14.244] |D| [renderer::gl::texture::translate_format]: Using X8U24
-[22:09:14.247] |I| [renderer::gl::load_shader_generic]: Generating frag shader 873e8ad0ce218336fea07d4e88e3d2b445127429b5f72ef9767633c1a2d80eaf
-[22:09:14.253] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(17) : warning C7050: "sa[0]" might be used before being initialized
-0(19) : warning C7050: "r[0]" might be used before being initialized
-
-
-[22:09:14.254] |I| [renderer::gl::load_shader_generic]: Generating frag shader adb72fb907f04f80ec7316b2c36b5c3835d1e679dba9ce2e3db65792c280f82b
-[22:09:14.255] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) HdrRange
-[22:09:14.255] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:09:14.265] |I| [renderer::gl::load_shader_generic]: Generating vert shader 5665f787d4f89ef220495c6216b5fc0be288ab89e0fc33c7e097cc03ca325222
-[22:09:14.266] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_Position
-[22:09:14.266] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
-[22:09:14.266] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_ST
-[22:09:14.266] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input_ParticleITime
-[22:09:14.267] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) input_ParticleIColor
-[22:09:14.267] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) input_ParticleLocalSpaceMatRight
-[22:09:14.269] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) input_ParticleLocalSpaceMatUp
-[22:09:14.270] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) input_ParticleLocalSpaceMatAt
-[22:09:14.270] |D| [shader::create_parameters]: [BUFFER0  + 32] pa32 = (float4) input_ParticleLocalSpaceMatPos
-[22:09:14.270] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float1) uSpeed
-[22:09:14.271] |D| [shader::create_parameters]: [DEFAULT  + 33] sa33 = (float1) vSpeed
-[22:09:14.271] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:14.271] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelViewI[4]
-[22:09:14.283] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(31) : warning C7050: "internals[0].w" might be used before being initialized
-
-
-[22:09:14.289] |I| [renderer::gl::load_shader_generic]: Generating frag shader b1e423a82e333f4d62dd15dc209854c5b8ed47257f51728999409f275caa84fd
-[22:09:14.294] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(18) : warning C7050: "sa[0]" might be used before being initialized
-0(17) : warning C7050: "pa[0].zw" might be used before being initialized
-0(17) : warning C7050: "pa[1].zw" might be used before being initialized
-0(20) : warning C7050: "r[0]" might be used before being initialized
-
-
-[22:09:14.295] |I| [renderer::gl::load_shader_generic]: Generating frag shader e4e17cd7d77cc474b96d9791acb3b936143935ba8ed0c46da49a334230f6a786
-[22:09:14.305] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(20) : warning C7050: "sa[0].w" might be used before being initialized
-
-
-[22:09:14.309] |I| [renderer::gl::load_shader_generic]: Generating frag shader 32907473e0bfb202c3cfadfb9c568afe4a8a50c4b43c1548b34dbed0ccb1f081
-[22:09:14.311] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) HdrShift
-[22:09:14.325] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(21) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[22:09:14.329] |I| [renderer::gl::load_shader_generic]: Generating frag shader c77f35fdd22b98a703d160bd9d4d5953be31a13d31891ae9f98958a8c71a5730
-[22:09:14.330] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
-[22:09:14.330] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord2
-[22:09:14.331] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
-[22:09:14.338] |I| [renderer::gl::load_shader_generic]: Generating vert shader b18edd7b037ebabdd43da12ec50dda82cc0cfae1ec261bb96c1d4e0430957f76
-[22:09:14.340] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_screenVertex
-[22:09:14.340] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_UV
-[22:09:14.340] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) TexelSize
-[22:09:14.350] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(19) : warning C7050: "pa[1].xy" might be used before being initialized
-0(19) : warning C7050: "pa[2].zw" might be used before being initialized
-0(19) : warning C7050: "pa[4].zw" might be used before being initialized
-
-
-[22:09:14.353] |I| [renderer::gl::load_shader_generic]: Generating vert shader d8c0beb979e8ad7d65fd818a77c3a6ab2ac6885243e26181259f4a36d164d164
-[22:09:14.355] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_screenVertex
-[22:09:14.355] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_UV
-[22:09:14.355] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) TexelSize
-[22:09:14.366] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(19) : warning C7050: "pa[1].xy" might be used before being initialized
-0(19) : warning C7050: "pa[2].zw" might be used before being initialized
-0(19) : warning C7050: "pa[4].zw" might be used before being initialized
-
-
-[22:09:14.369] |I| [renderer::gl::load_shader_generic]: Generating frag shader 0a434e70338bd431e22b2a5ec9e0cb80898caceeba6e4e835a31b8cd23f54aed
-[22:09:14.370] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) GlowApplyAmount
-[22:09:14.375] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(22) : warning C7050: "pa[0].zw" might be used before being initialized
-0(24) : warning C7050: "internals[0]" might be used before being initialized
-0(24) : warning C7050: "internals[1]" might be used before being initialized
-
-
-[22:09:14.490] |I| [renderer::gl::load_shader_generic]: Generating frag shader 672ffe6dd08e527f718a1a389aa09ced23525819de6a2ea175eec9c58baf89af
-[22:09:14.492] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) HdrRangeInv
-[22:09:14.493] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (half1) g_alpha_ref
-[22:09:14.493] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) fogColor
-[22:09:14.493] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half1) overlayModifier
-[22:09:14.494] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) diffuse
-[22:09:14.494] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:14.494] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (float2) v_Position
-[22:09:14.495] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
-[22:09:14.495] |D| [shader::create_fragment_inputs]: Iterator: pa5 = (half1) v_TexCoord2
-[22:09:14.495] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half2) v_TexCoord5
-[22:09:15.630] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0].zw" might be used before being initialized
-
-
-[22:09:16.667] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(26) : warning C7050: "internals[1]" might be used before being initialized
-0(26) : warning C7050: "internals[2].w" might be used before being initialized
-0(27) : warning C7050: "r[0].yzw" might be used before being initialized
-
-Fragment info
--------------
-0(26) : warning C7050: "pa[0].zw" might be used before being initialized
-0(26) : warning C7050: "pa[1]" might be used before being initialized
-0(29) : warning C7050: "r[0].xyw" might be used before being initialized
-0(29) : warning C7050: "r[1].yzw" might be used before being initialized
-
-
-[22:09:16.685] |I| [renderer::gl::load_shader_generic]: Generating frag shader ac510d2d313c7900d662abb27d98b881344ef7acdb9deb575fcab3b13fcd8bfb
-[22:09:16.687] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) HdrRange
-[22:09:16.687] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float3) g_f3LitColor0
-[22:09:16.688] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) g_fLitAtten0
-[22:09:16.688] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float3) g_f3DarkColor
-[22:09:16.689] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float3) fogColor
-[22:09:16.689] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[22:09:16.689] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
-[22:09:16.690] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
-[22:09:16.690] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
-[22:09:16.690] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_Color0
-[22:09:16.691] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (half1) v_TexCoord4
-[22:09:16.724] |I| [renderer::gl::load_shader_generic]: Generating vert shader 5686d5e691d232b35b81950a6acb2d788a78f87ba8ff197b0a679c039da64c54
-[22:09:16.726] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:16.726] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:16.726] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:16.726] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) Model[4]
-[22:09:16.727] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) ModelView[4]
-[22:09:16.727] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ViewI[4]
-[22:09:16.727] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:16.728] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float1) g_UOffset
-[22:09:16.728] |D| [shader::create_parameters]: [DEFAULT  + 65] sa65 = (float1) g_VOffset
-[22:09:16.728] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float1) g_UScale
-[22:09:16.729] |D| [shader::create_parameters]: [DEFAULT  + 67] sa67 = (float1) g_VScale
-[22:09:16.729] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float1) g_UVRotation
-[22:09:16.729] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float4) diffuse
-[22:09:16.730] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogDistanceMin
-[22:09:16.730] |D| [shader::create_parameters]: [DEFAULT  + 75] sa75 = (float1) fogDistanceMax
-[22:09:16.730] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (float1) fogRitu
-[22:09:16.807] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(29) : warning C7050: "internals[0]" might be used before being initialized
-0(29) : warning C7050: "internals[1]" might be used before being initialized
-0(29) : warning C7050: "internals[2].zw" might be used before being initialized
-0(30) : warning C7050: "r[0].zw" might be used before being initialized
-
-Fragment info
--------------
-0(29) : warning C7050: "pa[5]" might be used before being initialized
-0(31) : warning C7050: "internals[0].w" might be used before being initialized
-0(31) : warning C7050: "internals[2].w" might be used before being initialized
-0(32) : warning C7050: "r[0].zw" might be used before being initialized
-0(32) : warning C7050: "r[1].zw" might be used before being initialized
-
-
-[22:09:16.810] |I| [renderer::gl::load_shader_generic]: Generating frag shader 11cae11ff3bd18df8c6b1a8d9908b1d5e45512d9c1fb35e9e3904dce1463efb4
-[22:09:16.812] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) HdrRange
-[22:09:16.812] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float3) g_f3LitColor0
-[22:09:16.812] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) g_fLitAtten0
-[22:09:16.812] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float3) g_f3DarkColor
-[22:09:16.813] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float3) fogColor
-[22:09:16.813] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[22:09:16.813] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
-[22:09:16.814] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
-[22:09:16.814] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
-[22:09:16.814] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_Color0
-[22:09:16.815] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (half1) v_TexCoord4
-[22:09:16.849] |I| [renderer::gl::load_shader_generic]: Generating vert shader 0c31e76bd02fc21e6cdd3e0f93361012981211f406d733604d845123f7fd63e5
-[22:09:16.850] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:16.850] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:16.850] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:16.851] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) Model[4]
-[22:09:16.851] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) ModelView[4]
-[22:09:16.851] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) ViewI[4]
-[22:09:16.852] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:16.852] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float1) g_UOffset
-[22:09:16.852] |D| [shader::create_parameters]: [DEFAULT  + 65] sa65 = (float1) g_VOffset
-[22:09:16.853] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float1) g_UScale
-[22:09:16.853] |D| [shader::create_parameters]: [DEFAULT  + 67] sa67 = (float1) g_VScale
-[22:09:16.853] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float1) g_UVRotation
-[22:09:16.854] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float4) diffuse
-[22:09:16.854] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float1) fogDistanceMin
-[22:09:16.854] |D| [shader::create_parameters]: [DEFAULT  + 75] sa75 = (float1) fogDistanceMax
-[22:09:16.855] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (float1) fogRitu
-[22:09:16.930] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(29) : warning C7050: "internals[0]" might be used before being initialized
-0(29) : warning C7050: "internals[1]" might be used before being initialized
-0(29) : warning C7050: "internals[2].zw" might be used before being initialized
-0(30) : warning C7050: "r[0].zw" might be used before being initialized
-
-Fragment info
--------------
-0(29) : warning C7050: "pa[5]" might be used before being initialized
-0(31) : warning C7050: "internals[0].w" might be used before being initialized
-0(31) : warning C7050: "internals[2].w" might be used before being initialized
-0(32) : warning C7050: "r[0].zw" might be used before being initialized
-0(32) : warning C7050: "r[1].zw" might be used before being initialized
-
-
-[22:09:23.473] |E| [call_import]: Import function for NID 0xF9C0F5DA not found (thread name: PCSB00700, thread ID: 8)
-[22:09:23.993] |I| [renderer::gl::load_shader_generic]: Generating frag shader 1a504bf1f9ccdadd50d3d88255f83adf69643df19cbf79ccdf316c4949e1e5ca
-[22:09:23.995] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) HdrRange
-[22:09:23.995] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:09:24.000] |I| [renderer::gl::load_shader_generic]: Generating vert shader 0ef81477cdad8252dbb1c931a7db9275eb273993a8e6f7b43166645054c7ced1
-[22:09:24.001] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:24.001] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
-[22:09:24.002] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:24.002] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) WvpXf[4]
-[22:09:24.002] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) gTimer
-[22:09:24.003] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) diffuse
-[22:09:24.003] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float1) uSpeed
-[22:09:24.003] |D| [shader::create_parameters]: [DEFAULT  + 23] sa23 = (float1) vSpeed
-[22:09:24.010] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(25) : warning C7050: "internals[0].w" might be used before being initialized
-
-Fragment info
--------------
-0(24) : warning C7050: "internals[1]" might be used before being initialized
-
-
-[22:09:24.016] |I| [renderer::gl::load_shader_generic]: Generating frag shader fea95f9940c3f56780be0953a2bf1f3a55f506468e32049ba3b1c5a3c503db00
-[22:09:24.017] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) g_alpha_ref
-[22:09:24.017] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (half1) HdrRange
-[22:09:24.018] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:24.018] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[22:09:24.018] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half1) v_TexCoord1
-[22:09:24.026] |I| [renderer::gl::load_shader_generic]: Generating vert shader cced9b82425420d3f18549c9a02fc9cb2b899619adc7502e5daa6cefc23f42e8
-[22:09:24.027] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:24.027] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
-[22:09:24.028] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:24.028] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) WvpXf[4]
-[22:09:24.028] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) WvXf[4]
-[22:09:24.029] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float1) gTimer
-[22:09:24.029] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float4) diffuse
-[22:09:24.029] |D| [shader::create_parameters]: [DEFAULT  + 38] sa38 = (float1) uSpeed
-[22:09:24.030] |D| [shader::create_parameters]: [DEFAULT  + 39] sa39 = (float1) vSpeed
-[22:09:24.030] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float1) fogDistanceMin
-[22:09:24.030] |D| [shader::create_parameters]: [DEFAULT  + 41] sa41 = (float1) fogDistanceMax
-[22:09:24.031] |D| [shader::create_parameters]: [DEFAULT  + 42] sa42 = (float1) fogRitu
-[22:09:24.031] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) fogColor
-[22:09:24.065] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(27) : warning C7050: "internals[0]" might be used before being initialized
-0(27) : warning C7050: "internals[1]" might be used before being initialized
-
-Fragment info
--------------
-0(24) : warning C7050: "pa[0].zw" might be used before being initialized
-0(24) : warning C7050: "pa[1].zw" might be used before being initialized
-
-
-[22:09:24.081] |I| [renderer::gl::load_shader_generic]: Generating frag shader 86e9ed1e447bab3d840eab545e619b2a671de11984bd54a3dbb891313be8b5a2
-[22:09:24.083] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) g_alpha_ref
-[22:09:24.083] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (half1) HdrRange
-[22:09:24.083] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:24.084] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[22:09:24.084] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half1) v_TexCoord1
-[22:09:24.093] |I| [renderer::gl::load_shader_generic]: Generating vert shader da80de57064c31a20e98620a972451e587ea2da98c726df8822e7ce22dbfe9aa
-[22:09:24.094] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:24.094] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
-[22:09:24.094] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:24.095] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) WvpXf[4]
-[22:09:24.095] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) WorldXf[4]
-[22:09:24.095] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) WvIXf[4]
-[22:09:24.096] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) WvXf[4]
-[22:09:24.096] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float4) diffuse
-[22:09:24.096] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float1) fogDistanceMin
-[22:09:24.097] |D| [shader::create_parameters]: [DEFAULT  + 69] sa69 = (float1) fogDistanceMax
-[22:09:24.097] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float1) fogRitu
-[22:09:24.097] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float3) fogColor
-[22:09:24.162] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(27) : warning C7050: "internals[0].zw" might be used before being initialized
-0(27) : warning C7050: "internals[1].w" might be used before being initialized
-0(27) : warning C7050: "internals[2].w" might be used before being initialized
-0(28) : warning C7050: "r[0]" might be used before being initialized
-0(28) : warning C7050: "r[1]" might be used before being initialized
-0(28) : warning C7050: "r[2]" might be used before being initialized
-0(28) : warning C7050: "r[3]" might be used before being initialized
-0(28) : warning C7050: "r[4]" might be used before being initialized
-
-Fragment info
--------------
-0(24) : warning C7050: "pa[0].zw" might be used before being initialized
-0(24) : warning C7050: "pa[1].zw" might be used before being initialized
-
-
-[22:09:24.173] |I| [renderer::gl::load_shader_generic]: Generating frag shader 21106ef27a845354515a21f01f6567b8583516253d530c08854d68c598427e3c
-[22:09:24.174] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) HdrRange
-[22:09:24.174] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[22:09:24.175] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_Color0
-[22:09:24.188] |I| [renderer::gl::load_shader_generic]: Generating vert shader 4ca813bd499a800b2924e7d3677ee16c0b7de5f0491c6147f30b4e4e00114cc7
-[22:09:24.189] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_Position
-[22:09:24.189] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
-[22:09:24.190] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_ST
-[22:09:24.190] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input_ParticleITime
-[22:09:24.190] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) input_ParticleIColor
-[22:09:24.191] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) input_ParticleLocalSpaceMatRight
-[22:09:24.191] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) input_ParticleLocalSpaceMatUp
-[22:09:24.191] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) input_ParticleLocalSpaceMatAt
-[22:09:24.192] |D| [shader::create_parameters]: [BUFFER0  + 32] pa32 = (float4) input_ParticleLocalSpaceMatPos
-[22:09:24.192] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float1) uSpeed
-[22:09:24.192] |D| [shader::create_parameters]: [DEFAULT  + 49] sa49 = (float1) vSpeed
-[22:09:24.193] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (float1) uSpeed2
-[22:09:24.193] |D| [shader::create_parameters]: [DEFAULT  + 51] sa51 = (float1) vSpeed2
-[22:09:24.193] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[22:09:24.194] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelViewI[4]
-[22:09:24.194] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) Model[4]
-[22:09:24.252] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(31) : warning C7050: "internals[0].zw" might be used before being initialized
-0(31) : warning C7050: "internals[1].w" might be used before being initialized
-0(31) : warning C7050: "internals[2].w" might be used before being initialized
-
-
-[22:09:25.278] |D| [export_sceAvPlayerInit]: auto start: false
-[22:09:25.278] |D| [export_sceAvPlayerAddSource]: path: 
-[22:09:25.278] |I| [PlayerState::queue]: Queued video: 'D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00700/Res/movie/Jpn/worldview_01.mp4'.
-[22:09:25.430] |D| [export_sceAvPlayerEnableStream]: sceAvPlayerEnableStream, stream no: 0
-[22:09:25.430] |D| [export_sceAvPlayerEnableStream]: sceAvPlayerEnableStream, stream no: 1
-[22:09:43.328] |D| [export_sceAvPlayerClose]: sceAvPlayerClose
-[22:09:45.681] |I| [renderer::gl::load_shader_generic]: Generating frag shader ccd4960a4f5ed75366008090d949ebf559762e80f5b4d2d88bf4649d25452802
-[22:09:45.683] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) HdrRangeInv
-[22:09:45.683] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) diffuse
-[22:09:45.683] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[22:09:45.690] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9e705202fe59aaeaa2e64cc616e21956781da51066c39b246817691dab059ba9
-[22:09:45.691] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:45.691] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_normal
-[22:09:45.692] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_color
-[22:09:45.692] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_UV
-[22:09:45.692] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float4) Model[4]
-[22:09:45.693] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) ViewProjection[4]
-[22:09:45.693] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (half3) g_af3PtLitPosW0
-[22:09:45.693] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (half3) g_af3PtLitPosW1
-[22:09:45.694] |D| [shader::create_parameters]: [DEFAULT  + 54] sa54 = (half3) g_af3PtLitPosW2
-[22:09:45.694] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (half3) g_af3PtLitPosW3
-[22:09:45.695] |D| [shader::create_parameters]: [DEFAULT  + 58] sa58 = (half3) g_af3PtLitCol0
-[22:09:45.695] |D| [shader::create_parameters]: [DEFAULT  + 60] sa60 = (half3) g_af3PtLitCol1
-[22:09:45.695] |D| [shader::create_parameters]: [DEFAULT  + 62] sa62 = (half3) g_af3PtLitCol2
-[22:09:45.696] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (half3) g_af3PtLitCol3
-[22:09:45.696] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (half3) g_af3PtLitAtten0
-[22:09:45.696] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (half3) g_af3PtLitAtten1
-[22:09:45.697] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (half3) g_af3PtLitAtten2
-[22:09:45.697] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (half3) g_af3PtLitAtten3
-[22:09:45.697] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (int1) g_nDualFace
-[22:09:45.697] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (half3) g_f3DarkColor
-[22:09:45.698] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (half4) g_lightEnable
-[22:09:45.700] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) g_windAll[4]
-[22:09:45.700] |D| [shader::create_parameters]: [DEFAULT  + 78] sa78 = (half3) g_f3OneShotPosW
-[22:09:45.700] |D| [shader::create_parameters]: [DEFAULT  + 80] sa80 = (half3) g_f3OneShotCol
-[22:09:45.701] |D| [shader::create_parameters]: [DEFAULT  + 82] sa82 = (half3) g_f3OneShotAtten
-[22:09:46.879] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(22) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[22:09:46.881] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8f3766b3af5c92bb45b367abbd8be9f521e9ce218828fb06e9e4a917a2061ab6
-[22:09:46.883] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) HdrRange
-[22:09:46.883] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:09:46.887] |I| [renderer::gl::load_shader_generic]: Generating vert shader aab4a8b850497cf2b9df40e09944a01482f2d02285628fb67963d046e6967d08
-[22:09:46.888] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[22:09:46.889] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
-[22:09:46.889] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_UV
-[22:09:46.889] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) WvpXf[4]
-[22:09:46.890] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) gTimer
-[22:09:46.890] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) diffuse
-[22:09:46.890] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float1) uSpeed
-[22:09:46.891] |D| [shader::create_parameters]: [DEFAULT  + 23] sa23 = (float1) vSpeed
-[22:09:46.899] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(25) : warning C7050: "internals[0].w" might be used before being initialized
-
-Fragment info
--------------
-0(24) : warning C7050: "internals[1]" might be used before being initialized
-
-
-[22:09:51.240] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:51.386] |I| [renderer::gl::load_shader_generic]: Generating frag shader 662a85ad7f4cc5fd7d353913d3df5020efc254202da3177bf0504aaed732b55f
-[22:09:51.388] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[22:09:51.392] |I| [renderer::gl::load_shader_generic]: Generating vert shader dc76062c16d1c67ab23d1c4a4b98a906708933cdaacb29f6450189a8af8891c0
-[22:09:51.393] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (half4) vi_pos
-[22:09:51.394] |D| [shader::create_parameters]: [BUFFER0  + 2] pa2 = (uchar4) vi_clr
-[22:09:51.394] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (half2) vi_tex
-[22:09:51.394] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) ktglViewport
-[22:09:51.395] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) ktglPointSize
-[22:09:51.416] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(23) : warning C7050: "pa[0].zw" might be used before being initialized
-0(23) : warning C7050: "pa[1]" might be used before being initialized
-
-
-[22:09:51.417] |W| [renderer::gl::sync_texture]: Texture has null data.
-[22:09:51.437] |I| [renderer::gl::load_shader_generic]: Generating frag shader 60724a111cd0a8dcc44fb0448fa643055eb97a88d555b37a870d6bbe1f233e38
-[22:09:51.438] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) colorRate
-[22:09:51.450] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(21) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[22:09:52.080] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:52.426] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:53.431] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[22:09:54.972] |E| [discordrpc::update_presence::<lambda_23ff884bf2cdb1bde950cb16a82f908e>::operator ()]: Error updating discord rich presence, err_code: 43
+0(19) : warning C7050: "sa[0]" might be used before being initialized
+
+
+[01:29:31.579] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0000
+[01:29:31.580] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0000 (target path: savedata0:USR-DATA0000)
+[01:29:31.581] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.583] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0001
+[01:29:31.583] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0001 (target path: savedata0:USR-DATA0001)
+[01:29:31.584] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.584] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0002
+[01:29:31.585] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0002 (target path: savedata0:USR-DATA0002)
+[01:29:31.586] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.586] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0003
+[01:29:31.587] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0003 (target path: savedata0:USR-DATA0003)
+[01:29:31.588] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.588] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0004
+[01:29:31.589] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0004 (target path: savedata0:USR-DATA0004)
+[01:29:31.590] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.590] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0005
+[01:29:31.590] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0005 (target path: savedata0:USR-DATA0005)
+[01:29:31.591] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.592] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0006
+[01:29:31.592] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0006 (target path: savedata0:USR-DATA0006)
+[01:29:31.593] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.594] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0007
+[01:29:31.594] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0007 (target path: savedata0:USR-DATA0007)
+[01:29:31.595] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.596] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0008
+[01:29:31.596] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0008 (target path: savedata0:USR-DATA0008)
+[01:29:31.597] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.598] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0009
+[01:29:31.598] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0009 (target path: savedata0:USR-DATA0009)
+[01:29:31.600] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.600] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0010
+[01:29:31.603] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0010 (target path: savedata0:USR-DATA0010)
+[01:29:31.604] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.605] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0011
+[01:29:31.605] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0011 (target path: savedata0:USR-DATA0011)
+[01:29:31.606] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.607] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0012
+[01:29:31.607] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0012 (target path: savedata0:USR-DATA0012)
+[01:29:31.608] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.609] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0013
+[01:29:31.609] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0013 (target path: savedata0:USR-DATA0013)
+[01:29:31.610] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.610] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0014
+[01:29:31.611] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0014 (target path: savedata0:USR-DATA0014)
+[01:29:31.612] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.612] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0015
+[01:29:31.613] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0015 (target path: savedata0:USR-DATA0015)
+[01:29:31.614] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.615] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0016
+[01:29:31.615] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0016 (target path: savedata0:USR-DATA0016)
+[01:29:31.616] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.619] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0017
+[01:29:31.619] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0017 (target path: savedata0:USR-DATA0017)
+[01:29:31.624] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.624] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0018
+[01:29:31.625] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0018 (target path: savedata0:USR-DATA0018)
+[01:29:31.626] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.626] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0019
+[01:29:31.626] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0019 (target path: savedata0:USR-DATA0019)
+[01:29:31.627] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.628] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0020
+[01:29:31.628] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0020 (target path: savedata0:USR-DATA0020)
+[01:29:31.629] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.629] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0021
+[01:29:31.630] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0021 (target path: savedata0:USR-DATA0021)
+[01:29:31.631] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.632] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0022
+[01:29:31.635] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0022 (target path: savedata0:USR-DATA0022)
+[01:29:31.635] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.636] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0023
+[01:29:31.636] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0023 (target path: savedata0:USR-DATA0023)
+[01:29:31.637] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.638] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0024
+[01:29:31.638] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0024 (target path: savedata0:USR-DATA0024)
+[01:29:31.639] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.640] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0025
+[01:29:31.640] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0025 (target path: savedata0:USR-DATA0025)
+[01:29:31.641] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.642] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0026
+[01:29:31.642] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0026 (target path: savedata0:USR-DATA0026)
+[01:29:31.643] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.644] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0027
+[01:29:31.644] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0027 (target path: savedata0:USR-DATA0027)
+[01:29:31.646] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.646] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0028
+[01:29:31.647] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0028 (target path: savedata0:USR-DATA0028)
+[01:29:31.648] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.650] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0029
+[01:29:31.651] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0029 (target path: savedata0:USR-DATA0029)
+[01:29:31.652] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.652] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0030
+[01:29:31.652] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0030 (target path: savedata0:USR-DATA0030)
+[01:29:31.653] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.654] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0031
+[01:29:31.654] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0031 (target path: savedata0:USR-DATA0031)
+[01:29:31.656] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.656] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0032
+[01:29:31.657] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0032 (target path: savedata0:USR-DATA0032)
+[01:29:31.657] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.658] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0033
+[01:29:31.658] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0033 (target path: savedata0:USR-DATA0033)
+[01:29:31.659] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.660] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0034
+[01:29:31.661] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0034 (target path: savedata0:USR-DATA0034)
+[01:29:31.662] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.662] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0035
+[01:29:31.663] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0035 (target path: savedata0:USR-DATA0035)
+[01:29:31.665] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.666] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0036
+[01:29:31.667] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0036 (target path: savedata0:USR-DATA0036)
+[01:29:31.667] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.668] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0037
+[01:29:31.668] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0037 (target path: savedata0:USR-DATA0037)
+[01:29:31.669] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.670] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0038
+[01:29:31.670] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0038 (target path: savedata0:USR-DATA0038)
+[01:29:31.671] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.671] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0039
+[01:29:31.672] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0039 (target path: savedata0:USR-DATA0039)
+[01:29:31.672] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.677] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0040
+[01:29:31.678] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0040 (target path: savedata0:USR-DATA0040)
+[01:29:31.679] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.681] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0041
+[01:29:31.682] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0041 (target path: savedata0:USR-DATA0041)
+[01:29:31.683] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.683] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0042
+[01:29:31.684] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0042 (target path: savedata0:USR-DATA0042)
+[01:29:31.685] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.685] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0043
+[01:29:31.686] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0043 (target path: savedata0:USR-DATA0043)
+[01:29:31.686] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.687] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0044
+[01:29:31.687] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0044 (target path: savedata0:USR-DATA0044)
+[01:29:31.688] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.688] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0045
+[01:29:31.689] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0045 (target path: savedata0:USR-DATA0045)
+[01:29:31.690] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.691] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0046
+[01:29:31.691] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0046 (target path: savedata0:USR-DATA0046)
+[01:29:31.692] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.692] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0047
+[01:29:31.693] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0047 (target path: savedata0:USR-DATA0047)
+[01:29:31.694] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.694] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0048
+[01:29:31.695] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0048 (target path: savedata0:USR-DATA0048)
+[01:29:31.697] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.698] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0049
+[01:29:31.699] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0049 (target path: savedata0:USR-DATA0049)
+[01:29:31.699] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.700] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0050
+[01:29:31.700] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0050 (target path: savedata0:USR-DATA0050)
+[01:29:31.701] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.702] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0051
+[01:29:31.702] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0051 (target path: savedata0:USR-DATA0051)
+[01:29:31.703] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.704] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0052
+[01:29:31.704] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0052 (target path: savedata0:USR-DATA0052)
+[01:29:31.705] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.706] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0053
+[01:29:31.706] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0053 (target path: savedata0:USR-DATA0053)
+[01:29:31.707] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.708] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0054
+[01:29:31.708] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0054 (target path: savedata0:USR-DATA0054)
+[01:29:31.709] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.712] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0055
+[01:29:31.712] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0055 (target path: savedata0:USR-DATA0055)
+[01:29:31.713] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.714] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0056
+[01:29:31.714] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0056 (target path: savedata0:USR-DATA0056)
+[01:29:31.715] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.716] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0057
+[01:29:31.717] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0057 (target path: savedata0:USR-DATA0057)
+[01:29:31.717] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.718] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0058
+[01:29:31.718] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0058 (target path: savedata0:USR-DATA0058)
+[01:29:31.719] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.720] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0059
+[01:29:31.720] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0059 (target path: savedata0:USR-DATA0059)
+[01:29:31.721] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.722] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0060
+[01:29:31.723] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0060 (target path: savedata0:USR-DATA0060)
+[01:29:31.723] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.724] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0061
+[01:29:31.724] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0061 (target path: savedata0:USR-DATA0061)
+[01:29:31.725] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.728] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0062
+[01:29:31.729] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0062 (target path: savedata0:USR-DATA0062)
+[01:29:31.730] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.730] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0063
+[01:29:31.731] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0063 (target path: savedata0:USR-DATA0063)
+[01:29:31.732] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.733] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0064
+[01:29:31.733] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0064 (target path: savedata0:USR-DATA0064)
+[01:29:31.734] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.735] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0065
+[01:29:31.735] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0065 (target path: savedata0:USR-DATA0065)
+[01:29:31.736] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.737] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0066
+[01:29:31.738] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0066 (target path: savedata0:USR-DATA0066)
+[01:29:31.739] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.739] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0067
+[01:29:31.740] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0067 (target path: savedata0:USR-DATA0067)
+[01:29:31.741] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.743] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0068
+[01:29:31.743] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0068 (target path: savedata0:USR-DATA0068)
+[01:29:31.744] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.745] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0069
+[01:29:31.745] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0069 (target path: savedata0:USR-DATA0069)
+[01:29:31.746] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.747] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0070
+[01:29:31.747] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0070 (target path: savedata0:USR-DATA0070)
+[01:29:31.748] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.749] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0071
+[01:29:31.749] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0071 (target path: savedata0:USR-DATA0071)
+[01:29:31.750] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.751] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0072
+[01:29:31.751] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0072 (target path: savedata0:USR-DATA0072)
+[01:29:31.752] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.753] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0073
+[01:29:31.753] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0073 (target path: savedata0:USR-DATA0073)
+[01:29:31.754] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.755] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0074
+[01:29:31.755] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0074 (target path: savedata0:USR-DATA0074)
+[01:29:31.756] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.759] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0075
+[01:29:31.759] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0075 (target path: savedata0:USR-DATA0075)
+[01:29:31.760] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.761] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0076
+[01:29:31.761] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0076 (target path: savedata0:USR-DATA0076)
+[01:29:31.762] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.763] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0077
+[01:29:31.763] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0077 (target path: savedata0:USR-DATA0077)
+[01:29:31.764] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.765] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0078
+[01:29:31.765] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0078 (target path: savedata0:USR-DATA0078)
+[01:29:31.766] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.767] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0079
+[01:29:31.767] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0079 (target path: savedata0:USR-DATA0079)
+[01:29:31.768] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.768] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0080
+[01:29:31.769] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0080 (target path: savedata0:USR-DATA0080)
+[01:29:31.770] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.770] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0081
+[01:29:31.771] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0081 (target path: savedata0:USR-DATA0081)
+[01:29:31.774] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.775] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0082
+[01:29:31.775] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0082 (target path: savedata0:USR-DATA0082)
+[01:29:31.776] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.777] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0083
+[01:29:31.777] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0083 (target path: savedata0:USR-DATA0083)
+[01:29:31.778] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.778] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0084
+[01:29:31.779] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0084 (target path: savedata0:USR-DATA0084)
+[01:29:31.780] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.781] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0085
+[01:29:31.781] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0085 (target path: savedata0:USR-DATA0085)
+[01:29:31.783] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.783] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0086
+[01:29:31.784] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0086 (target path: savedata0:USR-DATA0086)
+[01:29:31.785] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.785] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0087
+[01:29:31.786] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0087 (target path: savedata0:USR-DATA0087)
+[01:29:31.787] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.788] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0088
+[01:29:31.790] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0088 (target path: savedata0:USR-DATA0088)
+[01:29:31.791] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.792] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0089
+[01:29:31.792] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0089 (target path: savedata0:USR-DATA0089)
+[01:29:31.793] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.794] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0090
+[01:29:31.794] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0090 (target path: savedata0:USR-DATA0090)
+[01:29:31.795] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.796] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0091
+[01:29:31.796] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0091 (target path: savedata0:USR-DATA0091)
+[01:29:31.797] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.798] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0092
+[01:29:31.798] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0092 (target path: savedata0:USR-DATA0092)
+[01:29:31.799] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.800] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0093
+[01:29:31.800] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0093 (target path: savedata0:USR-DATA0093)
+[01:29:31.802] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.802] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0094
+[01:29:31.803] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0094 (target path: savedata0:USR-DATA0094)
+[01:29:31.803] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.806] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0095
+[01:29:31.807] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0095 (target path: savedata0:USR-DATA0095)
+[01:29:31.807] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:29:31.808] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0096
+[01:29:31.809] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00700/USR-DATA0096 (target path

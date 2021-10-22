@@ -1,167 +1,560 @@
-[11:37:18.028] |I| [load_app_impl]: cpu-backend: Dynarmic
-[11:37:18.028] |I| [load_app_impl]: CPU Optimisation state: true
-[11:37:18.028] |I| [load_app_impl]: at9 audio decoder state: true
-[11:37:18.028] |I| [load_app_impl]: ngs experimental state: true
-[11:37:18.028] |I| [load_app_impl]: video player state: true
-[11:37:18.028] |I| [load_app_impl]: lle-modules: libSceJson,liblocation,libSceXml,libpgf,libvoice,librudp,libSceSqlite,libvoiceqos,libsas
-[11:37:18.028] |I| [load_app_impl]: Title: A.W. : Phoenix Festa
-[11:37:18.028] |I| [load_app_impl]: Serial: PCSB00960
-[11:37:18.028] |I| [load_app_impl]: Version: 1.00
-[11:37:18.028] |I| [load_app_impl]: Category: gd
-[11:37:18.059] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[11:37:18.059] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSB00960\sce_module\libc.suprx
-[11:37:18.059] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSB00960\sce_module\libc.suprx
-[11:37:18.059] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libc.suprx
-[11:37:18.059] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[11:37:18.059] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[11:37:18.059] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[11:37:18.059] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[11:37:18.059] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00960\sce_module\libc.suprx") loaded
-[11:37:18.069] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[11:37:18.069] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSB00960\sce_module\libface.suprx
-[11:37:18.069] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB00960\sce_module\libface.suprx
-[11:37:18.069] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libface.suprx
-[11:37:18.069] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
-[11:37:18.069] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
-[11:37:18.069] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00960\sce_module\libface.suprx") loaded
-[11:37:18.083] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[11:37:18.083] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSB00960\sce_module\libfios2.suprx
-[11:37:18.083] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSB00960\sce_module\libfios2.suprx
-[11:37:18.083] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libfios2.suprx
-[11:37:18.083] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
-[11:37:18.083] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
-[11:37:18.083] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00960\sce_module\libfios2.suprx") loaded
-[11:37:18.132] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[11:37:18.132] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSB00960\sce_module\libsmart.suprx
-[11:37:18.132] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSB00960\sce_module\libsmart.suprx
-[11:37:18.132] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libsmart.suprx
-[11:37:18.132] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
-[11:37:18.132] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
-[11:37:18.132] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00960\sce_module\libsmart.suprx") loaded
-[11:37:18.135] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[11:37:18.135] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSB00960\sce_module\libult.suprx
-[11:37:18.135] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00960\sce_module\libult.suprx
-[11:37:18.135] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libult.suprx
-[11:37:18.136] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
-[11:37:18.136] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
-[11:37:18.136] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00960\sce_module\libult.suprx") loaded
-[11:37:18.160] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[11:37:18.160] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[11:37:18.160] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[11:37:18.160] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
-[11:37:18.160] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
-[11:37:18.160] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[11:37:18.196] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[11:37:18.196] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[11:37:18.196] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[11:37:18.196] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
-[11:37:18.196] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
-[11:37:18.196] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[11:37:18.267] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[11:37:18.267] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x004E8410 / 0x81000000] (size: 0x001B3410) of module app0:eboot.bin
-[11:37:18.267] |I| [load_self]: Loaded module segment 1 @ [0x004E9000 - 0x0069C848 / 0x811B4000] (size: 0x001B3848) of module app0:eboot.bin
-[11:37:18.267] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[11:37:18.267] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4A6180
-[11:37:18.267] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x4EC7C4
-[11:37:18.267] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4CCACC
-[11:37:18.267] |I| [load_app_impl]: Main executable AsteriskVita_m (eboot.bin) loaded
-[11:37:18.275] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[11:37:18.295] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00960\sce_module\libc.suprx") module_start returned 0x0
-[11:37:18.298] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
-[11:37:18.307] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00960\sce_module\libface.suprx") module_start returned 0x0
-[11:37:18.311] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
-[11:37:18.319] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[11:37:18.319] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[11:37:18.319] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[11:37:18.320] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00960\sce_module\libfios2.suprx") module_start returned 0x0
-[11:37:18.323] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
-[11:37:18.333] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00960\sce_module\libsmart.suprx") module_start returned 0x0
-[11:37:18.337] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
-[11:37:18.344] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[11:37:18.344] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00960\sce_module\libult.suprx") module_start returned 0x0
-[11:37:18.632] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[11:37:18.641] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[11:37:18.642] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[11:37:18.691] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[11:37:18.854] |E| [logging::ret_error_impl]: sceGxmTextureSetUAddrMode returned SCE_GXM_ERROR_INVALID_POINTER (0x805B0004)
-[11:37:18.854] |E| [logging::ret_error_impl]: sceGxmTextureSetVAddrMode returned SCE_GXM_ERROR_INVALID_POINTER (0x805B0004)
-[11:37:18.968] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[11:37:18.997] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[11:37:18.998] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[11:37:18.998] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
-[11:37:19.016] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
-[11:37:19.036] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[11:37:19.046] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
-[11:37:19.048] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
-[11:37:19.048] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[11:37:19.055] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.056] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:19.068] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
-[11:37:19.095] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[11:37:19.182] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/unit/unit_master_data.pac
-[11:37:19.201] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_newsezannu_pron_m_18.abcd
-[11:37:19.211] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_newsezannu_pron_m_18.cvt
-[11:37:19.263] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_tsukushimintyou_pr5n_h_20.abcd
-[11:37:19.277] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_tsukushimintyou_pr5n_h_20.cvt
-[11:37:19.332] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/common_japanese.mes
-[11:37:19.353] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/asterisk_sound.acf
-[11:37:19.359] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/asterisk_sound.acf
-[11:37:19.386] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/bgm/bgm_package.acb
-[11:37:19.389] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/bgm/bgm_package.acb
-[11:37:19.420] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/bgm/bgm_package_BGM.awb
-[11:37:19.422] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/se_package.acb
-[11:37:19.425] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/se_package.acb
-[11:37:19.438] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/se_package_SE.awb
-[11:37:19.440] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/voice/voice_package.acb
-[11:37:19.443] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/voice/voice_package.acb
-[11:37:19.466] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/voice/voice_package_VOICE.awb
-[11:37:19.468] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_common.pac
-[11:37:19.493] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_bg.pac
-[11:37:19.540] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_title_logo.pac
-[11:37:19.586] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_bg.pac
-[11:37:19.599] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_title_logo.pac
-[11:37:19.972] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[11:37:19.977] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
-[11:37:19.977] |E| [logging::ret_error_impl]: sceNetCtlCheckCallback returned SCE_NET_CTL_ERROR_NOT_INITIALIZED (0x80412101)
-[11:37:19.978] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[11:37:19.985] |E| [logging::ret_error_impl]: sceKernelWaitEventFlag returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
-[11:37:19.992] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[11:37:20.021] |I| [renderer::gl::load_shader_generic]: Generating frag shader 552efca57ad6d8ff543ff2e399189c9f744c9e4d0edfac70a7aec6bddbf90dd1
-[11:37:20.024] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[11:37:20.046] |I| [renderer::gl::load_shader_generic]: Generating vert shader e4b322580f3f40c661edf6192a13ca2fe8ea46ed43edc7c00e0e35f28029ffb9
-[11:37:20.049] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[11:37:20.049] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
-[11:37:20.077] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(16) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[11:37:20.097] |I| [renderer::gl::load_shader_generic]: Generating frag shader fd2357a3ab485f55f1f0926f2114e2c67c06e92f8c4dec35e1b05a80bd72afd8
-[11:37:20.099] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[11:37:20.107] |I| [renderer::gl::load_shader_generic]: Generating vert shader aa5ce5d2a7f3d1cf14aeb3bab48861091c616e0b2d2a088394b347d1869bd6dc
-[11:37:20.109] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[11:37:20.109] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
-[11:37:20.109] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord
-[11:37:20.123] |E| [renderer::gl::compile_program]: Fragment info
+[23:18:14.058] |I| [load_app_impl]: cpu-backend: Dynarmic
+[23:18:14.059] |I| [load_app_impl]: CPU Optimisation state: true
+[23:18:14.059] |I| [load_app_impl]: at9 audio decoder state: true
+[23:18:14.059] |I| [load_app_impl]: ngs experimental state: true
+[23:18:14.059] |I| [load_app_impl]: video player state: true
+[23:18:14.059] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[23:18:14.059] |I| [load_app_impl]: Title: A.W. : Phoenix Festa
+[23:18:14.059] |I| [load_app_impl]: Serial: PCSB00960
+[23:18:14.059] |I| [load_app_impl]: Version: 1.00
+[23:18:14.060] |I| [load_app_impl]: Category: gd
+[23:18:14.115] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[23:18:14.116] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSB00960\sce_module\libc.suprx
+[23:18:14.116] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSB00960\sce_module\libc.suprx
+[23:18:14.117] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libc.suprx
+[23:18:14.118] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[23:18:14.119] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[23:18:14.119] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[23:18:14.120] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[23:18:14.122] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00960\sce_module\libc.suprx") loaded
+[23:18:14.133] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[23:18:14.133] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSB00960\sce_module\libface.suprx
+[23:18:14.136] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB00960\sce_module\libface.suprx
+[23:18:14.137] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libface.suprx
+[23:18:14.137] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
+[23:18:14.138] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
+[23:18:14.138] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00960\sce_module\libface.suprx") loaded
+[23:18:14.156] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[23:18:14.156] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSB00960\sce_module\libfios2.suprx
+[23:18:14.157] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSB00960\sce_module\libfios2.suprx
+[23:18:14.158] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libfios2.suprx
+[23:18:14.158] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
+[23:18:14.159] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
+[23:18:14.159] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00960\sce_module\libfios2.suprx") loaded
+[23:18:14.215] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[23:18:14.215] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSB00960\sce_module\libsmart.suprx
+[23:18:14.216] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSB00960\sce_module\libsmart.suprx
+[23:18:14.217] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libsmart.suprx
+[23:18:14.218] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
+[23:18:14.219] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
+[23:18:14.219] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00960\sce_module\libsmart.suprx") loaded
+[23:18:14.224] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[23:18:14.224] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSB00960\sce_module\libult.suprx
+[23:18:14.225] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00960\sce_module\libult.suprx
+[23:18:14.226] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00960\sce_module\libult.suprx
+[23:18:14.226] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
+[23:18:14.227] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
+[23:18:14.227] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00960\sce_module\libult.suprx") loaded
+[23:18:14.235] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[23:18:14.236] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[23:18:14.237] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[23:18:14.238] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
+[23:18:14.238] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
+[23:18:14.239] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[23:18:14.242] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[23:18:14.243] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[23:18:14.244] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[23:18:14.245] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
+[23:18:14.246] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
+[23:18:14.246] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[23:18:14.299] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[23:18:14.300] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x004E8410 / 0x81000000] (size: 0x001B3410) of module app0:eboot.bin
+[23:18:14.301] |I| [load_self]: Loaded module segment 1 @ [0x004E9000 - 0x0069C848 / 0x811B4000] (size: 0x001B3848) of module app0:eboot.bin
+[23:18:14.302] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[23:18:14.302] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4A6180
+[23:18:14.303] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x4EC7C4
+[23:18:14.303] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4CCACC
+[23:18:14.304] |I| [load_app_impl]: Main executable AsteriskVita_m (eboot.bin) loaded
+[23:18:14.314] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[23:18:14.336] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00960\sce_module\libc.suprx") module_start returned 0x0
+[23:18:14.341] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
+[23:18:14.349] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00960\sce_module\libface.suprx") module_start returned 0x0
+[23:18:14.354] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
+[23:18:14.362] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[23:18:14.362] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[23:18:14.362] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[23:18:14.363] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00960\sce_module\libfios2.suprx") module_start returned 0x0
+[23:18:14.367] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
+[23:18:14.378] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00960\sce_module\libsmart.suprx") module_start returned 0x0
+[23:18:14.382] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
+[23:18:14.389] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[23:18:14.389] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00960\sce_module\libult.suprx") module_start returned 0x0
+[23:18:14.643] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[23:18:14.652] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[23:18:14.655] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[23:18:14.705] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[23:18:14.924] |E| [logging::ret_error_impl]: sceGxmTextureSetUAddrMode returned SCE_GXM_ERROR_INVALID_POINTER (0x805B0004)
+[23:18:14.925] |E| [logging::ret_error_impl]: sceGxmTextureSetVAddrMode returned SCE_GXM_ERROR_INVALID_POINTER (0x805B0004)
+[23:18:15.018] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[23:18:15.099] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[23:18:15.101] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[23:18:15.103] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[23:18:15.129] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
+[23:18:15.150] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[23:18:15.162] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
+[23:18:15.164] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
+[23:18:15.164] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[23:18:15.171] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.172] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.172] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.172] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.173] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.173] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.174] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.176] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.177] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:15.189] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
+[23:18:15.217] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[23:18:15.305] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/unit/unit_master_data.pac
+[23:18:15.365] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_newsezannu_pron_m_18.abcd
+[23:18:15.419] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_newsezannu_pron_m_18.cvt
+[23:18:15.468] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_tsukushimintyou_pr5n_h_20.abcd
+[23:18:15.482] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/font_tsukushimintyou_pr5n_h_20.cvt
+[23:18:15.579] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/common_japanese.mes
+[23:18:15.608] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/asterisk_sound.acf
+[23:18:15.626] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/asterisk_sound.acf
+[23:18:15.662] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/bgm/bgm_package.acb
+[23:18:15.665] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/bgm/bgm_package.acb
+[23:18:15.697] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/bgm/bgm_package_BGM.awb
+[23:18:15.701] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/se_package.acb
+[23:18:15.705] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/se_package.acb
+[23:18:15.718] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/se_package_SE.awb
+[23:18:15.720] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/voice/voice_package.acb
+[23:18:15.725] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/voice/voice_package.acb
+[23:18:15.748] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/sound/voice/voice_package_VOICE.awb
+[23:18:15.750] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_common.pac
+[23:18:15.823] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_bg.pac
+[23:18:15.879] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_title_logo.pac
+[23:18:15.924] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_bg.pac
+[23:18:15.955] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_title_logo.pac
+[23:18:16.602] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[23:18:16.607] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[23:18:16.608] |E| [logging::ret_error_impl]: sceNetCtlCheckCallback returned SCE_NET_CTL_ERROR_NOT_INITIALIZED (0x80412101)
+[23:18:16.610] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[23:18:16.616] |E| [logging::ret_error_impl]: sceKernelWaitEventFlag returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[23:18:16.624] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[23:18:16.651] |I| [renderer::gl::load_shader_generic]: Generating frag shader 552efca57ad6d8ff543ff2e399189c9f744c9e4d0edfac70a7aec6bddbf90dd1
+[23:18:16.654] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[23:18:16.671] |I| [renderer::gl::load_shader_generic]: Generating vert shader e4b322580f3f40c661edf6192a13ca2fe8ea46ed43edc7c00e0e35f28029ffb9
+[23:18:16.673] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:16.673] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:16.699] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:16.718] |I| [renderer::gl::load_shader_generic]: Generating frag shader fd2357a3ab485f55f1f0926f2114e2c67c06e92f8c4dec35e1b05a80bd72afd8
+[23:18:16.720] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[23:18:16.725] |I| [renderer::gl::load_shader_generic]: Generating vert shader aa5ce5d2a7f3d1cf14aeb3bab48861091c616e0b2d2a088394b347d1869bd6dc
+[23:18:16.726] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:16.726] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:16.727] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord
+[23:18:16.741] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[11:37:20.127] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufMulti import called. (move after setframebuf)
-[11:37:20.206] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[11:37:20.211] |I| [export_sceIoOpen]: Opening file: savedata0:astr_system.bin
-[11:37:28.262] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/movie/opeing_movie.usm
-[11:37:28.489] |D| [export_sceNgsVoiceResume]: Resume: 1
-[11:37:28.510] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[11:37:29.788] |D| [export_sceNgsVoicePause]: sceNgsVoicePause
-[11:37:30.806] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_title_menu.pac
-[11:37:30.958] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_title_menu.pac
-[11:37:31.162] |D| [export_sceNgsVoiceResume]: Resume: 1
-[11:37:31.177] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:16.746] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufMulti import called. (move after setframebuf)
+[23:18:16.752] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[23:18:16.760] |I| [export_sceIoOpen]: Opening file: savedata0:astr_system.bin
+[23:18:16.885] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:26.425] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/movie/opeing_movie.usm
+[23:18:26.685] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 4096
+[23:18:26.704] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:26.724] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:26.768] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 4096
+[23:18:26.786] |D| [export_sceNgsVoicePause]: sceNgsVoicePause
+[23:18:27.819] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_title_menu.pac
+[23:18:27.987] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_title_menu.pac
+[23:18:28.069] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:28.144] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:28.199] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:28.214] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:30.347] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:30.348] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:30.635] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_bg.pac
+[23:18:30.646] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_selectslot.pac
+[23:18:30.724] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_bg.pac
+[23:18:30.726] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_selectslot.pac
+[23:18:30.750] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_chara.pac
+[23:18:30.761] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_common.pac
+[23:18:30.773] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/path_adv_story_tex_unitlist.bin
+[23:18:30.786] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_orig_all.pac
+[23:18:30.963] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
+[23:18:31.097] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:31.113] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:31.730] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:31.730] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:31.783] |I| [export_sceIoOpen]: Opening file: savedata0:astr_game_data_00.bin
+[23:18:32.210] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/path_adv_story_tex_unitlist.bin
+[23:18:32.215] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/path_adv_story_present_unitlist.bin
+[23:18:32.255] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/path_adv_story_exam_unitlist.bin
+[23:18:32.269] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_chara_default.pac
+[23:18:32.297] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_chara.pac
+[23:18:32.298] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/unit/unit_event_data.pac
+[23:18:32.302] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_bg.pac
+[23:18:32.313] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_main_common.pac
+[23:18:32.401] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_list.pac
+[23:18:32.432] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_bg.pac
+[23:18:32.434] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_main.pac
+[23:18:32.461] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_main_front.pac
+[23:18:32.466] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_list.pac
+[23:18:32.497] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_shortclip.pac
+[23:18:32.553] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/path_unitlist.bin
+[23:18:32.564] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_001_00_Ayato.pac
+[23:18:32.630] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_070_00_Training.pac
+[23:18:32.644] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/camera\camera_070_00_Training.pac
+[23:18:32.667] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character_face\texpac_001_00_Ayato.pac
+[23:18:32.713] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/camera\camera_080_00_WeaponViewer.pac
+[23:18:32.744] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/script\script_adv_chara.pac
+[23:18:32.769] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/adv_message_name.mes
+[23:18:32.789] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/adv_message_japanese.mes
+[23:18:32.812] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/adv_message_voice.mes
+[23:18:32.828] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/adv_message_actor.mes
+[23:18:32.840] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_adv_story.pac
+[23:18:32.851] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_story_bg.pac
+[23:18:32.853] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_story_filter.pac
+[23:18:32.861] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_common.pac
+[23:18:32.869] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_story.pac
+[23:18:32.875] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_adv_story_front.pac
+[23:18:32.918] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:33.379] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_common.pac
+[23:18:33.389] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
+[23:18:33.418] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:33.689] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/path_unitlist.bin
+[23:18:33.696] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/path_ai_unitlist.bin
+[23:18:33.735] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/script\script_character.pac
+[23:18:33.787] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/script\script_ai.pac
+[23:18:33.804] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/script\script_demo.pac
+[23:18:33.805] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/script\script_talk_event.pac
+[23:18:33.830] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/test_texture/toon_ramp_my.cvt
+[23:18:33.849] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/act_message_japanese.mes
+[23:18:33.859] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/message/act_message_voice.mes
+[23:18:33.864] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_action_hud.pac
+[23:18:33.943] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex/mtex_action_cutin.pac
+[23:18:33.965] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_action_hud.pac
+[23:18:34.008] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_action_ingame.pac
+[23:18:34.016] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout/layout_action_cutin_upper.pac
+[23:18:34.038] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/texture_pac\texpac_action.pac
+[23:18:34.047] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/particle\particle_common.pac
+[23:18:34.068] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:34.161] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/stage\model_Stage_06_SaikaihatuHaibiru.pac
+[23:18:34.240] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/stage\model_StageMeteo_01.pac
+[23:18:34.251] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/stage\model_StageMeteo_02.pac
+[23:18:34.256] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex_chara\mtex_001_00_Ayato.pac
+[23:18:34.318] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex_chara\mtex_002_00_Yurisu.pac
+[23:18:34.367] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/layout_tex_chara\mtex_015_00_Sairasu.pac
+[23:18:34.424] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_001_00_Ayato.pac
+[23:18:34.465] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/camera\camera_001_00_Ayato.pac
+[23:18:34.479] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_001_00_Ayato_01_Yurisu.pac
+[23:18:34.492] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_001_00_Ayato.pac
+[23:18:34.503] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character_face\texpac_001_00_Ayato.pac
+[23:18:34.506] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_001_11_Ayato_Selbere.pac
+[23:18:34.513] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_002_00_Yurisu.pac
+[23:18:34.542] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/camera\camera_002_00_Yurisu.pac
+[23:18:34.558] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_002_10_Yurisu_dragon.pac
+[23:18:34.565] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_002_10_Yurisu_dragon.pac
+[23:18:34.577] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_002_00_Yurisu.pac
+[23:18:34.596] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character_face\texpac_002_00_Yurisu.pac
+[23:18:34.608] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_015_00_Sairasu.pac
+[23:18:34.624] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/camera\camera_015_00_Sairasu.pac
+[23:18:34.633] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_015_10_Sairasu_Puppet_01.pac
+[23:18:34.654] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_015_10_Sairasu_Puppet_01.pac
+[23:18:34.656] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_015_11_Sairasu_Puppet_02.pac
+[23:18:34.670] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_015_11_Sairasu_Puppet_02.pac
+[23:18:34.681] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_015_12_Sairasu_Puppet_03.pac
+[23:18:34.692] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\motion_015_12_Sairasu_Puppet_03.pac
+[23:18:34.698] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_015_13_Sairasu_Knife.pac
+[23:18:34.710] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character\model_015_00_Sairasu.pac
+[23:18:34.734] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/character_face\texpac_015_00_Sairasu.pac
+[23:18:34.749] |I| [export_sceIoOpen]: Opening file: app0:ResourceVita/camera\camera_common.pac
+[23:18:35.197] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
+[23:18:35.219] |D| [renderer::gl::texture::translate_swizzle]: base format: 318767104, swizzle: 0
+[23:18:35.219] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 960, height: 544
+[23:18:35.223] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.230] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4fda9eea88b690359b96c16abd69a6c9bcf813f197c2e9b3a9a03642c5235016
+[23:18:35.232] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[23:18:35.237] |I| [renderer::gl::load_shader_generic]: Generating vert shader edce43066aba4cbf32e58127e6b67794129401d9ac1d6edc9f6492d1ae31c301
+[23:18:35.238] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:35.238] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:35.239] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aNormal
+[23:18:35.239] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord
+[23:18:35.240] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uniViewProjection[4]
+[23:18:35.240] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniWorld[4]
+[23:18:35.304] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[23:18:35.306] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.330] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:35.335] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.342] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.347] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:35.350] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.358] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.386] |I| [renderer::gl::load_shader_generic]: Generating frag shader 7ec6609fc43948eaa93eb93071414a58653fcf3afd7d72ccc2304147bb56acf4
+[23:18:35.388] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[23:18:35.389] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord3
+[23:18:35.395] |D| [shader::usse::USSETranslatorVisitor::vtst]: load_data_type: 4, bits max: 8
+[23:18:35.400] |E| [shader::usse::USSETranslatorVisitor::smp]: Sampler LOD custom mode not implemented!
+[23:18:35.411] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1854df184b306aee4cc85d00b08cda4acc4f895a56d68af6e2f51b5cb8dd073d
+[23:18:35.412] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:35.413] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:35.414] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aNormal
+[23:18:35.415] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord
+[23:18:35.415] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uniViewProjection[4]
+[23:18:35.416] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) uniShadowTexViewProj[4]
+[23:18:35.417] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniWorld[4]
+[23:18:35.417] |D| [shader::create_parameters]: [BUFFER0  + 16] sa16 = (float4) uniWorldInverse[4]
+[23:18:35.687] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(34) : warning C7050: "internals[0].w" might be used before being initialized
+0(34) : warning C7050: "internals[1].w" might be used before being initialized
+
+Fragment info
+-------------
+0(21) : warning C7050: "sa[1].zw" might be used before being initialized
+0(22) : warning C7050: "internals[0]" might be used before being initialized
+0(22) : warning C7050: "internals[1]" might be used before being initialized
+0(23) : warning C7050: "r[0]" might be used before being initialized
+0(23) : warning C7050: "r[1]" might be used before being initialized
+
+
+[23:18:35.690] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.701] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[23:18:35.702] |I| [renderer::gl::load_shader_generic]: Generating frag shader f3a05598556ca26e7048411a0bbf9e5e201e4877e0d02315cfd944e0afc1bab3
+[23:18:35.704] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float1) uniLevelThreshold
+[23:18:35.704] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[23:18:35.707] |D| [shader::usse::USSETranslatorVisitor::vtst]: load_data_type: 4, bits max: 8
+[23:18:35.742] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(24) : warning C7050: "sa[1].yzw" might be used before being initialized
+0(24) : warning C7050: "sa[2].zw" might be used before being initialized
+0(23) : warning C7050: "pa[0].zw" might be used before being initialized
+0(26) : warning C7050: "r[0]" might be used before being initialized
+
+
+[23:18:35.744] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[23:18:35.745] |I| [renderer::gl::load_shader_generic]: Generating frag shader 10f6021048a89c1721de3528ecb10af783602c532479ba0c932795605e8aceb3
+[23:18:35.747] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float1) uniGaussianDir
+[23:18:35.747] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half2) v_TexCoord0
+[23:18:35.789] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(23) : warning C7050: "sa[1].yzw" might be used before being initialized
+0(23) : warning C7050: "sa[2].yzw" might be used before being initialized
+0(23) : warning C7050: "sa[3].xy" might be used before being initialized
+0(23) : warning C7050: "sa[4].zw" might be used before being initialized
+0(22) : warning C7050: "pa[0]" might be used before being initialized
+0(24) : warning C7050: "internals[0].zw" might be used before being initialized
+0(25) : warning C7050: "r[0].zw" might be used before being initialized
+
+
+[23:18:35.790] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[23:18:35.791] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[23:18:35.795] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[23:18:35.795] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[23:18:35.797] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[23:18:35.798] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[23:18:35.800] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[23:18:35.806] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:35.831] |I| [renderer::gl::load_shader_generic]: Generating frag shader b57b59f4172b03433d9852bf4eee071f4038cbfa1f932750f401c733a18c2641
+[23:18:35.837] |I| [renderer::gl::load_shader_generic]: Generating vert shader cd9604f6c1bf67adf49ee04fbd4b56f4f6504d0050b92a2c625ce306edfd55c2
+[23:18:35.838] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:35.838] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:35.839] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aNormal
+[23:18:35.839] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord
+[23:18:35.840] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aBlendIndices
+[23:18:35.840] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) aBlendWeights
+[23:18:35.841] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uniViewProjection[4]
+[23:18:35.841] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniWorld[4]
+[23:18:35.842] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) arrBoneMatrix[256]
+[23:18:38.900] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(40) : warning C7050: "r[0]" might be used before being initialized
+0(40) : warning C7050: "r[1]" might be used before being initialized
+0(40) : warning C7050: "r[2]" might be used before being initialized
+0(40) : warning C7050: "r[3]" might be used before being initialized
+0(40) : warning C7050: "r[4]" might be used before being initialized
+0(40) : warning C7050: "r[5]" might be used before being initialized
+0(40) : warning C7050: "r[6]" might be used before being initialized
+0(40) : warning C7050: "r[7]" might be used before being initialized
+0(40) : warning C7050: "r[8]" might be used before being initialized
+0(40) : warning C7050: "r[9]" might be used before being initialized
+0(40) : warning C7050: "r[10]" might be used before being initialized
+0(40) : warning C7050: "r[11]" might be used before being initialized
+0(40) : warning C7050: "r[12]" might be used before being initialized
+0(40) : warning C7050: "r[13]" might be used before being initialized
+0(40) : warning C7050: "r[14]" might be used before being initialized
+0(40) : warning C7050: "r[15]" might be used before being initialized
+
+Fragment info
+-------------
+0(15) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[23:18:38.903] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
+[23:18:38.905] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:38.937] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(15) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[23:18:38.938] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:38.940] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:38.965] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
+[23:18:38.967] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:38.991] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:38.992] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:38.999] |I| [renderer::gl::load_shader_generic]: Generating frag shader 2c924b4010b58e5b47b56adbe75b81a5c274461fc86bccac71d7e0a1f524be20
+[23:18:39.001] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniColor
+[23:18:39.007] |I| [renderer::gl::load_shader_generic]: Generating vert shader 78cb21ef630104a9c425db36ec014327617f3e1a7fe80942f47e7ca20c4fb2cb
+[23:18:39.008] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:39.008] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:39.011] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aNormal
+[23:18:39.011] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord
+[23:18:39.012] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aBlendIndices
+[23:18:39.012] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) aBlendWeights
+[23:18:39.013] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uniViewProjection[4]
+[23:18:39.013] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniWorld[4]
+[23:18:39.014] |D| [shader::create_parameters]: [BUFFER0  + 32] sa32 = (float1) uniOutlineWidth
+[23:18:39.014] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) arrBoneMatrix[256]
+[23:18:41.300] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(39) : warning C7050: "r[0]" might be used before being initialized
+0(39) : warning C7050: "r[1]" might be used before being initialized
+0(39) : warning C7050: "r[2]" might be used before being initialized
+0(39) : warning C7050: "r[3]" might be used before being initialized
+0(39) : warning C7050: "r[4]" might be used before being initialized
+0(39) : warning C7050: "r[5]" might be used before being initialized
+0(39) : warning C7050: "r[6]" might be used before being initialized
+0(39) : warning C7050: "r[7]" might be used before being initialized
+0(39) : warning C7050: "r[8]" might be used before being initialized
+0(39) : warning C7050: "r[9]" might be used before being initialized
+0(39) : warning C7050: "r[10]" might be used before being initialized
+0(39) : warning C7050: "r[11]" might be used before being initialized
+0(39) : warning C7050: "r[12].zw" might be used before being initialized
+
+Fragment info
+-------------
+0(21) : warning C7050: "sa[0]" might be used before being initialized
+0(21) : warning C7050: "sa[1]" might be used before being initialized
+0(20) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[23:18:41.303] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:41.304] |I| [renderer::gl::load_shader_generic]: Generating frag shader 759097479471a0633a4d9b11d00c14a3b7eeccfc2a010df3963a0e6b2087bde1
+[23:18:41.305] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniColor
+[23:18:41.305] |D| [shader::create_parameters]: [BUFFER0  + 4] sa4 = (float4) uniLightColor_ambientColor
+[23:18:41.306] |D| [shader::create_parameters]: [BUFFER0  + 8] sa8 = (float4) uniLightColor_diffuseColor
+[23:18:41.306] |D| [shader::create_parameters]: [BUFFER0  + 12] sa12 = (float4) uniLightColor_specularColor
+[23:18:41.307] |D| [shader::create_parameters]: [BUFFER0  + 16] sa16 = (float1) uniLightPower
+[23:18:41.307] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[23:18:41.308] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord2
+[23:18:41.308] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[23:18:41.335] |I| [renderer::gl::load_shader_generic]: Generating vert shader e88e35a51fd08dea87240ed5f4bf4e489923fd4c9dd34a19fa0fad92ecce99dd
+[23:18:41.336] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:41.336] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:41.338] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aNormal
+[23:18:41.339] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord
+[23:18:41.339] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aBlendIndices
+[23:18:41.340] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) aBlendWeights
+[23:18:41.340] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uniViewProjection[4]
+[23:18:41.341] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) uniLightDirection
+[23:18:41.342] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) uniEyePosition
+[23:18:41.342] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniWorld[4]
+[23:18:41.343] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) arrBoneMatrix[256]
+[23:18:45.033] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(42) : warning C7050: "r[0]" might be used before being initialized
+0(42) : warning C7050: "r[1]" might be used before being initialized
+0(42) : warning C7050: "r[2]" might be used before being initialized
+0(42) : warning C7050: "r[3]" might be used before being initialized
+0(42) : warning C7050: "r[4]" might be used before being initialized
+0(42) : warning C7050: "r[5]" might be used before being initialized
+0(42) : warning C7050: "r[6]" might be used before being initialized
+0(42) : warning C7050: "r[7]" might be used before being initialized
+0(42) : warning C7050: "r[8]" might be used before being initialized
+0(42) : warning C7050: "r[9]" might be used before being initialized
+0(42) : warning C7050: "r[10]" might be used before being initialized
+0(42) : warning C7050: "r[11]" might be used before being initialized
+0(42) : warning C7050: "r[12]" might be used before being initialized
+0(42) : warning C7050: "r[13]" might be used before being initialized
+0(42) : warning C7050: "r[14]" might be used before being initialized
+0(42) : warning C7050: "r[15]" might be used before being initialized
+
+Fragment info
+-------------
+0(26) : warning C7050: "sa[0]" might be used before being initialized
+0(26) : warning C7050: "sa[1]" might be used before being initialized
+0(26) : warning C7050: "sa[2]" might be used before being initialized
+0(26) : warning C7050: "sa[3]" might be used before being initialized
+0(26) : warning C7050: "sa[4]" might be used before being initialized
+0(25) : warning C7050: "pa[0].zw" might be used before being initialized
+0(25) : warning C7050: "pa[1].xy" might be used before being initialized
+0(25) : warning C7050: "pa[2].zw" might be used before being initialized
+0(27) : warning C7050: "internals[1]" might be used before being initialized
+0(27) : warning C7050: "internals[2]" might be used before being initialized
+
+
+[23:18:45.039] |I| [renderer::gl::load_shader_generic]: Generating vert shader e538a2af584caa78d0a2261bcc204c6f0539937e77127df46772d15ef4dfb018
+[23:18:45.041] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:45.041] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:45.042] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aNormal
+[23:18:45.042] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord
+[23:18:45.043] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uniViewProjection[4]
+[23:18:45.043] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniWorld[4]
+[23:18:45.044] |D| [shader::create_parameters]: [BUFFER0  + 16] sa16 = (float1) uniOutlineWidth
+[23:18:45.227] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(21) : warning C7050: "sa[0]" might be used before being initialized
+0(21) : warning C7050: "sa[1]" might be used before being initialized
+0(20) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[23:18:45.228] |I| [renderer::gl::load_shader_generic]: Generating vert shader 386596b633d60c0b68583563fa08575cacf28a1de4939f545325ce5afb8e9e30
+[23:18:45.231] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[23:18:45.231] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aVertexColor
+[23:18:45.231] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aNormal
+[23:18:45.232] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord
+[23:18:45.233] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uniViewProjection[4]
+[23:18:45.233] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) uniLightDirection
+[23:18:45.234] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) uniEyePosition
+[23:18:45.234] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniWorld[4]
+[23:18:45.382] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(35) : warning C7050: "internals[0].w" might be used before being initialized
+0(35) : warning C7050: "internals[1]" might be used before being initialized
+
+Fragment info
+-------------
+0(26) : warning C7050: "sa[0]" might be used before being initialized
+0(26) : warning C7050: "sa[1]" might be used before being initialized
+0(26) : warning C7050: "sa[2]" might be used before being initialized
+0(26) : warning C7050: "sa[3]" might be used before being initialized
+0(26) : warning C7050: "sa[4]" might be used before being initialized
+0(25) : warning C7050: "pa[0].zw" might be used before being initialized
+0(25) : warning C7050: "pa[1].xy" might be used before being initialized
+0(25) : warning C7050: "pa[2].zw" might be used before being initialized
+0(27) : warning C7050: "internals[1]" might be used before being initialized
+0(27) : warning C7050: "internals[2]" might be used before being initialized
+
+
+[23:18:45.391] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:45.393] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:45.769] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[23:18:46.231] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:46.262] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:49.104] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4f8ebb531abcbb417b7cb7202cd1098612260b3519967ef75a8707eb4af44b48
+[23:18:49.106] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) uniColor
+[23:18:49.106] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[23:18:49.145] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(24) : warning C7050: "sa[0]" might be used before being initialized
+0(24) : warning C7050: "sa[1]" might be used before being initialized
+0(23) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[23:18:49.545] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:49.579] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:52.976] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:53.060] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[23:18:53.062] |D| [export_sceNgsVoiceResume]: Resume: 1
+[23:18:53.062] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[23:18:54.385] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43

@@ -1,645 +1,249 @@
-[00:00:23.708] |I| [load_app_impl]: cpu-backend: Dynarmic
-[00:00:23.708] |I| [load_app_impl]: ngs experimental state: true
-[00:00:23.708] |I| [load_app_impl]: video player state: true
-[00:00:23.708] |I| [load_app_impl]: lle-modules: libSceJson,liblocation,libSceXml,libpgf,libvoice,librudp,libSceSqlite,libvoiceqos,libsas
-[00:00:23.708] |I| [load_app_impl]: Title: メモリーズオフ6 Complete
-[00:00:23.708] |I| [load_app_impl]: Serial: PCSG00176
-[00:00:23.708] |I| [load_app_impl]: Version: 1.00
-[00:00:23.709] |I| [load_app_impl]: Category: gd
-[00:00:23.717] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:00:23.717] |I| [load_self]: Loaded module segment 0 @ [0x0000E000 - 0x000584B0 / 0x81000000] (size: 0x0004A4B0) of module ux0:app\PCSG00176\sce_module\libc.suprx
-[00:00:23.717] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B6F4 / 0x8104B000] (size: 0x000026F4) of module ux0:app\PCSG00176\sce_module\libc.suprx
-[00:00:23.717] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libc.suprx
-[00:00:23.717] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x44F30
-[00:00:23.718] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x48DF0, setting to stub value 0xDEADBEEF
-[00:00:23.718] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x4A4A4, setting to stub value 0xDEADBEEF
-[00:00:23.718] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG00176\sce_module\libc.suprx") loaded
-[00:00:23.720] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:00:23.720] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0007401C / 0x81000000] (size: 0x0001601C) of module ux0:app\PCSG00176\sce_module\libface.suprx
-[00:00:23.720] |I| [load_self]: Loaded module segment 1 @ [0x00075000 - 0x0007514C / 0x81017000] (size: 0x0000014C) of module ux0:app\PCSG00176\sce_module\libface.suprx
-[00:00:23.720] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libface.suprx
-[00:00:23.720] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x710C8
-[00:00:23.721] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG00176\sce_module\libface.suprx") loaded
-[00:00:23.727] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:00:23.727] |I| [load_self]: Loaded module segment 0 @ [0x00076000 - 0x0009A22C / 0x81000000] (size: 0x0002422C) of module ux0:app\PCSG00176\sce_module\libfios2.suprx
-[00:00:23.728] |I| [load_self]: Loaded module segment 1 @ [0x0009B000 - 0x000A01A4 / 0x81025000] (size: 0x000051A4) of module ux0:app\PCSG00176\sce_module\libfios2.suprx
-[00:00:23.728] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libfios2.suprx
-[00:00:23.728] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x92B70
-[00:00:23.728] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG00176\sce_module\libfios2.suprx") loaded
-[00:00:23.769] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:00:23.769] |I| [load_self]: Loaded module segment 0 @ [0x000A1000 - 0x00298E68 / 0x81000000] (size: 0x001F7E68) of module ux0:app\PCSG00176\sce_module\libsmart.suprx
-[00:00:23.769] |I| [load_self]: Loaded module segment 1 @ [0x00299000 - 0x0029C734 / 0x811F8000] (size: 0x00003734) of module ux0:app\PCSG00176\sce_module\libsmart.suprx
-[00:00:23.769] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libsmart.suprx
-[00:00:23.769] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x13A12C
-[00:00:23.769] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG00176\sce_module\libsmart.suprx") loaded
-[00:00:23.773] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:00:23.773] |I| [load_self]: Loaded module segment 0 @ [0x0029D000 - 0x002B1144 / 0x81000000] (size: 0x00014144) of module ux0:app\PCSG00176\sce_module\libult.suprx
-[00:00:23.773] |I| [load_self]: Loaded module segment 1 @ [0x002B2000 - 0x002B2814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSG00176\sce_module\libult.suprx
-[00:00:23.773] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libult.suprx
-[00:00:23.773] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2AD1CC
-[00:00:23.773] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG00176\sce_module\libult.suprx") loaded
-[00:00:23.780] |I| [load_self]: Loaded module segment 0 @ [0x002B3000 - 0x00303F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[00:00:23.780] |I| [load_self]: Loaded module segment 1 @ [0x00304000 - 0x003042F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[00:00:23.780] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[00:00:23.780] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2EF7DC
-[00:00:23.780] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2EEF10
-[00:00:23.781] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[00:00:23.782] |I| [load_self]: Loaded module segment 0 @ [0x00305000 - 0x00314F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[00:00:23.782] |I| [load_self]: Loaded module segment 1 @ [0x00315000 - 0x00315008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[00:00:23.782] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[00:00:23.782] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x313710
-[00:00:23.783] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x313300
-[00:00:23.783] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[00:00:23.804] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:00:23.804] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x810F4AA8 / 0x81000000] (size: 0x000F4AA8) of module app0:game1.self
-[00:00:23.805] |I| [load_self]: Loaded module segment 1 @ [0x810F5000 - 0x814D4050 / 0x810F5000] (size: 0x003DF050) of module app0:game1.self
-[00:00:23.805] |I| [load_self]: Loading symbols for SELF: app0:game1.self
-[00:00:23.805] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810C7FC0
-[00:00:23.805] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x810FA27C
-[00:00:23.805] |I| [load_app_impl]: Main executable memoff6tw (game1.self) loaded
-[00:00:23.812] |D| [run_app]: Running module_start of library: SceLibc at address 0xE7F1
-[00:00:23.844] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG00176\sce_module\libc.suprx") module_start returned 0x0
-[00:00:23.847] |D| [run_app]: Running module_start of library: SceFace at address 0x70499
-[00:00:23.855] |I| [run_app]: Module SceFace (at "ux0:app\PCSG00176\sce_module\libface.suprx") module_start returned 0x0
-[00:00:23.859] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x76001
-[00:00:23.866] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[00:00:23.867] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
-[00:00:23.867] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[00:00:23.867] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG00176\sce_module\libfios2.suprx") module_start returned 0x0
-[00:00:23.871] |D| [run_app]: Running module_start of library: SceSmart at address 0xA7775
-[00:00:23.884] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG00176\sce_module\libsmart.suprx") module_start returned 0x0
-[00:00:23.888] |D| [run_app]: Running module_start of library: SceUlt at address 0x2A084D
-[00:00:23.895] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[00:00:23.895] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG00176\sce_module\libult.suprx") module_start returned 0x0
-[00:00:23.910] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[00:00:23.910] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
-[00:00:23.932] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
-[00:00:23.932] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
-[00:00:23.932] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
-[00:00:23.961] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[00:00:23.975] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
-[00:00:23.978] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[00:00:23.978] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[00:00:23.992] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:00:23.992] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 3, using passthrough.
-[00:00:23.993] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:00:23.993] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 4, using passthrough.
-[00:00:23.993] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:00:23.994] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:00:23.998] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[00:00:24.008] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
-[00:00:24.044] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[00:00:24.046] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[00:00:24.111] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[00:00:24.141] |W| [unimplemented_impl]: Unimplemented sceNetCtlInit import called.
-[00:00:24.142] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
-[00:00:24.142] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[00:00:24.143] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[00:00:24.145] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[00:00:24.146] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
-[00:00:24.180] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
-[00:00:24.183] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
-[00:00:24.185] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[00:00:24.929] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[00:00:24.930] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
-[00:00:24.959] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[00:00:25.007] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/bg.cpk
-[00:00:25.068] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/bg.cpk
-[00:00:25.180] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/chara.cpk
-[00:00:25.231] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/chara.cpk
-[00:00:25.347] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/system.cpk
-[00:00:25.374] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/system.cpk
-[00:00:25.480] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/mask.cpk
-[00:00:25.488] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/mask.cpk
-[00:00:25.596] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/voice.cpk
-[00:00:25.610] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/voice.cpk
-[00:00:25.713] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/se.cpk
-[00:00:25.740] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/se.cpk
-[00:00:25.847] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/bgm.cpk
-[00:00:25.889] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/bgm.cpk
-[00:00:25.997] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/movie.cpk
-[00:00:26.024] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/movie.cpk
-[00:00:26.146] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/photo.cpk
-[00:00:26.163] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/photo.cpk
-[00:00:26.515] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/shader.bin
-[00:00:26.530] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/shader.bin
-[00:00:26.641] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/_Startup.scr
-[00:00:26.646] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/_Startup.scr
-[00:00:26.688] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[00:00:26.714] |I| [renderer::gl::load_shader_generic]: Generating frag shader bbed526c8527fd1be242ebc21a0bc862ac11bf2811d6b88d5cbbd3c65f0c6b61
-[00:00:26.715] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:00:26.717] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1d1f2b4d1c7aace08e408839edb753d16b1d1efb7242046e27999a64776f467c
-[00:00:26.718] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[00:00:26.718] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[00:00:26.720] |E| [renderer::gl::compile_program]: Fragment info
+[08:47:17.148] |I| [load_app_impl]: cpu-backend: Dynarmic
+[08:47:17.148] |I| [load_app_impl]: CPU Optimisation state: true
+[08:47:17.149] |I| [load_app_impl]: at9 audio decoder state: true
+[08:47:17.149] |I| [load_app_impl]: ngs experimental state: true
+[08:47:17.149] |I| [load_app_impl]: video player state: true
+[08:47:17.149] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[08:47:17.149] |I| [load_app_impl]: Title: メモリーズオフ6 Complete
+[08:47:17.149] |I| [load_app_impl]: Serial: PCSG00176
+[08:47:17.149] |I| [load_app_impl]: Version: 1.00
+[08:47:17.149] |I| [load_app_impl]: Category: gd
+[08:47:17.198] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:47:17.198] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000514B0 / 0x81000000] (size: 0x0004A4B0) of module ux0:app\PCSG00176\sce_module\libc.suprx
+[08:47:17.198] |I| [load_self]: Loaded module segment 1 @ [0x00052000 - 0x000546F4 / 0x8104B000] (size: 0x000026F4) of module ux0:app\PCSG00176\sce_module\libc.suprx
+[08:47:17.198] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libc.suprx
+[08:47:17.199] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3DF30
+[08:47:17.199] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x41DF0, setting to stub value 0xDEADBEEF
+[08:47:17.199] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x434A4, setting to stub value 0xDEADBEEF
+[08:47:17.200] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG00176\sce_module\libc.suprx") loaded
+[08:47:17.213] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:47:17.213] |I| [load_self]: Loaded module segment 0 @ [0x00057000 - 0x0006D01C / 0x81000000] (size: 0x0001601C) of module ux0:app\PCSG00176\sce_module\libface.suprx
+[08:47:17.213] |I| [load_self]: Loaded module segment 1 @ [0x0006E000 - 0x0006E14C / 0x81017000] (size: 0x0000014C) of module ux0:app\PCSG00176\sce_module\libface.suprx
+[08:47:17.213] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libface.suprx
+[08:47:17.213] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6A0C8
+[08:47:17.213] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG00176\sce_module\libface.suprx") loaded
+[08:47:17.226] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:47:17.226] |I| [load_self]: Loaded module segment 0 @ [0x0006F000 - 0x0009322C / 0x81000000] (size: 0x0002422C) of module ux0:app\PCSG00176\sce_module\libfios2.suprx
+[08:47:17.227] |I| [load_self]: Loaded module segment 1 @ [0x00094000 - 0x000991A4 / 0x81025000] (size: 0x000051A4) of module ux0:app\PCSG00176\sce_module\libfios2.suprx
+[08:47:17.227] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libfios2.suprx
+[08:47:17.227] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8BB70
+[08:47:17.227] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG00176\sce_module\libfios2.suprx") loaded
+[08:47:17.277] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:47:17.277] |I| [load_self]: Loaded module segment 0 @ [0x0009A000 - 0x00291E68 / 0x81000000] (size: 0x001F7E68) of module ux0:app\PCSG00176\sce_module\libsmart.suprx
+[08:47:17.277] |I| [load_self]: Loaded module segment 1 @ [0x00292000 - 0x00295734 / 0x811F8000] (size: 0x00003734) of module ux0:app\PCSG00176\sce_module\libsmart.suprx
+[08:47:17.278] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libsmart.suprx
+[08:47:17.278] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x13312C
+[08:47:17.278] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG00176\sce_module\libsmart.suprx") loaded
+[08:47:17.295] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:47:17.295] |I| [load_self]: Loaded module segment 0 @ [0x00296000 - 0x002AA144 / 0x81000000] (size: 0x00014144) of module ux0:app\PCSG00176\sce_module\libult.suprx
+[08:47:17.295] |I| [load_self]: Loaded module segment 1 @ [0x002AB000 - 0x002AB814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSG00176\sce_module\libult.suprx
+[08:47:17.295] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00176\sce_module\libult.suprx
+[08:47:17.295] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2A61CC
+[08:47:17.295] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG00176\sce_module\libult.suprx") loaded
+[08:47:17.303] |I| [load_self]: Loaded module segment 0 @ [0x002AC000 - 0x002FCF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[08:47:17.303] |I| [load_self]: Loaded module segment 1 @ [0x002FD000 - 0x002FD2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[08:47:17.303] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[08:47:17.303] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2E87DC
+[08:47:17.303] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2E7F10
+[08:47:17.303] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[08:47:17.306] |I| [load_self]: Loaded module segment 0 @ [0x002FE000 - 0x0030DF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[08:47:17.306] |I| [load_self]: Loaded module segment 1 @ [0x0030E000 - 0x0030E008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[08:47:17.306] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[08:47:17.306] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30C710
+[08:47:17.306] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30C300
+[08:47:17.307] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[08:47:17.333] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:47:17.333] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x8106487C / 0x81000000] (size: 0x0006487C) of module app0:eboot.bin
+[08:47:17.333] |I| [load_self]: Loaded module segment 1 @ [0x81065000 - 0x81134ED0 / 0x81065000] (size: 0x000CFED0) of module app0:eboot.bin
+[08:47:17.334] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[08:47:17.334] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810516B4
+[08:47:17.334] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81067098
+[08:47:17.334] |I| [load_app_impl]: Main executable boot (eboot.bin) loaded
+[08:47:17.342] |D| [run_app]: Running module_start of library: SceLibc at address 0x77F1
+[08:47:17.374] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG00176\sce_module\libc.suprx") module_start returned 0x0
+[08:47:17.379] |D| [run_app]: Running module_start of library: SceFace at address 0x69499
+[08:47:17.387] |I| [run_app]: Module SceFace (at "ux0:app\PCSG00176\sce_module\libface.suprx") module_start returned 0x0
+[08:47:17.391] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x6F001
+[08:47:17.398] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[08:47:17.399] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
+[08:47:17.400] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[08:47:17.400] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG00176\sce_module\libfios2.suprx") module_start returned 0x0
+[08:47:17.404] |D| [run_app]: Running module_start of library: SceSmart at address 0xA0775
+[08:47:17.418] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG00176\sce_module\libsmart.suprx") module_start returned 0x0
+[08:47:17.422] |D| [run_app]: Running module_start of library: SceUlt at address 0x29984D
+[08:47:17.430] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[08:47:17.430] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG00176\sce_module\libult.suprx") module_start returned 0x0
+[08:47:17.437] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[08:47:17.438] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[08:47:17.438] |W| [unimplemented_impl]: Unimplemented sceKernelSetGPO import called.
+[08:47:17.460] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
+[08:47:17.460] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
+[08:47:17.461] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[08:47:17.488] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[08:47:17.502] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
+[08:47:17.505] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[08:47:17.506] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[08:47:17.521] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:47:17.521] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 3, using passthrough.
+[08:47:17.522] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:47:17.522] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 4, using passthrough.
+[08:47:17.523] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:47:17.524] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:47:17.529] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[08:47:17.543] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
+[08:47:17.577] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[08:47:17.580] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[08:47:17.648] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[08:47:17.674] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[08:47:17.728] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/TS.CPK
+[08:47:17.798] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/TS.CPK
+[08:47:18.531] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[08:47:18.552] |I| [renderer::gl::load_shader_generic]: Generating frag shader bbed526c8527fd1be242ebc21a0bc862ac11bf2811d6b88d5cbbd3c65f0c6b61
+[08:47:18.553] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:47:18.568] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1d1f2b4d1c7aace08e408839edb753d16b1d1efb7242046e27999a64776f467c
+[08:47:18.569] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:47:18.569] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:47:18.589] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(17) : warning C7050: "pa[0].zw" might be used before being initialized
+0(16) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[00:00:26.796] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/_system.scr
-[00:00:26.798] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/_system.scr
-[00:00:26.857] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/anime.scr
-[00:00:26.866] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/anime.scr
-[00:00:26.932] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/macrosys.scr
-[00:00:26.950] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/macrosys.scr
-[00:00:27.015] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/macrosys2.scr
-[00:00:27.033] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/macrosys2.scr
-[00:00:27.583] |I| [renderer::gl::load_shader_generic]: Generating frag shader c7449c7f41384fcf603dd53c40e1d8f14950283bb9a42d6bff12804be36207ea
-[00:00:27.584] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:00:27.601] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2432101a6883fa71554c2b26ef49994f0401cc9f9d5a32725990b784a112808d
-[00:00:27.601] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[00:00:27.601] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord0
-[00:00:27.601] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
-[00:00:27.623] |E| [renderer::gl::compile_program]: Fragment info
+[08:47:18.602] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.624] |I| [renderer::gl::load_shader_generic]: Generating frag shader 47c5b9cd5f29fb6bfc022d00a3bb2be4a1c3a25a0a89f9f1bab4fa05228cacc7
+[08:47:18.626] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:47:18.628] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2432101a6883fa71554c2b26ef49994f0401cc9f9d5a32725990b784a112808d
+[08:47:18.629] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:47:18.629] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord0
+[08:47:18.629] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
+[08:47:18.640] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(19) : warning C7050: "pa[0].zw" might be used before being initialized
-0(19) : warning C7050: "pa[1].x" might be used before being initialized
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[00:00:27.676] |I| [renderer::gl::load_shader_generic]: Generating frag shader 2f96c8d9f708d16f7c3a70a74bd6e1627f54591e6ad807b92b37d2923249d8e3
-[00:00:27.677] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) AlphaChk
-[00:00:27.677] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:00:27.680] |I| [renderer::gl::load_shader_generic]: Generating vert shader 35cb4478a14df82729ed1526ac1bc69db3f2a38d7a94e15093d0e16323eac6b1
-[00:00:27.681] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[00:00:27.681] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[00:00:27.681] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord0
-[00:00:27.684] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(24) : warning C7050: "pa[0].zw" might be used before being initialized
-0(24) : warning C7050: "pa[1].zw" might be used before being initialized
-0(26) : warning C7050: "internals[0]" might be used before being initialized
-0(27) : warning C7050: "r[0]" might be used before being initialized
-
-
-[00:00:27.689] |I| [renderer::gl::load_shader_generic]: Generating frag shader 47c5b9cd5f29fb6bfc022d00a3bb2be4a1c3a25a0a89f9f1bab4fa05228cacc7
-[00:00:27.690] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:00:27.692] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(19) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[00:00:28.164] |E| [logging::ret_error_impl]: sceMsgDialogTerm returned SCE_COMMON_DIALOG_ERROR_NOT_SUPPORTED (0x80020405)
-[00:00:29.577] |I| [export_sceIoOpen]: Opening file: savedata0:PCSG00176-TSAVEDATA.DAT
-[00:00:29.628] |I| [export_sceIoOpen]: Opening file: savedata0:PCSG00176-TTHUDATA.DAT
-[00:00:30.130] |I| [renderer::gl::load_shader_generic]: Generating frag shader 15f442f8e112d0abf5d0217eb970a69fa75d627d9f63b62c6d8f7421d13aa6e9
-[00:00:30.132] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:00:30.134] |I| [renderer::gl::load_shader_generic]: Generating vert shader ee81ed23529a2285949e53f0ac2c99a4e50c03458d6a4a55936f218536fc4463
-[00:00:30.134] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[00:00:30.134] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[00:00:30.137] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(17) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[00:00:32.236] |I| [renderer::gl::load_shader_generic]: Generating frag shader ec24afb4c20e8c5e1e953e1ba9f540588019d949ca775af29d9d2b795b4ead16
-[00:00:32.238] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ConstAlpha
-[00:00:32.238] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) AlphaRange
-[00:00:32.238] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:00:32.256] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(24) : warning C7050: "pa[0].zw" might be used before being initialized
-0(24) : warning C7050: "pa[1].zw" might be used before being initialized
-0(26) : warning C7050: "internals[0]" might be used before being initialized
-0(27) : warning C7050: "r[0]" might be used before being initialized
-
-
-[00:00:33.081] |I| [renderer::gl::load_shader_generic]: Generating frag shader 39c4bb758ba74f6e83de29ab29ea1842e04d70e16f942607443db12b6e1bec24
-[00:00:33.082] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) AlphaChk
-[00:00:33.082] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) ConstAlpha
-[00:00:33.083] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) AlphaRange
-[00:00:33.083] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:00:33.087] |I| [renderer::gl::load_shader_generic]: Generating vert shader 5fe48b57334671682818cdb2490c57f367e91a5bfc09b7330fea2debcd9e73a1
-[00:00:33.088] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[00:00:33.088] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[00:00:33.088] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord0
-[00:00:33.088] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord1
-[00:00:33.110] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(25) : warning C7050: "pa[0].zw" might be used before being initialized
-0(25) : warning C7050: "pa[1].zw" might be used before being initialized
-0(25) : warning C7050: "pa[2].zw" might be used before being initialized
-0(27) : warning C7050: "internals[0]" might be used before being initialized
-0(27) : warning C7050: "internals[1]" might be used before being initialized
-
-
-[00:00:34.035] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:00:34.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.063] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.093] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.113] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.153] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.173] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.203] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.213] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.233] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.253] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.273] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.323] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.343] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.363] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.383] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.403] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.433] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.453] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.493] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.513] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.543] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.553] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.573] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.593] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.613] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.643] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.663] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.683] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.703] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.753] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.773] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.793] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.833] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.863] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.883] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.903] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.913] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.933] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.953] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:34.983] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.003] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.023] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.063] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.093] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.113] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.153] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.173] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.203] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.223] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.243] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.253] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.273] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.303] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.323] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.343] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.363] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.383] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.413] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.433] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.453] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.493] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.523] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.543] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.563] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.583] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.603] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.613] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.643] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.663] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.683] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.703] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.753] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.773] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.793] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.833] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.863] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.883] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.903] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.923] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.943] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.963] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:35.983] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.003] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.023] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.073] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.093] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.113] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.153] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.183] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.203] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.223] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.243] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.263] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.313] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.323] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.343] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.363] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.383] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.413] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.433] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.453] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.493] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.523] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.543] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.563] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.583] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.603] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.633] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.653] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.663] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.683] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.703] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.733] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.753] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.773] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.793] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.843] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.863] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.883] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.903] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.923] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.953] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.973] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:36.993] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.013] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.023] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.073] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.093] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.113] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.153] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.183] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.203] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.223] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.243] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.263] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.313] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.333] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.353] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.363] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.393] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.413] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.433] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.453] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.503] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.523] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.543] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.563] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.583] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.613] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.633] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.653] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.673] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.693] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.733] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.753] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.773] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.793] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.843] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.863] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.883] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.903] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.923] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.953] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.973] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:37.993] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.013] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.033] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.063] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.073] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.093] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.113] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.163] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.183] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.203] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.223] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.243] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.273] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.313] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.333] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.353] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.383] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.403] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.423] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.433] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.453] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.503] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.523] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.543] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.563] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.583] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.613] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.633] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.653] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.673] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.693] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.719] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/main00.scr
-[00:00:38.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.735] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/main00.scr
-[00:00:38.743] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.763] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.773] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.793] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:38.852] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/SA01A.scr
-[00:00:38.868] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/MO6TW/script/SA01A.scr
-[00:00:39.180] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:00:39.183] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.203] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.223] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.243] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.273] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.313] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.333] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.353] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.383] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.403] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.423] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.443] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.463] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.483] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.503] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.523] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.543] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.563] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.593] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.613] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.633] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.653] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.673] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.703] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.743] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.763] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.783] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.833] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.843] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.863] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.883] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.903] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.933] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.953] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.973] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:39.993] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.013] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.063] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.083] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.103] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.123] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.153] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.173] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.183] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.203] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.223] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.253] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.273] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.313] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.333] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.363] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.384] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.403] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.423] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.443] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.493] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.513] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.533] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.543] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.563] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.593] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.613] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.633] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.653] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.673] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.703] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.743] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.763] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.783] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.833] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.853] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.873] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.883] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.913] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.933] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.953] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.973] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:40.993] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.023] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.063] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.083] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.103] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.153] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.173] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.193] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.213] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.243] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.253] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.273] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.313] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.333] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.363] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.383] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.403] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.423] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.443] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.493] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.513] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.533] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.553] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.583] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.593] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.613] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.633] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.653] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.683] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.703] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.743] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.763] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.793] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.833] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.853] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.873] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.903] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.923] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.943] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.953] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.973] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:41.993] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.023] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.063] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.083] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.103] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.153] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.173] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.193] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.213] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.243] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.263] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.283] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.293] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.313] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.343] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.363] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.383] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.403] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.423] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.453] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.473] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.493] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.513] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.533] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.563] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.583] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.603] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.623] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.643] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.653] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.683] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.703] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.723] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.743] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.763] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.793] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.813] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.833] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.853] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.873] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.903] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.923] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.943] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.963] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:42.983] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.003] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.023] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.043] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.063] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.083] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.113] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.130] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.130] |E| [discordrpc::update_presence::<lambda_23ff884bf2cdb1bde950cb16a82f908e>::operator ()]: Error updating discord rich presence, err_code: 43
-[00:00:43.130] |E| [discordrpc::update_presence::<lambda_23ff884bf2cdb1bde950cb16a82f908e>::operator ()]: Error updating discord rich presence, err_code: 43
-[00:00:43.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.133] |W| [Atrac9DecoderState::send]: Error sending Atrac9 packet: 0xBEBBB1B7.
-[00:00:43.133] |W| [Atrac9DecoderState::send]: Error sending
+[08:47:18.644] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.670] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.701] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.726] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.750] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.785] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.809] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.833] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.868] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.893] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.918] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:18.968] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:19.035] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:19.101] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:19.168] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.752] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.779] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.807] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.835] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.861] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.888] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.918] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.945] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:21.973] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:22.003] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:22.029] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:22.057] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:22.102] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:22.168] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:22.235] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:22.302] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.102] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.128] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.156] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.185] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.212] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.268] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.296] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.323] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.353] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.379] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.406] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.452] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.519] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.585] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:23.652] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:24.602] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:24.658] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:24.712] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:24.770] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:24.825] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:24.883] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:24.952] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.009] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.067] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.135] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.192] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.251] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.335] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.435] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.535] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:25.635] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.252] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.280] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.313] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.352] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.380] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.408] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.439] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.466] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.493] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.536] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.563] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.591] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.652] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.719] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.785] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:26.852] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.019] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.075] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.129] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.185] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.240] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.294] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.352] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.405] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.460] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.522] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.580] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.635] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.719] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.819] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:29.919] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:30.019] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:31.869] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:31.894] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:31.924] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:31.949] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:31.977] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.002] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.036] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.061] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.090] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.114] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.143] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.168] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.203] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.228] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.257] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.282] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.309] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.334] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.386] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.410] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.441] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.466] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.495] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.520] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.569] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.596] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.669] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.694] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.769] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.796] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.869] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:47:32.894] |D| [renderer::gl:

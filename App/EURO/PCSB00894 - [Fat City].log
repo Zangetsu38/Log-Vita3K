@@ -1,248 +1,158 @@
-[19:41:45.068] |I| [load_app_impl]: ngs experimental state: true
-[19:41:45.068] |I| [load_app_impl]: video player state: true
-[19:41:45.069] |I| [load_app_impl]: auto-lle: enabled
-[19:41:45.069] |I| [load_app_impl]: Title: Fat City
-[19:41:45.069] |I| [load_app_impl]: Serial: PCSB00894
-[19:41:45.069] |I| [load_app_impl]: Version: 1.00
-[19:41:45.069] |I| [load_app_impl]: Category: gd
-[19:41:45.090] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x000128D8 / 0x81000000] (size: 0x0000E8D8) of module os0:us/libkernel.suprx
-[19:41:45.090] |I| [load_self]: Loaded module segment 1 @ [0x00013000 - 0x00013048 / 0x8100F000] (size: 0x00000048) of module os0:us/libkernel.suprx
-[19:41:45.090] |I| [load_self]: Loading symbols for SELF: os0:us/libkernel.suprx
-[19:41:45.090] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x10AF0
-[19:41:45.090] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xF250
-[19:41:45.090] |D| [load_func_exports]: 	NID 0x120AFC8C (sceKernelUnlockLwMutex2) at 0x44B1
-[19:41:45.090] |D| [load_func_exports]: 	NID 0x244E76D2 (sceKernelDeleteLwMutex) at 0xEAC5
-[19:41:45.090] |D| [load_func_exports]: 	NID 0x3148C6B6 (sceKernelLockLwMutexCB) at 0x438D
-[19:41:45.090] |D| [load_func_exports]: 	NID 0x46E7BE7B (sceKernelLockLwMutex) at 0x4391
-[19:41:45.091] |D| [load_func_exports]: 	NID 0x4846613D (sceKernelGetLwMutexInfoById) at 0xEACD
-[19:41:45.091] |D| [load_func_exports]: 	NID 0x4C4672BF (sceKernelGetProcessTime) at 0x47CF
-[19:41:45.091] |D| [load_func_exports]: 	NID 0x91FA6614 (sceKernelUnlockLwMutex) at 0x4437
-[19:41:45.091] |D| [load_func_exports]: 	NID 0xA6A2C915 (sceKernelTryLockLwMutex) at 0x43C1
-[19:41:45.091] |D| [load_func_exports]: 	NID 0xB110C123 (sceKernelGetProcessTimeWide) at 0x4799
-[19:41:45.091] |D| [load_func_exports]: 	NID 0xB84EF718 (_sceKernelCreateLwMutex) at 0xEAB1
-[19:41:45.091] |D| [load_func_exports]: 	NID 0xDA6EC8EF (sceKernelCreateLwMutex) at 0x56ED
-[19:41:45.091] |D| [load_func_exports]: 	NID 0xE9F973B1 (sceKernelGetProcessTimeLow) at 0x4771
-[19:41:45.091] |D| [load_func_exports]: 	NID 0xF7D8F1FC (sceKernelGetLwMutexInfo) at 0x44A3
-[19:41:45.091] |I| [pre_load_module]: Pre-load module SceLibKernel (at "us/libkernel.suprx") loaded
-[19:41:45.093] |I| [load_self]: Loaded module segment 0 @ [0x00014000 - 0x000231D4 / 0x81000000] (size: 0x0000F1D4) of module os0:us/driver_us.suprx
-[19:41:45.093] |I| [load_self]: Loaded module segment 1 @ [0x00024000 - 0x0002CF40 / 0x81010000] (size: 0x00008F40) of module os0:us/driver_us.suprx
-[19:41:45.093] |I| [load_self]: Loading symbols for SELF: os0:us/driver_us.suprx
-[19:41:45.093] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x216E4
-[19:41:45.093] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x20410
-[19:41:45.093] |I| [pre_load_module]: Pre-load module SceDriverUser (at "us/driver_us.suprx") loaded
-[19:41:45.127] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:45.127] |I| [load_self]: Loaded module segment 0 @ [0x0002D000 - 0x0007E8A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
-[19:41:45.127] |I| [load_self]: Loaded module segment 1 @ [0x0007F000 - 0x000818A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
-[19:41:45.128] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
-[19:41:45.128] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x74314
-[19:41:45.128] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x694DC
-[19:41:45.128] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x6F1D0, setting to stub value 0xDEADBEEF
-[19:41:45.128] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
-[19:41:45.150] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:45.150] |I| [load_self]: Loaded module segment 0 @ [0x00083000 - 0x0009C000 / 0x81000000] (size: 0x00019000) of module app0:sce_module/libface.suprx
-[19:41:45.151] |I| [load_self]: Loaded module segment 1 @ [0x0009C000 - 0x0009C0F8 / 0x81019000] (size: 0x000000F8) of module app0:sce_module/libface.suprx
-[19:41:45.151] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libface.suprx
-[19:41:45.151] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98DA4
-[19:41:45.151] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9B784
-[19:41:45.151] |I| [pre_load_module]: Pre-load module SceFace (at "sce_module/libface.suprx") loaded
-[19:41:45.176] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:45.176] |I| [load_self]: Loaded module segment 0 @ [0x0009D000 - 0x000C9CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
-[19:41:45.177] |I| [load_self]: Loaded module segment 1 @ [0x000CA000 - 0x000CF255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
-[19:41:45.177] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
-[19:41:45.177] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC9BC8
-[19:41:45.177] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC0F08
-[19:41:45.177] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
-[19:41:45.222] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:45.223] |I| [load_self]: Loaded module segment 0 @ [0x000D0000 - 0x002DDAF4 / 0x81000000] (size: 0x0020DAF4) of module app0:sce_module/libsmart.suprx
-[19:41:45.223] |I| [load_self]: Loaded module segment 1 @ [0x002DE000 - 0x002E1444 / 0x8120E000] (size: 0x00003444) of module app0:sce_module/libsmart.suprx
-[19:41:45.223] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libsmart.suprx
-[19:41:45.223] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x17B528
-[19:41:45.223] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x18290C
-[19:41:45.223] |I| [pre_load_module]: Pre-load module SceSmart (at "sce_module/libsmart.suprx") loaded
-[19:41:45.238] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:45.238] |I| [load_self]: Loaded module segment 0 @ [0x002E2000 - 0x002F59A4 / 0x81000000] (size: 0x000139A4) of module app0:sce_module/libult.suprx
-[19:41:45.238] |I| [load_self]: Loaded module segment 1 @ [0x002F6000 - 0x002F6814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
-[19:41:45.238] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
-[19:41:45.238] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2F42D0
-[19:41:45.238] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F1858
-[19:41:45.238] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
-[19:41:45.244] |I| [load_self]: Loaded module segment 0 @ [0x002F7000 - 0x00347F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[19:41:45.244] |I| [load_self]: Loaded module segment 1 @ [0x00348000 - 0x003482F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[19:41:45.244] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[19:41:45.245] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x3337DC
-[19:41:45.245] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332F10
-[19:41:45.245] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[19:41:45.246] |I| [load_self]: Loaded module segment 0 @ [0x00349000 - 0x00358F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[19:41:45.246] |I| [load_self]: Loaded module segment 1 @ [0x00359000 - 0x00359008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[19:41:45.246] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[19:41:45.247] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x357710
-[19:41:45.247] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x357300
-[19:41:45.247] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[19:41:45.962] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:45.963] |I| [load_self]: Loaded module segment 0 @ [0x0035A000 - 0x01F54120 / 0x81000000] (size: 0x01BFA120) of module app0:eboot.bin
-[19:41:45.963] |I| [load_self]: Loaded module segment 1 @ [0x01F55000 - 0x02267E50 / 0x82BFB000] (size: 0x00312E50) of module app0:eboot.bin
-[19:41:45.963] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[19:41:45.963] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1D76504
-[19:41:45.963] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x1F5508C
-[19:41:45.963] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1E9F7CC
-[19:41:45.963] |W| [load_var_imports]: 	NID NOT FOUND 0x1A5C609 (UNRECOGNISED) at 0x1D9F1F4, setting to stub value 0xDEADBEEF
-[19:41:45.964] |W| [load_var_imports]: 	NID NOT FOUND 0x6EF1E48 (UNRECOGNISED) at 0x1D9EF1C, setting to stub value 0xDEADBEEF
-[19:41:45.964] |I| [load_app_impl]: Main executable UnityPlayer_437_Release (eboot.bin) loaded
-[19:41:45.967] |D| [run_app]: Running module_start of library: SceLibKernel at address 0x51F9
-[19:41:45.969] |W| [unimplemented_impl]: Unimplemented _sceKernelRegisterLibkernelAddresses import called.
-[19:41:45.969] |W| [unimplemented_impl]: Unimplemented _sceKernelBacktrace import called.
-[19:41:45.970] |I| [run_app]: Module SceLibKernel (at "os0:us/libkernel.suprx") module_start returned 0x0
-[19:41:45.970] |D| [run_app]: Running module_start of library: SceDriverUser at address 0x143E5
-[19:41:45.972] |W| [unimplemented_impl]: Unimplemented sceMotionDevIsReady import called.
-[19:41:46.975] |I| [run_app]: Module SceDriverUser (at "os0:us/driver_us.suprx") module_start returned 0x0
-[19:41:46.976] |D| [run_app]: Running module_start of library: SceLibc at address 0x2D871
-[19:41:46.979] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
-[19:41:46.980] |D| [run_app]: Running module_start of library: SceFace at address 0x98265
-[19:41:46.982] |I| [run_app]: Module SceFace (at "app0:sce_module/libface.suprx") module_start returned 0x0
-[19:41:46.982] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x9D001
-[19:41:46.984] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[19:41:46.984] |W| [unimplemented_impl]: Unimplemented sceFiosKernelOverlayGetList02 import called.
-[19:41:46.984] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
-[19:41:46.984] |D| [run_app]: Running module_start of library: SceSmart at address 0xD018D
-[19:41:46.987] |I| [run_app]: Module SceSmart (at "app0:sce_module/libsmart.suprx") module_start returned 0x0
-[19:41:46.987] |D| [run_app]: Running module_start of library: SceUlt at address 0x2E5769
-[19:41:46.989] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[19:41:46.989] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
-[19:41:46.991] |W| [unimplemented_impl]: Unimplemented _sceKernelRegisterThreadEventHandler import called.
-[19:41:47.026] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSB00894, thread ID: 10)
-[19:41:47.026] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
-[19:41:47.026] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[19:41:48.175] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:48.175] |I| [load_self]: Loaded module segment 0 @ [0x026B5000 - 0x026BB8F8 / 0x81000000] (size: 0x000068F8) of module app0:/Media/Modules/pthread.suprx
-[19:41:48.175] |I| [load_self]: Loaded module segment 1 @ [0x026BC000 - 0x026BE168 / 0x81007000] (size: 0x00002168) of module app0:/Media/Modules/pthread.suprx
-[19:41:48.176] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/pthread.suprx
-[19:41:48.176] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x26BA568
-[19:41:48.176] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x26BB8F4
-[19:41:48.178] |I| [export__sceKernelLoadStartModule]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") module_start returned 0x0
-[19:41:48.178] |I| [load_module]: Loading module ID: 0x55
-[19:41:48.179] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:48.179] |I| [load_self]: Loaded module segment 0 @ [0x026C0000 - 0x026C6230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
-[19:41:48.179] |I| [load_self]: Loaded module segment 1 @ [0x022AB000 - 0x022AB049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
-[19:41:48.179] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
-[19:41:48.180] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x26C60A8
-[19:41:48.180] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x26C5020
-[19:41:48.180] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
-[19:41:48.227] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:48.227] |I| [load_self]: Loaded module segment 0 @ [0x026C7000 - 0x026CC878 / 0x81000000] (size: 0x00005878) of module app0:/Media/Modules/SUPRXManager.suprx
-[19:41:48.228] |I| [load_self]: Loaded module segment 1 @ [0x026CD000 - 0x026CD044 / 0x81006000] (size: 0x00000044) of module app0:/Media/Modules/SUPRXManager.suprx
-[19:41:48.228] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/SUPRXManager.suprx
-[19:41:48.228] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x26CC06C
-[19:41:48.228] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x26CC7BC
-[19:41:48.230] |I| [export__sceKernelLoadStartModule]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") module_start returned 0x0
-[19:41:49.258] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:41:49.258] |I| [load_self]: Loaded module segment 0 @ [0x026D0000 - 0x0291B094 / 0x81000000] (size: 0x0024B094) of module app0:/Media/Modules/mono-vita.suprx
-[19:41:49.259] |I| [load_self]: Loaded module segment 1 @ [0x0291C000 - 0x02983C60 / 0x8124C000] (size: 0x00067C60) of module app0:/Media/Modules/mono-vita.suprx
-[19:41:49.259] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/mono-vita.suprx
-[19:41:49.259] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2863314
-[19:41:49.259] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x28FDF3C
-[19:41:49.261] |I| [export__sceKernelLoadStartModule]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") module_start returned 0x0
-[19:41:49.278] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[19:41:49.278] |W| [unimplemented_impl]: Unimplemented sceFiosKernelOverlayThreadSetDisabled02 import called.
-[19:41:49.290] |W| [unimplemented_impl]: Unimplemented sceFiosKernelOverlayGetRecommendedScheduler02 import called.
-[19:41:49.291] |I| [export__sceIoOpen]: Opening file: app0:/archive.psarc
-[19:41:49.291] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/archive.psarc (target path: app0:/archive.psarc)
-[19:41:49.291] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.295] |I| [export__sceIoOpen]: Opening file: app0:/archive_patch.psarc
-[19:41:49.295] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/archive_patch.psarc (target path: app0:/archive_patch.psarc)
-[19:41:49.295] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.684] |E| [stat_file]: Cannot find device for path: /level66
-[19:41:49.684] |W| [io_error_impl]: stat_file (_sceIoDread) returned 0x80010002
-[19:41:49.684] |W| [io_error_impl]: read_dir (_sceIoDread) returned 0x80010018
-[19:41:49.685] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/mount/point)
-[19:41:49.685] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
-[19:41:49.689] |E| [call_import]: Import function for NID 0xE340C27B not found (thread name: Unity_main_thread, thread ID: 78)
-[19:41:49.691] |I| [export__sceIoOpen]: Opening file: app0:/mono/etc/mono/config
-[19:41:49.691] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/mono/etc/mono/config (target path: app0:/mono/etc/mono/config)
-[19:41:49.691] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.692] |I| [export__sceIoOpen]: Opening file: app0:/.mono/config
-[19:41:49.692] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/.mono/config (target path: app0:/.mono/config)
-[19:41:49.692] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.695] |I| [export__sceIoOpen]: Opening file: /proc/cpuinfo
-[19:41:49.697] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
-[19:41:49.697] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.703] |E| [call_import]: Import function for NID 0xE340C276 not found (thread name: Unity_main_thread, thread ID: 78)
-[19:41:49.704] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/config
-[19:41:49.825] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/Media/Managed/mono/config (target path: app0:Media/Managed/mono/config)
-[19:41:49.826] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.826] |I| [export__sceIoOpen]: Opening file: app0:/.mono/config
-[19:41:49.827] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/.mono/config (target path: app0:/.mono/config)
-[19:41:49.827] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.827] |E| [call_import]: Import function for NID 0xE340C27F not found (thread name: Unity_main_thread, thread ID: 78)
-[19:41:49.827] |E| [call_import]: Import function for NID 0xE340C00A not found (thread name: Unity_main_thread, thread ID: 78)
-[19:41:49.830] |I| [export__sceIoOpen]: Opening file: /proc/cpuinfo
-[19:41:49.830] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
-[19:41:49.830] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.832] |E| [call_import]: Import function for NID 0xE340C281 not found (thread name: Unity_main_thread, thread ID: 78)
-[19:41:49.837] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
-[19:41:49.837] |W| [unimplemented_impl]: Unimplemented _sceKernelWaitException import called.
-[19:41:49.838] |W| [unimplemented_impl]: Unimplemented _sceKernelGetThreadContextForVM import called.
-[19:41:49.840] |W| [unimplemented_impl]: Unimplemented sceKernelCallAbortHandler import called.
-[19:41:49.840] |E| [logging::ret_error_impl]: _sceKernelDeleteLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
-[19:41:49.840] |E| [log_error_details]: Unicorn error 0xA. Invalid instruction (UC_ERR_INSN_INVALID)
-[19:41:49.840] |E| [log_error_details]: PC: 0x0009826c,   SP: 0x02d1b6d8,   LR: 0x00005353
-[19:41:49.840] |E| [log_error_details]: r0 : 0x00000000   r6 : 0x00013014
-[19:41:49.840] |E| [log_error_details]: r1 : 0x02d1b6e0   r7 : 0x000001b8
-[19:41:49.840] |E| [log_error_details]: r2 : 0x00000006   r8 : 0x00000000
-[19:41:49.840] |E| [log_error_details]: r3 : 0x0009826c   r9 : 0x00000000
-[19:41:49.841] |E| [log_error_details]: r4 : 0x00000003   r10: 0x00000000
-[19:41:49.841] |E| [log_error_details]: r5 : 0x02d1b8a8   r11: 0x00000000
-[19:41:49.841] |E| [log_error_details]: r12: 0x00000000
-[19:41:49.841] |E| [log_error_details]: Executing: .byte 0x10, 0xb5
-[19:41:49.841] |I| [log_stack_frames]: stack information
-[19:41:49.841] |E| [run_thread]: Thread ExceptionHandlerThread experienced a unicorn error.
-[19:41:49.845] |I| [export__sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
-[19:41:49.845] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
-[19:41:49.845] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:49.846] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll
-[19:41:50.156] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll
-[19:41:50.157] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll)
-[19:41:50.157] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:50.158] |I| [export__sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
-[19:41:50.158] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
-[19:41:50.158] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:50.159] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll.config
-[19:41:50.159] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/Media/Managed/mscorlib.dll.config (target path: app0:/Media/Managed/mscorlib.dll.config)
-[19:41:50.159] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:50.159] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config
-[19:41:50.159] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/Media/Managed/mono/assemblies/mscorlib/mscorlib.config (target path: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config)
-[19:41:50.159] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:41:50.263] |W| [unimplemented_impl]: Unimplemented _sceKernelGetSemaInfo import called.
-[19:41:50.265] |E| [call_import]: Import function for NID 0xE340C271 not found (thread name: Unity_main_thread, thread ID: 78)
-[19:41:50.265] |E| [log_error_details]: Unicorn error 0xA. Invalid instruction (UC_ERR_INSN_INVALID)
-[19:41:50.265] |E| [log_error_details]: PC: 0x0009826c,   SP: 0x037966b8,   LR: 0x00005353
-[19:41:50.265] |E| [log_error_details]: r0 : 0x00000000   r6 : 0x00013014
-[19:41:50.265] |E| [log_error_details]: r1 : 0x037966c0   r7 : 0x000001b8
-[19:41:50.265] |E| [log_error_details]: r2 : 0x00000006   r8 : 0x00000000
-[19:41:50.266] |E| [log_error_details]: r3 : 0x0009826c   r9 : 0x00000000
-[19:41:50.266] |E| [log_error_details]: r4 : 0x00000003   r10: 0x00000000
-[19:41:50.266] |E| [log_error_details]: r5 : 0x03796888   r11: 0x00000000
-[19:41:50.266] |E| [log_error_details]: r12: 0x00000000
-[19:41:50.266] |E| [log_error_details]: Executing: .byte 0x10, 0xb5
-[19:41:50.266] |I| [log_stack_frames]: stack information
-[19:41:50.266] |E| [run_thread]: Thread 0237B540 Mono experienced a unicorn error.
-[19:41:50.294] |W| [unimplemented_impl]: Unimplemented sceAppUtilLoadSafeMemory import called.
-[19:41:50.295] |E| [log_error_details]: Unicorn error 0xA. Invalid instruction (UC_ERR_INSN_INVALID)
-[19:41:50.295] |E| [log_error_details]: PC: 0x0009826c,   SP: 0x02a84a28,   LR: 0x00005353
-[19:41:50.295] |E| [log_error_details]: r0 : 0x00000000   r6 : 0x00013014
-[19:41:50.295] |E| [log_error_details]: r1 : 0x02a84a30   r7 : 0x000001b8
-[19:41:50.296] |E| [log_error_details]: r2 : 0x00000006   r8 : 0x00000001
-[19:41:50.296] |E| [log_error_details]: r3 : 0x0009826c   r9 : 0x02a84e3c
-[19:41:50.296] |E| [log_error_details]: r4 : 0x00000003   r10: 0x00000000
-[19:41:50.296] |E| [log_error_details]: r5 : 0x02a84bf8   r11: 0x00000000
-[19:41:50.296] |E| [log_error_details]: r12: 0x00000000
-[19:41:50.296] |E| [log_error_details]: Executing: .byte 0x10, 0xb5
-[19:41:50.296] |I| [log_stack_frames]: stack information
-[19:41:50.296] |E| [run_thread]: Thread Unity_main_thread experienced a unicorn error.
-[19:41:50.297] |E| [log_error_details]: Unicorn error 0xA. Invalid instruction (UC_ERR_INSN_INVALID)
-[19:41:50.297] |E| [log_error_details]: PC: 0x0009826c,   SP: 0x022a9be8,   LR: 0x00005353
-[19:41:50.297] |E| [log_error_details]: r0 : 0x00000000   r6 : 0x00013014
-[19:41:50.297] |E| [log_error_details]: r1 : 0x022a9bf0   r7 : 0x000001b8
-[19:41:50.297] |E| [log_error_details]: r2 : 0x00000006   r8 : 0x00000000
-[19:41:50.297] |E| [log_error_details]: r3 : 0x0009826c   r9 : 0x00000000
-[19:41:50.297] |E| [log_error_details]: r4 : 0x00000003   r10: 0x00000000
-[19:41:50.297] |E| [log_error_details]: r5 : 0x022a9db8   r11: 0x0000000
+[07:01:29.888] |I| [load_app_impl]: cpu-backend: Dynarmic
+[07:01:29.888] |I| [load_app_impl]: CPU Optimisation state: true
+[07:01:29.888] |I| [load_app_impl]: at9 audio decoder state: true
+[07:01:29.889] |I| [load_app_impl]: ngs experimental state: true
+[07:01:29.889] |I| [load_app_impl]: video player state: true
+[07:01:29.889] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[07:01:29.889] |I| [load_app_impl]: Title: Fat City
+[07:01:29.889] |I| [load_app_impl]: Serial: PCSB00894
+[07:01:29.889] |I| [load_app_impl]: Version: 1.00
+[07:01:29.889] |I| [load_app_impl]: Category: gd
+[07:01:29.943] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:29.944] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSB00894\sce_module\libc.suprx
+[07:01:29.944] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSB00894\sce_module\libc.suprx
+[07:01:29.944] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00894\sce_module\libc.suprx
+[07:01:29.944] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[07:01:29.945] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[07:01:29.945] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[07:01:29.945] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[07:01:29.946] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00894\sce_module\libc.suprx") loaded
+[07:01:29.958] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:29.958] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSB00894\sce_module\libface.suprx
+[07:01:29.958] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB00894\sce_module\libface.suprx
+[07:01:29.958] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00894\sce_module\libface.suprx
+[07:01:29.958] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
+[07:01:29.958] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
+[07:01:29.958] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00894\sce_module\libface.suprx") loaded
+[07:01:29.975] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:29.976] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSB00894\sce_module\libfios2.suprx
+[07:01:29.976] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSB00894\sce_module\libfios2.suprx
+[07:01:29.976] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00894\sce_module\libfios2.suprx
+[07:01:29.976] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
+[07:01:29.976] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
+[07:01:29.976] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00894\sce_module\libfios2.suprx") loaded
+[07:01:30.026] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:30.026] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSB00894\sce_module\libsmart.suprx
+[07:01:30.027] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSB00894\sce_module\libsmart.suprx
+[07:01:30.027] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00894\sce_module\libsmart.suprx
+[07:01:30.027] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
+[07:01:30.027] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
+[07:01:30.027] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00894\sce_module\libsmart.suprx") loaded
+[07:01:30.036] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:30.036] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09A4 / 0x81000000] (size: 0x000139A4) of module ux0:app\PCSB00894\sce_module\libult.suprx
+[07:01:30.037] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00894\sce_module\libult.suprx
+[07:01:30.037] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00894\sce_module\libult.suprx
+[07:01:30.037] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2D0
+[07:01:30.037] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC858
+[07:01:30.037] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00894\sce_module\libult.suprx") loaded
+[07:01:30.045] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[07:01:30.045] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[07:01:30.045] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[07:01:30.045] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
+[07:01:30.046] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
+[07:01:30.046] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[07:01:30.048] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[07:01:30.048] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[07:01:30.049] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[07:01:30.049] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
+[07:01:30.049] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
+[07:01:30.049] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[07:01:30.751] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:30.751] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x01F2F120 / 0x81000000] (size: 0x01BFA120) of module app0:eboot.bin
+[07:01:30.752] |I| [load_self]: Loaded module segment 1 @ [0x01F30000 - 0x02242E50 / 0x82BFB000] (size: 0x00312E50) of module app0:eboot.bin
+[07:01:30.752] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[07:01:30.752] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1D51504
+[07:01:30.752] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x1F3008C
+[07:01:30.752] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1E7A7CC
+[07:01:30.752] |W| [load_var_imports]: 	NID NOT FOUND 0x1A5C609 (UNRECOGNISED) at 0x1D7A1F4, setting to stub value 0xDEADBEEF
+[07:01:30.753] |W| [load_var_imports]: 	NID NOT FOUND 0x6EF1E48 (UNRECOGNISED) at 0x1D79F1C, setting to stub value 0xDEADBEEF
+[07:01:30.754] |I| [load_app_impl]: Main executable UnityPlayer_437_Release (eboot.bin) loaded
+[07:01:30.765] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[07:01:30.785] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00894\sce_module\libc.suprx") module_start returned 0x0
+[07:01:30.789] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
+[07:01:30.799] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00894\sce_module\libface.suprx") module_start returned 0x0
+[07:01:30.803] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
+[07:01:30.813] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[07:01:30.813] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[07:01:30.813] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[07:01:30.814] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00894\sce_module\libfios2.suprx") module_start returned 0x0
+[07:01:30.817] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
+[07:01:30.829] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00894\sce_module\libsmart.suprx") module_start returned 0x0
+[07:01:30.833] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0769
+[07:01:30.841] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[07:01:30.842] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00894\sce_module\libult.suprx") module_start returned 0x0
+[07:01:30.852] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[07:01:31.057] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSB00894, thread ID: 10)
+[07:01:31.059] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[07:01:31.060] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[07:01:31.124] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:31.124] |I| [load_self]: Loaded module segment 0 @ [0x02688000 - 0x0268E8F8 / 0x81000000] (size: 0x000068F8) of module app0:/Media/Modules/pthread.suprx
+[07:01:31.125] |I| [load_self]: Loaded module segment 1 @ [0x0268F000 - 0x02691168 / 0x81007000] (size: 0x00002168) of module app0:/Media/Modules/pthread.suprx
+[07:01:31.125] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/pthread.suprx
+[07:01:31.125] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x268D568
+[07:01:31.125] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x268E8F4
+[07:01:31.134] |I| [export__sceKernelLoadStartModule]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") module_start returned 0x0
+[07:01:31.139] |I| [load_module]: Loading module ID: 0x55
+[07:01:31.141] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:31.141] |I| [load_self]: Loaded module segment 0 @ [0x02692000 - 0x02698230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
+[07:01:31.141] |I| [load_self]: Loaded module segment 1 @ [0x02699000 - 0x02699049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
+[07:01:31.141] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
+[07:01:31.141] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x26980A8
+[07:01:31.142] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2697020
+[07:01:31.142] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
+[07:01:31.146] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:31.148] |I| [load_self]: Loaded module segment 0 @ [0x0269A000 - 0x0269F878 / 0x81000000] (size: 0x00005878) of module app0:/Media/Modules/SUPRXManager.suprx
+[07:01:31.148] |I| [load_self]: Loaded module segment 1 @ [0x026A0000 - 0x026A0044 / 0x81006000] (size: 0x00000044) of module app0:/Media/Modules/SUPRXManager.suprx
+[07:01:31.149] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/SUPRXManager.suprx
+[07:01:31.149] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x269F06C
+[07:01:31.149] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x269F7BC
+[07:01:31.166] |I| [export__sceKernelLoadStartModule]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") module_start returned 0x0
+[07:01:31.217] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:01:31.217] |I| [load_self]: Loaded module segment 0 @ [0x026A1000 - 0x028EC094 / 0x81000000] (size: 0x0024B094) of module app0:/Media/Modules/mono-vita.suprx
+[07:01:31.217] |I| [load_self]: Loaded module segment 1 @ [0x028ED000 - 0x02954C60 / 0x8124C000] (size: 0x00067C60) of module app0:/Media/Modules/mono-vita.suprx
+[07:01:31.218] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/mono-vita.suprx
+[07:01:31.218] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2834314
+[07:01:31.218] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x28CEF3C
+[07:01:31.228] |I| [export__sceKernelLoadStartModule]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") module_start returned 0x0
+[07:01:31.318] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[07:01:31.318] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[07:01:31.384] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[07:01:31.392] |I| [export_sceIoOpen]: Opening file: app0:/archive.psarc
+[07:01:31.393] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/archive.psarc (target path: app0:/archive.psarc)
+[07:01:31.393] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.419] |I| [export_sceIoOpen]: Opening file: app0:/archive_patch.psarc
+[07:01:31.420] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/archive_patch.psarc (target path: app0:/archive_patch.psarc)
+[07:01:31.420] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.525] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/mount/point)
+[07:01:31.526] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[07:01:31.543] |E| [call_import]: Import function for NID 0xE340C279 not found (thread name: Unity_main_thread, thread ID: 71)
+[07:01:31.548] |I| [export_sceIoOpen]: Opening file: app0:/mono/etc/mono/config
+[07:01:31.549] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/mono/etc/mono/config (target path: app0:/mono/etc/mono/config)
+[07:01:31.549] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.550] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[07:01:31.551] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/.mono/config (target path: app0:/.mono/config)
+[07:01:31.551] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.554] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[07:01:31.554] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[07:01:31.554] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.562] |E| [call_import]: Import function for NID 0xE340C273 not found (thread name: Unity_main_thread, thread ID: 71)
+[07:01:31.563] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/config
+[07:01:31.563] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/Media/Managed/mono/config (target path: app0:Media/Managed/mono/config)
+[07:01:31.563] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.563] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[07:01:31.563] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/.mono/config (target path: app0:/.mono/config)
+[07:01:31.564] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.566] |E| [call_import]: Import function for NID 0xE340C27C not found (thread name: Unity_main_thread, thread ID: 71)
+[07:01:31.567] |E| [call_import]: Import function for NID 0xE340C008 not found (thread name: Unity_main_thread, thread ID: 71)
+[07:01:31.567] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[07:01:31.567] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[07:01:31.567] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:01:31.567] |E| [call_import]: Import function for NID 0xE340C27E not found (thread name: Unity_main_thread, thread ID: 71)
+[07:01:31.580] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
+[07:01:31.581] |W| [unimplemented_impl]: Unimplemented SceKernelForMono_1BECC64C import called.
+[07:01:31.585] |W| [unimplemented_impl]: Unimplemented SceKernelForMono_AD210F16 import called.
+[07:01:31.592] |W| [unimplemented_impl]: Unimplemented sceKernelCallAbortHandler import called.
+[07:01:31.592] |W| [unimplemented_impl]: Unimplemented sceKernelCallModuleExit import called.
+[07:01:31.615] |I| [export_sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
+[07:01:31.616] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00894/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
+[07:01:31.616] |W| 

@@ -1,134 +1,529 @@
-[18:56:21.159] |I| [load_app_impl]: cpu-backend: Dynarmic
-[18:56:21.159] |I| [load_app_impl]: CPU Optimisation state: true
-[18:56:21.160] |I| [load_app_impl]: at9 audio decoder state: true
-[18:56:21.161] |I| [load_app_impl]: ngs experimental state: true
-[18:56:21.161] |I| [load_app_impl]: video player state: true
-[18:56:21.161] |I| [load_app_impl]: lle-modules: libSceJson,liblocation,libSceXml,libpgf,libvoice,librudp,libSceSqlite,libvoiceqos,libsas
-[18:56:21.162] |I| [load_app_impl]: Title: やはりゲームでも 俺の青春ラブコメは まちがっている。(Ver1.01)
-[18:56:21.163] |I| [load_app_impl]: Serial: PCSG00215
-[18:56:21.163] |I| [load_app_impl]: Version: 1.01
-[18:56:21.164] |I| [load_app_impl]: Category: gp
-[18:56:21.173] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[18:56:21.173] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00054A2C / 0x81000000] (size: 0x0004DA2C) of module ux0:app\PCSG00215\sce_module\libc.suprx
-[18:56:21.173] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F8 / 0x8104E000] (size: 0x000026F8) of module ux0:app\PCSG00215\sce_module\libc.suprx
-[18:56:21.174] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00215\sce_module\libc.suprx
-[18:56:21.175] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x40798
-[18:56:21.175] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A7D4
-[18:56:21.175] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x44758, setting to stub value 0xDEADBEEF
-[18:56:21.176] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x4621C, setting to stub value 0xDEADBEEF
-[18:56:21.177] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG00215\sce_module\libc.suprx") loaded
-[18:56:21.182] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[18:56:21.183] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x00082928 / 0x81000000] (size: 0x00028928) of module ux0:app\PCSG00215\sce_module\libfios2.suprx
-[18:56:21.183] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x000881FD / 0x81029000] (size: 0x000051FD) of module ux0:app\PCSG00215\sce_module\libfios2.suprx
-[18:56:21.184] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00215\sce_module\libfios2.suprx
-[18:56:21.184] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7A6A8
-[18:56:21.185] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x82810
-[18:56:21.185] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG00215\sce_module\libfios2.suprx") loaded
-[18:56:21.188] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[18:56:21.188] |I| [load_self]: Loaded module segment 0 @ [0x00089000 - 0x0009D744 / 0x81000000] (size: 0x00014744) of module ux0:app\PCSG00215\sce_module\libult.suprx
-[18:56:21.189] |I| [load_self]: Loaded module segment 1 @ [0x0009E000 - 0x0009E814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSG00215\sce_module\libult.suprx
-[18:56:21.189] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00215\sce_module\libult.suprx
-[18:56:21.190] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x99658
-[18:56:21.190] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9C0A0
-[18:56:21.191] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG00215\sce_module\libult.suprx") loaded
-[18:56:21.197] |I| [load_self]: Loaded module segment 0 @ [0x0009F000 - 0x000EFF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[18:56:21.198] |I| [load_self]: Loaded module segment 1 @ [0x000F0000 - 0x000F02F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[18:56:21.199] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[18:56:21.199] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xDB7DC
-[18:56:21.199] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xDAF10
-[18:56:21.200] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[18:56:21.201] |I| [load_self]: Loaded module segment 0 @ [0x000F1000 - 0x00100F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[18:56:21.202] |I| [load_self]: Loaded module segment 1 @ [0x00101000 - 0x00101008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[18:56:21.202] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[18:56:21.203] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xFF710
-[18:56:21.203] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xFF300
-[18:56:21.204] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[18:56:21.225] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[18:56:21.225] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81105204 / 0x81000000] (size: 0x00105204) of module app0:eboot.bin
-[18:56:21.226] |I| [load_self]: Loaded module segment 1 @ [0x81106000 - 0x81469910 / 0x81106000] (size: 0x00363910) of module app0:eboot.bin
-[18:56:21.227] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[18:56:21.227] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810D5828
-[18:56:21.228] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8110B728
-[18:56:21.228] |I| [load_app_impl]: Main executable mainprg (eboot.bin) loaded
-[18:56:21.236] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
-[18:56:21.269] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG00215\sce_module\libc.suprx") module_start returned 0x0
-[18:56:21.273] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5A001
-[18:56:21.281] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[18:56:21.281] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
-[18:56:21.281] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[18:56:21.282] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG00215\sce_module\libfios2.suprx") module_start returned 0x0
-[18:56:21.286] |D| [run_app]: Running module_start of library: SceUlt at address 0x8C5ED
-[18:56:21.294] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[18:56:21.294] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG00215\sce_module\libult.suprx") module_start returned 0x0
-[18:56:21.302] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[18:56:21.302] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[18:56:21.302] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[18:56:21.303] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[18:56:21.304] |W| [unimplemented_impl]: Unimplemented sceKernelSetGPO import called.
-[18:56:21.327] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
-[18:56:21.327] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
-[18:56:21.328] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
-[18:56:21.352] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[18:56:21.366] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
-[18:56:21.370] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[18:56:21.370] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[18:56:21.386] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[18:56:21.386] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 3, using passthrough.
-[18:56:21.387] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[18:56:21.387] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 4, using passthrough.
-[18:56:21.388] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[18:56:21.388] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[18:56:21.392] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[18:56:21.402] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
-[18:56:21.435] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[18:56:21.438] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[18:56:21.614] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[18:56:21.722] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[18:56:21.725] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[18:56:21.833] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bg.cpk
-[18:56:21.848] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bg.cpk
-[18:56:21.960] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/chara.cpk
-[18:56:21.962] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/chara.cpk
-[18:56:22.077] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/system.cpk
-[18:56:22.078] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/system.cpk
-[18:56:22.193] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/script.cpk
-[18:56:22.195] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/script.cpk
-[18:56:22.310] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/mask.cpk
-[18:56:22.311] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/mask.cpk
-[18:56:22.427] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/voice.cpk
-[18:56:22.428] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/voice.cpk
-[18:56:22.543] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/se.cpk
-[18:56:22.545] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/se.cpk
-[18:56:22.660] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bgm.cpk
-[18:56:22.661] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bgm.cpk
-[18:56:22.777] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/movie.cpk
-[18:56:22.778] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/movie.cpk
-[18:56:22.910] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/live2d.cpk
-[18:56:22.912] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/live2d.cpk
-[18:56:23.328] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/shader.bin
-[18:56:23.344] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/shader.bin
-[18:56:23.427] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/trophy.trp
-[18:56:23.443] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/trophy.trp
-[18:56:24.369] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[18:56:24.394] |I| [renderer::gl::load_shader_generic]: Generating frag shader c4ce4a0c89495522c07419b070a4c493a0b505d1123c3a3e4e2d699ba8215326
-[18:56:24.395] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[18:56:24.397] |I| [renderer::gl::load_shader_generic]: Generating vert shader fd7c9deebab2acaf32b47da060e447008381967c735937ebe4b4f19f91987e5e
-[18:56:24.398] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[18:56:24.398] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[18:56:24.402] |E| [renderer::gl::compile_program]: Fragment info
+[08:51:10.289] |I| [load_app_impl]: cpu-backend: Dynarmic
+[08:51:10.290] |I| [load_app_impl]: CPU Optimisation state: true
+[08:51:10.290] |I| [load_app_impl]: at9 audio decoder state: true
+[08:51:10.290] |I| [load_app_impl]: ngs experimental state: true
+[08:51:10.290] |I| [load_app_impl]: video player state: true
+[08:51:10.290] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[08:51:10.290] |I| [load_app_impl]: Title: やはりゲームでも 俺の青春ラブコメは まちがっている。(Ver1.01)
+[08:51:10.291] |I| [load_app_impl]: Serial: PCSG00215
+[08:51:10.291] |I| [load_app_impl]: Version: 1.01
+[08:51:10.291] |I| [load_app_impl]: Category: gp
+[08:51:10.337] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:51:10.338] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00054A2C / 0x81000000] (size: 0x0004DA2C) of module ux0:app\PCSG00215\sce_module\libc.suprx
+[08:51:10.338] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F8 / 0x8104E000] (size: 0x000026F8) of module ux0:app\PCSG00215\sce_module\libc.suprx
+[08:51:10.338] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00215\sce_module\libc.suprx
+[08:51:10.338] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x40798
+[08:51:10.339] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A7D4
+[08:51:10.339] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x44758, setting to stub value 0xDEADBEEF
+[08:51:10.340] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x4621C, setting to stub value 0xDEADBEEF
+[08:51:10.340] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG00215\sce_module\libc.suprx") loaded
+[08:51:10.357] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:51:10.358] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x00082928 / 0x81000000] (size: 0x00028928) of module ux0:app\PCSG00215\sce_module\libfios2.suprx
+[08:51:10.358] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x000881FD / 0x81029000] (size: 0x000051FD) of module ux0:app\PCSG00215\sce_module\libfios2.suprx
+[08:51:10.358] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00215\sce_module\libfios2.suprx
+[08:51:10.358] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7A6A8
+[08:51:10.358] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x82810
+[08:51:10.358] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG00215\sce_module\libfios2.suprx") loaded
+[08:51:10.374] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:51:10.375] |I| [load_self]: Loaded module segment 0 @ [0x00089000 - 0x0009D744 / 0x81000000] (size: 0x00014744) of module ux0:app\PCSG00215\sce_module\libult.suprx
+[08:51:10.375] |I| [load_self]: Loaded module segment 1 @ [0x0009E000 - 0x0009E814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSG00215\sce_module\libult.suprx
+[08:51:10.375] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00215\sce_module\libult.suprx
+[08:51:10.375] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x99658
+[08:51:10.375] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9C0A0
+[08:51:10.375] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG00215\sce_module\libult.suprx") loaded
+[08:51:10.383] |I| [load_self]: Loaded module segment 0 @ [0x0009F000 - 0x000EFF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[08:51:10.383] |I| [load_self]: Loaded module segment 1 @ [0x000F0000 - 0x000F02F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[08:51:10.384] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[08:51:10.384] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xDB7DC
+[08:51:10.384] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xDAF10
+[08:51:10.384] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[08:51:10.387] |I| [load_self]: Loaded module segment 0 @ [0x000F1000 - 0x00100F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[08:51:10.389] |I| [load_self]: Loaded module segment 1 @ [0x00101000 - 0x00101008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[08:51:10.389] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[08:51:10.390] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xFF710
+[08:51:10.390] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xFF300
+[08:51:10.390] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[08:51:10.424] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:51:10.424] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81105204 / 0x81000000] (size: 0x00105204) of module app0:eboot.bin
+[08:51:10.424] |I| [load_self]: Loaded module segment 1 @ [0x81106000 - 0x81469910 / 0x81106000] (size: 0x00363910) of module app0:eboot.bin
+[08:51:10.424] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[08:51:10.425] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810D5828
+[08:51:10.425] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8110B728
+[08:51:10.425] |I| [load_app_impl]: Main executable mainprg (eboot.bin) loaded
+[08:51:10.433] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
+[08:51:10.465] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG00215\sce_module\libc.suprx") module_start returned 0x0
+[08:51:10.470] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5A001
+[08:51:10.478] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[08:51:10.478] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
+[08:51:10.478] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[08:51:10.479] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG00215\sce_module\libfios2.suprx") module_start returned 0x0
+[08:51:10.482] |D| [run_app]: Running module_start of library: SceUlt at address 0x8C5ED
+[08:51:10.491] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[08:51:10.491] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG00215\sce_module\libult.suprx") module_start returned 0x0
+[08:51:10.499] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[08:51:10.500] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[08:51:10.500] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[08:51:10.500] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[08:51:10.500] |W| [unimplemented_impl]: Unimplemented sceKernelSetGPO import called.
+[08:51:10.520] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
+[08:51:10.520] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
+[08:51:10.521] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[08:51:10.542] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[08:51:10.553] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
+[08:51:10.556] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[08:51:10.556] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[08:51:10.569] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:10.569] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 3, using passthrough.
+[08:51:10.570] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:10.570] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 4, using passthrough.
+[08:51:10.570] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:10.571] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:10.574] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[08:51:10.584] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
+[08:51:10.610] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[08:51:10.613] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[08:51:10.745] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[08:51:11.055] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[08:51:11.058] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[08:51:11.107] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bg.cpk
+[08:51:11.145] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bg.cpk
+[08:51:11.246] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/chara.cpk
+[08:51:11.264] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/chara.cpk
+[08:51:11.379] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/system.cpk
+[08:51:11.392] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/system.cpk
+[08:51:11.495] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/script.cpk
+[08:51:11.532] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/script.cpk
+[08:51:11.645] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/mask.cpk
+[08:51:11.668] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/mask.cpk
+[08:51:11.780] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/voice.cpk
+[08:51:11.789] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/voice.cpk
+[08:51:11.895] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/se.cpk
+[08:51:11.934] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/se.cpk
+[08:51:12.047] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bgm.cpk
+[08:51:12.057] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/bgm.cpk
+[08:51:12.162] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/movie.cpk
+[08:51:12.195] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/movie.cpk
+[08:51:12.312] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/live2d.cpk
+[08:51:12.327] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/live2d.cpk
+[08:51:12.647] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/shader.bin
+[08:51:12.663] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/shader.bin
+[08:51:12.746] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/trophy.trp
+[08:51:12.762] |I| [export_sceIoOpen]: Opening file: app0:/gamedata/trophy.trp
+[08:51:13.706] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[08:51:13.713] |I| [renderer::gl::load_shader_generic]: Generating frag shader c4ce4a0c89495522c07419b070a4c493a0b505d1123c3a3e4e2d699ba8215326
+[08:51:13.714] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:51:13.729] |I| [renderer::gl::load_shader_generic]: Generating vert shader fd7c9deebab2acaf32b47da060e447008381967c735937ebe4b4f19f91987e5e
+[08:51:13.731] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:51:13.731] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:51:13.752] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(15) : warning C7050: "pa[0].zw" might be used before being initialized
+0(16) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[18:56:24.405] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8121eaf4d6e5957c332002af090a65548a129182266293164f9f7757775fb6a7
-[18:56:24.405] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[18:56:24.409] |I| [renderer::gl::load_shader_generic]: Generating vert shader 11ec651c3e57f75646805f3380bac8e11d30b80ce9d4313345e69f2d73257098
-[18:56:24.410] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[18:56:24.410] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord0
-[18:56:24.411] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
-[18:56:24.415] |E| [renderer::gl::compile_program]: Fragment info
+[08:51:13.756] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[08:51:13.757] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8121eaf4d6e5957c332002af090a65548a129182266293164f9f7757775fb6a7
+[08:51:13.758] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:51:13.761] |I| [renderer::gl::load_shader_generic]: Generating vert shader 11ec651c3e57f75646805f3380bac8e11d30b80ce9d4313345e69f2d73257098
+[08:51:13.762] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:51:13.762] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord0
+[08:51:13.762] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
+[08:51:13.778] |E| [renderer::gl::compile_program]: Fragment info
 -------------
-0(17) : warning C7050: "pa[0].zw" might be used before being initialized
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[18:56:25.691] |I| [renderer::gl::load_shader_generic]: Generating frag shader d1b301f848ebf5ed24e7
+[08:51:15.063] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.111] |I| [renderer::gl::load_shader_generic]: Generating frag shader d1b301f848ebf5ed24e77e15d5aa9f3bdf9c584c39ced75b6dd58a0aa8293923
+[08:51:15.113] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) AlphaChk
+[08:51:15.113] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[08:51:15.117] |I| [renderer::gl::load_shader_generic]: Generating vert shader 5d404613016fb40d3b0668ed0d9a5f1b6271fe5211c2bb1ed992e2371b25ce30
+[08:51:15.118] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:51:15.118] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:51:15.118] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord0
+[08:51:15.131] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(26) : warning C7050: "r[0]" might be used before being initialized
+0(25) : warning C7050: "internals[1].w" might be used before being initialized
+
+
+[08:51:15.134] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[08:51:15.136] |I| [renderer::gl::load_shader_generic]: Generating frag shader 46b11fc840f982b2d26f823ffb7137881a77e7caa6db15a5ffb91e1bd19ba9a4
+[08:51:15.137] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:51:15.148] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[08:51:15.172] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.244] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.613] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.696] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.779] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.863] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.930] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:15.996] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:16.082] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:16.163] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:16.231] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:16.313] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:16.408] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:17.086] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:17.737] |I| [export_sceIoOpen]: Opening file: savedata0:SYSTEM02.DAT
+[08:51:18.163] |I| [renderer::gl::load_shader_generic]: Generating frag shader d755c23094aed3ab18833ad3db7745349595653dbe1d70accbc2fa35b5b4def9
+[08:51:18.165] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[08:51:18.168] |I| [renderer::gl::load_shader_generic]: Generating vert shader 29610df0b31c9fd203c01c52c3c38cb72c377f1c8b2e53f930f44816982803e3
+[08:51:18.169] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:51:18.169] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:51:18.263] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:25.780] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[08:51:25.783] |I| [renderer::gl::load_shader_generic]: Generating frag shader 1f81dc063aad0d68e35a55818bcb97c5f3bb4883eb19a60f812605b069e28726
+[08:51:25.784] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:51:25.794] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[08:51:25.803] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[08:51:25.817] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:25.846] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[08:51:25.863] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[08:51:26.347] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:27.931] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:27.982] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.041] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:28.048] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.100] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.148] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.198] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.249] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.297] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.345] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.398] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.449] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.564] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.614] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.664] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.747] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:28.792] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:28.807] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:29.364] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:29.423] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:29.614] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:29.665] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:30.374] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:31.114] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.166] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.216] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.281] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.331] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.385] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.448] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.507] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.559] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.631] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.684] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.735] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:31.789] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:32.281] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:32.814] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.144] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:33.232] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.262] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.293] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.323] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.355] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.386] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.417] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.448] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.479] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.510] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.543] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.574] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:33.978] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:35.899] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:39.580] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 0
+[08:51:39.931] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:39.947] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 0
+[08:51:39.950] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[08:51:39.950] |I| [renderer::gl::load_shader_generic]: Generating frag shader fed1d3dee7fcb9960b6af69bd2d4bcd87b7bec29c3a8f2f70c71d19fef036cd3
+[08:51:39.951] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) AlphaChk
+[08:51:39.951] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) ConstAlpha
+[08:51:39.951] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) AlphaRange
+[08:51:39.952] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[08:51:39.956] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1e3c811361716bc57afad451e38a08669a76fa50191544560df018797ad07846
+[08:51:39.959] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:51:39.959] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:51:39.959] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord0
+[08:51:39.959] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord1
+[08:51:39.975] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(27) : warning C7050: "internals[2].w" might be used before being initialized
+
+
+[08:51:40.046] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:44.301] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.358] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.412] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.481] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.539] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.594] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.665] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.722] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.778] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.848] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.905] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:44.959] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:45.017] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:45.464] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[08:51:46.385] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[08:51:46.433] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[08:51:46.779] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:51:50.415] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:03:38.752] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:03:39.164] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:03:46.287] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:03:47.732] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:03:50.720] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:03:51.098] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:03:53.852] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:03:55.943] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:03:59.241] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:01.791] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:04.171] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:09.367] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.420] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.473] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.525] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.575] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.626] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.676] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.733] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.788] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.843] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.894] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.944] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:09.998] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:10.049] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:10.427] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:10.454] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[09:04:20.576] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:22.905] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:24.843] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:26.308] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:26.769] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[09:04:26.968] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:27.201] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:27.434] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:27.716] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:28.481] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:28.498] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:29.867] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:30.501] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:30.997] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:31.375] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:31.424] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[09:04:31.458] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:31.542] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:31.658] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:31.742] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:31.825] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:31.942] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:32.010] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:32.092] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:32.208] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:32.292] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:32.375] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:32.458] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:32.543] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:33.360] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:33.954] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:35.536] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:35.808] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:36.674] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:38.715] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:39.089] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:40.419] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.491] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.548] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.619] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.686] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.739] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.802] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.857] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.918] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:40.985] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.052] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.106] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.160] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.368] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.421] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.502] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.556] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.639] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.689] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.752] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.835] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.902] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:41.962] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.016] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.030] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:42.085] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.142] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.202] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.255] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.318] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.377] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.433] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.487] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.542] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.602] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.669] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.735] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.802] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.869] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.928] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:42.986] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.052] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.119] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.185] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.254] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.312] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.369] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.435] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.502] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.587] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.669] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.768] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.822] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.878] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:43.944] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.002] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.069] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.152] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.219] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.285] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.352] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.418] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.476] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.669] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.725] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.781] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.843] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.902] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:44.960] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.018] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.075] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.138] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.203] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.273] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.328] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.382] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.438] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.490] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.542] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.595] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.651] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:45.652] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.705] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.758] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.813] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.867] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.923] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:45.977] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.031] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.102] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.151] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.257] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.319] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.386] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.436] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.569] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.652] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.714] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.772] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.869] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.921] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:46.976] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.037] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.090] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.141] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.202] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.259] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.266] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:47.311] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.386] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.435] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:47.486] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:48.219] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:48.267] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[09:04:48.268] |I| [renderer::gl::load_shader_generic]: Generating frag shader 9ae9b419d2df131b1fa302c35c8e1c2c6ed0bcc31e1ca16da5baffb749a37f18
+[09:04:48.269] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) AlphaChk
+[09:04:48.269] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) ConstAlpha
+[09:04:48.269] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) AlphaRange
+[09:04:48.269] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[09:04:48.286] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(27) : warning C7050: "internals[2].w" might be used before being initialized
+
+
+[09:04:48.302] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:48.473] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:48.752] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:48.819] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:49.002] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:49.060] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:04:49.986] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:51.018] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:04:51.040] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:53.216] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:57.109] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:57.364] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:04:57.603] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:05:01.733] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:05:02.154] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:05:02.160] |I| [renderer::gl::load_shader_generic]: Generating frag shader 575c39d77e62ed1d54845b2a77f5bf246d255d7d330f017c8f61078492edcf98
+[09:05:02.161] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uBaseColor
+[09:05:02.165] |I| [renderer::gl::load_shader_generic]: Generating vert shader d7e01fc06a50c333213cab9d8f5ec596d309dd18f70cbc737522629c260ffc1f
+[09:05:02.166] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[09:05:02.166] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord
+[09:05:02.166] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
+[09:05:02.177] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(23) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[09:05:02.178] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:05:02.184] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:05:02.722] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[09:05:02.787] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:05:03.484] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:05:03.920] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:03.972] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[09:05:03.983] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.034] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.091] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[09:05:04.104] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.171] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.254] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.320] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.387] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.471] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.687] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.754] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.821] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:04.888] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[09:05:05.388] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[09:05:05.405] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:05:07.615] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:06:23.944] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:06:26.920] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:06:29.946] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:06:33.465] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:06:36.610] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:06:41.251] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[09:06:58.224] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
+[09:06:58.225] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43

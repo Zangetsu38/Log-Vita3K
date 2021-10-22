@@ -1,657 +1,1158 @@
-[19:15:53.384] |I| [load_app_impl]: ngs experimental state: true
-[19:15:53.384] |I| [load_app_impl]: video player state: true
-[19:15:53.384] |I| [load_app_impl]: auto-lle: enabled
-[19:15:53.385] |I| [load_app_impl]: Title: TOKYO TATTOO GIRLS
-[19:15:53.385] |I| [load_app_impl]: Serial: PCSB01161
-[19:15:53.385] |I| [load_app_impl]: Version: 1.00
-[19:15:53.385] |I| [load_app_impl]: Category: gd
-[19:15:53.419] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x000128D8 / 0x81000000] (size: 0x0000E8D8) of module os0:us/libkernel.suprx
-[19:15:53.420] |I| [load_self]: Loaded module segment 1 @ [0x00013000 - 0x00013048 / 0x8100F000] (size: 0x00000048) of module os0:us/libkernel.suprx
-[19:15:53.420] |I| [load_self]: Loading symbols for SELF: os0:us/libkernel.suprx
-[19:15:53.420] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x10AF0
-[19:15:53.421] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xF250
-[19:15:53.421] |D| [load_func_exports]: 	NID 0x120AFC8C (sceKernelUnlockLwMutex2) at 0x44B1
-[19:15:53.421] |D| [load_func_exports]: 	NID 0x244E76D2 (sceKernelDeleteLwMutex) at 0xEAC5
-[19:15:53.421] |D| [load_func_exports]: 	NID 0x3148C6B6 (sceKernelLockLwMutexCB) at 0x438D
-[19:15:53.421] |D| [load_func_exports]: 	NID 0x46E7BE7B (sceKernelLockLwMutex) at 0x4391
-[19:15:53.421] |D| [load_func_exports]: 	NID 0x4846613D (sceKernelGetLwMutexInfoById) at 0xEACD
-[19:15:53.421] |D| [load_func_exports]: 	NID 0x4C4672BF (sceKernelGetProcessTime) at 0x47CF
-[19:15:53.421] |D| [load_func_exports]: 	NID 0x91FA6614 (sceKernelUnlockLwMutex) at 0x4437
-[19:15:53.421] |D| [load_func_exports]: 	NID 0xA6A2C915 (sceKernelTryLockLwMutex) at 0x43C1
-[19:15:53.421] |D| [load_func_exports]: 	NID 0xB110C123 (sceKernelGetProcessTimeWide) at 0x4799
-[19:15:53.422] |D| [load_func_exports]: 	NID 0xB84EF718 (_sceKernelCreateLwMutex) at 0xEAB1
-[19:15:53.422] |D| [load_func_exports]: 	NID 0xDA6EC8EF (sceKernelCreateLwMutex) at 0x56ED
-[19:15:53.422] |D| [load_func_exports]: 	NID 0xE9F973B1 (sceKernelGetProcessTimeLow) at 0x4771
-[19:15:53.422] |D| [load_func_exports]: 	NID 0xF7D8F1FC (sceKernelGetLwMutexInfo) at 0x44A3
-[19:15:53.422] |I| [pre_load_module]: Pre-load module SceLibKernel (at "us/libkernel.suprx") loaded
-[19:15:53.423] |I| [load_self]: Loaded module segment 0 @ [0x00014000 - 0x000231D4 / 0x81000000] (size: 0x0000F1D4) of module os0:us/driver_us.suprx
-[19:15:53.424] |I| [load_self]: Loaded module segment 1 @ [0x00024000 - 0x0002CF40 / 0x81010000] (size: 0x00008F40) of module os0:us/driver_us.suprx
-[19:15:53.424] |I| [load_self]: Loading symbols for SELF: os0:us/driver_us.suprx
-[19:15:53.424] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x216E4
-[19:15:53.424] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x20410
-[19:15:53.424] |I| [pre_load_module]: Pre-load module SceDriverUser (at "us/driver_us.suprx") loaded
-[19:15:53.487] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:53.487] |I| [load_self]: Loaded module segment 0 @ [0x0002D000 - 0x0007E91C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
-[19:15:53.487] |I| [load_self]: Loaded module segment 1 @ [0x0007F000 - 0x000818A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
-[19:15:53.488] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
-[19:15:53.488] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x7438C
-[19:15:53.488] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x69550
-[19:15:53.488] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x6F244, setting to stub value 0xDEADBEEF
-[19:15:53.488] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
-[19:15:53.500] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:53.500] |I| [load_self]: Loaded module segment 0 @ [0x00083000 - 0x0009C000 / 0x81000000] (size: 0x00019000) of module app0:sce_module/libface.suprx
-[19:15:53.500] |I| [load_self]: Loaded module segment 1 @ [0x0009C000 - 0x0009C0F8 / 0x81019000] (size: 0x000000F8) of module app0:sce_module/libface.suprx
-[19:15:53.500] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libface.suprx
-[19:15:53.500] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98DA4
-[19:15:53.501] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9B784
-[19:15:53.501] |I| [pre_load_module]: Pre-load module SceFace (at "sce_module/libface.suprx") loaded
-[19:15:53.506] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:53.506] |I| [load_self]: Loaded module segment 0 @ [0x0009D000 - 0x000C9CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
-[19:15:53.506] |I| [load_self]: Loaded module segment 1 @ [0x000CA000 - 0x000CF255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
-[19:15:53.507] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
-[19:15:53.507] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC9BC8
-[19:15:53.507] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC0F08
-[19:15:53.507] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
-[19:15:53.552] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:53.552] |I| [load_self]: Loaded module segment 0 @ [0x000D0000 - 0x002DDAF4 / 0x81000000] (size: 0x0020DAF4) of module app0:sce_module/libsmart.suprx
-[19:15:53.552] |I| [load_self]: Loaded module segment 1 @ [0x002DE000 - 0x002E1444 / 0x8120E000] (size: 0x00003444) of module app0:sce_module/libsmart.suprx
-[19:15:53.552] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libsmart.suprx
-[19:15:53.552] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x17B528
-[19:15:53.552] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x18290C
-[19:15:53.552] |I| [pre_load_module]: Pre-load module SceSmart (at "sce_module/libsmart.suprx") loaded
-[19:15:53.578] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:53.578] |I| [load_self]: Loaded module segment 0 @ [0x002E2000 - 0x002F59BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
-[19:15:53.578] |I| [load_self]: Loaded module segment 1 @ [0x002F6000 - 0x002F6814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
-[19:15:53.578] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
-[19:15:53.578] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2F42E8
-[19:15:53.579] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F1870
-[19:15:53.579] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
-[19:15:53.585] |I| [load_self]: Loaded module segment 0 @ [0x002F7000 - 0x00347F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[19:15:53.585] |I| [load_self]: Loaded module segment 1 @ [0x00348000 - 0x003482F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[19:15:53.585] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[19:15:53.585] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x3337DC
-[19:15:53.585] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332F10
-[19:15:53.586] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[19:15:53.587] |I| [load_self]: Loaded module segment 0 @ [0x00349000 - 0x00358F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[19:15:53.589] |I| [load_self]: Loaded module segment 1 @ [0x00359000 - 0x00359008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[19:15:53.589] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[19:15:53.589] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x357710
-[19:15:53.590] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x357300
-[19:15:53.590] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[19:15:54.018] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:54.018] |I| [load_self]: Loaded module segment 0 @ [0x0035A000 - 0x0133AB9C / 0x81000000] (size: 0x00FE0B9C) of module app0:eboot.bin
-[19:15:54.018] |I| [load_self]: Loaded module segment 1 @ [0x0133B000 - 0x0148F7A0 / 0x81FE1000] (size: 0x001547A0) of module app0:eboot.bin
-[19:15:54.018] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[19:15:54.018] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1130538
-[19:15:54.018] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x1364C9C
-[19:15:54.018] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1289130
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x338B0BD1 (UNRECOGNISED) at 0x117BD60, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x3A451B91 (UNRECOGNISED) at 0x117BD4C, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x550DFE23 (UNRECOGNISED) at 0x117BD74, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x56354517 (UNRECOGNISED) at 0x117BD14, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x5EF67445 (UNRECOGNISED) at 0x117BDD8, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x6ACA1D57 (UNRECOGNISED) at 0x117BD9C, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x71A78083 (UNRECOGNISED) at 0x117BD38, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x79F9DB75 (UNRECOGNISED) at 0x117BD88, setting to stub value 0xDEADBEEF
-[19:15:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0xAA0340C3 (UNRECOGNISED) at 0x117BDB0, setting to stub value 0xDEADBEEF
-[19:15:54.020] |W| [load_var_imports]: 	NID NOT FOUND 0xF9A1DE92 (UNRECOGNISED) at 0x117BDC4, setting to stub value 0xDEADBEEF
-[19:15:54.020] |W| [load_var_imports]: 	NID NOT FOUND 0x6EF1E48 (UNRECOGNISED) at 0x117BDEC, setting to stub value 0xDEADBEEF
-[19:15:54.021] |I| [load_app_impl]: Main executable UnityPlayer_533_Release (eboot.bin) loaded
-[19:15:54.024] |D| [run_app]: Running module_start of library: SceLibKernel at address 0x51F9
-[19:15:54.026] |W| [unimplemented_impl]: Unimplemented _sceKernelRegisterLibkernelAddresses import called.
-[19:15:54.026] |W| [unimplemented_impl]: Unimplemented _sceKernelBacktrace import called.
-[19:15:54.026] |I| [run_app]: Module SceLibKernel (at "os0:us/libkernel.suprx") module_start returned 0x0
-[19:15:54.026] |D| [run_app]: Running module_start of library: SceDriverUser at address 0x143E5
-[19:15:54.028] |W| [unimplemented_impl]: Unimplemented sceMotionDevIsReady import called.
-[19:15:55.031] |I| [run_app]: Module SceDriverUser (at "os0:us/driver_us.suprx") module_start returned 0x0
-[19:15:55.032] |D| [run_app]: Running module_start of library: SceLibc at address 0x2D871
-[19:15:55.035] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
-[19:15:55.036] |D| [run_app]: Running module_start of library: SceFace at address 0x98265
-[19:15:55.038] |I| [run_app]: Module SceFace (at "app0:sce_module/libface.suprx") module_start returned 0x0
-[19:15:55.039] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x9D001
-[19:15:55.040] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[19:15:55.040] |W| [unimplemented_impl]: Unimplemented sceFiosKernelOverlayGetList02 import called.
-[19:15:55.042] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
-[19:15:55.042] |D| [run_app]: Running module_start of library: SceSmart at address 0xD018D
-[19:15:55.044] |I| [run_app]: Module SceSmart (at "app0:sce_module/libsmart.suprx") module_start returned 0x0
-[19:15:55.045] |D| [run_app]: Running module_start of library: SceUlt at address 0x2E5771
-[19:15:55.046] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[19:15:55.047] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
-[19:15:55.049] |W| [unimplemented_impl]: Unimplemented _sceKernelRegisterThreadEventHandler import called.
-[19:15:55.131] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
-[19:15:55.131] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[19:15:55.149] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:55.149] |I| [load_self]: Loaded module segment 0 @ [0x018E6000 - 0x018ECC9C / 0x81000000] (size: 0x00006C9C) of module app0:/Media/Modules/pthread.suprx
-[19:15:55.149] |I| [load_self]: Loaded module segment 1 @ [0x018ED000 - 0x018EF178 / 0x81007000] (size: 0x00002178) of module app0:/Media/Modules/pthread.suprx
-[19:15:55.150] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/pthread.suprx
-[19:15:55.150] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x18EB7E4
-[19:15:55.150] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x18ECC98
-[19:15:55.153] |I| [export__sceKernelLoadStartModule]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") module_start returned 0x0
-[19:15:55.180] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:55.181] |I| [load_self]: Loaded module segment 0 @ [0x018F1000 - 0x01B45224 / 0x81000000] (size: 0x00254224) of module app0:/Media/Modules/mono-vita.suprx
-[19:15:55.181] |I| [load_self]: Loaded module segment 1 @ [0x01B46000 - 0x01BADD70 / 0x81255000] (size: 0x00067D70) of module app0:/Media/Modules/mono-vita.suprx
-[19:15:55.181] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/mono-vita.suprx
-[19:15:55.181] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1A8ADDC
-[19:15:55.181] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1B27E14
-[19:15:55.184] |I| [export__sceKernelLoadStartModule]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") module_start returned 0x0
-[19:15:55.385] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:55.385] |I| [load_self]: Loaded module segment 0 @ [0x01BAF000 - 0x032F5824 / 0x81000000] (size: 0x01746824) of module app0:/Media/Modules/MonoAssembliesPSP2.suprx
-[19:15:55.385] |I| [load_self]: Loaded module segment 1 @ [0x032F6000 - 0x03655D08 / 0x82747000] (size: 0x0035FD08) of module app0:/Media/Modules/MonoAssembliesPSP2.suprx
-[19:15:55.385] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/MonoAssembliesPSP2.suprx
-[19:15:55.385] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31FD164
-[19:15:55.385] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x32F5820
-[19:15:55.389] |I| [export__sceKernelLoadStartModule]: Module MonoAssembliesPSP2 (at "app0:/Media/Modules/MonoAssembliesPSP2.suprx") module_start returned 0x0
-[19:15:55.392] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:55.392] |I| [load_self]: Loaded module segment 0 @ [0x03657000 - 0x0365C6E0 / 0x81000000] (size: 0x000056E0) of module app0:/Media/Modules/SUPRXManager.suprx
-[19:15:55.392] |I| [load_self]: Loaded module segment 1 @ [0x014DC000 - 0x014DC044 / 0x81006000] (size: 0x00000044) of module app0:/Media/Modules/SUPRXManager.suprx
-[19:15:55.392] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/SUPRXManager.suprx
-[19:15:55.392] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x365BFB8
-[19:15:55.392] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x365C624
-[19:15:55.395] |I| [export__sceKernelLoadStartModule]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") module_start returned 0x0
-[19:15:55.395] |I| [load_module]: Loading module ID: 0x55
-[19:15:55.396] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[19:15:55.396] |I| [load_self]: Loaded module segment 0 @ [0x0365F000 - 0x03665230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
-[19:15:55.396] |I| [load_self]: Loaded module segment 1 @ [0x0365D000 - 0x0365D049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
-[19:15:55.396] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
-[19:15:55.396] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x36650A8
-[19:15:55.396] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3664020
-[19:15:55.397] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
-[19:15:55.436] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[19:15:55.437] |W| [unimplemented_impl]: Unimplemented sceFiosKernelOverlayThreadSetDisabled02 import called.
-[19:15:55.451] |W| [unimplemented_impl]: Unimplemented sceFiosKernelOverlayGetRecommendedScheduler02 import called.
-[19:15:55.452] |I| [export__sceIoOpen]: Opening file: app0:/archive.psarc
-[19:15:55.480] |I| [export__sceIoOpen]: Opening file: app0:/archive.psarc
-[19:15:55.487] |I| [export__sceIoOpen]: Opening file: app0:/archive_patch.psarc
-[19:15:55.487] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/archive_patch.psarc (target path: app0:/archive_patch.psarc)
-[19:15:55.487] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.587] |E| [stat_file]: Cannot find device for path: /bgblank.manifest
-[19:15:55.587] |W| [io_error_impl]: stat_file (_sceIoDread) returned 0x80010002
-[19:15:55.588] |W| [io_error_impl]: read_dir (_sceIoDread) returned 0x80010018
-[19:15:55.606] |E| [stat_file]: Cannot find device for path: /enemy903.manifest
-[19:15:55.607] |W| [io_error_impl]: stat_file (_sceIoDread) returned 0x80010002
-[19:15:55.607] |W| [io_error_impl]: read_dir (_sceIoDread) returned 0x80010018
-[19:15:55.721] |E| [stat_file]: Cannot find device for path: /scripte01_ku_05_01.manifest
-[19:15:55.721] |W| [io_error_impl]: stat_file (_sceIoDread) returned 0x80010002
-[19:15:55.721] |W| [io_error_impl]: read_dir (_sceIoDread) returned 0x80010018
-[19:15:55.744] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01161/persistentdata/ (target path: savedata0:/persistentdata)
-[19:15:55.744] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
-[19:15:55.750] |I| [export__sceIoOpen]: Opening file: app0:/mono/etc/mono/config
-[19:15:55.750] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/mono/etc/mono/config (target path: app0:/mono/etc/mono/config)
-[19:15:55.750] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.750] |I| [export__sceIoOpen]: Opening file: app0:/.mono/config
-[19:15:55.751] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/.mono/config (target path: app0:/.mono/config)
-[19:15:55.751] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.754] |I| [export__sceIoOpen]: Opening file: /proc/cpuinfo
-[19:15:55.756] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
-[19:15:55.756] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.764] |E| [call_import]: Import function for NID 0xE340C198 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:55.764] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/config
-[19:15:55.765] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/config (target path: app0:Media/Managed/mono/config)
-[19:15:55.765] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.765] |I| [export__sceIoOpen]: Opening file: app0:/.mono/config
-[19:15:55.765] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/.mono/config (target path: app0:/.mono/config)
-[19:15:55.765] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.765] |E| [call_import]: Import function for NID 0xE340C1A1 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:55.766] |E| [call_import]: Import function for NID 0xE340C00A not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:55.769] |I| [export__sceIoOpen]: Opening file: /proc/cpuinfo
-[19:15:55.769] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
-[19:15:55.769] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.771] |E| [call_import]: Import function for NID 0xE340C1A3 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:55.775] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
-[19:15:55.775] |W| [unimplemented_impl]: Unimplemented _sceKernelWaitException import called.
-[19:15:55.776] |W| [unimplemented_impl]: Unimplemented _sceKernelGetThreadContextForVM import called.
-[19:15:55.778] |W| [unimplemented_impl]: Unimplemented sceKernelCallAbortHandler import called.
-[19:15:55.778] |E| [logging::ret_error_impl]: _sceKernelDeleteLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
-[19:15:55.778] |E| [log_error_details]: Unicorn error 0xA. Invalid instruction (UC_ERR_INSN_INVALID)
-[19:15:55.779] |E| [log_error_details]: PC: 0x0009826c,   SP: 0x03e7f738,   LR: 0x00005353
-[19:15:55.779] |E| [log_error_details]: r0 : 0x00000000   r6 : 0x00013014
-[19:15:55.779] |E| [log_error_details]: r1 : 0x03e7f740   r7 : 0x000001b8
-[19:15:55.779] |E| [log_error_details]: r2 : 0x00000006   r8 : 0x00000000
-[19:15:55.779] |E| [log_error_details]: r3 : 0x0009826c   r9 : 0x00000000
-[19:15:55.779] |E| [log_error_details]: r4 : 0x00000003   r10: 0x00000000
-[19:15:55.779] |E| [log_error_details]: r5 : 0x03e7f908   r11: 0x00000000
-[19:15:55.779] |E| [log_error_details]: r12: 0x00000000
-[19:15:55.779] |E| [log_error_details]: Executing: .byte 0x10, 0xb5
-[19:15:55.779] |I| [log_stack_frames]: stack information
-[19:15:55.780] |E| [run_thread]: Thread ExceptionHandlerThread experienced a unicorn error.
-[19:15:55.783] |I| [export__sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
-[19:15:55.783] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
-[19:15:55.783] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.783] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll
-[19:15:55.832] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll
-[19:15:55.833] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll)
-[19:15:55.833] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.833] |I| [export__sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
-[19:15:55.833] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
-[19:15:55.833] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.834] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll.config
-[19:15:55.834] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mscorlib.dll.config (target path: app0:/Media/Managed/mscorlib.dll.config)
-[19:15:55.834] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.834] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config
-[19:15:55.834] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/mscorlib/mscorlib.config (target path: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config)
-[19:15:55.834] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:55.915] |W| [unimplemented_impl]: Unimplemented _sceKernelGetSemaInfo import called.
-[19:15:55.918] |E| [call_import]: Import function for NID 0xE340C193 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:55.971] |W| [unimplemented_impl]: Unimplemented sceAppUtilLoadSafeMemory import called.
-[19:15:55.980] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
-[19:15:56.007] |E| [call_import]: Import function for NID 0xE340C18E not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:56.022] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
-[19:15:56.022] |E| [logging::ret_error_impl]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
-[19:15:56.065] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/globalgamemanagers.resG (target path: app0:/Media/globalgamemanagers.resG)
-[19:15:56.066] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.066] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/globalgamemanagers.res (target path: app0:/Media/globalgamemanagers.res)
-[19:15:56.066] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.067] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/globalgamemanagers.resS (target path: app0:/Media/globalgamemanagers.resS)
-[19:15:56.067] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.073] |I| [export__sceIoOpen]: Opening file: app0:/Media/globalgamemanagers
-[19:15:56.124] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
-[19:15:56.127] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[19:15:56.157] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[19:15:56.187] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[19:15:56.192] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[19:15:56.327] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampEnable import called.
-[19:15:56.327] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampValue import called.
-[19:15:56.344] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube Inimplemeted: width: 1, height: 1
-[19:15:56.345] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube Inimplemeted: width: 1, height: 1
-[19:15:56.822] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity default resources (target path: app0:/Media/Resources/unity default resources)
-[19:15:56.823] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.824] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity default resources.resG (target path: app0:/Media/Resources/unity default resources.resG)
-[19:15:56.824] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.824] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity default resources.res (target path: app0:/Media/Resources/unity default resources.res)
-[19:15:56.824] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.824] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity default resources.resS (target path: app0:/Media/Resources/unity default resources.resS)
-[19:15:56.825] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.889] |W| [stubbed_impl]: Stubbed sceAudiodecTermLibrary import called. (EMPTY)
-[19:15:56.889] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
-[19:15:56.890] |W| [stubbed_impl]: Stubbed sceAudiodecInitLibrary import called. (EMPTY)
-[19:15:56.891] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[19:15:56.900] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetParamsBlock import called.
-[19:15:56.932] |W| [unimplemented_impl]: Unimplemented _sceKernelCancelSema import called.
-[19:15:56.939] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.dll
-[19:15:56.979] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll
-[19:15:56.979] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll)
-[19:15:56.979] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:56.980] |E| [stat_file]: Cannot find device for path: app0/System.dll
-[19:15:56.980] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.980] |E| [stat_file]: Cannot find device for path: app0/System.exe
-[19:15:56.980] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.980] |E| [stat_file]: Cannot find device for path: app0/System/System.dll
-[19:15:56.981] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.981] |E| [stat_file]: Cannot find device for path: app0/System/System.exe
-[19:15:56.981] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.981] |E| [stat_file]: Cannot find device for path: Media/Managed/System.dll
-[19:15:56.981] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.981] |E| [stat_file]: Cannot find device for path: Media/Managed/System.exe
-[19:15:56.981] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.981] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.dll
-[19:15:56.982] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.982] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.exe
-[19:15:56.982] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:56.982] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll
-[19:15:56.982] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll (target path: app0:Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll)
-[19:15:56.982] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:56.983] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.dll
-[19:15:57.025] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.Mono.Security/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Security.dll
-[19:15:57.026] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.Mono.Security/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Security.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.Mono.Security/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Security.dll)
-[19:15:57.026] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.026] |E| [stat_file]: Cannot find device for path: app0/Mono.Security.dll
-[19:15:57.027] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.027] |E| [stat_file]: Cannot find device for path: app0/Mono.Security.exe
-[19:15:57.027] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.027] |E| [stat_file]: Cannot find device for path: app0/Mono.Security/Mono.Security.dll
-[19:15:57.027] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.027] |E| [stat_file]: Cannot find device for path: app0/Mono.Security/Mono.Security.exe
-[19:15:57.027] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.028] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security.dll
-[19:15:57.028] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.028] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security.exe
-[19:15:57.028] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.028] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security/Mono.Security.dll
-[19:15:57.028] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.028] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security/Mono.Security.exe
-[19:15:57.028] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.029] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/Mono.Security/2.0.0.0__0738eb9f132ed756/Mono.Security.dll
-[19:15:57.029] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/Mono.Security/2.0.0.0__0738eb9f132ed756/Mono.Security.dll (target path: app0:Media/Managed/mono/gac/Mono.Security/2.0.0.0__0738eb9f132ed756/Mono.Security.dll)
-[19:15:57.029] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.029] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/Mono.Security.dll
-[19:15:57.066] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/Mono.Security.dll.config
-[19:15:57.067] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/Mono.Security.dll.config (target path: app0:Media/Managed/Mono.Security.dll.config)
-[19:15:57.067] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.067] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Mono.Security/Mono.Security.config
-[19:15:57.067] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/Mono.Security/Mono.Security.config (target path: app0:Media/Managed/mono/assemblies/Mono.Security/Mono.Security.config)
-[19:15:57.067] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.068] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll
-[19:15:57.068] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll)
-[19:15:57.068] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.068] |E| [stat_file]: Cannot find device for path: app0/System.Configuration.dll
-[19:15:57.068] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.068] |E| [stat_file]: Cannot find device for path: app0/System.Configuration.exe
-[19:15:57.068] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.068] |E| [stat_file]: Cannot find device for path: app0/System.Configuration/System.Configuration.dll
-[19:15:57.069] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.069] |E| [stat_file]: Cannot find device for path: app0/System.Configuration/System.Configuration.exe
-[19:15:57.069] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.069] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration.dll
-[19:15:57.069] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.069] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration.exe
-[19:15:57.069] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.069] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration/System.Configuration.dll
-[19:15:57.069] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.069] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration/System.Configuration.exe
-[19:15:57.070] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.070] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
-[19:15:57.070] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll (target path: app0:Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll)
-[19:15:57.070] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.070] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Configuration.dll
-[19:15:57.083] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll
-[19:15:57.083] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll)
-[19:15:57.084] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.084] |E| [stat_file]: Cannot find device for path: app0/System.Xml.dll
-[19:15:57.084] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.084] |E| [stat_file]: Cannot find device for path: app0/System.Xml.exe
-[19:15:57.084] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.084] |E| [stat_file]: Cannot find device for path: app0/System.Xml/System.Xml.dll
-[19:15:57.084] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.084] |E| [stat_file]: Cannot find device for path: app0/System.Xml/System.Xml.exe
-[19:15:57.084] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.085] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml.dll
-[19:15:57.085] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.085] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml.exe
-[19:15:57.085] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.085] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml/System.Xml.dll
-[19:15:57.085] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.085] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml/System.Xml.exe
-[19:15:57.085] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.085] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll
-[19:15:57.086] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll (target path: app0:Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll)
-[19:15:57.086] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.086] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Xml.dll
-[19:15:57.101] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Xml.dll.config
-[19:15:57.101] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/System.Xml.dll.config (target path: app0:Media/Managed/System.Xml.dll.config)
-[19:15:57.101] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.101] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Xml/System.Xml.config
-[19:15:57.101] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/System.Xml/System.Xml.config (target path: app0:Media/Managed/mono/assemblies/System.Xml/System.Xml.config)
-[19:15:57.101] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.102] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll
-[19:15:57.102] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll)
-[19:15:57.102] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.102] |E| [stat_file]: Cannot find device for path: app0/System.Security.dll
-[19:15:57.102] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.102] |E| [stat_file]: Cannot find device for path: app0/System.Security.exe
-[19:15:57.102] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.102] |E| [stat_file]: Cannot find device for path: app0/System.Security/System.Security.dll
-[19:15:57.103] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.103] |E| [stat_file]: Cannot find device for path: app0/System.Security/System.Security.exe
-[19:15:57.103] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.103] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security.dll
-[19:15:57.103] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.103] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security.exe
-[19:15:57.103] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.103] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security/System.Security.dll
-[19:15:57.103] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.104] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security/System.Security.exe
-[19:15:57.107] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.108] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll
-[19:15:57.108] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll (target path: app0:Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll)
-[19:15:57.108] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.108] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Security.dll
-[19:15:57.124] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Security.dll.config
-[19:15:57.124] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/System.Security.dll.config (target path: app0:Media/Managed/System.Security.dll.config)
-[19:15:57.124] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.125] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Security/System.Security.config
-[19:15:57.125] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/System.Security/System.Security.config (target path: app0:Media/Managed/mono/assemblies/System.Security/System.Security.config)
-[19:15:57.125] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.125] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Configuration.dll.config
-[19:15:57.125] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/System.Configuration.dll.config (target path: app0:Media/Managed/System.Configuration.dll.config)
-[19:15:57.125] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.125] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config
-[19:15:57.125] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config (target path: app0:Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config)
-[19:15:57.126] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.126] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.dll.config
-[19:15:57.126] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/System.dll.config (target path: app0:Media/Managed/System.dll.config)
-[19:15:57.126] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.126] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System/System.config
-[19:15:57.126] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/System/System.config (target path: app0:Media/Managed/mono/assemblies/System/System.config)
-[19:15:57.126] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.127] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll
-[19:15:57.127] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll (target path: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll)
-[19:15:57.127] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.127] |E| [stat_file]: Cannot find device for path: app0/System.Core.dll
-[19:15:57.127] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.127] |E| [stat_file]: Cannot find device for path: app0/System.Core.exe
-[19:15:57.127] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.127] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.dll
-[19:15:57.128] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.128] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.exe
-[19:15:57.128] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.128] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.dll
-[19:15:57.128] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.128] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.exe
-[19:15:57.128] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.128] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.dll
-[19:15:57.128] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.129] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.exe
-[19:15:57.129] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.129] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll
-[19:15:57.129] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll (target path: app0:Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll)
-[19:15:57.129] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.129] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll
-[19:15:57.139] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.Mono.Posix/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Posix.dll
-[19:15:57.139] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.Mono.Posix/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Posix.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.Mono.Posix/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Posix.dll)
-[19:15:57.139] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.139] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix.dll
-[19:15:57.139] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.140] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix.exe
-[19:15:57.140] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.140] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix/Mono.Posix.dll
-[19:15:57.140] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.140] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix/Mono.Posix.exe
-[19:15:57.140] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.140] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix.dll
-[19:15:57.140] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.140] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix.exe
-[19:15:57.141] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.141] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix/Mono.Posix.dll
-[19:15:57.141] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.141] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix/Mono.Posix.exe
-[19:15:57.141] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.141] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/Mono.Posix/2.0.0.0__0738eb9f132ed756/Mono.Posix.dll
-[19:15:57.141] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/Mono.Posix/2.0.0.0__0738eb9f132ed756/Mono.Posix.dll (target path: app0:Media/Managed/mono/gac/Mono.Posix/2.0.0.0__0738eb9f132ed756/Mono.Posix.dll)
-[19:15:57.141] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.142] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/Mono.Posix.dll
-[19:15:57.157] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/Mono.Posix.dll.config
-[19:15:57.157] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/Mono.Posix.dll.config (target path: app0:Media/Managed/Mono.Posix.dll.config)
-[19:15:57.157] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.157] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Mono.Posix/Mono.Posix.config
-[19:15:57.157] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/Mono.Posix/Mono.Posix.config (target path: app0:Media/Managed/mono/assemblies/Mono.Posix/Mono.Posix.config)
-[19:15:57.157] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.157] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll.config
-[19:15:57.158] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/System.Core.dll.config (target path: app0:Media/Managed/System.Core.dll.config)
-[19:15:57.158] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.158] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config
-[19:15:57.158] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/System.Core/System.Core.config (target path: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config)
-[19:15:57.158] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.158] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.dll.config
-[19:15:57.158] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/UnityEngine.dll.config (target path: app0:/Media/Managed/UnityEngine.dll.config)
-[19:15:57.158] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.158] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config
-[19:15:57.159] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config (target path: app0:Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config)
-[19:15:57.159] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.164] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll
-[19:15:57.165] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll)
-[19:15:57.165] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.260] |W| [unimplemented_impl]: Unimplemented sceKernelSuspendThreadForVM import called.
-[19:15:57.261] |W| [unimplemented_impl]: Unimplemented sceKernelResumeThreadForVM import called.
-[19:15:57.274] |E| [call_import]: Import function for NID 0xE340C192 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.275] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp.dll
-[19:15:57.308] |E| [stat_file]: Cannot find device for path: app0/SonyNP.dll
-[19:15:57.309] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.309] |E| [stat_file]: Cannot find device for path: app0/SonyNP.exe
-[19:15:57.309] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.309] |E| [stat_file]: Cannot find device for path: app0/SonyNP/SonyNP.dll
-[19:15:57.309] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.309] |E| [stat_file]: Cannot find device for path: app0/SonyNP/SonyNP.exe
-[19:15:57.309] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.310] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP.dll
-[19:15:57.310] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.310] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP.exe
-[19:15:57.310] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.310] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP/SonyNP.dll
-[19:15:57.310] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.310] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP/SonyNP.exe
-[19:15:57.310] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.311] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll
-[19:15:57.315] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll.config
-[19:15:57.316] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/SonyNP.dll.config (target path: app0:Media/Managed/SonyNP.dll.config)
-[19:15:57.316] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.316] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config
-[19:15:57.316] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/SonyNP/SonyNP.config (target path: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config)
-[19:15:57.316] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.317] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog.dll
-[19:15:57.317] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.317] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog.exe
-[19:15:57.317] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.317] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog/SonyVitaCommonDialog.dll
-[19:15:57.317] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.317] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog/SonyVitaCommonDialog.exe
-[19:15:57.317] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.318] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog.dll
-[19:15:57.318] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.318] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog.exe
-[19:15:57.318] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.318] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog/SonyVitaCommonDialog.dll
-[19:15:57.318] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.318] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog/SonyVitaCommonDialog.exe
-[19:15:57.318] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.318] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaCommonDialog.dll
-[19:15:57.320] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaCommonDialog.dll.config
-[19:15:57.320] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/SonyVitaCommonDialog.dll.config (target path: app0:Media/Managed/SonyVitaCommonDialog.dll.config)
-[19:15:57.320] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.320] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config
-[19:15:57.320] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config)
-[19:15:57.321] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.321] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames.dll
-[19:15:57.325] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.325] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames.exe
-[19:15:57.325] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.325] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames/SonyVitaSavedGames.dll
-[19:15:57.325] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.325] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames/SonyVitaSavedGames.exe
-[19:15:57.325] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.325] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames.dll
-[19:15:57.325] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.325] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames.exe
-[19:15:57.326] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.326] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames/SonyVitaSavedGames.dll
-[19:15:57.326] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.326] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames/SonyVitaSavedGames.exe
-[19:15:57.326] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.326] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll
-[19:15:57.327] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll.config
-[19:15:57.328] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/SonyVitaSavedGames.dll.config (target path: app0:Media/Managed/SonyVitaSavedGames.dll.config)
-[19:15:57.328] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.328] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config
-[19:15:57.328] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config)
-[19:15:57.328] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.328] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp.dll.config
-[19:15:57.328] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/Assembly-CSharp.dll.config (target path: app0:/Media/Managed/Assembly-CSharp.dll.config)
-[19:15:57.329] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.329] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config
-[19:15:57.329] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config (target path: app0:Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config)
-[19:15:57.329] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.329] |E| [call_import]: Import function for NID 0xE340C18F not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.329] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.UI.dll
-[19:15:57.345] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.UI.dll.config
-[19:15:57.345] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/UnityEngine.UI.dll.config (target path: app0:/Media/Managed/UnityEngine.UI.dll.config)
-[19:15:57.345] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.345] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/UnityEngine.UI/UnityEngine.UI.config
-[19:15:57.345] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/UnityEngine.UI/UnityEngine.UI.config (target path: app0:Media/Managed/mono/assemblies/UnityEngine.UI/UnityEngine.UI.config)
-[19:15:57.345] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.346] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.Networking.dll
-[19:15:57.354] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.Networking.dll.config
-[19:15:57.355] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/UnityEngine.Networking.dll.config (target path: app0:/Media/Managed/UnityEngine.Networking.dll.config)
-[19:15:57.355] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.355] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/UnityEngine.Networking/UnityEngine.Networking.config
-[19:15:57.355] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/UnityEngine.Networking/UnityEngine.Networking.config (target path: app0:Media/Managed/mono/assemblies/UnityEngine.Networking/UnityEngine.Networking.config)
-[19:15:57.355] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.355] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/SonyNP.dll
-[19:15:57.356] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll.config
-[19:15:57.357] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/SonyNP.dll.config (target path: app0:Media/Managed/SonyNP.dll.config)
-[19:15:57.357] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.357] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config
-[19:15:57.357] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/SonyNP/SonyNP.config (target path: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config)
-[19:15:57.357] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.358] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/SonyVitaCommonDialog.dll
-[19:15:57.359] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaCommonDialog.dll.config
-[19:15:57.359] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/SonyVitaCommonDialog.dll.config (target path: app0:Media/Managed/SonyVitaCommonDialog.dll.config)
-[19:15:57.359] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.359] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config
-[19:15:57.359] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config)
-[19:15:57.359] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.360] |I| [export__sceIoOpen]: Opening file: app0:/Media/Managed/SonyVitaSavedGames.dll
-[19:15:57.360] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll.config
-[19:15:57.360] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/SonyVitaSavedGames.dll.config (target path: app0:Media/Managed/SonyVitaSavedGames.dll.config)
-[19:15:57.360] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.361] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config
-[19:15:57.361] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config)
-[19:15:57.361] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.361] |E| [call_import]: Import function for NID 0xE340C190 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.363] |E| [call_import]: Import function for NID 0xE340C191 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.366] |E| [call_import]: Import function for NID 0xE340C195 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.389] |E| [call_import]: Import function for NID 0xE340C19D not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.390] |E| [call_import]: Import function for NID 0xE340C199 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.672] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/globalgamemanagers.assets.resG (target path: app0:/Media/globalgamemanagers.assets.resG)
-[19:15:57.673] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.674] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/globalgamemanagers.assets.res (target path: app0:/Media/globalgamemanagers.assets.res)
-[19:15:57.674] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.676] |I| [export__sceIoOpen]: Opening file: app0:/Media/globalgamemanagers.assets
-[19:15:57.699] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity_builtin_extra (target path: app0:/Media/Resources/unity_builtin_extra)
-[19:15:57.699] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.700] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity_builtin_extra.resG (target path: app0:/Media/Resources/unity_builtin_extra.resG)
-[19:15:57.700] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.700] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity_builtin_extra.res (target path: app0:/Media/Resources/unity_builtin_extra.res)
-[19:15:57.701] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.701] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Resources/unity_builtin_extra.resS (target path: app0:/Media/Resources/unity_builtin_extra.resS)
-[19:15:57.701] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.730] |E| [call_import]: Import function for NID 0xE340C19C not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.734] |E| [call_import]: Import function for NID 0xE340C19A not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.748] |E| [call_import]: Import function for NID 0xE340C194 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:57.798] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll
-[19:15:57.799] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll (target path: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll)
-[19:15:57.799] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.808] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll
-[19:15:57.808] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll)
-[19:15:57.808] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.876] |I| [export__sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__7cec85d7bea7798e/policy.2.0.mscorlib.dll
-[19:15:57.877] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__7cec85d7bea7798e/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__7cec85d7bea7798e/policy.2.0.mscorlib.dll)
-[19:15:57.877] |W| [io_error_impl]: open_file (_sceIoOpen) returned 0x80010002
-[19:15:57.877] |E| [stat_file]: Cannot find device for path: app0/mscorlib.dll
-[19:15:57.877] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.878] |E| [stat_file]: Cannot find device for path: app0/mscorlib.exe
-[19:15:57.878] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.878] |E| [stat_file]: Cannot find device for path: app0/mscorlib/mscorlib.dll
-[19:15:57.878] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.878] |E| [stat_file]: Cannot find device for path: app0/mscorlib/mscorlib.exe
-[19:15:57.878] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.878] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib.dll
-[19:15:57.878] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.878] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib.exe
-[19:15:57.879] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.879] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib/mscorlib.dll
-[19:15:57.879] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.879] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib/mscorlib.exe
-[19:15:57.879] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:57.973] |E| [call_import]: Import function for NID 0xE340C197 not found (thread name: Unity_main_thread, thread ID: 82)
-[19:15:58.434] |I| [export__sceIoOpen]: Opening file: app0:/Media/globalgamemanagers.assets.resS
-[19:15:58.607] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/sharedassets0.assets (target path: app0:/Media/sharedassets0.assets)
-[19:15:58.608] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:58.610] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/sharedassets0.assets.resG (target path: app0:/Media/sharedassets0.assets.resG)
-[19:15:58.610] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:58.611] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/sharedassets0.assets.res (target path: app0:/Media/sharedassets0.assets.res)
-[19:15:58.611] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:58.632] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/level0 (target path: app0:/Media/level0)
-[19:15:58.632] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:58.633] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/level0.resG (target path: app0:/Media/level0.resG)
-[19:15:58.633] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[19:15:58.633] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/level0.res (target path: app0:/Media/level0.res)
-[19:15:58.633] |W| [io_error_impl]: stat_file (_sceIoGetstat) re
+[06:24:32.508] |I| [load_app_impl]: cpu-backend: Dynarmic
+[06:24:32.508] |I| [load_app_impl]: CPU Optimisation state: true
+[06:24:32.508] |I| [load_app_impl]: at9 audio decoder state: true
+[06:24:32.508] |I| [load_app_impl]: ngs experimental state: true
+[06:24:32.509] |I| [load_app_impl]: video player state: true
+[06:24:32.509] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[06:24:32.509] |I| [load_app_impl]: Title: TOKYO TATTOO GIRLS
+[06:24:32.509] |I| [load_app_impl]: Serial: PCSB01161
+[06:24:32.509] |I| [load_app_impl]: Version: 1.00
+[06:24:32.509] |I| [load_app_impl]: Category: gd
+[06:24:32.578] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:32.579] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x0005891C / 0x81000000] (size: 0x0005191C) of module ux0:app\PCSB01161\sce_module\libc.suprx
+[06:24:32.579] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSB01161\sce_module\libc.suprx
+[06:24:32.579] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01161\sce_module\libc.suprx
+[06:24:32.580] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E38C
+[06:24:32.580] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x43550
+[06:24:32.580] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x476B0, setting to stub value 0xDEADBEEF
+[06:24:32.580] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x49244, setting to stub value 0xDEADBEEF
+[06:24:32.581] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB01161\sce_module\libc.suprx") loaded
+[06:24:32.591] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:32.591] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSB01161\sce_module\libface.suprx
+[06:24:32.591] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB01161\sce_module\libface.suprx
+[06:24:32.591] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01161\sce_module\libface.suprx
+[06:24:32.592] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
+[06:24:32.592] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
+[06:24:32.592] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB01161\sce_module\libface.suprx") loaded
+[06:24:32.601] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:32.601] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSB01161\sce_module\libfios2.suprx
+[06:24:32.602] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSB01161\sce_module\libfios2.suprx
+[06:24:32.602] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01161\sce_module\libfios2.suprx
+[06:24:32.602] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
+[06:24:32.602] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
+[06:24:32.602] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB01161\sce_module\libfios2.suprx") loaded
+[06:24:32.652] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:32.653] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSB01161\sce_module\libsmart.suprx
+[06:24:32.653] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSB01161\sce_module\libsmart.suprx
+[06:24:32.653] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01161\sce_module\libsmart.suprx
+[06:24:32.653] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
+[06:24:32.653] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
+[06:24:32.654] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB01161\sce_module\libsmart.suprx") loaded
+[06:24:32.686] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:32.686] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSB01161\sce_module\libult.suprx
+[06:24:32.686] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB01161\sce_module\libult.suprx
+[06:24:32.686] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB01161\sce_module\libult.suprx
+[06:24:32.686] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
+[06:24:32.688] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
+[06:24:32.688] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB01161\sce_module\libult.suprx") loaded
+[06:24:32.696] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[06:24:32.696] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[06:24:32.696] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[06:24:32.697] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
+[06:24:32.697] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
+[06:24:32.697] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[06:24:32.700] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[06:24:32.700] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[06:24:32.700] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[06:24:32.700] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
+[06:24:32.700] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
+[06:24:32.700] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[06:24:33.170] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:33.171] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x01315B9C / 0x81000000] (size: 0x00FE0B9C) of module app0:eboot.bin
+[06:24:33.171] |I| [load_self]: Loaded module segment 1 @ [0x01316000 - 0x0146A7A0 / 0x81FE1000] (size: 0x001547A0) of module app0:eboot.bin
+[06:24:33.171] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[06:24:33.171] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x110B538
+[06:24:33.171] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x133FC9C
+[06:24:33.171] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1264130
+[06:24:33.172] |W| [load_var_imports]: 	NID NOT FOUND 0x338B0BD1 (UNRECOGNISED) at 0x1156D60, setting to stub value 0xDEADBEEF
+[06:24:33.172] |W| [load_var_imports]: 	NID NOT FOUND 0x3A451B91 (UNRECOGNISED) at 0x1156D4C, setting to stub value 0xDEADBEEF
+[06:24:33.173] |W| [load_var_imports]: 	NID NOT FOUND 0x550DFE23 (UNRECOGNISED) at 0x1156D74, setting to stub value 0xDEADBEEF
+[06:24:33.173] |W| [load_var_imports]: 	NID NOT FOUND 0x56354517 (UNRECOGNISED) at 0x1156D14, setting to stub value 0xDEADBEEF
+[06:24:33.174] |W| [load_var_imports]: 	NID NOT FOUND 0x5EF67445 (UNRECOGNISED) at 0x1156DD8, setting to stub value 0xDEADBEEF
+[06:24:33.175] |W| [load_var_imports]: 	NID NOT FOUND 0x6ACA1D57 (UNRECOGNISED) at 0x1156D9C, setting to stub value 0xDEADBEEF
+[06:24:33.175] |W| [load_var_imports]: 	NID NOT FOUND 0x71A78083 (UNRECOGNISED) at 0x1156D38, setting to stub value 0xDEADBEEF
+[06:24:33.176] |W| [load_var_imports]: 	NID NOT FOUND 0x79F9DB75 (UNRECOGNISED) at 0x1156D88, setting to stub value 0xDEADBEEF
+[06:24:33.177] |W| [load_var_imports]: 	NID NOT FOUND 0xAA0340C3 (UNRECOGNISED) at 0x1156DB0, setting to stub value 0xDEADBEEF
+[06:24:33.177] |W| [load_var_imports]: 	NID NOT FOUND 0xF9A1DE92 (UNRECOGNISED) at 0x1156DC4, setting to stub value 0xDEADBEEF
+[06:24:33.178] |W| [load_var_imports]: 	NID NOT FOUND 0x6EF1E48 (UNRECOGNISED) at 0x1156DEC, setting to stub value 0xDEADBEEF
+[06:24:33.180] |I| [load_app_impl]: Main executable UnityPlayer_533_Release (eboot.bin) loaded
+[06:24:33.218] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[06:24:33.261] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB01161\sce_module\libc.suprx") module_start returned 0x0
+[06:24:33.266] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
+[06:24:33.304] |I| [run_app]: Module SceFace (at "ux0:app\PCSB01161\sce_module\libface.suprx") module_start returned 0x0
+[06:24:33.309] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
+[06:24:33.352] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[06:24:33.353] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[06:24:33.353] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[06:24:33.353] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB01161\sce_module\libfios2.suprx") module_start returned 0x0
+[06:24:33.357] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
+[06:24:33.406] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB01161\sce_module\libsmart.suprx") module_start returned 0x0
+[06:24:33.411] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
+[06:24:33.458] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[06:24:33.458] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB01161\sce_module\libult.suprx") module_start returned 0x0
+[06:24:33.470] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[06:24:33.909] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[06:24:33.909] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[06:24:33.949] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:33.949] |I| [load_self]: Loaded module segment 0 @ [0x018B9000 - 0x018BFC9C / 0x81000000] (size: 0x00006C9C) of module app0:/Media/Modules/pthread.suprx
+[06:24:33.949] |I| [load_self]: Loaded module segment 1 @ [0x018C0000 - 0x018C2178 / 0x81007000] (size: 0x00002178) of module app0:/Media/Modules/pthread.suprx
+[06:24:33.950] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/pthread.suprx
+[06:24:33.950] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x18BE7E4
+[06:24:33.950] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x18BFC98
+[06:24:33.971] |I| [export__sceKernelLoadStartModule]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") module_start returned 0x0
+[06:24:34.021] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:34.021] |I| [load_self]: Loaded module segment 0 @ [0x018C3000 - 0x01B17224 / 0x81000000] (size: 0x00254224) of module app0:/Media/Modules/mono-vita.suprx
+[06:24:34.021] |I| [load_self]: Loaded module segment 1 @ [0x01B18000 - 0x01B7FD70 / 0x81255000] (size: 0x00067D70) of module app0:/Media/Modules/mono-vita.suprx
+[06:24:34.021] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/mono-vita.suprx
+[06:24:34.022] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1A5CDDC
+[06:24:34.022] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1AF9E14
+[06:24:34.033] |I| [export__sceKernelLoadStartModule]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") module_start returned 0x0
+[06:24:34.362] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:34.362] |I| [load_self]: Loaded module segment 0 @ [0x01B80000 - 0x032C6824 / 0x81000000] (size: 0x01746824) of module app0:/Media/Modules/MonoAssembliesPSP2.suprx
+[06:24:34.362] |I| [load_self]: Loaded module segment 1 @ [0x032C7000 - 0x03626D08 / 0x82747000] (size: 0x0035FD08) of module app0:/Media/Modules/MonoAssembliesPSP2.suprx
+[06:24:34.362] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/MonoAssembliesPSP2.suprx
+[06:24:34.363] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31CE164
+[06:24:34.363] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x32C6820
+[06:24:34.392] |I| [export__sceKernelLoadStartModule]: Module MonoAssembliesPSP2 (at "app0:/Media/Modules/MonoAssembliesPSP2.suprx") module_start returned 0x0
+[06:24:34.399] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:34.400] |I| [load_self]: Loaded module segment 0 @ [0x03627000 - 0x0362C6E0 / 0x81000000] (size: 0x000056E0) of module app0:/Media/Modules/SUPRXManager.suprx
+[06:24:34.400] |I| [load_self]: Loaded module segment 1 @ [0x0362D000 - 0x0362D044 / 0x81006000] (size: 0x00000044) of module app0:/Media/Modules/SUPRXManager.suprx
+[06:24:34.401] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/SUPRXManager.suprx
+[06:24:34.401] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x362BFB8
+[06:24:34.401] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x362C624
+[06:24:34.425] |I| [export__sceKernelLoadStartModule]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") module_start returned 0x0
+[06:24:34.430] |I| [load_module]: Loading module ID: 0x55
+[06:24:34.432] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:24:34.432] |I| [load_self]: Loaded module segment 0 @ [0x0362E000 - 0x03634230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
+[06:24:34.432] |I| [load_self]: Loaded module segment 1 @ [0x03635000 - 0x03635049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
+[06:24:34.433] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
+[06:24:34.433] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x36340A8
+[06:24:34.433] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3633020
+[06:24:34.433] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
+[06:24:34.591] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[06:24:34.591] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[06:24:34.649] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[06:24:34.654] |I| [export_sceIoOpen]: Opening file: app0:/archive.psarc
+[06:24:34.750] |I| [export_sceIoOpen]: Opening file: app0:/archive.psarc
+[06:24:34.785] |I| [export_sceIoOpen]: Opening file: app0:/archive_patch.psarc
+[06:24:34.785] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/archive_patch.psarc (target path: app0:/archive_patch.psarc)
+[06:24:34.786] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[06:24:35.920] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB01161/persistentdata/ (target path: savedata0:/persistentdata)
+[06:24:35.921] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[06:24:35.942] |I| [export_sceIoOpen]: Opening file: app0:/mono/etc/mono/config
+[06:24:35.942] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/mono/etc/mono/config (target path: app0:/mono/etc/mono/config)
+[06:24:35.942] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[06:24:35.943] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[06:24:35.943] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/.mono/config (target path: app0:/.mono/config)
+[06:24:35.943] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[06:24:35.946] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[06:24:35.947] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[06:24:35.947] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[06:24:35.963] |E| [call_import]: Import function for NID 0xE340C195 not found (thread name: Unity_main_thread, thread ID: 75)
+[06:24:35.963] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/config
+[06:24:35.963] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/Media/Managed/mono/config (target path: app0:Media/Managed/mono/config)
+[06:24:35.963] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[06:24:35.963] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[06:24:35.964] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB01161/.mono/config (target path: app0:/.mono/config)
+[06:24:35.964] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[06:24:35.964] |E| [call_import]: Import function for NID 0xE340C19E not found (thread name: Unity_main_thread, thread ID: 75)
+[06:24:35.964] |E| [call_import]: Import function for NID 0xE340C008 not found (thread name: Unity_main_thread, thread ID: 75)
+[06:24:35.964] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[06:24:35.965] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[06:24:35.965] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[06:24:35.965] |E| [call_import]: Import function for NID 0xE340C1A0 not found (thread name: Unity_main_thread, thread ID: 75)
+[06:24:35.978] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
+[06:24:35.979] |W| [unimplemented_impl]: Unimplemented SceKernelForMono_1BECC64C import called.
+[06:24:35.983] |W| [unimplemented_impl]: Unimplemented SceKernelForMono_AD210F16 import called.
+[06:24:35.989] |W| [unimplemented_impl]: Unimplemented sceKernelCallAbortHandler import called.
+[06:24:35.990] |W| [unimplemented_impl]: Unimplemented sceKernelCallModuleExit import called.
+[06:24:35.996] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a820
+[06:24:35.996] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a81c
+[06:24:35.996] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a818
+[06:24:35.996] |E| [logging::ret_error_impl]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[06:24:35.996] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a814
+[06:24:35.996] |E| [logging::ret_error_impl]: sceKernelUnlockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[06:24:35.996] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a810
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a80c
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a808
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a804
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a800
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7fc
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7f8
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7f4
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7f0
+[06:24:35.997] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7ec
+[06:24:35.998] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7e8
+[06:24:35.998] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7e4
+[06:24:35.998] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7e0
+[06:24:35.998] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7dc
+[06:24:35.998] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7d8
+[06:24:35.998] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7d4
+[06:24:35.998] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7d0
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7cc
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7c8
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7c4
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7c0
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7bc
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7b8
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7b4
+[06:24:35.999] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7b0
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7ac
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7a8
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7a4
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a7a0
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a79c
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a798
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a794
+[06:24:36.000] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a790
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a78c
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a788
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a784
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a780
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a77c
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a778
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a774
+[06:24:36.001] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a770
+[06:24:36.002] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a76c
+[06:24:36.002] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a768
+[06:24:36.002] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a764
+[06:24:36.002] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a760
+[06:24:36.002] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a75c
+[06:24:36.002] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a758
+[06:24:36.002] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a754
+[06:24:36.006] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a750
+[06:24:36.007] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a74c
+[06:24:36.007] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a748
+[06:24:36.007] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a744
+[06:24:36.007] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a740
+[06:24:36.007] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a73c
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a738
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a734
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a730
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a72c
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a728
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a724
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a720
+[06:24:36.008] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a71c
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a718
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a714
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a710
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a70c
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a708
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a704
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a700
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6fc
+[06:24:36.009] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6f8
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6f4
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6f0
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6ec
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6e8
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6e4
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6e0
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6dc
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6d8
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6d4
+[06:24:36.010] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6d0
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6cc
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6c8
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6c4
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6c0
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6bc
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6b8
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6b4
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6b0
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6ac
+[06:24:36.011] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6a8
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6a4
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a6a0
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a69c
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a698
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a694
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a690
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a68c
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a688
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a684
+[06:24:36.012] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a680
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a67c
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a678
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a674
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a670
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a66c
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a668
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a664
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a660
+[06:24:36.013] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a65c
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a658
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a654
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a650
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a64c
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a648
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a644
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a640
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a63c
+[06:24:36.014] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a638
+[06:24:36.015] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a634
+[06:24:36.015] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a630
+[06:24:36.015] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a62c
+[06:24:36.015] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a628
+[06:24:36.015] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a624
+[06:24:36.015] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a620
+[06:24:36.015] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a61c
+[06:24:36.016] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a618
+[06:24:36.016] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a614
+[06:24:36.016] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a610
+[06:24:36.016] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a60c
+[06:24:36.016] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a608
+[06:24:36.016] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a604
+[06:24:36.016] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a600
+[06:24:36.017] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5fc
+[06:24:36.017] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5f8
+[06:24:36.017] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5f4
+[06:24:36.017] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5f0
+[06:24:36.017] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5ec
+[06:24:36.017] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5e8
+[06:24:36.017] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5e4
+[06:24:36.018] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5e0
+[06:24:36.018] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5dc
+[06:24:36.018] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5d8
+[06:24:36.018] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5d4
+[06:24:36.018] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5d0
+[06:24:36.022] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5cc
+[06:24:36.022] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5c8
+[06:24:36.022] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5c4
+[06:24:36.022] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5c0
+[06:24:36.023] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5bc
+[06:24:36.023] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5b8
+[06:24:36.023] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5b4
+[06:24:36.023] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5b0
+[06:24:36.024] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5ac
+[06:24:36.024] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5a8
+[06:24:36.024] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5a4
+[06:24:36.024] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a5a0
+[06:24:36.024] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a59c
+[06:24:36.024] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a598
+[06:24:36.024] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a594
+[06:24:36.025] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a590
+[06:24:36.025] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a58c
+[06:24:36.025] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a588
+[06:24:36.025] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a584
+[06:24:36.025] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a580
+[06:24:36.025] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a57c
+[06:24:36.026] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a578
+[06:24:36.026] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a574
+[06:24:36.026] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a570
+[06:24:36.026] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a56c
+[06:24:36.026] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a568
+[06:24:36.027] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a564
+[06:24:36.027] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a560
+[06:24:36.027] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a55c
+[06:24:36.027] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a558
+[06:24:36.027] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a554
+[06:24:36.027] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a550
+[06:24:36.028] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a54c
+[06:24:36.028] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a548
+[06:24:36.028] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a544
+[06:24:36.028] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a540
+[06:24:36.028] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a53c
+[06:24:36.028] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a538
+[06:24:36.028] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a534
+[06:24:36.029] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a530
+[06:24:36.029] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a52c
+[06:24:36.029] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a528
+[06:24:36.029] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a524
+[06:24:36.029] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a520
+[06:24:36.029] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a51c
+[06:24:36.029] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a518
+[06:24:36.030] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a514
+[06:24:36.030] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a510
+[06:24:36.030] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a50c
+[06:24:36.030] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a508
+[06:24:36.030] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a504
+[06:24:36.030] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a500
+[06:24:36.030] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4fc
+[06:24:36.031] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4f8
+[06:24:36.031] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4f4
+[06:24:36.031] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4f0
+[06:24:36.031] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4ec
+[06:24:36.031] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4e8
+[06:24:36.031] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4e4
+[06:24:36.032] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4e0
+[06:24:36.032] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4dc
+[06:24:36.032] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4d8
+[06:24:36.032] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4d4
+[06:24:36.032] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4d0
+[06:24:36.032] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4cc
+[06:24:36.032] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4c8
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4c4
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4c0
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4bc
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4b8
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4b4
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4b0
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4ac
+[06:24:36.033] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4a8
+[06:24:36.034] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4a4
+[06:24:36.034] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a4a0
+[06:24:36.034] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a49c
+[06:24:36.034] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a498
+[06:24:36.034] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a494
+[06:24:36.038] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a490
+[06:24:36.039] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a48c
+[06:24:36.039] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a488
+[06:24:36.039] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a484
+[06:24:36.039] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a480
+[06:24:36.039] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a47c
+[06:24:36.039] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a478
+[06:24:36.040] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a474
+[06:24:36.040] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a470
+[06:24:36.040] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a46c
+[06:24:36.040] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a468
+[06:24:36.040] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a464
+[06:24:36.040] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a460
+[06:24:36.041] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a45c
+[06:24:36.041] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a458
+[06:24:36.041] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a454
+[06:24:36.041] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a450
+[06:24:36.041] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a44c
+[06:24:36.041] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a448
+[06:24:36.041] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a444
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a440
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a43c
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a438
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a434
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a430
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a42c
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a428
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a424
+[06:24:36.042] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a420
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a41c
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a418
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a414
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a410
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a40c
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a408
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a404
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a400
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3fc
+[06:24:36.043] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3f8
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3f4
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3f0
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3ec
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3e8
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3e4
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3e0
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3dc
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3d8
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3d4
+[06:24:36.044] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3d0
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3cc
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3c8
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3c4
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3c0
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3bc
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3b8
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3b4
+[06:24:36.045] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3b0
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3ac
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3a8
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3a4
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a3a0
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a39c
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a398
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a394
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a390
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a38c
+[06:24:36.046] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a388
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a384
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a380
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a37c
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a378
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a374
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a370
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a36c
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a368
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a364
+[06:24:36.047] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a360
+[06:24:36.048] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a35c
+[06:24:36.048] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a358
+[06:24:36.048] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a354
+[06:24:36.048] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a350
+[06:24:36.048] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a34c
+[06:24:36.048] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a348
+[06:24:36.048] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a344
+[06:24:36.049] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a340
+[06:24:36.049] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a33c
+[06:24:36.049] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a338
+[06:24:36.049] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a334
+[06:24:36.049] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a330
+[06:24:36.049] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a32c
+[06:24:36.050] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a328
+[06:24:36.050] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a324
+[06:24:36.050] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a320
+[06:24:36.050] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a31c
+[06:24:36.050] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a318
+[06:24:36.054] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a314
+[06:24:36.054] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a310
+[06:24:36.054] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a30c
+[06:24:36.054] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a308
+[06:24:36.054] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a304
+[06:24:36.055] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a300
+[06:24:36.055] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2fc
+[06:24:36.055] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2f8
+[06:24:36.055] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2f4
+[06:24:36.055] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2f0
+[06:24:36.055] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2ec
+[06:24:36.055] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2e8
+[06:24:36.056] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2e4
+[06:24:36.056] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2e0
+[06:24:36.056] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2dc
+[06:24:36.056] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2d8
+[06:24:36.056] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2d4
+[06:24:36.057] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2d0
+[06:24:36.057] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2cc
+[06:24:36.057] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2c8
+[06:24:36.057] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2c4
+[06:24:36.057] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2c0
+[06:24:36.058] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2bc
+[06:24:36.058] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2b8
+[06:24:36.058] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2b4
+[06:24:36.058] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2b0
+[06:24:36.058] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2ac
+[06:24:36.058] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2a8
+[06:24:36.058] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2a4
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a2a0
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a29c
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a298
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a294
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a290
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a28c
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a288
+[06:24:36.059] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a284
+[06:24:36.060] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a280
+[06:24:36.060] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a27c
+[06:24:36.060] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a278
+[06:24:36.060] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a274
+[06:24:36.060] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a270
+[06:24:36.060] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a26c
+[06:24:36.060] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a268
+[06:24:36.061] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a264
+[06:24:36.061] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a260
+[06:24:36.061] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a25c
+[06:24:36.061] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a258
+[06:24:36.061] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a254
+[06:24:36.061] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a250
+[06:24:36.061] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a24c
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a248
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a244
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a240
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a23c
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a238
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a234
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a230
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a22c
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a228
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a224
+[06:24:36.062] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a220
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a21c
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a218
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a214
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a210
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a20c
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a208
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a204
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a200
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1fc
+[06:24:36.063] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1f8
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1f4
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1f0
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1ec
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1e8
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1e4
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1e0
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1dc
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1d8
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1d4
+[06:24:36.064] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1d0
+[06:24:36.065] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1cc
+[06:24:36.065] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1c8
+[06:24:36.065] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1c4
+[06:24:36.065] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1c0
+[06:24:36.065] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1bc
+[06:24:36.065] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1b8
+[06:24:36.066] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1b4
+[06:24:36.066] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1b0
+[06:24:36.066] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1ac
+[06:24:36.066] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1a8
+[06:24:36.066] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1a4
+[06:24:36.070] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a1a0
+[06:24:36.070] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a19c
+[06:24:36.070] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a198
+[06:24:36.070] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a194
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a190
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a18c
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a188
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a184
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a180
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a17c
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a178
+[06:24:36.071] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a174
+[06:24:36.072] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a170
+[06:24:36.072] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a16c
+[06:24:36.072] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a168
+[06:24:36.072] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a164
+[06:24:36.072] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a160
+[06:24:36.072] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a15c
+[06:24:36.073] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a158
+[06:24:36.073] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a154
+[06:24:36.073] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a150
+[06:24:36.073] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a14c
+[06:24:36.073] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a148
+[06:24:36.073] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a144
+[06:24:36.074] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a140
+[06:24:36.074] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a13c
+[06:24:36.074] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a138
+[06:24:36.074] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a134
+[06:24:36.074] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a130
+[06:24:36.074] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a12c
+[06:24:36.074] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a128
+[06:24:36.075] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a124
+[06:24:36.075] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a120
+[06:24:36.075] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a11c
+[06:24:36.075] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a118
+[06:24:36.075] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a114
+[06:24:36.075] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a110
+[06:24:36.075] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a10c
+[06:24:36.076] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a108
+[06:24:36.076] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a104
+[06:24:36.076] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a100
+[06:24:36.076] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0fc
+[06:24:36.076] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0f8
+[06:24:36.076] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0f4
+[06:24:36.076] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0f0
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0ec
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0e8
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0e4
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0e0
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0dc
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0d8
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0d4
+[06:24:36.077] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0d0
+[06:24:36.078] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0cc
+[06:24:36.078] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0c8
+[06:24:36.078] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0c4
+[06:24:36.078] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0c0
+[06:24:36.078] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0bc
+[06:24:36.078] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0b8
+[06:24:36.078] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0b4
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0b0
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0ac
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0a8
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0a4
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a0a0
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a09c
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a098
+[06:24:36.079] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a094
+[06:24:36.080] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a090
+[06:24:36.080] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a08c
+[06:24:36.080] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a088
+[06:24:36.080] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a084
+[06:24:36.080] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a080
+[06:24:36.080] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a07c
+[06:24:36.080] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a078
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a074
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a070
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a06c
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a068
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a064
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a060
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a05c
+[06:24:36.081] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a058
+[06:24:36.082] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a054
+[06:24:36.082] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a050
+[06:24:36.082] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a04c
+[06:24:36.082] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a048
+[06:24:36.082] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a044
+[06:24:36.086] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a040
+[06:24:36.086] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a03c
+[06:24:36.086] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a038
+[06:24:36.086] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a034
+[06:24:36.087] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a030
+[06:24:36.087] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a02c
+[06:24:36.087] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a028
+[06:24:36.087] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a024
+[06:24:36.087] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a020
+[06:24:36.087] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a01c
+[06:24:36.087] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a018
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a014
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a010
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a00c
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a008
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a004
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8a000
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ffc
+[06:24:36.088] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ff8
+[06:24:36.089] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ff4
+[06:24:36.089] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ff0
+[06:24:36.089] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fec
+[06:24:36.089] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fe8
+[06:24:36.089] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fe4
+[06:24:36.090] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fe0
+[06:24:36.090] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fdc
+[06:24:36.090] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fd8
+[06:24:36.090] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fd4
+[06:24:36.090] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fd0
+[06:24:36.091] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fcc
+[06:24:36.091] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fc8
+[06:24:36.091] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fc4
+[06:24:36.091] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fc0
+[06:24:36.091] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fbc
+[06:24:36.091] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fb8
+[06:24:36.091] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fb4
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fb0
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fac
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fa8
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fa4
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89fa0
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f9c
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f98
+[06:24:36.092] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f94
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f90
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f8c
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f88
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f84
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f80
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f7c
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f78
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f74
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f70
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f6c
+[06:24:36.093] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f68
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f64
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f60
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f5c
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f58
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f54
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f50
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f4c
+[06:24:36.094] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f48
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f44
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f40
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f3c
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f38
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f34
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f30
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f2c
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f28
+[06:24:36.095] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f24
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f20
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f1c
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f18
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f14
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f10
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f0c
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f08
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f04
+[06:24:36.096] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89f00
+[06:24:36.097] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89efc
+[06:24:36.097] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ef8
+[06:24:36.097] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ef4
+[06:24:36.097] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ef0
+[06:24:36.097] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89eec
+[06:24:36.101] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ee8
+[06:24:36.101] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ee4
+[06:24:36.101] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ee0
+[06:24:36.101] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89edc
+[06:24:36.101] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ed8
+[06:24:36.101] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ed4
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ed0
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ecc
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ec8
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ec4
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ec0
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ebc
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89eb8
+[06:24:36.102] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89eb4
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89eb0
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89eac
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ea8
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ea4
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ea0
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e9c
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e98
+[06:24:36.103] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e94
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e90
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e8c
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e88
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e84
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e80
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e7c
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e78
+[06:24:36.104] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e74
+[06:24:36.105] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e70
+[06:24:36.105] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e6c
+[06:24:36.105] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e68
+[06:24:36.105] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e64
+[06:24:36.105] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e60
+[06:24:36.105] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e5c
+[06:24:36.106] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e58
+[06:24:36.106] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e54
+[06:24:36.106] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e50
+[06:24:36.106] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e4c
+[06:24:36.106] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e48
+[06:24:36.106] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e44
+[06:24:36.107] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e40
+[06:24:36.107] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e3c
+[06:24:36.107] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e38
+[06:24:36.107] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e34
+[06:24:36.107] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e30
+[06:24:36.107] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e2c
+[06:24:36.107] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e28
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e24
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e20
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e1c
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e18
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e14
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e10
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e0c
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e08
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e04
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89e00
+[06:24:36.108] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dfc
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89df8
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89df4
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89df0
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dec
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89de8
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89de4
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89de0
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ddc
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dd8
+[06:24:36.109] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dd4
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dd0
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dcc
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dc8
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dc4
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dc0
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dbc
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89db8
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89db4
+[06:24:36.110] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89db0
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89dac
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89da8
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89da4
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89da0
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d9c
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d98
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d94
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d90
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d8c
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d88
+[06:24:36.111] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d84
+[06:24:36.112] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d80
+[06:24:36.112] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d7c
+[06:24:36.112] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d78
+[06:24:36.112] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d74
+[06:24:36.112] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d70
+[06:24:36.112] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d6c
+[06:24:36.116] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d68
+[06:24:36.116] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d64
+[06:24:36.116] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d60
+[06:24:36.116] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d5c
+[06:24:36.117] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d58
+[06:24:36.117] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d54
+[06:24:36.117] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d50
+[06:24:36.117] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d4c
+[06:24:36.117] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d48
+[06:24:36.117] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d44
+[06:24:36.117] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d40
+[06:24:36.118] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d3c
+[06:24:36.118] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d38
+[06:24:36.118] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d34
+[06:24:36.118] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d30
+[06:24:36.118] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d2c
+[06:24:36.118] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d28
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d24
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d20
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d1c
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d18
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d14
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d10
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d0c
+[06:24:36.119] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d08
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d04
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89d00
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cfc
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cf8
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cf4
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cf0
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cec
+[06:24:36.120] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ce8
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ce4
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ce0
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cdc
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cd8
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cd4
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cd0
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ccc
+[06:24:36.121] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cc8
+[06:24:36.122] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cc4
+[06:24:36.122] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cc0
+[06:24:36.122] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cbc
+[06:24:36.122] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cb8
+[06:24:36.122] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cb4
+[06:24:36.122] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cb0
+[06:24:36.123] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89cac
+[06:24:36.123] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ca8
+[06:24:36.123] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ca4
+[06:24:36.123] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ca0
+[06:24:36.124] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c9c
+[06:24:36.124] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c98
+[06:24:36.124] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c94
+[06:24:36.124] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c90
+[06:24:36.124] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c8c
+[06:24:36.124] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c88
+[06:24:36.124] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c84
+[06:24:36.125] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c80
+[06:24:36.125] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c7c
+[06:24:36.125] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c78
+[06:24:36.125] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c74
+[06:24:36.125] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c70
+[06:24:36.125] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c6c
+[06:24:36.125] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c68
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c64
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c60
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c5c
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c58
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c54
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c50
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c4c
+[06:24:36.126] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c48
+[06:24:36.127] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c44
+[06:24:36.127] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c40
+[06:24:36.127] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c3c
+[06:24:36.127] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c38
+[06:24:36.127] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c34
+[06:24:36.127] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c30
+[06:24:36.127] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c2c
+[06:24:36.128] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c28
+[06:24:36.128] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c24
+[06:24:36.128] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c20
+[06:24:36.128] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c1c
+[06:24:36.128] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c18
+[06:24:36.128] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c14
+[06:24:36.132] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c10
+[06:24:36.132] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c0c
+[06:24:36.132] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c08
+[06:24:36.132] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c04
+[06:24:36.132] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89c00
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bfc
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bf8
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bf4
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bf0
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bec
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89be8
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89be4
+[06:24:36.133] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89be0
+[06:24:36.134] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bdc
+[06:24:36.134] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bd8
+[06:24:36.134] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bd4
+[06:24:36.134] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bd0
+[06:24:36.134] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bcc
+[06:24:36.134] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bc8
+[06:24:36.134] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bc4
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bc0
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bbc
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bb8
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bb4
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bb0
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89bac
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ba8
+[06:24:36.135] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ba4
+[06:24:36.136] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ba0
+[06:24:36.136] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b9c
+[06:24:36.136] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b98
+[06:24:36.136] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b94
+[06:24:36.136] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b90
+[06:24:36.136] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b8c
+[06:24:36.136] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b88
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b84
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b80
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b7c
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b78
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b74
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b70
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b6c
+[06:24:36.137] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b68
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b64
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b60
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b5c
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b58
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b54
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b50
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b4c
+[06:24:36.138] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b48
+[06:24:36.139] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b44
+[06:24:36.139] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b40
+[06:24:36.139] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b3c
+[06:24:36.139] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b38
+[06:24:36.139] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b34
+[06:24:36.139] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b30
+[06:24:36.140] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b2c
+[06:24:36.140] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b28
+[06:24:36.140] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b24
+[06:24:36.140] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b20
+[06:24:36.140] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b1c
+[06:24:36.141] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b18
+[06:24:36.141] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b14
+[06:24:36.141] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b10
+[06:24:36.141] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b0c
+[06:24:36.141] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b08
+[06:24:36.141] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b04
+[06:24:36.141] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89b00
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89afc
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89af8
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89af4
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89af0
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89aec
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ae8
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ae4
+[06:24:36.142] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ae0
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89adc
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ad8
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ad4
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ad0
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89acc
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ac8
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ac4
+[06:24:36.143] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ac0
+[06:24:36.144] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89abc
+[06:24:36.144] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ab8
+[06:24:36.144] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ab4
+[06:24:36.144] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89ab0
+[06:24:36.148] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89aac
+[06:24:36.148] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89aa8
+[06:24:36.148] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89aa4
+[06:24:36.148] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89aa0
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a9c
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a98
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a94
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a90
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a8c
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a88
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a84
+[06:24:36.149] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a80
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a7c
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a78
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a74
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a70
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a6c
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a68
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a64
+[06:24:36.150] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a60
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a5c
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a58
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a54
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a50
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a4c
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a48
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a44
+[06:24:36.151] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a40
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a3c
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a38
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a34
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a30
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a2c
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a28
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a24
+[06:24:36.152] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a20
+[06:24:36.153] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a1c
+[06:24:36.153] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a18
+[06:24:36.153] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a14
+[06:24:36.153] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a10
+[06:24:36.153] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a0c
+[06:24:36.153] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a08
+[06:24:36.153] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a04
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89a00
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899fc
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899f8
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899f4
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899f0
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899ec
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899e8
+[06:24:36.154] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899e4
+[06:24:36.155] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899e0
+[06:24:36.155] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899dc
+[06:24:36.155] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899d8
+[06:24:36.155] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899d4
+[06:24:36.155] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899d0
+[06:24:36.155] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899cc
+[06:24:36.155] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899c8
+[06:24:36.156] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899c4
+[06:24:36.156] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899c0
+[06:24:36.156] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899bc
+[06:24:36.156] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899b8
+[06:24:36.156] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899b4
+[06:24:36.157] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899b0
+[06:24:36.157] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899ac
+[06:24:36.157] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899a8
+[06:24:36.157] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899a4
+[06:24:36.157] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e899a0
+[06:24:36.157] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8999c
+[06:24:36.158] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89998
+[06:24:36.158] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89994
+[06:24:36.158] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89990
+[06:24:36.158] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8998c
+[06:24:36.158] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89988
+[06:24:36.158] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89984
+[06:24:36.158] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89980
+[06:24:36.159] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8997c
+[06:24:36.159] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89978
+[06:24:36.159] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89974
+[06:24:36.159] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89970
+[06:24:36.159] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8996c
+[06:24:36.163] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89968
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89964
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89960
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8995c
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89958
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89954
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89950
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8994c
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89948
+[06:24:36.164] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89944
+[06:24:36.165] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89940
+[06:24:36.165] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8993c
+[06:24:36.165] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89938
+[06:24:36.165] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89934
+[06:24:36.165] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89930
+[06:24:36.165] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8992c
+[06:24:36.165] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89928
+[06:24:36.166] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89924
+[06:24:36.166] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89920
+[06:24:36.166] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8991c
+[06:24:36.166] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89918
+[06:24:36.166] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89914
+[06:24:36.166] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89910
+[06:24:36.166] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e8990c
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89908
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89904
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e89900
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898fc
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898f8
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898f4
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898f0
+[06:24:36.167] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898ec
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898e8
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898e4
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898e0
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898dc
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898d8
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898d4
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898d0
+[06:24:36.168] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898cc
+[06:24:36.169] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898c8
+[06:24:36.169] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898c4
+[06:24:36.169] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898c0
+[06:24:36.169] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898bc
+[06:24:36.169] |W| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint32_t at address: 0x3e898b8
+[06:24:36.169] |W| [ArmDynarmicCallback::MemoryRead]: Invalid re
