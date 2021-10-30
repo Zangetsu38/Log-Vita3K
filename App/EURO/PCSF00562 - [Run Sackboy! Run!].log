@@ -1,435 +1,642 @@
-[17:20:17.756] |I| [load_app_impl]: cpu-backend: Dynarmic
-[17:20:17.757] |I| [load_app_impl]: CPU Optimisation state: true
-[17:20:17.757] |I| [load_app_impl]: at9 audio decoder state: true
-[17:20:17.757] |I| [load_app_impl]: ngs experimental state: true
-[17:20:17.757] |I| [load_app_impl]: video player state: true
-[17:20:17.757] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[17:20:17.757] |I| [load_app_impl]: Title: Run Sackboy! Run!
-[17:20:17.757] |I| [load_app_impl]: Serial: PCSF00562
-[17:20:17.757] |I| [load_app_impl]: Version: 1.01
-[17:20:17.758] |I| [load_app_impl]: Category: gp
-[17:20:17.822] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:20:17.822] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00056C54 / 0x81000000] (size: 0x0004FC54) of module ux0:app\PCSF00562\sce_module\libc.suprx
-[17:20:17.822] |I| [load_self]: Loaded module segment 1 @ [0x00057000 - 0x00059688 / 0x81050000] (size: 0x00002688) of module ux0:app\PCSF00562\sce_module\libc.suprx
-[17:20:17.823] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libc.suprx
-[17:20:17.823] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4C744
-[17:20:17.823] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x424F8
-[17:20:17.823] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x46520, setting to stub value 0xDEADBEEF
-[17:20:17.824] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x480A4, setting to stub value 0xDEADBEEF
-[17:20:17.824] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSF00562\sce_module\libc.suprx") loaded
-[17:20:17.850] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:20:17.850] |I| [load_self]: Loaded module segment 0 @ [0x0005C000 - 0x00074CF4 / 0x81000000] (size: 0x00018CF4) of module ux0:app\PCSF00562\sce_module\libface.suprx
-[17:20:17.850] |I| [load_self]: Loaded module segment 1 @ [0x00075000 - 0x000750F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSF00562\sce_module\libface.suprx
-[17:20:17.851] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libface.suprx
-[17:20:17.851] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x71AC0
-[17:20:17.851] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x74478
-[17:20:17.851] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSF00562\sce_module\libface.suprx") loaded
-[17:20:17.864] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:20:17.864] |I| [load_self]: Loaded module segment 0 @ [0x00076000 - 0x000A133C / 0x81000000] (size: 0x0002B33C) of module ux0:app\PCSF00562\sce_module\libfios2.suprx
-[17:20:17.864] |I| [load_self]: Loaded module segment 1 @ [0x000A2000 - 0x000A723D / 0x8102C000] (size: 0x0000523D) of module ux0:app\PCSF00562\sce_module\libfios2.suprx
-[17:20:17.864] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libfios2.suprx
-[17:20:17.865] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA1244
-[17:20:17.865] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98878
-[17:20:17.865] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSF00562\sce_module\libfios2.suprx") loaded
-[17:20:17.922] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:20:17.922] |I| [load_self]: Loaded module segment 0 @ [0x000A8000 - 0x002B9AF4 / 0x81000000] (size: 0x00211AF4) of module ux0:app\PCSF00562\sce_module\libsmart.suprx
-[17:20:17.923] |I| [load_self]: Loaded module segment 1 @ [0x002BA000 - 0x002BD444 / 0x81212000] (size: 0x00003444) of module ux0:app\PCSF00562\sce_module\libsmart.suprx
-[17:20:17.923] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libsmart.suprx
-[17:20:17.923] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1576A0
-[17:20:17.923] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15E90C
-[17:20:17.923] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSF00562\sce_module\libsmart.suprx") loaded
-[17:20:17.938] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:20:17.938] |I| [load_self]: Loaded module segment 0 @ [0x002BE000 - 0x002D19A4 / 0x81000000] (size: 0x000139A4) of module ux0:app\PCSF00562\sce_module\libult.suprx
-[17:20:17.938] |I| [load_self]: Loaded module segment 1 @ [0x002D2000 - 0x002D2814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSF00562\sce_module\libult.suprx
-[17:20:17.938] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libult.suprx
-[17:20:17.938] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2D02D0
-[17:20:17.938] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CD858
-[17:20:17.939] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSF00562\sce_module\libult.suprx") loaded
-[17:20:17.945] |I| [load_self]: Loaded module segment 0 @ [0x002D3000 - 0x00323F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[17:20:17.946] |I| [load_self]: Loaded module segment 1 @ [0x00324000 - 0x003242F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[17:20:17.946] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[17:20:17.946] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30F7DC
-[17:20:17.946] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30EF10
-[17:20:17.946] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[17:20:17.948] |I| [load_self]: Loaded module segment 0 @ [0x00325000 - 0x00334F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[17:20:17.951] |I| [load_self]: Loaded module segment 1 @ [0x00335000 - 0x00335008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[17:20:17.951] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[17:20:17.951] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x333710
-[17:20:17.951] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x333300
-[17:20:17.951] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[17:20:18.006] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:20:18.007] |I| [load_self]: Loaded module segment 0 @ [0x00336000 - 0x00540A60 / 0x81000000] (size: 0x0020AA60) of module app0:eboot.bin
-[17:20:18.007] |I| [load_self]: Loaded module segment 1 @ [0x00541000 - 0x0080C460 / 0x8120B000] (size: 0x002CB460) of module app0:eboot.bin
-[17:20:18.007] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[17:20:18.007] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4FF820
-[17:20:18.007] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x54486C
-[17:20:18.008] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x52E188
-[17:20:18.008] |I| [load_app_impl]: Main executable RSBR (eboot.bin) loaded
-[17:20:18.016] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[17:20:18.053] |I| [run_app]: Module SceLibc (at "ux0:app\PCSF00562\sce_module\libc.suprx") module_start returned 0x0
-[17:20:18.058] |D| [run_app]: Running module_start of library: SceFace at address 0x70FC5
-[17:20:18.066] |I| [run_app]: Module SceFace (at "ux0:app\PCSF00562\sce_module\libface.suprx") module_start returned 0x0
-[17:20:18.070] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x76001
-[17:20:18.077] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[17:20:18.077] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[17:20:18.077] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[17:20:18.078] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSF00562\sce_module\libfios2.suprx") module_start returned 0x0
-[17:20:18.081] |D| [run_app]: Running module_start of library: SceSmart at address 0xA817D
-[17:20:18.091] |I| [run_app]: Module SceSmart (at "ux0:app\PCSF00562\sce_module\libsmart.suprx") module_start returned 0x0
-[17:20:18.095] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C1769
-[17:20:18.103] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[17:20:18.103] |I| [run_app]: Module SceUlt (at "ux0:app\PCSF00562\sce_module\libult.suprx") module_start returned 0x0
-[17:20:18.185] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[17:20:18.188] |I| [export_sceIoOpen]: Opening file: app0:/regionus
-[17:20:18.188] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSF00562/regionus (target path: app0:/regionus)
-[17:20:18.188] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[17:20:18.191] |E| [call_import]: Import function for NID 0xE340C007 not found (thread name: PCSF00562, thread ID: 10)
-[17:20:18.191] |I| [export_sceIoOpen]: Opening file: app0:/regionas
-[17:20:18.191] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSF00562/regionas (target path: app0:/regionas)
-[17:20:18.192] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[17:20:18.192] |I| [export_sceIoOpen]: Opening file: app0:/regionjp
-[17:20:18.192] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSF00562/regionjp (target path: app0:/regionjp)
-[17:20:18.192] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[17:20:18.203] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[17:20:18.207] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[17:20:18.218] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[17:20:18.312] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookInit import called.
-[17:20:18.313] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[17:20:18.314] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[17:20:18.314] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[17:20:18.331] |E| [logging::ret_error_impl]: sceNetInit returned SCE_NET_ERROR_EINTERNAL (0x804101CC)
-[17:20:18.748] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
-[17:20:18.748] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
-[17:20:18.749] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
-[17:20:18.749] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[17:20:18.749] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[17:20:18.750] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:18.766] |E| [call_import]: Import function for NID 0xE340C008 not found (thread name: PCSF00562, thread ID: 10)
-[17:20:18.780] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
-[17:20:18.816] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[17:20:18.816] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[17:20:18.840] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
-[17:20:18.840] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
-[17:20:18.849] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[17:20:18.849] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[17:20:18.850] |D| [export_sceNgsVoiceInit]: flags: 7
-[17:20:18.850] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[17:20:18.853] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[17:20:18.854] |D| [export_sceNgsVoiceInit]: flags: 7
-[17:20:18.855] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:18.859] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[17:20:18.866] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:18.867] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:18.893] |I| [export_sceIoOpen]: Opening file: app0:/vitaaudio.bnk
-[17:20:18.999] |I| [export_sceIoOpen]: Opening file: app0:/vitamusic.bnk
-[17:20:19.034] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[17:20:19.037] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
-[17:20:19.155] |I| [export_sceIoOpen]: Opening file: savedata0:/rsbra.sav
-[17:20:19.166] |I| [export_sceIoOpen]: Opening file: savedata0:/rsbr.rcx
-[17:20:19.166] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSF00562/rsbr.rcx (target path: savedata0:/rsbr.rcx)
-[17:20:19.166] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[17:20:19.178] |W| [unimplemented_impl]: Unimplemented sceHttpCreateTemplate import called.
-[17:20:19.178] |W| [unimplemented_impl]: Unimplemented sceHttpCreateConnectionWithURL import called.
-[17:20:19.178] |I| [export_sceIoOpen]: Opening file: savedata0:/ad.cat
-[17:20:19.178] |W| [unimplemented_impl]: Unimplemented sceHttpCreateRequestWithURL import called.
-[17:20:19.178] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSF00562/ad.cat (target path: savedata0:/ad.cat)
-[17:20:19.179] |W| [unimplemented_impl]: Unimplemented sceHttpSendRequest import called.
-[17:20:19.179] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[17:20:19.179] |W| [unimplemented_impl]: Unimplemented sceHttpGetStatusCode import called.
-[17:20:19.188] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[17:20:19.199] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
-[17:20:19.199] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.218] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.221] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.222] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.223] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.226] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.226] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.227] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.228] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.229] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.229] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.230] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.231] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.231] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.232] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.233] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.234] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.235] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.236] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.236] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.237] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.238] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.239] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.239] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.243] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.243] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.244] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.245] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.246] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.247] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.248] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.249] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.249] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.250] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.251] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.252] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.253] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.254] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.256] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.258] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.259] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.260] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.261] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.262] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.263] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.264] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.265] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.265] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.266] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.267] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.268] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.269] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.269] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.270] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.271] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.272] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.275] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.275] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.276] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.277] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.278] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.279] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.280] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.280] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.282] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.282] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.283] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.284] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.285] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.286] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.287] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.288] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.291] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.291] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.334] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[17:20:19.337] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.372] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[17:20:19.374] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
-[17:20:19.383] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookCreateRequest import called.
-[17:20:19.384] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookGetLongAccessToken import called.
-[17:20:19.384] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.401] |I| [renderer::gl::load_shader_generic]: Generating frag shader c4dd64b7e9e6cbac9655f9889a5d8ca9c3609a40774fbd0ec2a485ea67beff24
-[17:20:19.403] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) diffuse
-[17:20:19.405] |I| [renderer::gl::load_shader_generic]: Generating vert shader 0079452fe7f8d51867b8d5695b5302a5d6f4e15e588e25067d3fc6eb643a20c8
-[17:20:19.406] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:19.409] |E| [renderer::gl::compile_program]: Fragment info
+[08:40:19.108] |I| [load_app_impl]: cpu-backend: Dynarmic
+[08:40:19.108] |I| [load_app_impl]: CPU Optimisation state: true
+[08:40:19.108] |I| [load_app_impl]: at9 audio decoder state: true
+[08:40:19.108] |I| [load_app_impl]: ngs experimental state: true
+[08:40:19.108] |I| [load_app_impl]: video player state: true
+[08:40:19.108] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[08:40:19.108] |I| [load_app_impl]: Title: Run Sackboy! Run!
+[08:40:19.108] |I| [load_app_impl]: Serial: PCSF00562
+[08:40:19.108] |I| [load_app_impl]: Version: 1.01
+[08:40:19.108] |I| [load_app_impl]: Category: gp
+[08:40:19.168] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:40:19.169] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00056C54 / 0x81000000] (size: 0x0004FC54) of module ux0:app\PCSF00562\sce_module\libc.suprx
+[08:40:19.169] |I| [load_self]: Loaded module segment 1 @ [0x00057000 - 0x00059688 / 0x81050000] (size: 0x00002688) of module ux0:app\PCSF00562\sce_module\libc.suprx
+[08:40:19.169] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libc.suprx
+[08:40:19.169] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4C744
+[08:40:19.170] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x424F8
+[08:40:19.170] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x46520, setting to stub value 0xDEADBEEF
+[08:40:19.170] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x480A4, setting to stub value 0xDEADBEEF
+[08:40:19.171] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSF00562\sce_module\libc.suprx") loaded
+[08:40:19.200] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:40:19.201] |I| [load_self]: Loaded module segment 0 @ [0x0005C000 - 0x00074CF4 / 0x81000000] (size: 0x00018CF4) of module ux0:app\PCSF00562\sce_module\libface.suprx
+[08:40:19.201] |I| [load_self]: Loaded module segment 1 @ [0x00075000 - 0x000750F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSF00562\sce_module\libface.suprx
+[08:40:19.201] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libface.suprx
+[08:40:19.201] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x71AC0
+[08:40:19.201] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x74478
+[08:40:19.201] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSF00562\sce_module\libface.suprx") loaded
+[08:40:19.215] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:40:19.215] |I| [load_self]: Loaded module segment 0 @ [0x00076000 - 0x000A133C / 0x81000000] (size: 0x0002B33C) of module ux0:app\PCSF00562\sce_module\libfios2.suprx
+[08:40:19.215] |I| [load_self]: Loaded module segment 1 @ [0x000A2000 - 0x000A723D / 0x8102C000] (size: 0x0000523D) of module ux0:app\PCSF00562\sce_module\libfios2.suprx
+[08:40:19.215] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libfios2.suprx
+[08:40:19.215] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA1244
+[08:40:19.216] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98878
+[08:40:19.216] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSF00562\sce_module\libfios2.suprx") loaded
+[08:40:19.272] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:40:19.272] |I| [load_self]: Loaded module segment 0 @ [0x000A8000 - 0x002B9AF4 / 0x81000000] (size: 0x00211AF4) of module ux0:app\PCSF00562\sce_module\libsmart.suprx
+[08:40:19.272] |I| [load_self]: Loaded module segment 1 @ [0x002BA000 - 0x002BD444 / 0x81212000] (size: 0x00003444) of module ux0:app\PCSF00562\sce_module\libsmart.suprx
+[08:40:19.272] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libsmart.suprx
+[08:40:19.272] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1576A0
+[08:40:19.273] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15E90C
+[08:40:19.273] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSF00562\sce_module\libsmart.suprx") loaded
+[08:40:19.288] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:40:19.288] |I| [load_self]: Loaded module segment 0 @ [0x002BE000 - 0x002D19A4 / 0x81000000] (size: 0x000139A4) of module ux0:app\PCSF00562\sce_module\libult.suprx
+[08:40:19.288] |I| [load_self]: Loaded module segment 1 @ [0x002D2000 - 0x002D2814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSF00562\sce_module\libult.suprx
+[08:40:19.289] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSF00562\sce_module\libult.suprx
+[08:40:19.289] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2D02D0
+[08:40:19.289] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CD858
+[08:40:19.289] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSF00562\sce_module\libult.suprx") loaded
+[08:40:19.295] |I| [load_self]: Loaded module segment 0 @ [0x002D3000 - 0x00323F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[08:40:19.296] |I| [load_self]: Loaded module segment 1 @ [0x00324000 - 0x003242F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[08:40:19.296] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[08:40:19.296] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30F7DC
+[08:40:19.296] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30EF10
+[08:40:19.296] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[08:40:19.298] |I| [load_self]: Loaded module segment 0 @ [0x00325000 - 0x00334F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[08:40:19.298] |I| [load_self]: Loaded module segment 1 @ [0x00335000 - 0x00335008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[08:40:19.299] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[08:40:19.299] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x333710
+[08:40:19.299] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x333300
+[08:40:19.299] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[08:40:19.347] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[08:40:19.347] |I| [load_self]: Loaded module segment 0 @ [0x00336000 - 0x00540A60 / 0x81000000] (size: 0x0020AA60) of module app0:eboot.bin
+[08:40:19.348] |I| [load_self]: Loaded module segment 1 @ [0x00541000 - 0x0080C460 / 0x8120B000] (size: 0x002CB460) of module app0:eboot.bin
+[08:40:19.348] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[08:40:19.348] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4FF820
+[08:40:19.348] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x54486C
+[08:40:19.348] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x52E188
+[08:40:19.348] |I| [load_app_impl]: Main executable RSBR (eboot.bin) loaded
+[08:40:19.357] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[08:40:19.395] |I| [run_app]: Module SceLibc (at "ux0:app\PCSF00562\sce_module\libc.suprx") module_start returned 0x0
+[08:40:19.399] |D| [run_app]: Running module_start of library: SceFace at address 0x70FC5
+[08:40:19.408] |I| [run_app]: Module SceFace (at "ux0:app\PCSF00562\sce_module\libface.suprx") module_start returned 0x0
+[08:40:19.411] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x76001
+[08:40:19.419] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[08:40:19.420] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[08:40:19.420] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[08:40:19.420] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSF00562\sce_module\libfios2.suprx") module_start returned 0x0
+[08:40:19.424] |D| [run_app]: Running module_start of library: SceSmart at address 0xA817D
+[08:40:19.433] |I| [run_app]: Module SceSmart (at "ux0:app\PCSF00562\sce_module\libsmart.suprx") module_start returned 0x0
+[08:40:19.437] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C1769
+[08:40:19.444] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[08:40:19.444] |I| [run_app]: Module SceUlt (at "ux0:app\PCSF00562\sce_module\libult.suprx") module_start returned 0x0
+[08:40:19.511] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[08:40:19.513] |I| [export_sceIoOpen]: Opening file: app0:/regionus
+[08:40:19.513] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSF00562/regionus (target path: app0:/regionus)
+[08:40:19.514] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[08:40:19.516] |E| [call_import]: Import function for NID 0xE340C007 not found (thread name: PCSF00562, thread ID: 10)
+[08:40:19.516] |I| [export_sceIoOpen]: Opening file: app0:/regionas
+[08:40:19.517] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSF00562/regionas (target path: app0:/regionas)
+[08:40:19.517] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[08:40:19.517] |I| [export_sceIoOpen]: Opening file: app0:/regionjp
+[08:40:19.517] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSF00562/regionjp (target path: app0:/regionjp)
+[08:40:19.518] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[08:40:19.526] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[08:40:19.529] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[08:40:19.531] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[08:40:19.595] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookInit import called.
+[08:40:19.596] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[08:40:19.596] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[08:40:19.596] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[08:40:19.613] |E| [logging::ret_error_impl]: sceNetInit returned SCE_NET_ERROR_EINTERNAL (0x804101CC)
+[08:40:20.065] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
+[08:40:20.065] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[08:40:20.066] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[08:40:20.066] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[08:40:20.066] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[08:40:20.067] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.083] |E| [call_import]: Import function for NID 0xE340C008 not found (thread name: PCSF00562, thread ID: 10)
+[08:40:20.139] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
+[08:40:20.179] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[08:40:20.179] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[08:40:20.203] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
+[08:40:20.204] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
+[08:40:20.214] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[08:40:20.214] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[08:40:20.215] |D| [export_sceNgsVoiceInit]: flags: 7
+[08:40:20.215] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[08:40:20.218] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[08:40:20.219] |D| [export_sceNgsVoiceInit]: flags: 7
+[08:40:20.220] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:20.224] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[08:40:20.231] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:20.231] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:20.259] |I| [export_sceIoOpen]: Opening file: app0:/vitaaudio.bnk
+[08:40:20.374] |I| [export_sceIoOpen]: Opening file: app0:/vitamusic.bnk
+[08:40:20.403] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[08:40:20.406] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
+[08:40:20.555] |I| [export_sceIoOpen]: Opening file: savedata0:/rsbra.sav
+[08:40:20.567] |I| [export_sceIoOpen]: Opening file: savedata0:/rsbr.rcx
+[08:40:20.567] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSF00562/rsbr.rcx (target path: savedata0:/rsbr.rcx)
+[08:40:20.567] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[08:40:20.577] |W| [unimplemented_impl]: Unimplemented sceHttpCreateTemplate import called.
+[08:40:20.577] |W| [unimplemented_impl]: Unimplemented sceHttpCreateConnectionWithURL import called.
+[08:40:20.578] |I| [export_sceIoOpen]: Opening file: savedata0:/ad.cat
+[08:40:20.578] |W| [unimplemented_impl]: Unimplemented sceHttpCreateRequestWithURL import called.
+[08:40:20.578] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSF00562/ad.cat (target path: savedata0:/ad.cat)
+[08:40:20.578] |W| [unimplemented_impl]: Unimplemented sceHttpSendRequest import called.
+[08:40:20.578] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[08:40:20.578] |W| [unimplemented_impl]: Unimplemented sceHttpGetStatusCode import called.
+[08:40:20.587] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[08:40:20.598] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
+[08:40:20.599] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.606] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[08:40:20.618] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.621] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.622] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.623] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.624] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.625] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.626] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.627] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.627] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.628] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.628] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.630] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.630] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.631] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.632] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.633] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.634] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.634] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.635] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.636] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.637] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.638] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.638] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.639] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.640] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.641] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.641] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.642] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.643] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.644] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.645] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.646] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.647] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.648] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.648] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.649] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.650] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.651] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.652] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.653] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.653] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.654] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.655] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.656] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.656] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.657] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.658] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.658] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.659] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.660] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.660] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.661] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.662] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.662] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.663] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.664] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.664] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.665] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.666] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.666] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.667] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.668] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.668] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.669] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.670] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.671] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.671] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.672] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.673] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.674] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.674] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.675] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.676] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.704] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[08:40:20.707] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.730] |I| [renderer::gl::load_shader_generic]: Generating frag shader c4dd64b7e9e6cbac9655f9889a5d8ca9c3609a40774fbd0ec2a485ea67beff24
+[08:40:20.731] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[08:40:20.731] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) diffuse
+[08:40:20.733] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[08:40:20.742] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookCreateRequest import called.
+[08:40:20.743] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.743] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookGetLongAccessToken import called.
+[08:40:20.746] |I| [renderer::gl::load_shader_generic]: Generating vert shader 0079452fe7f8d51867b8d5695b5302a5d6f4e15e588e25067d3fc6eb643a20c8
+[08:40:20.747] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:20.768] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:19.411] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[17:20:19.413] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.416] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.428] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.439] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.443] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.451] |I| [renderer::gl::load_shader_generic]: Generating frag shader b59e61f61acd2edc7eb9159de18ea26da375c4492db82d992c555cfe1e46fc6e
-[17:20:19.452] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:19.455] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1db9179eb9d215c641e6e9382fdb28c4870a310a076c76693aab88470cbb506d
-[17:20:19.455] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:19.456] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[17:20:19.456] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scale
-[17:20:19.456] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) translate
-[17:20:19.459] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:19.460] |I| [renderer::gl::load_shader_generic]: Generating frag shader aded755f2964c3ce7021399fae9c2ad1fdb4336a1f5aabceab8ed705b2537daf
-[17:20:19.461] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:19.463] |I| [renderer::gl::load_shader_generic]: Generating vert shader ad2c12f2a1a991f12dda8ce9de06a556a3535d1c25009a2aec02c88dd2248630
-[17:20:19.466] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:19.467] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[17:20:19.467] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
-[17:20:19.467] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scaleuv
-[17:20:19.467] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) scale
-[17:20:19.467] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float2) translate
-[17:20:19.467] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) translateuv
-[17:20:19.470] |E| [renderer::gl::compile_program]: Fragment info
+[08:40:20.769] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[08:40:20.769] |D| [display_wait]: vcount: 1
+[08:40:20.771] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.774] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.781] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.802] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.808] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.841] |D| [display_wait]: vcount: 1
+[08:40:20.843] |I| [renderer::gl::load_shader_generic]: Generating frag shader b59e61f61acd2edc7eb9159de18ea26da375c4492db82d992c555cfe1e46fc6e
+[08:40:20.844] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:20.844] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.847] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1db9179eb9d215c641e6e9382fdb28c4870a310a076c76693aab88470cbb506d
+[08:40:20.847] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:20.848] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:40:20.848] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scale
+[08:40:20.848] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) translate
+[08:40:20.851] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:20.857] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:20.857] |I| [renderer::gl::load_shader_generic]: Generating frag shader aded755f2964c3ce7021399fae9c2ad1fdb4336a1f5aabceab8ed705b2537daf
+[08:40:20.858] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:20.861] |I| [renderer::gl::load_shader_generic]: Generating vert shader ad2c12f2a1a991f12dda8ce9de06a556a3535d1c25009a2aec02c88dd2248630
+[08:40:20.862] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:20.862] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:40:20.862] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
+[08:40:20.862] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scaleuv
+[08:40:20.863] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) scale
+[08:40:20.863] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float2) translate
+[08:40:20.863] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) translateuv
+[08:40:20.874] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:19.483] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.490] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.522] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.791] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:19.995] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:20.816] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:20.913] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:20.940] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:20.959] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:20.987] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:21.002] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:21.022] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
-[17:20:21.040] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
-[17:20:21.672] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:22.144] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2HidePsStoreIcon import called.
-[17:20:22.337] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:22.914] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:22.937] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:22.938] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:22.952] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:22.994] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.007] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.008] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.010] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.011] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.012] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.013] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.014] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.015] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.016] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.017] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.018] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.019] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.021] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.023] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.024] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.025] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.025] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.026] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.028] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.029] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.030] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.031] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.032] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.033] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.034] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.035] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.039] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.040] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:23.046] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.354] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
-[17:20:25.370] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.422] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.457] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.463] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.470] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.500] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.503] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.596] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.598] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.600] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.604] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.646] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.693] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.697] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.714] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.716] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.717] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.724] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.727] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.909] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:25.910] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.139] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.166] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.254] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.256] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.264] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.272] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.275] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.278] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.281] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.289] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.292] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.307] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.309] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.338] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.339] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.340] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.578] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.587] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.595] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:26.598] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.600] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.601] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.603] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.604] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.606] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.607] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetParamsBlock import called.
-[17:20:26.607] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:26.608] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.610] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.611] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.613] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.614] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.615] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.617] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.621] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:26.621] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:26.622] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:26.622] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:26.622] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:26.622] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:26.622] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:26.622] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:26.622] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:26.623] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:26.627] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.647] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.658] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.671] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.690] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.710] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.712] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.724] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.730] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.743] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.750] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.762] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.766] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.773] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.782] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.786] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.798] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.813] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.824] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.836] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.858] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.862] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.864] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.866] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.883] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.891] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.895] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.901] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.906] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.912] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.912] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.918] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.925] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.931] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.934] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.943] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.949] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.952] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.977] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.980] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:26.996] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:27.016] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:27.021] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
-[17:20:27.861] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
-[17:20:27.881] |I| [export_sceIoOpen]: Opening file: app0:/Audio/Music/home.at9
-[17:20:27.935] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:27.944] |I| [renderer::gl::load_shader_generic]: Generating frag shader 585e122b64b471830d6eefda15505bae5fef17fa9bae55cbba908434be8645fa
-[17:20:27.944] |I| [export_sceIoOpen]: Opening file: app0:/Audio/Music/home.at9
-[17:20:27.945] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:27.947] |I| [renderer::gl::load_shader_generic]: Generating vert shader 01e36e6a3bd7fa104316fbd566b1fb51934e91b3ecdb2e8de5d1455aeb781f8c
-[17:20:27.948] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:27.948] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[17:20:27.948] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
-[17:20:27.949] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:27.949] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) lightcol
-[17:20:27.949] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) ambientcol
-[17:20:27.953] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:20.876] |D| [display_wait]: vcount: 1
+[08:40:20.883] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:21.135] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:21.325] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.080] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.169] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.197] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.215] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.238] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.252] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.271] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
+[08:40:22.272] |D| [display_wait]: vcount: 1
+[08:40:22.290] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
+[08:40:22.885] |D| [display_wait]: vcount: 1
+[08:40:22.887] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:22.924] |D| [display_wait]: vcount: 1
+[08:40:23.365] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2HidePsStoreIcon import called.
+[08:40:23.437] |D| [display_wait]: vcount: 1
+[08:40:23.548] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:23.874] |D| [display_wait]: vcount: 1
+[08:40:23.944] |D| [display_wait]: vcount: 1
+[08:40:24.100] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.103] |D| [display_wait]: vcount: 1
+[08:40:24.158] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:24.160] |D| [display_wait]: vcount: 1
+[08:40:24.164] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.165] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.217] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.230] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.231] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.232] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.233] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.234] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.235] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.236] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.237] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.238] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.239] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.240] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.241] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.242] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.243] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.244] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.245] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.246] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.247] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.248] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.249] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.250] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.251] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.252] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.253] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.254] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.255] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.256] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.257] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.260] |D| [display_wait]: vcount: 1
+[08:40:24.263] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:24.271] |D| [display_wait]: vcount: 1
+[08:40:24.288] |D| [display_wait]: vcount: 1
+[08:40:24.305] |D| [display_wait]: vcount: 1
+[08:40:24.322] |D| [display_wait]: vcount: 1
+[08:40:24.339] |D| [display_wait]: vcount: 1
+[08:40:24.356] |D| [display_wait]: vcount: 1
+[08:40:24.373] |D| [display_wait]: vcount: 1
+[08:40:24.390] |D| [display_wait]: vcount: 1
+[08:40:24.407] |D| [display_wait]: vcount: 1
+[08:40:24.424] |D| [display_wait]: vcount: 1
+[08:40:24.441] |D| [display_wait]: vcount: 1
+[08:40:24.458] |D| [display_wait]: vcount: 1
+[08:40:24.475] |D| [display_wait]: vcount: 1
+[08:40:24.492] |D| [display_wait]: vcount: 1
+[08:40:24.509] |D| [display_wait]: vcount: 1
+[08:40:24.526] |D| [display_wait]: vcount: 1
+[08:40:24.543] |D| [display_wait]: vcount: 1
+[08:40:24.560] |D| [display_wait]: vcount: 1
+[08:40:24.577] |D| [display_wait]: vcount: 1
+[08:40:24.594] |D| [display_wait]: vcount: 1
+[08:40:24.611] |D| [display_wait]: vcount: 1
+[08:40:24.628] |D| [display_wait]: vcount: 1
+[08:40:24.645] |D| [display_wait]: vcount: 1
+[08:40:24.662] |D| [display_wait]: vcount: 1
+[08:40:24.679] |D| [display_wait]: vcount: 1
+[08:40:24.696] |D| [display_wait]: vcount: 1
+[08:40:24.713] |D| [display_wait]: vcount: 1
+[08:40:24.730] |D| [display_wait]: vcount: 1
+[08:40:24.747] |D| [display_wait]: vcount: 1
+[08:40:24.764] |D| [display_wait]: vcount: 1
+[08:40:24.781] |D| [display_wait]: vcount: 1
+[08:40:24.798] |D| [display_wait]: vcount: 1
+[08:40:24.815] |D| [display_wait]: vcount: 1
+[08:40:24.832] |D| [display_wait]: vcount: 1
+[08:40:24.849] |D| [display_wait]: vcount: 1
+[08:40:24.866] |D| [display_wait]: vcount: 1
+[08:40:24.883] |D| [display_wait]: vcount: 1
+[08:40:24.900] |D| [display_wait]: vcount: 1
+[08:40:24.917] |D| [display_wait]: vcount: 1
+[08:40:24.934] |D| [display_wait]: vcount: 1
+[08:40:24.951] |D| [display_wait]: vcount: 1
+[08:40:24.968] |D| [display_wait]: vcount: 1
+[08:40:24.986] |D| [display_wait]: vcount: 1
+[08:40:25.002] |D| [display_wait]: vcount: 1
+[08:40:25.019] |D| [display_wait]: vcount: 1
+[08:40:25.035] |D| [display_wait]: vcount: 1
+[08:40:25.052] |D| [display_wait]: vcount: 1
+[08:40:25.069] |D| [display_wait]: vcount: 1
+[08:40:25.086] |D| [display_wait]: vcount: 1
+[08:40:25.103] |D| [display_wait]: vcount: 1
+[08:40:25.120] |D| [display_wait]: vcount: 1
+[08:40:25.137] |D| [display_wait]: vcount: 1
+[08:40:25.154] |D| [display_wait]: vcount: 1
+[08:40:25.171] |D| [display_wait]: vcount: 1
+[08:40:25.188] |D| [display_wait]: vcount: 1
+[08:40:25.205] |D| [display_wait]: vcount: 1
+[08:40:25.222] |D| [display_wait]: vcount: 1
+[08:40:25.239] |D| [display_wait]: vcount: 1
+[08:40:25.256] |D| [display_wait]: vcount: 1
+[08:40:25.273] |D| [display_wait]: vcount: 1
+[08:40:25.290] |D| [display_wait]: vcount: 1
+[08:40:25.307] |D| [display_wait]: vcount: 1
+[08:40:25.324] |D| [display_wait]: vcount: 1
+[08:40:25.341] |D| [display_wait]: vcount: 1
+[08:40:25.358] |D| [display_wait]: vcount: 1
+[08:40:25.375] |D| [display_wait]: vcount: 1
+[08:40:25.392] |D| [display_wait]: vcount: 1
+[08:40:25.409] |D| [display_wait]: vcount: 1
+[08:40:25.427] |D| [display_wait]: vcount: 1
+[08:40:25.443] |D| [display_wait]: vcount: 1
+[08:40:25.460] |D| [display_wait]: vcount: 1
+[08:40:25.477] |D| [display_wait]: vcount: 1
+[08:40:25.494] |D| [display_wait]: vcount: 1
+[08:40:25.511] |D| [display_wait]: vcount: 1
+[08:40:25.528] |D| [display_wait]: vcount: 1
+[08:40:25.545] |D| [display_wait]: vcount: 1
+[08:40:25.562] |D| [display_wait]: vcount: 1
+[08:40:25.579] |D| [display_wait]: vcount: 1
+[08:40:25.596] |D| [display_wait]: vcount: 1
+[08:40:25.613] |D| [display_wait]: vcount: 1
+[08:40:25.630] |D| [display_wait]: vcount: 1
+[08:40:25.647] |D| [display_wait]: vcount: 1
+[08:40:25.664] |D| [display_wait]: vcount: 1
+[08:40:25.681] |D| [display_wait]: vcount: 1
+[08:40:25.698] |D| [display_wait]: vcount: 1
+[08:40:25.715] |D| [display_wait]: vcount: 1
+[08:40:25.733] |D| [display_wait]: vcount: 1
+[08:40:25.750] |D| [display_wait]: vcount: 1
+[08:40:25.766] |D| [display_wait]: vcount: 1
+[08:40:25.783] |D| [display_wait]: vcount: 1
+[08:40:25.800] |D| [display_wait]: vcount: 1
+[08:40:25.817] |D| [display_wait]: vcount: 1
+[08:40:25.834] |D| [display_wait]: vcount: 1
+[08:40:25.851] |D| [display_wait]: vcount: 1
+[08:40:25.868] |D| [display_wait]: vcount: 1
+[08:40:25.885] |D| [display_wait]: vcount: 1
+[08:40:25.902] |D| [display_wait]: vcount: 1
+[08:40:25.919] |D| [display_wait]: vcount: 1
+[08:40:25.936] |D| [display_wait]: vcount: 1
+[08:40:25.953] |D| [display_wait]: vcount: 1
+[08:40:25.970] |D| [display_wait]: vcount: 1
+[08:40:25.987] |D| [display_wait]: vcount: 1
+[08:40:26.004] |D| [display_wait]: vcount: 1
+[08:40:26.021] |D| [display_wait]: vcount: 1
+[08:40:26.038] |D| [display_wait]: vcount: 1
+[08:40:26.055] |D| [display_wait]: vcount: 1
+[08:40:26.072] |D| [display_wait]: vcount: 1
+[08:40:26.089] |D| [display_wait]: vcount: 1
+[08:40:26.106] |D| [display_wait]: vcount: 1
+[08:40:26.123] |D| [display_wait]: vcount: 1
+[08:40:26.140] |D| [display_wait]: vcount: 1
+[08:40:26.157] |D| [display_wait]: vcount: 1
+[08:40:26.174] |D| [display_wait]: vcount: 1
+[08:40:26.191] |D| [display_wait]: vcount: 1
+[08:40:26.208] |D| [display_wait]: vcount: 1
+[08:40:26.225] |D| [display_wait]: vcount: 1
+[08:40:26.242] |D| [display_wait]: vcount: 1
+[08:40:26.259] |D| [display_wait]: vcount: 1
+[08:40:26.276] |D| [display_wait]: vcount: 1
+[08:40:26.293] |D| [display_wait]: vcount: 1
+[08:40:26.310] |D| [display_wait]: vcount: 1
+[08:40:26.327] |D| [display_wait]: vcount: 1
+[08:40:26.344] |D| [display_wait]: vcount: 1
+[08:40:26.361] |D| [display_wait]: vcount: 1
+[08:40:26.378] |D| [display_wait]: vcount: 1
+[08:40:26.395] |D| [display_wait]: vcount: 1
+[08:40:26.412] |D| [display_wait]: vcount: 1
+[08:40:26.429] |D| [display_wait]: vcount: 1
+[08:40:26.447] |D| [display_wait]: vcount: 1
+[08:40:26.463] |D| [display_wait]: vcount: 1
+[08:40:26.481] |D| [display_wait]: vcount: 1
+[08:40:26.497] |D| [display_wait]: vcount: 1
+[08:40:26.514] |D| [display_wait]: vcount: 1
+[08:40:26.531] |D| [display_wait]: vcount: 1
+[08:40:26.548] |D| [display_wait]: vcount: 1
+[08:40:26.565] |D| [display_wait]: vcount: 1
+[08:40:26.582] |D| [display_wait]: vcount: 1
+[08:40:26.583] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
+[08:40:26.599] |D| [display_wait]: vcount: 1
+[08:40:26.600] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.616] |D| [display_wait]: vcount: 1
+[08:40:26.633] |D| [display_wait]: vcount: 1
+[08:40:26.650] |D| [display_wait]: vcount: 1
+[08:40:26.652] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.667] |D| [display_wait]: vcount: 1
+[08:40:26.680] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.684] |D| [display_wait]: vcount: 1
+[08:40:26.686] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.692] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.720] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.723] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.815] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.817] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.819] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.822] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.862] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.907] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.910] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.939] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.941] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.942] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.950] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:26.953] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.126] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.128] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.340] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.367] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.451] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.454] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.461] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.469] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.473] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.476] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.479] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.489] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.492] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.507] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.509] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.537] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.538] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.539] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.772] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.782] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.790] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.791] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:27.792] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.793] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.795] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.797] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.798] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.800] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.802] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.803] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.804] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetParamsBlock import called.
+[08:40:27.804] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:27.805] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.806] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.807] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.809] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.817] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:27.817] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:27.817] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:27.817] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:27.818] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:27.818] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:27.818] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:27.818] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:27.818] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:27.818] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:27.819] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.841] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.851] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.863] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.881] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.894] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.899] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.905] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.910] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.916] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.936] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.938] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.944] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.950] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.958] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.972] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.987] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:27.997] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.003] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.016] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.020] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.022] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.024] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.040] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.048] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.052] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.058] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.063] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.064] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.070] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.075] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.082] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.088] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.092] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.102] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.104] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.108] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.114] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.117] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.118] |D| [display_wait]: vcount: 1
+[08:40:28.132] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.141] |D| [display_wait]: vcount: 1
+[08:40:28.147] |D| [display_wait]: vcount: 1
+[08:40:28.152] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.160] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.163] |D| [display_wait]: vcount: 1
+[08:40:28.164] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[08:40:28.180] |D| [display_wait]: vcount: 1
+[08:40:28.197] |D| [display_wait]: vcount: 1
+[08:40:28.214] |D| [display_wait]: vcount: 1
+[08:40:28.231] |D| [display_wait]: vcount: 1
+[08:40:28.248] |D| [display_wait]: vcount: 1
+[08:40:28.265] |D| [display_wait]: vcount: 1
+[08:40:28.282] |D| [display_wait]: vcount: 1
+[08:40:28.299] |D| [display_wait]: vcount: 1
+[08:40:28.316] |D| [display_wait]: vcount: 1
+[08:40:28.333] |D| [display_wait]: vcount: 1
+[08:40:28.350] |D| [display_wait]: vcount: 1
+[08:40:28.367] |D| [display_wait]: vcount: 1
+[08:40:28.384] |D| [display_wait]: vcount: 1
+[08:40:28.401] |D| [display_wait]: vcount: 1
+[08:40:28.418] |D| [display_wait]: vcount: 1
+[08:40:28.435] |D| [display_wait]: vcount: 1
+[08:40:28.452] |D| [display_wait]: vcount: 1
+[08:40:28.469] |D| [display_wait]: vcount: 1
+[08:40:28.487] |D| [display_wait]: vcount: 1
+[08:40:28.503] |D| [display_wait]: vcount: 1
+[08:40:28.520] |D| [display_wait]: vcount: 1
+[08:40:28.537] |D| [display_wait]: vcount: 1
+[08:40:28.554] |D| [display_wait]: vcount: 1
+[08:40:28.571] |D| [display_wait]: vcount: 1
+[08:40:28.588] |D| [display_wait]: vcount: 1
+[08:40:28.605] |D| [display_wait]: vcount: 1
+[08:40:28.622] |D| [display_wait]: vcount: 1
+[08:40:28.639] |D| [display_wait]: vcount: 1
+[08:40:28.656] |D| [display_wait]: vcount: 1
+[08:40:28.673] |D| [display_wait]: vcount: 1
+[08:40:28.690] |D| [display_wait]: vcount: 1
+[08:40:28.707] |D| [display_wait]: vcount: 1
+[08:40:28.724] |D| [display_wait]: vcount: 1
+[08:40:28.741] |D| [display_wait]: vcount: 1
+[08:40:28.758] |D| [display_wait]: vcount: 1
+[08:40:28.775] |D| [display_wait]: vcount: 1
+[08:40:28.793] |D| [display_wait]: vcount: 1
+[08:40:28.809] |D| [display_wait]: vcount: 1
+[08:40:28.826] |D| [display_wait]: vcount: 1
+[08:40:28.842] |D| [display_wait]: vcount: 1
+[08:40:28.859] |D| [display_wait]: vcount: 1
+[08:40:28.877] |D| [display_wait]: vcount: 1
+[08:40:28.893] |D| [display_wait]: vcount: 1
+[08:40:28.910] |D| [display_wait]: vcount: 1
+[08:40:28.927] |D| [display_wait]: vcount: 1
+[08:40:28.944] |D| [display_wait]: vcount: 1
+[08:40:28.961] |D| [display_wait]: vcount: 1
+[08:40:28.978] |D| [display_wait]: vcount: 1
+[08:40:29.001] |I| [export_sceIoOpen]: Opening file: app0:/Audio/Music/home.at9
+[08:40:29.047] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.055] |I| [export_sceIoOpen]: Opening file: app0:/Audio/Music/home.at9
+[08:40:29.055] |I| [renderer::gl::load_shader_generic]: Generating frag shader 585e122b64b471830d6eefda15505bae5fef17fa9bae55cbba908434be8645fa
+[08:40:29.056] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.059] |I| [renderer::gl::load_shader_generic]: Generating vert shader 01e36e6a3bd7fa104316fbd566b1fb51934e91b3ecdb2e8de5d1455aeb781f8c
+[08:40:29.060] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.060] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:40:29.060] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
+[08:40:29.060] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.060] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) lightcol
+[08:40:29.061] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) ambientcol
+[08:40:29.081] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -438,21 +645,21 @@ Fragment info
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:27.957] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:27.958] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:27.961] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:27.963] |I| [renderer::gl::load_shader_generic]: Generating frag shader f3372a7bba3c6428d218931446db879f1b5ce4397c1210ec609276ed961224f4
-[17:20:27.964] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:27.966] |I| [renderer::gl::load_shader_generic]: Generating vert shader e66948522565c9fe140cec451d51caf95743bb604b497d8902212693af788352
-[17:20:27.967] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:27.967] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
-[17:20:27.967] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
-[17:20:27.970] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:27.971] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) lightcol
-[17:20:27.971] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) ambientcol
-[17:20:27.972] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:27.975] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:27.976] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.082] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.084] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.087] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.089] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:29.089] |I| [renderer::gl::load_shader_generic]: Generating frag shader f3372a7bba3c6428d218931446db879f1b5ce4397c1210ec609276ed961224f4
+[08:40:29.090] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.091] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:29.093] |I| [renderer::gl::load_shader_generic]: Generating vert shader e66948522565c9fe140cec451d51caf95743bb604b497d8902212693af788352
+[08:40:29.094] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.094] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
+[08:40:29.094] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
+[08:40:29.094] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.095] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) lightcol
+[08:40:29.095] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) ambientcol
+[08:40:29.111] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -461,34 +668,34 @@ Fragment info
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:27.977] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:27.977] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:27.977] |I| [renderer::gl::load_shader_generic]: Generating frag shader fe6117108d7242d59c4bdb64d1bad96289fd09a8c3bffb9107cee876e9c2dd45
-[17:20:27.978] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:27.981] |I| [renderer::gl::load_shader_generic]: Generating vert shader ce71532116306183759e8b596f9ecc17853f42f7a5df6f6502daaaa12519d19e
-[17:20:27.982] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) positionalpha
-[17:20:27.982] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
-[17:20:27.982] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) positionalpha1
-[17:20:27.982] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord1
-[17:20:27.982] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) positionalpha2
-[17:20:27.982] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) texcoord2
-[17:20:27.982] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) positionalpha3
-[17:20:27.983] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) texcoord3
-[17:20:27.983] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:27.983] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) blend
-[17:20:27.983] |D| [shader::create_parameters]: [DEFAULT  + 17] sa17 = (float1) blend2
-[17:20:27.983] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float1) blend3
-[17:20:27.983] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) lightcol
-[17:20:27.983] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float3) ambientcol
-[17:20:27.983] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float3) scale3d
-[17:20:27.987] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) scale3d1
-[17:20:27.987] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) scale3d2
-[17:20:27.987] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float3) scale3d3
-[17:20:27.987] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float3) bias3d
-[17:20:27.988] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float3) bias3d1
-[17:20:27.988] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float3) bias3d2
-[17:20:27.988] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float3) bias3d3
-[17:20:27.996] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.112] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.112] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.113] |I| [renderer::gl::load_shader_generic]: Generating frag shader fe6117108d7242d59c4bdb64d1bad96289fd09a8c3bffb9107cee876e9c2dd45
+[08:40:29.114] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.117] |I| [renderer::gl::load_shader_generic]: Generating vert shader ce71532116306183759e8b596f9ecc17853f42f7a5df6f6502daaaa12519d19e
+[08:40:29.118] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) positionalpha
+[08:40:29.118] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
+[08:40:29.118] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) positionalpha1
+[08:40:29.118] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord1
+[08:40:29.118] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) positionalpha2
+[08:40:29.118] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) texcoord2
+[08:40:29.118] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) positionalpha3
+[08:40:29.119] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) texcoord3
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) blend
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 17] sa17 = (float1) blend2
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float1) blend3
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) lightcol
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float3) ambientcol
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float3) scale3d
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) scale3d1
+[08:40:29.119] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) scale3d2
+[08:40:29.120] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float3) scale3d3
+[08:40:29.120] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float3) bias3d
+[08:40:29.120] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float3) bias3d1
+[08:40:29.120] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float3) bias3d2
+[08:40:29.120] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float3) bias3d3
+[08:40:29.145] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(30) : warning C7050: "internals[1].zw" might be used before being initialized
 0(30) : warning C7050: "internals[2].w" might be used before being initialized
@@ -498,24 +705,24 @@ Fragment info
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:27.996] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:27.999] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.001] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.007] |D| [renderer::gl::texture::translate_swizzle]: base format: 318767104, swizzle: 0
-[17:20:28.007] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 768, height: 768
-[17:20:28.011] |I| [renderer::gl::load_shader_generic]: Generating frag shader 81fd7717b1db95dc78783c2a407237d006b30b01589b5a2dc3a16dc727e505d1
-[17:20:28.012] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:28.012] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[17:20:28.012] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord1
-[17:20:28.017] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9ffeb7edac373cafe2faa672c99d1740688f702a8b101d2cb1beb638e1054509
-[17:20:28.020] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:28.020] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
-[17:20:28.020] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
-[17:20:28.020] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:28.020] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) shadowviewproj[4]
-[17:20:28.020] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) lightcol
-[17:20:28.021] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) ambientcol
-[17:20:28.026] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.145] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.148] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.151] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.154] |D| [renderer::gl::texture::translate_swizzle]: base format: 318767104, swizzle: 0
+[08:40:29.155] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 768, height: 768
+[08:40:29.158] |I| [renderer::gl::load_shader_generic]: Generating frag shader 81fd7717b1db95dc78783c2a407237d006b30b01589b5a2dc3a16dc727e505d1
+[08:40:29.159] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.159] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[08:40:29.159] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord1
+[08:40:29.164] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9ffeb7edac373cafe2faa672c99d1740688f702a8b101d2cb1beb638e1054509
+[08:40:29.165] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.165] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
+[08:40:29.165] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
+[08:40:29.165] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.165] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) shadowviewproj[4]
+[08:40:29.166] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) lightcol
+[08:40:29.166] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) ambientcol
+[08:40:29.189] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -528,31 +735,31 @@ Fragment info
 0(24) : warning C7050: "r[1].xy" might be used before being initialized
 
 
-[17:20:28.028] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.037] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.040] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.043] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.046] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.049] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.053] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.056] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.058] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.061] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.070] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.072] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.076] |I| [renderer::gl::load_shader_generic]: Generating frag shader e05884267aca246c63566c34a374a072ff05d0cfd0df0887c97ce69c04e6ef35
-[17:20:28.078] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:28.078] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[17:20:28.078] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord1
-[17:20:28.084] |I| [renderer::gl::load_shader_generic]: Generating vert shader 4657329b4c9301b6b8bd7f2cfe18538da48eb19e44b653032bf2f5fad84f1fc1
-[17:20:28.085] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:28.085] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
-[17:20:28.086] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
-[17:20:28.086] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:28.086] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) shadowviewproj[4]
-[17:20:28.086] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) lightcol
-[17:20:28.086] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) ambientcol
-[17:20:28.091] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.190] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.200] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.203] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.208] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.211] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.214] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.217] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.219] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.222] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.231] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.234] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.238] |I| [renderer::gl::load_shader_generic]: Generating frag shader e05884267aca246c63566c34a374a072ff05d0cfd0df0887c97ce69c04e6ef35
+[08:40:29.239] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.239] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[08:40:29.239] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord1
+[08:40:29.243] |I| [renderer::gl::load_shader_generic]: Generating vert shader 4657329b4c9301b6b8bd7f2cfe18538da48eb19e44b653032bf2f5fad84f1fc1
+[08:40:29.244] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.244] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
+[08:40:29.244] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
+[08:40:29.244] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.244] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) shadowviewproj[4]
+[08:40:29.244] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) lightcol
+[08:40:29.244] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) ambientcol
+[08:40:29.262] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -565,25 +772,25 @@ Fragment info
 0(24) : warning C7050: "r[1].xy" might be used before being initialized
 
 
-[17:20:28.094] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.097] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.103] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.113] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.116] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.118] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.159] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.160] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.161] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.166] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.172] |I| [renderer::gl::load_shader_generic]: Generating frag shader a6dd6de85725007af13746223cb2bd94878f337b769e6e8c6a90366ace23d15f
-[17:20:28.181] |I| [renderer::gl::load_shader_generic]: Generating vert shader d1ba304e3eced2f42dfeea1bc3e4f9d8fc181545262f61ee6bf7cc5ee392f333
-[17:20:28.182] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:28.182] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord0
-[17:20:28.182] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord1
-[17:20:28.182] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord2
-[17:20:28.183] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) texcoord3
-[17:20:28.183] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:28.189] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.264] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.266] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.280] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.282] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.284] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.324] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.325] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.326] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.331] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.336] |I| [renderer::gl::load_shader_generic]: Generating frag shader a6dd6de85725007af13746223cb2bd94878f337b769e6e8c6a90366ace23d15f
+[08:40:29.342] |I| [renderer::gl::load_shader_generic]: Generating vert shader d1ba304e3eced2f42dfeea1bc3e4f9d8fc181545262f61ee6bf7cc5ee392f333
+[08:40:29.342] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.342] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord0
+[08:40:29.343] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord1
+[08:40:29.343] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord2
+[08:40:29.343] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) texcoord3
+[08:40:29.343] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.374] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(29) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -594,19 +801,19 @@ Fragment info
 0(26) : warning C7050: "r[0].zw" might be used before being initialized
 
 
-[17:20:28.196] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.208] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.209] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.212] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.212] |I| [renderer::gl::load_shader_generic]: Generating frag shader 09295743d80f544b3c1dabaaa194ea63a4bc82a476fc38f0ae5fc6741abf476c
-[17:20:28.213] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:28.215] |I| [renderer::gl::load_shader_generic]: Generating vert shader d9016e038f4680f93c5fcea786db73e73123d70355760efe19205b30924c9a79
-[17:20:28.216] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:28.217] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
-[17:20:28.217] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
-[17:20:28.217] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:28.222] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.376] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.384] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.387] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.388] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.389] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.390] |I| [renderer::gl::load_shader_generic]: Generating frag shader 09295743d80f544b3c1dabaaa194ea63a4bc82a476fc38f0ae5fc6741abf476c
+[08:40:29.391] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.394] |I| [renderer::gl::load_shader_generic]: Generating vert shader d9016e038f4680f93c5fcea786db73e73123d70355760efe19205b30924c9a79
+[08:40:29.394] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.394] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
+[08:40:29.395] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) color
+[08:40:29.395] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.408] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -615,19 +822,19 @@ Fragment info
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:28.230] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.230] |I| [renderer::gl::load_shader_generic]: Generating frag shader 0546651636afe0ca016ac36cce4fa9e97ea1f7e8fce2091c40b2f91fbbd7196c
-[17:20:28.231] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:28.234] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9642c1421eb35fa8c505f80bb350c2ec8db2032f3aa52a4c6d76ef7369f1a945
-[17:20:28.235] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:28.236] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[17:20:28.236] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
-[17:20:28.236] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float2) scaleuv
-[17:20:28.236] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) scale
-[17:20:28.237] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float2) translate
-[17:20:28.237] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float2) translateuv
-[17:20:28.237] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:28.248] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.408] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.409] |I| [renderer::gl::load_shader_generic]: Generating frag shader 0546651636afe0ca016ac36cce4fa9e97ea1f7e8fce2091c40b2f91fbbd7196c
+[08:40:29.409] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.413] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9642c1421eb35fa8c505f80bb350c2ec8db2032f3aa52a4c6d76ef7369f1a945
+[08:40:29.414] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.414] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:40:29.414] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
+[08:40:29.414] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float2) scaleuv
+[08:40:29.414] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) scale
+[08:40:29.414] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float2) translate
+[08:40:29.415] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float2) translateuv
+[08:40:29.415] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.429] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "internals[0].zw" might be used before being initialized
 
@@ -636,45 +843,45 @@ Fragment info
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:28.248] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.249] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.250] |I| [renderer::gl::load_shader_generic]: Generating frag shader c38226c48ca518983f8cad64c6ce8e3f311244acfa7a8d2753c0a0de79fde2a8
-[17:20:28.251] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) diffuse
-[17:20:28.255] |I| [renderer::gl::load_shader_generic]: Generating vert shader 0950ae52c53649e2cc2bede3b550ec91975df5f2974f49e3a2a4d9f57aeb9589
-[17:20:28.260] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) coeffB
-[17:20:28.260] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) coeffH
-[17:20:28.260] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
-[17:20:28.261] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:28.261] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) bezierX
-[17:20:28.261] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) bezierY
-[17:20:28.261] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) bezierZ
-[17:20:28.261] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float3) hodoX
-[17:20:28.262] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) hodoY
-[17:20:28.262] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) hodoZ
-[17:20:28.262] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float3) orientup
-[17:20:28.262] |D| [shader::create_parameters]: [DEFAULT  + 43] sa43 = (float1) displacement
-[17:20:28.268] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.429] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.430] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.430] |I| [renderer::gl::load_shader_generic]: Generating frag shader c38226c48ca518983f8cad64c6ce8e3f311244acfa7a8d2753c0a0de79fde2a8
+[08:40:29.431] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) diffuse
+[08:40:29.435] |I| [renderer::gl::load_shader_generic]: Generating vert shader 0950ae52c53649e2cc2bede3b550ec91975df5f2974f49e3a2a4d9f57aeb9589
+[08:40:29.435] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) coeffB
+[08:40:29.436] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) coeffH
+[08:40:29.436] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
+[08:40:29.436] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.436] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) bezierX
+[08:40:29.436] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) bezierY
+[08:40:29.436] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) bezierZ
+[08:40:29.436] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float3) hodoX
+[08:40:29.437] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) hodoY
+[08:40:29.437] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float3) hodoZ
+[08:40:29.437] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float3) orientup
+[08:40:29.437] |D| [shader::create_parameters]: [DEFAULT  + 43] sa43 = (float1) displacement
+[08:40:29.456] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(24) : warning C7050: "internals[0].w" might be used before being initialized
 0(24) : warning C7050: "internals[1]" might be used before being initialized
 0(24) : warning C7050: "internals[2]" might be used before being initialized
 
 
-[17:20:28.269] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[17:20:28.277] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.281] |I| [renderer::gl::load_shader_generic]: Generating frag shader 04e81667784b2628d4f62fe70acd9239e53ee5c2a703203ac56d301c1a4b9073
-[17:20:28.282] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) glintx
-[17:20:28.282] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:28.282] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord1
-[17:20:28.287] |I| [renderer::gl::load_shader_generic]: Generating vert shader dff4775950c5112d12e4e5d64733ac08cde05141f46fe2a5bf91f0c230293053
-[17:20:28.289] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[17:20:28.289] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[17:20:28.289] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
-[17:20:28.289] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scaleuv
-[17:20:28.289] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) scale
-[17:20:28.289] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float2) translate
-[17:20:28.290] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) translateuv
-[17:20:28.293] |E| [renderer::gl::compile_program]: Fragment info
+[08:40:29.457] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[08:40:29.460] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.464] |I| [renderer::gl::load_shader_generic]: Generating frag shader 04e81667784b2628d4f62fe70acd9239e53ee5c2a703203ac56d301c1a4b9073
+[08:40:29.465] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) glintx
+[08:40:29.466] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.466] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord1
+[08:40:29.471] |I| [renderer::gl::load_shader_generic]: Generating vert shader dff4775950c5112d12e4e5d64733ac08cde05141f46fe2a5bf91f0c230293053
+[08:40:29.472] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:40:29.472] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[08:40:29.472] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
+[08:40:29.473] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scaleuv
+[08:40:29.473] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) scale
+[08:40:29.473] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float2) translate
+[08:40:29.473] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) translateuv
+[08:40:29.496] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(24) : warning C7050: "pa[0].zw" might be used before being initialized
 0(24) : warning C7050: "pa[1]" might be used before being initialized
@@ -682,23 +889,31 @@ Fragment info
 0(27) : warning C7050: "r[0].zw" might be used before being initialized
 
 
-[17:20:28.297] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.432] |I| [renderer::gl::load_shader_generic]: Generating frag shader 393c9c53700178e0b49eab9c23f2fa3459be51f5abc117369fd0dd3e055032e6
-[17:20:28.435] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:20:28.438] |I| [renderer::gl::load_shader_generic]: Generating vert shader 659690b79b22698ef7046149b926dc6e1bce7d790fb44022e171808b63fba218
-[17:20:28.440] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) positionalpha
-[17:20:28.440] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
-[17:20:28.440] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) positionalpha1
-[17:20:28.440] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord1
-[17:20:28.440] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
-[17:20:28.440] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) blend
-[17:20:28.441] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float3) lightcol
-[17:20:28.441] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float3) ambientcol
-[17:20:28.441] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (float3) scale3d
-[17:20:28.441] |D| [shader::create_parameters]: [DEFAULT  + 30] sa30 = (float3) scale3d1
-[17:20:28.441] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float3) bias3d
-[17:20:28.442] |D| [shader::create_parameters]: [DEFAULT  + 38] sa38 = (float3) bias3d1
-[17:20:28.453] |E| [renderer::gl::compile_program]: Vertex info
+[08:40:29.501] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:29.503] |D| [display_wait]: vcount: 1
+[08:40:29.525] |D| [display_wait]: vcount: 1
+[08:40:29.545] |D| [display_wait]: vcount: 1
+[08:40:29.565] |D| [display_wait]: vcount: 1
+[08:40:29.584] |D| [display_wait]: vcount: 1
+[08:40:29.590] |D| [display_wait]: vcount: 1
+[08:40:29.607] |D| [display_wait]: vcount: 1
+[08:40:29.608] |I| [renderer::gl::load_shader_generic]: Generating frag shader 393c9c53700178e0b49eab9c23f2fa3459be51f5abc117369fd0dd3e055032e6
+[08:40:29.609] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:40:29.613] |I| [renderer::gl::load_shader_generic]: Generating vert shader 659690b79b22698ef7046149b926dc6e1bce7d790fb44022e171808b63fba218
+[08:40:29.613] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) positionalpha
+[08:40:29.613] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) texcoord
+[08:40:29.613] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) positionalpha1
+[08:40:29.614] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) texcoord1
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) worldviewproj[4]
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) blend
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float3) lightcol
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float3) ambientcol
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (float3) scale3d
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 30] sa30 = (float3) scale3d1
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float3) bias3d
+[08:40:29.614] |D| [shader::create_parameters]: [DEFAULT  + 38] sa38 = (float3) bias3d1
+[08:40:29.624] |D| [display_wait]: vcount: 1
+[08:40:29.632] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(26) : warning C7050: "internals[1].zw" might be used before being initialized
 0(26) : warning C7050: "internals[2].w" might be used before being initialized
@@ -708,31 +923,467 @@ Fragment info
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[17:20:28.911] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:28.912] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:28.979] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:28.980] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.565] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogInit import called.
-[17:20:31.568] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
-[17:20:31.568] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetResult import called. (sceNetCheckDialogGetResult)
-[17:20:31.569] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogTerm import called.
-[17:20:31.571] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:31.571] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:31.801] |D| [export_sceNgsVoiceInit]: flags: 0
-[17:20:31.801] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:20:31.860] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.861] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.862] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.862] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.864] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.865] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:31.865] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[17:20:33.906] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
-[17:20:33.907] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
+[08:40:29.642] |D| [display_wait]: vcount: 1
+[08:40:29.658] |D| [display_wait]: vcount: 1
+[08:40:29.676] |D| [display_wait]: vcount: 1
+[08:40:29.692] |D| [display_wait]: vcount: 1
+[08:40:29.710] |D| [display_wait]: vcount: 1
+[08:40:29.727] |D| [display_wait]: vcount: 1
+[08:40:29.745] |D| [display_wait]: vcount: 1
+[08:40:29.764] |D| [display_wait]: vcount: 1
+[08:40:29.777] |D| [display_wait]: vcount: 1
+[08:40:29.794] |D| [display_wait]: vcount: 1
+[08:40:29.812] |D| [display_wait]: vcount: 1
+[08:40:29.829] |D| [display_wait]: vcount: 1
+[08:40:29.845] |D| [display_wait]: vcount: 1
+[08:40:29.862] |D| [display_wait]: vcount: 1
+[08:40:29.879] |D| [display_wait]: vcount: 1
+[08:40:29.897] |D| [display_wait]: vcount: 1
+[08:40:29.914] |D| [display_wait]: vcount: 1
+[08:40:29.930] |D| [display_wait]: vcount: 1
+[08:40:29.948] |D| [display_wait]: vcount: 1
+[08:40:29.964] |D| [display_wait]: vcount: 1
+[08:40:29.981] |D| [display_wait]: vcount: 1
+[08:40:29.998] |D| [display_wait]: vcount: 1
+[08:40:30.015] |D| [display_wait]: vcount: 1
+[08:40:30.027] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:30.027] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:30.033] |D| [display_wait]: vcount: 1
+[08:40:30.050] |D| [display_wait]: vcount: 1
+[08:40:30.069] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:30.069] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:30.070] |D| [display_wait]: vcount: 1
+[08:40:30.085] |D| [display_wait]: vcount: 1
+[08:40:30.101] |D| [display_wait]: vcount: 1
+[08:40:30.118] |D| [display_wait]: vcount: 1
+[08:40:30.134] |D| [display_wait]: vcount: 1
+[08:40:30.152] |D| [display_wait]: vcount: 1
+[08:40:30.168] |D| [display_wait]: vcount: 1
+[08:40:30.185] |D| [display_wait]: vcount: 1
+[08:40:30.202] |D| [display_wait]: vcount: 1
+[08:40:30.219] |D| [display_wait]: vcount: 1
+[08:40:30.236] |D| [display_wait]: vcount: 1
+[08:40:30.254] |D| [display_wait]: vcount: 1
+[08:40:30.271] |D| [display_wait]: vcount: 1
+[08:40:30.287] |D| [display_wait]: vcount: 1
+[08:40:30.304] |D| [display_wait]: vcount: 1
+[08:40:30.321] |D| [display_wait]: vcount: 1
+[08:40:30.338] |D| [display_wait]: vcount: 1
+[08:40:30.355] |D| [display_wait]: vcount: 1
+[08:40:30.372] |D| [display_wait]: vcount: 1
+[08:40:30.389] |D| [display_wait]: vcount: 1
+[08:40:30.407] |D| [display_wait]: vcount: 1
+[08:40:30.423] |D| [display_wait]: vcount: 1
+[08:40:30.440] |D| [display_wait]: vcount: 1
+[08:40:30.457] |D| [display_wait]: vcount: 1
+[08:40:30.475] |D| [display_wait]: vcount: 1
+[08:40:30.491] |D| [display_wait]: vcount: 1
+[08:40:30.509] |D| [display_wait]: vcount: 1
+[08:40:30.525] |D| [display_wait]: vcount: 1
+[08:40:30.542] |D| [display_wait]: vcount: 1
+[08:40:30.560] |D| [display_wait]: vcount: 1
+[08:40:30.577] |D| [display_wait]: vcount: 1
+[08:40:30.594] |D| [display_wait]: vcount: 1
+[08:40:30.610] |D| [display_wait]: vcount: 1
+[08:40:30.627] |D| [display_wait]: vcount: 1
+[08:40:30.644] |D| [display_wait]: vcount: 1
+[08:40:30.662] |D| [display_wait]: vcount: 1
+[08:40:30.679] |D| [display_wait]: vcount: 1
+[08:40:30.695] |D| [display_wait]: vcount: 1
+[08:40:30.713] |D| [display_wait]: vcount: 1
+[08:40:30.730] |D| [display_wait]: vcount: 1
+[08:40:30.747] |D| [display_wait]: vcount: 1
+[08:40:30.764] |D| [display_wait]: vcount: 1
+[08:40:30.781] |D| [display_wait]: vcount: 1
+[08:40:30.797] |D| [display_wait]: vcount: 1
+[08:40:30.815] |D| [display_wait]: vcount: 1
+[08:40:30.831] |D| [display_wait]: vcount: 1
+[08:40:30.848] |D| [display_wait]: vcount: 1
+[08:40:30.865] |D| [display_wait]: vcount: 1
+[08:40:30.883] |D| [display_wait]: vcount: 1
+[08:40:30.900] |D| [display_wait]: vcount: 1
+[08:40:30.917] |D| [display_wait]: vcount: 1
+[08:40:30.933] |D| [display_wait]: vcount: 1
+[08:40:30.951] |D| [display_wait]: vcount: 1
+[08:40:30.967] |D| [display_wait]: vcount: 1
+[08:40:30.985] |D| [display_wait]: vcount: 1
+[08:40:31.002] |D| [display_wait]: vcount: 1
+[08:40:31.018] |D| [display_wait]: vcount: 1
+[08:40:31.036] |D| [display_wait]: vcount: 1
+[08:40:31.052] |D| [display_wait]: vcount: 1
+[08:40:31.069] |D| [display_wait]: vcount: 1
+[08:40:31.087] |D| [display_wait]: vcount: 1
+[08:40:31.103] |D| [display_wait]: vcount: 1
+[08:40:31.121] |D| [display_wait]: vcount: 1
+[08:40:31.137] |D| [display_wait]: vcount: 1
+[08:40:31.155] |D| [display_wait]: vcount: 1
+[08:40:31.172] |D| [display_wait]: vcount: 1
+[08:40:31.188] |D| [display_wait]: vcount: 1
+[08:40:31.205] |D| [display_wait]: vcount: 1
+[08:40:31.222] |D| [display_wait]: vcount: 1
+[08:40:31.239] |D| [display_wait]: vcount: 1
+[08:40:31.257] |D| [display_wait]: vcount: 1
+[08:40:31.274] |D| [display_wait]: vcount: 1
+[08:40:31.291] |D| [display_wait]: vcount: 1
+[08:40:31.307] |D| [display_wait]: vcount: 1
+[08:40:31.324] |D| [display_wait]: vcount: 1
+[08:40:31.341] |D| [display_wait]: vcount: 1
+[08:40:31.358] |D| [display_wait]: vcount: 1
+[08:40:31.375] |D| [display_wait]: vcount: 1
+[08:40:31.393] |D| [display_wait]: vcount: 1
+[08:40:31.409] |D| [display_wait]: vcount: 1
+[08:40:31.427] |D| [display_wait]: vcount: 1
+[08:40:31.444] |D| [display_wait]: vcount: 1
+[08:40:31.460] |D| [display_wait]: vcount: 1
+[08:40:31.478] |D| [display_wait]: vcount: 1
+[08:40:31.495] |D| [display_wait]: vcount: 1
+[08:40:31.511] |D| [display_wait]: vcount: 1
+[08:40:31.529] |D| [display_wait]: vcount: 1
+[08:40:31.545] |D| [display_wait]: vcount: 1
+[08:40:31.562] |D| [display_wait]: vcount: 1
+[08:40:31.579] |D| [display_wait]: vcount: 1
+[08:40:31.597] |D| [display_wait]: vcount: 1
+[08:40:31.614] |D| [display_wait]: vcount: 1
+[08:40:31.630] |D| [display_wait]: vcount: 1
+[08:40:31.648] |D| [display_wait]: vcount: 1
+[08:40:31.665] |D| [display_wait]: vcount: 1
+[08:40:31.682] |D| [display_wait]: vcount: 1
+[08:40:31.698] |D| [display_wait]: vcount: 1
+[08:40:31.715] |D| [display_wait]: vcount: 1
+[08:40:31.733] |D| [display_wait]: vcount: 1
+[08:40:31.750] |D| [display_wait]: vcount: 1
+[08:40:31.767] |D| [display_wait]: vcount: 1
+[08:40:31.784] |D| [display_wait]: vcount: 1
+[08:40:31.800] |D| [display_wait]: vcount: 1
+[08:40:31.818] |D| [display_wait]: vcount: 1
+[08:40:31.835] |D| [display_wait]: vcount: 1
+[08:40:31.851] |D| [display_wait]: vcount: 1
+[08:40:31.868] |D| [display_wait]: vcount: 1
+[08:40:31.886] |D| [display_wait]: vcount: 1
+[08:40:31.902] |D| [display_wait]: vcount: 1
+[08:40:31.919] |D| [display_wait]: vcount: 1
+[08:40:31.936] |D| [display_wait]: vcount: 1
+[08:40:31.954] |D| [display_wait]: vcount: 1
+[08:40:31.970] |D| [display_wait]: vcount: 1
+[08:40:31.987] |D| [display_wait]: vcount: 1
+[08:40:32.005] |D| [display_wait]: vcount: 1
+[08:40:32.021] |D| [display_wait]: vcount: 1
+[08:40:32.038] |D| [display_wait]: vcount: 1
+[08:40:32.056] |D| [display_wait]: vcount: 1
+[08:40:32.073] |D| [display_wait]: vcount: 1
+[08:40:32.089] |D| [display_wait]: vcount: 1
+[08:40:32.107] |D| [display_wait]: vcount: 1
+[08:40:32.123] |D| [display_wait]: vcount: 1
+[08:40:32.140] |D| [display_wait]: vcount: 1
+[08:40:32.158] |D| [display_wait]: vcount: 1
+[08:40:32.174] |D| [display_wait]: vcount: 1
+[08:40:32.192] |D| [display_wait]: vcount: 1
+[08:40:32.208] |D| [display_wait]: vcount: 1
+[08:40:32.225] |D| [display_wait]: vcount: 1
+[08:40:32.243] |D| [display_wait]: vcount: 1
+[08:40:32.260] |D| [display_wait]: vcount: 1
+[08:40:32.276] |D| [display_wait]: vcount: 1
+[08:40:32.293] |D| [display_wait]: vcount: 1
+[08:40:32.310] |D| [display_wait]: vcount: 1
+[08:40:32.328] |D| [display_wait]: vcount: 1
+[08:40:32.344] |D| [display_wait]: vcount: 1
+[08:40:32.362] |D| [display_wait]: vcount: 1
+[08:40:32.379] |D| [display_wait]: vcount: 1
+[08:40:32.395] |D| [display_wait]: vcount: 1
+[08:40:32.412] |D| [display_wait]: vcount: 1
+[08:40:32.430] |D| [display_wait]: vcount: 1
+[08:40:32.447] |D| [display_wait]: vcount: 1
+[08:40:32.464] |D| [display_wait]: vcount: 1
+[08:40:32.480] |D| [display_wait]: vcount: 1
+[08:40:32.498] |D| [display_wait]: vcount: 1
+[08:40:32.515] |D| [display_wait]: vcount: 1
+[08:40:32.531] |D| [display_wait]: vcount: 1
+[08:40:32.548] |D| [display_wait]: vcount: 1
+[08:40:32.566] |D| [display_wait]: vcount: 1
+[08:40:32.582] |D| [display_wait]: vcount: 1
+[08:40:32.600] |D| [display_wait]: vcount: 1
+[08:40:32.616] |D| [display_wait]: vcount: 1
+[08:40:32.633] |D| [display_wait]: vcount: 1
+[08:40:32.650] |D| [display_wait]: vcount: 1
+[08:40:32.667] |D| [display_wait]: vcount: 1
+[08:40:32.684] |D| [display_wait]: vcount: 1
+[08:40:32.702] |D| [display_wait]: vcount: 1
+[08:40:32.718] |D| [display_wait]: vcount: 1
+[08:40:32.719] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogInit import called.
+[08:40:32.722] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
+[08:40:32.723] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetResult import called. (sceNetCheckDialogGetResult)
+[08:40:32.723] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogTerm import called.
+[08:40:32.726] |D| [export_sceNgsVoiceInit]: flags: 0
+[08:40:32.727] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[08:40:32.736] |D| [display_wait]: vcount: 1
+[08:40:32.752] |D| [display_wait]: vcount: 1
+[08:40:32.769] |D| [display_wait]: vcount: 1
+[08:40:32.786] |D| [display_wait]: vcount: 1
+[08:40:32.804] |D| [display_wait]: vcount: 1
+[08:40:32.821] |D| [display_wait]: vcount: 1
+[08:40:32.837] |D| [display_wait]: vcount: 1
+[08:40:32.854] |D| [display_wait]: vcount: 1
+[08:40:32.872] |D| [display_wait]: vcount: 1
+[08:40:32.888] |D| [display_wait]: vcount: 1
+[08:40:32.906] |D| [display_wait]: vcount: 1
+[08:40:32.922] |D| [display_wait]: vcount: 1
+[08:40:32.939] |D| [display_wait]: vcount: 1
+[08:40:32.957] |D| [display_wait]: vcount: 1
+[08:40:32.957] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:32.957] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[08:40:32.973] |D| [display_wait]: vcount: 1
+[08:40:32.990] |D| [display_wait]: vcount: 1
+[08:40:33.007] |D| [display_wait]: vcount: 1
+[08:40:33.025] |D| [display_wait]: vcount: 1
+[08:40:33.042] |D| [display_wait]: vcount: 1
+[08:40:33.058] |D| [display_wait]: vcount: 1
+[08:40:33.075] |D| [display_wait]: vcount: 1
+[08:40:33.092] |D| [display_wait]: vcount: 1
+[08:40:33.109] |D| [display_wait]: vcount: 1
+[08:40:33.127] |D| [display_wait]: vcount: 1
+[08:40:33.144] |D| [display_wait]: vcount: 1
+[08:40:33.161] |D| [display_wait]: vcount: 1
+[08:40:33.178] |D| [display_wait]: vcount: 1
+[08:40:33.194] |D| [display_wait]: vcount: 1
+[08:40:33.212] |D| [display_wait]: vcount: 1
+[08:40:33.228] |D| [display_wait]: vcount: 1
+[08:40:33.246] |D| [display_wait]: vcount: 1
+[08:40:33.263] |D| [display_wait]: vcount: 1
+[08:40:33.279] |D| [display_wait]: vcount: 1
+[08:40:33.297] |D| [display_wait]: vcount: 1
+[08:40:33.313] |D| [display_wait]: vcount: 1
+[08:40:33.330] |D| [display_wait]: vcount: 1
+[08:40:33.348] |D| [display_wait]: vcount: 1
+[08:40:33.365] |D| [display_wait]: vcount: 1
+[08:40:33.382] |D| [display_wait]: vcount: 1
+[08:40:33.399] |D| [display_wait]: vcount: 1
+[08:40:33.416] |D| [display_wait]: vcount: 1
+[08:40:33.433] |D| [display_wait]: vcount: 1
+[08:40:33.449] |D| [display_wait]: vcount: 1
+[08:40:33.467] |D| [display_wait]: vcount: 1
+[08:40:33.484] |D| [display_wait]: vcount: 1
+[08:40:33.500] |D| [display_wait]: vcount: 1
+[08:40:33.517] |D| [display_wait]: vcount: 1
+[08:40:33.534] |D| [display_wait]: vcount: 1
+[08:40:33.551] |D| [display_wait]: vcount: 1
+[08:40:33.569] |D| [display_wait]: vcount: 1
+[08:40:33.585] |D| [display_wait]: vcount: 1
+[08:40:33.603] |D| [display_wait]: vcount: 1
+[08:40:33.620] |D| [display_wait]: vcount: 1
+[08:40:33.637] |D| [display_wait]: vcount: 1
+[08:40:33.654] |D| [display_wait]: vcount: 1
+[08:40:33.671] |D| [display_wait]: vcount: 1
+[08:40:33.688] |D| [display_wait]: vcount: 1
+[08:40:33.705] |D| [display_wait]: vcount: 1
+[08:40:33.722] |D| [display_wait]: vcount: 1
+[08:40:33.739] |D| [display_wait]: vcount: 1
+[08:40:33.756] |D| [display_wait]: vcount: 1
+[08:40:33.772] |D| [display_wait]: vcount: 1
+[08:40:33.789] |D| [display_wait]: vcount: 1
+[08:40:33.807] |D| [display_wait]: vcount: 1
+[08:40:33.823] |D| [display_wait]: vcount: 1
+[08:40:33.841] |D| [display_wait]: vcount: 1
+[08:40:33.857] |D| [display_wait]: vcount: 1
+[08:40:33.875] |D| [display_wait]: vcount: 1
+[08:40:33.891] |D| [display_wait]: vcount: 1
+[08:40:33.908] |D| [display_wait]: vcount: 1
+[08:40:33.926] |D| [display_wait]: vcount: 1
+[08:40:33.943] |D| [display_wait]: vcount: 1
+[08:40:33.959] |D| [display_wait]: vcount: 1
+[08:40:33.977] |D| [display_wait]: vcount: 1
+[08:40:33.994] |D| [display_wait]: vcount: 1
+[08:40:34.010] |D| [display_wait]: vcount: 1
+[08:40:34.027] |D| [display_wait]: vcount: 1
+[08:40:34.045] |D| [display_wait]: vcount: 1
+[08:40:34.062] |D| [display_wait]: vcount: 1
+[08:40:34.078] |D| [display_wait]: vcount: 1
+[08:40:34.096] |D| [display_wait]: vcount: 1
+[08:40:34.113] |D| [display_wait]: vcount: 1
+[08:40:34.130] |D| [display_wait]: vcount: 1
+[08:40:34.147] |D| [display_wait]: vcount: 1
+[08:40:34.163] |D| [display_wait]: vcount: 1
+[08:40:34.181] |D| [display_wait]: vcount: 1
+[08:40:34.198] |D| [display_wait]: vcount: 1
+[08:40:34.215] |D| [display_wait]: vcount: 1
+[08:40:34.232] |D| [display_wait]: vcount: 1
+[08:40:34.248] |D| [display_wait]: vcount: 1
+[08:40:34.266] |D| [display_wait]: vcount: 1
+[08:40:34.282] |D| [display_wait]: vcount: 1
+[08:40:34.300] |D| [display_wait]: vcount: 1
+[08:40:34.317] |D| [display_wait]: vcount: 1
+[08:40:34.333] |D| [display_wait]: vcount: 1
+[08:40:34.350] |D| [display_wait]: vcount: 1
+[08:40:34.367] |D| [display_wait]: vcount: 1
+[08:40:34.384] |D| [display_wait]: vcount: 1
+[08:40:34.401] |D| [display_wait]: vcount: 1
+[08:40:34.419] |D| [display_wait]: vcount: 1
+[08:40:34.435] |D| [display_wait]: vcount: 1
+[08:40:34.452] |D| [display_wait]: vcount: 1
+[08:40:34.469] |D| [display_wait]: vcount: 1
+[08:40:34.487] |D| [display_wait]: vcount: 1
+[08:40:34.504] |D| [display_wait]: vcount: 1
+[08:40:34.521] |D| [display_wait]: vcount: 1
+[08:40:34.537] |D| [display_wait]: vcount: 1
+[08:40:34.555] |D| [display_wait]: vcount: 1
+[08:40:34.571] |D| [display_wait]: vcount: 1
+[08:40:34.589] |D| [display_wait]: vcount: 1
+[08:40:34.606] |D| [display_wait]: vcount: 1
+[08:40:34.622] |D| [display_wait]: vcount: 1
+[08:40:34.640] |D| [display_wait]: vcount: 1
+[08:40:34.657] |D| [display_wait]: vcount: 1
+[08:40:34.674] |D| [display_wait]: vcount: 1
+[08:40:34.690] |D| [display_wait]: vcount: 1
+[08:40:34.707] |D| [display_wait]: vcount: 1
+[08:40:34.725] |D| [display_wait]: vcount: 1
+[08:40:34.742] |D| [display_wait]: vcount: 1
+[08:40:34.758] |D| [display_wait]: vcount: 1
+[08:40:34.776] |D| [display_wait]: vcount: 1
+[08:40:34.792] |D| [display_wait]: vcount: 1
+[08:40:34.809] |D| [display_wait]: vcount: 1
+[08:40:34.827] |D| [display_wait]: vcount: 1
+[08:40:34.843] |D| [display_wait]: vcount: 1
+[08:40:34.861] |D| [display_wait]: vcount: 1
+[08:40:34.877] |D| [display_wait]: vcount: 1
+[08:40:34.895] |D| [display_wait]: vcount: 1
+[08:40:34.911] |D| [display_wait]: vcount: 1
+[08:40:34.929] |D| [display_wait]: vcount: 1
+[08:40:34.946] |D| [display_wait]: vcount: 1
+[08:40:34.962] |D| [display_wait]: vcount: 1
+[08:40:34.980] |D| [display_wait]: vcount: 1
+[08:40:34.997] |D| [display_wait]: vcount: 1
+[08:40:35.014] |D| [display_wait]: vcount: 1
+[08:40:35.030] |D| [display_wait]: vcount: 1
+[08:40:35.047] |D| [display_wait]: vcount: 1
+[08:40:35.064] |D| [display_wait]: vcount: 1
+[08:40:35.081] |D| [display_wait]: vcount: 1
+[08:40:35.098] |D| [display_wait]: vcount: 1
+[08:40:35.116] |D| [display_wait]: vcount: 1
+[08:40:35.133] |D| [display_wait]: vcount: 1
+[08:40:35.150] |D| [display_wait]: vcount: 1
+[08:40:35.167] |D| [display_wait]: vcount: 1
+[08:40:35.184] |D| [display_wait]: vcount: 1
+[08:40:35.201] |D| [display_wait]: vcount: 1
+[08:40:35.217] |D| [display_wait]: vcount: 1
+[08:40:35.235] |D| [display_wait]: vcount: 1
+[08:40:35.252] |D| [display_wait]: vcount: 1
+[08:40:35.269] |D| [display_wait]: vcount: 1
+[08:40:35.285] |D| [display_wait]: vcount: 1
+[08:40:35.302] |D| [display_wait]: vcount: 1
+[08:40:35.319] |D| [display_wait]: vcount: 1
+[08:40:35.337] |D| [display_wait]: vcount: 1
+[08:40:35.354] |D| [display_wait]: vcount: 1
+[08:40:35.371] |D| [display_wait]: vcount: 1
+[08:40:35.387] |D| [display_wait]: vcount: 1
+[08:40:35.405] |D| [display_wait]: vcount: 1
+[08:40:35.421] |D| [display_wait]: vcount: 1
+[08:40:35.438] |D| [display_wait]: vcount: 1
+[08:40:35.456] |D| [display_wait]: vcount: 1
+[08:40:35.473] |D| [display_wait]: vcount: 1
+[08:40:35.490] |D| [display_wait]: vcount: 1
+[08:40:35.507] |D| [display_wait]: vcount: 1
+[08:40:35.523] |D| [display_wait]: vcount: 1
+[08:40:35.541] |D| [display_wait]: vcount: 1
+[08:40:35.557] |D| [display_wait]: vcount: 1
+[08:40:35.574] |D| [display_wait]: vcount: 1
+[08:40:35.591] |D| [display_wait]: vcount: 1
+[08:40:35.609] |D| [display_wait]: vcount: 1
+[08:40:35.626] |D| [display_wait]: vcount: 1
+[08:40:35.643] |D| [display_wait]: vcount: 1
+[08:40:35.660] |D| [display_wait]: vcount: 1
+[08:40:35.677] |D| [display_wait]: vcount: 1
+[08:40:35.693] |D| [display_wait]: vcount: 1
+[08:40:35.711] |D| [display_wait]: vcount: 1
+[08:40:35.727] |D| [display_wait]: vcount: 1
+[08:40:35.745] |D| [display_wait]: vcount: 1
+[08:40:35.762] |D| [display_wait]: vcount: 1
+[08:40:35.778] |D| [display_wait]: vcount: 1
+[08:40:35.795] |D| [display_wait]: vcount: 1
+[08:40:35.813] |D| [display_wait]: vcount: 1
+[08:40:35.830] |D| [display_wait]: vcount: 1
+[08:40:35.846] |D| [display_wait]: vcount: 1
+[08:40:35.864] |D| [display_wait]: vcount: 1
+[08:40:35.880] |D| [display_wait]: vcount: 1
+[08:40:35.897] |D| [display_wait]: vcount: 1
+[08:40:35.914] |D| [display_wait]: vcount: 1
+[08:40:35.931] |D| [display_wait]: vcount: 1
+[08:40:35.949] |D| [display_wait]: vcount: 1
+[08:40:35.966] |D| [display_wait]: vcount: 1
+[08:40:35.983] |D| [display_wait]: vcount: 1
+[08:40:36.000] |D| [display_wait]: vcount: 1
+[08:40:36.017] |D| [display_wait]: vcount: 1
+[08:40:36.034] |D| [display_wait]: vcount: 1
+[08:40:36.050] |D| [display_wait]: vcount: 1
+[08:40:36.067] |D| [display_wait]: vcount: 1
+[08:40:36.085] |D| [display_wait]: vcount: 1
+[08:40:36.102] |D| [display_wait]: vcount: 1
+[08:40:36.118] |D| [display_wait]: vcount: 1
+[08:40:36.136] |D| [display_wait]: vcount: 1
+[08:40:36.153] |D| [display_wait]: vcount: 1
+[08:40:36.170] |D| [display_wait]: vcount: 1
+[08:40:36.186] |D| [display_wait]: vcount: 1
+[08:40:36.203] |D| [display_wait]: vcount: 1
+[08:40:36.220] |D| [display_wait]: vcount: 1
+[08:40:36.237] |D| [display_wait]: vcount: 1
+[08:40:36.255] |D| [display_wait]: vcount: 1
+[08:40:36.272] |D| [display_wait]: vcount: 1
+[08:40:36.289] |D| [display_wait]: vcount: 1
+[08:40:36.306] |D| [display_wait]: vcount: 1
+[08:40:36.323] |D| [display_wait]: vcount: 1
+[08:40:36.339] |D| [display_wait]: vcount: 1
+[08:40:36.356] |D| [display_wait]: vcount: 1
+[08:40:36.373] |D| [display_wait]: vcount: 1
+[08:40:36.391] |D| [display_wait]: vcount: 1
+[08:40:36.407] |D| [display_wait]: vcount: 1
+[08:40:36.424] |D| [display_wait]: vcount: 1
+[08:40:36.442] |D| [display_wait]: vcount: 1
+[08:40:36.459] |D| [display_wait]: vcount: 1
+[08:40:36.476] |D| [display_wait]: vcount: 1
+[08:40:36.493] |D| [display_wait]: vcount: 1
+[08:40:36.510] |D| [display_wait]: vcount: 1
+[08:40:36.527] |D| [display_wait]: vcount: 1
+[08:40:36.544] |D| [display_wait]: vcount: 1
+[08:40:36.561] |D| [display_wait]: vcount: 1
+[08:40:36.577] |D| [display_wait]: vcount: 1
+[08:40:36.595] |D| [display_wait]: vcount: 1
+[08:40:36.611] |D| [display_wait]: vcount: 1
+[08:40:36.628] |D| [display_wait]: vcount: 1
+[08:40:36.645] |D| [display_wait]: vcount: 1
+[08:40:36.663] |D| [display_wait]: vcount: 1
+[08:40:36.679] |D| [display_wait]: vcount: 1
+[08:40:36.697] |D| [display_wait]: vcount: 1
+[08:40:36.713] |D| [display_wait]: vcount: 1
+[08:40:36.730] |D| [display_wait]: vcount: 1
+[08:40:36.748] |D| [display_wait]: vcount: 1
+[08:40:36.764] |D| [display_wait]: vcount: 1
+[08:40:36.782] |D| [display_wait]: vcount: 1
+[08:40:36.798] |D| [display_wait]: vcount: 1
+[08:40:36.815] |D| [display_wait]: vcount: 1
+[08:40:36.832] |D| [display_wait]: vcount: 1
+[08:40:36.850] |D| [display_wait]: vcount: 1
+[08:40:36.867] |D| [display_wait]: vcount: 1
+[08:40:36.884] |D| [display_wait]: vcount: 1
+[08:40:36.901] |D| [display_wait]: vcount: 1
+[08:40:36.918] |D| [display_wait]: vcount: 1
+[08:40:36.935] |D| [display_wait]: vcount: 1
+[08:40:36.951] |D| [display_wait]: vcount: 1
+[08:40:36.968] |D| [display_wait]: vcount: 1
+[08:40:36.986] |D| [display_wait]: vcount: 1
+[08:40:37.003] |D| [display_wait]: vcount: 1
+[08:40:37.019] |D| [display_wait]: vcount: 1
+[08:40:37.037] |D| [display_wait]: vcount: 1
+[08:40:37.054] |D| [display_wait]: vcount: 1
+[08:40:37.070] |D| [display_wait]: vcount: 1
+[08:40:37.087] |D| [display_wait]: vcount: 1
+[08:40:37.105] |D| [display_wait]: vcount: 1
+[08:40:37.121] |D| [display_wait]: vcount: 1
+[08:40:37.139] |D| [display_wait]: vcount: 1
+[08:40:37.156] |D| [display_wait]: vcount: 1
+[08:40:37.173] |D| [display_wait]: vcount: 1
+[08:40:37.189] |D| [display_wait]: vcount: 1
+[08:40:37.206] |D| [display_wait]: vcount: 1
+[08:40:37.224] |D| [display_wait]: vcount: 1
+[08:40:37.241] |D| [display_wait]: vcount: 1
+[08:40:37.257] |D| [display_wait]: vcount: 1
+[08:40:37.274] |D| [display_wait]: vcount: 1
+[08:40:37.292] |D| [display_wait]: vcount: 1
+[08:40:37.294] |E| [discordrpc::update_presence::<lambda_331f079a0acdd083d9cce7eefa67668c>::operator ()]: Error updating discord rich presence, err_code: 43

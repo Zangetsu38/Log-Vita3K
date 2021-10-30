@@ -1,195 +1,2009 @@
-[16:59:08.413] |I| [load_app_impl]: cpu-backend: Dynarmic
-[16:59:08.413] |I| [load_app_impl]: CPU Optimisation state: true
-[16:59:08.414] |I| [load_app_impl]: at9 audio decoder state: true
-[16:59:08.414] |I| [load_app_impl]: ngs experimental state: true
-[16:59:08.415] |I| [load_app_impl]: video player state: true
-[16:59:08.415] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[16:59:08.415] |I| [load_app_impl]: Title: HATSUNE MIKU AR STAGE
-[16:59:08.416] |I| [load_app_impl]: Serial: PCSC90032
-[16:59:08.416] |I| [load_app_impl]: Version: 1.00
-[16:59:08.417] |I| [load_app_impl]: Category: gd
-[16:59:08.477] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.477] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000514B0 / 0x81000000] (size: 0x0004A4B0) of module ux0:app\PCSC90032\sce_module\libc.suprx
-[16:59:08.478] |I| [load_self]: Loaded module segment 1 @ [0x00052000 - 0x000546F4 / 0x8104B000] (size: 0x000026F4) of module ux0:app\PCSC90032\sce_module\libc.suprx
-[16:59:08.479] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libc.suprx
-[16:59:08.480] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3DF30
-[16:59:08.480] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x41DF0, setting to stub value 0xDEADBEEF
-[16:59:08.481] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x434A4, setting to stub value 0xDEADBEEF
-[16:59:08.482] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSC90032\sce_module\libc.suprx") loaded
-[16:59:08.497] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.497] |I| [load_self]: Loaded module segment 0 @ [0x00057000 - 0x0007B220 / 0x81000000] (size: 0x00024220) of module ux0:app\PCSC90032\sce_module\libfios2.suprx
-[16:59:08.498] |I| [load_self]: Loaded module segment 1 @ [0x0007C000 - 0x000811A4 / 0x81025000] (size: 0x000051A4) of module ux0:app\PCSC90032\sce_module\libfios2.suprx
-[16:59:08.499] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libfios2.suprx
-[16:59:08.499] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73B64
-[16:59:08.500] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSC90032\sce_module\libfios2.suprx") loaded
-[16:59:08.545] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.545] |I| [load_self]: Loaded module segment 0 @ [0x00082000 - 0x00279E68 / 0x81000000] (size: 0x001F7E68) of module ux0:app\PCSC90032\sce_module\libsmart.suprx
-[16:59:08.546] |I| [load_self]: Loaded module segment 1 @ [0x0027A000 - 0x0027D734 / 0x811F8000] (size: 0x00003734) of module ux0:app\PCSC90032\sce_module\libsmart.suprx
-[16:59:08.547] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libsmart.suprx
-[16:59:08.547] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x11B12C
-[16:59:08.548] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSC90032\sce_module\libsmart.suprx") loaded
-[16:59:08.563] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.563] |I| [load_self]: Loaded module segment 0 @ [0x0027E000 - 0x00292144 / 0x81000000] (size: 0x00014144) of module ux0:app\PCSC90032\sce_module\libult.suprx
-[16:59:08.564] |I| [load_self]: Loaded module segment 1 @ [0x00293000 - 0x00293814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSC90032\sce_module\libult.suprx
-[16:59:08.565] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libult.suprx
-[16:59:08.565] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x28E1CC
-[16:59:08.566] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSC90032\sce_module\libult.suprx") loaded
-[16:59:08.575] |I| [load_self]: Loaded module segment 0 @ [0x00294000 - 0x002E4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[16:59:08.576] |I| [load_self]: Loaded module segment 1 @ [0x002E5000 - 0x002E52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[16:59:08.577] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[16:59:08.578] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2D07DC
-[16:59:08.578] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CFF10
-[16:59:08.578] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[16:59:08.581] |I| [load_self]: Loaded module segment 0 @ [0x002E6000 - 0x002F5F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[16:59:08.581] |I| [load_self]: Loaded module segment 1 @ [0x002F6000 - 0x002F6008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[16:59:08.584] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[16:59:08.585] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2F4710
-[16:59:08.585] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F4300
-[16:59:08.586] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[16:59:08.615] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.616] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81000AEC / 0x81000000] (size: 0x00000AEC) of module app0:eboot.bin
-[16:59:08.617] |I| [load_self]: Loaded module segment 1 @ [0x81001000 - 0x810010D8 / 0x81001000] (size: 0x000000D8) of module app0:eboot.bin
-[16:59:08.618] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[16:59:08.618] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81000594
-[16:59:08.619] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81001094
-[16:59:08.619] |I| [load_app_impl]: Main executable MetroHat (eboot.bin) loaded
-[16:59:08.628] |D| [run_app]: Running module_start of library: SceLibc at address 0x77F1
-[16:59:08.660] |I| [run_app]: Module SceLibc (at "ux0:app\PCSC90032\sce_module\libc.suprx") module_start returned 0x0
-[16:59:08.665] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x57001
-[16:59:08.672] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[16:59:08.673] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
-[16:59:08.673] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[16:59:08.674] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSC90032\sce_module\libfios2.suprx") module_start returned 0x0
-[16:59:08.678] |D| [run_app]: Running module_start of library: SceSmart at address 0x88775
-[16:59:08.691] |I| [run_app]: Module SceSmart (at "ux0:app\PCSC90032\sce_module\libsmart.suprx") module_start returned 0x0
-[16:59:08.696] |D| [run_app]: Running module_start of library: SceUlt at address 0x28184D
-[16:59:08.703] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[16:59:08.703] |I| [run_app]: Module SceUlt (at "ux0:app\PCSC90032\sce_module\libult.suprx") module_start returned 0x0
-[16:59:08.726] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.726] |I| [load_self]: Loaded module segment 0 @ [0x0473C000 - 0x0482FAD4 / 0x81000000] (size: 0x000F3AD4) of module app0:KmyCore.suprx
-[16:59:08.727] |I| [load_self]: Loaded module segment 1 @ [0x04830000 - 0x0487D878 / 0x810F4000] (size: 0x0004D878) of module app0:KmyCore.suprx
-[16:59:08.728] |I| [load_self]: Loading symbols for SELF: app0:KmyCore.suprx
-[16:59:08.729] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x47F02D4
-[16:59:08.744] |I| [export__sceKernelLoadStartModule]: Module kmyCore (at "app0:KmyCore.suprx") module_start returned 0x0
-[16:59:08.764] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.764] |I| [load_self]: Loaded module segment 0 @ [0x0487E000 - 0x0491C1E0 / 0x81000000] (size: 0x0009E1E0) of module app0:KmyGame.suprx
-[16:59:08.765] |I| [load_self]: Loaded module segment 1 @ [0x00339000 - 0x0033ADB0 / 0x8109F000] (size: 0x00001DB0) of module app0:KmyGame.suprx
-[16:59:08.765] |I| [load_self]: Loading symbols for SELF: app0:KmyGame.suprx
-[16:59:08.767] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x49057D0
-[16:59:08.788] |I| [export__sceKernelLoadStartModule]: Module kmyGame (at "app0:KmyGame.suprx") module_start returned 0x0
-[16:59:08.800] |I| [export_sceIoOpen]: Opening file: app0:vitaPlugins.def
-[16:59:08.810] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.810] |I| [load_self]: Loaded module segment 0 @ [0x0491D000 - 0x04926580 / 0x81000000] (size: 0x00009580) of module app0:SegaMiku.suprx
-[16:59:08.811] |I| [load_self]: Loaded module segment 1 @ [0x04927000 - 0x04A11904 / 0x8100A000] (size: 0x000EA904) of module app0:SegaMiku.suprx
-[16:59:08.812] |I| [load_self]: Loading symbols for SELF: app0:SegaMiku.suprx
-[16:59:08.812] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x49242A4
-[16:59:08.827] |I| [export__sceKernelLoadStartModule]: Module SegaMiku (at "app0:SegaMiku.suprx") module_start returned 0x0
-[16:59:08.833] |E| [call_import]: Import function for NID 0xE340C475 not found (thread name: PCSC90032, thread ID: 9)
-[16:59:08.843] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:59:08.843] |I| [load_self]: Loaded module segment 0 @ [0x04A12000 - 0x04A19A38 / 0x81000000] (size: 0x00007A38) of module app0:SmartAR.suprx
-[16:59:08.844] |I| [load_self]: Loaded module segment 1 @ [0x04A1A000 - 0x04A2987C / 0x81008000] (size: 0x0000F87C) of module app0:SmartAR.suprx
-[16:59:08.845] |I| [load_self]: Loading symbols for SELF: app0:SmartAR.suprx
-[16:59:08.845] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4A1842C
-[16:59:08.865] |I| [export__sceKernelLoadStartModule]: Module SmartAR (at "app0:SmartAR.suprx") module_start returned 0x0
-[16:59:08.885] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[16:59:08.888] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[16:59:08.927] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[16:59:08.949] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[16:59:08.955] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:59:08.955] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:59:09.056] |E| [logging::ret_error_impl]: sceGxmTextureSetMinFilter returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
-[16:59:09.057] |E| [logging::ret_error_impl]: sceGxmTextureSetMipFilter returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
-[16:59:09.074] |I| [export_sceIoOpen]: Opening file: app0:exec.def
-[16:59:09.080] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
-[16:59:09.082] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zipinfo
-[16:59:09.082] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zipinfo
-[16:59:09.121] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
-[16:59:09.145] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
-[16:59:09.148] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
-[16:59:09.150] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
-[16:59:09.171] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
-[16:59:09.172] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zipinfo
-[16:59:09.172] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zipinfo
-[16:59:09.193] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
-[16:59:09.224] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
-[16:59:09.227] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
-[16:59:09.230] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
-[16:59:09.672] |I| [export_sceIoOpen]: Opening file: app0:csv/mouth.csv
-[16:59:09.699] |I| [export_sceIoOpen]: Opening file: app0:csv/expression.csv
-[16:59:09.789] |I| [export_sceIoOpen]: Opening file: sa0:data/font/pvf/jpn0.pvf
-[16:59:09.790] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
-[16:59:09.839] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[16:59:09.846] |W| [unimplemented_impl]: Unimplemented sceCameraOpen import called.
-[16:59:09.846] |W| [unimplemented_impl]: Unimplemented sceCameraStart import called.
-[16:59:09.847] |W| [unimplemented_impl]: Unimplemented sceCameraSetAutoControlHold import called.
-[16:59:09.847] |W| [unimplemented_impl]: Unimplemented sceCameraSetISO import called.
-[16:59:09.848] |W| [unimplemented_impl]: Unimplemented sceCameraSetWhiteBalance import called.
-[16:59:09.848] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
-[16:59:09.894] |I| [export_sceIoOpen]: Opening file: app0:smart/dic_left.png.v9.dic
-[16:59:09.947] |E| [call_import]: Import function for NID 0xE340C005 not found (thread name: PCSC90032, thread ID: 9)
-[16:59:09.947] |E| [call_import]: Import function for NID 0xE340C006 not found (thread name: PCSC90032, thread ID: 9)
-[16:59:09.978] |I| [export_sceIoOpen]: Opening file: app0:smart/dic_center.png.v9.dic
-[16:59:10.003] |I| [export_sceIoOpen]: Opening file: app0:smart/dic_right.png.v9.dic
-[16:59:10.125] |W| [unimplemented_impl]: Unimplemented sceCameraRead import called.
-[16:59:10.126] |W| [unimplemented_impl]: Unimplemented sceMotionGetSensorState import called.
-[16:59:10.533] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[16:59:10.760] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
-[16:59:11.143] |I| [renderer::gl::load_shader_generic]: Generating frag shader ef6f94b57424ced15fd8aa2e0af10f53479ecdca5c3e0d6eca0784a0418ea05c
-[16:59:11.147] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
-[16:59:11.147] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[16:59:11.152] |I| [renderer::gl::load_shader_generic]: Generating vert shader 02fd6f20f89f1f507adeadd6acd59f0cba39021106f45d8e1199ea346c289974
-[16:59:11.153] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_color
-[16:59:11.153] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_position
-[16:59:11.153] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
-[16:59:11.154] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
-[16:59:11.154] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) modcolor
-[16:59:11.168] |E| [renderer::gl::compile_program]: Vertex info
+[14:50:16.526] |I| [load_app_impl]: cpu-backend: Dynarmic
+[14:50:16.526] |I| [load_app_impl]: CPU Optimisation state: true
+[14:50:16.526] |I| [load_app_impl]: at9 audio decoder state: true
+[14:50:16.526] |I| [load_app_impl]: ngs experimental state: true
+[14:50:16.526] |I| [load_app_impl]: video player state: true
+[14:50:16.526] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,librudp,liblocation,libhandwriting
+[14:50:16.527] |I| [load_app_impl]: Title: HATSUNE MIKU AR STAGE
+[14:50:16.527] |I| [load_app_impl]: Serial: PCSC90032
+[14:50:16.527] |I| [load_app_impl]: Version: 1.00
+[14:50:16.527] |I| [load_app_impl]: Category: gd
+[14:50:16.590] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.590] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000514B0 / 0x81000000] (size: 0x0004A4B0) of module ux0:app\PCSC90032\sce_module\libc.suprx
+[14:50:16.591] |I| [load_self]: Loaded module segment 1 @ [0x00052000 - 0x000546F4 / 0x8104B000] (size: 0x000026F4) of module ux0:app\PCSC90032\sce_module\libc.suprx
+[14:50:16.591] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libc.suprx
+[14:50:16.592] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3DF30
+[14:50:16.592] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x41DF0, setting to stub value 0xDEADBEEF
+[14:50:16.593] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x434A4, setting to stub value 0xDEADBEEF
+[14:50:16.593] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSC90032\sce_module\libc.suprx") loaded
+[14:50:16.601] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.601] |I| [load_self]: Loaded module segment 0 @ [0x00057000 - 0x0007B220 / 0x81000000] (size: 0x00024220) of module ux0:app\PCSC90032\sce_module\libfios2.suprx
+[14:50:16.602] |I| [load_self]: Loaded module segment 1 @ [0x0007C000 - 0x000811A4 / 0x81025000] (size: 0x000051A4) of module ux0:app\PCSC90032\sce_module\libfios2.suprx
+[14:50:16.602] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libfios2.suprx
+[14:50:16.602] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73B64
+[14:50:16.602] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSC90032\sce_module\libfios2.suprx") loaded
+[14:50:16.650] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.650] |I| [load_self]: Loaded module segment 0 @ [0x00082000 - 0x00279E68 / 0x81000000] (size: 0x001F7E68) of module ux0:app\PCSC90032\sce_module\libsmart.suprx
+[14:50:16.651] |I| [load_self]: Loaded module segment 1 @ [0x0027A000 - 0x0027D734 / 0x811F8000] (size: 0x00003734) of module ux0:app\PCSC90032\sce_module\libsmart.suprx
+[14:50:16.651] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libsmart.suprx
+[14:50:16.651] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x11B12C
+[14:50:16.651] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSC90032\sce_module\libsmart.suprx") loaded
+[14:50:16.656] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.656] |I| [load_self]: Loaded module segment 0 @ [0x0027E000 - 0x00292144 / 0x81000000] (size: 0x00014144) of module ux0:app\PCSC90032\sce_module\libult.suprx
+[14:50:16.656] |I| [load_self]: Loaded module segment 1 @ [0x00293000 - 0x00293814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSC90032\sce_module\libult.suprx
+[14:50:16.656] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSC90032\sce_module\libult.suprx
+[14:50:16.657] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x28E1CC
+[14:50:16.657] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSC90032\sce_module\libult.suprx") loaded
+[14:50:16.664] |I| [load_self]: Loaded module segment 0 @ [0x00294000 - 0x002E4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[14:50:16.664] |I| [load_self]: Loaded module segment 1 @ [0x002E5000 - 0x002E52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[14:50:16.664] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[14:50:16.665] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2D07DC
+[14:50:16.665] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CFF10
+[14:50:16.665] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[14:50:16.667] |I| [load_self]: Loaded module segment 0 @ [0x002E6000 - 0x002F5F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[14:50:16.668] |I| [load_self]: Loaded module segment 1 @ [0x002F6000 - 0x002F6008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[14:50:16.668] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[14:50:16.668] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2F4710
+[14:50:16.668] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F4300
+[14:50:16.668] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[14:50:16.711] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.712] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81000AEC / 0x81000000] (size: 0x00000AEC) of module app0:eboot.bin
+[14:50:16.712] |I| [load_self]: Loaded module segment 1 @ [0x81001000 - 0x810010D8 / 0x81001000] (size: 0x000000D8) of module app0:eboot.bin
+[14:50:16.712] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[14:50:16.712] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81000594
+[14:50:16.712] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81001094
+[14:50:16.712] |I| [load_app_impl]: Main executable MetroHat (eboot.bin) loaded
+[14:50:16.721] |D| [run_app]: Running module_start of library: SceLibc at address 0x77F1
+[14:50:16.754] |I| [run_app]: Module SceLibc (at "ux0:app\PCSC90032\sce_module\libc.suprx") module_start returned 0x0
+[14:50:16.759] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x57001
+[14:50:16.767] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[14:50:16.767] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
+[14:50:16.767] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[14:50:16.768] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSC90032\sce_module\libfios2.suprx") module_start returned 0x0
+[14:50:16.772] |D| [run_app]: Running module_start of library: SceSmart at address 0x88775
+[14:50:16.786] |I| [run_app]: Module SceSmart (at "ux0:app\PCSC90032\sce_module\libsmart.suprx") module_start returned 0x0
+[14:50:16.791] |D| [run_app]: Running module_start of library: SceUlt at address 0x28184D
+[14:50:16.798] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[14:50:16.798] |I| [run_app]: Module SceUlt (at "ux0:app\PCSC90032\sce_module\libult.suprx") module_start returned 0x0
+[14:50:16.822] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.822] |I| [load_self]: Loaded module segment 0 @ [0x0473C000 - 0x0482FAD4 / 0x81000000] (size: 0x000F3AD4) of module app0:KmyCore.suprx
+[14:50:16.822] |I| [load_self]: Loaded module segment 1 @ [0x04830000 - 0x0487D878 / 0x810F4000] (size: 0x0004D878) of module app0:KmyCore.suprx
+[14:50:16.822] |I| [load_self]: Loading symbols for SELF: app0:KmyCore.suprx
+[14:50:16.823] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x47F02D4
+[14:50:16.835] |I| [export__sceKernelLoadStartModule]: Module kmyCore (at "app0:KmyCore.suprx") module_start returned 0x0
+[14:50:16.851] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.851] |I| [load_self]: Loaded module segment 0 @ [0x0487E000 - 0x0491C1E0 / 0x81000000] (size: 0x0009E1E0) of module app0:KmyGame.suprx
+[14:50:16.851] |I| [load_self]: Loaded module segment 1 @ [0x00339000 - 0x0033ADB0 / 0x8109F000] (size: 0x00001DB0) of module app0:KmyGame.suprx
+[14:50:16.852] |I| [load_self]: Loading symbols for SELF: app0:KmyGame.suprx
+[14:50:16.852] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x49057D0
+[14:50:16.870] |I| [export__sceKernelLoadStartModule]: Module kmyGame (at "app0:KmyGame.suprx") module_start returned 0x0
+[14:50:16.879] |I| [export_sceIoOpen]: Opening file: app0:vitaPlugins.def
+[14:50:16.890] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.890] |I| [load_self]: Loaded module segment 0 @ [0x0491D000 - 0x04926580 / 0x81000000] (size: 0x00009580) of module app0:SegaMiku.suprx
+[14:50:16.890] |I| [load_self]: Loaded module segment 1 @ [0x04927000 - 0x04A11904 / 0x8100A000] (size: 0x000EA904) of module app0:SegaMiku.suprx
+[14:50:16.891] |I| [load_self]: Loading symbols for SELF: app0:SegaMiku.suprx
+[14:50:16.891] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x49242A4
+[14:50:16.913] |I| [export__sceKernelLoadStartModule]: Module SegaMiku (at "app0:SegaMiku.suprx") module_start returned 0x0
+[14:50:16.919] |E| [call_import]: Import function for NID 0xE340C475 not found (thread name: PCSC90032, thread ID: 9)
+[14:50:16.930] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[14:50:16.930] |I| [load_self]: Loaded module segment 0 @ [0x04A12000 - 0x04A19A38 / 0x81000000] (size: 0x00007A38) of module app0:SmartAR.suprx
+[14:50:16.931] |I| [load_self]: Loaded module segment 1 @ [0x04A1A000 - 0x04A2987C / 0x81008000] (size: 0x0000F87C) of module app0:SmartAR.suprx
+[14:50:16.931] |I| [load_self]: Loading symbols for SELF: app0:SmartAR.suprx
+[14:50:16.931] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4A1842C
+[14:50:16.950] |I| [export__sceKernelLoadStartModule]: Module SmartAR (at "app0:SmartAR.suprx") module_start returned 0x0
+[14:50:16.971] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[14:50:16.972] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[14:50:17.051] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[14:50:17.077] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[14:50:17.085] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[14:50:17.085] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[14:50:17.175] |E| [logging::ret_error_impl]: sceGxmTextureSetMinFilter returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[14:50:17.176] |E| [logging::ret_error_impl]: sceGxmTextureSetMipFilter returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[14:50:17.191] |I| [export_sceIoOpen]: Opening file: app0:exec.def
+[14:50:17.198] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
+[14:50:17.200] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zipinfo
+[14:50:17.201] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zipinfo
+[14:50:17.226] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
+[14:50:17.251] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
+[14:50:17.254] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
+[14:50:17.257] |I| [export_sceIoOpen]: Opening file: app0:kmysystem.zip
+[14:50:17.277] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
+[14:50:17.278] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zipinfo
+[14:50:17.278] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zipinfo
+[14:50:17.298] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
+[14:50:17.329] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
+[14:50:17.331] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
+[14:50:17.334] |I| [export_sceIoOpen]: Opening file: app0:MetroHat.zip
+[14:50:17.785] |I| [export_sceIoOpen]: Opening file: app0:csv/mouth.csv
+[14:50:17.812] |I| [export_sceIoOpen]: Opening file: app0:csv/expression.csv
+[14:50:17.913] |I| [export_sceIoOpen]: Opening file: sa0:data/font/pvf/jpn0.pvf
+[14:50:17.914] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
+[14:50:17.964] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[14:50:17.964] |D| [display_wait]: vcount: 1
+[14:50:17.965] |D| [display_wait]: vcount: 1
+[14:50:17.971] |W| [unimplemented_impl]: Unimplemented sceCameraOpen import called.
+[14:50:17.971] |W| [unimplemented_impl]: Unimplemented sceCameraStart import called.
+[14:50:17.972] |W| [unimplemented_impl]: Unimplemented sceCameraSetAutoControlHold import called.
+[14:50:17.972] |W| [unimplemented_impl]: Unimplemented sceCameraSetISO import called.
+[14:50:17.972] |W| [unimplemented_impl]: Unimplemented sceCameraSetWhiteBalance import called.
+[14:50:17.972] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[14:50:17.981] |D| [display_wait]: vcount: 1
+[14:50:17.998] |D| [display_wait]: vcount: 1
+[14:50:18.015] |D| [display_wait]: vcount: 1
+[14:50:18.032] |D| [display_wait]: vcount: 1
+[14:50:18.049] |D| [display_wait]: vcount: 1
+[14:50:18.066] |D| [display_wait]: vcount: 1
+[14:50:18.069] |I| [export_sceIoOpen]: Opening file: app0:smart/dic_left.png.v9.dic
+[14:50:18.083] |D| [display_wait]: vcount: 1
+[14:50:18.100] |D| [display_wait]: vcount: 1
+[14:50:18.109] |E| [call_import]: Import function for NID 0xE340C005 not found (thread name: PCSC90032, thread ID: 9)
+[14:50:18.110] |E| [call_import]: Import function for NID 0xE340C006 not found (thread name: PCSC90032, thread ID: 9)
+[14:50:18.117] |D| [display_wait]: vcount: 1
+[14:50:18.134] |D| [display_wait]: vcount: 1
+[14:50:18.140] |I| [export_sceIoOpen]: Opening file: app0:smart/dic_center.png.v9.dic
+[14:50:18.151] |D| [display_wait]: vcount: 1
+[14:50:18.168] |D| [display_wait]: vcount: 1
+[14:50:18.176] |I| [export_sceIoOpen]: Opening file: app0:smart/dic_right.png.v9.dic
+[14:50:18.185] |D| [display_wait]: vcount: 1
+[14:50:18.202] |D| [display_wait]: vcount: 1
+[14:50:18.219] |D| [display_wait]: vcount: 1
+[14:50:18.236] |D| [display_wait]: vcount: 1
+[14:50:18.253] |D| [display_wait]: vcount: 1
+[14:50:18.267] |W| [unimplemented_impl]: Unimplemented sceCameraRead import called.
+[14:50:18.267] |W| [unimplemented_impl]: Unimplemented sceMotionGetSensorState import called.
+[14:50:18.270] |D| [display_wait]: vcount: 1
+[14:50:18.287] |D| [display_wait]: vcount: 1
+[14:50:18.304] |D| [display_wait]: vcount: 1
+[14:50:18.321] |D| [display_wait]: vcount: 1
+[14:50:18.338] |D| [display_wait]: vcount: 1
+[14:50:18.355] |D| [display_wait]: vcount: 1
+[14:50:18.372] |D| [display_wait]: vcount: 1
+[14:50:18.389] |D| [display_wait]: vcount: 1
+[14:50:18.406] |D| [display_wait]: vcount: 1
+[14:50:18.423] |D| [display_wait]: vcount: 1
+[14:50:18.440] |D| [display_wait]: vcount: 1
+[14:50:18.457] |D| [display_wait]: vcount: 1
+[14:50:18.474] |D| [display_wait]: vcount: 1
+[14:50:18.491] |D| [display_wait]: vcount: 1
+[14:50:18.508] |D| [display_wait]: vcount: 1
+[14:50:18.525] |D| [display_wait]: vcount: 1
+[14:50:18.542] |D| [display_wait]: vcount: 1
+[14:50:18.559] |D| [display_wait]: vcount: 1
+[14:50:18.576] |D| [display_wait]: vcount: 1
+[14:50:18.593] |D| [display_wait]: vcount: 1
+[14:50:18.610] |D| [display_wait]: vcount: 1
+[14:50:18.627] |D| [display_wait]: vcount: 1
+[14:50:18.644] |D| [display_wait]: vcount: 1
+[14:50:18.661] |D| [display_wait]: vcount: 1
+[14:50:18.668] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[14:50:18.678] |D| [display_wait]: vcount: 1
+[14:50:18.695] |D| [display_wait]: vcount: 1
+[14:50:18.712] |D| [display_wait]: vcount: 1
+[14:50:18.729] |D| [display_wait]: vcount: 1
+[14:50:18.746] |D| [display_wait]: vcount: 1
+[14:50:18.763] |D| [display_wait]: vcount: 1
+[14:50:18.780] |D| [display_wait]: vcount: 1
+[14:50:18.797] |D| [display_wait]: vcount: 1
+[14:50:18.814] |D| [display_wait]: vcount: 1
+[14:50:18.831] |D| [display_wait]: vcount: 1
+[14:50:18.848] |D| [display_wait]: vcount: 1
+[14:50:18.865] |D| [display_wait]: vcount: 1
+[14:50:18.882] |D| [display_wait]: vcount: 1
+[14:50:18.899] |D| [display_wait]: vcount: 1
+[14:50:18.916] |D| [display_wait]: vcount: 1
+[14:50:18.933] |D| [display_wait]: vcount: 1
+[14:50:18.934] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[14:50:18.950] |D| [display_wait]: vcount: 1
+[14:50:18.967] |D| [display_wait]: vcount: 1
+[14:50:18.984] |D| [display_wait]: vcount: 1
+[14:50:19.001] |D| [display_wait]: vcount: 1
+[14:50:19.018] |D| [display_wait]: vcount: 1
+[14:50:19.035] |D| [display_wait]: vcount: 1
+[14:50:19.052] |D| [display_wait]: vcount: 1
+[14:50:19.069] |D| [display_wait]: vcount: 1
+[14:50:19.086] |D| [display_wait]: vcount: 1
+[14:50:19.103] |D| [display_wait]: vcount: 1
+[14:50:19.120] |D| [display_wait]: vcount: 1
+[14:50:19.137] |D| [display_wait]: vcount: 1
+[14:50:19.154] |D| [display_wait]: vcount: 1
+[14:50:19.171] |D| [display_wait]: vcount: 1
+[14:50:19.188] |D| [display_wait]: vcount: 1
+[14:50:19.205] |D| [display_wait]: vcount: 1
+[14:50:19.222] |D| [display_wait]: vcount: 1
+[14:50:19.239] |D| [display_wait]: vcount: 1
+[14:50:19.256] |D| [display_wait]: vcount: 1
+[14:50:19.273] |D| [display_wait]: vcount: 1
+[14:50:19.290] |D| [display_wait]: vcount: 1
+[14:50:19.307] |D| [display_wait]: vcount: 1
+[14:50:19.324] |D| [display_wait]: vcount: 1
+[14:50:19.333] |I| [renderer::gl::load_shader_generic]: Generating frag shader ef6f94b57424ced15fd8aa2e0af10f53479ecdca5c3e0d6eca0784a0418ea05c
+[14:50:19.334] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
+[14:50:19.335] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[14:50:19.341] |D| [display_wait]: vcount: 1
+[14:50:19.352] |I| [renderer::gl::load_shader_generic]: Generating vert shader 02fd6f20f89f1f507adeadd6acd59f0cba39021106f45d8e1199ea346c289974
+[14:50:19.353] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_color
+[14:50:19.353] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_position
+[14:50:19.353] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
+[14:50:19.354] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
+[14:50:19.354] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) modcolor
+[14:50:19.358] |D| [display_wait]: vcount: 1
+[14:50:19.375] |D| [display_wait]: vcount: 1
+[14:50:19.388] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[16:59:11.169] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:11.171] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8689b380784e6337cd8a54b7e4ee1e34f382273685100252098e32b4119cd5ad
-[16:59:11.172] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
-[16:59:11.172] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[16:59:11.178] |I| [renderer::gl::load_shader_generic]: Generating vert shader 64acc97b96a178a436be955d4761baf34734acd0c266b451d6f2fcdf172be38c
-[16:59:11.182] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
-[16:59:11.182] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_color
-[16:59:11.183] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vin_position
-[16:59:11.183] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
-[16:59:11.184] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
-[16:59:11.184] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
-[16:59:11.185] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
-[16:59:11.201] |E| [renderer::gl::compile_program]: Vertex info
+[14:50:19.388] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.390] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8689b380784e6337cd8a54b7e4ee1e34f382273685100252098e32b4119cd5ad
+[14:50:19.391] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
+[14:50:19.391] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[14:50:19.392] |D| [display_wait]: vcount: 1
+[14:50:19.395] |I| [renderer::gl::load_shader_generic]: Generating vert shader 64acc97b96a178a436be955d4761baf34734acd0c266b451d6f2fcdf172be38c
+[14:50:19.396] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
+[14:50:19.396] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_color
+[14:50:19.397] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vin_position
+[14:50:19.397] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
+[14:50:19.397] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
+[14:50:19.397] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
+[14:50:19.397] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
+[14:50:19.409] |D| [display_wait]: vcount: 1
+[14:50:19.418] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[16:59:11.202] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
-[16:59:11.204] |I| [renderer::gl::load_shader_generic]: Generating frag shader be06592608bdf22cbe9d829017489898c4c1c26d7cbebeec60e3a4cb36775a8f
-[16:59:11.205] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
-[16:59:11.205] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[16:59:11.210] |I| [renderer::gl::load_shader_generic]: Generating vert shader 654f6623498e97ece750be0e141dee8e425f7cbde3fe9f75d6d590cd5de1480a
-[16:59:11.214] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
-[16:59:11.215] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_position
-[16:59:11.215] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
-[16:59:11.216] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
-[16:59:11.216] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
-[16:59:11.216] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
-[16:59:11.232] |E| [renderer::gl::compile_program]: Vertex info
+[14:50:19.419] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:19.420] |I| [renderer::gl::load_shader_generic]: Generating frag shader be06592608bdf22cbe9d829017489898c4c1c26d7cbebeec60e3a4cb36775a8f
+[14:50:19.422] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
+[14:50:19.422] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[14:50:19.426] |I| [renderer::gl::load_shader_generic]: Generating vert shader 654f6623498e97ece750be0e141dee8e425f7cbde3fe9f75d6d590cd5de1480a
+[14:50:19.426] |D| [display_wait]: vcount: 1
+[14:50:19.427] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
+[14:50:19.427] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_position
+[14:50:19.428] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
+[14:50:19.428] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
+[14:50:19.428] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
+[14:50:19.428] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
+[14:50:19.443] |D| [display_wait]: vcount: 1
+[14:50:19.448] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(26) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[16:59:11.234] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
-[16:59:11.239] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:11.241] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
-[16:59:11.243] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
-[16:59:11.276] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:11.326] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:11.343] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:11.360] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:11.393] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:11.410] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
-[16:59:12.650] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
-[16:59:12.652] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
+[14:50:19.449] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:19.452] |D| [display_wait]: vcount: 1
+[14:50:19.460] |D| [display_wait]: vcount: 1
+[14:50:19.468] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.470] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:19.473] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:19.475] |D| [display_wait]: vcount: 1
+[14:50:19.477] |D| [display_wait]: vcount: 1
+[14:50:19.481] |D| [display_wait]: vcount: 1
+[14:50:19.489] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.494] |D| [display_wait]: vcount: 1
+[14:50:19.494] |D| [display_wait]: vcount: 1
+[14:50:19.495] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.511] |D| [display_wait]: vcount: 1
+[14:50:19.511] |D| [display_wait]: vcount: 1
+[14:50:19.512] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.528] |D| [display_wait]: vcount: 1
+[14:50:19.528] |D| [display_wait]: vcount: 1
+[14:50:19.545] |D| [display_wait]: vcount: 1
+[14:50:19.545] |D| [display_wait]: vcount: 1
+[14:50:19.547] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.562] |D| [display_wait]: vcount: 1
+[14:50:19.562] |D| [display_wait]: vcount: 1
+[14:50:19.564] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.579] |D| [display_wait]: vcount: 1
+[14:50:19.579] |D| [display_wait]: vcount: 1
+[14:50:19.581] |D| [renderer::gl::texture::translate_swizzle]: base format: -1862270976, swizzle: 0
+[14:50:19.596] |D| [display_wait]: vcount: 1
+[14:50:19.596] |D| [display_wait]: vcount: 1
+[14:50:19.613] |D| [display_wait]: vcount: 1
+[14:50:19.613] |D| [display_wait]: vcount: 1
+[14:50:19.630] |D| [display_wait]: vcount: 1
+[14:50:19.630] |D| [display_wait]: vcount: 1
+[14:50:19.647] |D| [display_wait]: vcount: 1
+[14:50:19.647] |D| [display_wait]: vcount: 1
+[14:50:19.664] |D| [display_wait]: vcount: 1
+[14:50:19.664] |D| [display_wait]: vcount: 1
+[14:50:19.681] |D| [display_wait]: vcount: 1
+[14:50:19.681] |D| [display_wait]: vcount: 1
+[14:50:19.698] |D| [display_wait]: vcount: 1
+[14:50:19.698] |D| [display_wait]: vcount: 1
+[14:50:19.715] |D| [display_wait]: vcount: 1
+[14:50:19.715] |D| [display_wait]: vcount: 1
+[14:50:19.732] |D| [display_wait]: vcount: 1
+[14:50:19.732] |D| [display_wait]: vcount: 1
+[14:50:19.749] |D| [display_wait]: vcount: 1
+[14:50:19.749] |D| [display_wait]: vcount: 1
+[14:50:19.766] |D| [display_wait]: vcount: 1
+[14:50:19.766] |D| [display_wait]: vcount: 1
+[14:50:19.783] |D| [display_wait]: vcount: 1
+[14:50:19.783] |D| [display_wait]: vcount: 1
+[14:50:19.800] |D| [display_wait]: vcount: 1
+[14:50:19.800] |D| [display_wait]: vcount: 1
+[14:50:19.817] |D| [display_wait]: vcount: 1
+[14:50:19.817] |D| [display_wait]: vcount: 1
+[14:50:19.834] |D| [display_wait]: vcount: 1
+[14:50:19.834] |D| [display_wait]: vcount: 1
+[14:50:19.851] |D| [display_wait]: vcount: 1
+[14:50:19.851] |D| [display_wait]: vcount: 1
+[14:50:19.868] |D| [display_wait]: vcount: 1
+[14:50:19.868] |D| [display_wait]: vcount: 1
+[14:50:19.885] |D| [display_wait]: vcount: 1
+[14:50:19.885] |D| [display_wait]: vcount: 1
+[14:50:19.902] |D| [display_wait]: vcount: 1
+[14:50:19.902] |D| [display_wait]: vcount: 1
+[14:50:19.919] |D| [display_wait]: vcount: 1
+[14:50:19.919] |D| [display_wait]: vcount: 1
+[14:50:19.936] |D| [display_wait]: vcount: 1
+[14:50:19.936] |D| [display_wait]: vcount: 1
+[14:50:19.953] |D| [display_wait]: vcount: 1
+[14:50:19.953] |D| [display_wait]: vcount: 1
+[14:50:19.970] |D| [display_wait]: vcount: 1
+[14:50:19.970] |D| [display_wait]: vcount: 1
+[14:50:19.987] |D| [display_wait]: vcount: 1
+[14:50:19.987] |D| [display_wait]: vcount: 1
+[14:50:20.004] |D| [display_wait]: vcount: 1
+[14:50:20.004] |D| [display_wait]: vcount: 1
+[14:50:20.021] |D| [display_wait]: vcount: 1
+[14:50:20.021] |D| [display_wait]: vcount: 1
+[14:50:20.038] |D| [display_wait]: vcount: 1
+[14:50:20.038] |D| [display_wait]: vcount: 1
+[14:50:20.055] |D| [display_wait]: vcount: 1
+[14:50:20.055] |D| [display_wait]: vcount: 1
+[14:50:20.072] |D| [display_wait]: vcount: 1
+[14:50:20.072] |D| [display_wait]: vcount: 1
+[14:50:20.089] |D| [display_wait]: vcount: 1
+[14:50:20.089] |D| [display_wait]: vcount: 1
+[14:50:20.106] |D| [display_wait]: vcount: 1
+[14:50:20.106] |D| [display_wait]: vcount: 1
+[14:50:20.123] |D| [display_wait]: vcount: 1
+[14:50:20.123] |D| [display_wait]: vcount: 1
+[14:50:20.140] |D| [display_wait]: vcount: 1
+[14:50:20.140] |D| [display_wait]: vcount: 1
+[14:50:20.157] |D| [display_wait]: vcount: 1
+[14:50:20.157] |D| [display_wait]: vcount: 1
+[14:50:20.174] |D| [display_wait]: vcount: 1
+[14:50:20.174] |D| [display_wait]: vcount: 1
+[14:50:20.191] |D| [display_wait]: vcount: 1
+[14:50:20.191] |D| [display_wait]: vcount: 1
+[14:50:20.208] |D| [display_wait]: vcount: 1
+[14:50:20.208] |D| [display_wait]: vcount: 1
+[14:50:20.225] |D| [display_wait]: vcount: 1
+[14:50:20.225] |D| [display_wait]: vcount: 1
+[14:50:20.242] |D| [display_wait]: vcount: 1
+[14:50:20.242] |D| [display_wait]: vcount: 1
+[14:50:20.259] |D| [display_wait]: vcount: 1
+[14:50:20.259] |D| [display_wait]: vcount: 1
+[14:50:20.276] |D| [display_wait]: vcount: 1
+[14:50:20.276] |D| [display_wait]: vcount: 1
+[14:50:20.293] |D| [display_wait]: vcount: 1
+[14:50:20.293] |D| [display_wait]: vcount: 1
+[14:50:20.310] |D| [display_wait]: vcount: 1
+[14:50:20.310] |D| [display_wait]: vcount: 1
+[14:50:20.327] |D| [display_wait]: vcount: 1
+[14:50:20.327] |D| [display_wait]: vcount: 1
+[14:50:20.344] |D| [display_wait]: vcount: 1
+[14:50:20.344] |D| [display_wait]: vcount: 1
+[14:50:20.361] |D| [display_wait]: vcount: 1
+[14:50:20.361] |D| [display_wait]: vcount: 1
+[14:50:20.378] |D| [display_wait]: vcount: 1
+[14:50:20.378] |D| [display_wait]: vcount: 1
+[14:50:20.395] |D| [display_wait]: vcount: 1
+[14:50:20.395] |D| [display_wait]: vcount: 1
+[14:50:20.412] |D| [display_wait]: vcount: 1
+[14:50:20.412] |D| [display_wait]: vcount: 1
+[14:50:20.429] |D| [display_wait]: vcount: 1
+[14:50:20.429] |D| [display_wait]: vcount: 1
+[14:50:20.446] |D| [display_wait]: vcount: 1
+[14:50:20.446] |D| [display_wait]: vcount: 1
+[14:50:20.463] |D| [display_wait]: vcount: 1
+[14:50:20.463] |D| [display_wait]: vcount: 1
+[14:50:20.480] |D| [display_wait]: vcount: 1
+[14:50:20.480] |D| [display_wait]: vcount: 1
+[14:50:20.497] |D| [display_wait]: vcount: 1
+[14:50:20.497] |D| [display_wait]: vcount: 1
+[14:50:20.514] |D| [display_wait]: vcount: 1
+[14:50:20.514] |D| [display_wait]: vcount: 1
+[14:50:20.531] |D| [display_wait]: vcount: 1
+[14:50:20.531] |D| [display_wait]: vcount: 1
+[14:50:20.548] |D| [display_wait]: vcount: 1
+[14:50:20.548] |D| [display_wait]: vcount: 1
+[14:50:20.565] |D| [display_wait]: vcount: 1
+[14:50:20.565] |D| [display_wait]: vcount: 1
+[14:50:20.582] |D| [display_wait]: vcount: 1
+[14:50:20.582] |D| [display_wait]: vcount: 1
+[14:50:20.599] |D| [display_wait]: vcount: 1
+[14:50:20.599] |D| [display_wait]: vcount: 1
+[14:50:20.616] |D| [display_wait]: vcount: 1
+[14:50:20.616] |D| [display_wait]: vcount: 1
+[14:50:20.633] |D| [display_wait]: vcount: 1
+[14:50:20.633] |D| [display_wait]: vcount: 1
+[14:50:20.650] |D| [display_wait]: vcount: 1
+[14:50:20.650] |D| [display_wait]: vcount: 1
+[14:50:20.667] |D| [display_wait]: vcount: 1
+[14:50:20.667] |D| [display_wait]: vcount: 1
+[14:50:20.684] |D| [display_wait]: vcount: 1
+[14:50:20.684] |D| [display_wait]: vcount: 1
+[14:50:20.701] |D| [display_wait]: vcount: 1
+[14:50:20.701] |D| [display_wait]: vcount: 1
+[14:50:20.718] |D| [display_wait]: vcount: 1
+[14:50:20.718] |D| [display_wait]: vcount: 1
+[14:50:20.735] |D| [display_wait]: vcount: 1
+[14:50:20.735] |D| [display_wait]: vcount: 1
+[14:50:20.752] |D| [display_wait]: vcount: 1
+[14:50:20.752] |D| [display_wait]: vcount: 1
+[14:50:20.769] |D| [display_wait]: vcount: 1
+[14:50:20.769] |D| [display_wait]: vcount: 1
+[14:50:20.786] |D| [display_wait]: vcount: 1
+[14:50:20.786] |D| [display_wait]: vcount: 1
+[14:50:20.803] |D| [display_wait]: vcount: 1
+[14:50:20.803] |D| [display_wait]: vcount: 1
+[14:50:20.820] |D| [display_wait]: vcount: 1
+[14:50:20.820] |D| [display_wait]: vcount: 1
+[14:50:20.837] |D| [display_wait]: vcount: 1
+[14:50:20.837] |D| [display_wait]: vcount: 1
+[14:50:20.854] |D| [display_wait]: vcount: 1
+[14:50:20.854] |D| [display_wait]: vcount: 1
+[14:50:20.871] |D| [display_wait]: vcount: 1
+[14:50:20.871] |D| [display_wait]: vcount: 1
+[14:50:20.888] |D| [display_wait]: vcount: 1
+[14:50:20.888] |D| [display_wait]: vcount: 1
+[14:50:20.905] |D| [display_wait]: vcount: 1
+[14:50:20.905] |D| [display_wait]: vcount: 1
+[14:50:20.922] |D| [display_wait]: vcount: 1
+[14:50:20.922] |D| [display_wait]: vcount: 1
+[14:50:20.939] |D| [display_wait]: vcount: 1
+[14:50:20.939] |D| [display_wait]: vcount: 1
+[14:50:20.956] |D| [display_wait]: vcount: 1
+[14:50:20.956] |D| [display_wait]: vcount: 1
+[14:50:20.973] |D| [display_wait]: vcount: 1
+[14:50:20.973] |D| [display_wait]: vcount: 1
+[14:50:20.990] |D| [display_wait]: vcount: 1
+[14:50:20.990] |D| [display_wait]: vcount: 1
+[14:50:21.007] |D| [display_wait]: vcount: 1
+[14:50:21.007] |D| [display_wait]: vcount: 1
+[14:50:21.024] |D| [display_wait]: vcount: 1
+[14:50:21.024] |D| [display_wait]: vcount: 1
+[14:50:21.041] |D| [display_wait]: vcount: 1
+[14:50:21.041] |D| [display_wait]: vcount: 1
+[14:50:21.058] |D| [display_wait]: vcount: 1
+[14:50:21.058] |D| [display_wait]: vcount: 1
+[14:50:21.075] |D| [display_wait]: vcount: 1
+[14:50:21.075] |D| [display_wait]: vcount: 1
+[14:50:21.092] |D| [display_wait]: vcount: 1
+[14:50:21.092] |D| [display_wait]: vcount: 1
+[14:50:21.109] |D| [display_wait]: vcount: 1
+[14:50:21.109] |D| [display_wait]: vcount: 1
+[14:50:21.126] |D| [display_wait]: vcount: 1
+[14:50:21.126] |D| [display_wait]: vcount: 1
+[14:50:21.143] |D| [display_wait]: vcount: 1
+[14:50:21.143] |D| [display_wait]: vcount: 1
+[14:50:21.160] |D| [display_wait]: vcount: 1
+[14:50:21.160] |D| [display_wait]: vcount: 1
+[14:50:21.177] |D| [display_wait]: vcount: 1
+[14:50:21.177] |D| [display_wait]: vcount: 1
+[14:50:21.194] |D| [display_wait]: vcount: 1
+[14:50:21.194] |D| [display_wait]: vcount: 1
+[14:50:21.211] |D| [display_wait]: vcount: 1
+[14:50:21.211] |D| [display_wait]: vcount: 1
+[14:50:21.228] |D| [display_wait]: vcount: 1
+[14:50:21.228] |D| [display_wait]: vcount: 1
+[14:50:21.245] |D| [display_wait]: vcount: 1
+[14:50:21.245] |D| [display_wait]: vcount: 1
+[14:50:21.262] |D| [display_wait]: vcount: 1
+[14:50:21.262] |D| [display_wait]: vcount: 1
+[14:50:21.279] |D| [display_wait]: vcount: 1
+[14:50:21.279] |D| [display_wait]: vcount: 1
+[14:50:21.296] |D| [display_wait]: vcount: 1
+[14:50:21.296] |D| [display_wait]: vcount: 1
+[14:50:21.313] |D| [display_wait]: vcount: 1
+[14:50:21.313] |D| [display_wait]: vcount: 1
+[14:50:21.330] |D| [display_wait]: vcount: 1
+[14:50:21.330] |D| [display_wait]: vcount: 1
+[14:50:21.347] |D| [display_wait]: vcount: 1
+[14:50:21.347] |D| [display_wait]: vcount: 1
+[14:50:21.364] |D| [display_wait]: vcount: 1
+[14:50:21.364] |D| [display_wait]: vcount: 1
+[14:50:21.381] |D| [display_wait]: vcount: 1
+[14:50:21.381] |D| [display_wait]: vcount: 1
+[14:50:21.398] |D| [display_wait]: vcount: 1
+[14:50:21.398] |D| [display_wait]: vcount: 1
+[14:50:21.415] |D| [display_wait]: vcount: 1
+[14:50:21.415] |D| [display_wait]: vcount: 1
+[14:50:21.432] |D| [display_wait]: vcount: 1
+[14:50:21.432] |D| [display_wait]: vcount: 1
+[14:50:21.449] |D| [display_wait]: vcount: 1
+[14:50:21.449] |D| [display_wait]: vcount: 1
+[14:50:21.466] |D| [display_wait]: vcount: 1
+[14:50:21.466] |D| [display_wait]: vcount: 1
+[14:50:21.483] |D| [display_wait]: vcount: 1
+[14:50:21.483] |D| [display_wait]: vcount: 1
+[14:50:21.500] |D| [display_wait]: vcount: 1
+[14:50:21.500] |D| [display_wait]: vcount: 1
+[14:50:21.517] |D| [display_wait]: vcount: 1
+[14:50:21.517] |D| [display_wait]: vcount: 1
+[14:50:21.534] |D| [display_wait]: vcount: 1
+[14:50:21.534] |D| [display_wait]: vcount: 1
+[14:50:21.551] |D| [display_wait]: vcount: 1
+[14:50:21.551] |D| [display_wait]: vcount: 1
+[14:50:21.568] |D| [display_wait]: vcount: 1
+[14:50:21.585] |D| [display_wait]: vcount: 1
+[14:50:21.602] |D| [display_wait]: vcount: 1
+[14:50:21.619] |D| [display_wait]: vcount: 1
+[14:50:21.636] |D| [display_wait]: vcount: 1
+[14:50:21.653] |D| [display_wait]: vcount: 1
+[14:50:21.670] |D| [display_wait]: vcount: 1
+[14:50:21.687] |D| [display_wait]: vcount: 1
+[14:50:21.704] |D| [display_wait]: vcount: 1
+[14:50:21.721] |D| [display_wait]: vcount: 1
+[14:50:21.738] |D| [display_wait]: vcount: 1
+[14:50:21.755] |D| [display_wait]: vcount: 1
+[14:50:21.772] |D| [display_wait]: vcount: 1
+[14:50:21.789] |D| [display_wait]: vcount: 1
+[14:50:21.806] |D| [display_wait]: vcount: 1
+[14:50:21.823] |D| [display_wait]: vcount: 1
+[14:50:21.824] |D| [display_wait]: vcount: 1
+[14:50:21.840] |D| [display_wait]: vcount: 1
+[14:50:21.840] |D| [display_wait]: vcount: 1
+[14:50:21.857] |D| [display_wait]: vcount: 1
+[14:50:21.857] |D| [display_wait]: vcount: 1
+[14:50:21.874] |D| [display_wait]: vcount: 1
+[14:50:21.874] |D| [display_wait]: vcount: 1
+[14:50:21.891] |D| [display_wait]: vcount: 1
+[14:50:21.891] |D| [display_wait]: vcount: 1
+[14:50:21.908] |D| [display_wait]: vcount: 1
+[14:50:21.908] |D| [display_wait]: vcount: 1
+[14:50:21.925] |D| [display_wait]: vcount: 1
+[14:50:21.925] |D| [display_wait]: vcount: 1
+[14:50:21.942] |D| [display_wait]: vcount: 1
+[14:50:21.942] |D| [display_wait]: vcount: 1
+[14:50:21.959] |D| [display_wait]: vcount: 1
+[14:50:21.959] |D| [display_wait]: vcount: 1
+[14:50:21.976] |D| [display_wait]: vcount: 1
+[14:50:21.976] |D| [display_wait]: vcount: 1
+[14:50:21.993] |D| [display_wait]: vcount: 1
+[14:50:21.993] |D| [display_wait]: vcount: 1
+[14:50:22.010] |D| [display_wait]: vcount: 1
+[14:50:22.010] |D| [display_wait]: vcount: 1
+[14:50:22.027] |D| [display_wait]: vcount: 1
+[14:50:22.027] |D| [display_wait]: vcount: 1
+[14:50:22.044] |D| [display_wait]: vcount: 1
+[14:50:22.044] |D| [display_wait]: vcount: 1
+[14:50:22.061] |D| [display_wait]: vcount: 1
+[14:50:22.061] |D| [display_wait]: vcount: 1
+[14:50:22.078] |D| [display_wait]: vcount: 1
+[14:50:22.078] |D| [display_wait]: vcount: 1
+[14:50:22.095] |D| [display_wait]: vcount: 1
+[14:50:22.095] |D| [display_wait]: vcount: 1
+[14:50:22.112] |D| [display_wait]: vcount: 1
+[14:50:22.112] |D| [display_wait]: vcount: 1
+[14:50:22.129] |D| [display_wait]: vcount: 1
+[14:50:22.129] |D| [display_wait]: vcount: 1
+[14:50:22.146] |D| [display_wait]: vcount: 1
+[14:50:22.146] |D| [display_wait]: vcount: 1
+[14:50:22.163] |D| [display_wait]: vcount: 1
+[14:50:22.163] |D| [display_wait]: vcount: 1
+[14:50:22.180] |D| [display_wait]: vcount: 1
+[14:50:22.180] |D| [display_wait]: vcount: 1
+[14:50:22.197] |D| [display_wait]: vcount: 1
+[14:50:22.197] |D| [display_wait]: vcount: 1
+[14:50:22.214] |D| [display_wait]: vcount: 1
+[14:50:22.214] |D| [display_wait]: vcount: 1
+[14:50:22.231] |D| [display_wait]: vcount: 1
+[14:50:22.231] |D| [display_wait]: vcount: 1
+[14:50:22.248] |D| [display_wait]: vcount: 1
+[14:50:22.248] |D| [display_wait]: vcount: 1
+[14:50:22.265] |D| [display_wait]: vcount: 1
+[14:50:22.265] |D| [display_wait]: vcount: 1
+[14:50:22.282] |D| [display_wait]: vcount: 1
+[14:50:22.282] |D| [display_wait]: vcount: 1
+[14:50:22.299] |D| [display_wait]: vcount: 1
+[14:50:22.299] |D| [display_wait]: vcount: 1
+[14:50:22.316] |D| [display_wait]: vcount: 1
+[14:50:22.316] |D| [display_wait]: vcount: 1
+[14:50:22.333] |D| [display_wait]: vcount: 1
+[14:50:22.333] |D| [display_wait]: vcount: 1
+[14:50:22.350] |D| [display_wait]: vcount: 1
+[14:50:22.350] |D| [display_wait]: vcount: 1
+[14:50:22.367] |D| [display_wait]: vcount: 1
+[14:50:22.367] |D| [display_wait]: vcount: 1
+[14:50:22.384] |D| [display_wait]: vcount: 1
+[14:50:22.384] |D| [display_wait]: vcount: 1
+[14:50:22.401] |D| [display_wait]: vcount: 1
+[14:50:22.401] |D| [display_wait]: vcount: 1
+[14:50:22.418] |D| [display_wait]: vcount: 1
+[14:50:22.418] |D| [display_wait]: vcount: 1
+[14:50:22.435] |D| [display_wait]: vcount: 1
+[14:50:22.435] |D| [display_wait]: vcount: 1
+[14:50:22.452] |D| [display_wait]: vcount: 1
+[14:50:22.452] |D| [display_wait]: vcount: 1
+[14:50:22.469] |D| [display_wait]: vcount: 1
+[14:50:22.469] |D| [display_wait]: vcount: 1
+[14:50:22.486] |D| [display_wait]: vcount: 1
+[14:50:22.486] |D| [display_wait]: vcount: 1
+[14:50:22.503] |D| [display_wait]: vcount: 1
+[14:50:22.503] |D| [display_wait]: vcount: 1
+[14:50:22.520] |D| [display_wait]: vcount: 1
+[14:50:22.520] |D| [display_wait]: vcount: 1
+[14:50:22.537] |D| [display_wait]: vcount: 1
+[14:50:22.537] |D| [display_wait]: vcount: 1
+[14:50:22.554] |D| [display_wait]: vcount: 1
+[14:50:22.554] |D| [display_wait]: vcount: 1
+[14:50:22.571] |D| [display_wait]: vcount: 1
+[14:50:22.571] |D| [display_wait]: vcount: 1
+[14:50:22.588] |D| [display_wait]: vcount: 1
+[14:50:22.588] |D| [display_wait]: vcount: 1
+[14:50:22.605] |D| [display_wait]: vcount: 1
+[14:50:22.605] |D| [display_wait]: vcount: 1
+[14:50:22.622] |D| [display_wait]: vcount: 1
+[14:50:22.622] |D| [display_wait]: vcount: 1
+[14:50:22.639] |D| [display_wait]: vcount: 1
+[14:50:22.639] |D| [display_wait]: vcount: 1
+[14:50:22.656] |D| [display_wait]: vcount: 1
+[14:50:22.656] |D| [display_wait]: vcount: 1
+[14:50:22.673] |D| [display_wait]: vcount: 1
+[14:50:22.673] |D| [display_wait]: vcount: 1
+[14:50:22.690] |D| [display_wait]: vcount: 1
+[14:50:22.690] |D| [display_wait]: vcount: 1
+[14:50:22.707] |D| [display_wait]: vcount: 1
+[14:50:22.707] |D| [display_wait]: vcount: 1
+[14:50:22.724] |D| [display_wait]: vcount: 1
+[14:50:22.724] |D| [display_wait]: vcount: 1
+[14:50:22.741] |D| [display_wait]: vcount: 1
+[14:50:22.741] |D| [display_wait]: vcount: 1
+[14:50:22.758] |D| [display_wait]: vcount: 1
+[14:50:22.758] |D| [display_wait]: vcount: 1
+[14:50:22.775] |D| [display_wait]: vcount: 1
+[14:50:22.775] |D| [display_wait]: vcount: 1
+[14:50:22.792] |D| [display_wait]: vcount: 1
+[14:50:22.792] |D| [display_wait]: vcount: 1
+[14:50:22.809] |D| [display_wait]: vcount: 1
+[14:50:22.809] |D| [display_wait]: vcount: 1
+[14:50:22.826] |D| [display_wait]: vcount: 1
+[14:50:22.826] |D| [display_wait]: vcount: 1
+[14:50:22.843] |D| [display_wait]: vcount: 1
+[14:50:22.843] |D| [display_wait]: vcount: 1
+[14:50:22.860] |D| [display_wait]: vcount: 1
+[14:50:22.860] |D| [display_wait]: vcount: 1
+[14:50:22.877] |D| [display_wait]: vcount: 1
+[14:50:22.877] |D| [display_wait]: vcount: 1
+[14:50:22.894] |D| [display_wait]: vcount: 1
+[14:50:22.894] |D| [display_wait]: vcount: 1
+[14:50:22.911] |D| [display_wait]: vcount: 1
+[14:50:22.911] |D| [display_wait]: vcount: 1
+[14:50:22.928] |D| [display_wait]: vcount: 1
+[14:50:22.928] |D| [display_wait]: vcount: 1
+[14:50:22.945] |D| [display_wait]: vcount: 1
+[14:50:22.945] |D| [display_wait]: vcount: 1
+[14:50:22.962] |D| [display_wait]: vcount: 1
+[14:50:22.962] |D| [display_wait]: vcount: 1
+[14:50:22.979] |D| [display_wait]: vcount: 1
+[14:50:22.979] |D| [display_wait]: vcount: 1
+[14:50:22.996] |D| [display_wait]: vcount: 1
+[14:50:22.996] |D| [display_wait]: vcount: 1
+[14:50:23.013] |D| [display_wait]: vcount: 1
+[14:50:23.013] |D| [display_wait]: vcount: 1
+[14:50:23.030] |D| [display_wait]: vcount: 1
+[14:50:23.030] |D| [display_wait]: vcount: 1
+[14:50:23.047] |D| [display_wait]: vcount: 1
+[14:50:23.047] |D| [display_wait]: vcount: 1
+[14:50:23.064] |D| [display_wait]: vcount: 1
+[14:50:23.064] |D| [display_wait]: vcount: 1
+[14:50:23.081] |D| [display_wait]: vcount: 1
+[14:50:23.081] |D| [display_wait]: vcount: 1
+[14:50:23.098] |D| [display_wait]: vcount: 1
+[14:50:23.098] |D| [display_wait]: vcount: 1
+[14:50:23.115] |D| [display_wait]: vcount: 1
+[14:50:23.115] |D| [display_wait]: vcount: 1
+[14:50:23.132] |D| [display_wait]: vcount: 1
+[14:50:23.132] |D| [display_wait]: vcount: 1
+[14:50:23.149] |D| [display_wait]: vcount: 1
+[14:50:23.149] |D| [display_wait]: vcount: 1
+[14:50:23.166] |D| [display_wait]: vcount: 1
+[14:50:23.166] |D| [display_wait]: vcount: 1
+[14:50:23.183] |D| [display_wait]: vcount: 1
+[14:50:23.183] |D| [display_wait]: vcount: 1
+[14:50:23.200] |D| [display_wait]: vcount: 1
+[14:50:23.200] |D| [display_wait]: vcount: 1
+[14:50:23.217] |D| [display_wait]: vcount: 1
+[14:50:23.217] |D| [display_wait]: vcount: 1
+[14:50:23.234] |D| [display_wait]: vcount: 1
+[14:50:23.234] |D| [display_wait]: vcount: 1
+[14:50:23.251] |D| [display_wait]: vcount: 1
+[14:50:23.251] |D| [display_wait]: vcount: 1
+[14:50:23.268] |D| [display_wait]: vcount: 1
+[14:50:23.268] |D| [display_wait]: vcount: 1
+[14:50:23.285] |D| [display_wait]: vcount: 1
+[14:50:23.285] |D| [display_wait]: vcount: 1
+[14:50:23.302] |D| [display_wait]: vcount: 1
+[14:50:23.302] |D| [display_wait]: vcount: 1
+[14:50:23.319] |D| [display_wait]: vcount: 1
+[14:50:23.319] |D| [display_wait]: vcount: 1
+[14:50:23.336] |D| [display_wait]: vcount: 1
+[14:50:23.336] |D| [display_wait]: vcount: 1
+[14:50:23.353] |D| [display_wait]: vcount: 1
+[14:50:23.353] |D| [display_wait]: vcount: 1
+[14:50:23.370] |D| [display_wait]: vcount: 1
+[14:50:23.370] |D| [display_wait]: vcount: 1
+[14:50:23.387] |D| [display_wait]: vcount: 1
+[14:50:23.387] |D| [display_wait]: vcount: 1
+[14:50:23.404] |D| [display_wait]: vcount: 1
+[14:50:23.404] |D| [display_wait]: vcount: 1
+[14:50:23.421] |D| [display_wait]: vcount: 1
+[14:50:23.421] |D| [display_wait]: vcount: 1
+[14:50:23.438] |D| [display_wait]: vcount: 1
+[14:50:23.438] |D| [display_wait]: vcount: 1
+[14:50:23.455] |D| [display_wait]: vcount: 1
+[14:50:23.455] |D| [display_wait]: vcount: 1
+[14:50:23.472] |D| [display_wait]: vcount: 1
+[14:50:23.472] |D| [display_wait]: vcount: 1
+[14:50:23.489] |D| [display_wait]: vcount: 1
+[14:50:23.489] |D| [display_wait]: vcount: 1
+[14:50:23.506] |D| [display_wait]: vcount: 1
+[14:50:23.506] |D| [display_wait]: vcount: 1
+[14:50:23.523] |D| [display_wait]: vcount: 1
+[14:50:23.523] |D| [display_wait]: vcount: 1
+[14:50:23.540] |D| [display_wait]: vcount: 1
+[14:50:23.540] |D| [display_wait]: vcount: 1
+[14:50:23.557] |D| [display_wait]: vcount: 1
+[14:50:23.557] |D| [display_wait]: vcount: 1
+[14:50:23.574] |D| [display_wait]: vcount: 1
+[14:50:23.574] |D| [display_wait]: vcount: 1
+[14:50:23.591] |D| [display_wait]: vcount: 1
+[14:50:23.591] |D| [display_wait]: vcount: 1
+[14:50:23.608] |D| [display_wait]: vcount: 1
+[14:50:23.608] |D| [display_wait]: vcount: 1
+[14:50:23.625] |D| [display_wait]: vcount: 1
+[14:50:23.625] |D| [display_wait]: vcount: 1
+[14:50:23.642] |D| [display_wait]: vcount: 1
+[14:50:23.642] |D| [display_wait]: vcount: 1
+[14:50:23.659] |D| [display_wait]: vcount: 1
+[14:50:23.659] |D| [display_wait]: vcount: 1
+[14:50:23.676] |D| [display_wait]: vcount: 1
+[14:50:23.676] |D| [display_wait]: vcount: 1
+[14:50:23.693] |D| [display_wait]: vcount: 1
+[14:50:23.693] |D| [display_wait]: vcount: 1
+[14:50:23.710] |D| [display_wait]: vcount: 1
+[14:50:23.710] |D| [display_wait]: vcount: 1
+[14:50:23.727] |D| [display_wait]: vcount: 1
+[14:50:23.727] |D| [display_wait]: vcount: 1
+[14:50:23.744] |D| [display_wait]: vcount: 1
+[14:50:23.744] |D| [display_wait]: vcount: 1
+[14:50:23.761] |D| [display_wait]: vcount: 1
+[14:50:23.761] |D| [display_wait]: vcount: 1
+[14:50:23.778] |D| [display_wait]: vcount: 1
+[14:50:23.778] |D| [display_wait]: vcount: 1
+[14:50:23.795] |D| [display_wait]: vcount: 1
+[14:50:23.795] |D| [display_wait]: vcount: 1
+[14:50:23.812] |D| [display_wait]: vcount: 1
+[14:50:23.812] |D| [display_wait]: vcount: 1
+[14:50:23.829] |D| [display_wait]: vcount: 1
+[14:50:23.829] |D| [display_wait]: vcount: 1
+[14:50:23.846] |D| [display_wait]: vcount: 1
+[14:50:23.846] |D| [display_wait]: vcount: 1
+[14:50:23.863] |D| [display_wait]: vcount: 1
+[14:50:23.863] |D| [display_wait]: vcount: 1
+[14:50:23.880] |D| [display_wait]: vcount: 1
+[14:50:23.880] |D| [display_wait]: vcount: 1
+[14:50:23.897] |D| [display_wait]: vcount: 1
+[14:50:23.897] |D| [display_wait]: vcount: 1
+[14:50:23.914] |D| [display_wait]: vcount: 1
+[14:50:23.914] |D| [display_wait]: vcount: 1
+[14:50:23.931] |D| [display_wait]: vcount: 1
+[14:50:23.931] |D| [display_wait]: vcount: 1
+[14:50:23.948] |D| [display_wait]: vcount: 1
+[14:50:23.948] |D| [display_wait]: vcount: 1
+[14:50:23.965] |D| [display_wait]: vcount: 1
+[14:50:23.965] |D| [display_wait]: vcount: 1
+[14:50:23.982] |D| [display_wait]: vcount: 1
+[14:50:23.982] |D| [display_wait]: vcount: 1
+[14:50:23.999] |D| [display_wait]: vcount: 1
+[14:50:23.999] |D| [display_wait]: vcount: 1
+[14:50:24.016] |D| [display_wait]: vcount: 1
+[14:50:24.016] |D| [display_wait]: vcount: 1
+[14:50:24.033] |D| [display_wait]: vcount: 1
+[14:50:24.033] |D| [display_wait]: vcount: 1
+[14:50:24.050] |D| [display_wait]: vcount: 1
+[14:50:24.050] |D| [display_wait]: vcount: 1
+[14:50:24.067] |D| [display_wait]: vcount: 1
+[14:50:24.067] |D| [display_wait]: vcount: 1
+[14:50:24.084] |D| [display_wait]: vcount: 1
+[14:50:24.084] |D| [display_wait]: vcount: 1
+[14:50:24.101] |D| [display_wait]: vcount: 1
+[14:50:24.101] |D| [display_wait]: vcount: 1
+[14:50:24.118] |D| [display_wait]: vcount: 1
+[14:50:24.118] |D| [display_wait]: vcount: 1
+[14:50:24.135] |D| [display_wait]: vcount: 1
+[14:50:24.135] |D| [display_wait]: vcount: 1
+[14:50:24.152] |D| [display_wait]: vcount: 1
+[14:50:24.152] |D| [display_wait]: vcount: 1
+[14:50:24.169] |D| [display_wait]: vcount: 1
+[14:50:24.169] |D| [display_wait]: vcount: 1
+[14:50:24.186] |D| [display_wait]: vcount: 1
+[14:50:24.186] |D| [display_wait]: vcount: 1
+[14:50:24.203] |D| [display_wait]: vcount: 1
+[14:50:24.203] |D| [display_wait]: vcount: 1
+[14:50:24.220] |D| [display_wait]: vcount: 1
+[14:50:24.220] |D| [display_wait]: vcount: 1
+[14:50:24.237] |D| [display_wait]: vcount: 1
+[14:50:24.237] |D| [display_wait]: vcount: 1
+[14:50:24.254] |D| [display_wait]: vcount: 1
+[14:50:24.254] |D| [display_wait]: vcount: 1
+[14:50:24.271] |D| [display_wait]: vcount: 1
+[14:50:24.271] |D| [display_wait]: vcount: 1
+[14:50:24.288] |D| [display_wait]: vcount: 1
+[14:50:24.288] |D| [display_wait]: vcount: 1
+[14:50:24.305] |D| [display_wait]: vcount: 1
+[14:50:24.305] |D| [display_wait]: vcount: 1
+[14:50:24.322] |D| [display_wait]: vcount: 1
+[14:50:24.322] |D| [display_wait]: vcount: 1
+[14:50:24.339] |D| [display_wait]: vcount: 1
+[14:50:24.339] |D| [display_wait]: vcount: 1
+[14:50:24.356] |D| [display_wait]: vcount: 1
+[14:50:24.356] |D| [display_wait]: vcount: 1
+[14:50:24.373] |D| [display_wait]: vcount: 1
+[14:50:24.373] |D| [display_wait]: vcount: 1
+[14:50:24.390] |D| [display_wait]: vcount: 1
+[14:50:24.390] |D| [display_wait]: vcount: 1
+[14:50:24.407] |D| [display_wait]: vcount: 1
+[14:50:24.407] |D| [display_wait]: vcount: 1
+[14:50:24.424] |D| [display_wait]: vcount: 1
+[14:50:24.424] |D| [display_wait]: vcount: 1
+[14:50:24.441] |D| [display_wait]: vcount: 1
+[14:50:24.441] |D| [display_wait]: vcount: 1
+[14:50:24.458] |D| [display_wait]: vcount: 1
+[14:50:24.458] |D| [display_wait]: vcount: 1
+[14:50:24.475] |D| [display_wait]: vcount: 1
+[14:50:24.475] |D| [display_wait]: vcount: 1
+[14:50:24.492] |D| [display_wait]: vcount: 1
+[14:50:24.492] |D| [display_wait]: vcount: 1
+[14:50:24.509] |D| [display_wait]: vcount: 1
+[14:50:24.509] |D| [display_wait]: vcount: 1
+[14:50:24.526] |D| [display_wait]: vcount: 1
+[14:50:24.526] |D| [display_wait]: vcount: 1
+[14:50:24.543] |D| [display_wait]: vcount: 1
+[14:50:24.543] |D| [display_wait]: vcount: 1
+[14:50:24.560] |D| [display_wait]: vcount: 1
+[14:50:24.560] |D| [display_wait]: vcount: 1
+[14:50:24.577] |D| [display_wait]: vcount: 1
+[14:50:24.577] |D| [display_wait]: vcount: 1
+[14:50:24.594] |D| [display_wait]: vcount: 1
+[14:50:24.594] |D| [display_wait]: vcount: 1
+[14:50:24.611] |D| [display_wait]: vcount: 1
+[14:50:24.611] |D| [display_wait]: vcount: 1
+[14:50:24.628] |D| [display_wait]: vcount: 1
+[14:50:24.628] |D| [display_wait]: vcount: 1
+[14:50:24.645] |D| [display_wait]: vcount: 1
+[14:50:24.645] |D| [display_wait]: vcount: 1
+[14:50:24.662] |D| [display_wait]: vcount: 1
+[14:50:24.662] |D| [display_wait]: vcount: 1
+[14:50:24.679] |D| [display_wait]: vcount: 1
+[14:50:24.679] |D| [display_wait]: vcount: 1
+[14:50:24.696] |D| [display_wait]: vcount: 1
+[14:50:24.696] |D| [display_wait]: vcount: 1
+[14:50:24.713] |D| [display_wait]: vcount: 1
+[14:50:24.713] |D| [display_wait]: vcount: 1
+[14:50:24.730] |D| [display_wait]: vcount: 1
+[14:50:24.730] |D| [display_wait]: vcount: 1
+[14:50:24.747] |D| [display_wait]: vcount: 1
+[14:50:24.747] |D| [display_wait]: vcount: 1
+[14:50:24.764] |D| [display_wait]: vcount: 1
+[14:50:24.764] |D| [display_wait]: vcount: 1
+[14:50:24.781] |D| [display_wait]: vcount: 1
+[14:50:24.781] |D| [display_wait]: vcount: 1
+[14:50:24.798] |D| [display_wait]: vcount: 1
+[14:50:24.798] |D| [display_wait]: vcount: 1
+[14:50:24.815] |D| [display_wait]: vcount: 1
+[14:50:24.815] |D| [display_wait]: vcount: 1
+[14:50:24.832] |D| [display_wait]: vcount: 1
+[14:50:24.832] |D| [display_wait]: vcount: 1
+[14:50:24.849] |D| [display_wait]: vcount: 1
+[14:50:24.849] |D| [display_wait]: vcount: 1
+[14:50:24.866] |D| [display_wait]: vcount: 1
+[14:50:24.866] |D| [display_wait]: vcount: 1
+[14:50:24.883] |D| [display_wait]: vcount: 1
+[14:50:24.883] |D| [display_wait]: vcount: 1
+[14:50:24.900] |D| [display_wait]: vcount: 1
+[14:50:24.900] |D| [display_wait]: vcount: 1
+[14:50:24.917] |D| [display_wait]: vcount: 1
+[14:50:24.917] |D| [display_wait]: vcount: 1
+[14:50:24.934] |D| [display_wait]: vcount: 1
+[14:50:24.934] |D| [display_wait]: vcount: 1
+[14:50:24.951] |D| [display_wait]: vcount: 1
+[14:50:24.951] |D| [display_wait]: vcount: 1
+[14:50:24.968] |D| [display_wait]: vcount: 1
+[14:50:24.968] |D| [display_wait]: vcount: 1
+[14:50:24.985] |D| [display_wait]: vcount: 1
+[14:50:24.985] |D| [display_wait]: vcount: 1
+[14:50:25.002] |D| [display_wait]: vcount: 1
+[14:50:25.002] |D| [display_wait]: vcount: 1
+[14:50:25.019] |D| [display_wait]: vcount: 1
+[14:50:25.019] |D| [display_wait]: vcount: 1
+[14:50:25.036] |D| [display_wait]: vcount: 1
+[14:50:25.036] |D| [display_wait]: vcount: 1
+[14:50:25.053] |D| [display_wait]: vcount: 1
+[14:50:25.053] |D| [display_wait]: vcount: 1
+[14:50:25.070] |D| [display_wait]: vcount: 1
+[14:50:25.070] |D| [display_wait]: vcount: 1
+[14:50:25.087] |D| [display_wait]: vcount: 1
+[14:50:25.087] |D| [display_wait]: vcount: 1
+[14:50:25.104] |D| [display_wait]: vcount: 1
+[14:50:25.104] |D| [display_wait]: vcount: 1
+[14:50:25.121] |D| [display_wait]: vcount: 1
+[14:50:25.121] |D| [display_wait]: vcount: 1
+[14:50:25.138] |D| [display_wait]: vcount: 1
+[14:50:25.138] |D| [display_wait]: vcount: 1
+[14:50:25.155] |D| [display_wait]: vcount: 1
+[14:50:25.155] |D| [display_wait]: vcount: 1
+[14:50:25.172] |D| [display_wait]: vcount: 1
+[14:50:25.172] |D| [display_wait]: vcount: 1
+[14:50:25.189] |D| [display_wait]: vcount: 1
+[14:50:25.189] |D| [display_wait]: vcount: 1
+[14:50:25.206] |D| [display_wait]: vcount: 1
+[14:50:25.206] |D| [display_wait]: vcount: 1
+[14:50:25.223] |D| [display_wait]: vcount: 1
+[14:50:25.223] |D| [display_wait]: vcount: 1
+[14:50:25.240] |D| [display_wait]: vcount: 1
+[14:50:25.240] |D| [display_wait]: vcount: 1
+[14:50:25.257] |D| [display_wait]: vcount: 1
+[14:50:25.257] |D| [display_wait]: vcount: 1
+[14:50:25.274] |D| [display_wait]: vcount: 1
+[14:50:25.274] |D| [display_wait]: vcount: 1
+[14:50:25.291] |D| [display_wait]: vcount: 1
+[14:50:25.291] |D| [display_wait]: vcount: 1
+[14:50:25.308] |D| [display_wait]: vcount: 1
+[14:50:25.308] |D| [display_wait]: vcount: 1
+[14:50:25.325] |D| [display_wait]: vcount: 1
+[14:50:25.342] |D| [display_wait]: vcount: 1
+[14:50:25.356] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[14:50:25.357] |W| [unimplemented_impl]: Unimplemented sceGxmSetVertexTexture import called.
+[14:50:25.359] |D| [display_wait]: vcount: 1
+[14:50:25.360] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:25.360] |I| [renderer::gl::load_shader_generic]: Generating frag shader b138308e072ad6c6c00f0e290fdb57ad7873493d49f18113ec9b7995b6fe0c6d
+[14:50:25.361] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
+[14:50:25.361] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) hemisphereLight[32]
+[14:50:25.361] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord7
+[14:50:25.361] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_Color0
+[14:50:25.368] |I| [renderer::gl::load_shader_generic]: Generating vert shader 63619b40ff2a327f6c5943b677f60c2b99f6047ac35f5d630bc28ea409ed9df3
+[14:50:25.369] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
+[14:50:25.369] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_color
+[14:50:25.369] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vin_normal
+[14:50:25.369] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vin_position
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) morphTexSize
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float1) morphWeight[8]
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float1) morphTgt[8]
+[14:50:25.370] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float1) vtxnum
+[14:50:25.371] |D| [shader::usse::USSETranslatorVisitor::vtst]: load_data_type: 5, bits max: 8
+[14:50:25.371] |D| [shader::usse::USSETranslatorVisitor::i16mad]: i16mad
+[14:50:25.372] |E| [shader::usse::USSETranslatorVisitor::smp]: Sampler LOD custom mode not implemented!
+[14:50:25.373] |E| [shader::usse::USSETranslatorVisitor::smp]: Sampler LOD custom mode not implemented!
+[14:50:25.376] |D| [display_wait]: vcount: 1
+[14:50:25.393] |D| [display_wait]: vcount: 1
+[14:50:25.410] |D| [display_wait]: vcount: 1
+[14:50:25.427] |D| [display_wait]: vcount: 1
+[14:50:25.444] |D| [display_wait]: vcount: 1
+[14:50:25.452] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(30) : warning C7050: "internals[0]" might be used before being initialized
+0(30) : warning C7050: "internals[1]" might be used before being initialized
+0(31) : warning C7050: "r[0]" might be used before being initialized
+0(31) : warning C7050: "r[1].x" might be used before being initialized
+0(33) : warning C7050: "idx[0]" might be used before being initialized
+
+Fragment info
+-------------
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+0(26) : warning C7050: "internals[1].w" might be used before being initialized
+
+
+[14:50:25.453] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:25.454] |I| [renderer::gl::load_shader_generic]: Generating frag shader f6ef78b7cf71dafcca7e7b46f7df1b840a2fcda8a917059e8087bbfa40a21236
+[14:50:25.455] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
+[14:50:25.455] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) hemisphereLight[32]
+[14:50:25.455] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord7
+[14:50:25.456] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_Color0
+[14:50:25.461] |D| [display_wait]: vcount: 1
+[14:50:25.463] |I| [renderer::gl::load_shader_generic]: Generating vert shader 5fbb73469a99cd5ab9b351fbcd23b7d98e6499db6654f6a96382a68942952140
+[14:50:25.464] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
+[14:50:25.464] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_color
+[14:50:25.464] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vin_normal
+[14:50:25.465] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vin_position
+[14:50:25.465] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
+[14:50:25.465] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
+[14:50:25.465] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
+[14:50:25.465] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
+[14:50:25.478] |D| [display_wait]: vcount: 1
+[14:50:25.495] |D| [display_wait]: vcount: 1
+[14:50:25.512] |D| [display_wait]: vcount: 1
+[14:50:25.522] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(28) : warning C7050: "internals[0].w" might be used before being initialized
+0(28) : warning C7050: "internals[1].w" might be used before being initialized
+
+Fragment info
+-------------
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+0(26) : warning C7050: "internals[1].w" might be used before being initialized
+
+
+[14:50:25.522] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:25.523] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:25.524] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:25.524] |I| [renderer::gl::load_shader_generic]: Generating frag shader bd8d73f1a25e705fea05baada83c50ffe7a68c2db5fdacb0fb4a22fef1d5fdf7
+[14:50:25.525] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
+[14:50:25.525] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[14:50:25.529] |D| [display_wait]: vcount: 1
+[14:50:25.529] |I| [renderer::gl::load_shader_generic]: Generating vert shader d17a179aa4470ece34dc8f0f2834633de88ae0a2a51d18c21197d4667822dd18
+[14:50:25.530] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
+[14:50:25.530] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_color
+[14:50:25.531] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vin_weights
+[14:50:25.531] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vin_position
+[14:50:25.531] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
+[14:50:25.531] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
+[14:50:25.531] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
+[14:50:25.531] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
+[14:50:25.532] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) bones[200]
+[14:50:25.546] |D| [display_wait]: vcount: 1
+[14:50:25.563] |D| [display_wait]: vcount: 1
+[14:50:25.580] |D| [display_wait]: vcount: 1
+[14:50:25.597] |D| [display_wait]: vcount: 1
+[14:50:25.614] |D| [display_wait]: vcount: 1
+[14:50:25.631] |D| [display_wait]: vcount: 1
+[14:50:25.648] |D| [display_wait]: vcount: 1
+[14:50:25.665] |D| [display_wait]: vcount: 1
+[14:50:25.682] |D| [display_wait]: vcount: 1
+[14:50:25.699] |D| [display_wait]: vcount: 1
+[14:50:25.716] |D| [display_wait]: vcount: 1
+[14:50:25.733] |D| [display_wait]: vcount: 1
+[14:50:25.750] |D| [display_wait]: vcount: 1
+[14:50:25.767] |D| [display_wait]: vcount: 1
+[14:50:25.784] |D| [display_wait]: vcount: 1
+[14:50:25.801] |D| [display_wait]: vcount: 1
+[14:50:25.818] |D| [display_wait]: vcount: 1
+[14:50:25.835] |D| [display_wait]: vcount: 1
+[14:50:25.852] |D| [display_wait]: vcount: 1
+[14:50:25.869] |D| [display_wait]: vcount: 1
+[14:50:25.886] |D| [display_wait]: vcount: 1
+[14:50:25.903] |D| [display_wait]: vcount: 1
+[14:50:25.920] |D| [display_wait]: vcount: 1
+[14:50:25.937] |D| [display_wait]: vcount: 1
+[14:50:25.954] |D| [display_wait]: vcount: 1
+[14:50:25.971] |D| [display_wait]: vcount: 1
+[14:50:25.988] |D| [display_wait]: vcount: 1
+[14:50:26.005] |D| [display_wait]: vcount: 1
+[14:50:26.022] |D| [display_wait]: vcount: 1
+[14:50:26.039] |D| [display_wait]: vcount: 1
+[14:50:26.056] |D| [display_wait]: vcount: 1
+[14:50:26.073] |D| [display_wait]: vcount: 1
+[14:50:26.090] |D| [display_wait]: vcount: 1
+[14:50:26.102] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(29) : warning C7050: "r[0]" might be used before being initialized
+0(29) : warning C7050: "r[1]" might be used before being initialized
+0(29) : warning C7050: "r[2]" might be used before being initialized
+0(29) : warning C7050: "r[3].zw" might be used before being initialized
+0(29) : warning C7050: "r[4].zw" might be used before being initialized
+0(29) : warning C7050: "r[5]" might be used before being initialized
+0(29) : warning C7050: "r[6].zw" might be used before being initialized
+
+Fragment info
+-------------
+0(25) : warning C7050: "internals[1].w" might be used before being initialized
+0(25) : warning C7050: "internals[2].w" might be used before being initialized
+
+
+[14:50:26.104] |I| [renderer::gl::load_shader_generic]: Generating frag shader 329cf0b8ca63592dd825db77718a12e6af06f21ec70ae64076664f9c8639a26b
+[14:50:26.105] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mtlColor[4]
+[14:50:26.105] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) hemisphereLight[32]
+[14:50:26.105] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord7
+[14:50:26.105] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_Color0
+[14:50:26.107] |D| [display_wait]: vcount: 1
+[14:50:26.112] |I| [renderer::gl::load_shader_generic]: Generating vert shader 987f50c0961a8a38446d1b161ed53748a3ddfe4f7a5ea087e48839f899774f89
+[14:50:26.113] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vin_uv0
+[14:50:26.113] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vin_color
+[14:50:26.113] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vin_weights
+[14:50:26.113] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vin_normal
+[14:50:26.113] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) vin_position
+[14:50:26.113] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) localToProj[4]
+[14:50:26.113] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) localToWorld[4]
+[14:50:26.113] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) modcolor
+[14:50:26.113] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) textureMatrix0[4]
+[14:50:26.114] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) bones[200]
+[14:50:26.124] |D| [display_wait]: vcount: 1
+[14:50:26.141] |D| [display_wait]: vcount: 1
+[14:50:26.158] |D| [display_wait]: vcount: 1
+[14:50:26.175] |D| [display_wait]: vcount: 1
+[14:50:26.192] |D| [display_wait]: vcount: 1
+[14:50:26.209] |D| [display_wait]: vcount: 1
+[14:50:26.226] |D| [display_wait]: vcount: 1
+[14:50:26.243] |D| [display_wait]: vcount: 1
+[14:50:26.260] |D| [display_wait]: vcount: 1
+[14:50:26.277] |D| [display_wait]: vcount: 1
+[14:50:26.294] |D| [display_wait]: vcount: 1
+[14:50:26.311] |D| [display_wait]: vcount: 1
+[14:50:26.328] |D| [display_wait]: vcount: 1
+[14:50:26.345] |D| [display_wait]: vcount: 1
+[14:50:26.362] |D| [display_wait]: vcount: 1
+[14:50:26.379] |D| [display_wait]: vcount: 1
+[14:50:26.396] |D| [display_wait]: vcount: 1
+[14:50:26.413] |D| [display_wait]: vcount: 1
+[14:50:26.430] |D| [display_wait]: vcount: 1
+[14:50:26.447] |D| [display_wait]: vcount: 1
+[14:50:26.464] |D| [display_wait]: vcount: 1
+[14:50:26.481] |D| [display_wait]: vcount: 1
+[14:50:26.498] |D| [display_wait]: vcount: 1
+[14:50:26.515] |D| [display_wait]: vcount: 1
+[14:50:26.532] |D| [display_wait]: vcount: 1
+[14:50:26.549] |D| [display_wait]: vcount: 1
+[14:50:26.566] |D| [display_wait]: vcount: 1
+[14:50:26.583] |D| [display_wait]: vcount: 1
+[14:50:26.600] |D| [display_wait]: vcount: 1
+[14:50:26.617] |D| [display_wait]: vcount: 1
+[14:50:26.634] |D| [display_wait]: vcount: 1
+[14:50:26.651] |D| [display_wait]: vcount: 1
+[14:50:26.668] |D| [display_wait]: vcount: 1
+[14:50:26.685] |D| [display_wait]: vcount: 1
+[14:50:26.702] |D| [display_wait]: vcount: 1
+[14:50:26.719] |D| [display_wait]: vcount: 1
+[14:50:26.736] |D| [display_wait]: vcount: 1
+[14:50:26.753] |D| [display_wait]: vcount: 1
+[14:50:26.760] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(30) : warning C7050: "r[0]" might be used before being initialized
+0(30) : warning C7050: "r[1]" might be used before being initialized
+0(30) : warning C7050: "r[2]" might be used before being initialized
+0(30) : warning C7050: "r[3]" might be used before being initialized
+0(30) : warning C7050: "r[4].xy" might be used before being initialized
+0(30) : warning C7050: "r[5].xy" might be used before being initialized
+0(30) : warning C7050: "r[6].zw" might be used before being initialized
+0(29) : warning C7050: "internals[2].w" might be used before being initialized
+
+Fragment info
+-------------
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+0(26) : warning C7050: "internals[1].w" might be used before being initialized
+
+
+[14:50:26.761] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:26.765] |D| [display_wait]: vcount: 1
+[14:50:26.768] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:26.769] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:26.770] |D| [display_wait]: vcount: 1
+[14:50:26.774] |D| [display_wait]: vcount: 1
+[14:50:26.787] |D| [display_wait]: vcount: 1
+[14:50:26.787] |D| [display_wait]: vcount: 1
+[14:50:26.804] |D| [display_wait]: vcount: 1
+[14:50:26.804] |D| [display_wait]: vcount: 1
+[14:50:26.821] |D| [display_wait]: vcount: 1
+[14:50:26.821] |D| [display_wait]: vcount: 1
+[14:50:26.838] |D| [display_wait]: vcount: 1
+[14:50:26.838] |D| [display_wait]: vcount: 1
+[14:50:26.855] |D| [display_wait]: vcount: 1
+[14:50:26.855] |D| [display_wait]: vcount: 1
+[14:50:26.872] |D| [display_wait]: vcount: 1
+[14:50:26.872] |D| [display_wait]: vcount: 1
+[14:50:26.889] |D| [display_wait]: vcount: 1
+[14:50:26.889] |D| [display_wait]: vcount: 1
+[14:50:26.906] |D| [display_wait]: vcount: 1
+[14:50:26.906] |D| [display_wait]: vcount: 1
+[14:50:26.923] |D| [display_wait]: vcount: 1
+[14:50:26.923] |D| [display_wait]: vcount: 1
+[14:50:26.940] |D| [display_wait]: vcount: 1
+[14:50:26.940] |D| [display_wait]: vcount: 1
+[14:50:26.957] |D| [display_wait]: vcount: 1
+[14:50:26.957] |D| [display_wait]: vcount: 1
+[14:50:26.974] |D| [display_wait]: vcount: 1
+[14:50:26.974] |D| [display_wait]: vcount: 1
+[14:50:26.991] |D| [display_wait]: vcount: 1
+[14:50:26.991] |D| [display_wait]: vcount: 1
+[14:50:27.008] |D| [display_wait]: vcount: 1
+[14:50:27.008] |D| [display_wait]: vcount: 1
+[14:50:27.025] |D| [display_wait]: vcount: 1
+[14:50:27.025] |D| [display_wait]: vcount: 1
+[14:50:27.042] |D| [display_wait]: vcount: 1
+[14:50:27.042] |D| [display_wait]: vcount: 1
+[14:50:27.059] |D| [display_wait]: vcount: 1
+[14:50:27.059] |D| [display_wait]: vcount: 1
+[14:50:27.076] |D| [display_wait]: vcount: 1
+[14:50:27.076] |D| [display_wait]: vcount: 1
+[14:50:27.093] |D| [display_wait]: vcount: 1
+[14:50:27.093] |D| [display_wait]: vcount: 1
+[14:50:27.110] |D| [display_wait]: vcount: 1
+[14:50:27.110] |D| [display_wait]: vcount: 1
+[14:50:27.127] |D| [display_wait]: vcount: 1
+[14:50:27.127] |D| [display_wait]: vcount: 1
+[14:50:27.144] |D| [display_wait]: vcount: 1
+[14:50:27.144] |D| [display_wait]: vcount: 1
+[14:50:27.161] |D| [display_wait]: vcount: 1
+[14:50:27.161] |D| [display_wait]: vcount: 1
+[14:50:27.178] |D| [display_wait]: vcount: 1
+[14:50:27.178] |D| [display_wait]: vcount: 1
+[14:50:27.195] |D| [display_wait]: vcount: 1
+[14:50:27.195] |D| [display_wait]: vcount: 1
+[14:50:27.212] |D| [display_wait]: vcount: 1
+[14:50:27.212] |D| [display_wait]: vcount: 1
+[14:50:27.220] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:27.229] |D| [display_wait]: vcount: 1
+[14:50:27.229] |D| [display_wait]: vcount: 1
+[14:50:27.237] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:27.246] |D| [display_wait]: vcount: 1
+[14:50:27.246] |D| [display_wait]: vcount: 1
+[14:50:27.263] |D| [display_wait]: vcount: 1
+[14:50:27.263] |D| [display_wait]: vcount: 1
+[14:50:27.280] |D| [display_wait]: vcount: 1
+[14:50:27.280] |D| [display_wait]: vcount: 1
+[14:50:27.297] |D| [display_wait]: vcount: 1
+[14:50:27.297] |D| [display_wait]: vcount: 1
+[14:50:27.314] |D| [display_wait]: vcount: 1
+[14:50:27.314] |D| [display_wait]: vcount: 1
+[14:50:27.331] |D| [display_wait]: vcount: 1
+[14:50:27.331] |D| [display_wait]: vcount: 1
+[14:50:27.348] |D| [display_wait]: vcount: 1
+[14:50:27.348] |D| [display_wait]: vcount: 1
+[14:50:27.365] |D| [display_wait]: vcount: 1
+[14:50:27.365] |D| [display_wait]: vcount: 1
+[14:50:27.382] |D| [display_wait]: vcount: 1
+[14:50:27.382] |D| [display_wait]: vcount: 1
+[14:50:27.399] |D| [display_wait]: vcount: 1
+[14:50:27.399] |D| [display_wait]: vcount: 1
+[14:50:27.416] |D| [display_wait]: vcount: 1
+[14:50:27.416] |D| [display_wait]: vcount: 1
+[14:50:27.433] |D| [display_wait]: vcount: 1
+[14:50:27.433] |D| [display_wait]: vcount: 1
+[14:50:27.450] |D| [display_wait]: vcount: 1
+[14:50:27.450] |D| [display_wait]: vcount: 1
+[14:50:27.467] |D| [display_wait]: vcount: 1
+[14:50:27.467] |D| [display_wait]: vcount: 1
+[14:50:27.484] |D| [display_wait]: vcount: 1
+[14:50:27.484] |D| [display_wait]: vcount: 1
+[14:50:27.501] |D| [display_wait]: vcount: 1
+[14:50:27.501] |D| [display_wait]: vcount: 1
+[14:50:27.518] |D| [display_wait]: vcount: 1
+[14:50:27.518] |D| [display_wait]: vcount: 1
+[14:50:27.535] |D| [display_wait]: vcount: 1
+[14:50:27.535] |D| [display_wait]: vcount: 1
+[14:50:27.552] |D| [display_wait]: vcount: 1
+[14:50:27.552] |D| [display_wait]: vcount: 1
+[14:50:27.569] |D| [display_wait]: vcount: 1
+[14:50:27.569] |D| [display_wait]: vcount: 1
+[14:50:27.586] |D| [display_wait]: vcount: 1
+[14:50:27.586] |D| [display_wait]: vcount: 1
+[14:50:27.603] |D| [display_wait]: vcount: 1
+[14:50:27.603] |D| [display_wait]: vcount: 1
+[14:50:27.620] |D| [display_wait]: vcount: 1
+[14:50:27.620] |D| [display_wait]: vcount: 1
+[14:50:27.637] |D| [display_wait]: vcount: 1
+[14:50:27.637] |D| [display_wait]: vcount: 1
+[14:50:27.654] |D| [display_wait]: vcount: 1
+[14:50:27.654] |D| [display_wait]: vcount: 1
+[14:50:27.671] |D| [display_wait]: vcount: 1
+[14:50:27.671] |D| [display_wait]: vcount: 1
+[14:50:27.688] |D| [display_wait]: vcount: 1
+[14:50:27.688] |D| [display_wait]: vcount: 1
+[14:50:27.705] |D| [display_wait]: vcount: 1
+[14:50:27.705] |D| [display_wait]: vcount: 1
+[14:50:27.722] |D| [display_wait]: vcount: 1
+[14:50:27.722] |D| [display_wait]: vcount: 1
+[14:50:27.739] |D| [display_wait]: vcount: 1
+[14:50:27.739] |D| [display_wait]: vcount: 1
+[14:50:27.756] |D| [display_wait]: vcount: 1
+[14:50:27.756] |D| [display_wait]: vcount: 1
+[14:50:27.773] |D| [display_wait]: vcount: 1
+[14:50:27.773] |D| [display_wait]: vcount: 1
+[14:50:27.790] |D| [display_wait]: vcount: 1
+[14:50:27.790] |D| [display_wait]: vcount: 1
+[14:50:27.807] |D| [display_wait]: vcount: 1
+[14:50:27.807] |D| [display_wait]: vcount: 1
+[14:50:27.824] |D| [display_wait]: vcount: 1
+[14:50:27.824] |D| [display_wait]: vcount: 1
+[14:50:27.841] |D| [display_wait]: vcount: 1
+[14:50:27.841] |D| [display_wait]: vcount: 1
+[14:50:27.858] |D| [display_wait]: vcount: 1
+[14:50:27.858] |D| [display_wait]: vcount: 1
+[14:50:27.875] |D| [display_wait]: vcount: 1
+[14:50:27.875] |D| [display_wait]: vcount: 1
+[14:50:27.892] |D| [display_wait]: vcount: 1
+[14:50:27.892] |D| [display_wait]: vcount: 1
+[14:50:27.909] |D| [display_wait]: vcount: 1
+[14:50:27.909] |D| [display_wait]: vcount: 1
+[14:50:27.926] |D| [display_wait]: vcount: 1
+[14:50:27.926] |D| [display_wait]: vcount: 1
+[14:50:27.943] |D| [display_wait]: vcount: 1
+[14:50:27.943] |D| [display_wait]: vcount: 1
+[14:50:27.960] |D| [display_wait]: vcount: 1
+[14:50:27.960] |D| [display_wait]: vcount: 1
+[14:50:27.977] |D| [display_wait]: vcount: 1
+[14:50:27.977] |D| [display_wait]: vcount: 1
+[14:50:27.994] |D| [display_wait]: vcount: 1
+[14:50:27.994] |D| [display_wait]: vcount: 1
+[14:50:28.011] |D| [display_wait]: vcount: 1
+[14:50:28.011] |D| [display_wait]: vcount: 1
+[14:50:28.028] |D| [display_wait]: vcount: 1
+[14:50:28.028] |D| [display_wait]: vcount: 1
+[14:50:28.045] |D| [display_wait]: vcount: 1
+[14:50:28.045] |D| [display_wait]: vcount: 1
+[14:50:28.062] |D| [display_wait]: vcount: 1
+[14:50:28.062] |D| [display_wait]: vcount: 1
+[14:50:28.079] |D| [display_wait]: vcount: 1
+[14:50:28.079] |D| [display_wait]: vcount: 1
+[14:50:28.096] |D| [display_wait]: vcount: 1
+[14:50:28.096] |D| [display_wait]: vcount: 1
+[14:50:28.113] |D| [display_wait]: vcount: 1
+[14:50:28.113] |D| [display_wait]: vcount: 1
+[14:50:28.130] |D| [display_wait]: vcount: 1
+[14:50:28.130] |D| [display_wait]: vcount: 1
+[14:50:28.147] |D| [display_wait]: vcount: 1
+[14:50:28.147] |D| [display_wait]: vcount: 1
+[14:50:28.164] |D| [display_wait]: vcount: 1
+[14:50:28.164] |D| [display_wait]: vcount: 1
+[14:50:28.181] |D| [display_wait]: vcount: 1
+[14:50:28.181] |D| [display_wait]: vcount: 1
+[14:50:28.198] |D| [display_wait]: vcount: 1
+[14:50:28.198] |D| [display_wait]: vcount: 1
+[14:50:28.215] |D| [display_wait]: vcount: 1
+[14:50:28.215] |D| [display_wait]: vcount: 1
+[14:50:28.232] |D| [display_wait]: vcount: 1
+[14:50:28.232] |D| [display_wait]: vcount: 1
+[14:50:28.249] |D| [display_wait]: vcount: 1
+[14:50:28.249] |D| [display_wait]: vcount: 1
+[14:50:28.266] |D| [display_wait]: vcount: 1
+[14:50:28.266] |D| [display_wait]: vcount: 1
+[14:50:28.283] |D| [display_wait]: vcount: 1
+[14:50:28.283] |D| [display_wait]: vcount: 1
+[14:50:28.300] |D| [display_wait]: vcount: 1
+[14:50:28.300] |D| [display_wait]: vcount: 1
+[14:50:28.317] |D| [display_wait]: vcount: 1
+[14:50:28.317] |D| [display_wait]: vcount: 1
+[14:50:28.334] |D| [display_wait]: vcount: 1
+[14:50:28.334] |D| [display_wait]: vcount: 1
+[14:50:28.351] |D| [display_wait]: vcount: 1
+[14:50:28.351] |D| [display_wait]: vcount: 1
+[14:50:28.368] |D| [display_wait]: vcount: 1
+[14:50:28.368] |D| [display_wait]: vcount: 1
+[14:50:28.385] |D| [display_wait]: vcount: 1
+[14:50:28.385] |D| [display_wait]: vcount: 1
+[14:50:28.402] |D| [display_wait]: vcount: 1
+[14:50:28.402] |D| [display_wait]: vcount: 1
+[14:50:28.419] |D| [display_wait]: vcount: 1
+[14:50:28.419] |D| [display_wait]: vcount: 1
+[14:50:28.420] |W| [unimplemented_impl]: Unimplemented sceKernelLibcMktime import called.
+[14:50:28.427] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:28.428] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:28.428] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:28.429] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:28.436] |D| [display_wait]: vcount: 1
+[14:50:28.436] |D| [display_wait]: vcount: 1
+[14:50:28.443] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:28.444] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:28.444] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[14:50:28.453] |D| [display_wait]: vcount: 1
+[14:50:28.453] |D| [display_wait]: vcount: 1
+[14:50:28.470] |D| [display_wait]: vcount: 1
+[14:50:28.470] |D| [display_wait]: vcount: 1
+[14:50:28.487] |D| [display_wait]: vcount: 1
+[14:50:28.487] |D| [display_wait]: vcount: 1
+[14:50:28.504] |D| [display_wait]: vcount: 1
+[14:50:28.504] |D| [display_wait]: vcount: 1
+[14:50:28.521] |D| [display_wait]: vcount: 1
+[14:50:28.521] |D| [display_wait]: vcount: 1
+[14:50:28.538] |D| [display_wait]: vcount: 1
+[14:50:28.538] |D| [display_wait]: vcount: 1
+[14:50:28.555] |D| [display_wait]: vcount: 1
+[14:50:28.555] |D| [display_wait]: vcount: 1
+[14:50:28.572] |D| [display_wait]: vcount: 1
+[14:50:28.572] |D| [display_wait]: vcount: 1
+[14:50:28.589] |D| [display_wait]: vcount: 1
+[14:50:28.589] |D| [display_wait]: vcount: 1
+[14:50:28.606] |D| [display_wait]: vcount: 1
+[14:50:28.606] |D| [display_wait]: vcount: 1
+[14:50:28.623] |D| [display_wait]: vcount: 1
+[14:50:28.623] |D| [display_wait]: vcount: 1
+[14:50:28.640] |D| [display_wait]: vcount: 1
+[14:50:28.640] |D| [display_wait]: vcount: 1
+[14:50:28.657] |D| [display_wait]: vcount: 1
+[14:50:28.657] |D| [display_wait]: vcount: 1
+[14:50:28.674] |D| [display_wait]: vcount: 1
+[14:50:28.674] |D| [display_wait]: vcount: 1
+[14:50:28.691] |D| [display_wait]: vcount: 1
+[14:50:28.691] |D| [display_wait]: vcount: 1
+[14:50:28.708] |D| [display_wait]: vcount: 1
+[14:50:28.708] |D| [display_wait]: vcount: 1
+[14:50:28.725] |D| [display_wait]: vcount: 1
+[14:50:28.725] |D| [display_wait]: vcount: 1
+[14:50:28.742] |D| [display_wait]: vcount: 1
+[14:50:28.742] |D| [display_wait]: vcount: 1
+[14:50:28.759] |D| [display_wait]: vcount: 1
+[14:50:28.759] |D| [display_wait]: vcount: 1
+[14:50:28.776] |D| [display_wait]: vcount: 1
+[14:50:28.776] |D| [display_wait]: vcount: 1
+[14:50:28.793] |D| [display_wait]: vcount: 1
+[14:50:28.793] |D| [display_wait]: vcount: 1
+[14:50:28.810] |D| [display_wait]: vcount: 1
+[14:50:28.810] |D| [display_wait]: vcount: 1
+[14:50:28.827] |D| [display_wait]: vcount: 1
+[14:50:28.827] |D| [display_wait]: vcount: 1
+[14:50:28.844] |D| [display_wait]: vcount: 1
+[14:50:28.844] |D| [display_wait]: vcount: 1
+[14:50:28.861] |D| [display_wait]: vcount: 1
+[14:50:28.861] |D| [display_wait]: vcount: 1
+[14:50:28.878] |D| [display_wait]: vcount: 1
+[14:50:28.878] |D| [display_wait]: vcount: 1
+[14:50:28.895] |D| [display_wait]: vcount: 1
+[14:50:28.895] |D| [display_wait]: vcount: 1
+[14:50:28.912] |D| [display_wait]: vcount: 1
+[14:50:28.912] |D| [display_wait]: vcount: 1
+[14:50:28.929] |D| [display_wait]: vcount: 1
+[14:50:28.929] |D| [display_wait]: vcount: 1
+[14:50:28.946] |D| [display_wait]: vcount: 1
+[14:50:28.946] |D| [display_wait]: vcount: 1
+[14:50:28.963] |D| [display_wait]: vcount: 1
+[14:50:28.963] |D| [display_wait]: vcount: 1
+[14:50:28.980] |D| [display_wait]: vcount: 1
+[14:50:28.980] |D| [display_wait]: vcount: 1
+[14:50:28.997] |D| [display_wait]: vcount: 1
+[14:50:28.997] |D| [display_wait]: vcount: 1
+[14:50:29.014] |D| [display_wait]: vcount: 1
+[14:50:29.014] |D| [display_wait]: vcount: 1
+[14:50:29.031] |D| [display_wait]: vcount: 1
+[14:50:29.031] |D| [display_wait]: vcount: 1
+[14:50:29.048] |D| [display_wait]: vcount: 1
+[14:50:29.048] |D| [display_wait]: vcount: 1
+[14:50:29.065] |D| [display_wait]: vcount: 1
+[14:50:29.065] |D| [display_wait]: vcount: 1
+[14:50:29.082] |D| [display_wait]: vcount: 1
+[14:50:29.082] |D| [display_wait]: vcount: 1
+[14:50:29.099] |D| [display_wait]: vcount: 1
+[14:50:29.099] |D| [display_wait]: vcount: 1
+[14:50:29.116] |D| [display_wait]: vcount: 1
+[14:50:29.116] |D| [display_wait]: vcount: 1
+[14:50:29.133] |D| [display_wait]: vcount: 1
+[14:50:29.133] |D| [display_wait]: vcount: 1
+[14:50:29.150] |D| [display_wait]: vcount: 1
+[14:50:29.150] |D| [display_wait]: vcount: 1
+[14:50:29.167] |D| [display_wait]: vcount: 1
+[14:50:29.167] |D| [display_wait]: vcount: 1
+[14:50:29.184] |D| [display_wait]: vcount: 1
+[14:50:29.184] |D| [display_wait]: vcount: 1
+[14:50:29.201] |D| [display_wait]: vcount: 1
+[14:50:29.201] |D| [display_wait]: vcount: 1
+[14:50:29.218] |D| [display_wait]: vcount: 1
+[14:50:29.218] |D| [display_wait]: vcount: 1
+[14:50:29.235] |D| [display_wait]: vcount: 1
+[14:50:29.235] |D| [display_wait]: vcount: 1
+[14:50:29.252] |D| [display_wait]: vcount: 1
+[14:50:29.252] |D| [display_wait]: vcount: 1
+[14:50:29.269] |D| [display_wait]: vcount: 1
+[14:50:29.269] |D| [display_wait]: vcount: 1
+[14:50:29.277] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:29.286] |D| [display_wait]: vcount: 1
+[14:50:29.286] |D| [display_wait]: vcount: 1
+[14:50:29.294] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:29.303] |D| [display_wait]: vcount: 1
+[14:50:29.303] |D| [display_wait]: vcount: 1
+[14:50:29.320] |D| [display_wait]: vcount: 1
+[14:50:29.320] |D| [display_wait]: vcount: 1
+[14:50:29.337] |D| [display_wait]: vcount: 1
+[14:50:29.337] |D| [display_wait]: vcount: 1
+[14:50:29.354] |D| [display_wait]: vcount: 1
+[14:50:29.354] |D| [display_wait]: vcount: 1
+[14:50:29.371] |D| [display_wait]: vcount: 1
+[14:50:29.371] |D| [display_wait]: vcount: 1
+[14:50:29.388] |D| [display_wait]: vcount: 1
+[14:50:29.388] |D| [display_wait]: vcount: 1
+[14:50:29.405] |D| [display_wait]: vcount: 1
+[14:50:29.405] |D| [display_wait]: vcount: 1
+[14:50:29.422] |D| [display_wait]: vcount: 1
+[14:50:29.422] |D| [display_wait]: vcount: 1
+[14:50:29.439] |D| [display_wait]: vcount: 1
+[14:50:29.439] |D| [display_wait]: vcount: 1
+[14:50:29.456] |D| [display_wait]: vcount: 1
+[14:50:29.456] |D| [display_wait]: vcount: 1
+[14:50:29.473] |D| [display_wait]: vcount: 1
+[14:50:29.473] |D| [display_wait]: vcount: 1
+[14:50:29.490] |D| [display_wait]: vcount: 1
+[14:50:29.490] |D| [display_wait]: vcount: 1
+[14:50:29.507] |D| [display_wait]: vcount: 1
+[14:50:29.507] |D| [display_wait]: vcount: 1
+[14:50:29.524] |D| [display_wait]: vcount: 1
+[14:50:29.524] |D| [display_wait]: vcount: 1
+[14:50:29.541] |D| [display_wait]: vcount: 1
+[14:50:29.541] |D| [display_wait]: vcount: 1
+[14:50:29.558] |D| [display_wait]: vcount: 1
+[14:50:29.558] |D| [display_wait]: vcount: 1
+[14:50:29.575] |D| [display_wait]: vcount: 1
+[14:50:29.575] |D| [display_wait]: vcount: 1
+[14:50:29.592] |D| [display_wait]: vcount: 1
+[14:50:29.592] |D| [display_wait]: vcount: 1
+[14:50:29.609] |D| [display_wait]: vcount: 1
+[14:50:29.609] |D| [display_wait]: vcount: 1
+[14:50:29.626] |D| [display_wait]: vcount: 1
+[14:50:29.626] |D| [display_wait]: vcount: 1
+[14:50:29.643] |D| [display_wait]: vcount: 1
+[14:50:29.643] |D| [display_wait]: vcount: 1
+[14:50:29.660] |D| [display_wait]: vcount: 1
+[14:50:29.660] |D| [display_wait]: vcount: 1
+[14:50:29.677] |D| [display_wait]: vcount: 1
+[14:50:29.677] |D| [display_wait]: vcount: 1
+[14:50:29.694] |D| [display_wait]: vcount: 1
+[14:50:29.694] |D| [display_wait]: vcount: 1
+[14:50:29.711] |D| [display_wait]: vcount: 1
+[14:50:29.711] |D| [display_wait]: vcount: 1
+[14:50:29.728] |D| [display_wait]: vcount: 1
+[14:50:29.728] |D| [display_wait]: vcount: 1
+[14:50:29.745] |D| [display_wait]: vcount: 1
+[14:50:29.745] |D| [display_wait]: vcount: 1
+[14:50:29.762] |D| [display_wait]: vcount: 1
+[14:50:29.762] |D| [display_wait]: vcount: 1
+[14:50:29.779] |D| [display_wait]: vcount: 1
+[14:50:29.779] |D| [display_wait]: vcount: 1
+[14:50:29.796] |D| [display_wait]: vcount: 1
+[14:50:29.796] |D| [display_wait]: vcount: 1
+[14:50:29.813] |D| [display_wait]: vcount: 1
+[14:50:29.813] |D| [display_wait]: vcount: 1
+[14:50:29.830] |D| [display_wait]: vcount: 1
+[14:50:29.830] |D| [display_wait]: vcount: 1
+[14:50:29.847] |D| [display_wait]: vcount: 1
+[14:50:29.847] |D| [display_wait]: vcount: 1
+[14:50:29.864] |D| [display_wait]: vcount: 1
+[14:50:29.864] |D| [display_wait]: vcount: 1
+[14:50:29.881] |D| [display_wait]: vcount: 1
+[14:50:29.881] |D| [display_wait]: vcount: 1
+[14:50:29.898] |D| [display_wait]: vcount: 1
+[14:50:29.898] |D| [display_wait]: vcount: 1
+[14:50:29.915] |D| [display_wait]: vcount: 1
+[14:50:29.915] |D| [display_wait]: vcount: 1
+[14:50:29.932] |D| [display_wait]: vcount: 1
+[14:50:29.932] |D| [display_wait]: vcount: 1
+[14:50:29.949] |D| [display_wait]: vcount: 1
+[14:50:29.949] |D| [display_wait]: vcount: 1
+[14:50:29.966] |D| [display_wait]: vcount: 1
+[14:50:29.966] |D| [display_wait]: vcount: 1
+[14:50:29.983] |D| [display_wait]: vcount: 1
+[14:50:29.983] |D| [display_wait]: vcount: 1
+[14:50:30.000] |D| [display_wait]: vcount: 1
+[14:50:30.000] |D| [display_wait]: vcount: 1
+[14:50:30.017] |D| [display_wait]: vcount: 1
+[14:50:30.017] |D| [display_wait]: vcount: 1
+[14:50:30.034] |D| [display_wait]: vcount: 1
+[14:50:30.034] |D| [display_wait]: vcount: 1
+[14:50:30.051] |D| [display_wait]: vcount: 1
+[14:50:30.051] |D| [display_wait]: vcount: 1
+[14:50:30.068] |D| [display_wait]: vcount: 1
+[14:50:30.068] |D| [display_wait]: vcount: 1
+[14:50:30.085] |D| [display_wait]: vcount: 1
+[14:50:30.085] |D| [display_wait]: vcount: 1
+[14:50:30.102] |D| [display_wait]: vcount: 1
+[14:50:30.102] |D| [display_wait]: vcount: 1
+[14:50:30.119] |D| [display_wait]: vcount: 1
+[14:50:30.119] |D| [display_wait]: vcount: 1
+[14:50:30.136] |D| [display_wait]: vcount: 1
+[14:50:30.136] |D| [display_wait]: vcount: 1
+[14:50:30.153] |D| [display_wait]: vcount: 1
+[14:50:30.153] |D| [display_wait]: vcount: 1
+[14:50:30.170] |D| [display_wait]: vcount: 1
+[14:50:30.170] |D| [display_wait]: vcount: 1
+[14:50:30.187] |D| [display_wait]: vcount: 1
+[14:50:30.187] |D| [display_wait]: vcount: 1
+[14:50:30.204] |D| [display_wait]: vcount: 1
+[14:50:30.204] |D| [display_wait]: vcount: 1
+[14:50:30.221] |D| [display_wait]: vcount: 1
+[14:50:30.221] |D| [display_wait]: vcount: 1
+[14:50:30.238] |D| [display_wait]: vcount: 1
+[14:50:30.238] |D| [display_wait]: vcount: 1
+[14:50:30.255] |D| [display_wait]: vcount: 1
+[14:50:30.255] |D| [display_wait]: vcount: 1
+[14:50:30.272] |D| [display_wait]: vcount: 1
+[14:50:30.272] |D| [display_wait]: vcount: 1
+[14:50:30.289] |D| [display_wait]: vcount: 1
+[14:50:30.289] |D| [display_wait]: vcount: 1
+[14:50:30.306] |D| [display_wait]: vcount: 1
+[14:50:30.306] |D| [display_wait]: vcount: 1
+[14:50:30.323] |D| [display_wait]: vcount: 1
+[14:50:30.323] |D| [display_wait]: vcount: 1
+[14:50:30.340] |D| [display_wait]: vcount: 1
+[14:50:30.340] |D| [display_wait]: vcount: 1
+[14:50:30.357] |D| [display_wait]: vcount: 1
+[14:50:30.357] |D| [display_wait]: vcount: 1
+[14:50:30.374] |D| [display_wait]: vcount: 1
+[14:50:30.374] |D| [display_wait]: vcount: 1
+[14:50:30.391] |D| [display_wait]: vcount: 1
+[14:50:30.391] |D| [display_wait]: vcount: 1
+[14:50:30.408] |D| [display_wait]: vcount: 1
+[14:50:30.408] |D| [display_wait]: vcount: 1
+[14:50:30.425] |D| [display_wait]: vcount: 1
+[14:50:30.425] |D| [display_wait]: vcount: 1
+[14:50:30.442] |D| [display_wait]: vcount: 1
+[14:50:30.442] |D| [display_wait]: vcount: 1
+[14:50:30.459] |D| [display_wait]: vcount: 1
+[14:50:30.459] |D| [display_wait]: vcount: 1
+[14:50:30.476] |D| [display_wait]: vcount: 1
+[14:50:30.476] |D| [display_wait]: vcount: 1
+[14:50:30.493] |D| [display_wait]: vcount: 1
+[14:50:30.493] |D| [display_wait]: vcount: 1
+[14:50:30.510] |D| [display_wait]: vcount: 1
+[14:50:30.510] |D| [display_wait]: vcount: 1
+[14:50:30.527] |D| [display_wait]: vcount: 1
+[14:50:30.527] |D| [display_wait]: vcount: 1
+[14:50:30.544] |D| [display_wait]: vcount: 1
+[14:50:30.544] |D| [display_wait]: vcount: 1
+[14:50:30.561] |D| [display_wait]: vcount: 1
+[14:50:30.561] |D| [display_wait]: vcount: 1
+[14:50:30.578] |D| [display_wait]: vcount: 1
+[14:50:30.578] |D| [display_wait]: vcount: 1
+[14:50:30.595] |D| [display_wait]: vcount: 1
+[14:50:30.595] |D| [display_wait]: vcount: 1
+[14:50:30.612] |D| [display_wait]: vcount: 1
+[14:50:30.612] |D| [display_wait]: vcount: 1
+[14:50:30.629] |D| [display_wait]: vcount: 1
+[14:50:30.629] |D| [display_wait]: vcount: 1
+[14:50:30.646] |D| [display_wait]: vcount: 1
+[14:50:30.646] |D| [display_wait]: vcount: 1
+[14:50:30.663] |D| [display_wait]: vcount: 1
+[14:50:30.663] |D| [display_wait]: vcount: 1
+[14:50:30.680] |D| [display_wait]: vcount: 1
+[14:50:30.680] |D| [display_wait]: vcount: 1
+[14:50:30.697] |D| [display_wait]: vcount: 1
+[14:50:30.697] |D| [display_wait]: vcount: 1
+[14:50:30.714] |D| [display_wait]: vcount: 1
+[14:50:30.714] |D| [display_wait]: vcount: 1
+[14:50:30.731] |D| [display_wait]: vcount: 1
+[14:50:30.731] |D| [display_wait]: vcount: 1
+[14:50:30.748] |D| [display_wait]: vcount: 1
+[14:50:30.748] |D| [display_wait]: vcount: 1
+[14:50:30.765] |D| [display_wait]: vcount: 1
+[14:50:30.765] |D| [display_wait]: vcount: 1
+[14:50:30.782] |D| [display_wait]: vcount: 1
+[14:50:30.782] |D| [display_wait]: vcount: 1
+[14:50:30.799] |D| [display_wait]: vcount: 1
+[14:50:30.799] |D| [display_wait]: vcount: 1
+[14:50:30.816] |D| [display_wait]: vcount: 1
+[14:50:30.816] |D| [display_wait]: vcount: 1
+[14:50:30.833] |D| [display_wait]: vcount: 1
+[14:50:30.833] |D| [display_wait]: vcount: 1
+[14:50:30.850] |D| [display_wait]: vcount: 1
+[14:50:30.850] |D| [display_wait]: vcount: 1
+[14:50:30.867] |D| [display_wait]: vcount: 1
+[14:50:30.867] |D| [display_wait]: vcount: 1
+[14:50:30.884] |D| [display_wait]: vcount: 1
+[14:50:30.884] |D| [display_wait]: vcount: 1
+[14:50:30.901] |D| [display_wait]: vcount: 1
+[14:50:30.901] |D| [display_wait]: vcount: 1
+[14:50:30.918] |D| [display_wait]: vcount: 1
+[14:50:30.918] |D| [display_wait]: vcount: 1
+[14:50:30.935] |D| [display_wait]: vcount: 1
+[14:50:30.935] |D| [display_wait]: vcount: 1
+[14:50:30.952] |D| [display_wait]: vcount: 1
+[14:50:30.952] |D| [display_wait]: vcount: 1
+[14:50:30.969] |D| [display_wait]: vcount: 1
+[14:50:30.969] |D| [display_wait]: vcount: 1
+[14:50:30.986] |D| [display_wait]: vcount: 1
+[14:50:30.986] |D| [display_wait]: vcount: 1
+[14:50:31.003] |D| [display_wait]: vcount: 1
+[14:50:31.003] |D| [display_wait]: vcount: 1
+[14:50:31.020] |D| [display_wait]: vcount: 1
+[14:50:31.020] |D| [display_wait]: vcount: 1
+[14:50:31.037] |D| [display_wait]: vcount: 1
+[14:50:31.037] |D| [display_wait]: vcount: 1
+[14:50:31.054] |D| [display_wait]: vcount: 1
+[14:50:31.054] |D| [display_wait]: vcount: 1
+[14:50:31.071] |D| [display_wait]: vcount: 1
+[14:50:31.071] |D| [display_wait]: vcount: 1
+[14:50:31.088] |D| [display_wait]: vcount: 1
+[14:50:31.088] |D| [display_wait]: vcount: 1
+[14:50:31.105] |D| [display_wait]: vcount: 1
+[14:50:31.105] |D| [display_wait]: vcount: 1
+[14:50:31.122] |D| [display_wait]: vcount: 1
+[14:50:31.122] |D| [display_wait]: vcount: 1
+[14:50:31.139] |D| [display_wait]: vcount: 1
+[14:50:31.139] |D| [display_wait]: vcount: 1
+[14:50:31.156] |D| [display_wait]: vcount: 1
+[14:50:31.156] |D| [display_wait]: vcount: 1
+[14:50:31.173] |D| [display_wait]: vcount: 1
+[14:50:31.173] |D| [display_wait]: vcount: 1
+[14:50:31.190] |D| [display_wait]: vcount: 1
+[14:50:31.190] |D| [display_wait]: vcount: 1
+[14:50:31.207] |D| [display_wait]: vcount: 1
+[14:50:31.207] |D| [display_wait]: vcount: 1
+[14:50:31.224] |D| [display_wait]: vcount: 1
+[14:50:31.224] |D| [display_wait]: vcount: 1
+[14:50:31.241] |D| [display_wait]: vcount: 1
+[14:50:31.241] |D| [display_wait]: vcount: 1
+[14:50:31.258] |D| [display_wait]: vcount: 1
+[14:50:31.258] |D| [display_wait]: vcount: 1
+[14:50:31.275] |D| [display_wait]: vcount: 1
+[14:50:31.275] |D| [display_wait]: vcount: 1
+[14:50:31.292] |D| [display_wait]: vcount: 1
+[14:50:31.292] |D| [display_wait]: vcount: 1
+[14:50:31.309] |D| [display_wait]: vcount: 1
+[14:50:31.309] |D| [display_wait]: vcount: 1
+[14:50:31.326] |D| [display_wait]: vcount: 1
+[14:50:31.326] |D| [display_wait]: vcount: 1
+[14:50:31.343] |D| [display_wait]: vcount: 1
+[14:50:31.343] |D| [display_wait]: vcount: 1
+[14:50:31.360] |D| [display_wait]: vcount: 1
+[14:50:31.360] |D| [display_wait]: vcount: 1
+[14:50:31.377] |D| [display_wait]: vcount: 1
+[14:50:31.377] |D| [display_wait]: vcount: 1
+[14:50:31.394] |D| [display_wait]: vcount: 1
+[14:50:31.394] |D| [display_wait]: vcount: 1
+[14:50:31.411] |D| [display_wait]: vcount: 1
+[14:50:31.411] |D| [display_wait]: vcount: 1
+[14:50:31.428] |D| [display_wait]: vcount: 1
+[14:50:31.428] |D| [display_wait]: vcount: 1
+[14:50:31.445] |D| [display_wait]: vcount: 1
+[14:50:31.445] |D| [display_wait]: vcount: 1
+[14:50:31.462] |D| [display_wait]: vcount: 1
+[14:50:31.462] |D| [display_wait]: vcount: 1
+[14:50:31.479] |D| [display_wait]: vcount: 1
+[14:50:31.479] |D| [display_wait]: vcount: 1
+[14:50:31.496] |D| [display_wait]: vcount: 1
+[14:50:31.496] |D| [display_wait]: vcount: 1
+[14:50:31.513] |D| [display_wait]: vcount: 1
+[14:50:31.513] |D| [display_wait]: vcount: 1
+[14:50:31.530] |D| [display_wait]: vcount: 1
+[14:50:31.530] |D| [display_wait]: vcount: 1
+[14:50:31.547] |D| [display_wait]: vcount: 1
+[14:50:31.547] |D| [display_wait]: vcount: 1
+[14:50:31.564] |D| [display_wait]: vcount: 1
+[14:50:31.564] |D| [display_wait]: vcount: 1
+[14:50:31.581] |D| [display_wait]: vcount: 1
+[14:50:31.581] |D| [display_wait]: vcount: 1
+[14:50:31.598] |D| [display_wait]: vcount: 1
+[14:50:31.598] |D| [display_wait]: vcount: 1
+[14:50:31.615] |D| [display_wait]: vcount: 1
+[14:50:31.615] |D| [display_wait]: vcount: 1
+[14:50:31.632] |D| [display_wait]: vcount: 1
+[14:50:31.632] |D| [display_wait]: vcount: 1
+[14:50:31.649] |D| [display_wait]: vcount: 1
+[14:50:31.649] |D| [display_wait]: vcount: 1
+[14:50:31.666] |D| [display_wait]: vcount: 1
+[14:50:31.666] |D| [display_wait]: vcount: 1
+[14:50:31.683] |D| [display_wait]: vcount: 1
+[14:50:31.683] |D| [display_wait]: vcount: 1
+[14:50:31.700] |D| [display_wait]: vcount: 1
+[14:50:31.700] |D| [display_wait]: vcount: 1
+[14:50:31.717] |D| [display_wait]: vcount: 1
+[14:50:31.717] |D| [display_wait]: vcount: 1
+[14:50:31.724] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[14:50:31.734] |D| [display_wait]: vcount: 1
+[14:50:31.734] |D| [display_wait]: vcount: 1
+[14:50:31.751] |D| [display_wait]: vcount: 1
+[14:50:31.751] |D| [display_wait]: vcount: 1
+[14:50:31.768] |D| [display_wait]: vcount: 1
+[14:50:31.768] |D| [display_wait]: vcount: 1
+[14:50:31.785] |D| [display_wait]: vcount: 1
+[14:50:31.785] |D| [display_wait]: vcount: 1
+[14:50:31.802] |D| [display_wait]: vcount: 1
+[14:50:31.802] |D| [display_wait]: vcount: 1
+[14:50:31.819] |D| [display_wait]: vcount: 1
+[14:50:31.819] |D| [display_wait]: vcount: 1
+[14:50:31.836] |D| [display_wait]: vcount: 1
+[14:50:31.836] |D| [display_wait]: vcount: 1
+[14:50:31.853] |D| [display_wait]: vcount: 1
+[14:50:31.853] |D| [display_wait]: vcount: 1
+[14:50:31.870] |D| [display_wait]: vcount: 1
+[14:50:31.870] |D| [display_wait]: vcount: 1
+[14:50:31.887] |D| [display_wait]: vcount: 1
+[14:50:31.887] |D| [display_wait]: vcount: 1
+[14:50:31.904] |D| [display_wait]: vcount: 1
+[14:50:31.904] |D| [display_wait]: vcount: 1
+[14:50:31.921] |D| [display_wait]: vcount: 1
+[14:50:31.921] |D| [display_wait]: vcount: 1
+[14:50:31.938] |D| [display_wait]: vcount: 1
+[14:50:31.938] |D| [display_wait]: vcount: 1
+[14:50:31.955] |D| [display_wait]: vcount: 1
+[14:50:31.955] |D| [display_wait]: vcount: 1
+[14:50:31.972] |D| [display_wait]: vcount: 1
+[14:50:31.972] |D| [display_wait]: vcount: 1
+[14:50:31.989] |D| [display_wait]: vcount: 1
+[14:50:31.989] |D| [display_wait]: vcount: 1
+[14:50:32.006] |D| [display_wait]: vcount: 1
+[14:50:32.006] |D| [display_wait]: vcount: 1
+[14:50:32.023] |D| [display_wait]: vcount: 1
+[14:50:32.023] |D| [display_wait]: vcount: 1
+[14:50:32.040] |D| [display_wait]: vcount: 1
+[14:50:32.040] |D| [display_wait]: vcount: 1
+[14:50:32.057] |D| [display_wait]: vcount: 1
+[14:50:32.057] |D| [display_wait]: vcount: 1
+[14:50:32.074] |D| [display_wait]: vcount: 1
+[14:50:32.074] |D| [display_wait]: vcount: 1
+[14:50:32.091] |D| [display_wait]: vcount: 1
+[14:50:32.091] |D| [display_wait]: vcount: 1
+[14:50:32.108] |D| [display_wait]: vcount: 1
+[14:50:32.108] |D| [display_wait]: vcount: 1
+[14:50:32.125] |D| [display_wait]: vcount: 1
+[14:50:32.125] |D| [display_wait]: vcount: 1
+[14:50:32.142] |D| [display_wait]: vcount: 1
+[14:50:32.142] |D| [display_wait]: vcount: 1
+[14:50:32.159] |D| [display_wait]: vcount: 1
+[14:50:32.159] |D| [display_wait]: vcount: 1
+[14:50:32.176] |D| [display_wait]: vcount: 1
+[14:50:32.176] |D| [display_wait]: vcount: 1
+[14:50:32.193] |D| [display_wait]: vcount: 1
+[14:50:32.193] |D| [display_wait]: vcount: 1
+[14:50:32.210] |D| [display_wait]: vcount: 1
+[14:50:32.210] |D| [display_wait]: vcount: 1
+[14:50:32.227] |D| [display_wait]: vcount: 1
+[14:50:32.227] |D| [display_wait]: vcount: 1
+[14:50:32.244] |D| [display_wait]: vcount: 1
+[14:50:32.244] |D| [display_wait]: vcount: 1
+[14:50:32.261] |D| [display_wait]: vcount: 1
+[14:50:32.261] |D| [display_wait]: vcount: 1
+[14:50:32.278] |D| [display_wait]: vcount: 1
+[14:50:32.278] |D| [display_wait]: vcount: 1
+[14:50:32.295] |D| [display_wait]: vcount: 1
+[14:50:32.295] |D| [display_wait]: vcount: 1
+[14:50:32.312] |D| [display_wait]: vcount: 1
+[14:50:32.312] |D| [display_wait]: vcount: 1
+[14:50:32.329] |D| [display_wait]: vcount: 1
+[14:50:32.329] |D| [display_wait]: vcount: 1
+[14:50:32.346] |D| [display_wait]: vcount: 1
+[14:50:32.346] |D| [display_wait]: vcount: 1
+[14:50:32.363] |D| [display_wait]: vcount: 1
+[14:50:32.363] |D| [display_wait]: vcount: 1
+[14:50:32.380] |D| [display_wait]: vcount: 1
+[14:50:32.380] |D| [display_wait]: vcount: 1
+[14:50:32.397] |D| [display_wait]: vcount: 1
+[14:50:32.397] |D| [display_wait]: vcount: 1
+[14:50:32.414] |D| [display_wait]: vcount: 1
+[14:50:32.414] |D| [display_wait]: vcount: 1
+[14:50:32.431] |D| [display_wait]: vcount: 1
+[14:50:32.431] |D| [display_wait]: vcount: 1
+[14:50:32.448] |D| [display_wait]: vcount: 1
+[14:50:32.448] |D| [display_wait]: vcount: 1
+[14:50:32.465] |D| [display_wait]: vcount: 1
+[14:50:32.465] |D| [display_wait]: vcount: 1
+[14:50:32.482] |D| [display_wait]: vcount: 1
+[14:50:32.482] |D| [display_wait]: vcount: 1
+[14:50:32.499] |D| [display_wait]: vcount: 1
+[14:50:32.499] |D| [display_wait]: vcount: 1
+[14:50:32.516] |D| [display_wait]: vcount: 1
+[14:50:32.516] |D| [display_wait]: vcount: 1
+[14:50:32.533] |D| [display_wait]: vcount: 1
+[14:50:32.533] |D| [display_wait]: vcount: 1
+[14:50:32.550] |D| [display_wait]: vcount: 1
+[14:50:32.550] |D| [display_wait]: vcount: 1
+[14:50:32.567] |D| [display_wait]: vcount: 1
+[14:50:32.567] |D| [display_wait]: vcount: 1
+[14:50:32.584] |D| [display_wait]: vcount: 1
+[14:50:32.584] |D| [display_wait]: vcount: 1
+[14:50:32.601] |D| [display_wait]: vcount: 1
+[14:50:32.601] |D| [display_wait]: vcount: 1
+[14:50:32.618] |D| [display_wait]: vcount: 1
+[14:50:32.618] |D| [display_wait]: vcount: 1
+[14:50:32.635] |D| [display_wait]: vcount: 1
+[14:50:32.635] |D| [display_wait]: vcount: 1
+[14:50:32.652] |D| [display_wait]: vcount: 1
+[14:50:32.652] |D| [display_wait]: vcount: 1
+[14:50:32.669] |D| [display_wait]: vcount: 1
+[14:50:32.669] |D| [display_wait]: vcount: 1
+[14:50:32.686] |D| [display_wait]: vcount: 1
+[14:50:32.686] |D| [display_wait]: vcount: 1
+[14:50:32.703] |D| [display_wait]: vcount: 1
+[14:50:32.703] |D| [display_wait]: vcount: 1
+[14:50:32.720] |D| [display_wait]: vcount: 1
+[14:50:32.720] |D| [display_wait]: vcount: 1
+[14:50:32.737] |D| [display_wait]: vcount: 1
+[14:50:32.737] |D| [display_wait]: vcount: 1
+[14:50:32.754] |D| [display_wait]: vcount: 1
+[14:50:32.754] |D| [display_wait]: vcount: 1
+[14:50:32.771] |D| [display_wait]: vcount: 1
+[14:50:32.771] |D| [display_wait]: vcount: 1
+[14:50:32.788] |D| [display_wait]: vcount: 1
+[14:50:32.788] |D| [display_wait]: vcount: 1
+[14:50:32.805] |D| [display_wait]: vcount: 1
+[14:50:32.805] |D| [display_wait]: vcount: 1
+[14:50:32.822] |D| [display_wait]: vcount: 1
+[14:50:32.822] |D| [display_wait]: vcount: 1
+[14:50:32.839] |D| [display_wait]: vcount: 1
+[14:50:32.839] |D| [display_wait]: vcount: 1
+[14:50:32.856] |D| [display_wait]: vcount: 1
+[14:50:32.856] |D| [display_wait]: vcount: 1
+[14:50:32.873] |D| [display_wait]: vcount: 1
+[14:50:32.873] |D| [display_wait]: vcount: 1
+[14:50:32.890] |D| [display_wait]: vcount: 1
+[14:50:32.890] |D| [display_wait]: vcount: 1
+[14:50:32.907] |D| [display_wait]: vcount: 1
+[14:50:32.907] |D| [display_wait]: vcount: 1
+[14:50:32.924] |D| [display_wait]: vcount: 1
+[14:50:32.924] |D| [display_wait]: vcount: 1
+[14:50:32.941] |D| [display_wait]: vcount: 1
+[14:50:32.941] |D| [display_wait]: vcount: 1
+[14:50:32.958] |D| [display_wait]: vcount: 1
+[14:50:32.958] |D| [display_wait]: vcount: 1
+[14:50:32.975] |D| [display_wait]: vcount: 1
+[14:50:32.975] |D| [display_wait]: vcount: 1
+[14:50:32.992] |D| [display_wait]: vcount: 1
+[14:50:32.992] |D| [display_wait]: vcount: 1
+[14:50:33.009] |D| [display_wait]: vcount: 1
+[14:50:33.009] |D| [display_wait]: vcount: 1
+[14:50:33.026] |D| [display_wait]: vcount: 1
+[14:50:33.026] |D| [display_wait]: vcount: 1
+[14:50:33.043] |D| [display_wait]: vcount: 1
+[14:50:33.043] |D| [display_wait]: vcount: 1
+[14:50:33.060] |D| [display_wait]: vcount: 1
+[14:50:33.060] |D| [display_wait]: vcount: 1
+[14:50:33.077] |D| [display_wait]: vcount: 1
+[14:50:33.077] |D| [display_wait]: vcount: 1
+[14:50:33.094] |D| [display_wait]: vcount: 1
+[14:50:33.094] |D| [display_wait]: vcount: 1
+[14:50:33.111] |D| [display_wait]: vcount: 1
+[14:50:33.111] |D| [display_wait]: vcount: 1
+[14:50:33.128] |D| [display_wait]: vcount: 1
+[14:50:33.128] |D| [display_wait]: vcount: 1
+[14:50:33.145] |D| [display_wait]: vcount: 1
+[14:50:33.145] |D| [display_wait]: vcount: 1
+[14:50:33.162] |D| [display_wait]: vcount: 1
+[14:50:33.162] |D| [display_wait]: vcount: 1
+[14:50:33.179] |D| [display_wait]: vcount: 1
+[14:50:33.179] |D| [display_wait]: vcount: 1
+[14:50:33.196] |D| [display_wait]: vcount: 1
+[14:50:33.196] |D| [display_wait]: vcount: 1
+[14:50:33.213] |D| [display_wait]: vcount: 1
+[14:50:33.213] |D| [display_wait]: vcount: 1
+[14:50:33.230] |D| [display_wait]: vcount: 1
+[14:50:33.230] |D| [display_wait]: vcount: 1
+[14:50:33.247] |D| [display_wait]: vcount: 1
+[14:50:33.247] |D| [display_wait]: vcount: 1
+[14:50:33.264] |D| [display_wait]: vcount: 1
+[14:50:33.264] |D| [display_wait]: vcount: 1
+[14:50:33.281] |D| [display_wait]: vcount: 1
+[14:50:33.281] |D| [display_wait]: vcount: 1
+[14:50:33.298] |D| [display_wait]: vcount: 1
+[14:50:33.298] |D| [display_wait]: vcount: 1
+[14:50:33.315] |D| [display_wait]: vcount: 1
+[14:50:33.315] |D| [display_wait]: vcount: 1
+[14:50:33.332] |D| [display_wait]: vcount: 1
+[14:50:33.332] |D| [display_wait]: vcount: 1
+[14:50:33.349] |D| [display_wait]: vcount: 1
+[14:50:33.349] |D| [display_wait]: vcount: 1
+[14:50:33.366] |D| [display_wait]: vcount: 1
+[14:50:33.366] |D| [display_wait]: vcount: 1
+[14:50:33.383] |D| [display_wait]: vcount: 1
+[14:50:33.383] |D| [display_wait]: vcount: 1
+[14:50:33.400] |D| [display_wait]: vcount: 1
+[14:50:33.400] |D| [display_wait]: vcount: 1
+[14:50:33.417] |D| [display_wait]: vcount: 1
+[14:50:33.417] |D| [display_wait]: vcount: 1
+[14:50:33.434] |D| [display_wait]: vcount: 1
+[14:50:33.434] |D| [display_wait]: vcount: 1
+[14:50:33.451] |D| [display_wait]: vcount: 1
+[14:50:33.451] |D| [display_wait]: vcount: 1
+[14:50:33.468] |D| [display_wait]: vcount: 1
+[14:50:33.468] |D| [display_wait]: vcount: 1
+[14:50:33.485] |D| [display_wait]: vcount: 1
+[14:50:33.485] |D| [display_wait]: vcount: 1
+[14:50:33.502] |D| [display_wait]: vcount: 1
+[14:50:33.502] |D| [display_wait]: vcount: 1
+[14:50:33.519] |D| [display_wait]: vcount: 1
+[14:50:33.519] |D| [display_wait]: vcount: 1
+[14:50:33.536] |D| [display_wait]: vcount: 1
+[14:50:33.536] |D| [display_wait]: vcount: 1
+[14:50:33.553] |D| [display_wait]: vcount: 1
+[14:50:33.553] |D| [display_wait]: vcount: 1
+[14:50:33.570] |D| [display_wait]: vcount: 1
+[14:50:33.570] |D| [display_wait]: vcount: 1
+[14:50:33.587] |D| [display_wait]: vcount: 1
+[14:50:33.587] |D| [display_wait]: vcount: 1
+[14:50:33.604] |D| [display_wait]: vcount: 1
+[14:50:33.604] |D| [display_wait]: vcount: 1
+[14:50:33.621] |D| [display_wait]: vcount: 1
+[14:50:33.621] |D| [display_wait]: vcount: 1
+[14:50:33.638] |D| [display_wait]: vcount: 1
+[14:50:33.638] |D| [display_wait]: vcount: 1
+[14:50:33.655] |D| [display_wait]: vcount: 1
+[14:50:33.655] |D| [display_wait]: vcount: 1
+[14:50:33.672] |D| [display_wait]: vcount: 1
+[14:50:33.672] |D| [display_wait]: vcount: 1
+[14:50:33.689] |D| [display_wait]: vcount: 1
+[14:50:33.689] |D| [display_wait]: vcount: 1
+[14:50:33.706] |D| [display_wait]: vcount: 1
+[14:50:33.706] |D| [display_wait]: vcount: 1
+[14:50:33.723

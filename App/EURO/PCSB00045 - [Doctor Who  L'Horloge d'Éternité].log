@@ -1,338 +1,1000 @@
-[21:03:12.988] |I| [load_app_impl]: cpu-backend: Dynarmic
-[21:03:12.988] |I| [load_app_impl]: CPU Optimisation state: true
-[21:03:12.988] |I| [load_app_impl]: at9 audio decoder state: false
-[21:03:12.988] |I| [load_app_impl]: ngs experimental state: true
-[21:03:12.989] |I| [load_app_impl]: video player state: true
-[21:03:12.989] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp,libscemp4
-[21:03:12.989] |I| [load_app_impl]: Title: Doctor Who: L'Horloge d'Éternité
-[21:03:12.989] |I| [load_app_impl]: Serial: PCSB00045
-[21:03:12.989] |I| [load_app_impl]: Version: 1.00
-[21:03:12.989] |I| [load_app_impl]: Category: gd
-[21:03:13.021] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[21:03:13.022] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x0004323C / 0x81000000] (size: 0x0003C23C) of module ux0:app\PCSB00045\sce_module\libc.suprx
-[21:03:13.022] |I| [load_self]: Loaded module segment 1 @ [0x00044000 - 0x00046344 / 0x8103D000] (size: 0x00002344) of module ux0:app\PCSB00045\sce_module\libc.suprx
-[21:03:13.023] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00045\sce_module\libc.suprx
-[21:03:13.024] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34D1C
-[21:03:13.024] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x384D4, setting to stub value 0xDEADBEEF
-[21:03:13.026] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00045\sce_module\libc.suprx") loaded
-[21:03:13.032] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[21:03:13.032] |I| [load_self]: Loaded module segment 0 @ [0x00048000 - 0x00069DB8 / 0x81000000] (size: 0x00021DB8) of module ux0:app\PCSB00045\sce_module\libfios2.suprx
-[21:03:13.033] |I| [load_self]: Loaded module segment 1 @ [0x0006A000 - 0x0006F1B4 / 0x81022000] (size: 0x000051B4) of module ux0:app\PCSB00045\sce_module\libfios2.suprx
-[21:03:13.035] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00045\sce_module\libfios2.suprx
-[21:03:13.036] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x638B8
-[21:03:13.037] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00045\sce_module\libfios2.suprx") loaded
-[21:03:13.042] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[21:03:13.042] |I| [load_self]: Loaded module segment 0 @ [0x00070000 - 0x00084044 / 0x81000000] (size: 0x00014044) of module ux0:app\PCSB00045\sce_module\libult.suprx
-[21:03:13.043] |I| [load_self]: Loaded module segment 1 @ [0x00085000 - 0x00085814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSB00045\sce_module\libult.suprx
-[21:03:13.044] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00045\sce_module\libult.suprx
-[21:03:13.045] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x80B40
-[21:03:13.045] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00045\sce_module\libult.suprx") loaded
-[21:03:13.053] |I| [load_self]: Loaded module segment 0 @ [0x00086000 - 0x000D6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[21:03:13.054] |I| [load_self]: Loaded module segment 1 @ [0x000D7000 - 0x000D72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[21:03:13.055] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[21:03:13.056] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC27DC
-[21:03:13.056] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC1F10
-[21:03:13.057] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD6EE0, setting to stub value 0xDEADBEEF
-[21:03:13.059] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[21:03:13.061] |I| [load_self]: Loaded module segment 0 @ [0x000D9000 - 0x000E8F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[21:03:13.062] |I| [load_self]: Loaded module segment 1 @ [0x000E9000 - 0x000E9008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[21:03:13.063] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[21:03:13.063] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE7710
-[21:03:13.064] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE7300
-[21:03:13.064] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[21:03:13.390] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[21:03:13.391] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81F4D6F0 / 0x81000000] (size: 0x00F4D6F0) of module app0:eboot.bin
-[21:03:13.392] |I| [load_self]: Loaded module segment 1 @ [0x81F4E000 - 0x822B696C / 0x81F4E000] (size: 0x0036896C) of module app0:eboot.bin
-[21:03:13.393] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[21:03:13.394] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81D0E014
-[21:03:13.394] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81F8554C
-[21:03:13.395] |I| [load_app_impl]: Main executable SMG010Game_NGP_SHIPPING (eboot.bin) loaded
-[21:03:13.404] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
-[21:03:13.414] |I| [export_sceIoOpen]: Opening file: tty0:
-[21:03:13.415] |I| [export_sceIoOpen]: Opening file: tty0:
-[21:03:13.415] |I| [export_sceIoOpen]: Opening file: tty1:
-[21:03:13.421] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00045\sce_module\libc.suprx") module_start returned 0x0
-[21:03:13.425] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x48001
-[21:03:13.434] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00045\sce_module\libfios2.suprx") module_start returned 0x0
-[21:03:13.439] |D| [run_app]: Running module_start of library: SceUlt at address 0x73B61
-[21:03:13.447] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00045\sce_module\libult.suprx") module_start returned 0x0
-[21:03:14.014] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[21:03:14.014] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[21:03:14.015] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[21:03:14.016] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[21:03:14.017] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
-[21:03:14.021] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[21:03:14.031] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
-[21:03:14.056] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[21:03:14.057] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
-[21:03:14.058] |W| [stubbed_impl]: Stubbed sceKernelWaitLwCondCB import called. (no CB)
-[21:03:14.106] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[21:03:14.106] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayResolveWithRangeSync import called. (Using strncpy)
-[21:03:14.115] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
-[21:03:14.120] |I| [export_sceIoOpen]: Opening file: app0:/SMG010Game/game_data.psarc
-[21:03:14.174] |I| [export_sceIoOpen]: Opening file: app0:/SMG010Game/game_data.psarc
-[21:03:14.767] |E| [stat_file]: Cannot find device for path: /archive/Binaries/EpicInternal.txt
-[21:03:14.768] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:14.772] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[21:03:14.772] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
-[21:03:14.773] |W| [unimplemented_impl]: Unimplemented sceNetResolverCreate import called.
-[21:03:17.483] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[21:03:17.489] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[21:03:17.528] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[21:03:17.608] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Splash/NGP/Splash.tga
-[21:03:17.609] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:17.611] |E| [stat_file]: Cannot find device for path: /archive/Engine/Splash/NGP/Splash.tga
-[21:03:17.611] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:17.612] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[21:03:17.613] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufMulti import called. (move after setframebuf)
-[21:03:17.621] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufCB import called. (move after setframebuf)
-[21:03:18.948] |W| [stubbed_impl]: Stubbed sceGxmTextureInitCube import called. (Stub InitCube)
-[21:03:18.948] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 1, height: 1
-[21:03:20.057] |W| [unimplemented_impl]: Unimplemented sceKernelCloseSema import called.
-[21:03:20.059] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/SMG010Game/Cache)
-[21:03:20.059] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
-[21:03:20.061] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/SMG010Game/Cache)
-[21:03:20.062] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
-[21:03:20.699] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
-[21:03:20.700] |W| [unimplemented_impl]: Unimplemented sceNpTusCreateTitleCtx import called.
-[21:03:20.800] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[21:03:20.801] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
-[21:03:21.270] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Movies/bbc_logo.mp4
-[21:03:21.270] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:21.274] |I| [load_module]: Loading module ID: 0x2D
-[21:03:21.276] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[21:03:21.276] |I| [load_self]: Loaded module segment 0 @ [0x15F47000 - 0x15F56D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
-[21:03:21.277] |I| [load_self]: Loaded module segment 1 @ [0x15F57000 - 0x15F57028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
-[21:03:21.278] |I| [load_self]: Loading symbols for SELF: sys/external/libscemp4.suprx
-[21:03:21.279] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15F569D0
-[21:03:21.280] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x15F558C4
-[21:03:21.280] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
-[21:03:21.368] |W| [unimplemented_impl]: Unimplemented sceKernelGetProcessTitleId import called.
-[21:03:21.374] |E| [call_import]: Import function for NID 0xE341C5F4 not found (thread name: avPlayer Demux, thread ID: 106)
-[21:03:21.383] |W| [unimplemented_impl]: Unimplemented sceClibVprintf import called.
-[21:03:21.384] |I| [export_sceClibPrintf]: 
+[16:39:02.876] |I| [load_app_impl]: cpu-backend: Dynarmic
+[16:39:02.876] |I| [load_app_impl]: CPU Optimisation state: true
+[16:39:02.876] |I| [load_app_impl]: at9 audio decoder state: false
+[16:39:02.877] |I| [load_app_impl]: ngs experimental state: true
+[16:39:02.877] |I| [load_app_impl]: video player state: true
+[16:39:02.877] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp,libscemp4
+[16:39:02.877] |I| [load_app_impl]: Title: Doctor Who: L'Horloge d'Éternité
+[16:39:02.877] |I| [load_app_impl]: Serial: PCSB00045
+[16:39:02.877] |I| [load_app_impl]: Version: 1.00
+[16:39:02.877] |I| [load_app_impl]: Category: gd
+[16:39:02.888] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:39:02.888] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x0004323C / 0x81000000] (size: 0x0003C23C) of module ux0:app\PCSB00045\sce_module\libc.suprx
+[16:39:02.888] |I| [load_self]: Loaded module segment 1 @ [0x00044000 - 0x00046344 / 0x8103D000] (size: 0x00002344) of module ux0:app\PCSB00045\sce_module\libc.suprx
+[16:39:02.888] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00045\sce_module\libc.suprx
+[16:39:02.889] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34D1C
+[16:39:02.889] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x384D4, setting to stub value 0xDEADBEEF
+[16:39:02.889] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00045\sce_module\libc.suprx") loaded
+[16:39:02.895] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:39:02.895] |I| [load_self]: Loaded module segment 0 @ [0x00048000 - 0x00069DB8 / 0x81000000] (size: 0x00021DB8) of module ux0:app\PCSB00045\sce_module\libfios2.suprx
+[16:39:02.895] |I| [load_self]: Loaded module segment 1 @ [0x0006A000 - 0x0006F1B4 / 0x81022000] (size: 0x000051B4) of module ux0:app\PCSB00045\sce_module\libfios2.suprx
+[16:39:02.895] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00045\sce_module\libfios2.suprx
+[16:39:02.895] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x638B8
+[16:39:02.895] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00045\sce_module\libfios2.suprx") loaded
+[16:39:02.899] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:39:02.899] |I| [load_self]: Loaded module segment 0 @ [0x00070000 - 0x00084044 / 0x81000000] (size: 0x00014044) of module ux0:app\PCSB00045\sce_module\libult.suprx
+[16:39:02.899] |I| [load_self]: Loaded module segment 1 @ [0x00085000 - 0x00085814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSB00045\sce_module\libult.suprx
+[16:39:02.899] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00045\sce_module\libult.suprx
+[16:39:02.900] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x80B40
+[16:39:02.900] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00045\sce_module\libult.suprx") loaded
+[16:39:02.906] |I| [load_self]: Loaded module segment 0 @ [0x00086000 - 0x000D6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[16:39:02.907] |I| [load_self]: Loaded module segment 1 @ [0x000D7000 - 0x000D72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[16:39:02.907] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[16:39:02.907] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC27DC
+[16:39:02.907] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC1F10
+[16:39:02.907] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD6EE0, setting to stub value 0xDEADBEEF
+[16:39:02.908] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[16:39:02.910] |I| [load_self]: Loaded module segment 0 @ [0x000D9000 - 0x000E8F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[16:39:02.910] |I| [load_self]: Loaded module segment 1 @ [0x000E9000 - 0x000E9008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[16:39:02.910] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[16:39:02.910] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE7710
+[16:39:02.910] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE7300
+[16:39:02.911] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[16:39:03.196] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:39:03.196] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81F4D6F0 / 0x81000000] (size: 0x00F4D6F0) of module app0:eboot.bin
+[16:39:03.196] |I| [load_self]: Loaded module segment 1 @ [0x81F4E000 - 0x822B696C / 0x81F4E000] (size: 0x0036896C) of module app0:eboot.bin
+[16:39:03.197] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[16:39:03.197] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81D0E014
+[16:39:03.197] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81F8554C
+[16:39:03.197] |I| [load_app_impl]: Main executable SMG010Game_NGP_SHIPPING (eboot.bin) loaded
+[16:39:03.205] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
+[16:39:03.215] |I| [export_sceIoOpen]: Opening file: tty0:
+[16:39:03.215] |I| [export_sceIoOpen]: Opening file: tty0:
+[16:39:03.215] |I| [export_sceIoOpen]: Opening file: tty1:
+[16:39:03.221] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00045\sce_module\libc.suprx") module_start returned 0x0
+[16:39:03.225] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x48001
+[16:39:03.233] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00045\sce_module\libfios2.suprx") module_start returned 0x0
+[16:39:03.237] |D| [run_app]: Running module_start of library: SceUlt at address 0x73B61
+[16:39:03.244] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00045\sce_module\libult.suprx") module_start returned 0x0
+[16:39:03.755] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[16:39:03.756] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[16:39:03.756] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[16:39:03.757] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[16:39:03.757] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[16:39:03.759] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[16:39:03.769] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
+[16:39:03.792] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[16:39:03.792] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[16:39:03.793] |W| [stubbed_impl]: Stubbed sceKernelWaitLwCondCB import called. (no CB)
+[16:39:03.837] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[16:39:03.838] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayResolveWithRangeSync import called. (Using strncpy)
+[16:39:03.846] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[16:39:03.851] |I| [export_sceIoOpen]: Opening file: app0:/SMG010Game/game_data.psarc
+[16:39:03.906] |I| [export_sceIoOpen]: Opening file: app0:/SMG010Game/game_data.psarc
+[16:39:04.460] |E| [stat_file]: Cannot find device for path: /archive/Binaries/EpicInternal.txt
+[16:39:04.460] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:04.464] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[16:39:04.464] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
+[16:39:04.464] |W| [unimplemented_impl]: Unimplemented sceNetResolverCreate import called.
+[16:39:07.050] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[16:39:07.055] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[16:39:07.094] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[16:39:07.207] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Splash/NGP/Splash.tga
+[16:39:07.208] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:07.210] |E| [stat_file]: Cannot find device for path: /archive/Engine/Splash/NGP/Splash.tga
+[16:39:07.210] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:07.210] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[16:39:07.211] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufMulti import called. (move after setframebuf)
+[16:39:07.211] |D| [display_wait]: vcount: 2
+[16:39:07.228] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufCB import called. (move after setframebuf)
+[16:39:07.228] |D| [display_wait]: vcount: 1
+[16:39:08.251] |W| [stubbed_impl]: Stubbed sceGxmTextureInitCube import called. (Stub InitCube)
+[16:39:08.251] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 1, height: 1
+[16:39:09.303] |W| [unimplemented_impl]: Unimplemented sceKernelCloseSema import called.
+[16:39:09.305] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/SMG010Game/Cache)
+[16:39:09.305] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[16:39:09.307] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/SMG010Game/Cache)
+[16:39:09.307] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[16:39:10.012] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
+[16:39:10.012] |W| [unimplemented_impl]: Unimplemented sceNpTusCreateTitleCtx import called.
+[16:39:10.113] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[16:39:10.114] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[16:39:10.603] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Movies/bbc_logo.mp4
+[16:39:10.604] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:10.608] |I| [load_module]: Loading module ID: 0x2D
+[16:39:10.610] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:39:10.611] |I| [load_self]: Loaded module segment 0 @ [0x15F47000 - 0x15F56D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
+[16:39:10.611] |I| [load_self]: Loaded module segment 1 @ [0x15F57000 - 0x15F57028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
+[16:39:10.611] |I| [load_self]: Loading symbols for SELF: sys/external/libscemp4.suprx
+[16:39:10.611] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15F569D0
+[16:39:10.611] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x15F558C4
+[16:39:10.611] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
+[16:39:10.666] |D| [display_wait]: vcount: 2
+[16:39:10.693] |D| [display_wait]: vcount: 1
+[16:39:10.710] |D| [display_wait]: vcount: 2
+[16:39:10.716] |W| [unimplemented_impl]: Unimplemented sceKernelGetProcessTitleId import called.
+[16:39:10.722] |E| [call_import]: Import function for NID 0xE341C5F4 not found (thread name: avPlayer Demux, thread ID: 127)
+[16:39:10.733] |W| [unimplemented_impl]: Unimplemented sceClibVprintf import called.
+[16:39:10.734] |I| [export_sceClibPrintf]: 
 
-[21:03:21.385] |I| [export_sceClibPrintf]: 
+[16:39:10.734] |I| [export_sceClibPrintf]: 
 
-[21:03:21.386] |I| [export_sceClibPrintf]: 
+[16:39:10.734] |I| [export_sceClibPrintf]: 
 
-[21:03:21.387] |I| [export_sceClibPrintf]: 
+[16:39:10.734] |I| [export_sceClibPrintf]: 
 
-[21:03:21.389] |I| [export_sceClibPrintf]: 
+[16:39:10.735] |I| [export_sceClibPrintf]: 
 
-[21:03:21.390] |I| [export_sceClibPrintf]: 
+[16:39:10.735] |I| [export_sceClibPrintf]: 
 
-[21:03:21.392] |I| [export_sceClibPrintf]: 
+[16:39:10.735] |I| [export_sceClibPrintf]: 
 
-[21:03:21.393] |I| [export_sceClibPrintf]: 
+[16:39:10.735] |I| [export_sceClibPrintf]: 
 
-[21:03:21.394] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
-[21:03:21.394] |I| [export_sceClibPrintf]: 
+[16:39:10.735] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[16:39:10.736] |I| [export_sceClibPrintf]: 
 
-[21:03:21.396] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
-[21:03:21.402] |I| [export_sceClibPrintf]: 
+[16:39:10.739] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[16:39:10.744] |D| [display_wait]: vcount: 1
+[16:39:10.745] |I| [export_sceClibPrintf]: 
 
-[21:03:21.403] |I| [export_sceClibPrintf]: 
+[16:39:10.746] |I| [export_sceClibPrintf]: 
 
-[21:03:21.404] |I| [export_sceClibPrintf]: 
+[16:39:10.746] |I| [export_sceClibPrintf]: 
 
-[21:03:21.406] |I| [export_sceClibPrintf]: 
+[16:39:10.746] |I| [export_sceClibPrintf]: 
 
-[21:03:21.407] |I| [export_sceClibPrintf]: 
+[16:39:10.747] |I| [export_sceClibPrintf]: 
 
-[21:03:21.410] |W| [stubbed_impl]: Stubbed sceAudiodecGetContextSize import called. (fake size)
-[21:03:21.411] |D| [export_sceAudiodecCreateDecoderExternal]: sceAudiodecCreateDecoderExternal, codec: 4101
-[21:03:21.411] |W| [stubbed_impl]: Stubbed sceAudiodecCreateDecoderExternal import called. (Hack for LLE MP4)
-[21:03:21.444] |W| [H264DecoderState::receive]: Error receiving H264 frame: 0xFFFFFFF5.
-[21:03:21.445] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Core.bin.uncompressed_size
-[21:03:21.446] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:21.464] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[21:03:21.465] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[21:03:21.466] |W| [stubbed_impl]: Stubbed sceGxmSetVisibilityBuffer import called. (Set all visible)
-[21:03:21.488] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:21.494] |I| [renderer::gl::load_shader_generic]: Generating frag shader b4b1903de3db99ceeac29aa0a0e612cf7c2ef35185146d1f59528ba8347ea19e
-[21:03:21.511] |I| [renderer::gl::load_shader_generic]: Generating vert shader aa47d9ccc24ed0ba4bdfb7d2403f66c3536df794ee13ab1eb6dd9221bb1495d3
-[21:03:21.513] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
-[21:03:21.513] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) UV
-[21:03:21.630] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:21.639] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:21.655] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:21.671] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:21.704] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:21.804] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:21.838] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.100] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Engine.bin.uncompressed_size
-[21:03:22.101] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:22.138] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.171] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.304] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.338] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.371] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.404] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.438] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.471] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.671] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.692] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.738] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.771] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.804] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.838] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:22.938] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.171] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.304] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.338] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.371] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.376] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_GFxUI.bin.uncompressed_size
-[21:03:23.376] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:23.400] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 32, height: 32
-[21:03:23.421] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.422] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_GameFramework.bin.uncompressed_size
-[21:03:23.423] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:23.455] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.542] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_IpDrv.bin.uncompressed_size
-[21:03:23.543] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:23.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.586] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_OnlineSubsystemPC.bin.uncompressed_size
-[21:03:23.587] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:23.602] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_AkAudio.bin.uncompressed_size
-[21:03:23.603] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:23.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.705] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.717] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_SMG010Game.bin.uncompressed_size
-[21:03:23.718] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:23.738] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.771] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.804] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.838] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.871] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.938] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.971] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:23.988] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.038] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.071] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.104] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.138] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.171] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.304] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.338] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.371] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.471] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.704] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.738] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.771] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.804] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.838] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.871] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.904] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.938] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:24.971] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.004] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.038] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.071] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.104] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.138] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.171] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.304] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.338] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.371] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.404] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.438] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.456] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:25.671] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.205] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.304] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.317] |W| [unimplemented_impl]: Unimplemented sceGxmTransferCopy import called.
-[21:03:26.333] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Startup_LOC.bin.uncompressed_size
-[21:03:26.334] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:26.341] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 64, height: 64
-[21:03:26.342] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Startup.bin.uncompressed_size
-[21:03:26.343] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:26.354] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.371] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.382] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 8, height: 8
-[21:03:26.404] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.438] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.471] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.578] |W| [unimplemented_impl]: Unimplemented sceGxmTransferFinish import called.
-[21:03:26.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.647] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_GuidCache.bin.uncompressed_size
-[21:03:26.648] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:26.789] |W| [unimplemented_impl]: Unimplemented sceKernelGetEventFlagInfo import called.
-[21:03:26.821] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:26.831] |W| [unimplemented_impl]: Unimplemented sceKernelCloseEventFlag import called.
-[21:03:26.854] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.154] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.283] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[21:03:27.338] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.430] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.454] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.537] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_World_Persistent.bin.uncompressed_size
-[21:03:27.539] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:27.554] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.588] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.621] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.654] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.671] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.721] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.754] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.821] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:27.954] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.088] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.104] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.154] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.188] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.221] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.521] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.554] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.588] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.605] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.654] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.954] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:28.988] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.021] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.054] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.088] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.121] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.154] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.186] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Audio_Music_Global.bin.uncompressed_size
-[21:03:29.187] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:29.221] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.232] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Audio_Speech_Global.bin.uncompressed_size
-[21:03:29.233] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[21:03:29.288] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.321] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.354] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.421] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.521] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[21:03:29.554] |D| [renderer::gl::texture::tran
+[16:39:10.747] |W| [stubbed_impl]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[16:39:10.748] |D| [export_sceAudiodecCreateDecoderExternal]: sceAudiodecCreateDecoderExternal, codec: 4101
+[16:39:10.748] |W| [stubbed_impl]: Stubbed sceAudiodecCreateDecoderExternal import called. (Hack for LLE MP4)
+[16:39:10.761] |D| [display_wait]: vcount: 2
+[16:39:10.782] |W| [H264DecoderState::receive]: Error receiving H264 frame: 0xFFFFFFF5.
+[16:39:10.795] |D| [display_wait]: vcount: 1
+[16:39:10.799] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[16:39:10.799] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[16:39:10.799] |W| [stubbed_impl]: Stubbed sceGxmSetVisibilityBuffer import called. (Set all visible)
+[16:39:10.812] |D| [display_wait]: vcount: 2
+[16:39:10.817] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Core.bin.uncompressed_size
+[16:39:10.817] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:10.821] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:10.826] |I| [renderer::gl::load_shader_generic]: Generating frag shader b4b1903de3db99ceeac29aa0a0e612cf7c2ef35185146d1f59528ba8347ea19e
+[16:39:10.843] |I| [renderer::gl::load_shader_generic]: Generating vert shader aa47d9ccc24ed0ba4bdfb7d2403f66c3536df794ee13ab1eb6dd9221bb1495d3
+[16:39:10.844] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[16:39:10.845] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) UV
+[16:39:10.846] |D| [display_wait]: vcount: 1
+[16:39:10.945] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:10.954] |D| [display_wait]: vcount: 2
+[16:39:10.955] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:10.982] |D| [display_wait]: vcount: 1
+[16:39:10.999] |D| [display_wait]: vcount: 2
+[16:39:11.033] |D| [display_wait]: vcount: 1
+[16:39:11.050] |D| [display_wait]: vcount: 2
+[16:39:11.071] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.084] |D| [display_wait]: vcount: 1
+[16:39:11.101] |D| [display_wait]: vcount: 2
+[16:39:11.135] |D| [display_wait]: vcount: 1
+[16:39:11.152] |D| [display_wait]: vcount: 2
+[16:39:11.186] |D| [display_wait]: vcount: 1
+[16:39:11.203] |D| [display_wait]: vcount: 2
+[16:39:11.237] |D| [display_wait]: vcount: 1
+[16:39:11.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.254] |D| [display_wait]: vcount: 2
+[16:39:11.288] |D| [display_wait]: vcount: 1
+[16:39:11.305] |D| [display_wait]: vcount: 2
+[16:39:11.339] |D| [display_wait]: vcount: 1
+[16:39:11.356] |D| [display_wait]: vcount: 2
+[16:39:11.390] |D| [display_wait]: vcount: 1
+[16:39:11.407] |D| [display_wait]: vcount: 2
+[16:39:11.422] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Engine.bin.uncompressed_size
+[16:39:11.422] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:11.441] |D| [display_wait]: vcount: 1
+[16:39:11.458] |D| [display_wait]: vcount: 2
+[16:39:11.488] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.492] |D| [display_wait]: vcount: 1
+[16:39:11.509] |D| [display_wait]: vcount: 2
+[16:39:11.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.543] |D| [display_wait]: vcount: 1
+[16:39:11.560] |D| [display_wait]: vcount: 2
+[16:39:11.588] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.594] |D| [display_wait]: vcount: 1
+[16:39:11.611] |D| [display_wait]: vcount: 2
+[16:39:11.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.645] |D| [display_wait]: vcount: 1
+[16:39:11.662] |D| [display_wait]: vcount: 2
+[16:39:11.688] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.696] |D| [display_wait]: vcount: 1
+[16:39:11.713] |D| [display_wait]: vcount: 2
+[16:39:11.738] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.747] |D| [display_wait]: vcount: 1
+[16:39:11.764] |D| [display_wait]: vcount: 2
+[16:39:11.788] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.798] |D| [display_wait]: vcount: 1
+[16:39:11.815] |D| [display_wait]: vcount: 2
+[16:39:11.838] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.849] |D| [display_wait]: vcount: 1
+[16:39:11.866] |D| [display_wait]: vcount: 2
+[16:39:11.888] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.900] |D| [display_wait]: vcount: 1
+[16:39:11.917] |D| [display_wait]: vcount: 2
+[16:39:11.938] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:11.951] |D| [display_wait]: vcount: 1
+[16:39:11.968] |D| [display_wait]: vcount: 2
+[16:39:11.988] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.002] |D| [display_wait]: vcount: 1
+[16:39:12.019] |D| [display_wait]: vcount: 2
+[16:39:12.038] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.053] |D| [display_wait]: vcount: 1
+[16:39:12.070] |D| [display_wait]: vcount: 2
+[16:39:12.104] |D| [display_wait]: vcount: 1
+[16:39:12.104] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.121] |D| [display_wait]: vcount: 2
+[16:39:12.154] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.155] |D| [display_wait]: vcount: 1
+[16:39:12.172] |D| [display_wait]: vcount: 2
+[16:39:12.204] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.206] |D| [display_wait]: vcount: 1
+[16:39:12.223] |D| [display_wait]: vcount: 2
+[16:39:12.257] |D| [display_wait]: vcount: 1
+[16:39:12.274] |D| [display_wait]: vcount: 2
+[16:39:12.304] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.308] |D| [display_wait]: vcount: 1
+[16:39:12.325] |D| [display_wait]: vcount: 2
+[16:39:12.354] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.359] |D| [display_wait]: vcount: 1
+[16:39:12.376] |D| [display_wait]: vcount: 2
+[16:39:12.404] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.410] |D| [display_wait]: vcount: 1
+[16:39:12.427] |D| [display_wait]: vcount: 2
+[16:39:12.461] |D| [display_wait]: vcount: 1
+[16:39:12.478] |D| [display_wait]: vcount: 2
+[16:39:12.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.512] |D| [display_wait]: vcount: 1
+[16:39:12.529] |D| [display_wait]: vcount: 2
+[16:39:12.554] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.563] |D| [display_wait]: vcount: 1
+[16:39:12.580] |D| [display_wait]: vcount: 2
+[16:39:12.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.614] |D| [display_wait]: vcount: 1
+[16:39:12.631] |D| [display_wait]: vcount: 2
+[16:39:12.654] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.665] |D| [display_wait]: vcount: 1
+[16:39:12.682] |D| [display_wait]: vcount: 2
+[16:39:12.704] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.716] |D| [display_wait]: vcount: 1
+[16:39:12.733] |D| [display_wait]: vcount: 2
+[16:39:12.735] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_GFxUI.bin.uncompressed_size
+[16:39:12.735] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:12.751] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 32, height: 32
+[16:39:12.767] |D| [display_wait]: vcount: 1
+[16:39:12.776] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_GameFramework.bin.uncompressed_size
+[16:39:12.776] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:12.787] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.795] |D| [display_wait]: vcount: 2
+[16:39:12.804] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.818] |D| [display_wait]: vcount: 1
+[16:39:12.835] |D| [display_wait]: vcount: 2
+[16:39:12.854] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.869] |D| [display_wait]: vcount: 1
+[16:39:12.886] |D| [display_wait]: vcount: 2
+[16:39:12.890] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_IpDrv.bin.uncompressed_size
+[16:39:12.890] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:12.920] |D| [display_wait]: vcount: 1
+[16:39:12.931] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_OnlineSubsystemPC.bin.uncompressed_size
+[16:39:12.931] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:12.937] |D| [display_wait]: vcount: 2
+[16:39:12.945] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_AkAudio.bin.uncompressed_size
+[16:39:12.946] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:12.971] |D| [display_wait]: vcount: 1
+[16:39:12.971] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:12.988] |D| [display_wait]: vcount: 2
+[16:39:13.021] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.022] |D| [display_wait]: vcount: 1
+[16:39:13.039] |D| [display_wait]: vcount: 2
+[16:39:13.054] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_SMG010Game.bin.uncompressed_size
+[16:39:13.054] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:13.071] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.073] |D| [display_wait]: vcount: 1
+[16:39:13.090] |D| [display_wait]: vcount: 2
+[16:39:13.124] |D| [display_wait]: vcount: 1
+[16:39:13.141] |D| [display_wait]: vcount: 2
+[16:39:13.171] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.175] |D| [display_wait]: vcount: 1
+[16:39:13.192] |D| [display_wait]: vcount: 2
+[16:39:13.221] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.226] |D| [display_wait]: vcount: 1
+[16:39:13.243] |D| [display_wait]: vcount: 2
+[16:39:13.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.277] |D| [display_wait]: vcount: 1
+[16:39:13.294] |D| [display_wait]: vcount: 2
+[16:39:13.321] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.328] |D| [display_wait]: vcount: 1
+[16:39:13.345] |D| [display_wait]: vcount: 2
+[16:39:13.371] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.379] |D| [display_wait]: vcount: 1
+[16:39:13.396] |D| [display_wait]: vcount: 2
+[16:39:13.421] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.430] |D| [display_wait]: vcount: 1
+[16:39:13.447] |D| [display_wait]: vcount: 2
+[16:39:13.471] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.481] |D| [display_wait]: vcount: 1
+[16:39:13.498] |D| [display_wait]: vcount: 2
+[16:39:13.521] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.532] |D| [display_wait]: vcount: 1
+[16:39:13.549] |D| [display_wait]: vcount: 2
+[16:39:13.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.583] |D| [display_wait]: vcount: 1
+[16:39:13.600] |D| [display_wait]: vcount: 2
+[16:39:13.621] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.634] |D| [display_wait]: vcount: 1
+[16:39:13.651] |D| [display_wait]: vcount: 2
+[16:39:13.671] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.685] |D| [display_wait]: vcount: 1
+[16:39:13.702] |D| [display_wait]: vcount: 2
+[16:39:13.721] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.736] |D| [display_wait]: vcount: 1
+[16:39:13.753] |D| [display_wait]: vcount: 2
+[16:39:13.771] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.787] |D| [display_wait]: vcount: 1
+[16:39:13.804] |D| [display_wait]: vcount: 2
+[16:39:13.821] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.838] |D| [display_wait]: vcount: 1
+[16:39:13.855] |D| [display_wait]: vcount: 2
+[16:39:13.888] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.889] |D| [display_wait]: vcount: 1
+[16:39:13.906] |D| [display_wait]: vcount: 2
+[16:39:13.938] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:13.940] |D| [display_wait]: vcount: 1
+[16:39:13.957] |D| [display_wait]: vcount: 2
+[16:39:13.991] |D| [display_wait]: vcount: 1
+[16:39:14.008] |D| [display_wait]: vcount: 2
+[16:39:14.038] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.042] |D| [display_wait]: vcount: 1
+[16:39:14.059] |D| [display_wait]: vcount: 2
+[16:39:14.088] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.093] |D| [display_wait]: vcount: 1
+[16:39:14.110] |D| [display_wait]: vcount: 2
+[16:39:14.138] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.144] |D| [display_wait]: vcount: 1
+[16:39:14.161] |D| [display_wait]: vcount: 2
+[16:39:14.188] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.195] |D| [display_wait]: vcount: 1
+[16:39:14.212] |D| [display_wait]: vcount: 2
+[16:39:14.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.246] |D| [display_wait]: vcount: 1
+[16:39:14.263] |D| [display_wait]: vcount: 2
+[16:39:14.288] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.297] |D| [display_wait]: vcount: 1
+[16:39:14.314] |D| [display_wait]: vcount: 2
+[16:39:14.338] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.348] |D| [display_wait]: vcount: 1
+[16:39:14.365] |D| [display_wait]: vcount: 2
+[16:39:14.388] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.399] |D| [display_wait]: vcount: 1
+[16:39:14.416] |D| [display_wait]: vcount: 2
+[16:39:14.438] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.450] |D| [display_wait]: vcount: 1
+[16:39:14.467] |D| [display_wait]: vcount: 2
+[16:39:14.488] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.501] |D| [display_wait]: vcount: 1
+[16:39:14.518] |D| [display_wait]: vcount: 2
+[16:39:14.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.552] |D| [display_wait]: vcount: 1
+[16:39:14.569] |D| [display_wait]: vcount: 2
+[16:39:14.588] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.603] |D| [display_wait]: vcount: 1
+[16:39:14.620] |D| [display_wait]: vcount: 2
+[16:39:14.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.654] |D| [display_wait]: vcount: 1
+[16:39:14.671] |D| [display_wait]: vcount: 2
+[16:39:14.704] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.705] |D| [display_wait]: vcount: 1
+[16:39:14.722] |D| [display_wait]: vcount: 2
+[16:39:14.754] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.756] |D| [display_wait]: vcount: 1
+[16:39:14.773] |D| [display_wait]: vcount: 2
+[16:39:14.807] |D| [display_wait]: vcount: 1
+[16:39:14.824] |D| [display_wait]: vcount: 2
+[16:39:14.854] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.858] |D| [display_wait]: vcount: 1
+[16:39:14.875] |D| [display_wait]: vcount: 2
+[16:39:14.904] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:14.909] |D| [display_wait]: vcount: 1
+[16:39:14.926] |D| [display_wait]: vcount: 2
+[16:39:14.960] |D| [display_wait]: vcount: 1
+[16:39:14.977] |D| [display_wait]: vcount: 2
+[16:39:15.011] |D| [display_wait]: vcount: 1
+[16:39:15.028] |D| [display_wait]: vcount: 2
+[16:39:15.062] |D| [display_wait]: vcount: 1
+[16:39:15.079] |D| [display_wait]: vcount: 2
+[16:39:15.113] |D| [display_wait]: vcount: 1
+[16:39:15.130] |D| [display_wait]: vcount: 2
+[16:39:15.164] |D| [display_wait]: vcount: 1
+[16:39:15.181] |D| [display_wait]: vcount: 2
+[16:39:15.215] |D| [display_wait]: vcount: 1
+[16:39:15.232] |D| [display_wait]: vcount: 2
+[16:39:15.266] |D| [display_wait]: vcount: 1
+[16:39:15.283] |D| [display_wait]: vcount: 2
+[16:39:15.317] |D| [display_wait]: vcount: 1
+[16:39:15.334] |D| [display_wait]: vcount: 2
+[16:39:15.368] |D| [display_wait]: vcount: 1
+[16:39:15.385] |D| [display_wait]: vcount: 2
+[16:39:15.419] |D| [display_wait]: vcount: 1
+[16:39:15.436] |D| [display_wait]: vcount: 2
+[16:39:15.454] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.470] |D| [display_wait]: vcount: 1
+[16:39:15.487] |D| [display_wait]: vcount: 2
+[16:39:15.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.521] |D| [display_wait]: vcount: 1
+[16:39:15.538] |D| [display_wait]: vcount: 2
+[16:39:15.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.572] |D| [display_wait]: vcount: 1
+[16:39:15.589] |D| [display_wait]: vcount: 2
+[16:39:15.590] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Startup_LOC.bin.uncompressed_size
+[16:39:15.590] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:15.594] |W| [unimplemented_impl]: Unimplemented sceGxmTransferCopy import called.
+[16:39:15.596] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Startup.bin.uncompressed_size
+[16:39:15.596] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:15.601] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 64, height: 64
+[16:39:15.623] |D| [display_wait]: vcount: 1
+[16:39:15.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.641] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 8, height: 8
+[16:39:15.644] |D| [display_wait]: vcount: 2
+[16:39:15.654] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.674] |D| [display_wait]: vcount: 1
+[16:39:15.691] |D| [display_wait]: vcount: 2
+[16:39:15.721] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.725] |D| [display_wait]: vcount: 1
+[16:39:15.742] |D| [display_wait]: vcount: 2
+[16:39:15.771] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.776] |D| [display_wait]: vcount: 1
+[16:39:15.793] |D| [display_wait]: vcount: 2
+[16:39:15.821] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.827] |D| [display_wait]: vcount: 1
+[16:39:15.844] |D| [display_wait]: vcount: 2
+[16:39:15.871] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.878] |D| [display_wait]: vcount: 1
+[16:39:15.895] |D| [display_wait]: vcount: 2
+[16:39:15.921] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:15.929] |D| [display_wait]: vcount: 1
+[16:39:15.930] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_GuidCache.bin.uncompressed_size
+[16:39:15.930] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:15.946] |D| [display_wait]: vcount: 2
+[16:39:15.980] |D| [display_wait]: vcount: 1
+[16:39:15.997] |D| [display_wait]: vcount: 2
+[16:39:15.997] |W| [unimplemented_impl]: Unimplemented sceGxmTransferFinish import called.
+[16:39:16.021] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.031] |D| [display_wait]: vcount: 1
+[16:39:16.046] |W| [unimplemented_impl]: Unimplemented sceKernelGetEventFlagInfo import called.
+[16:39:16.048] |D| [display_wait]: vcount: 2
+[16:39:16.082] |D| [display_wait]: vcount: 1
+[16:39:16.087] |W| [unimplemented_impl]: Unimplemented sceKernelCloseEventFlag import called.
+[16:39:16.099] |D| [display_wait]: vcount: 2
+[16:39:16.133] |D| [display_wait]: vcount: 1
+[16:39:16.160] |D| [display_wait]: vcount: 2
+[16:39:16.184] |D| [display_wait]: vcount: 1
+[16:39:16.201] |D| [display_wait]: vcount: 2
+[16:39:16.221] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.235] |D| [display_wait]: vcount: 1
+[16:39:16.252] |D| [display_wait]: vcount: 2
+[16:39:16.286] |D| [display_wait]: vcount: 1
+[16:39:16.303] |D| [display_wait]: vcount: 2
+[16:39:16.337] |D| [display_wait]: vcount: 1
+[16:39:16.354] |D| [display_wait]: vcount: 2
+[16:39:16.388] |D| [display_wait]: vcount: 1
+[16:39:16.405] |D| [display_wait]: vcount: 2
+[16:39:16.438] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.438] |D| [display_wait]: vcount: 1
+[16:39:16.455] |D| [display_wait]: vcount: 2
+[16:39:16.488] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.489] |D| [display_wait]: vcount: 1
+[16:39:16.506] |D| [display_wait]: vcount: 2
+[16:39:16.538] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.540] |D| [display_wait]: vcount: 1
+[16:39:16.557] |D| [display_wait]: vcount: 2
+[16:39:16.591] |D| [display_wait]: vcount: 1
+[16:39:16.608] |D| [display_wait]: vcount: 2
+[16:39:16.632] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[16:39:16.642] |D| [display_wait]: vcount: 1
+[16:39:16.697] |D| [display_wait]: vcount: 2
+[16:39:16.704] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.727] |D| [display_wait]: vcount: 1
+[16:39:16.740] |I| [gui::set_vsync_state]: V-Sync state: false
+[16:39:16.744] |D| [display_wait]: vcount: 2
+[16:39:16.746] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.778] |D| [display_wait]: vcount: 1
+[16:39:16.795] |D| [display_wait]: vcount: 2
+[16:39:16.807] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.829] |D| [display_wait]: vcount: 1
+[16:39:16.846] |D| [display_wait]: vcount: 2
+[16:39:16.879] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_World_Persistent.bin.uncompressed_size
+[16:39:16.880] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:16.880] |D| [display_wait]: vcount: 1
+[16:39:16.897] |D| [display_wait]: vcount: 2
+[16:39:16.899] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.931] |D| [display_wait]: vcount: 1
+[16:39:16.948] |D| [display_wait]: vcount: 2
+[16:39:16.951] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:16.982] |D| [display_wait]: vcount: 1
+[16:39:16.999] |D| [display_wait]: vcount: 2
+[16:39:17.002] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:17.033] |D| [display_wait]: vcount: 1
+[16:39:17.050] |D| [display_wait]: vcount: 2
+[16:39:17.052] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:17.084] |D| [display_wait]: vcount: 1
+[16:39:17.101] |D| [display_wait]: vcount: 2
+[16:39:17.135] |D| [display_wait]: vcount: 1
+[16:39:17.152] |D| [display_wait]: vcount: 2
+[16:39:17.186] |D| [display_wait]: vcount: 1
+[16:39:17.192] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:17.203] |D| [display_wait]: vcount: 2
+[16:39:17.219] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:17.237] |D| [display_wait]: vcount: 1
+[16:39:17.254] |D| [display_wait]: vcount: 2
+[16:39:17.263] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:17.288] |D| [display_wait]: vcount: 1
+[16:39:17.305] |D| [display_wait]: vcount: 2
+[16:39:17.307] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:17.339] |D| [display_wait]: vcount: 1
+[16:39:17.356] |D| [display_wait]: vcount: 2
+[16:39:17.358] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:17.390] |D| [display_wait]: vcount: 1
+[16:39:17.407] |D| [display_wait]: vcount: 2
+[16:39:17.441] |D| [display_wait]: vcount: 1
+[16:39:17.458] |D| [display_wait]: vcount: 2
+[16:39:17.492] |D| [display_wait]: vcount: 1
+[16:39:17.509] |D| [display_wait]: vcount: 2
+[16:39:17.543] |D| [display_wait]: vcount: 1
+[16:39:17.560] |D| [display_wait]: vcount: 2
+[16:39:17.594] |D| [display_wait]: vcount: 1
+[16:39:17.611] |D| [display_wait]: vcount: 2
+[16:39:17.645] |D| [display_wait]: vcount: 1
+[16:39:17.662] |D| [display_wait]: vcount: 2
+[16:39:17.696] |D| [display_wait]: vcount: 1
+[16:39:17.713] |D| [display_wait]: vcount: 2
+[16:39:17.747] |D| [display_wait]: vcount: 1
+[16:39:17.764] |D| [display_wait]: vcount: 2
+[16:39:17.798] |D| [display_wait]: vcount: 1
+[16:39:17.815] |D| [display_wait]: vcount: 2
+[16:39:17.849] |D| [display_wait]: vcount: 1
+[16:39:17.866] |D| [display_wait]: vcount: 2
+[16:39:17.900] |D| [display_wait]: vcount: 1
+[16:39:17.917] |D| [display_wait]: vcount: 2
+[16:39:17.951] |D| [display_wait]: vcount: 1
+[16:39:17.968] |D| [display_wait]: vcount: 2
+[16:39:18.002] |D| [display_wait]: vcount: 1
+[16:39:18.019] |D| [display_wait]: vcount: 2
+[16:39:18.053] |D| [display_wait]: vcount: 1
+[16:39:18.070] |D| [display_wait]: vcount: 2
+[16:39:18.104] |D| [display_wait]: vcount: 1
+[16:39:18.121] |D| [display_wait]: vcount: 2
+[16:39:18.155] |D| [display_wait]: vcount: 1
+[16:39:18.172] |D| [display_wait]: vcount: 2
+[16:39:18.206] |D| [display_wait]: vcount: 1
+[16:39:18.223] |D| [display_wait]: vcount: 2
+[16:39:18.257] |D| [display_wait]: vcount: 1
+[16:39:18.274] |D| [display_wait]: vcount: 2
+[16:39:18.277] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.308] |D| [display_wait]: vcount: 1
+[16:39:18.325] |D| [display_wait]: vcount: 2
+[16:39:18.329] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.359] |D| [display_wait]: vcount: 1
+[16:39:18.376] |D| [display_wait]: vcount: 2
+[16:39:18.410] |D| [display_wait]: vcount: 1
+[16:39:18.427] |D| [display_wait]: vcount: 2
+[16:39:18.430] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.461] |D| [display_wait]: vcount: 1
+[16:39:18.478] |D| [display_wait]: vcount: 2
+[16:39:18.492] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Audio_Music_Global.bin.uncompressed_size
+[16:39:18.492] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:18.512] |D| [display_wait]: vcount: 1
+[16:39:18.529] |D| [display_wait]: vcount: 2
+[16:39:18.532] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.534] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Audio_Speech_Global.bin.uncompressed_size
+[16:39:18.534] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:18.563] |D| [display_wait]: vcount: 1
+[16:39:18.580] |D| [display_wait]: vcount: 2
+[16:39:18.583] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.614] |D| [display_wait]: vcount: 1
+[16:39:18.631] |D| [display_wait]: vcount: 2
+[16:39:18.665] |D| [display_wait]: vcount: 1
+[16:39:18.682] |D| [display_wait]: vcount: 2
+[16:39:18.685] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.716] |D| [display_wait]: vcount: 1
+[16:39:18.733] |D| [display_wait]: vcount: 2
+[16:39:18.735] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.767] |D| [display_wait]: vcount: 1
+[16:39:18.784] |D| [display_wait]: vcount: 2
+[16:39:18.786] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.818] |D| [display_wait]: vcount: 1
+[16:39:18.835] |D| [display_wait]: vcount: 2
+[16:39:18.837] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.869] |D| [display_wait]: vcount: 1
+[16:39:18.886] |D| [display_wait]: vcount: 2
+[16:39:18.889] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.920] |D| [display_wait]: vcount: 1
+[16:39:18.937] |D| [display_wait]: vcount: 2
+[16:39:18.939] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:18.971] |D| [display_wait]: vcount: 1
+[16:39:18.988] |D| [display_wait]: vcount: 2
+[16:39:18.990] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.022] |D| [display_wait]: vcount: 1
+[16:39:19.039] |D| [display_wait]: vcount: 2
+[16:39:19.073] |D| [display_wait]: vcount: 1
+[16:39:19.090] |D| [display_wait]: vcount: 2
+[16:39:19.093] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.122] |E| [stat_file]: Cannot find device for path: /archive/SMG010Game/Patches/ScriptPatch_Audio_AmbienceBeds_Global.bin.uncompressed_size
+[16:39:19.122] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[16:39:19.124] |D| [display_wait]: vcount: 1
+[16:39:19.141] |D| [display_wait]: vcount: 2
+[16:39:19.143] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.175] |D| [display_wait]: vcount: 1
+[16:39:19.192] |D| [display_wait]: vcount: 2
+[16:39:19.226] |D| [display_wait]: vcount: 1
+[16:39:19.243] |D| [display_wait]: vcount: 2
+[16:39:19.246] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.277] |D| [display_wait]: vcount: 1
+[16:39:19.294] |D| [display_wait]: vcount: 2
+[16:39:19.296] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.328] |D| [display_wait]: vcount: 1
+[16:39:19.345] |D| [display_wait]: vcount: 2
+[16:39:19.348] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.379] |D| [display_wait]: vcount: 1
+[16:39:19.396] |D| [display_wait]: vcount: 2
+[16:39:19.399] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.430] |D| [display_wait]: vcount: 1
+[16:39:19.447] |D| [display_wait]: vcount: 2
+[16:39:19.450] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.481] |D| [display_wait]: vcount: 1
+[16:39:19.498] |D| [display_wait]: vcount: 2
+[16:39:19.500] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[16:39:19.532] |D| [display_wait]: vcount: 1
+[16:39:19.549] |D| [display_wait]: vcount: 2
+[16:39:19.554] |E| [logging::ret_error_impl]: sceKernelWaitEventFlagCB returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[16:39:19.583] |D| [display_wait]: vcount: 1
+[16:39:19.600] |D| [display_wait]: vcount: 2
+[16:39:19.634] |D| [display_wait]: vcount: 1
+[16:39:19.651] |D| [display_wait]: vcount: 2
+[16:39:19.685] |D| [display_wait]: vcount: 1
+[16:39:19.702] |D| [display_wait]: vcount: 2
+[16:39:19.736] |D| [display_wait]: vcount: 1
+[16:39:19.753] |D| [display_wait]: vcount: 2
+[16:39:19.787] |D| [display_wait]: vcount: 1
+[16:39:19.804] |D| [display_wait]: vcount: 2
+[16:39:19.838] |D| [display_wait]: vcount: 1
+[16:39:19.855] |D| [display_wait]: vcount: 2
+[16:39:19.889] |D| [display_wait]: vcount: 1
+[16:39:19.906] |D| [display_wait]: vcount: 2
+[16:39:19.940] |D| [display_wait]: vcount: 1
+[16:39:19.957] |D| [display_wait]: vcount: 2
+[16:39:19.991] |D| [display_wait]: vcount: 1
+[16:39:20.008] |D| [display_wait]: vcount: 2
+[16:39:20.042] |D| [display_wait]: vcount: 1
+[16:39:20.059] |D| [display_wait]: vcount: 2
+[16:39:20.093] |D| [display_wait]: vcount: 1
+[16:39:20.110] |D| [display_wait]: vcount: 2
+[16:39:20.144] |D| [display_wait]: vcount: 1
+[16:39:20.161] |D| [display_wait]: vcount: 2
+[16:39:20.195] |D| [display_wait]: vcount: 1
+[16:39:20.212] |D| [display_wait]: vcount: 2
+[16:39:20.246] |D| [display_wait]: vcount: 1
+[16:39:20.263] |D| [display_wait]: vcount: 2
+[16:39:20.297] |D| [display_wait]: vcount: 1
+[16:39:20.314] |D| [display_wait]: vcount: 2
+[16:39:20.347] |D| [display_wait]: vcount: 1
+[16:39:20.364] |D| [display_wait]: vcount: 2
+[16:39:20.398] |D| [display_wait]: vcount: 1
+[16:39:20.415] |D| [display_wait]: vcount: 2
+[16:39:20.449] |D| [display_wait]: vcount: 1
+[16:39:20.466] |D| [display_wait]: vcount: 2
+[16:39:20.500] |D| [display_wait]: vcount: 1
+[16:39:20.517] |D| [display_wait]: vcount: 2
+[16:39:20.551] |D| [display_wait]: vcount: 1
+[16:39:20.568] |D| [display_wait]: vcount: 2
+[16:39:20.602] |D| [display_wait]: vcount: 1
+[16:39:20.619] |D| [display_wait]: vcount: 2
+[16:39:20.653] |D| [display_wait]: vcount: 1
+[16:39:20.670] |D| [display_wait]: vcount: 2
+[16:39:20.704] |D| [display_wait]: vcount: 1
+[16:39:20.721] |D| [display_wait]: vcount: 2
+[16:39:20.755] |D| [display_wait]: vcount: 1
+[16:39:20.772] |D| [display_wait]: vcount: 2
+[16:39:20.806] |D| [display_wait]: vcount: 1
+[16:39:20.823] |D| [display_wait]: vcount: 2
+[16:39:20.857] |D| [display_wait]: vcount: 1
+[16:39:20.874] |D| [display_wait]: vcount: 2
+[16:39:20.908] |D| [display_wait]: vcount: 1
+[16:39:20.925] |D| [display_wait]: vcount: 2
+[16:39:20.959] |D| [display_wait]: vcount: 1
+[16:39:20.976] |D| [display_wait]: vcount: 2
+[16:39:21.010] |D| [display_wait]: vcount: 1
+[16:39:21.027] |D| [display_wait]: vcount: 2
+[16:39:21.061] |D| [display_wait]: vcount: 1
+[16:39:21.078] |D| [display_wait]: vcount: 2
+[16:39:21.112] |D| [display_wait]: vcount: 1
+[16:39:21.129] |D| [display_wait]: vcount: 2
+[16:39:21.163] |D| [display_wait]: vcount: 1
+[16:39:21.180] |D| [display_wait]: vcount: 2
+[16:39:21.214] |D| [display_wait]: vcount: 1
+[16:39:21.231] |D| [display_wait]: vcount: 2
+[16:39:21.265] |D| [display_wait]: vcount: 1
+[16:39:21.282] |D| [display_wait]: vcount: 2
+[16:39:21.316] |D| [display_wait]: vcount: 1
+[16:39:21.333] |D| [display_wait]: vcount: 2
+[16:39:21.367] |D| [display_wait]: vcount: 1
+[16:39:21.384] |D| [display_wait]: vcount: 2
+[16:39:21.418] |D| [display_wait]: vcount: 1
+[16:39:21.435] |D| [display_wait]: vcount: 2
+[16:39:21.469] |D| [display_wait]: vcount: 1
+[16:39:21.486] |D| [display_wait]: vcount: 2
+[16:39:21.520] |D| [display_wait]: vcount: 1
+[16:39:21.537] |D| [display_wait]: vcount: 2
+[16:39:21.571] |D| [display_wait]: vcount: 1
+[16:39:21.588] |D| [display_wait]: vcount: 2
+[16:39:21.622] |D| [display_wait]: vcount: 1
+[16:39:21.639] |D| [display_wait]: vcount: 2
+[16:39:21.673] |D| [display_wait]: vcount: 1
+[16:39:21.690] |D| [display_wait]: vcount: 2
+[16:39:21.724] |D| [display_wait]: vcount: 1
+[16:39:21.741] |D| [display_wait]: vcount: 2
+[16:39:21.775] |D| [display_wait]: vcount: 1
+[16:39:21.792] |D| [display_wait]: vcount: 2
+[16:39:21.826] |D| [display_wait]: vcount: 1
+[16:39:21.843] |D| [display_wait]: vcount: 2
+[16:39:21.877] |D| [display_wait]: vcount: 1
+[16:39:21.894] |D| [display_wait]: vcount: 2
+[16:39:21.928] |D| [display_wait]: vcount: 1
+[16:39:21.945] |D| [display_wait]: vcount: 2
+[16:39:21.979] |D| [display_wait]: vcount: 1
+[16:39:21.996] |D| [display_wait]: vcount: 2
+[16:39:22.030] |D| [display_wait]: vcount: 1
+[16:39:22.047] |D| [display_wait]: vcount: 2
+[16:39:22.081] |D| [display_wait]: vcount: 1
+[16:39:22.098] |D| [display_wait]: vcount: 2
+[16:39:22.132] |D| [display_wait]: vcount: 1
+[16:39:22.149] |D| [display_wait]: vcount: 2
+[16:39:22.183] |D| [display_wait]: vcount: 1
+[16:39:22.200] |D| [display_wait]: vcount: 2
+[16:39:22.234] |D| [display_wait]: vcount: 1
+[16:39:22.251] |D| [display_wait]: vcount: 2
+[16:39:22.285] |D| [display_wait]: vcount: 1
+[16:39:22.302] |D| [display_wait]: vcount: 2
+[16:39:22.336] |D| [display_wait]: vcount: 1
+[16:39:22.353] |D| [display_wait]: vcount: 2
+[16:39:22.387] |D| [display_wait]: vcount: 1
+[16:39:22.404] |D| [display_wait]: vcount: 2
+[16:39:22.438] |D| [display_wait]: vcount: 1
+[16:39:22.455] |D| [display_wait]: vcount: 2
+[16:39:22.489] |D| [display_wait]: vcount: 1
+[16:39:22.506] |D| [display_wait]: vcount: 2
+[16:39:22.539] |D| [display_wait]: vcount: 1
+[16:39:22.556] |D| [display_wait]: vcount: 2
+[16:39:22.590] |D| [display_wait]: vcount: 1
+[16:39:22.607] |D| [display_wait]: vcount: 2
+[16:39:22.641] |D| [display_wait]: vcount: 1
+[16:39:22.658] |D| [display_wait]: vcount: 2
+[16:39:22.692] |D| [display_wait]: vcount: 1
+[16:39:22.709] |D| [display_wait]: vcount: 2
+[16:39:22.743] |D| [display_wait]: vcount: 1
+[16:39:22.760] |D| [display_wait]: vcount: 2
+[16:39:22.794] |D| [display_wait]: vcount: 1
+[16:39:22.811] |D| [display_wait]: vcount: 2
+[16:39:22.845] |D| [display_wait]: vcount: 1
+[16:39:22.861] |D| [display_wait]: vcount: 2
+[16:39:22.895] |D| [display_wait]: vcount: 1
+[16:39:22.912] |D| [display_wait]: vcount: 2
+[16:39:22.946] |D| [display_wait]: vcount: 1
+[16:39:22.963] |D| [display_wait]: vcount: 2
+[16:39:22.997] |D| [display_wait]: vcount: 1
+[16:39:23.014] |D| [display_wait]: vcount: 2
+[16:39:23.047] |D| [display_wait]: vcount: 1
+[16:39:23.064] |D| [display_wait]: vcount: 2
+[16:39:23.097] |D| [display_wait]: vcount: 1
+[16:39:23.114] |D| [display_wait]: vcount: 2
+[16:39:23.148] |D| [display_wait]: vcount: 1
+[16:39:23.165] |D| [display_wait]: vcount: 2
+[16:39:23.199] |D| [display_wait]: vcount: 1
+[16:39:23.215] |D| [display_wait]: vcount: 2
+[16:39:23.249] |D| [display_wait]: vcount: 1
+[16:39:23.266] |D| [display_wait]: vcount: 2
+[16:39:23.300] |D| [display_wait]: vcount: 1
+[16:39:23.317] |D| [display_wait]: vcount: 2
+[16:39:23.351] |D| [display_wait]: vcount: 1
+[16:39:23.368] |D| [display_wait]: vcount: 2
+[16:39:23.402] |D| [display_wait]: vcount: 1
+[16:39:23.419] |D| [display_wait]: vcount: 2
+[16:39:23.453] |D| [display_wait]: vcount: 1
+[16:39:23.470] |D| [display_wait]: vcount: 2
+[16:39:23.503] |D| [display_wait]: vcount: 1
+[16:39:23.520] |D| [display_wait]: vcount: 2
+[16:39:23.554] |D| [display_wait]: vcount: 1
+[16:39:23.571] |D| [display_wait]: vcount: 2
+[16:39:23.604] |D| [display_wait]: vcount: 1
+[16:39:23.621] |D| [display_wait]: vcount: 2
+[16:39:23.655] |D| [display_wait]: vcount: 1
+[16:39:23.672] |D| [display_wait]: vcount: 2
+[16:39:23.706] |D| [display_wait]: vcount: 1
+[16:39:23.723] |D| [display_wait]: vcount: 2
+[16:39:23.756] |D| [display_wait]: vcount: 1
+[16:39:23.773] |D| [display_wait]: vcount: 2
+[16:39:23.807] |D| [display_wait]: vcount: 1
+[16:39:23.824] |D| [display_wait]: vcount: 2
+[16:39:23.858] |D| [display_wait]: vcount: 1
+[16:39:23.875] |D| [display_wait]: vcount: 2
+[16:39:23.909] |D| [display_wait]: vcount: 1
+[16:39:23.926] |D| [display_wait]: vcount: 2
+[16:39:23.960] |D| [display_wait]: vcount: 1
+[16:39:23.977] |D| [display_wait]: vcount: 2
+[16:39:24.011] |D| [display_wait]: vcount: 1
+[16:39:24.028] |D| [display_wait]: vcount: 2
+[16:39:24.062] |D| [display_wait]: vcount: 1
+[16:39:24.079] |D| [display_wait]: vcount: 2
+[16:39:24.113] |D| [display_wait]: vcount: 1
+[16:39:24.130] |D| [display_wait]: vcount: 2
+[16:39:24.164] |D| [display_wait]: vcount: 1
+[16:39:24.181] |D| [display_wait]: vcount: 2
+[16:39:24.214] |D| [display_wait]: vcount: 1
+[16:39:24.231] |D| [display_wait]: vcount: 2
+[16:39:24.265] |D| [display_wait]: vcount: 1
+[16:39:24.282] |D| [display_wait]: vcount: 2
+[16:39:24.315] |D| [display_wait]: vcount: 1
+[16:39:24.332] |D| [display_wait]: vcount: 2
+[16:39:24.366] |D| [display_wait]: vcount: 1
+[16:39:24.383] |D| [display_wait]: vcount: 2
+[16:39:24.417] |D| [display_wait]: vcount: 1
+[16:39:24.434] |D| [display_wait]: vcount: 2
+[16:39:24.468] |D| [display_wait]: vcount: 1
+[16:39:24.485] |D| [display_wait]: vcount: 2
+[16:39:24.519] |D| [display_wait]: vcount: 1
+[16:39:24.536] |D| [display_wait]: vcount: 2
+[16:39:24.570] |D| [display_wait]: vcount: 1
+[16:39:24.587] |D| [display_wait]: vcount: 2
+[16:39:24.621] |D| [display_wait]: vcount: 1
+[16:39:24.638] |D| [display_wait]: vcount: 2
+[16:39:24.672] |D| [display_wait]: vcount: 1
+[16:39:24.689] |D| [display_wait]: vcount: 2
+[16:39:24.723] |D| [display_wait]: vcount: 1
+[16:39:24.740] |D| [display_wait]: vcount: 2
+[16:39:24.774] |D| [display_wait]: vcount: 1
+[16:39:24.791] |D| [display_wait]: vcount: 2
+[16:39:24.825] |D| [display_wait]: vcount: 1
+[16:39:24.842] |D| [display_wait]: vcount: 2
+[16:39:24.876] |D| [display_wait]: vcount: 1
+[16:39:24.893] |D| [display_wait]: vcount: 2
+[16:39:24.927] |D| [display_wait]: vcount: 1
+[16:39:24.944] |D| [display_wait]: vcount: 2
+[16:39:24.978] |D| [display_wait]: vcount: 1
+[16:39:24.995] |D| [display_wait]: vcount: 2
+[16:39:25.028] |D| [display_wait]: vcount: 1
+[16:39:25.045] |D| [display_wait]: vcount: 2
+[16:39:25.079] |D| [display_wait]: vcount: 1
+[16:39:25.096] |D| [display_wait]: vcount: 2
+[16:39:25.130] |D| [display_wait]: vcount: 1
+[16:39:25.147] |D| [display_wait]: vcount: 2
+[16:39:25.181] |D| [display_wait]: vcount: 1
+[16:39:25.198] |D| [display_wait]: vcount: 2
+[16:39:25.232] |D| [display_wait]: vcount: 1
+[16:39:25.249] |D| [display_wait]: vcount: 2
+[16:39:25.283] |D| [display_wait]: vcount: 1
+[16:39:25.299] |D| [display_wait]: vcount: 2
+[16:39:25.333] |D| [display_wait]: vcount: 1
+[16:39:25.350] |D| [display_wait]: vcount: 2
+[16:39:25.384] |D| [display_wait]: vcount: 1
+[16:39:25.400] |D| [display_wait]: vcount: 2
+[16:39:25.434] |D| [display_wait]: vcount: 1
+[16:39:25.451] |D| [display_wait]: vcount: 2
+[16:39:25.485] |D| [display_wait]: vcount: 1
+[16:39:25.502] |D| [display_wait]: vcount: 2
+[16:39:25.536] |D| [display_wait]: vcount: 1
+[16:39:25.553] |D| [display_wait]: vcount: 2
+[16:39:25.587] |D| [display_wait]: vcount: 1
+[16:39:25.605] |D| [display_wait]: vcount: 2
+[16:39:25.637] |D| [display_wait]: vcount: 1
+[16:39:25.655] |D| [display_wait]: vcount: 2
+[16:39:25.688] |D| [display_wait]: vcount: 1
+[16:39:25.706] |D| [display_wait]: vcount: 2
+[16:39:25.739] |D| [display_wait]: vcount: 1
+[16:39:25.757] |D| [display_wait]: vcount: 2
+[16:39:25.790] |D| [display_wait]: vcount: 1
+[16:39:25.808] |D| [display_wait]: vcount: 2
+[16:39:25.841] |D| [display_wait]: vcount: 1
+[16:39:25.859] |D| [display_wait]: vcount: 2
+[16:39:25.892] |D| [display_wait]: vcount: 1
+[16:39:25.910] |D| [display_wait]: vcount: 2
+[16:39:25.943] |D| [display_wait]: vcount: 1
+[16:39:25.961] |D| [display_wait]: vcount: 2
+[16:39:25.994] |D| [display_wait]: vcount: 1
+[16:39:26.012] |D| [display_wait]: vcount: 2
+[16:39:26.045] |D| [display_wait]: vcount: 1
+[16:39:26.063] |D| [display_wait]: vcount: 2
+[16:39:26.096] |D| [display_wait]: vcount: 1
+[16:39:26.114] |D| [display_wait]: vcount: 2
+[16:39:26.147] |D| [display_wait]: vcount: 1
+[16:39:26.165] |D| [display_wait]: vcount: 2
+[16:39:26.198] |D| [display_wait]: vcount: 1
+[16:39:26.216] |D| [display_wait]: vcount: 2
+[16:39:26.249] |D| [display_wait]: vcount: 1
+[16:39:26.267] |D| [display_wait]: vcount: 2
+[16:39:26.300] |D| [display_wait]: vcount: 1
+[16:39:26.318] |D| [display_wait]: vcount: 2
+[16:39:26.351] |D| [display_wait]: vcount: 1
+[16:39:26.369] |D| [display_wait]: vcount: 2
+[16:39:26.402] |D| [display_wait]: vcount: 1
+[16:39:26.420] |D| [display_wait]: vcount: 2
+[16:39:26.453] |D| [display_wait]: vcount: 1
+[16:39:26.471] |D| [display_wait]: vcount: 2
+[16:39:26.504] |D| [display_wait]: vcount: 1
+[16:39:26.522] |D| [display_wait]: vcount: 2
+[16:39:26.555] |D| [display_wait]: vcount: 1
+[16:39:26.573] |D| [display_wait]: vcount: 2
+[16:39:26.606] |D| [display_wait]: vcount: 1
+[16:39:26.624] |D| [display_wait]: vcount: 2
+[16:39:26.657] |D| [display_wait]: vcount: 1
+[16:39:26.675] |D| [display_wait]: vcount: 2
+[16:39:26.708] |D| [display_wait]: vcount: 1
+[16:39:26.726] |D| [display_wait]: vcount: 2
+[16:39:26.760] |D| [display_wait]: vcount: 1
+[16:39:26.777] |D| [display_wait]: vcount: 2
+[16:39:26.810] |D| [display_wait]: vcount: 1
+[16:39:26.828] |D| [display_wait]: vcount: 2
+[16:39:26.861] |D| [display_wait]: vcount: 1
+[16:39:26.879] |D| [display_wait]: vcount: 2
+[16:39:26.912] |D| [display_wait]: vcount: 1
+[16:39:26.930] |D| [display_wait]: vcount: 2
+[16:39:26.963] |D| [display_wait]: vcount: 1
+[16:39:26.981] |D| [display_wait]: vcount: 2
+[16:39:27.014] |D| [display_wait]: vcount: 1
+[16:39:27.032] |D| [display_wait]: vcount: 2
+[16:39:27.065] |D| [display_wait]: vcount: 1
+[16:39:27.083] |D| [display_wait]: vcount: 2
+[16:39:27.116] |D| [display_wait]: vcount: 1
+[16:39:27.134] |D| [display_wait]: vcount: 2
+[16:39:27.167] |D| [display_wait]: vcount: 1
+[16:39:27.185] |D| [display_wait]: vcount: 2
+[16:39:27.218] |D| [display_wait]: vcount: 1
+[16:39:27.236] |D| [display_wait]: vcount: 2
+[16:39:27.269] |D| [display_wait]: vcount: 1
+[16:39:27.287] |D| [display_wait]: vcount: 2
+[16:39:27.320] |D| [display_wait]: vcount: 1
+[16:39:27.338] |D| [display_wait]: vcount: 2
+[16:39:27.372] |D| [display_wait]: vcount: 1
+[16:39:27.389] |D| [display_wait]: vcount: 2
+[16:39:27.422] |D| [display_wait]: vcount: 1
+[16:39:27.440] |D| [display_wait]: vcount: 2
+[16:39:27.473] |D| [display_wait]: vcount: 1
+[16:39:27.491] |D| [display_wait]: vcount: 2
+[16:39:27.524] |D| [display_wait]: vcount: 1
+[16:39:27.542] |D| [display_wait]: vcount: 2
+[16:39:27.575] |D| [display_wait]: vcount: 1
+[16:39:27.593] |D| [display_wait]: vcount: 2
+[16:39:27.626] |D| [display_wait]: vcount: 1
+[16:39:27.644] |D| [display_wait]: vcount: 2
+[16:39:27.677] |D| [display_wait]: vcount: 1
+[16:39:27.695] |D| [display_wait]: vcount: 2
+[16:39:27.728] |D| [display_wait]: vcount: 1
+[16:39:27.746] |D| [display_wait]: vcount: 2
+[16:39:27.779] |D| [display_wait]: vcount: 1
+[16:39:27.797] |D| [display_wait]: vcount: 2
+[16:39:27.830] |D| [display_wait]: vcount: 1
+[16:39:27.848] |D| [display_wait]: vcount: 2
+[16:39:27.881] |D| [display_wait]: vcount: 1
+[16:39:27.899] |D| [display_wait]: vcount: 2
+[16:39:27.932] |D| [display_wait]: vcount: 1
+[16:39:27.950] |D| [display_wait]: vcount: 2
+[16:39:27.983] |D| [display_wait]: vcount: 1
+[16:39:28.001] |D| [display_wait]: vcount: 2
+[16:39:28.034] |D| [display_wait]: vcount: 1
+[16:39:28.052] |D| [display_wait]: vcount: 2
+[16:39:28.085] |D| [display_wait]: vcount: 1
+[16:39:28.103] |D| [display_wait]: vcount: 2
+[16:39:28.136] |D| [display_wait]: vcount: 1
+[16:39:28.154] |D| [display_wait]: vcount: 2
+[16:39:28.188] |D| [display_wait]: vcount: 1
+[16:39:28.205] |D| [display_wait]: vcount: 2
+[16:39:28.239] |D| [display_wait]: vcount: 1
+[16:39:28.256] |D| [display_wait]: vcount: 2
+[16:39:28.289] |D| [display_wait]: vcount: 1
+[16:39:28.307] |D| [display_wait]: vcount: 2
+[16:39:28.340] |D| [display_wait]: vcount: 1
+[16:39:28.358] |D| [display_wait]: v

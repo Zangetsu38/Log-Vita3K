@@ -1,83 +1,763 @@
-[03:54:29.949] |I| [load_app_impl]: cpu-backend: Unicorn
-[03:54:29.950] |I| [load_app_impl]: at9 audio decoder state: true
-[03:54:29.950] |I| [load_app_impl]: ngs experimental state: true
-[03:54:29.950] |I| [load_app_impl]: video player state: true
-[03:54:29.950] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[03:54:29.950] |I| [load_app_impl]: Title: Astro Aqua Kitty
-[03:54:29.950] |I| [load_app_impl]: Serial: PCSE01497
-[03:54:29.950] |I| [load_app_impl]: Version: 1.00
-[03:54:29.950] |I| [load_app_impl]: Category: gd
-[03:54:29.984] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:54:29.984] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSE01497\sce_module\libc.suprx
-[03:54:29.984] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSE01497\sce_module\libc.suprx
-[03:54:29.984] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01497\sce_module\libc.suprx
-[03:54:29.985] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[03:54:29.985] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[03:54:29.985] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[03:54:29.986] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[03:54:29.986] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSE01497\sce_module\libc.suprx") loaded
-[03:54:30.012] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:54:30.012] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSE01497\sce_module\libfios2.suprx
-[03:54:30.012] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSE01497\sce_module\libfios2.suprx
-[03:54:30.012] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01497\sce_module\libfios2.suprx
-[03:54:30.012] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
-[03:54:30.012] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
-[03:54:30.013] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSE01497\sce_module\libfios2.suprx") loaded
-[03:54:30.020] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:54:30.020] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSE01497\sce_module\libult.suprx
-[03:54:30.020] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSE01497\sce_module\libult.suprx
-[03:54:30.021] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01497\sce_module\libult.suprx
-[03:54:30.021] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
-[03:54:30.021] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
-[03:54:30.021] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSE01497\sce_module\libult.suprx") loaded
-[03:54:30.029] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[03:54:30.031] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[03:54:30.031] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[03:54:30.031] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
-[03:54:30.031] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
-[03:54:30.031] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[03:54:30.034] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[03:54:30.034] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[03:54:30.035] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[03:54:30.035] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
-[03:54:30.035] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
-[03:54:30.035] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[03:54:30.105] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:54:30.105] |I| [load_self]: Loaded module segment 0 @ [0x00109000 - 0x0038097C / 0x81000000] (size: 0x0027797C) of module app0:eboot.bin
-[03:54:30.106] |I| [load_self]: Loaded module segment 1 @ [0x00381000 - 0x003E0910 / 0x81278000] (size: 0x0005F910) of module app0:eboot.bin
-[03:54:30.106] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[03:54:30.106] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x339D3C
-[03:54:30.106] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x388404
-[03:54:30.106] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x37BDB8
-[03:54:30.106] |I| [load_app_impl]: Main executable aqua_kitty (eboot.bin) loaded
-[03:54:30.110] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[03:54:30.235] |I| [run_app]: Module SceLibc (at "ux0:app\PCSE01497\sce_module\libc.suprx") module_start returned 0x0
-[03:54:30.236] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
-[03:54:30.238] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[03:54:30.238] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[03:54:30.238] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[03:54:30.238] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSE01497\sce_module\libfios2.suprx") module_start returned 0x0
-[03:54:30.239] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
-[03:54:30.241] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[03:54:30.241] |I| [run_app]: Module SceUlt (at "ux0:app\PCSE01497\sce_module\libult.suprx") module_start returned 0x0
-[03:54:30.312] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadCpuAffinityMask import called.
-[03:54:30.316] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[03:54:30.324] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[03:54:30.324] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[03:54:30.331] |I| [export_sceIoOpen]: Opening file: app0:/files.dat
-[03:54:30.348] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[03:54:30.393] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[03:54:30.419] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[03:54:30.464] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetClip import called.
-[03:54:30.467] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[03:54:30.467] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[03:54:30.467] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[03:54:30.592] |I| [export_sceIoOpen]: Opening file: app0:/fast.tex
-[03:54:30.660] |I| [export_sceIoOpen]: Opening file: app0:/font.tex
-[03:54:30.670] |I| [export_sceIoOpen]: Opening file: app0:/fonts.dat
-[03:54:30.688] |I| [export_sceIoOpen]: Opening file: app0:/fast.spr
-[03:54:30.699] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[03:54:30.701] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[03:54:30.702] |I| [export_sceIoOpen]: Opening file: app0:/ui.tex
-[03:54:30.730] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[03:54:30.731] |I| [renderer::gl::load_shader_generic]: Generating frag shader 26cd857b
+[16:35:57.410] |I| [load_app_impl]: cpu-backend: Unicorn
+[16:35:57.410] |I| [load_app_impl]: at9 audio decoder state: true
+[16:35:57.410] |I| [load_app_impl]: ngs experimental state: true
+[16:35:57.410] |I| [load_app_impl]: video player state: true
+[16:35:57.410] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[16:35:57.410] |I| [load_app_impl]: Title: Astro Aqua Kitty
+[16:35:57.410] |I| [load_app_impl]: Serial: PCSE01497
+[16:35:57.411] |I| [load_app_impl]: Version: 1.00
+[16:35:57.411] |I| [load_app_impl]: Category: gd
+[16:35:57.434] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:35:57.434] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSE01497\sce_module\libc.suprx
+[16:35:57.434] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSE01497\sce_module\libc.suprx
+[16:35:57.435] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01497\sce_module\libc.suprx
+[16:35:57.435] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[16:35:57.435] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[16:35:57.435] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[16:35:57.436] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[16:35:57.436] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSE01497\sce_module\libc.suprx") loaded
+[16:35:57.445] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:35:57.445] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSE01497\sce_module\libfios2.suprx
+[16:35:57.445] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSE01497\sce_module\libfios2.suprx
+[16:35:57.445] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01497\sce_module\libfios2.suprx
+[16:35:57.446] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
+[16:35:57.446] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
+[16:35:57.446] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSE01497\sce_module\libfios2.suprx") loaded
+[16:35:57.454] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:35:57.455] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSE01497\sce_module\libult.suprx
+[16:35:57.455] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSE01497\sce_module\libult.suprx
+[16:35:57.455] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01497\sce_module\libult.suprx
+[16:35:57.455] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
+[16:35:57.455] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
+[16:35:57.455] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSE01497\sce_module\libult.suprx") loaded
+[16:35:57.462] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[16:35:57.462] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[16:35:57.462] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[16:35:57.462] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
+[16:35:57.463] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
+[16:35:57.463] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[16:35:57.465] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[16:35:57.465] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[16:35:57.465] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[16:35:57.466] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
+[16:35:57.466] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
+[16:35:57.466] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[16:35:57.532] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:35:57.532] |I| [load_self]: Loaded module segment 0 @ [0x00109000 - 0x0038097C / 0x81000000] (size: 0x0027797C) of module app0:eboot.bin
+[16:35:57.532] |I| [load_self]: Loaded module segment 1 @ [0x00381000 - 0x003E0910 / 0x81278000] (size: 0x0005F910) of module app0:eboot.bin
+[16:35:57.533] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[16:35:57.533] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x339D3C
+[16:35:57.533] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x388404
+[16:35:57.533] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x37BDB8
+[16:35:57.533] |I| [load_app_impl]: Main executable aqua_kitty (eboot.bin) loaded
+[16:35:57.537] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[16:35:57.587] |I| [run_app]: Module SceLibc (at "ux0:app\PCSE01497\sce_module\libc.suprx") module_start returned 0x0
+[16:35:57.588] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
+[16:35:57.590] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[16:35:57.590] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[16:35:57.590] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[16:35:57.590] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSE01497\sce_module\libfios2.suprx") module_start returned 0x0
+[16:35:57.591] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
+[16:35:57.592] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[16:35:57.593] |I| [run_app]: Module SceUlt (at "ux0:app\PCSE01497\sce_module\libult.suprx") module_start returned 0x0
+[16:35:57.657] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadCpuAffinityMask import called.
+[16:35:57.660] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[16:35:57.667] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[16:35:57.667] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[16:35:57.675] |I| [export_sceIoOpen]: Opening file: app0:/files.dat
+[16:35:57.690] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:35:57.886] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[16:35:57.966] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[16:35:58.014] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetClip import called.
+[16:35:58.017] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[16:35:58.017] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[16:35:58.017] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[16:35:58.160] |I| [export_sceIoOpen]: Opening file: app0:/fast.tex
+[16:35:58.229] |I| [export_sceIoOpen]: Opening file: app0:/font.tex
+[16:35:58.238] |I| [export_sceIoOpen]: Opening file: app0:/fonts.dat
+[16:35:58.253] |I| [export_sceIoOpen]: Opening file: app0:/fast.spr
+[16:35:58.262] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[16:35:58.265] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[16:35:58.266] |I| [export_sceIoOpen]: Opening file: app0:/ui.tex
+[16:35:58.281] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[16:35:58.281] |D| [display_wait]: vcount: 1
+[16:35:58.282] |I| [renderer::gl::load_shader_generic]: Generating frag shader 26cd857b27b6f5715ae45c08eadb99a8c576347dbda5bb1caf5ec126592a38bf
+[16:35:58.283] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:35:58.299] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2a3fe60b86941c3d47a36d2b7e9921d3b9a17af828519b8279ba1b66ad7f3860
+[16:35:58.300] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vs_pos
+[16:35:58.300] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vs_color
+[16:35:58.301] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scene_inv_view_pos
+[16:35:58.301] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) scene_inv_view_size
+[16:35:58.326] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[16:35:58.327] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 992, height: 672
+[16:35:58.330] |I| [renderer::gl::load_shader_generic]: Generating frag shader e3819ed21bec55b0062ba3e8bbadbd9ccefbc3eaed58d94704da64e51a54f529
+[16:35:58.331] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:35:58.334] |I| [renderer::gl::load_shader_generic]: Generating vert shader eedf2ff4d8545f29fe2e411e456feec6a4d6acdffc9321184ba234596e0ad32a
+[16:35:58.335] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vs_pos
+[16:35:58.335] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vs_tex_coord
+[16:35:58.335] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vs_color
+[16:35:58.335] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) scene_inv_view_pos
+[16:35:58.336] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) scene_inv_view_size
+[16:35:58.349] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[16:35:58.424] |D| [display_wait]: vcount: 1
+[16:35:58.435] |D| [display_wait]: vcount: 1
+[16:35:58.452] |D| [display_wait]: vcount: 1
+[16:35:58.469] |D| [display_wait]: vcount: 1
+[16:35:58.486] |D| [display_wait]: vcount: 1
+[16:35:58.490] |I| [export_sceIoOpen]: Opening file: app0:/level_bg.tex
+[16:35:58.503] |D| [display_wait]: vcount: 1
+[16:35:58.520] |D| [display_wait]: vcount: 1
+[16:35:58.537] |D| [display_wait]: vcount: 1
+[16:35:58.554] |D| [display_wait]: vcount: 1
+[16:35:58.571] |D| [display_wait]: vcount: 1
+[16:35:58.588] |D| [display_wait]: vcount: 1
+[16:35:58.605] |D| [display_wait]: vcount: 1
+[16:35:58.622] |D| [display_wait]: vcount: 1
+[16:35:58.639] |D| [display_wait]: vcount: 1
+[16:35:58.656] |D| [display_wait]: vcount: 1
+[16:35:58.673] |D| [display_wait]: vcount: 1
+[16:35:58.690] |D| [display_wait]: vcount: 1
+[16:35:58.707] |D| [display_wait]: vcount: 1
+[16:35:58.724] |D| [display_wait]: vcount: 1
+[16:35:58.741] |D| [display_wait]: vcount: 1
+[16:35:58.758] |D| [display_wait]: vcount: 1
+[16:35:58.775] |D| [display_wait]: vcount: 1
+[16:35:58.791] |D| [display_wait]: vcount: 1
+[16:35:58.809] |D| [display_wait]: vcount: 1
+[16:35:58.826] |D| [display_wait]: vcount: 1
+[16:35:58.843] |D| [display_wait]: vcount: 1
+[16:35:58.860] |D| [display_wait]: vcount: 1
+[16:35:58.876] |D| [display_wait]: vcount: 1
+[16:35:58.894] |D| [display_wait]: vcount: 1
+[16:35:58.910] |D| [display_wait]: vcount: 1
+[16:35:58.928] |D| [display_wait]: vcount: 1
+[16:35:58.945] |D| [display_wait]: vcount: 1
+[16:35:58.961] |D| [display_wait]: vcount: 1
+[16:35:58.979] |D| [display_wait]: vcount: 1
+[16:35:58.979] |I| [export_sceIoOpen]: Opening file: app0:/level_fg.tex
+[16:35:58.996] |D| [display_wait]: vcount: 1
+[16:35:59.013] |D| [display_wait]: vcount: 1
+[16:35:59.030] |D| [display_wait]: vcount: 1
+[16:35:59.047] |D| [display_wait]: vcount: 1
+[16:35:59.064] |D| [display_wait]: vcount: 1
+[16:35:59.080] |D| [display_wait]: vcount: 1
+[16:35:59.097] |D| [display_wait]: vcount: 1
+[16:35:59.115] |D| [display_wait]: vcount: 1
+[16:35:59.132] |D| [display_wait]: vcount: 1
+[16:35:59.148] |D| [display_wait]: vcount: 1
+[16:35:59.166] |D| [display_wait]: vcount: 1
+[16:35:59.183] |D| [display_wait]: vcount: 1
+[16:35:59.200] |D| [display_wait]: vcount: 1
+[16:35:59.216] |D| [display_wait]: vcount: 1
+[16:35:59.234] |D| [display_wait]: vcount: 1
+[16:35:59.251] |D| [display_wait]: vcount: 1
+[16:35:59.267] |D| [display_wait]: vcount: 1
+[16:35:59.284] |D| [display_wait]: vcount: 1
+[16:35:59.301] |D| [display_wait]: vcount: 1
+[16:35:59.319] |D| [display_wait]: vcount: 1
+[16:35:59.335] |D| [display_wait]: vcount: 1
+[16:35:59.352] |D| [display_wait]: vcount: 1
+[16:35:59.369] |D| [display_wait]: vcount: 1
+[16:35:59.387] |D| [display_wait]: vcount: 1
+[16:35:59.403] |D| [display_wait]: vcount: 1
+[16:35:59.420] |D| [display_wait]: vcount: 1
+[16:35:59.432] |I| [export_sceIoOpen]: Opening file: app0:/game.tex
+[16:35:59.438] |D| [display_wait]: vcount: 1
+[16:35:59.455] |D| [display_wait]: vcount: 1
+[16:35:59.471] |D| [display_wait]: vcount: 1
+[16:35:59.488] |D| [display_wait]: vcount: 1
+[16:35:59.505] |D| [display_wait]: vcount: 1
+[16:35:59.522] |D| [display_wait]: vcount: 1
+[16:35:59.539] |D| [display_wait]: vcount: 1
+[16:35:59.556] |D| [display_wait]: vcount: 1
+[16:35:59.573] |D| [display_wait]: vcount: 1
+[16:35:59.590] |D| [display_wait]: vcount: 1
+[16:35:59.607] |D| [display_wait]: vcount: 1
+[16:35:59.624] |D| [display_wait]: vcount: 1
+[16:35:59.642] |D| [display_wait]: vcount: 1
+[16:35:59.659] |D| [display_wait]: vcount: 1
+[16:35:59.676] |D| [display_wait]: vcount: 1
+[16:35:59.692] |D| [display_wait]: vcount: 1
+[16:35:59.709] |D| [display_wait]: vcount: 1
+[16:35:59.727] |D| [display_wait]: vcount: 1
+[16:35:59.743] |D| [display_wait]: vcount: 1
+[16:35:59.760] |D| [display_wait]: vcount: 1
+[16:35:59.778] |D| [display_wait]: vcount: 1
+[16:35:59.795] |D| [display_wait]: vcount: 1
+[16:35:59.811] |D| [display_wait]: vcount: 1
+[16:35:59.829] |D| [display_wait]: vcount: 1
+[16:35:59.845] |D| [display_wait]: vcount: 1
+[16:35:59.862] |D| [display_wait]: vcount: 1
+[16:35:59.879] |D| [display_wait]: vcount: 1
+[16:35:59.897] |D| [display_wait]: vcount: 1
+[16:35:59.914] |D| [display_wait]: vcount: 1
+[16:35:59.930] |D| [display_wait]: vcount: 1
+[16:35:59.947] |D| [display_wait]: vcount: 1
+[16:35:59.964] |D| [display_wait]: vcount: 1
+[16:35:59.981] |D| [display_wait]: vcount: 1
+[16:35:59.998] |D| [display_wait]: vcount: 1
+[16:36:00.016] |D| [display_wait]: vcount: 1
+[16:36:00.032] |D| [display_wait]: vcount: 1
+[16:36:00.049] |D| [display_wait]: vcount: 1
+[16:36:00.051] |I| [export_sceIoOpen]: Opening file: app0:/normal.spr
+[16:36:00.067] |D| [display_wait]: vcount: 1
+[16:36:00.084] |D| [display_wait]: vcount: 1
+[16:36:00.100] |D| [display_wait]: vcount: 1
+[16:36:00.117] |D| [display_wait]: vcount: 1
+[16:36:00.135] |D| [display_wait]: vcount: 1
+[16:36:00.152] |D| [display_wait]: vcount: 1
+[16:36:00.168] |D| [display_wait]: vcount: 1
+[16:36:00.185] |D| [display_wait]: vcount: 1
+[16:36:00.203] |D| [display_wait]: vcount: 1
+[16:36:00.219] |D| [display_wait]: vcount: 1
+[16:36:00.236] |D| [display_wait]: vcount: 1
+[16:36:00.254] |D| [display_wait]: vcount: 1
+[16:36:00.271] |D| [display_wait]: vcount: 1
+[16:36:00.287] |D| [display_wait]: vcount: 1
+[16:36:00.304] |D| [display_wait]: vcount: 1
+[16:36:00.321] |D| [display_wait]: vcount: 1
+[16:36:00.339] |D| [display_wait]: vcount: 1
+[16:36:00.356] |D| [display_wait]: vcount: 1
+[16:36:00.360] |I| [export_sceIoOpen]: Opening file: app0:/sfx.dat
+[16:36:00.372] |D| [display_wait]: vcount: 1
+[16:36:00.390] |D| [display_wait]: vcount: 1
+[16:36:00.406] |D| [display_wait]: vcount: 1
+[16:36:00.423] |D| [display_wait]: vcount: 1
+[16:36:00.440] |D| [display_wait]: vcount: 1
+[16:36:00.458] |D| [display_wait]: vcount: 1
+[16:36:00.461] |I| [export_sceIoOpen]: Opening file: app0:/vibrations.dat
+[16:36:00.466] |I| [export_sceIoOpen]: Opening file: app0:/tables.tbl
+[16:36:00.474] |D| [display_wait]: vcount: 1
+[16:36:00.491] |D| [display_wait]: vcount: 1
+[16:36:00.508] |D| [display_wait]: vcount: 1
+[16:36:00.526] |D| [display_wait]: vcount: 1
+[16:36:00.543] |D| [display_wait]: vcount: 1
+[16:36:00.556] |I| [export_sceIoOpen]: Opening file: app0:/dropsite.sea
+[16:36:00.559] |D| [display_wait]: vcount: 1
+[16:36:00.576] |D| [display_wait]: vcount: 1
+[16:36:00.594] |D| [display_wait]: vcount: 1
+[16:36:00.611] |D| [display_wait]: vcount: 1
+[16:36:00.628] |D| [display_wait]: vcount: 1
+[16:36:00.644] |D| [display_wait]: vcount: 1
+[16:36:00.662] |D| [display_wait]: vcount: 1
+[16:36:00.678] |D| [display_wait]: vcount: 1
+[16:36:00.696] |D| [display_wait]: vcount: 1
+[16:36:00.713] |D| [display_wait]: vcount: 1
+[16:36:00.730] |D| [display_wait]: vcount: 1
+[16:36:00.747] |D| [display_wait]: vcount: 1
+[16:36:00.763] |D| [display_wait]: vcount: 1
+[16:36:00.780] |D| [display_wait]: vcount: 1
+[16:36:00.797] |D| [display_wait]: vcount: 1
+[16:36:00.814] |D| [display_wait]: vcount: 1
+[16:36:00.831] |D| [display_wait]: vcount: 1
+[16:36:00.849] |D| [display_wait]: vcount: 1
+[16:36:00.866] |D| [display_wait]: vcount: 1
+[16:36:00.882] |D| [display_wait]: vcount: 1
+[16:36:00.899] |D| [display_wait]: vcount: 1
+[16:36:00.916] |D| [display_wait]: vcount: 1
+[16:36:00.933] |D| [display_wait]: vcount: 1
+[16:36:00.950] |D| [display_wait]: vcount: 1
+[16:36:00.967] |D| [display_wait]: vcount: 1
+[16:36:00.984] |D| [display_wait]: vcount: 1
+[16:36:00.999] |I| [export_sceIoOpen]: Opening file: app0:/sargasso.sea
+[16:36:01.002] |D| [display_wait]: vcount: 1
+[16:36:01.018] |D| [display_wait]: vcount: 1
+[16:36:01.036] |D| [display_wait]: vcount: 1
+[16:36:01.053] |D| [display_wait]: vcount: 1
+[16:36:01.070] |D| [display_wait]: vcount: 1
+[16:36:01.086] |D| [display_wait]: vcount: 1
+[16:36:01.103] |D| [display_wait]: vcount: 1
+[16:36:01.120] |D| [display_wait]: vcount: 1
+[16:36:01.137] |D| [display_wait]: vcount: 1
+[16:36:01.154] |D| [display_wait]: vcount: 1
+[16:36:01.172] |D| [display_wait]: vcount: 1
+[16:36:01.189] |D| [display_wait]: vcount: 1
+[16:36:01.206] |D| [display_wait]: vcount: 1
+[16:36:01.222] |D| [display_wait]: vcount: 1
+[16:36:01.240] |D| [display_wait]: vcount: 1
+[16:36:01.256] |D| [display_wait]: vcount: 1
+[16:36:01.274] |D| [display_wait]: vcount: 1
+[16:36:01.291] |D| [display_wait]: vcount: 1
+[16:36:01.308] |D| [display_wait]: vcount: 1
+[16:36:01.324] |D| [display_wait]: vcount: 1
+[16:36:01.341] |D| [display_wait]: vcount: 1
+[16:36:01.358] |D| [display_wait]: vcount: 1
+[16:36:01.376] |D| [display_wait]: vcount: 1
+[16:36:01.392] |D| [display_wait]: vcount: 1
+[16:36:01.410] |D| [display_wait]: vcount: 1
+[16:36:01.427] |D| [display_wait]: vcount: 1
+[16:36:01.444] |D| [display_wait]: vcount: 1
+[16:36:01.461] |D| [display_wait]: vcount: 1
+[16:36:01.477] |D| [display_wait]: vcount: 1
+[16:36:01.494] |D| [display_wait]: vcount: 1
+[16:36:01.511] |D| [display_wait]: vcount: 1
+[16:36:01.529] |D| [display_wait]: vcount: 1
+[16:36:01.545] |D| [display_wait]: vcount: 1
+[16:36:01.563] |D| [display_wait]: vcount: 1
+[16:36:01.580] |D| [display_wait]: vcount: 1
+[16:36:01.597] |D| [display_wait]: vcount: 1
+[16:36:01.614] |D| [display_wait]: vcount: 1
+[16:36:01.631] |D| [display_wait]: vcount: 1
+[16:36:01.647] |D| [display_wait]: vcount: 1
+[16:36:01.665] |D| [display_wait]: vcount: 1
+[16:36:01.682] |D| [display_wait]: vcount: 1
+[16:36:01.698] |D| [display_wait]: vcount: 1
+[16:36:01.715] |D| [display_wait]: vcount: 1
+[16:36:01.732] |D| [display_wait]: vcount: 1
+[16:36:01.749] |D| [display_wait]: vcount: 1
+[16:36:01.766] |I| [export_sceIoOpen]: Opening file: app0:/mining_outpost.sea
+[16:36:01.766] |D| [display_wait]: vcount: 1
+[16:36:01.784] |D| [display_wait]: vcount: 1
+[16:36:01.800] |D| [display_wait]: vcount: 1
+[16:36:01.817] |D| [display_wait]: vcount: 1
+[16:36:01.834] |D| [display_wait]: vcount: 1
+[16:36:01.851] |D| [display_wait]: vcount: 1
+[16:36:01.869] |D| [display_wait]: vcount: 1
+[16:36:01.885] |D| [display_wait]: vcount: 1
+[16:36:01.902] |D| [display_wait]: vcount: 1
+[16:36:01.920] |D| [display_wait]: vcount: 1
+[16:36:01.937] |D| [display_wait]: vcount: 1
+[16:36:01.953] |D| [display_wait]: vcount: 1
+[16:36:01.970] |D| [display_wait]: vcount: 1
+[16:36:01.987] |D| [display_wait]: vcount: 1
+[16:36:02.005] |D| [display_wait]: vcount: 1
+[16:36:02.022] |D| [display_wait]: vcount: 1
+[16:36:02.038] |D| [display_wait]: vcount: 1
+[16:36:02.056] |D| [display_wait]: vcount: 1
+[16:36:02.072] |D| [display_wait]: vcount: 1
+[16:36:02.090] |D| [display_wait]: vcount: 1
+[16:36:02.107] |D| [display_wait]: vcount: 1
+[16:36:02.123] |D| [display_wait]: vcount: 1
+[16:36:02.140] |D| [display_wait]: vcount: 1
+[16:36:02.158] |D| [display_wait]: vcount: 1
+[16:36:02.175] |D| [display_wait]: vcount: 1
+[16:36:02.191] |D| [display_wait]: vcount: 1
+[16:36:02.208] |D| [display_wait]: vcount: 1
+[16:36:02.226] |D| [display_wait]: vcount: 1
+[16:36:02.242] |D| [display_wait]: vcount: 1
+[16:36:02.260] |D| [display_wait]: vcount: 1
+[16:36:02.276] |D| [display_wait]: vcount: 1
+[16:36:02.294] |D| [display_wait]: vcount: 1
+[16:36:02.311] |D| [display_wait]: vcount: 1
+[16:36:02.327] |D| [display_wait]: vcount: 1
+[16:36:02.345] |D| [display_wait]: vcount: 1
+[16:36:02.362] |D| [display_wait]: vcount: 1
+[16:36:02.378] |D| [display_wait]: vcount: 1
+[16:36:02.396] |D| [display_wait]: vcount: 1
+[16:36:02.413] |D| [display_wait]: vcount: 1
+[16:36:02.429] |D| [display_wait]: vcount: 1
+[16:36:02.446] |D| [display_wait]: vcount: 1
+[16:36:02.463] |D| [display_wait]: vcount: 1
+[16:36:02.480] |D| [display_wait]: vcount: 1
+[16:36:02.497] |D| [display_wait]: vcount: 1
+[16:36:02.514] |D| [display_wait]: vcount: 1
+[16:36:02.531] |D| [display_wait]: vcount: 1
+[16:36:02.548] |D| [display_wait]: vcount: 1
+[16:36:02.565] |D| [display_wait]: vcount: 1
+[16:36:02.582] |D| [display_wait]: vcount: 1
+[16:36:02.583] |I| [export_sceIoOpen]: Opening file: app0:/wreck_basin.sea
+[16:36:02.600] |D| [display_wait]: vcount: 1
+[16:36:02.616] |D| [display_wait]: vcount: 1
+[16:36:02.633] |D| [display_wait]: vcount: 1
+[16:36:02.650] |D| [display_wait]: vcount: 1
+[16:36:02.667] |D| [display_wait]: vcount: 1
+[16:36:02.684] |D| [display_wait]: vcount: 1
+[16:36:02.702] |D| [display_wait]: vcount: 1
+[16:36:02.718] |D| [display_wait]: vcount: 1
+[16:36:02.735] |D| [display_wait]: vcount: 1
+[16:36:02.752] |D| [display_wait]: vcount: 1
+[16:36:02.769] |D| [display_wait]: vcount: 1
+[16:36:02.786] |D| [display_wait]: vcount: 1
+[16:36:02.803] |D| [display_wait]: vcount: 1
+[16:36:02.820] |D| [display_wait]: vcount: 1
+[16:36:02.837] |D| [display_wait]: vcount: 1
+[16:36:02.854] |D| [display_wait]: vcount: 1
+[16:36:02.871] |D| [display_wait]: vcount: 1
+[16:36:02.889] |D| [display_wait]: vcount: 1
+[16:36:02.906] |D| [display_wait]: vcount: 1
+[16:36:02.922] |D| [display_wait]: vcount: 1
+[16:36:02.939] |D| [display_wait]: vcount: 1
+[16:36:02.957] |D| [display_wait]: vcount: 1
+[16:36:02.974] |D| [display_wait]: vcount: 1
+[16:36:02.990] |D| [display_wait]: vcount: 1
+[16:36:03.008] |D| [display_wait]: vcount: 1
+[16:36:03.025] |D| [display_wait]: vcount: 1
+[16:36:03.042] |D| [display_wait]: vcount: 1
+[16:36:03.059] |D| [display_wait]: vcount: 1
+[16:36:03.076] |D| [display_wait]: vcount: 1
+[16:36:03.092] |D| [display_wait]: vcount: 1
+[16:36:03.109] |D| [display_wait]: vcount: 1
+[16:36:03.127] |D| [display_wait]: vcount: 1
+[16:36:03.144] |D| [display_wait]: vcount: 1
+[16:36:03.161] |D| [display_wait]: vcount: 1
+[16:36:03.178] |D| [display_wait]: vcount: 1
+[16:36:03.194] |D| [display_wait]: vcount: 1
+[16:36:03.212] |D| [display_wait]: vcount: 1
+[16:36:03.228] |D| [display_wait]: vcount: 1
+[16:36:03.245] |D| [display_wait]: vcount: 1
+[16:36:03.263] |D| [display_wait]: vcount: 1
+[16:36:03.279] |D| [display_wait]: vcount: 1
+[16:36:03.296] |D| [display_wait]: vcount: 1
+[16:36:03.313] |D| [display_wait]: vcount: 1
+[16:36:03.330] |D| [display_wait]: vcount: 1
+[16:36:03.348] |D| [display_wait]: vcount: 1
+[16:36:03.364] |D| [display_wait]: vcount: 1
+[16:36:03.381] |D| [display_wait]: vcount: 1
+[16:36:03.398] |D| [display_wait]: vcount: 1
+[16:36:03.415] |D| [display_wait]: vcount: 1
+[16:36:03.432] |D| [display_wait]: vcount: 1
+[16:36:03.449] |D| [display_wait]: vcount: 1
+[16:36:03.466] |D| [display_wait]: vcount: 1
+[16:36:03.483] |D| [display_wait]: vcount: 1
+[16:36:03.500] |D| [display_wait]: vcount: 1
+[16:36:03.515] |I| [export_sceIoOpen]: Opening file: app0:/ancient_drills.sea
+[16:36:03.517] |D| [display_wait]: vcount: 1
+[16:36:03.534] |D| [display_wait]: vcount: 1
+[16:36:03.551] |D| [display_wait]: vcount: 1
+[16:36:03.569] |D| [display_wait]: vcount: 1
+[16:36:03.586] |D| [display_wait]: vcount: 1
+[16:36:03.602] |D| [display_wait]: vcount: 1
+[16:36:03.620] |D| [display_wait]: vcount: 1
+[16:36:03.636] |D| [display_wait]: vcount: 1
+[16:36:03.653] |D| [display_wait]: vcount: 1
+[16:36:03.670] |D| [display_wait]: vcount: 1
+[16:36:03.688] |D| [display_wait]: vcount: 1
+[16:36:03.704] |D| [display_wait]: vcount: 1
+[16:36:03.722] |D| [display_wait]: vcount: 1
+[16:36:03.738] |D| [display_wait]: vcount: 1
+[16:36:03.756] |D| [display_wait]: vcount: 1
+[16:36:03.772] |D| [display_wait]: vcount: 1
+[16:36:03.789] |D| [display_wait]: vcount: 1
+[16:36:03.807] |D| [display_wait]: vcount: 1
+[16:36:03.824] |D| [display_wait]: vcount: 1
+[16:36:03.841] |D| [display_wait]: vcount: 1
+[16:36:03.858] |D| [display_wait]: vcount: 1
+[16:36:03.874] |D| [display_wait]: vcount: 1
+[16:36:03.891] |D| [display_wait]: vcount: 1
+[16:36:03.909] |D| [display_wait]: vcount: 1
+[16:36:03.926] |D| [display_wait]: vcount: 1
+[16:36:03.943] |D| [display_wait]: vcount: 1
+[16:36:03.959] |D| [display_wait]: vcount: 1
+[16:36:03.976] |D| [display_wait]: vcount: 1
+[16:36:03.993] |D| [display_wait]: vcount: 1
+[16:36:04.011] |D| [display_wait]: vcount: 1
+[16:36:04.027] |D| [display_wait]: vcount: 1
+[16:36:04.045] |D| [display_wait]: vcount: 1
+[16:36:04.061] |D| [display_wait]: vcount: 1
+[16:36:04.078] |D| [display_wait]: vcount: 1
+[16:36:04.095] |D| [display_wait]: vcount: 1
+[16:36:04.113] |D| [display_wait]: vcount: 1
+[16:36:04.129] |D| [display_wait]: vcount: 1
+[16:36:04.147] |D| [display_wait]: vcount: 1
+[16:36:04.163] |D| [display_wait]: vcount: 1
+[16:36:04.180] |D| [display_wait]: vcount: 1
+[16:36:04.197] |D| [display_wait]: vcount: 1
+[16:36:04.214] |D| [display_wait]: vcount: 1
+[16:36:04.231] |D| [display_wait]: vcount: 1
+[16:36:04.249] |D| [display_wait]: vcount: 1
+[16:36:04.266] |D| [display_wait]: vcount: 1
+[16:36:04.282] |D| [display_wait]: vcount: 1
+[16:36:04.299] |D| [display_wait]: vcount: 1
+[16:36:04.316] |D| [display_wait]: vcount: 1
+[16:36:04.333] |D| [display_wait]: vcount: 1
+[16:36:04.350] |D| [display_wait]: vcount: 1
+[16:36:04.367] |D| [display_wait]: vcount: 1
+[16:36:04.384] |D| [display_wait]: vcount: 1
+[16:36:04.401] |D| [display_wait]: vcount: 1
+[16:36:04.419] |D| [display_wait]: vcount: 1
+[16:36:04.435] |D| [display_wait]: vcount: 1
+[16:36:04.453] |D| [display_wait]: vcount: 1
+[16:36:04.469] |D| [display_wait]: vcount: 1
+[16:36:04.487] |D| [display_wait]: vcount: 1
+[16:36:04.503] |D| [display_wait]: vcount: 1
+[16:36:04.521] |D| [display_wait]: vcount: 1
+[16:36:04.537] |D| [display_wait]: vcount: 1
+[16:36:04.555] |D| [display_wait]: vcount: 1
+[16:36:04.571] |D| [display_wait]: vcount: 1
+[16:36:04.589] |D| [display_wait]: vcount: 1
+[16:36:04.606] |D| [display_wait]: vcount: 1
+[16:36:04.622] |D| [display_wait]: vcount: 1
+[16:36:04.640] |D| [display_wait]: vcount: 1
+[16:36:04.657] |D| [display_wait]: vcount: 1
+[16:36:04.674] |D| [display_wait]: vcount: 1
+[16:36:04.691] |D| [display_wait]: vcount: 1
+[16:36:04.708] |D| [display_wait]: vcount: 1
+[16:36:04.725] |D| [display_wait]: vcount: 1
+[16:36:04.742] |D| [display_wait]: vcount: 1
+[16:36:04.758] |D| [display_wait]: vcount: 1
+[16:36:04.773] |I| [export_sceIoOpen]: Opening file: app0:/ancient_temple.sea
+[16:36:04.775] |D| [display_wait]: vcount: 1
+[16:36:04.792] |D| [display_wait]: vcount: 1
+[16:36:04.810] |D| [display_wait]: vcount: 1
+[16:36:04.826] |D| [display_wait]: vcount: 1
+[16:36:04.844] |D| [display_wait]: vcount: 1
+[16:36:04.861] |D| [display_wait]: vcount: 1
+[16:36:04.877] |D| [display_wait]: vcount: 1
+[16:36:04.895] |D| [display_wait]: vcount: 1
+[16:36:04.911] |D| [display_wait]: vcount: 1
+[16:36:04.929] |D| [display_wait]: vcount: 1
+[16:36:04.946] |D| [display_wait]: vcount: 1
+[16:36:04.963] |D| [display_wait]: vcount: 1
+[16:36:04.980] |D| [display_wait]: vcount: 1
+[16:36:04.997] |D| [display_wait]: vcount: 1
+[16:36:05.014] |D| [display_wait]: vcount: 1
+[16:36:05.030] |D| [display_wait]: vcount: 1
+[16:36:05.047] |D| [display_wait]: vcount: 1
+[16:36:05.064] |D| [display_wait]: vcount: 1
+[16:36:05.081] |D| [display_wait]: vcount: 1
+[16:36:05.098] |D| [display_wait]: vcount: 1
+[16:36:05.115] |D| [display_wait]: vcount: 1
+[16:36:05.132] |D| [display_wait]: vcount: 1
+[16:36:05.149] |D| [display_wait]: vcount: 1
+[16:36:05.166] |D| [display_wait]: vcount: 1
+[16:36:05.184] |D| [display_wait]: vcount: 1
+[16:36:05.201] |D| [display_wait]: vcount: 1
+[16:36:05.217] |D| [display_wait]: vcount: 1
+[16:36:05.234] |D| [display_wait]: vcount: 1
+[16:36:05.252] |D| [display_wait]: vcount: 1
+[16:36:05.268] |D| [display_wait]: vcount: 1
+[16:36:05.285] |D| [display_wait]: vcount: 1
+[16:36:05.302] |D| [display_wait]: vcount: 1
+[16:36:05.320] |D| [display_wait]: vcount: 1
+[16:36:05.337] |D| [display_wait]: vcount: 1
+[16:36:05.354] |D| [display_wait]: vcount: 1
+[16:36:05.371] |D| [display_wait]: vcount: 1
+[16:36:05.387] |D| [display_wait]: vcount: 1
+[16:36:05.404] |D| [display_wait]: vcount: 1
+[16:36:05.422] |D| [display_wait]: vcount: 1
+[16:36:05.438] |D| [display_wait]: vcount: 1
+[16:36:05.455] |D| [display_wait]: vcount: 1
+[16:36:05.472] |D| [display_wait]: vcount: 1
+[16:36:05.490] |D| [display_wait]: vcount: 1
+[16:36:05.507] |D| [display_wait]: vcount: 1
+[16:36:05.524] |D| [display_wait]: vcount: 1
+[16:36:05.536] |I| [export_sceIoOpen]: Opening file: app0:/decay_ruin.sea
+[16:36:05.540] |D| [display_wait]: vcount: 1
+[16:36:05.558] |D| [display_wait]: vcount: 1
+[16:36:05.574] |D| [display_wait]: vcount: 1
+[16:36:05.590] |D| [display_wait]: vcount: 1
+[16:36:05.607] |D| [display_wait]: vcount: 1
+[16:36:05.624] |D| [display_wait]: vcount: 1
+[16:36:05.641] |D| [display_wait]: vcount: 1
+[16:36:05.658] |D| [display_wait]: vcount: 1
+[16:36:05.675] |D| [display_wait]: vcount: 1
+[16:36:05.692] |D| [display_wait]: vcount: 1
+[16:36:05.709] |D| [display_wait]: vcount: 1
+[16:36:05.726] |D| [display_wait]: vcount: 1
+[16:36:05.743] |D| [display_wait]: vcount: 1
+[16:36:05.760] |D| [display_wait]: vcount: 1
+[16:36:05.777] |D| [display_wait]: vcount: 1
+[16:36:05.794] |D| [display_wait]: vcount: 1
+[16:36:05.811] |D| [display_wait]: vcount: 1
+[16:36:05.828] |D| [display_wait]: vcount: 1
+[16:36:05.845] |D| [display_wait]: vcount: 1
+[16:36:05.862] |D| [display_wait]: vcount: 1
+[16:36:05.879] |D| [display_wait]: vcount: 1
+[16:36:05.896] |D| [display_wait]: vcount: 1
+[16:36:05.913] |D| [display_wait]: vcount: 1
+[16:36:05.930] |D| [display_wait]: vcount: 1
+[16:36:05.947] |D| [display_wait]: vcount: 1
+[16:36:05.964] |D| [display_wait]: vcount: 1
+[16:36:05.981] |D| [display_wait]: vcount: 1
+[16:36:05.998] |D| [display_wait]: vcount: 1
+[16:36:06.015] |D| [display_wait]: vcount: 1
+[16:36:06.032] |D| [display_wait]: vcount: 1
+[16:36:06.049] |D| [display_wait]: vcount: 1
+[16:36:06.066] |D| [display_wait]: vcount: 1
+[16:36:06.083] |D| [display_wait]: vcount: 1
+[16:36:06.100] |D| [display_wait]: vcount: 1
+[16:36:06.117] |D| [display_wait]: vcount: 1
+[16:36:06.134] |D| [display_wait]: vcount: 1
+[16:36:06.151] |D| [display_wait]: vcount: 1
+[16:36:06.168] |D| [display_wait]: vcount: 1
+[16:36:06.185] |D| [display_wait]: vcount: 1
+[16:36:06.202] |D| [display_wait]: vcount: 1
+[16:36:06.219] |D| [display_wait]: vcount: 1
+[16:36:06.236] |D| [display_wait]: vcount: 1
+[16:36:06.253] |D| [display_wait]: vcount: 1
+[16:36:06.270] |D| [display_wait]: vcount: 1
+[16:36:06.287] |D| [display_wait]: vcount: 1
+[16:36:06.304] |D| [display_wait]: vcount: 1
+[16:36:06.321] |D| [display_wait]: vcount: 1
+[16:36:06.338] |D| [display_wait]: vcount: 1
+[16:36:06.355] |D| [display_wait]: vcount: 1
+[16:36:06.372] |D| [display_wait]: vcount: 1
+[16:36:06.389] |D| [display_wait]: vcount: 1
+[16:36:06.406] |D| [display_wait]: vcount: 1
+[16:36:06.423] |D| [display_wait]: vcount: 1
+[16:36:06.440] |D| [display_wait]: vcount: 1
+[16:36:06.457] |D| [display_wait]: vcount: 1
+[16:36:06.474] |D| [display_wait]: vcount: 1
+[16:36:06.491] |D| [display_wait]: vcount: 1
+[16:36:06.508] |D| [display_wait]: vcount: 1
+[16:36:06.525] |D| [display_wait]: vcount: 1
+[16:36:06.542] |D| [display_wait]: vcount: 1
+[16:36:06.559] |D| [display_wait]: vcount: 1
+[16:36:06.576] |D| [display_wait]: vcount: 1
+[16:36:06.593] |D| [display_wait]: vcount: 1
+[16:36:06.610] |D| [display_wait]: vcount: 1
+[16:36:06.627] |D| [display_wait]: vcount: 1
+[16:36:06.644] |D| [display_wait]: vcount: 1
+[16:36:06.661] |D| [display_wait]: vcount: 1
+[16:36:06.678] |D| [display_wait]: vcount: 1
+[16:36:06.695] |D| [display_wait]: vcount: 1
+[16:36:06.712] |D| [display_wait]: vcount: 1
+[16:36:06.729] |D| [display_wait]: vcount: 1
+[16:36:06.746] |D| [display_wait]: vcount: 1
+[16:36:06.763] |D| [display_wait]: vcount: 1
+[16:36:06.780] |D| [display_wait]: vcount: 1
+[16:36:06.797] |D| [display_wait]: vcount: 1
+[16:36:06.814] |D| [display_wait]: vcount: 1
+[16:36:06.831] |D| [display_wait]: vcount: 1
+[16:36:06.848] |D| [display_wait]: vcount: 1
+[16:36:06.865] |D| [display_wait]: vcount: 1
+[16:36:06.882] |D| [display_wait]: vcount: 1
+[16:36:06.899] |D| [display_wait]: vcount: 1
+[16:36:06.916] |D| [display_wait]: vcount: 1
+[16:36:06.933] |D| [display_wait]: vcount: 1
+[16:36:06.950] |D| [display_wait]: vcount: 1
+[16:36:06.967] |D| [display_wait]: vcount: 1
+[16:36:06.984] |D| [display_wait]: vcount: 1
+[16:36:07.001] |D| [display_wait]: vcount: 1
+[16:36:07.018] |D| [display_wait]: vcount: 1
+[16:36:07.035] |D| [display_wait]: vcount: 1
+[16:36:07.052] |D| [display_wait]: vcount: 1
+[16:36:07.069] |D| [display_wait]: vcount: 1
+[16:36:07.086] |D| [display_wait]: vcount: 1
+[16:36:07.103] |D| [display_wait]: vcount: 1
+[16:36:07.120] |D| [display_wait]: vcount: 1
+[16:36:07.137] |D| [display_wait]: vcount: 1
+[16:36:07.154] |D| [display_wait]: vcount: 1
+[16:36:07.171] |D| [display_wait]: vcount: 1
+[16:36:07.188] |D| [display_wait]: vcount: 1
+[16:36:07.205] |D| [display_wait]: vcount: 1
+[16:36:07.222] |D| [display_wait]: vcount: 1
+[16:36:07.239] |D| [display_wait]: vcount: 1
+[16:36:07.256] |D| [display_wait]: vcount: 1
+[16:36:07.273] |D| [display_wait]: vcount: 1
+[16:36:07.290] |D| [display_wait]: vcount: 1
+[16:36:07.307] |D| [display_wait]: vcount: 1
+[16:36:07.324] |D| [display_wait]: vcount: 1
+[16:36:07.341] |D| [display_wait]: vcount: 1
+[16:36:07.358] |D| [display_wait]: vcount: 1
+[16:36:07.375] |D| [display_wait]: vcount: 1
+[16:36:07.392] |D| [display_wait]: vcount: 1
+[16:36:07.409] |D| [display_wait]: vcount: 1
+[16:36:07.426] |D| [display_wait]: vcount: 1
+[16:36:07.443] |D| [display_wait]: vcount: 1
+[16:36:07.460] |D| [display_wait]: vcount: 1
+[16:36:07.477] |D| [display_wait]: vcount: 1
+[16:36:07.494] |D| [display_wait]: vcount: 1
+[16:36:07.500] |I| [export_sceIoOpen]: Opening file: app0:/final_assault.sea
+[16:36:07.511] |D| [display_wait]: vcount: 1
+[16:36:07.528] |D| [display_wait]: vcount: 1
+[16:36:07.545] |D| [display_wait]: vcount: 1
+[16:36:07.562] |D| [display_wait]: vcount: 1
+[16:36:07.579] |D| [display_wait]: vcount: 1
+[16:36:07.596] |D| [display_wait]: vcount: 1
+[16:36:07.613] |D| [display_wait]: vcount: 1
+[16:36:07.630] |D| [display_wait]: vcount: 1
+[16:36:07.647] |D| [display_wait]: vcount: 1
+[16:36:07.664] |D| [display_wait]: vcount: 1
+[16:36:07.681] |D| [display_wait]: vcount: 1
+[16:36:07.698] |D| [display_wait]: vcount: 1
+[16:36:07.715] |D| [display_wait]: vcount: 1
+[16:36:07.732] |D| [display_wait]: vcount: 1
+[16:36:07.749] |D| [display_wait]: vcount: 1
+[16:36:07.766] |D| [display_wait]: vcount: 1
+[16:36:07.783] |D| [display_wait]: vcount: 1
+[16:36:07.800] |D| [display_wait]: vcount: 1
+[16:36:07.817] |D| [display_wait]: vcount: 1
+[16:36:07.834] |D| [display_wait]: vcount: 1
+[16:36:07.851] |D| [display_wait]: vcount: 1
+[16:36:07.868] |D| [display_wait]: vcount: 1
+[16:36:07.885] |D| [display_wait]: vcount: 1
+[16:36:07.902] |D| [display_wait]: vcount: 1
+[16:36:07.919] |D| [display_wait]: vcount: 1
+[16:36:07.936] |D| [display_wait]: vcount: 1
+[16:36:07.953] |D| [display_wait]: vcount: 1
+[16:36:07.970] |D| [display_wait]: vcount: 1
+[16:36:07.987] |D| [display_wait]: vcount: 1
+[16:36:08.004] |D| [display_wait]: vcount: 1
+[16:36:08.021] |D| [display_wait]: vcount: 1
+[16:36:08.038] |D| [display_wait]: vcount: 1
+[16:36:08.055] |D| [display_wait]: vcount: 1
+[16:36:08.072] |D| [display_wait]: vcount: 1
+[16:36:08.089] |D| [display_wait]: vcount: 1
+[16:36:08.106] |D| [display_wait]: vcount: 1
+[16:36:08.123] |D| [display_wait]: vcount: 1
+[16:36:08.140] |D| [display_wait]: vcount: 1
+[16:36:08.157] |D| [display_wait]: vcount: 1
+[16:36:08.174] |D| [display_wait]: vcount: 1
+[16:36:08.191] |D| [display_wait]: vcount: 1
+[16:36:08.208] |D| [display_wait]: vcount: 1
+[16:36:08.225] |D| [display_wait]: vcount: 1
+[16:36:08.242] |D| [display_wait]: vcount: 1
+[16:36:08.259] |D| [display_wait]: vcount: 1
+[16:36:08.276] |D| [display_wait]: vcount: 1
+[16:36:08.293] |D| [display_wait]: vcount: 1
+[16:36:08.310] |D| [display_wait]: vcount: 1
+[16:36:08.327] |D| [display_wait]: vcount: 1
+[16:36:08.344] |D| [display_wait]: vcount: 1
+[16:36:08.361] |D| [display_wait]: vcount: 1
+[16:36:08.378] |D| [display_wait]: vcount: 1
+[16:36:08.395] |D| [display_wait]: vcount: 1
+[16:36:08.412] |D| [display_wait]: vcount: 1
+[16:36:08.429] |D| [display_wait]: vcount: 1
+[16:36:08.446] |D| [display_wait]: vcount: 1
+[16:36:08.463] |D| [display_wait]: vcount: 1
+[16:36:08.475] |I| [export_sceIoOpen]: Opening file: app0:/build_num
+[16:36:08.480] |D| [display_wait]: vcount: 1
+[16:36:08.497] |D| [display_wait]: vcount: 1
+[16:36:08.514] |D| [display_wait]: vcount: 1
+[16:36:08.516] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[16:36:08.516] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 160, height: 512
+[16:36:08.531] |D| [display_wait]: vcount: 1
+[16:36:08.547] |D| [display_wait]: vcount: 1
+[16:36:08.564] |D| [display_wait]: vcount: 1
+[16:36:08.581] |D| [display_wait]: vcount: 1
+[16:36:08.598] |D| [display_wait]: vcount: 1
+[16:36:08.614] |D| [display_wait]: vcount: 1
+[16:36:08.631] |D| [display_wait]: vcount: 1
+[16:36:08.647] |D| [display_wait]: vcount: 1
+[16:36:08.663] |D| [display_wait]: vcount: 1
+[16:36:08.680] |D| [display_wait]: vcount: 1
+[16:36:08.696] |D| [display_wait]: vcount: 1
+[16:36:08.713] |D| [display_wait]: vcount: 1
+[16:36:08.729] |D| [display_wait]: vcount: 1
+[16:36:08.745] |D| [display_wait]: vcount: 1
+[16:36:08.761] |D| [display_wait]: vcount: 1
+[16:36:08.778] |D| [display_wait]: vcount: 1
+[16:36:08.794] |D| [display_wait]: vcount: 1
+[16:36:08.810] |D| [display_wait]: vcount: 1
+[16:36:08.826] |D| [display_wait]: vcount: 1
+[16:36:08.843] |D| [display_wait]: vcount: 1
+[16:36:08.859] |D| [display_wait]: vcount: 1
+[16:36:08.875] |D| [display_wait]: vcount: 1
+[16:36:08.892] |D| [display_wait]: vcount: 1
+[16:36:08.908] |D| [display_wait]: vcount: 1
+[16:36:08.924] |D| [display_wait]: vcount: 1
+[16:36:08.940] |D| [display_wait]: vcount: 1
+[16:36:08.957] |D| [display_wait]: vcount: 1
+[16:36:08.973] |D| [display_wait]: vcount: 1
+[16:36:08.990] |D| [display_wait]: vcount: 1
+[16:36:09.006] |D| [display_wait]: vcount: 1
+[16:36:09.023] |D| [display_wait]: vcount: 1
+[16:36:09.040] |D| [display_wait]: vcount: 1
+[16:36:09.056] |D| [display_wait]: vcount: 1
+[16:36:09.073] |D| [display_wait]: vcount: 1
+[16:36:09.090] |D| [display_wait]: vcount: 1
+[16:36:09.107] |D| [display_wait]: vcount: 1
+[16:36:09.124] |D| [display_wait]: vcount: 1
+[16:36:09.141] |D| [display_wait]: vcount: 1
+[16:36:09.157] |D| [display_wait]: vcount: 1
+[16:36:09.174] |D| [display_wait]: vcount: 1
+[16:36:09.190] |D| [display_wait]: vcount: 1
+[16:36:09.206] |D| [display_wait]: vcount: 1
+[16:36:09.223] |D| [display_wait]: vcount: 1
+[16:36:09.239] |D| [display_wait]: vcount: 1
+[16:36:09.256] |D
