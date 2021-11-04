@@ -1,578 +1,531 @@
-[16:40:00.768] |I| [load_app_impl]: cpu-backend: Dynarmic
-[16:40:00.769] |I| [load_app_impl]: CPU Optimisation state: true
-[16:40:00.769] |I| [load_app_impl]: at9 audio decoder state: true
-[16:40:00.769] |I| [load_app_impl]: ngs experimental state: true
-[16:40:00.769] |I| [load_app_impl]: video player state: true
-[16:40:00.769] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[16:40:00.769] |I| [load_app_impl]: Title: RIDGE RACER
-[16:40:00.769] |I| [load_app_impl]: Serial: PCSB00048
-[16:40:00.769] |I| [load_app_impl]: Version: 1.02
-[16:40:00.769] |I| [load_app_impl]: Category: gp
-[16:40:00.794] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:40:00.794] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00042F34 / 0x81000000] (size: 0x0003BF34) of module ux0:app\PCSB00048-U\sce_module\libc.suprx
-[16:40:00.794] |I| [load_self]: Loaded module segment 1 @ [0x00043000 - 0x0004533C / 0x8103C000] (size: 0x0000233C) of module ux0:app\PCSB00048-U\sce_module\libc.suprx
-[16:40:00.794] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00048-U\sce_module\libc.suprx
-[16:40:00.795] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34A70
-[16:40:00.795] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x38220, setting to stub value 0xDEADBEEF
-[16:40:00.796] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00048-U\sce_module\libc.suprx") loaded
-[16:40:00.813] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:40:00.813] |I| [load_self]: Loaded module segment 0 @ [0x00047000 - 0x00068D98 / 0x81000000] (size: 0x00021D98) of module ux0:app\PCSB00048-U\sce_module\libfios2.suprx
-[16:40:00.813] |I| [load_self]: Loaded module segment 1 @ [0x00069000 - 0x0006E22C / 0x81022000] (size: 0x0000522C) of module ux0:app\PCSB00048-U\sce_module\libfios2.suprx
-[16:40:00.813] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00048-U\sce_module\libfios2.suprx
-[16:40:00.814] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6278C
-[16:40:00.814] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00048-U\sce_module\libfios2.suprx") loaded
-[16:40:00.824] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:40:00.824] |I| [load_self]: Loaded module segment 0 @ [0x0006F000 - 0x000836AC / 0x81000000] (size: 0x000146AC) of module ux0:app\PCSB00048-U\sce_module\libult.suprx
-[16:40:00.825] |I| [load_self]: Loaded module segment 1 @ [0x00084000 - 0x00084810 / 0x81015000] (size: 0x00000810) of module ux0:app\PCSB00048-U\sce_module\libult.suprx
-[16:40:00.825] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00048-U\sce_module\libult.suprx
-[16:40:00.825] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x80390
-[16:40:00.825] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00048-U\sce_module\libult.suprx") loaded
-[16:40:00.831] |I| [load_self]: Loaded module segment 0 @ [0x00085000 - 0x000D5F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[16:40:00.832] |I| [load_self]: Loaded module segment 1 @ [0x000D6000 - 0x000D62F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[16:40:00.832] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[16:40:00.832] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC17DC
-[16:40:00.832] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC0F10
-[16:40:00.832] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD5EE0, setting to stub value 0xDEADBEEF
-[16:40:00.833] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[16:40:00.835] |I| [load_self]: Loaded module segment 0 @ [0x000D8000 - 0x000E7F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[16:40:00.835] |I| [load_self]: Loaded module segment 1 @ [0x000E8000 - 0x000E8008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[16:40:00.835] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[16:40:00.835] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE6710
-[16:40:00.835] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE6300
-[16:40:00.836] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[16:40:00.884] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:40:00.885] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81203BE4 / 0x81000000] (size: 0x00203BE4) of module app0:eboot.bin
-[16:40:00.885] |I| [load_self]: Loaded module segment 1 @ [0x81204000 - 0x81F3077C / 0x81204000] (size: 0x00D2C77C) of module app0:eboot.bin
-[16:40:00.885] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[16:40:00.885] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x811D44A8
-[16:40:00.885] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8120F7C8
-[16:40:00.885] |I| [load_app_impl]: Main executable rrn_Europe_Release (eboot.bin) loaded
-[16:40:00.893] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
-[16:40:00.903] |I| [export_sceIoOpen]: Opening file: tty0:
-[16:40:00.903] |I| [export_sceIoOpen]: Opening file: tty0:
-[16:40:00.903] |I| [export_sceIoOpen]: Opening file: tty1:
-[16:40:00.909] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00048-U\sce_module\libc.suprx") module_start returned 0x0
-[16:40:00.913] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x47001
-[16:40:00.921] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00048-U\sce_module\libfios2.suprx") module_start returned 0x0
-[16:40:00.925] |D| [run_app]: Running module_start of library: SceUlt at address 0x72D69
-[16:40:00.932] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00048-U\sce_module\libult.suprx") module_start returned 0x0
-[16:40:01.077] |I| [load_module]: Loading module ID: 0x14
-[16:40:01.078] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[16:40:01.078] |I| [load_self]: Loaded module segment 0 @ [0x02931000 - 0x029343D0 / 0x81000000] (size: 0x000033D0) of module sys/external/liblocation.suprx
-[16:40:01.078] |I| [load_self]: Loaded module segment 1 @ [0x02935000 - 0x02935040 / 0x81004000] (size: 0x00000040) of module sys/external/liblocation.suprx
-[16:40:01.078] |I| [load_self]: Loading symbols for SELF: sys/external/liblocation.suprx
-[16:40:01.079] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x29343B8
-[16:40:01.079] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2933888
-[16:40:01.079] |I| [load_module]: Module SceLibLocation (at "sys/external/liblocation.suprx") loaded
-[16:40:01.080] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[16:40:01.082] |E| [call_import]: Import function for NID 0x9F793F84 not found (thread name: PCSB00048, thread ID: 8)
-[16:40:01.155] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_N.bin
-[16:40:01.176] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_R.bin
-[16:40:01.177] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_SelectPack.nut
-[16:40:01.186] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_MojiList.dat
-[16:40:01.187] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_N.bin
-[16:40:01.224] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_R.bin
-[16:40:01.225] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_SelectPack.nut
-[16:40:01.246] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_MojiList.dat
-[16:40:01.246] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_N.bin
-[16:40:01.265] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_R.bin
-[16:40:01.270] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_SelectPack.nut
-[16:40:01.278] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_MojiList.dat
-[16:40:01.282] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01.bin
-[16:40:01.302] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_SelectPack.nut
-[16:40:01.313] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListJP.dat
-[16:40:01.321] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListEN.dat
-[16:40:01.322] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListFR.dat
-[16:40:01.322] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListGE.dat
-[16:40:01.323] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListIT.dat
-[16:40:01.323] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListSP.dat
-[16:40:01.324] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02.bin
-[16:40:01.338] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_SelectPack.nut
-[16:40:01.344] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListJP.dat
-[16:40:01.352] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListEN.dat
-[16:40:01.352] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListFR.dat
-[16:40:01.353] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListGE.dat
-[16:40:01.353] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListIT.dat
-[16:40:01.354] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListSP.dat
-[16:40:01.355] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03.bin
-[16:40:01.355] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_SelectPack.nut
-[16:40:01.362] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListJP.dat
-[16:40:01.363] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListEN.dat
-[16:40:01.364] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListFR.dat
-[16:40:01.365] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListGE.dat
-[16:40:01.365] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListIT.dat
-[16:40:01.365] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListSP.dat
-[16:40:01.366] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04.bin
-[16:40:01.367] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_SelectPack.nut
-[16:40:01.371] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListJP.dat
-[16:40:01.372] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListEN.dat
-[16:40:01.373] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListFR.dat
-[16:40:01.373] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListGE.dat
-[16:40:01.373] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListIT.dat
-[16:40:01.374] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListSP.dat
-[16:40:01.374] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05.bin
-[16:40:01.385] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_SelectPack.nut
-[16:40:01.386] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListJP.dat
-[16:40:01.387] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListEN.dat
-[16:40:01.387] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListFR.dat
-[16:40:01.393] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListGE.dat
-[16:40:01.394] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListIT.dat
-[16:40:01.394] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListSP.dat
-[16:40:01.395] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06.bin
-[16:40:01.410] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_SelectPack.nut
-[16:40:01.411] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListJP.dat
-[16:40:01.412] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListEN.dat
-[16:40:01.413] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListFR.dat
-[16:40:01.413] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListGE.dat
-[16:40:01.413] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListIT.dat
-[16:40:01.414] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListSP.dat
-[16:40:01.414] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07.bin
-[16:40:01.424] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_SelectPack.nut
-[16:40:01.425] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListJP.dat
-[16:40:01.426] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListEN.dat
-[16:40:01.427] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListFR.dat
-[16:40:01.427] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListGE.dat
-[16:40:01.428] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListIT.dat
-[16:40:01.428] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListSP.dat
-[16:40:01.431] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM01/BGM01DB.bin
-[16:40:01.431] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM02/BGM02DB.bin
-[16:40:01.432] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM03/BGM03DB.bin
-[16:40:01.432] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM04/BGM04DB.bin
-[16:40:01.433] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM05/BGM05DB.bin
-[16:40:01.433] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM06/BGM06DB.bin
-[16:40:01.433] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM07/BGM07DB.bin
-[16:40:01.438] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_N.bin
-[16:40:01.438] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_R.bin
-[16:40:01.439] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_SelectPack.nut
-[16:40:01.440] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_MojiList.dat
-[16:40:01.440] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_N.bin
-[16:40:01.441] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_R.bin
-[16:40:01.441] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_SelectPack.nut
-[16:40:01.441] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_MojiList.dat
-[16:40:01.442] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_N.bin
-[16:40:01.443] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_R.bin
-[16:40:01.443] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_SelectPack.nut
-[16:40:01.443] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_MojiList.dat
-[16:40:01.444] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_N.bin
-[16:40:01.444] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_R.bin
-[16:40:01.445] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_SelectPack.nut
-[16:40:01.445] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_MojiList.dat
-[16:40:01.446] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_N.bin
-[16:40:01.446] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_R.bin
-[16:40:01.446] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_SelectPack.nut
-[16:40:01.447] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_MojiList.dat
-[16:40:01.447] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_N.bin
-[16:40:01.448] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_R.bin
-[16:40:01.448] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_SelectPack.nut
-[16:40:01.448] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_MojiList.dat
-[16:40:01.450] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08.bin
-[16:40:01.451] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_SelectPack.nut
-[16:40:01.451] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListJP.dat
-[16:40:01.451] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListEN.dat
-[16:40:01.452] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListFR.dat
-[16:40:01.452] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListGE.dat
-[16:40:01.453] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListIT.dat
-[16:40:01.453] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListSP.dat
-[16:40:01.454] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09.bin
-[16:40:01.454] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_SelectPack.nut
-[16:40:01.455] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListJP.dat
-[16:40:01.455] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListEN.dat
-[16:40:01.455] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListFR.dat
-[16:40:01.456] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListGE.dat
-[16:40:01.456] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListIT.dat
-[16:40:01.456] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListSP.dat
-[16:40:01.457] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10.bin
-[16:40:01.457] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_SelectPack.nut
-[16:40:01.458] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListJP.dat
-[16:40:01.458] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListEN.dat
-[16:40:01.459] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListFR.dat
-[16:40:01.459] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListGE.dat
-[16:40:01.459] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListIT.dat
-[16:40:01.460] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListSP.dat
-[16:40:01.460] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11.bin
-[16:40:01.461] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_SelectPack.nut
-[16:40:01.461] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListJP.dat
-[16:40:01.461] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListEN.dat
-[16:40:01.462] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListFR.dat
-[16:40:01.462] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListGE.dat
-[16:40:01.463] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListIT.dat
-[16:40:01.463] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListSP.dat
-[16:40:01.464] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12.bin
-[16:40:01.464] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_SelectPack.nut
-[16:40:01.464] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListJP.dat
-[16:40:01.465] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListEN.dat
-[16:40:01.465] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListFR.dat
-[16:40:01.465] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListGE.dat
-[16:40:01.466] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListIT.dat
-[16:40:01.466] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListSP.dat
-[16:40:01.467] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13.bin
-[16:40:01.467] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_SelectPack.nut
-[16:40:01.467] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListJP.dat
-[16:40:01.468] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListEN.dat
-[16:40:01.468] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListFR.dat
-[16:40:01.468] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListGE.dat
-[16:40:01.469] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListIT.dat
-[16:40:01.469] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListSP.dat
-[16:40:01.470] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14.bin
-[16:40:01.470] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_SelectPack.nut
-[16:40:01.470] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListJP.dat
-[16:40:01.471] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListEN.dat
-[16:40:01.471] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListFR.dat
-[16:40:01.471] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListGE.dat
-[16:40:01.472] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListIT.dat
-[16:40:01.472] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListSP.dat
-[16:40:01.473] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15.bin
-[16:40:01.473] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_SelectPack.nut
-[16:40:01.474] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListJP.dat
-[16:40:01.474] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListEN.dat
-[16:40:01.474] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListFR.dat
-[16:40:01.475] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListGE.dat
-[16:40:01.475] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListIT.dat
-[16:40:01.475] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListSP.dat
-[16:40:01.477] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31.bin
-[16:40:01.477] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_SelectPack.nut
-[16:40:01.477] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListJP.dat
-[16:40:01.477] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListEN.dat
-[16:40:01.478] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListFR.dat
-[16:40:01.478] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListGE.dat
-[16:40:01.478] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListIT.dat
-[16:40:01.479] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListSP.dat
-[16:40:01.479] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32.bin
-[16:40:01.480] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_SelectPack.nut
-[16:40:01.480] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListJP.dat
-[16:40:01.480] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListEN.dat
-[16:40:01.481] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListFR.dat
-[16:40:01.481] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListGE.dat
-[16:40:01.481] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListIT.dat
-[16:40:01.482] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListSP.dat
-[16:40:01.483] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030008/BGM08DB.bin
-[16:40:01.484] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030009/BGM09DB.bin
-[16:40:01.485] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030010/BGM10DB.bin
-[16:40:01.485] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030011/BGM11DB.bin
-[16:40:01.486] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030012/BGM12DB.bin
-[16:40:01.487] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030013/BGM13DB.bin
-[16:40:01.488] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030014/BGM14DB.bin
-[16:40:01.488] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030015/BGM15DB.bin
-[16:40:01.489] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030016/BGM16DB.bin
-[16:40:01.489] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030017/BGM17DB.bin
-[16:40:01.490] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030018/BGM18DB.bin
-[16:40:01.491] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030019/BGM19DB.bin
-[16:40:01.492] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030020/BGM20DB.bin
-[16:40:01.493] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030021/BGM21DB.bin
-[16:40:01.494] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030022/BGM22DB.bin
-[16:40:01.494] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030023/BGM23DB.bin
-[16:40:01.495] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030024/BGM24DB.bin
-[16:40:01.496] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030025/BGM25DB.bin
-[16:40:01.497] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030026/BGM26DB.bin
-[16:40:01.497] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030027/BGM27DB.bin
-[16:40:01.498] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030028/BGM28DB.bin
-[16:40:01.499] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030029/BGM29DB.bin
-[16:40:01.499] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030030/BGM30DB.bin
-[16:40:01.500] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030031/BGM31DB.bin
-[16:40:01.501] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030032/BGM32DB.bin
-[16:40:01.501] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030033/BGM33DB.bin
-[16:40:01.502] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030034/BGM34DB.bin
-[16:40:01.503] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030035/BGM35DB.bin
-[16:40:01.503] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030036/BGM36DB.bin
-[16:40:01.504] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030037/BGM37DB.bin
-[16:40:01.505] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030038/BGM38DB.bin
-[16:40:01.505] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030039/BGM39DB.bin
-[16:40:01.506] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030040/BGM40DB.bin
-[16:40:01.507] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030041/BGM41DB.bin
-[16:40:01.507] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030042/BGM42DB.bin
-[16:40:01.508] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030043/BGM43DB.bin
-[16:40:01.509] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030044/BGM44DB.bin
-[16:40:01.509] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030045/BGM45DB.bin
-[16:40:01.510] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030046/BGM46DB.bin
-[16:40:01.511] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030047/BGM47DB.bin
-[16:40:01.512] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030048/BGM48DB.bin
-[16:40:01.512] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030049/BGM49DB.bin
-[16:40:01.513] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030050/BGM50DB.bin
-[16:40:01.514] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030051/BGM51DB.bin
-[16:40:01.514] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030052/BGM52DB.bin
-[16:40:01.515] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030053/BGM53DB.bin
-[16:40:01.516] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030054/BGM54DB.bin
-[16:40:01.516] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030055/BGM55DB.bin
-[16:40:01.517] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030056/BGM56DB.bin
-[16:40:01.518] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030057/BGM57DB.bin
-[16:40:01.518] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030058/BGM58DB.bin
-[16:40:01.519] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030059/BGM59DB.bin
-[16:40:01.520] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030060/BGM60DB.bin
-[16:40:01.520] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030061/BGM61DB.bin
-[16:40:01.521] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030062/BGM62DB.bin
-[16:40:01.522] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030063/BGM63DB.bin
-[16:40:01.522] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030064/BGM64DB.bin
-[16:40:01.523] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030065/BGM65DB.bin
-[16:40:01.524] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030066/BGM66DB.bin
-[16:40:01.524] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030067/BGM67DB.bin
-[16:40:01.525] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030068/BGM68DB.bin
-[16:40:01.526] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030069/BGM69DB.bin
-[16:40:01.527] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030070/BGM70DB.bin
-[16:40:01.527] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030071/BGM71DB.bin
-[16:40:01.528] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030072/BGM72DB.bin
-[16:40:01.529] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030073/BGM73DB.bin
-[16:40:01.529] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030074/BGM74DB.bin
-[16:40:01.530] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030075/BGM75DB.bin
-[16:40:01.531] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030076/BGM76DB.bin
-[16:40:01.531] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030077/BGM77DB.bin
-[16:40:01.532] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030078/BGM78DB.bin
-[16:40:01.533] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030079/BGM79DB.bin
-[16:40:01.533] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030080/BGM80DB.bin
-[16:40:01.534] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030081/BGM81DB.bin
-[16:40:01.535] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030082/BGM82DB.bin
-[16:40:01.535] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030083/BGM83DB.bin
-[16:40:01.536] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030084/BGM84DB.bin
-[16:40:01.537] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030085/BGM85DB.bin
-[16:40:01.537] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030086/BGM86DB.bin
-[16:40:01.538] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030087/BGM87DB.bin
-[16:40:01.539] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030088/BGM88DB.bin
-[16:40:01.539] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030089/BGM89DB.bin
-[16:40:01.540] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030095/BGM95DB.bin
-[16:40:01.541] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030096/BGM96DB.bin
-[16:40:01.542] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030098/BGM98DB.bin
-[16:40:01.548] |I| [export_sceIoOpen]: Opening file: app0:/Disc/cmFileListDisc.info
-[16:40:01.590] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_FileListDisc.info
-[16:40:01.593] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_FileListDisc.info
-[16:40:01.596] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_FileListDisc.info
-[16:40:01.599] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_FileListDisc.info
-[16:40:01.602] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_FileListDisc.info
-[16:40:01.606] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_FileListDisc.info
-[16:40:01.609] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_FileListDisc.info
-[16:40:01.612] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_FileListDisc.info
-[16:40:01.615] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_FileListDisc.info
-[16:40:01.618] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_FileListDisc.info
-[16:40:01.619] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_FileListDisc.info
-[16:40:01.620] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_FileListDisc.info
-[16:40:01.621] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_FileListDisc.info
-[16:40:01.622] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_FileListDisc.info
-[16:40:01.623] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_FileListDisc.info
-[16:40:01.624] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_FileListDisc.info
-[16:40:01.625] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_FileListDisc.info
-[16:40:01.626] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_FileListDisc.info
-[16:40:01.627] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_FileListDisc.info
-[16:40:01.628] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_FileListDisc.info
-[16:40:01.628] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_FileListDisc.info
-[16:40:01.629] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_FileListDisc.info
-[16:40:01.630] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_FileListDisc.info
-[16:40:01.631] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_FileListDisc.info
-[16:40:01.632] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_FileListDisc.info
-[16:40:01.633] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_FileListDisc.info
-[16:40:01.634] |I| [export_sceIoOpen]: Opening file: app0:/Disc/RRN.DAT
-[16:40:01.960] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[16:40:02.005] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[16:40:02.015] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[16:40:02.026] |W| [stubbed_impl]: Stubbed sceKernelWaitSemaCB import called. (no CB)
-[16:40:02.155] |W| [stubbed_impl]: Stubbed sceGxmTextureInitCube import called. (Stub InitCube)
-[16:40:02.156] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 256, height: 256
-[16:40:02.216] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
-[16:40:02.220] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 128, height: 128
-[16:40:02.231] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
-[16:40:02.231] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[16:40:02.232] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[16:40:02.232] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[16:40:02.232] |W| [unimplemented_impl]: Unimplemented sceNpActivityInit import called.
-[16:40:02.233] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
-[16:40:02.233] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[16:40:02.234] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
-[16:40:02.234] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
-[16:40:02.235] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
-[16:40:02.237] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[16:40:02.237] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
-[16:40:02.237] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[16:40:02.238] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[16:40:02.310] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[16:40:02.424] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
-[16:40:02.425] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[16:40:02.425] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.447] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
-[16:40:02.448] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.448] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.448] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.449] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.449] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.450] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.450] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.450] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.450] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.463] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.464] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.464] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.464] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.464] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.464] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.464] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.465] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.465] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.468] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[16:40:02.468] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.470] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.470] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.470] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.470] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.471] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.471] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 3.162281e-05
-[16:40:02.471] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 3.162281e-05
-[16:40:02.471] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 5.0118768e-05
-[16:40:02.471] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 5.0118768e-05
-[16:40:02.472] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 5.0118768e-05
-[16:40:02.472] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 5.0118768e-05
-[16:40:02.472] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 5.0118768e-05
-[16:40:02.473] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 5.0118768e-05
-[16:40:02.473] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 3.162281e-05
-[16:40:02.474] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 3.162281e-05
-[16:40:02.474] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1.5848929
-[16:40:02.474] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1.5848929
-[16:40:02.475] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.475] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.475] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.475] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.475] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.475] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.476] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.476] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.476] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.476] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.476] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.476] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.476] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.477] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.477] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.477] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.477] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.477] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.478] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.478] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.478] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.478] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.478] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.478] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.479] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.479] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.479] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
-[16:40:02.479] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.479] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.480] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.480] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.480] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.480] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.480] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.480] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.480] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.481] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.481] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.481] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.481] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.481] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.481] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.482] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.482] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.482] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.482] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.482] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.482] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.482] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.483] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.483] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.483] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.483] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.483] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.484] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.485] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[16:40:02.485] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.485] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.485] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.485] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.485] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.485] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.486] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
-[16:40:02.486] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
-[16:40:02.830] |I| [export_sceIoOpen]: Opening file: sa0:data/font/pvf/jpn0.pvf
-[16:40:02.831] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: sa0:data/font/pvf/jpn0.pvf
+[05:54:42.354] |I| [load_app_impl]: cpu-backend: Dynarmic
+[05:54:42.354] |I| [load_app_impl]: CPU Optimisation state: true
+[05:54:42.354] |I| [load_app_impl]: at9 audio decoder state: true
+[05:54:42.354] |I| [load_app_impl]: ngs experimental state: true
+[05:54:42.354] |I| [load_app_impl]: video player state: true
+[05:54:42.354] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[05:54:42.354] |I| [load_app_impl]: Title: RIDGE RACER
+[05:54:42.354] |I| [load_app_impl]: Serial: PCSB00048
+[05:54:42.355] |I| [load_app_impl]: Version: 1.02
+[05:54:42.355] |I| [load_app_impl]: Category: gp
+[05:54:42.393] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[05:54:42.393] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00042F34 / 0x81000000] (size: 0x0003BF34) of module ux0:app\PCSB00048-U\sce_module\libc.suprx
+[05:54:42.393] |I| [load_self]: Loaded module segment 1 @ [0x00043000 - 0x0004533C / 0x8103C000] (size: 0x0000233C) of module ux0:app\PCSB00048-U\sce_module\libc.suprx
+[05:54:42.394] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00048-U\sce_module\libc.suprx
+[05:54:42.394] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34A70
+[05:54:42.394] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x38220, setting to stub value 0xDEADBEEF
+[05:54:42.395] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00048-U\sce_module\libc.suprx") loaded
+[05:54:42.406] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[05:54:42.406] |I| [load_self]: Loaded module segment 0 @ [0x00047000 - 0x00068D98 / 0x81000000] (size: 0x00021D98) of module ux0:app\PCSB00048-U\sce_module\libfios2.suprx
+[05:54:42.406] |I| [load_self]: Loaded module segment 1 @ [0x00069000 - 0x0006E22C / 0x81022000] (size: 0x0000522C) of module ux0:app\PCSB00048-U\sce_module\libfios2.suprx
+[05:54:42.406] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00048-U\sce_module\libfios2.suprx
+[05:54:42.407] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6278C
+[05:54:42.407] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00048-U\sce_module\libfios2.suprx") loaded
+[05:54:42.456] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[05:54:42.457] |I| [load_self]: Loaded module segment 0 @ [0x0006F000 - 0x000836AC / 0x81000000] (size: 0x000146AC) of module ux0:app\PCSB00048-U\sce_module\libult.suprx
+[05:54:42.457] |I| [load_self]: Loaded module segment 1 @ [0x00084000 - 0x00084810 / 0x81015000] (size: 0x00000810) of module ux0:app\PCSB00048-U\sce_module\libult.suprx
+[05:54:42.457] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00048-U\sce_module\libult.suprx
+[05:54:42.457] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x80390
+[05:54:42.457] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00048-U\sce_module\libult.suprx") loaded
+[05:54:42.464] |I| [load_self]: Loaded module segment 0 @ [0x00085000 - 0x000D5F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[05:54:42.464] |I| [load_self]: Loaded module segment 1 @ [0x000D6000 - 0x000D62F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[05:54:42.464] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[05:54:42.464] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC17DC
+[05:54:42.465] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC0F10
+[05:54:42.465] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD5EE0, setting to stub value 0xDEADBEEF
+[05:54:42.465] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[05:54:42.467] |I| [load_self]: Loaded module segment 0 @ [0x000D8000 - 0x000E7F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[05:54:42.467] |I| [load_self]: Loaded module segment 1 @ [0x000E8000 - 0x000E8008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[05:54:42.468] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[05:54:42.468] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE6710
+[05:54:42.468] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE6300
+[05:54:42.468] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[05:54:42.517] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[05:54:42.518] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81203BE4 / 0x81000000] (size: 0x00203BE4) of module app0:eboot.bin
+[05:54:42.518] |I| [load_self]: Loaded module segment 1 @ [0x81204000 - 0x81F3077C / 0x81204000] (size: 0x00D2C77C) of module app0:eboot.bin
+[05:54:42.518] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[05:54:42.518] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x811D44A8
+[05:54:42.518] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8120F7C8
+[05:54:42.518] |I| [load_app_impl]: Main executable rrn_Europe_Release (eboot.bin) loaded
+[05:54:42.526] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
+[05:54:42.536] |I| [export_sceIoOpen]: Opening file: tty0:
+[05:54:42.536] |I| [export_sceIoOpen]: Opening file: tty0:
+[05:54:42.536] |I| [export_sceIoOpen]: Opening file: tty1:
+[05:54:42.541] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00048-U\sce_module\libc.suprx") module_start returned 0x0
+[05:54:42.546] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x47001
+[05:54:42.554] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00048-U\sce_module\libfios2.suprx") module_start returned 0x0
+[05:54:42.558] |D| [run_app]: Running module_start of library: SceUlt at address 0x72D69
+[05:54:42.566] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00048-U\sce_module\libult.suprx") module_start returned 0x0
+[05:54:42.719] |I| [load_module]: Loading module ID: 0x14
+[05:54:42.720] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[05:54:42.720] |I| [load_self]: Loaded module segment 0 @ [0x02931000 - 0x029343D0 / 0x81000000] (size: 0x000033D0) of module sys/external/liblocation.suprx
+[05:54:42.720] |I| [load_self]: Loaded module segment 1 @ [0x02935000 - 0x02935040 / 0x81004000] (size: 0x00000040) of module sys/external/liblocation.suprx
+[05:54:42.720] |I| [load_self]: Loading symbols for SELF: sys/external/liblocation.suprx
+[05:54:42.720] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x29343B8
+[05:54:42.720] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2933888
+[05:54:42.720] |I| [load_module]: Module SceLibLocation (at "sys/external/liblocation.suprx") loaded
+[05:54:42.722] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[05:54:42.723] |E| [call_import]: Import function for NID 0x9F793F84 not found (thread name: PCSB00048, thread ID: 8)
+[05:54:42.770] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_N.bin
+[05:54:42.791] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_R.bin
+[05:54:42.793] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_SelectPack.nut
+[05:54:42.801] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_MojiList.dat
+[05:54:42.802] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_N.bin
+[05:54:42.861] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_R.bin
+[05:54:42.862] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_SelectPack.nut
+[05:54:42.878] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_MojiList.dat
+[05:54:42.879] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_N.bin
+[05:54:42.897] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_R.bin
+[05:54:42.902] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_SelectPack.nut
+[05:54:42.911] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_MojiList.dat
+[05:54:42.914] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01.bin
+[05:54:42.934] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_SelectPack.nut
+[05:54:42.946] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListJP.dat
+[05:54:42.953] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListEN.dat
+[05:54:42.954] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListFR.dat
+[05:54:42.955] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListGE.dat
+[05:54:42.956] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListIT.dat
+[05:54:42.957] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_MojiListSP.dat
+[05:54:42.958] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02.bin
+[05:54:42.978] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_SelectPack.nut
+[05:54:42.985] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListJP.dat
+[05:54:42.992] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListEN.dat
+[05:54:42.993] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListFR.dat
+[05:54:42.993] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListGE.dat
+[05:54:42.994] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListIT.dat
+[05:54:42.994] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_MojiListSP.dat
+[05:54:42.995] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03.bin
+[05:54:42.996] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_SelectPack.nut
+[05:54:43.003] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListJP.dat
+[05:54:43.004] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListEN.dat
+[05:54:43.004] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListFR.dat
+[05:54:43.005] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListGE.dat
+[05:54:43.005] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListIT.dat
+[05:54:43.006] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_MojiListSP.dat
+[05:54:43.007] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04.bin
+[05:54:43.008] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_SelectPack.nut
+[05:54:43.012] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListJP.dat
+[05:54:43.012] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListEN.dat
+[05:54:43.013] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListFR.dat
+[05:54:43.013] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListGE.dat
+[05:54:43.015] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListIT.dat
+[05:54:43.016] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_MojiListSP.dat
+[05:54:43.017] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05.bin
+[05:54:43.034] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_SelectPack.nut
+[05:54:43.035] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListJP.dat
+[05:54:43.036] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListEN.dat
+[05:54:43.036] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListFR.dat
+[05:54:43.042] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListGE.dat
+[05:54:43.042] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListIT.dat
+[05:54:43.043] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_MojiListSP.dat
+[05:54:43.043] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06.bin
+[05:54:43.059] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_SelectPack.nut
+[05:54:43.061] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListJP.dat
+[05:54:43.062] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListEN.dat
+[05:54:43.062] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListFR.dat
+[05:54:43.063] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListGE.dat
+[05:54:43.063] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListIT.dat
+[05:54:43.063] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_MojiListSP.dat
+[05:54:43.064] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07.bin
+[05:54:43.098] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_SelectPack.nut
+[05:54:43.099] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListJP.dat
+[05:54:43.100] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListEN.dat
+[05:54:43.100] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListFR.dat
+[05:54:43.101] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListGE.dat
+[05:54:43.101] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListIT.dat
+[05:54:43.102] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_MojiListSP.dat
+[05:54:43.104] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM01/BGM01DB.bin
+[05:54:43.104] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM02/BGM02DB.bin
+[05:54:43.105] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM03/BGM03DB.bin
+[05:54:43.105] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM04/BGM04DB.bin
+[05:54:43.106] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM05/BGM05DB.bin
+[05:54:43.107] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM06/BGM06DB.bin
+[05:54:43.107] |I| [export_sceIoOpen]: Opening file: app0:/Disc/BGM/BGM07/BGM07DB.bin
+[05:54:43.112] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_N.bin
+[05:54:43.112] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_R.bin
+[05:54:43.112] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_SelectPack.nut
+[05:54:43.113] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_MojiList.dat
+[05:54:43.114] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_N.bin
+[05:54:43.114] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_R.bin
+[05:54:43.114] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_SelectPack.nut
+[05:54:43.115] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_MojiList.dat
+[05:54:43.115] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_N.bin
+[05:54:43.116] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_R.bin
+[05:54:43.116] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_SelectPack.nut
+[05:54:43.116] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_MojiList.dat
+[05:54:43.117] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_N.bin
+[05:54:43.117] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_R.bin
+[05:54:43.117] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_SelectPack.nut
+[05:54:43.118] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_MojiList.dat
+[05:54:43.118] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_N.bin
+[05:54:43.118] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_R.bin
+[05:54:43.119] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_SelectPack.nut
+[05:54:43.119] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_MojiList.dat
+[05:54:43.119] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_N.bin
+[05:54:43.120] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_R.bin
+[05:54:43.120] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_SelectPack.nut
+[05:54:43.120] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_MojiList.dat
+[05:54:43.122] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08.bin
+[05:54:43.125] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_SelectPack.nut
+[05:54:43.126] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListJP.dat
+[05:54:43.126] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListEN.dat
+[05:54:43.126] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListFR.dat
+[05:54:43.127] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListGE.dat
+[05:54:43.127] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListIT.dat
+[05:54:43.127] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_MojiListSP.dat
+[05:54:43.128] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09.bin
+[05:54:43.128] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_SelectPack.nut
+[05:54:43.129] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListJP.dat
+[05:54:43.129] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListEN.dat
+[05:54:43.129] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListFR.dat
+[05:54:43.129] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListGE.dat
+[05:54:43.130] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListIT.dat
+[05:54:43.130] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_MojiListSP.dat
+[05:54:43.131] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10.bin
+[05:54:43.131] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_SelectPack.nut
+[05:54:43.131] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListJP.dat
+[05:54:43.131] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListEN.dat
+[05:54:43.132] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListFR.dat
+[05:54:43.132] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListGE.dat
+[05:54:43.132] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListIT.dat
+[05:54:43.132] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_MojiListSP.dat
+[05:54:43.133] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11.bin
+[05:54:43.133] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_SelectPack.nut
+[05:54:43.134] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListJP.dat
+[05:54:43.134] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListEN.dat
+[05:54:43.134] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListFR.dat
+[05:54:43.135] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListGE.dat
+[05:54:43.135] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListIT.dat
+[05:54:43.135] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_MojiListSP.dat
+[05:54:43.136] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12.bin
+[05:54:43.140] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_SelectPack.nut
+[05:54:43.141] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListJP.dat
+[05:54:43.141] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListEN.dat
+[05:54:43.141] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListFR.dat
+[05:54:43.141] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListGE.dat
+[05:54:43.142] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListIT.dat
+[05:54:43.142] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_MojiListSP.dat
+[05:54:43.143] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13.bin
+[05:54:43.143] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_SelectPack.nut
+[05:54:43.144] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListJP.dat
+[05:54:43.144] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListEN.dat
+[05:54:43.144] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListFR.dat
+[05:54:43.145] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListGE.dat
+[05:54:43.145] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListIT.dat
+[05:54:43.145] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_MojiListSP.dat
+[05:54:43.146] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14.bin
+[05:54:43.146] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_SelectPack.nut
+[05:54:43.146] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListJP.dat
+[05:54:43.146] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListEN.dat
+[05:54:43.147] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListFR.dat
+[05:54:43.147] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListGE.dat
+[05:54:43.147] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListIT.dat
+[05:54:43.147] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_MojiListSP.dat
+[05:54:43.148] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15.bin
+[05:54:43.148] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_SelectPack.nut
+[05:54:43.149] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListJP.dat
+[05:54:43.149] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListEN.dat
+[05:54:43.149] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListFR.dat
+[05:54:43.149] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListGE.dat
+[05:54:43.150] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListIT.dat
+[05:54:43.150] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_MojiListSP.dat
+[05:54:43.151] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31.bin
+[05:54:43.151] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_SelectPack.nut
+[05:54:43.155] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListJP.dat
+[05:54:43.155] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListEN.dat
+[05:54:43.155] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListFR.dat
+[05:54:43.156] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListGE.dat
+[05:54:43.156] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListIT.dat
+[05:54:43.157] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_MojiListSP.dat
+[05:54:43.157] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32.bin
+[05:54:43.158] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_SelectPack.nut
+[05:54:43.158] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListJP.dat
+[05:54:43.158] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListEN.dat
+[05:54:43.159] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListFR.dat
+[05:54:43.159] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListGE.dat
+[05:54:43.159] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListIT.dat
+[05:54:43.159] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_MojiListSP.dat
+[05:54:43.161] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030008/BGM08DB.bin
+[05:54:43.161] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030009/BGM09DB.bin
+[05:54:43.162] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030010/BGM10DB.bin
+[05:54:43.162] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030011/BGM11DB.bin
+[05:54:43.163] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030012/BGM12DB.bin
+[05:54:43.164] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030013/BGM13DB.bin
+[05:54:43.164] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030014/BGM14DB.bin
+[05:54:43.165] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030015/BGM15DB.bin
+[05:54:43.165] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030016/BGM16DB.bin
+[05:54:43.166] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030017/BGM17DB.bin
+[05:54:43.170] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030018/BGM18DB.bin
+[05:54:43.170] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030019/BGM19DB.bin
+[05:54:43.171] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030020/BGM20DB.bin
+[05:54:43.172] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030021/BGM21DB.bin
+[05:54:43.172] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030022/BGM22DB.bin
+[05:54:43.173] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030023/BGM23DB.bin
+[05:54:43.174] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030024/BGM24DB.bin
+[05:54:43.174] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030025/BGM25DB.bin
+[05:54:43.175] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030026/BGM26DB.bin
+[05:54:43.176] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030027/BGM27DB.bin
+[05:54:43.176] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030028/BGM28DB.bin
+[05:54:43.177] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030029/BGM29DB.bin
+[05:54:43.177] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030030/BGM30DB.bin
+[05:54:43.178] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030031/BGM31DB.bin
+[05:54:43.178] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030032/BGM32DB.bin
+[05:54:43.179] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030033/BGM33DB.bin
+[05:54:43.180] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030034/BGM34DB.bin
+[05:54:43.180] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030035/BGM35DB.bin
+[05:54:43.181] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030036/BGM36DB.bin
+[05:54:43.181] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030037/BGM37DB.bin
+[05:54:43.184] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030038/BGM38DB.bin
+[05:54:43.185] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030039/BGM39DB.bin
+[05:54:43.186] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030040/BGM40DB.bin
+[05:54:43.186] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030041/BGM41DB.bin
+[05:54:43.187] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030042/BGM42DB.bin
+[05:54:43.187] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030043/BGM43DB.bin
+[05:54:43.188] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030044/BGM44DB.bin
+[05:54:43.189] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030045/BGM45DB.bin
+[05:54:43.189] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030046/BGM46DB.bin
+[05:54:43.190] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030047/BGM47DB.bin
+[05:54:43.191] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030048/BGM48DB.bin
+[05:54:43.191] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030049/BGM49DB.bin
+[05:54:43.192] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030050/BGM50DB.bin
+[05:54:43.193] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030051/BGM51DB.bin
+[05:54:43.193] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030052/BGM52DB.bin
+[05:54:43.194] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030053/BGM53DB.bin
+[05:54:43.194] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030054/BGM54DB.bin
+[05:54:43.195] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030055/BGM55DB.bin
+[05:54:43.196] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030056/BGM56DB.bin
+[05:54:43.196] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030057/BGM57DB.bin
+[05:54:43.197] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030058/BGM58DB.bin
+[05:54:43.197] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030059/BGM59DB.bin
+[05:54:43.200] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030060/BGM60DB.bin
+[05:54:43.201] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030061/BGM61DB.bin
+[05:54:43.202] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030062/BGM62DB.bin
+[05:54:43.202] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030063/BGM63DB.bin
+[05:54:43.203] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030064/BGM64DB.bin
+[05:54:43.203] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030065/BGM65DB.bin
+[05:54:43.204] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030066/BGM66DB.bin
+[05:54:43.204] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030067/BGM67DB.bin
+[05:54:43.205] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030068/BGM68DB.bin
+[05:54:43.206] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030069/BGM69DB.bin
+[05:54:43.207] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030070/BGM70DB.bin
+[05:54:43.207] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030071/BGM71DB.bin
+[05:54:43.208] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030072/BGM72DB.bin
+[05:54:43.209] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030073/BGM73DB.bin
+[05:54:43.209] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030074/BGM74DB.bin
+[05:54:43.210] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030075/BGM75DB.bin
+[05:54:43.210] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030076/BGM76DB.bin
+[05:54:43.211] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030077/BGM77DB.bin
+[05:54:43.212] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030078/BGM78DB.bin
+[05:54:43.212] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030079/BGM79DB.bin
+[05:54:43.215] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030080/BGM80DB.bin
+[05:54:43.216] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030081/BGM81DB.bin
+[05:54:43.217] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030082/BGM82DB.bin
+[05:54:43.217] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030083/BGM83DB.bin
+[05:54:43.218] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030084/BGM84DB.bin
+[05:54:43.218] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030085/BGM85DB.bin
+[05:54:43.219] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030086/BGM86DB.bin
+[05:54:43.219] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030087/BGM87DB.bin
+[05:54:43.220] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030088/BGM88DB.bin
+[05:54:43.221] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030089/BGM89DB.bin
+[05:54:43.221] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030095/BGM95DB.bin
+[05:54:43.222] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030096/BGM96DB.bin
+[05:54:43.222] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000030098/BGM98DB.bin
+[05:54:43.229] |I| [export_sceIoOpen]: Opening file: app0:/Disc/cmFileListDisc.info
+[05:54:43.288] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_A/Course_A_FileListDisc.info
+[05:54:43.293] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_B/Course_B_FileListDisc.info
+[05:54:43.296] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Course/Course_C/Course_C_FileListDisc.info
+[05:54:43.299] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040006/Course_E3_FileListDisc.info
+[05:54:43.302] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040008/Course_F2_FileListDisc.info
+[05:54:43.304] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040010/Course_G1_FileListDisc.info
+[05:54:43.308] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040012/Course_H_FileListDisc.info
+[05:54:43.310] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040014/Course_I_FileListDisc.info
+[05:54:43.313] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000040016/Course_J_FileListDisc.info
+[05:54:43.316] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_01/Car_01_FileListDisc.info
+[05:54:43.317] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_02/Car_02_FileListDisc.info
+[05:54:43.318] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_03/Car_03_FileListDisc.info
+[05:54:43.319] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_04/Car_04_FileListDisc.info
+[05:54:43.319] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_05/Car_05_FileListDisc.info
+[05:54:43.320] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_06/Car_06_FileListDisc.info
+[05:54:43.322] |I| [export_sceIoOpen]: Opening file: app0:/Disc/Car/Car_07/Car_07_FileListDisc.info
+[05:54:43.324] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050007/Car_08_FileListDisc.info
+[05:54:43.325] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050008/Car_09_FileListDisc.info
+[05:54:43.325] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050009/Car_10_FileListDisc.info
+[05:54:43.326] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050010/Car_11_FileListDisc.info
+[05:54:43.327] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050011/Car_12_FileListDisc.info
+[05:54:43.328] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050012/Car_13_FileListDisc.info
+[05:54:43.328] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050013/Car_14_FileListDisc.info
+[05:54:43.329] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050014/Car_15_FileListDisc.info
+[05:54:43.330] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050030/Car_31_FileListDisc.info
+[05:54:43.331] |I| [export_sceIoOpen]: Opening file: addcont0:/0000000000050031/Car_32_FileListDisc.info
+[05:54:43.332] |I| [export_sceIoOpen]: Opening file: app0:/Disc/RRN.DAT
+[05:54:43.630] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[05:54:43.664] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[05:54:43.740] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[05:54:43.751] |W| [stubbed_impl]: Stubbed sceKernelWaitSemaCB import called. (no CB)
+[05:54:43.928] |W| [stubbed_impl]: Stubbed sceGxmTextureInitCube import called. (Stub InitCube)
+[05:54:43.928] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 256, height: 256
+[05:54:43.997] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[05:54:44.024] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 128, height: 128
+[05:54:44.034] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[05:54:44.035] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[05:54:44.035] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[05:54:44.036] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[05:54:44.036] |W| [unimplemented_impl]: Unimplemented sceNpActivityInit import called.
+[05:54:44.036] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
+[05:54:44.036] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[05:54:44.037] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[05:54:44.037] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
+[05:54:44.038] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
+[05:54:44.040] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[05:54:44.040] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[05:54:44.040] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[05:54:44.040] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[05:54:44.129] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[05:54:44.266] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
+[05:54:44.267] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[05:54:44.267] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.286] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
+[05:54:44.286] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.286] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.287] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.287] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.287] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.287] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.288] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.288] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.288] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.298] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.300] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.300] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.300] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.300] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.300] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.300] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.300] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.301] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.302] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[05:54:44.303] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.304] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.304] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.304] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.304] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.304] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.305] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 3.162281e-05
+[05:54:44.305] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 3.162281e-05
+[05:54:44.305] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 5.0118768e-05
+[05:54:44.305] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 5.0118768e-05
+[05:54:44.305] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 5.0118768e-05
+[05:54:44.305] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 5.0118768e-05
+[05:54:44.306] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 5.0118768e-05
+[05:54:44.306] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 5.0118768e-05
+[05:54:44.307] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 3.162281e-05
+[05:54:44.307] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 3.162281e-05
+[05:54:44.307] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1.5848929
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1.5848929
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.308] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.308] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.309] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.309] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.310] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.310] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.310] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.310] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.310] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.310] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.310] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.310] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
+[05:54:44.310] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.311] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.312] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.313] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.314] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.314] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.318] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.318] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.318] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.318] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[05:54:44.318] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.318] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.318] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.318] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.319] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.319] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.319] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 0, in chanel: 0, vol: 1
+[05:54:44.319] |D| [export_sceNgsVoicePatchSetVolume]: out chanel: 1, in chanel: 1, vol: 1
+[05:54:44.737] |I| [export_sceIoOpen]: Opening file: sa0:data/font/pvf/jpn0.pvf
+[05:54:44.738] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: sa0:data/font/pvf/jpn0.pvf
 
-[16:40:02.831] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
-[16:40:03.141] |E| [call_import]: Import function for NID 0xA412E9CA not found (thread name: PCSB00048, thread ID: 8)
-[16:40:03.157] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
-[16:40:03.158] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
-[16:40:03.158] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
-[16:40:03.159] |W| [stubbed_impl]: Stubbed sceNetCtlAdhocGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
-[16:40:03.159] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
-[16:40:03.159] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetResult import called. (sceNetCheckDialogGetResult)
-[16:40:03.160] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogTerm import called.
-[16:40:03.182] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetClip import called.
-[16:40:03.188] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[16:40:03.189] |I| [renderer::gl::load_shader_generic]: Generating frag shader 361ffbc7ec1a2eecb04fe2caa53615267b122f2bdf94778aa62d48835e362e90
-[16:40:03.189] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[16:40:03.192] |I| [renderer::gl::load_shader_generic]: Generating vert shader fccb31b487c60bd3e2ca83727719fdd9051869c569849dbc91c6da5180973e8d
-[16:40:03.192] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
-[16:40:03.193] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color
-[16:40:03.195] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[16:40:03.195] |I| [renderer::gl::load_shader_generic]: Generating frag shader d8ded0ee15d999f62693414dd3297eac98c5df51a76ce7140dde39c4707d033c
-[16:40:03.196] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[16:40:03.198] |I| [renderer::gl::load_shader_generic]: Generating vert shader d27c5308e28819f630a964d58413f1c07ca751276998459c76ea03197bcf2588
-[16:40:03.198] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_Position
-[16:40:03.198] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_Color
-[16:40:03.199] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_TexCoord
-[16:40:03.199] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProjMatrix[4]
-[16:40:03.202] |E| [renderer::gl::compile_program]: Fragment info
+[05:54:44.738] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
+[05:54:45.048] |E| [call_import]: Import function for NID 0xA412E9CA not found (thread name: PCSB00048, thread ID: 8)
+[05:54:45.064] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[05:54:45.064] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[05:54:45.064] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
+[05:54:45.065] |W| [stubbed_impl]: Stubbed sceNetCtlAdhocGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
+[05:54:45.065] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
+[05:54:45.065] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetResult import called. (sceNetCheckDialogGetResult)
+[05:54:45.065] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogTerm import called.
+[05:54:45.088] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetClip import called.
+[05:54:45.094] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[05:54:45.124] |I| [renderer::gl::load_shader_generic]: Generating frag shader 361ffbc7ec1a2eecb04fe2caa53615267b122f2bdf94778aa62d48835e362e90
+[05:54:45.125] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[05:54:45.128] |I| [renderer::gl::load_shader_generic]: Generating vert shader fccb31b487c60bd3e2ca83727719fdd9051869c569849dbc91c6da5180973e8d
+[05:54:45.128] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[05:54:45.128] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color
+[05:54:45.129] |I| [export_sceIoOpen]: Opening file: savedata0:system/system0000.bin
+[05:54:45.131] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[05:54:45.132] |I| [renderer::gl::load_shader_generic]: Generating frag shader d8ded0ee15d999f62693414dd3297eac98c5df51a76ce7140dde39c4707d033c
+[05:54:45.132] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[05:54:45.134] |I| [renderer::gl::load_shader_generic]: Generating vert shader d27c5308e28819f630a964d58413f1c07ca751276998459c76ea03197bcf2588
+[05:54:45.135] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_Position
+[05:54:45.135] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_Color
+[05:54:45.135] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_TexCoord
+[05:54:45.135] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProjMatrix[4]
+[05:54:45.138] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[16:40:03.208] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartMulti import called. (wait for vblank)
-[16:40:03.208] |D| [display_wait]: vcount: 1
-[16:40:03.209] |D| [display_wait]: vcount: 1
-[16:40:03.224] |I| [export_sceIoOpen]: Opening file: savedata0:system/system0000.bin
-[16:40:03.225] |D| [display_wait]: vcount: 1
-[16:40:03.286] |D| [display_wait]: vcount: 1
-[16:40:03.293] |D| [display_wait]: vcount: 1
-[16:40:03.310] |D| [display_wait]: vcount: 1
-[16:40:03.327] |D| [display_wait]: vcount: 1
-[16:40:03.328] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[16:40:03.344] |D| [display_wait]: vcount: 1
-[16:40:03.361] |D| [display_wait]: vcount: 1
-[16:40:03.378] |D| [display_wait]: vcount: 1
-[16:40:03.395] |D| [display_wait]: vcount: 1
-[16:40:03.412] |D| [display_wait]: vcount: 1
-[16:40:03.429] |D| [display_wait]: vcount: 1
-[16:40:03.446] |D| [display_wait]: vcount: 1
-[16:40:03.463] |D| [display_wait]: vcount: 1
-[16:40:03.480] |D| [display_wait]: vcount: 1
-[16:40:03.497] |D| [display_wait]: vcount: 1
-[16:40:03.514] |D| [display_wait]: vcount: 1
-[16:40:03.531] |D| [display_wait]: vcount: 1
-[16:40:03.548] |D| [display_wait]: vcount: 1
-[16:40:03.565] |D| [display_wait]: vcount: 1
-[16:40:03.582] |D| [display_wait]: vcount: 1
-[16:40:03.599] |D| [display_wait]: vcount: 1
-[16:40:03.616] |D| [display_wait]: vcount: 1
-[16:40:03.633] |D| [display_wait]: vcount: 1
-[16:40:03.650] |D| [display_wait]: vcount: 1
-[16:40:03.667] |D| [display_wait]: vcount: 1
-[16:40:03.684] |D| [display_wait]: vcount: 1
-[16:40:03.701] |D| [display_wait]: vcount: 1
-[16:40:03.718] |D| [display_wait]: vcount: 1
-[16:40:03.735] |D| [display_wait]: vcount: 1
-[16:40:03.752] |D| [display_wait]: vcount: 1
-[16:40:03.768] |D| [display_wait]: vcount: 1
-[16:40:03.784] |D| [display_wait]: vcount: 1
-[16:40:03.801] |D| [display_wait]: vcount: 1
-[16:40:03.818] |D| [display_wait]: vcount: 1
-[16:40:03.835] |D| [display_wait]: vcount: 1
-[16:40:03.852] |D| [display_wait]: vcount: 1
-[16:40:03.869] |D| [display_wait]: vcount: 1
-[16:40:03.886] |D| [display_wait]: vcount: 1
-[16:40:03.903] |D| [display_wait]: vcount: 1
-[16:40:03.920] |D| [display_wait]: vcount: 1
-[16:40:03.937] |D| [display_wait]: vcount: 1
-[16:40:03.954] |D| [display_wait]: vcount: 1
-[16:40:03.971] |D| [display_wait]: vcount: 1
-[16:40:03.988] |D| [display_wait]: vcount: 1
-[16:40:04.005] |D| [display_wait]: vcount: 1
-[16:40:04.022] |D| [display_wait]: vcount: 1
+[05:54:45.146] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartMulti import called. (wait for vblank)
+[05:54:45.227] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
+[05:54:45.229] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43

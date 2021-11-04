@@ -1,151 +1,718 @@
-[14:43:08.539] |I| [load_app_impl]: cpu-backend: Dynarmic
-[14:43:08.540] |I| [load_app_impl]: CPU Optimisation state: true
-[14:43:08.540] |I| [load_app_impl]: at9 audio decoder state: true
-[14:43:08.540] |I| [load_app_impl]: ngs experimental state: true
-[14:43:08.540] |I| [load_app_impl]: video player state: true
-[14:43:08.540] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,librudp,liblocation,libhandwriting
-[14:43:08.540] |I| [load_app_impl]: Title: DEEMO ~The Last Recital~
-[14:43:08.540] |I| [load_app_impl]: Serial: PCSE01041
-[14:43:08.540] |I| [load_app_impl]: Version: 1.00
-[14:43:08.540] |I| [load_app_impl]: Category: gd
-[14:43:08.610] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:08.610] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSE01041\sce_module\libc.suprx
-[14:43:08.610] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSE01041\sce_module\libc.suprx
-[14:43:08.610] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libc.suprx
-[14:43:08.611] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[14:43:08.611] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[14:43:08.611] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[14:43:08.612] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[14:43:08.612] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSE01041\sce_module\libc.suprx") loaded
-[14:43:08.625] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:08.625] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSE01041\sce_module\libface.suprx
-[14:43:08.625] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSE01041\sce_module\libface.suprx
-[14:43:08.625] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libface.suprx
-[14:43:08.625] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
-[14:43:08.626] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
-[14:43:08.626] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSE01041\sce_module\libface.suprx") loaded
-[14:43:08.637] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:08.637] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSE01041\sce_module\libfios2.suprx
-[14:43:08.637] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSE01041\sce_module\libfios2.suprx
-[14:43:08.637] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libfios2.suprx
-[14:43:08.638] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
-[14:43:08.638] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
-[14:43:08.638] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSE01041\sce_module\libfios2.suprx") loaded
-[14:43:08.688] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:08.688] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSE01041\sce_module\libsmart.suprx
-[14:43:08.688] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSE01041\sce_module\libsmart.suprx
-[14:43:08.688] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libsmart.suprx
-[14:43:08.688] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
-[14:43:08.689] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
-[14:43:08.689] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSE01041\sce_module\libsmart.suprx") loaded
-[14:43:08.693] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:08.693] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09A4 / 0x81000000] (size: 0x000139A4) of module ux0:app\PCSE01041\sce_module\libult.suprx
-[14:43:08.694] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSE01041\sce_module\libult.suprx
-[14:43:08.694] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libult.suprx
-[14:43:08.694] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2D0
-[14:43:08.694] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC858
-[14:43:08.694] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSE01041\sce_module\libult.suprx") loaded
-[14:43:08.701] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[14:43:08.702] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[14:43:08.702] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[14:43:08.702] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
-[14:43:08.702] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
-[14:43:08.702] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[14:43:08.705] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[14:43:08.705] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[14:43:08.705] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[14:43:08.705] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
-[14:43:08.705] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
-[14:43:08.705] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[14:43:09.156] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:09.156] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x01696340 / 0x81000000] (size: 0x01361340) of module app0:eboot.bin
-[14:43:09.156] |I| [load_self]: Loaded module segment 1 @ [0x01697000 - 0x01886FC0 / 0x82362000] (size: 0x001EFFC0) of module app0:eboot.bin
-[14:43:09.156] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[14:43:09.157] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x15150E8
-[14:43:09.157] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x169708C
-[14:43:09.157] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15E1984
-[14:43:09.157] |W| [load_var_imports]: 	NID NOT FOUND 0x1A5C609 (UNRECOGNISED) at 0x153DE24, setting to stub value 0xDEADBEEF
-[14:43:09.158] |W| [load_var_imports]: 	NID NOT FOUND 0x6EF1E48 (UNRECOGNISED) at 0x153DB4C, setting to stub value 0xDEADBEEF
-[14:43:09.159] |I| [load_app_impl]: Main executable UnityPlayer_437_Release (eboot.bin) loaded
-[14:43:09.168] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[14:43:09.188] |I| [run_app]: Module SceLibc (at "ux0:app\PCSE01041\sce_module\libc.suprx") module_start returned 0x0
-[14:43:09.192] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
-[14:43:09.202] |I| [run_app]: Module SceFace (at "ux0:app\PCSE01041\sce_module\libface.suprx") module_start returned 0x0
-[14:43:09.206] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
-[14:43:09.215] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[14:43:09.216] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[14:43:09.216] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[14:43:09.216] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSE01041\sce_module\libfios2.suprx") module_start returned 0x0
-[14:43:09.220] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
-[14:43:09.231] |I| [run_app]: Module SceSmart (at "ux0:app\PCSE01041\sce_module\libsmart.suprx") module_start returned 0x0
-[14:43:09.235] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0769
-[14:43:09.244] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[14:43:09.245] |I| [run_app]: Module SceUlt (at "ux0:app\PCSE01041\sce_module\libult.suprx") module_start returned 0x0
-[14:43:09.255] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
-[14:43:09.434] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSE01041, thread ID: 10)
-[14:43:09.436] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
-[14:43:09.437] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[14:43:09.500] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:09.501] |I| [load_self]: Loaded module segment 0 @ [0x01CCC000 - 0x01CD28F8 / 0x81000000] (size: 0x000068F8) of module app0:/Media/Modules/pthread.suprx
-[14:43:09.501] |I| [load_self]: Loaded module segment 1 @ [0x01CD3000 - 0x01CD5168 / 0x81007000] (size: 0x00002168) of module app0:/Media/Modules/pthread.suprx
-[14:43:09.501] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/pthread.suprx
-[14:43:09.501] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1CD1568
-[14:43:09.501] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1CD28F4
-[14:43:09.511] |I| [export__sceKernelLoadStartModule]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") module_start returned 0x0
-[14:43:09.530] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:09.531] |I| [load_self]: Loaded module segment 0 @ [0x01CD6000 - 0x01CDB878 / 0x81000000] (size: 0x00005878) of module app0:/Media/Modules/SUPRXManager.suprx
-[14:43:09.531] |I| [load_self]: Loaded module segment 1 @ [0x01CDC000 - 0x01CDC044 / 0x81006000] (size: 0x00000044) of module app0:/Media/Modules/SUPRXManager.suprx
-[14:43:09.531] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/SUPRXManager.suprx
-[14:43:09.531] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1CDB06C
-[14:43:09.531] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1CDB7BC
-[14:43:09.548] |I| [export__sceKernelLoadStartModule]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") module_start returned 0x0
-[14:43:09.626] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[14:43:09.627] |I| [load_self]: Loaded module segment 0 @ [0x01CDD000 - 0x01F28094 / 0x81000000] (size: 0x0024B094) of module app0:/Media/Modules/mono-vita.suprx
-[14:43:09.627] |I| [load_self]: Loaded module segment 1 @ [0x01F29000 - 0x01F90C60 / 0x8124C000] (size: 0x00067C60) of module app0:/Media/Modules/mono-vita.suprx
-[14:43:09.627] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/mono-vita.suprx
-[14:43:09.627] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1E70314
-[14:43:09.628] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1F0AF3C
-[14:43:09.637] |I| [export__sceKernelLoadStartModule]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") module_start returned 0x0
-[14:43:09.729] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[14:43:09.729] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[14:43:09.800] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[14:43:09.807] |I| [export_sceIoOpen]: Opening file: app0:/archive.psarc
-[14:43:09.807] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/archive.psarc (target path: app0:/archive.psarc)
-[14:43:09.807] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:09.828] |I| [export_sceIoOpen]: Opening file: app0:/archive_patch.psarc
-[14:43:09.828] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/archive_patch.psarc (target path: app0:/archive_patch.psarc)
-[14:43:09.828] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:09.958] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/mount/point)
-[14:43:09.959] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
-[14:43:09.976] |E| [call_import]: Import function for NID 0xE340C1DC not found (thread name: Unity_main_thread, thread ID: 74)
-[14:43:09.981] |I| [export_sceIoOpen]: Opening file: app0:/mono/etc/mono/config
-[14:43:09.981] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/mono/etc/mono/config (target path: app0:/mono/etc/mono/config)
-[14:43:09.982] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:09.984] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
-[14:43:09.984] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/.mono/config (target path: app0:/.mono/config)
-[14:43:09.984] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:09.989] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
-[14:43:09.989] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
-[14:43:09.989] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:10.001] |E| [call_import]: Import function for NID 0xE340C1D7 not found (thread name: Unity_main_thread, thread ID: 74)
-[14:43:10.001] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/config
-[14:43:10.001] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/config (target path: app0:Media/Managed/mono/config)
-[14:43:10.002] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:10.002] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
-[14:43:10.002] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/.mono/config (target path: app0:/.mono/config)
-[14:43:10.002] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:10.003] |E| [call_import]: Import function for NID 0xE340C1E0 not found (thread name: Unity_main_thread, thread ID: 74)
-[14:43:10.003] |E| [call_import]: Import function for NID 0xE340C008 not found (thread name: Unity_main_thread, thread ID: 74)
-[14:43:10.003] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
-[14:43:10.003] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
-[14:43:10.004] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:10.004] |E| [call_import]: Import function for NID 0xE340C1E2 not found (thread name: Unity_main_thread, thread ID: 74)
-[14:43:10.021] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
-[14:43:10.022] |E| [call_import]: Import function for NID 0x1BECC64C not found (thread name: ExceptionHandlerThread, thread ID: 121)
-[14:43:10.027] |E| [call_import]: Import function for NID 0xAD210F16 not found (thread name: ExceptionHandlerThread, thread ID: 121)
-[14:43:10.040] |W| [unimplemented_impl]: Unimplemented sceKernelCallAbortHandler import called.
-[14:43:10.040] |W| [unimplemented_impl]: Unimplemented sceKernelCallModuleExit import called.
-[14:43:10.066] |I| [export_sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
-[14:43:10.066] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
-[14:43:10.067] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[14:43:10.069] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll
+[21:53:25.436] |I| [load_app_impl]: cpu-backend: Dynarmic
+[21:53:25.436] |I| [load_app_impl]: CPU Optimisation state: true
+[21:53:25.436] |I| [load_app_impl]: at9 audio decoder state: true
+[21:53:25.437] |I| [load_app_impl]: ngs experimental state: true
+[21:53:25.437] |I| [load_app_impl]: video player state: true
+[21:53:25.437] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[21:53:25.437] |I| [load_app_impl]: Title: DEEMO ~The Last Recital~
+[21:53:25.437] |I| [load_app_impl]: Serial: PCSE01041
+[21:53:25.437] |I| [load_app_impl]: Version: 1.00
+[21:53:25.437] |I| [load_app_impl]: Category: gd
+[21:53:25.472] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:25.472] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSE01041\sce_module\libc.suprx
+[21:53:25.472] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSE01041\sce_module\libc.suprx
+[21:53:25.473] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libc.suprx
+[21:53:25.473] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[21:53:25.473] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[21:53:25.474] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[21:53:25.475] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[21:53:25.476] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSE01041\sce_module\libc.suprx") loaded
+[21:53:25.488] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:25.488] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSE01041\sce_module\libface.suprx
+[21:53:25.489] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSE01041\sce_module\libface.suprx
+[21:53:25.490] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libface.suprx
+[21:53:25.490] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
+[21:53:25.490] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
+[21:53:25.491] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSE01041\sce_module\libface.suprx") loaded
+[21:53:25.507] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:25.508] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSE01041\sce_module\libfios2.suprx
+[21:53:25.508] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSE01041\sce_module\libfios2.suprx
+[21:53:25.509] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libfios2.suprx
+[21:53:25.509] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
+[21:53:25.510] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
+[21:53:25.510] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSE01041\sce_module\libfios2.suprx") loaded
+[21:53:25.559] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:25.559] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSE01041\sce_module\libsmart.suprx
+[21:53:25.560] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSE01041\sce_module\libsmart.suprx
+[21:53:25.561] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libsmart.suprx
+[21:53:25.561] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
+[21:53:25.561] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
+[21:53:25.562] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSE01041\sce_module\libsmart.suprx") loaded
+[21:53:25.577] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:25.577] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09A4 / 0x81000000] (size: 0x000139A4) of module ux0:app\PCSE01041\sce_module\libult.suprx
+[21:53:25.578] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSE01041\sce_module\libult.suprx
+[21:53:25.579] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSE01041\sce_module\libult.suprx
+[21:53:25.580] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2D0
+[21:53:25.581] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC858
+[21:53:25.582] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSE01041\sce_module\libult.suprx") loaded
+[21:53:25.589] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[21:53:25.590] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[21:53:25.590] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[21:53:25.591] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
+[21:53:25.591] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
+[21:53:25.591] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[21:53:25.594] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[21:53:25.594] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[21:53:25.595] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[21:53:25.596] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
+[21:53:25.597] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
+[21:53:25.598] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[21:53:26.041] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:26.041] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x01696340 / 0x81000000] (size: 0x01361340) of module app0:eboot.bin
+[21:53:26.042] |I| [load_self]: Loaded module segment 1 @ [0x01697000 - 0x01886FC0 / 0x82362000] (size: 0x001EFFC0) of module app0:eboot.bin
+[21:53:26.043] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[21:53:26.043] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x15150E8
+[21:53:26.044] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x169708C
+[21:53:26.044] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15E1984
+[21:53:26.045] |W| [load_var_imports]: 	NID NOT FOUND 0x1A5C609 (UNRECOGNISED) at 0x153DE24, setting to stub value 0xDEADBEEF
+[21:53:26.046] |W| [load_var_imports]: 	NID NOT FOUND 0x6EF1E48 (UNRECOGNISED) at 0x153DB4C, setting to stub value 0xDEADBEEF
+[21:53:26.047] |I| [load_app_impl]: Main executable UnityPlayer_437_Release (eboot.bin) loaded
+[21:53:26.057] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[21:53:26.076] |I| [run_app]: Module SceLibc (at "ux0:app\PCSE01041\sce_module\libc.suprx") module_start returned 0x0
+[21:53:26.080] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
+[21:53:26.090] |I| [run_app]: Module SceFace (at "ux0:app\PCSE01041\sce_module\libface.suprx") module_start returned 0x0
+[21:53:26.094] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
+[21:53:26.103] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[21:53:26.103] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[21:53:26.104] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[21:53:26.104] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSE01041\sce_module\libfios2.suprx") module_start returned 0x0
+[21:53:26.108] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
+[21:53:26.120] |I| [run_app]: Module SceSmart (at "ux0:app\PCSE01041\sce_module\libsmart.suprx") module_start returned 0x0
+[21:53:26.124] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0769
+[21:53:26.132] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[21:53:26.133] |I| [run_app]: Module SceUlt (at "ux0:app\PCSE01041\sce_module\libult.suprx") module_start returned 0x0
+[21:53:26.143] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[21:53:26.315] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSE01041, thread ID: 10)
+[21:53:26.317] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[21:53:26.317] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[21:53:26.338] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:26.338] |I| [load_self]: Loaded module segment 0 @ [0x01CCC000 - 0x01CD28F8 / 0x81000000] (size: 0x000068F8) of module app0:/Media/Modules/pthread.suprx
+[21:53:26.339] |I| [load_self]: Loaded module segment 1 @ [0x01CD3000 - 0x01CD5168 / 0x81007000] (size: 0x00002168) of module app0:/Media/Modules/pthread.suprx
+[21:53:26.340] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/pthread.suprx
+[21:53:26.340] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1CD1568
+[21:53:26.340] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1CD28F4
+[21:53:26.350] |I| [export__sceKernelLoadStartModule]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") module_start returned 0x0
+[21:53:26.357] |I| [load_module]: Loading module ID: 0x55
+[21:53:26.403] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:26.403] |I| [load_self]: Loaded module segment 0 @ [0x01CD6000 - 0x01CDC230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
+[21:53:26.404] |I| [load_self]: Loaded module segment 1 @ [0x01CDD000 - 0x01CDD049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
+[21:53:26.404] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
+[21:53:26.405] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1CDC0A8
+[21:53:26.405] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1CDB020
+[21:53:26.406] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
+[21:53:26.417] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:26.417] |I| [load_self]: Loaded module segment 0 @ [0x01CDE000 - 0x01CE3878 / 0x81000000] (size: 0x00005878) of module app0:/Media/Modules/SUPRXManager.suprx
+[21:53:26.417] |I| [load_self]: Loaded module segment 1 @ [0x01CE4000 - 0x01CE4044 / 0x81006000] (size: 0x00000044) of module app0:/Media/Modules/SUPRXManager.suprx
+[21:53:26.418] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/SUPRXManager.suprx
+[21:53:26.419] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1CE306C
+[21:53:26.419] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1CE37BC
+[21:53:26.433] |I| [export__sceKernelLoadStartModule]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") module_start returned 0x0
+[21:53:26.474] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:26.474] |I| [load_self]: Loaded module segment 0 @ [0x01CE5000 - 0x01F30094 / 0x81000000] (size: 0x0024B094) of module app0:/Media/Modules/mono-vita.suprx
+[21:53:26.475] |I| [load_self]: Loaded module segment 1 @ [0x01F31000 - 0x01F98C60 / 0x8124C000] (size: 0x00067C60) of module app0:/Media/Modules/mono-vita.suprx
+[21:53:26.476] |I| [load_self]: Loading symbols for SELF: app0:/Media/Modules/mono-vita.suprx
+[21:53:26.477] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1E78314
+[21:53:26.477] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x1F12F3C
+[21:53:26.490] |I| [export__sceKernelLoadStartModule]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") module_start returned 0x0
+[21:53:26.567] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[21:53:26.568] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[21:53:26.636] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[21:53:26.643] |I| [export_sceIoOpen]: Opening file: app0:/archive.psarc
+[21:53:26.644] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/archive.psarc (target path: app0:/archive.psarc)
+[21:53:26.645] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.670] |I| [export_sceIoOpen]: Opening file: app0:/archive_patch.psarc
+[21:53:26.670] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/archive_patch.psarc (target path: app0:/archive_patch.psarc)
+[21:53:26.671] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.724] |E| [open_dir]: Directory does not exist at: D:/Emulateurs/Vita3K/mc/_INVALID/ (target path: /archive/mount/point)
+[21:53:26.725] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[21:53:26.742] |E| [call_import]: Import function for NID 0xE340C1DD not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:26.747] |I| [export_sceIoOpen]: Opening file: app0:/mono/etc/mono/config
+[21:53:26.747] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/mono/etc/mono/config (target path: app0:/mono/etc/mono/config)
+[21:53:26.748] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.750] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[21:53:26.750] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/.mono/config (target path: app0:/.mono/config)
+[21:53:26.750] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.753] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[21:53:26.754] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[21:53:26.755] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.763] |E| [call_import]: Import function for NID 0xE340C1D7 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:26.764] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/config
+[21:53:26.764] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/config (target path: app0:Media/Managed/mono/config)
+[21:53:26.765] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.765] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[21:53:26.766] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/.mono/config (target path: app0:/.mono/config)
+[21:53:26.766] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.767] |E| [call_import]: Import function for NID 0xE340C1E0 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:26.768] |E| [call_import]: Import function for NID 0xE340C008 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:26.768] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[21:53:26.768] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[21:53:26.769] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.770] |E| [call_import]: Import function for NID 0xE340C1E2 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:26.783] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
+[21:53:26.784] |W| [stubbed_impl]: Stubbed sceKernelWaitExceptionForMono import called. (Inifinite wait)
+[21:53:26.813] |I| [export_sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
+[21:53:26.814] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
+[21:53:26.814] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.815] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll
+[21:53:26.905] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll
+[21:53:26.906] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll)
+[21:53:26.907] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.910] |I| [export_sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
+[21:53:26.911] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
+[21:53:26.912] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.915] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll.config
+[21:53:26.915] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mscorlib.dll.config (target path: app0:/Media/Managed/mscorlib.dll.config)
+[21:53:26.916] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:26.916] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config
+[21:53:26.917] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/mscorlib/mscorlib.config (target path: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config)
+[21:53:26.917] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:27.124] |W| [unimplemented_impl]: Unimplemented sceKernelGetSemaInfo import called.
+[21:53:27.127] |E| [call_import]: Import function for NID 0xE340C1D2 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:27.169] |W| [unimplemented_impl]: Unimplemented sceAppUtilLoadSafeMemory import called.
+[21:53:27.256] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[21:53:27.256] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[21:53:27.257] |W| [unimplemented_impl]: Unimplemented sceMotionSetDeadband import called.
+[21:53:27.257] |W| [unimplemented_impl]: Unimplemented sceMotionSetTiltCorrection import called.
+[21:53:27.258] |W| [unimplemented_impl]: Unimplemented sceMotionSetAngleThreshold import called.
+[21:53:27.258] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[21:53:27.368] |I| [export_sceIoOpen]: Opening file: app0:/Media/mainData
+[21:53:27.466] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[21:53:27.504] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[21:53:27.507] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[21:53:27.529] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[21:53:27.545] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[21:53:27.697] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[21:53:27.697] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[21:53:27.776] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[21:53:27.791] |E| [call_import]: Import function for NID 0xE340C1CC not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:27.846] |W| [stubbed_impl]: Stubbed sceGxmTextureInitCube import called. (Stub InitCube)
+[21:53:27.846] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 1, height: 1
+[21:53:27.943] |I| [export_sceIoOpen]: Opening file: app0:/Media/Resources/unity default resources
+[21:53:28.064] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[21:53:28.067] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[21:53:28.068] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:53:28.099] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetParamsBlock import called.
+[21:53:28.100] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:53:28.186] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.dll
+[21:53:28.215] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.dll.config
+[21:53:28.215] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/UnityEngine.dll.config (target path: app0:/Media/Managed/UnityEngine.dll.config)
+[21:53:28.216] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.217] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config
+[21:53:28.217] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config (target path: app0:Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config)
+[21:53:28.218] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.219] |E| [call_import]: Import function for NID 0xE340C1CF not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:28.223] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll
+[21:53:28.223] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll)
+[21:53:28.225] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.229] |E| [call_import]: Import function for NID 0xE340C1D4 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:28.331] |W| [unimplemented_impl]: Unimplemented sceKernelSuspendThreadForMono import called.
+[21:53:28.333] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadContextForMono import called.
+[21:53:28.336] |W| [unimplemented_impl]: Unimplemented sceKernelResumeThreadForMono import called.
+[21:53:28.345] |E| [call_import]: Import function for NID 0xE340C1D1 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:28.346] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp-firstpass.dll
+[21:53:28.373] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll
+[21:53:28.374] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll)
+[21:53:28.374] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.375] |E| [stat_file]: Cannot find device for path: app0/System.dll
+[21:53:28.376] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.376] |E| [stat_file]: Cannot find device for path: app0/System.exe
+[21:53:28.376] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.377] |E| [stat_file]: Cannot find device for path: app0/System/System.dll
+[21:53:28.377] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.379] |E| [stat_file]: Cannot find device for path: app0/System/System.exe
+[21:53:28.379] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.380] |E| [stat_file]: Cannot find device for path: Media/Managed/System.dll
+[21:53:28.380] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.380] |E| [stat_file]: Cannot find device for path: Media/Managed/System.exe
+[21:53:28.381] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.381] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.dll
+[21:53:28.382] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.382] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.exe
+[21:53:28.383] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.385] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll
+[21:53:28.385] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll (target path: app0:Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll)
+[21:53:28.386] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.386] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.dll
+[21:53:28.396] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll
+[21:53:28.398] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll)
+[21:53:28.399] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.399] |E| [stat_file]: Cannot find device for path: app0/System.Configuration.dll
+[21:53:28.400] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.400] |E| [stat_file]: Cannot find device for path: app0/System.Configuration.exe
+[21:53:28.401] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.401] |E| [stat_file]: Cannot find device for path: app0/System.Configuration/System.Configuration.dll
+[21:53:28.401] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.402] |E| [stat_file]: Cannot find device for path: app0/System.Configuration/System.Configuration.exe
+[21:53:28.402] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.403] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration.dll
+[21:53:28.403] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.404] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration.exe
+[21:53:28.404] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.404] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration/System.Configuration.dll
+[21:53:28.405] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.405] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration/System.Configuration.exe
+[21:53:28.406] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.406] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+[21:53:28.407] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll (target path: app0:Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll)
+[21:53:28.408] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.408] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Configuration.dll
+[21:53:28.419] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll
+[21:53:28.420] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll)
+[21:53:28.421] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.421] |E| [stat_file]: Cannot find device for path: app0/System.Xml.dll
+[21:53:28.421] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.422] |E| [stat_file]: Cannot find device for path: app0/System.Xml.exe
+[21:53:28.422] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.423] |E| [stat_file]: Cannot find device for path: app0/System.Xml/System.Xml.dll
+[21:53:28.423] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.423] |E| [stat_file]: Cannot find device for path: app0/System.Xml/System.Xml.exe
+[21:53:28.424] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.424] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml.dll
+[21:53:28.425] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.425] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml.exe
+[21:53:28.425] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.426] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml/System.Xml.dll
+[21:53:28.426] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.427] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml/System.Xml.exe
+[21:53:28.428] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.435] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll
+[21:53:28.435] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll (target path: app0:Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll)
+[21:53:28.436] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.436] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Xml.dll
+[21:53:28.450] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Xml.dll.config
+[21:53:28.451] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.Xml.dll.config (target path: app0:Media/Managed/System.Xml.dll.config)
+[21:53:28.451] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.452] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Xml/System.Xml.config
+[21:53:28.452] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System.Xml/System.Xml.config (target path: app0:Media/Managed/mono/assemblies/System.Xml/System.Xml.config)
+[21:53:28.453] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.454] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll
+[21:53:28.454] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll)
+[21:53:28.455] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.455] |E| [stat_file]: Cannot find device for path: app0/System.Security.dll
+[21:53:28.456] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.456] |E| [stat_file]: Cannot find device for path: app0/System.Security.exe
+[21:53:28.456] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.457] |E| [stat_file]: Cannot find device for path: app0/System.Security/System.Security.dll
+[21:53:28.457] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.458] |E| [stat_file]: Cannot find device for path: app0/System.Security/System.Security.exe
+[21:53:28.458] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.459] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security.dll
+[21:53:28.460] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.462] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security.exe
+[21:53:28.462] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.463] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security/System.Security.dll
+[21:53:28.463] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.463] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security/System.Security.exe
+[21:53:28.464] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.464] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll
+[21:53:28.465] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll (target path: app0:Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll)
+[21:53:28.466] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.466] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Security.dll
+[21:53:28.468] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Security.dll.config
+[21:53:28.468] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.Security.dll.config (target path: app0:Media/Managed/System.Security.dll.config)
+[21:53:28.469] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.469] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Security/System.Security.config
+[21:53:28.470] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System.Security/System.Security.config (target path: app0:Media/Managed/mono/assemblies/System.Security/System.Security.config)
+[21:53:28.470] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.471] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Configuration.dll.config
+[21:53:28.471] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.Configuration.dll.config (target path: app0:Media/Managed/System.Configuration.dll.config)
+[21:53:28.472] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.473] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config
+[21:53:28.473] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config (target path: app0:Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config)
+[21:53:28.475] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.476] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.dll.config
+[21:53:28.476] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.dll.config (target path: app0:Media/Managed/System.dll.config)
+[21:53:28.477] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.478] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System/System.config
+[21:53:28.479] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System/System.config (target path: app0:Media/Managed/mono/assemblies/System/System.config)
+[21:53:28.480] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.480] |E| [stat_file]: Cannot find device for path: app0/P31RestKit.dll
+[21:53:28.481] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.481] |E| [stat_file]: Cannot find device for path: app0/P31RestKit.exe
+[21:53:28.482] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.482] |E| [stat_file]: Cannot find device for path: app0/P31RestKit/P31RestKit.dll
+[21:53:28.482] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.483] |E| [stat_file]: Cannot find device for path: app0/P31RestKit/P31RestKit.exe
+[21:53:28.483] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.484] |E| [stat_file]: Cannot find device for path: Media/Managed/P31RestKit.dll
+[21:53:28.484] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.484] |E| [stat_file]: Cannot find device for path: Media/Managed/P31RestKit.exe
+[21:53:28.485] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.485] |E| [stat_file]: Cannot find device for path: Media/Managed/P31RestKit/P31RestKit.dll
+[21:53:28.486] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.486] |E| [stat_file]: Cannot find device for path: Media/Managed/P31RestKit/P31RestKit.exe
+[21:53:28.486] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.487] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/P31RestKit.dll
+[21:53:28.495] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/P31RestKit.dll.config
+[21:53:28.495] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/P31RestKit.dll.config (target path: app0:Media/Managed/P31RestKit.dll.config)
+[21:53:28.496] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.496] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/P31RestKit/P31RestKit.config
+[21:53:28.497] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/P31RestKit/P31RestKit.config (target path: app0:Media/Managed/mono/assemblies/P31RestKit/P31RestKit.config)
+[21:53:28.497] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.498] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll
+[21:53:28.499] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll (target path: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll)
+[21:53:28.499] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.500] |E| [stat_file]: Cannot find device for path: app0/System.Core.dll
+[21:53:28.500] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.500] |E| [stat_file]: Cannot find device for path: app0/System.Core.exe
+[21:53:28.501] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.501] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.dll
+[21:53:28.502] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.502] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.exe
+[21:53:28.502] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.503] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.dll
+[21:53:28.504] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.504] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.exe
+[21:53:28.504] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.505] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.dll
+[21:53:28.507] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.507] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.exe
+[21:53:28.508] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.508] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll
+[21:53:28.509] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll (target path: app0:Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll)
+[21:53:28.509] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.510] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll
+[21:53:28.512] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll.config
+[21:53:28.512] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.Core.dll.config (target path: app0:Media/Managed/System.Core.dll.config)
+[21:53:28.513] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.513] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config
+[21:53:28.514] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System.Core/System.Core.config (target path: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config)
+[21:53:28.514] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.515] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp-firstpass.dll.config
+[21:53:28.515] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/Assembly-CSharp-firstpass.dll.config (target path: app0:/Media/Managed/Assembly-CSharp-firstpass.dll.config)
+[21:53:28.516] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.516] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.config
+[21:53:28.517] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.config (target path: app0:Media/Managed/mono/assemblies/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.config)
+[21:53:28.518] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.518] |E| [call_import]: Import function for NID 0xE340C1CE not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:28.519] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp.dll
+[21:53:28.533] |E| [stat_file]: Cannot find device for path: app0/SonyNP.dll
+[21:53:28.533] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.534] |E| [stat_file]: Cannot find device for path: app0/SonyNP.exe
+[21:53:28.534] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.535] |E| [stat_file]: Cannot find device for path: app0/SonyNP/SonyNP.dll
+[21:53:28.535] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.536] |E| [stat_file]: Cannot find device for path: app0/SonyNP/SonyNP.exe
+[21:53:28.536] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.536] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP.dll
+[21:53:28.538] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.539] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP.exe
+[21:53:28.539] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.540] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP/SonyNP.dll
+[21:53:28.540] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.541] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP/SonyNP.exe
+[21:53:28.541] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.541] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll
+[21:53:28.552] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll.config
+[21:53:28.552] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/SonyNP.dll.config (target path: app0:Media/Managed/SonyNP.dll.config)
+[21:53:28.554] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.554] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config
+[21:53:28.555] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/SonyNP/SonyNP.config (target path: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config)
+[21:53:28.555] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.556] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames.dll
+[21:53:28.556] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.557] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames.exe
+[21:53:28.557] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.558] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames/SonyVitaSavedGames.dll
+[21:53:28.558] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.558] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames/SonyVitaSavedGames.exe
+[21:53:28.559] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.559] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames.dll
+[21:53:28.560] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.560] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames.exe
+[21:53:28.560] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.561] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames/SonyVitaSavedGames.dll
+[21:53:28.562] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.562] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames/SonyVitaSavedGames.exe
+[21:53:28.563] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.563] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll
+[21:53:28.568] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll.config
+[21:53:28.569] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/SonyVitaSavedGames.dll.config (target path: app0:Media/Managed/SonyVitaSavedGames.dll.config)
+[21:53:28.570] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.571] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config
+[21:53:28.571] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config)
+[21:53:28.572] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.572] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog.dll
+[21:53:28.573] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.573] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog.exe
+[21:53:28.573] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.574] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog/SonyVitaCommonDialog.dll
+[21:53:28.574] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.575] |E| [stat_file]: Cannot find device for path: app0/SonyVitaCommonDialog/SonyVitaCommonDialog.exe
+[21:53:28.575] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.576] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog.dll
+[21:53:28.576] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.576] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog.exe
+[21:53:28.577] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.577] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog/SonyVitaCommonDialog.dll
+[21:53:28.579] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.579] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaCommonDialog/SonyVitaCommonDialog.exe
+[21:53:28.580] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.581] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaCommonDialog.dll
+[21:53:28.582] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaCommonDialog.dll.config
+[21:53:28.582] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/SonyVitaCommonDialog.dll.config (target path: app0:Media/Managed/SonyVitaCommonDialog.dll.config)
+[21:53:28.585] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.585] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config
+[21:53:28.586] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config)
+[21:53:28.587] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.587] |E| [stat_file]: Cannot find device for path: app0/ex2D.Runtime.dll
+[21:53:28.587] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.588] |E| [stat_file]: Cannot find device for path: app0/ex2D.Runtime.exe
+[21:53:28.588] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.589] |E| [stat_file]: Cannot find device for path: app0/ex2D.Runtime/ex2D.Runtime.dll
+[21:53:28.589] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.589] |E| [stat_file]: Cannot find device for path: app0/ex2D.Runtime/ex2D.Runtime.exe
+[21:53:28.590] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.590] |E| [stat_file]: Cannot find device for path: Media/Managed/ex2D.Runtime.dll
+[21:53:28.591] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.591] |E| [stat_file]: Cannot find device for path: Media/Managed/ex2D.Runtime.exe
+[21:53:28.591] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.592] |E| [stat_file]: Cannot find device for path: Media/Managed/ex2D.Runtime/ex2D.Runtime.dll
+[21:53:28.592] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.593] |E| [stat_file]: Cannot find device for path: Media/Managed/ex2D.Runtime/ex2D.Runtime.exe
+[21:53:28.593] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:28.593] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/ex2D.Runtime.dll
+[21:53:28.597] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/ex2D.Runtime.dll.config
+[21:53:28.598] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/ex2D.Runtime.dll.config (target path: app0:Media/Managed/ex2D.Runtime.dll.config)
+[21:53:28.598] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.599] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/ex2D.Runtime/ex2D.Runtime.config
+[21:53:28.601] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/ex2D.Runtime/ex2D.Runtime.config (target path: app0:Media/Managed/mono/assemblies/ex2D.Runtime/ex2D.Runtime.config)
+[21:53:28.602] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.602] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp.dll.config
+[21:53:28.603] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/Assembly-CSharp.dll.config (target path: app0:/Media/Managed/Assembly-CSharp.dll.config)
+[21:53:28.603] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.604] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config
+[21:53:28.604] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config (target path: app0:Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config)
+[21:53:28.605] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.606] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/ex2D.Runtime.dll
+[21:53:28.607] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/ex2D.Runtime.dll.config
+[21:53:28.607] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/ex2D.Runtime.dll.config (target path: app0:Media/Managed/ex2D.Runtime.dll.config)
+[21:53:28.607] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.608] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/ex2D.Runtime/ex2D.Runtime.config
+[21:53:28.608] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/ex2D.Runtime/ex2D.Runtime.config (target path: app0:Media/Managed/mono/assemblies/ex2D.Runtime/ex2D.Runtime.config)
+[21:53:28.609] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.612] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/GPGSUtils.dll
+[21:53:28.622] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/GPGSUtils.dll.config
+[21:53:28.622] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/GPGSUtils.dll.config (target path: app0:/Media/Managed/GPGSUtils.dll.config)
+[21:53:28.623] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.623] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/GPGSUtils/GPGSUtils.config
+[21:53:28.623] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/GPGSUtils/GPGSUtils.config (target path: app0:Media/Managed/mono/assemblies/GPGSUtils/GPGSUtils.config)
+[21:53:28.624] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.625] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/P31RestKit.dll
+[21:53:28.625] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/P31RestKit.dll.config
+[21:53:28.625] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/P31RestKit.dll.config (target path: app0:Media/Managed/P31RestKit.dll.config)
+[21:53:28.626] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.627] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/P31RestKit/P31RestKit.config
+[21:53:28.627] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/P31RestKit/P31RestKit.config (target path: app0:Media/Managed/mono/assemblies/P31RestKit/P31RestKit.config)
+[21:53:28.629] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.629] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/SonyNP.dll
+[21:53:28.630] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll.config
+[21:53:28.630] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/SonyNP.dll.config (target path: app0:Media/Managed/SonyNP.dll.config)
+[21:53:28.632] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.635] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config
+[21:53:28.635] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/SonyNP/SonyNP.config (target path: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config)
+[21:53:28.636] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.637] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/SonyVitaCommonDialog.dll
+[21:53:28.638] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaCommonDialog.dll.config
+[21:53:28.638] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/SonyVitaCommonDialog.dll.config (target path: app0:Media/Managed/SonyVitaCommonDialog.dll.config)
+[21:53:28.638] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.639] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config
+[21:53:28.639] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config)
+[21:53:28.640] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.641] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/SonyVitaSavedGames.dll
+[21:53:28.641] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll.config
+[21:53:28.642] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/SonyVitaSavedGames.dll.config (target path: app0:Media/Managed/SonyVitaSavedGames.dll.config)
+[21:53:28.643] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.643] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config
+[21:53:28.644] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config)
+[21:53:28.645] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:28.652] |E| [call_import]: Import function for NID 0xE340C1D0 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:28.670] |E| [call_import]: Import function for NID 0xE340C1D8 not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:28.690] |E| [call_import]: Import function for NID 0xE340C1DC not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:28.905] |E| [call_import]: Import function for NID 0xE340C1CD not found (thread name: Unity_main_thread, thread ID: 75)
+[21:53:29.051] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[21:53:29.077] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets0.assets
+[21:53:29.286] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll
+[21:53:29.287] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll (target path: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll)
+[21:53:29.288] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.290] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__7cec85d7bea7798e/policy.2.0.mscorlib.dll
+[21:53:29.291] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__7cec85d7bea7798e/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__7cec85d7bea7798e/policy.2.0.mscorlib.dll)
+[21:53:29.291] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.293] |E| [stat_file]: Cannot find device for path: app0/mscorlib.dll
+[21:53:29.293] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.294] |E| [stat_file]: Cannot find device for path: app0/mscorlib.exe
+[21:53:29.294] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.295] |E| [stat_file]: Cannot find device for path: app0/mscorlib/mscorlib.dll
+[21:53:29.295] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.296] |E| [stat_file]: Cannot find device for path: app0/mscorlib/mscorlib.exe
+[21:53:29.296] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.297] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib.dll
+[21:53:29.297] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.297] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib.exe
+[21:53:29.298] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.298] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib/mscorlib.dll
+[21:53:29.299] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.299] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib/mscorlib.exe
+[21:53:29.299] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.302] |E| [stat_file]: Cannot find device for path: app0/mscorlib.dll
+[21:53:29.302] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.303] |E| [stat_file]: Cannot find device for path: app0/mscorlib.exe
+[21:53:29.305] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.305] |E| [stat_file]: Cannot find device for path: app0/mscorlib/mscorlib.dll
+[21:53:29.306] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.306] |E| [stat_file]: Cannot find device for path: app0/mscorlib/mscorlib.exe
+[21:53:29.306] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.307] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib.dll
+[21:53:29.307] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.308] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib.exe
+[21:53:29.308] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.308] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib/mscorlib.dll
+[21:53:29.309] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.309] |E| [stat_file]: Cannot find device for path: Media/Managed/mscorlib/mscorlib.exe
+[21:53:29.310] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.353] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Core/0.0.0.0__7cec85d7bea7798e/policy.2.0.System.Core.dll
+[21:53:29.354] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.System.Core/0.0.0.0__7cec85d7bea7798e/policy.2.0.System.Core.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Core/0.0.0.0__7cec85d7bea7798e/policy.2.0.System.Core.dll)
+[21:53:29.354] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.355] |E| [stat_file]: Cannot find device for path: app0/System.Core.dll
+[21:53:29.355] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.356] |E| [stat_file]: Cannot find device for path: app0/System.Core.exe
+[21:53:29.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.356] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.dll
+[21:53:29.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.357] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.exe
+[21:53:29.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.358] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.dll
+[21:53:29.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.359] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.exe
+[21:53:29.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.360] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.dll
+[21:53:29.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.360] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.exe
+[21:53:29.361] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.364] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Core/2.0.5.0__7cec85d7bea7798e/System.Core.dll
+[21:53:29.365] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System.Core/2.0.5.0__7cec85d7bea7798e/System.Core.dll (target path: app0:Media/Managed/mono/gac/System.Core/2.0.5.0__7cec85d7bea7798e/System.Core.dll)
+[21:53:29.365] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.367] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/System.Core.dll
+[21:53:29.394] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll.config
+[21:53:29.394] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.Core.dll.config (target path: app0:Media/Managed/System.Core.dll.config)
+[21:53:29.396] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.397] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config
+[21:53:29.397] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System.Core/System.Core.config (target path: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config)
+[21:53:29.398] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.533] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__7cec85d7bea7798e/policy.2.0.System.dll
+[21:53:29.534] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__7cec85d7bea7798e/policy.2.0.System.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__7cec85d7bea7798e/policy.2.0.System.dll)
+[21:53:29.535] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.535] |E| [stat_file]: Cannot find device for path: app0/System.dll
+[21:53:29.535] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.536] |E| [stat_file]: Cannot find device for path: app0/System.exe
+[21:53:29.536] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.537] |E| [stat_file]: Cannot find device for path: app0/System/System.dll
+[21:53:29.537] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.537] |E| [stat_file]: Cannot find device for path: app0/System/System.exe
+[21:53:29.538] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.538] |E| [stat_file]: Cannot find device for path: Media/Managed/System.dll
+[21:53:29.539] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.539] |E| [stat_file]: Cannot find device for path: Media/Managed/System.exe
+[21:53:29.540] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.540] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.dll
+[21:53:29.540] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.541] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.exe
+[21:53:29.541] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.542] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System/2.0.0.0__7cec85d7bea7798e/System.dll
+[21:53:29.542] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System/2.0.0.0__7cec85d7bea7798e/System.dll (target path: app0:Media/Managed/mono/gac/System/2.0.0.0__7cec85d7bea7798e/System.dll)
+[21:53:29.543] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.543] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/System.dll
+[21:53:29.546] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.dll.config
+[21:53:29.546] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.dll.config (target path: app0:Media/Managed/System.dll.config)
+[21:53:29.547] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.547] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System/System.config
+[21:53:29.547] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System/System.config (target path: app0:Media/Managed/mono/assemblies/System/System.config)
+[21:53:29.548] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.583] |E| [stat_file]: Cannot find device for path: app0/System.Core.dll
+[21:53:29.583] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.584] |E| [stat_file]: Cannot find device for path: app0/System.Core.exe
+[21:53:29.584] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.585] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.dll
+[21:53:29.585] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.585] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.exe
+[21:53:29.586] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.586] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.dll
+[21:53:29.587] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.587] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.exe
+[21:53:29.587] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.588] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.dll
+[21:53:29.588] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.589] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.exe
+[21:53:29.589] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:53:29.590] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Core/2.0.5.0__7cec85d7bea7798e/System.Core.dll
+[21:53:29.590] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/gac/System.Core/2.0.5.0__7cec85d7bea7798e/System.Core.dll (target path: app0:Media/Managed/mono/gac/System.Core/2.0.5.0__7cec85d7bea7798e/System.Core.dll)
+[21:53:29.591] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.591] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/System.Core.dll
+[21:53:29.592] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll.config
+[21:53:29.592] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/System.Core.dll.config (target path: app0:Media/Managed/System.Core.dll.config)
+[21:53:29.593] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.593] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config
+[21:53:29.594] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSE01041/Media/Managed/mono/assemblies/System.Core/System.Core.config (target path: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config)
+[21:53:29.596] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:29.814] |E| [call_import]: Import function for NID 0xE340C1DB not found (thread name: 0B3460C0 UnityPreload, thread ID: 434)
+[21:53:29.816] |E| [call_import]: Import function for NID 0xE340C1D9 not found (thread name: 0B3460C0 UnityPreload, thread ID: 434)
+[21:53:29.924] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[21:53:29.925] |W| [unimplemented_impl]: Unimplemented sceMotionGetMagnetometerState import called.
+[21:53:30.015] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampEnable import called.
+[21:53:30.016] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampValue import called.
+[21:53:30.037] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[21:53:30.106] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[21:53:30.128] |I| [renderer::gl::load_shader_generic]: Generating frag shader 9f8f4953a7a8e8cd5f99b798477a08396ab9555daf6275056d51c2a90851643a
+[21:53:30.133] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) mask
+[21:53:30.135] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3a7349a016eef77eeeca149e3bca528bc9b1f4db659b2df1af0b68d9ae083c2c
+[21:53:30.136] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) coords
+[21:53:30.138] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4291f996eb5f888561df422b9dabe78fcd152b55c1a7570c1459741b919fedc8
+[21:53:30.139] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) color
+[21:53:30.141] |I| [renderer::gl::load_shader_generic]: Generating vert shader 6d4b9fd7f374332d8fbef73acd203e3fc3b18704ed409601518c31c9dba2ad6a
+[21:53:30.142] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[21:53:30.142] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) depth
+[21:53:30.147] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(20) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[21:53:30.149] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[21:53:30.149] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 0
+[21:53:30.150] |I| [renderer::gl::load_shader_generic]: Generating frag shader ec1fa677d244641b430deb8fcaf742804c888f1e73c149fa3acf8812f974fb98
+[21:53:30.151] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[21:53:30.154] |I| [renderer::gl::load_shader_generic]: Generating vert shader 462de6683eab699559419421ecb741b6d030d6ab02c8e184ca02988d0a600c0f
+[21:53:30.155] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_vertex
+[21:53:30.155] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
+[21:53:30.156] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_texcoord
+[21:53:30.156] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[21:53:30.157] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half4) _Color
+[21:53:30.164] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[21:53:30.166] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 12288
+[21:53:30.170] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[21:53:30.171] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[21:53:30.175] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[21:53:30.392] |I| [export_sceIoOpen]: Opening file: app0:/Media/StreamingAssets/LanguagePacks/French_pack.json
+[21:53:30.437] |W| [unimplemented_impl]: Unimplemented sceKernelCancelSema import called.
+[21:53:30.613] |I| [export_sceIoOpen]: Opening file: app0:/Media/StreamingAssets/LanguagePacks/English_pack.json
+[21:53:30.861] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:53:30.861] |I| [load_self]: Loaded module segment 0 @ [0x0211F000 - 0x02124E98 / 0x81000000] (size: 0x00005E98) of module app0:/Media/Plugins/SavedGames.suprx
+[21:53:30.862] |I| [load_self]: Loaded module segment 1 @ [0x02125000 - 0x02125220 / 0x81006000] (size: 0x00000220) of module app0:/Media/Plugins/SavedGames.suprx
+[21:53:30.863] |I| [load_self]: Loading symbols for SELF: app0:/Media/Plugins/SavedGames.suprx
+[21:53:30.864] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2123BDC
+[21:53:30.864] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2124E44
+[21:53:30.865] |W| [unimplemented_impl]: Unimplemented sceKernelStartModule import called.
+[21:53:30.867] |I| [export_sceIoOpen]: Opening file: SavedGames.suprx.la
+[21:53:30.867] |E| [open_file]: Cannot find device for path: SavedGames.suprx.la
+[21:53:30.868] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:30.869] |I| [export_sceIoOpen]: Opening file: SavedGames.suprx.la
+[21:53:30.870] |E| [open_file]: Cannot find device for path: SavedGames.suprx.la
+[21:53:30.870] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:30.872] |I| [export_sceIoOpen]: Opening file: SavedGames.suprx.la
+[21:53:30.872] |E| [open_file]: Cannot find device for path: SavedGames.suprx.la
+[21:53:30.874] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:53:30.876] |W| [unimplemented_impl]: Unimplemented sceKernelCallAbortHandler import called.
+[21:53:30.876] |W| [unimplemented_impl]: Unimplemented sceKernelCallModuleExit import called.

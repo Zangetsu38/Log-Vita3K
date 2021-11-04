@@ -1,1167 +1,830 @@
-[03:40:40.380] |I| [load_app_impl]: cpu-backend: Dynarmic
-[03:40:40.380] |I| [load_app_impl]: CPU Optimisation state: true
-[03:40:40.380] |I| [load_app_impl]: at9 audio decoder state: true
-[03:40:40.380] |I| [load_app_impl]: ngs experimental state: true
-[03:40:40.380] |I| [load_app_impl]: video player state: true
-[03:40:40.380] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[03:40:40.380] |I| [load_app_impl]: Title: Limbo
-[03:40:40.380] |I| [load_app_impl]: Serial: PCSB00336
-[03:40:40.380] |I| [load_app_impl]: Version: 1.00
-[03:40:40.381] |I| [load_app_impl]: Category: gd
-[03:40:40.465] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:40:40.465] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000514B0 / 0x81000000] (size: 0x0004A4B0) of module ux0:app\PCSB00336\sce_module\libc.suprx
-[03:40:40.466] |I| [load_self]: Loaded module segment 1 @ [0x00052000 - 0x000546F4 / 0x8104B000] (size: 0x000026F4) of module ux0:app\PCSB00336\sce_module\libc.suprx
-[03:40:40.466] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libc.suprx
-[03:40:40.467] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3DF30
-[03:40:40.468] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x41DF0, setting to stub value 0xDEADBEEF
-[03:40:40.469] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x434A4, setting to stub value 0xDEADBEEF
-[03:40:40.470] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00336\sce_module\libc.suprx") loaded
-[03:40:40.475] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:40:40.475] |I| [load_self]: Loaded module segment 0 @ [0x00057000 - 0x0006D01C / 0x81000000] (size: 0x0001601C) of module ux0:app\PCSB00336\sce_module\libface.suprx
-[03:40:40.475] |I| [load_self]: Loaded module segment 1 @ [0x0006E000 - 0x0006E14C / 0x81017000] (size: 0x0000014C) of module ux0:app\PCSB00336\sce_module\libface.suprx
-[03:40:40.476] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libface.suprx
-[03:40:40.477] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6A0C8
-[03:40:40.477] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00336\sce_module\libface.suprx") loaded
-[03:40:40.484] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:40:40.486] |I| [load_self]: Loaded module segment 0 @ [0x0006F000 - 0x0009322C / 0x81000000] (size: 0x0002422C) of module ux0:app\PCSB00336\sce_module\libfios2.suprx
-[03:40:40.487] |I| [load_self]: Loaded module segment 1 @ [0x00094000 - 0x000991A4 / 0x81025000] (size: 0x000051A4) of module ux0:app\PCSB00336\sce_module\libfios2.suprx
-[03:40:40.488] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libfios2.suprx
-[03:40:40.488] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8BB70
-[03:40:40.489] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00336\sce_module\libfios2.suprx") loaded
-[03:40:40.547] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:40:40.547] |I| [load_self]: Loaded module segment 0 @ [0x0009A000 - 0x00291E68 / 0x81000000] (size: 0x001F7E68) of module ux0:app\PCSB00336\sce_module\libsmart.suprx
-[03:40:40.549] |I| [load_self]: Loaded module segment 1 @ [0x00292000 - 0x00295734 / 0x811F8000] (size: 0x00003734) of module ux0:app\PCSB00336\sce_module\libsmart.suprx
-[03:40:40.550] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libsmart.suprx
-[03:40:40.551] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x13312C
-[03:40:40.552] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00336\sce_module\libsmart.suprx") loaded
-[03:40:40.556] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:40:40.557] |I| [load_self]: Loaded module segment 0 @ [0x00296000 - 0x002AA144 / 0x81000000] (size: 0x00014144) of module ux0:app\PCSB00336\sce_module\libult.suprx
-[03:40:40.558] |I| [load_self]: Loaded module segment 1 @ [0x002AB000 - 0x002AB814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSB00336\sce_module\libult.suprx
-[03:40:40.559] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libult.suprx
-[03:40:40.560] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2A61CC
-[03:40:40.561] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00336\sce_module\libult.suprx") loaded
-[03:40:40.570] |I| [load_self]: Loaded module segment 0 @ [0x002AC000 - 0x002FCF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[03:40:40.571] |I| [load_self]: Loaded module segment 1 @ [0x002FD000 - 0x002FD2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[03:40:40.571] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[03:40:40.572] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2E87DC
-[03:40:40.573] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2E7F10
-[03:40:40.573] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[03:40:40.576] |I| [load_self]: Loaded module segment 0 @ [0x002FE000 - 0x0030DF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[03:40:40.576] |I| [load_self]: Loaded module segment 1 @ [0x0030E000 - 0x0030E008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[03:40:40.577] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[03:40:40.580] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30C710
-[03:40:40.580] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30C300
-[03:40:40.581] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[03:40:40.646] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:40:40.646] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x812D96CC / 0x81000000] (size: 0x002D96CC) of module app0:eboot.bin
-[03:40:40.647] |I| [load_self]: Loaded module segment 1 @ [0x812DA000 - 0x81654C38 / 0x812DA000] (size: 0x0037AC38) of module app0:eboot.bin
-[03:40:40.648] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[03:40:40.648] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8126C5FC
-[03:40:40.649] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x812DE870
-[03:40:40.649] |I| [load_app_impl]: Main executable Limbo (eboot.bin) loaded
-[03:40:40.658] |D| [run_app]: Running module_start of library: SceLibc at address 0x77F1
-[03:40:40.736] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00336\sce_module\libc.suprx") module_start returned 0x0
-[03:40:40.741] |D| [run_app]: Running module_start of library: SceFace at address 0x69499
-[03:40:40.749] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00336\sce_module\libface.suprx") module_start returned 0x0
-[03:40:40.753] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x6F001
-[03:40:40.762] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[03:40:40.762] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
-[03:40:40.762] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[03:40:40.763] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00336\sce_module\libfios2.suprx") module_start returned 0x0
-[03:40:40.768] |D| [run_app]: Running module_start of library: SceSmart at address 0xA0775
-[03:40:40.783] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00336\sce_module\libsmart.suprx") module_start returned 0x0
-[03:40:40.788] |D| [run_app]: Running module_start of library: SceUlt at address 0x29984D
-[03:40:40.795] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[03:40:40.796] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00336\sce_module\libult.suprx") module_start returned 0x0
-[03:40:40.802] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
-[03:40:40.855] |I| [export_sceIoOpen]: Opening file: app0:Config.xml
-[03:40:40.873] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[03:40:40.874] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
-[03:40:40.890] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[03:40:40.892] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[03:40:40.893] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[03:40:40.954] |I| [export_sceIoOpen]: Opening file: app0:Shaders/vs_Default.gxp
-[03:40:40.955] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/vs_Default.gxp (target path: app0:Shaders/vs_Default.gxp)
-[03:40:40.956] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:40.958] |I| [export_sceIoOpen]: Opening file: app0:Shaders/ps_Default.gxp
-[03:40:40.959] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/ps_Default.gxp (target path: app0:Shaders/ps_Default.gxp)
-[03:40:40.961] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:40.964] |I| [export_sceIoOpen]: Opening file: app0:Textures/Default.ddspsp2
-[03:40:40.964] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/Default.ddspsp2 (target path: app0:Textures/Default.ddspsp2)
-[03:40:40.967] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:40.968] |I| [export_sceIoOpen]: Opening file: app0:Textures/Default.dds
-[03:40:40.969] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/Default.dds (target path: app0:Textures/Default.dds)
-[03:40:40.970] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:40.972] |I| [export_sceIoOpen]: Opening file: app0:Textures/White.ddspsp2
-[03:40:40.972] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/White.ddspsp2 (target path: app0:Textures/White.ddspsp2)
-[03:40:40.974] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:40.978] |I| [export_sceIoOpen]: Opening file: app0:Textures/White.dds
-[03:40:40.979] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/White.dds (target path: app0:Textures/White.dds)
-[03:40:40.980] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:40.985] |I| [export_sceIoOpen]: Opening file: app0:Shaders/vs_Clear.gxp
-[03:40:40.990] |I| [export_sceIoOpen]: Opening file: app0:Shaders/ps_Clear.gxp
-[03:40:40.998] |I| [export_sceIoOpen]: Opening file: app0:Shaders/vs_Col.gxp
-[03:40:40.999] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/vs_Col.gxp (target path: app0:Shaders/vs_Col.gxp)
-[03:40:41.000] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:41.002] |I| [export_sceIoOpen]: Opening file: app0:Shaders/ps_Col.gxp
-[03:40:41.002] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/ps_Col.gxp (target path: app0:Shaders/ps_Col.gxp)
-[03:40:41.003] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:41.024] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
-[03:40:41.049] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[03:40:41.049] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[03:40:41.050] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[03:40:41.050] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2Init import called.
-[03:40:41.051] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[03:40:41.052] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
-[03:40:41.052] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
-[03:40:41.064] |I| [export_sceIoOpen]: Opening file: app0:limbo_boot.pkgpsp2
-[03:40:41.128] |I| [export_sceIoOpen]: Opening file: app0:settings.txt
-[03:40:41.129] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/settings.txt (target path: app0:settings.txt)
-[03:40:41.130] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:40:41.189] |I| [export_sceIoOpen]: Opening file: app0:titleId.txt
-[03:40:41.327] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[03:40:41.330] |I| [export_sceIoOpen]: Opening file: app0:limbo_runtime.pkgpsp2
-[03:40:41.330] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
-[03:40:41.924] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[03:40:41.924] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[03:40:41.924] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[03:40:41.925] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[03:40:41.925] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufMulti import called. (move after setframebuf)
-[03:40:41.926] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4b01bf5e2cda583f3bbcff2c1c6028c9c35acb6f0b01798f16b68e2d0ea379e0
-[03:40:41.926] |D| [display_wait]: vcount: 2
-[03:40:41.928] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) textureFactor
-[03:40:41.928] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) brightness
-[03:40:41.929] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord6
-[03:40:41.943] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[03:40:41.943] |D| [display_wait]: vcount: 1
-[03:40:41.963] |I| [renderer::gl::load_shader_generic]: Generating vert shader 8e1dd4f8edfa6166bf8cdf344f8de38b3138a13054bc83c91290ff4a1132a138
-[03:40:41.968] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
-[03:40:41.970] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[03:40:41.972] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) viewport
-[03:40:41.997] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/init.bnk
-[03:40:42.034] |W| [unimplemented_impl]: Unimplemented sceKernelGetEventFlagInfo import called.
-[03:40:42.055] |E| [renderer::gl::compile_program]: Fragment info
+[03:53:13.250] |I| [load_app_impl]: cpu-backend: Dynarmic
+[03:53:13.251] |I| [load_app_impl]: CPU Optimisation state: true
+[03:53:13.251] |I| [load_app_impl]: at9 audio decoder state: true
+[03:53:13.251] |I| [load_app_impl]: ngs experimental state: true
+[03:53:13.251] |I| [load_app_impl]: video player state: true
+[03:53:13.251] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
+[03:53:13.251] |I| [load_app_impl]: Title: Limbo
+[03:53:13.251] |I| [load_app_impl]: Serial: PCSB00336
+[03:53:13.251] |I| [load_app_impl]: Version: 1.00
+[03:53:13.251] |I| [load_app_impl]: Category: gd
+[03:53:13.260] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:53:13.261] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000514B0 / 0x81000000] (size: 0x0004A4B0) of module ux0:app\PCSB00336\sce_module\libc.suprx
+[03:53:13.261] |I| [load_self]: Loaded module segment 1 @ [0x00052000 - 0x000546F4 / 0x8104B000] (size: 0x000026F4) of module ux0:app\PCSB00336\sce_module\libc.suprx
+[03:53:13.262] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libc.suprx
+[03:53:13.263] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3DF30
+[03:53:13.263] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x41DF0, setting to stub value 0xDEADBEEF
+[03:53:13.264] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x434A4, setting to stub value 0xDEADBEEF
+[03:53:13.265] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00336\sce_module\libc.suprx") loaded
+[03:53:13.268] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:53:13.268] |I| [load_self]: Loaded module segment 0 @ [0x00057000 - 0x0006D01C / 0x81000000] (size: 0x0001601C) of module ux0:app\PCSB00336\sce_module\libface.suprx
+[03:53:13.269] |I| [load_self]: Loaded module segment 1 @ [0x0006E000 - 0x0006E14C / 0x81017000] (size: 0x0000014C) of module ux0:app\PCSB00336\sce_module\libface.suprx
+[03:53:13.270] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libface.suprx
+[03:53:13.271] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6A0C8
+[03:53:13.271] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00336\sce_module\libface.suprx") loaded
+[03:53:13.277] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:53:13.279] |I| [load_self]: Loaded module segment 0 @ [0x0006F000 - 0x0009322C / 0x81000000] (size: 0x0002422C) of module ux0:app\PCSB00336\sce_module\libfios2.suprx
+[03:53:13.280] |I| [load_self]: Loaded module segment 1 @ [0x00094000 - 0x000991A4 / 0x81025000] (size: 0x000051A4) of module ux0:app\PCSB00336\sce_module\libfios2.suprx
+[03:53:13.281] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libfios2.suprx
+[03:53:13.281] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8BB70
+[03:53:13.282] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00336\sce_module\libfios2.suprx") loaded
+[03:53:13.321] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:53:13.322] |I| [load_self]: Loaded module segment 0 @ [0x0009A000 - 0x00291E68 / 0x81000000] (size: 0x001F7E68) of module ux0:app\PCSB00336\sce_module\libsmart.suprx
+[03:53:13.323] |I| [load_self]: Loaded module segment 1 @ [0x00292000 - 0x00295734 / 0x811F8000] (size: 0x00003734) of module ux0:app\PCSB00336\sce_module\libsmart.suprx
+[03:53:13.324] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libsmart.suprx
+[03:53:13.324] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x13312C
+[03:53:13.325] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00336\sce_module\libsmart.suprx") loaded
+[03:53:13.329] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:53:13.329] |I| [load_self]: Loaded module segment 0 @ [0x00296000 - 0x002AA144 / 0x81000000] (size: 0x00014144) of module ux0:app\PCSB00336\sce_module\libult.suprx
+[03:53:13.330] |I| [load_self]: Loaded module segment 1 @ [0x002AB000 - 0x002AB814 / 0x81015000] (size: 0x00000814) of module ux0:app\PCSB00336\sce_module\libult.suprx
+[03:53:13.331] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00336\sce_module\libult.suprx
+[03:53:13.331] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2A61CC
+[03:53:13.332] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00336\sce_module\libult.suprx") loaded
+[03:53:13.339] |I| [load_self]: Loaded module segment 0 @ [0x002AC000 - 0x002FCF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[03:53:13.339] |I| [load_self]: Loaded module segment 1 @ [0x002FD000 - 0x002FD2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[03:53:13.343] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[03:53:13.344] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2E87DC
+[03:53:13.344] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2E7F10
+[03:53:13.345] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[03:53:13.348] |I| [load_self]: Loaded module segment 0 @ [0x002FE000 - 0x0030DF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[03:53:13.348] |I| [load_self]: Loaded module segment 1 @ [0x0030E000 - 0x0030E008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[03:53:13.349] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[03:53:13.350] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30C710
+[03:53:13.350] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30C300
+[03:53:13.351] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[03:53:13.403] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:53:13.403] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x812D96CC / 0x81000000] (size: 0x002D96CC) of module app0:eboot.bin
+[03:53:13.404] |I| [load_self]: Loaded module segment 1 @ [0x812DA000 - 0x81654C38 / 0x812DA000] (size: 0x0037AC38) of module app0:eboot.bin
+[03:53:13.405] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[03:53:13.406] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8126C5FC
+[03:53:13.406] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x812DE870
+[03:53:13.407] |I| [load_app_impl]: Main executable Limbo (eboot.bin) loaded
+[03:53:13.415] |D| [run_app]: Running module_start of library: SceLibc at address 0x77F1
+[03:53:13.490] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00336\sce_module\libc.suprx") module_start returned 0x0
+[03:53:13.494] |D| [run_app]: Running module_start of library: SceFace at address 0x69499
+[03:53:13.503] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00336\sce_module\libface.suprx") module_start returned 0x0
+[03:53:13.507] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x6F001
+[03:53:13.515] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[03:53:13.516] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
+[03:53:13.516] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[03:53:13.517] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00336\sce_module\libfios2.suprx") module_start returned 0x0
+[03:53:13.521] |D| [run_app]: Running module_start of library: SceSmart at address 0xA0775
+[03:53:13.535] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00336\sce_module\libsmart.suprx") module_start returned 0x0
+[03:53:13.539] |D| [run_app]: Running module_start of library: SceUlt at address 0x29984D
+[03:53:13.547] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[03:53:13.548] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00336\sce_module\libult.suprx") module_start returned 0x0
+[03:53:13.554] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[03:53:13.607] |I| [export_sceIoOpen]: Opening file: app0:Config.xml
+[03:53:13.623] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[03:53:13.623] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[03:53:13.639] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[03:53:13.641] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[03:53:13.753] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[03:53:13.865] |I| [export_sceIoOpen]: Opening file: app0:Shaders/vs_Default.gxp
+[03:53:13.865] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/vs_Default.gxp (target path: app0:Shaders/vs_Default.gxp)
+[03:53:13.866] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.868] |I| [export_sceIoOpen]: Opening file: app0:Shaders/ps_Default.gxp
+[03:53:13.868] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/ps_Default.gxp (target path: app0:Shaders/ps_Default.gxp)
+[03:53:13.870] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.872] |I| [export_sceIoOpen]: Opening file: app0:Textures/Default.ddspsp2
+[03:53:13.872] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/Default.ddspsp2 (target path: app0:Textures/Default.ddspsp2)
+[03:53:13.873] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.875] |I| [export_sceIoOpen]: Opening file: app0:Textures/Default.dds
+[03:53:13.877] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/Default.dds (target path: app0:Textures/Default.dds)
+[03:53:13.878] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.879] |I| [export_sceIoOpen]: Opening file: app0:Textures/White.ddspsp2
+[03:53:13.882] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/White.ddspsp2 (target path: app0:Textures/White.ddspsp2)
+[03:53:13.882] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.883] |I| [export_sceIoOpen]: Opening file: app0:Textures/White.dds
+[03:53:13.884] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Textures/White.dds (target path: app0:Textures/White.dds)
+[03:53:13.884] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.887] |I| [export_sceIoOpen]: Opening file: app0:Shaders/vs_Clear.gxp
+[03:53:13.891] |I| [export_sceIoOpen]: Opening file: app0:Shaders/ps_Clear.gxp
+[03:53:13.898] |I| [export_sceIoOpen]: Opening file: app0:Shaders/vs_Col.gxp
+[03:53:13.898] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/vs_Col.gxp (target path: app0:Shaders/vs_Col.gxp)
+[03:53:13.900] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.901] |I| [export_sceIoOpen]: Opening file: app0:Shaders/ps_Col.gxp
+[03:53:13.901] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/Shaders/ps_Col.gxp (target path: app0:Shaders/ps_Col.gxp)
+[03:53:13.903] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:13.927] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
+[03:53:13.949] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[03:53:13.949] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[03:53:13.950] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[03:53:13.950] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2Init import called.
+[03:53:13.951] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[03:53:13.951] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
+[03:53:13.951] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
+[03:53:13.961] |I| [export_sceIoOpen]: Opening file: app0:limbo_boot.pkgpsp2
+[03:53:13.984] |I| [export_sceIoOpen]: Opening file: app0:settings.txt
+[03:53:13.984] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00336/settings.txt (target path: app0:settings.txt)
+[03:53:13.985] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:53:14.034] |I| [export_sceIoOpen]: Opening file: app0:titleId.txt
+[03:53:14.062] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[03:53:14.063] |I| [export_sceIoOpen]: Opening file: app0:limbo_runtime.pkgpsp2
+[03:53:14.064] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
+[03:53:14.698] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[03:53:14.699] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufMulti import called. (move after setframebuf)
+[03:53:14.699] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[03:53:14.700] |D| [display_wait]: vcount: 1
+[03:53:14.727] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[03:53:14.727] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[03:53:14.728] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[03:53:14.730] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4b01bf5e2cda583f3bbcff2c1c6028c9c35acb6f0b01798f16b68e2d0ea379e0
+[03:53:14.735] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) textureFactor
+[03:53:14.735] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) brightness
+[03:53:14.736] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord6
+[03:53:14.762] |I| [renderer::gl::load_shader_generic]: Generating vert shader 8e1dd4f8edfa6166bf8cdf344f8de38b3138a13054bc83c91290ff4a1132a138
+[03:53:14.764] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
+[03:53:14.764] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[03:53:14.765] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) viewport
+[03:53:14.790] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/init.bnk
+[03:53:14.796] |W| [unimplemented_impl]: Unimplemented sceKernelGetEventFlagInfo import called.
+[03:53:14.813] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(21) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[03:40:42.056] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:42.057] |I| [renderer::gl::load_shader_generic]: Generating frag shader e28f15d359d702a6fb29b6319522fae9737190eb351024da1a1dfb0b67acdb7a
-[03:40:42.058] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) textureFactor
-[03:40:42.059] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) brightness
-[03:40:42.059] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord6
-[03:40:42.069] |I| [renderer::gl::load_shader_generic]: Generating vert shader 22c18deaff277fa7c6c121150eb7703d095ae88ecc58f023b8ea54fb121d230b
-[03:40:42.070] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
-[03:40:42.070] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[03:40:42.070] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) textureUV
-[03:40:42.071] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) viewport
-[03:40:42.083] |W| [unimplemented_impl]: Unimplemented sceKernelCloseEventFlag import called.
-[03:40:42.100] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/l_intro.bnk
-[03:40:42.101] |E| [renderer::gl::compile_program]: Fragment info
+[03:53:14.814] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:14.814] |I| [renderer::gl::load_shader_generic]: Generating frag shader e28f15d359d702a6fb29b6319522fae9737190eb351024da1a1dfb0b67acdb7a
+[03:53:14.816] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) textureFactor
+[03:53:14.817] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) brightness
+[03:53:14.818] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord6
+[03:53:14.825] |I| [renderer::gl::load_shader_generic]: Generating vert shader 22c18deaff277fa7c6c121150eb7703d095ae88ecc58f023b8ea54fb121d230b
+[03:53:14.827] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
+[03:53:14.827] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[03:53:14.828] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) textureUV
+[03:53:14.828] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) viewport
+[03:53:14.843] |W| [unimplemented_impl]: Unimplemented sceKernelCloseEventFlag import called.
+[03:53:14.858] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/l_intro.bnk
+[03:53:14.867] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(23) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[03:40:42.102] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:42.154] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/l_default.bnk
-[03:40:42.923] |D| [display_wait]: vcount: 2
-[03:40:42.924] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:42.946] |D| [display_wait]: vcount: 1
-[03:40:43.985] |D| [display_wait]: vcount: 2
-[03:40:44.010] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[03:40:44.010] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
-[03:40:44.017] |D| [display_wait]: vcount: 1
-[03:40:44.935] |D| [display_wait]: vcount: 2
-[03:40:44.969] |D| [display_wait]: vcount: 1
-[03:40:45.910] |D| [display_wait]: vcount: 2
-[03:40:45.938] |D| [display_wait]: vcount: 1
-[03:40:46.898] |D| [display_wait]: vcount: 2
-[03:40:46.924] |D| [display_wait]: vcount: 1
-[03:40:47.898] |D| [display_wait]: vcount: 2
-[03:40:47.927] |D| [display_wait]: vcount: 1
-[03:40:48.898] |D| [display_wait]: vcount: 2
-[03:40:48.930] |D| [display_wait]: vcount: 1
-[03:40:49.901] |D| [display_wait]: vcount: 2
-[03:40:49.933] |D| [display_wait]: vcount: 1
-[03:40:50.457] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[03:40:50.457] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[03:40:50.898] |D| [display_wait]: vcount: 2
-[03:40:50.919] |D| [display_wait]: vcount: 1
-[03:40:51.898] |D| [display_wait]: vcount: 2
-[03:40:51.922] |D| [display_wait]: vcount: 1
-[03:40:52.612] |I| [renderer::gl::load_shader_generic]: Generating frag shader 15e0868d8c4ec97f633a7bb8d8e1354a8f2a7163d06dd8e0887b1c8ff393a06b
-[03:40:52.614] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[03:40:52.618] |I| [renderer::gl::load_shader_generic]: Generating vert shader afa04229fd4ba52339a13615d96ad032875dd7f98beeeeccb7bab84511c8b256
-[03:40:52.619] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPosition
-[03:40:52.619] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColour
-[03:40:52.619] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) clearDepth
-[03:40:52.632] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.634] |I| [renderer::gl::load_shader_generic]: Generating frag shader 55c76fe8b683426ac10513ceccff2cf072f6b06890fdae6e7a0adecc47f8aa7d
-[03:40:52.635] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[03:40:52.635] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[03:40:52.639] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2c9ddb8877626c62ca49e924c80705e71c90945368c8648c17afab02bd4d7d59
-[03:40:52.640] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) local_pos
-[03:40:52.640] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) diffuse
-[03:40:52.641] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) specular
-[03:40:52.641] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) uv0
-[03:40:52.642] |D| [shader::create_parameters]: [DEFAULT  + 0] sa34 = (float4) WorldMatrix[4]
-[03:40:52.642] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) ViewProjMatrix[4]
-[03:40:52.643] |D| [shader::create_parameters]: [BUFFER0  + 22] sa22 = (float4) iFogColor
-[03:40:52.643] |D| [shader::create_parameters]: [BUFFER0  + 26] sa26 = (float4) fFogDensity
-[03:40:52.644] |D| [shader::create_parameters]: [BUFFER0  + 30] sa30 = (float4) fFogFalloff
-[03:40:52.650] |D| [display_wait]: vcount: 2
-[03:40:52.660] |D| [shader::usse::USSETranslatorVisitor::vtst]: load_data_type: 5, bits max: 8
-[03:40:52.670] |D| [display_wait]: vcount: 1
-[03:40:52.720] |E| [renderer::gl::compile_program]: Fragment info
+[03:53:14.869] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:14.911] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/l_default.bnk
+[03:53:15.684] |D| [display_wait]: vcount: 1
+[03:53:15.708] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:16.144] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[03:53:16.145] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[03:53:16.663] |D| [display_wait]: vcount: 1
+[03:53:17.660] |D| [display_wait]: vcount: 1
+[03:53:18.664] |D| [display_wait]: vcount: 1
+[03:53:19.663] |D| [display_wait]: vcount: 1
+[03:53:20.660] |D| [display_wait]: vcount: 1
+[03:53:21.664] |D| [display_wait]: vcount: 1
+[03:53:22.126] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[03:53:22.127] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[03:53:22.663] |D| [display_wait]: vcount: 1
+[03:53:23.661] |D| [display_wait]: vcount: 1
+[03:53:24.191] |I| [renderer::gl::load_shader_generic]: Generating frag shader 15e0868d8c4ec97f633a7bb8d8e1354a8f2a7163d06dd8e0887b1c8ff393a06b
+[03:53:24.194] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[03:53:24.199] |I| [renderer::gl::load_shader_generic]: Generating vert shader afa04229fd4ba52339a13615d96ad032875dd7f98beeeeccb7bab84511c8b256
+[03:53:24.200] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPosition
+[03:53:24.200] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColour
+[03:53:24.201] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) clearDepth
+[03:53:24.210] |D| [display_wait]: vcount: 1
+[03:53:24.213] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.214] |I| [renderer::gl::load_shader_generic]: Generating frag shader 55c76fe8b683426ac10513ceccff2cf072f6b06890fdae6e7a0adecc47f8aa7d
+[03:53:24.215] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[03:53:24.218] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[03:53:24.223] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2c9ddb8877626c62ca49e924c80705e71c90945368c8648c17afab02bd4d7d59
+[03:53:24.225] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) local_pos
+[03:53:24.225] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) diffuse
+[03:53:24.225] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) specular
+[03:53:24.226] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) uv0
+[03:53:24.226] |D| [shader::create_parameters]: [DEFAULT  + 0] sa34 = (float4) WorldMatrix[4]
+[03:53:24.227] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) ViewProjMatrix[4]
+[03:53:24.227] |D| [shader::create_parameters]: [BUFFER0  + 22] sa22 = (float4) iFogColor
+[03:53:24.228] |D| [shader::create_parameters]: [BUFFER0  + 26] sa26 = (float4) fFogDensity
+[03:53:24.228] |D| [shader::create_parameters]: [BUFFER0  + 30] sa30 = (float4) fFogFalloff
+[03:53:24.243] |D| [shader::usse::USSETranslatorVisitor::vtst]: load_data_type: 5, bits max: 8
+[03:53:24.302] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(19) : warning C7050: "pa[0].zw" might be used before being initialized
 0(19) : warning C7050: "pa[1].zw" might be used before being initialized
 
 
-[03:40:52.722] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.722] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.723] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.723] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.743] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.763] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.784] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.804] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.825] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.845] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.865] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.887] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.907] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.927] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.948] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.969] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:52.989] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.009] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.029] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.050] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.071] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.092] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.113] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.133] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.153] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.174] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.194] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.215] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.235] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.256] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.276] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.297] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.317] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.337] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.358] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.379] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.400] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.421] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.442] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.464] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.485] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.506] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.527] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.548] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.569] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.590] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.611] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.632] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.653] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.674] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.696] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.717] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.738] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.759] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.780] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.800] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.820] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.840] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.861] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.881] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.902] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.922] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.942] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.963] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:53.984] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.004] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.024] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.045] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.065] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.085] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.106] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.126] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.147] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.167] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.187] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.207] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.227] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.249] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.271] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.292] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.312] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.333] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.353] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.374] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.394] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.415] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.435] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.455] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.476] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.496] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.516] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.537] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.557] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.577] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.598] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.618] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.638] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.659] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.679] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.700] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.720] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.740] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.761] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.781] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.802] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.822] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.843] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.863] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.884] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.906] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:54.907] |I| [renderer::gl::load_shader_generic]: Generating frag shader 1002ad3f3d664fe12bb7ab12bbd7010449ecedb62ce6e4e32c5e0c4656467c13
-[03:40:54.908] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) textureFactor
-[03:40:54.908] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) brightness
-[03:40:54.914] |I| [renderer::gl::load_shader_generic]: Generating vert shader 75ceaded5e47f0a75d15c02bae5e7e2fa98a7783bde1862d5f5afe2f6e7c0252
-[03:40:54.915] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
-[03:40:54.915] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) textureUV
-[03:40:54.916] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) viewport
-[03:40:54.938] |E| [renderer::gl::compile_program]: Fragment info
+[03:53:24.303] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.304] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.304] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.305] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.325] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.346] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.366] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.385] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.405] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.424] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.444] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.463] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.483] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.503] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.523] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.543] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.562] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.582] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.601] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.621] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.641] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.660] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.680] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.700] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.720] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.740] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.759] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.779] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.798] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.818] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.838] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.857] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.877] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.897] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.917] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.938] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.957] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.977] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:24.997] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.017] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.037] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.056] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.076] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.096] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.116] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.135] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.155] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.174] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.194] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.213] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.233] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.253] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.273] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.293] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.313] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.332] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.352] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.371] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.391] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.411] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.430] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.450] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.470] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.490] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.510] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.529] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.549] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.568] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.588] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.608] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.627] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.647] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.667] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.686] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.706] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.726] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.745] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.765] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.786] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.806] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.826] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.845] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.865] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.886] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.906] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.926] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.946] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.966] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:25.986] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.006] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.025] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.045] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.064] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.084] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.103] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.123] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.143] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.163] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.182] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.202] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.222] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.241] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.261] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.281] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.302] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.321] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.341] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.361] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.381] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.403] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:26.404] |I| [renderer::gl::load_shader_generic]: Generating frag shader 1002ad3f3d664fe12bb7ab12bbd7010449ecedb62ce6e4e32c5e0c4656467c13
+[03:53:26.405] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) textureFactor
+[03:53:26.406] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) brightness
+[03:53:26.412] |I| [renderer::gl::load_shader_generic]: Generating vert shader 75ceaded5e47f0a75d15c02bae5e7e2fa98a7783bde1862d5f5afe2f6e7c0252
+[03:53:26.413] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
+[03:53:26.413] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) textureUV
+[03:53:26.414] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) viewport
+[03:53:26.438] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(22) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[03:40:54.940] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.961] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:54.981] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.002] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.022] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.043] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.064] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.084] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.104] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.126] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.148] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.160] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.180] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.183] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.207] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:55.215] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:55.216] |I| [renderer::gl::load_shader_generic]: Generating frag shader 24b24a3c74a2d90f137ced3a25da7489fc517a942c6f321c4e67c0b461f9fc27
-[03:40:55.218] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) opacity
-[03:40:55.218] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[03:40:55.218] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 2 at 24b24a3c74a2d90f137ced3a25da7489fc517a942c6f321c4e67c0b461f9fc27
-[03:40:55.227] |I| [renderer::gl::load_shader_generic]: Generating vert shader ec4e618c3f97e8099c1693422991c20368539c921b4ebc8555c5d020c33f9d62
-[03:40:55.229] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) local_pos
-[03:40:55.229] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) diffuse
-[03:40:55.230] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) textureUV
-[03:40:55.230] |D| [shader::create_parameters]: [DEFAULT  + 0] sa20 = (float4) WorldMatrix[4]
-[03:40:55.231] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) ViewProjMatrix[4]
-[03:40:55.303] |E| [renderer::gl::compile_program]: Fragment info
+[03:53:26.441] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.461] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.480] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.503] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.523] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.549] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.572] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.593] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.615] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.636] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.657] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.668] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.689] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.692] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.716] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:26.722] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:26.723] |I| [renderer::gl::load_shader_generic]: Generating frag shader 24b24a3c74a2d90f137ced3a25da7489fc517a942c6f321c4e67c0b461f9fc27
+[03:53:26.725] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) opacity
+[03:53:26.725] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[03:53:26.725] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 2 at 24b24a3c74a2d90f137ced3a25da7489fc517a942c6f321c4e67c0b461f9fc27
+[03:53:26.734] |I| [renderer::gl::load_shader_generic]: Generating vert shader ec4e618c3f97e8099c1693422991c20368539c921b4ebc8555c5d020c33f9d62
+[03:53:26.736] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) local_pos
+[03:53:26.737] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) diffuse
+[03:53:26.737] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) textureUV
+[03:53:26.738] |D| [shader::create_parameters]: [DEFAULT  + 0] sa20 = (float4) WorldMatrix[4]
+[03:53:26.738] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) ViewProjMatrix[4]
+[03:53:26.808] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(27) : warning C7050: "pa[0].zw" might be used before being initialized
 0(27) : warning C7050: "pa[1].zw" might be used before being initialized
 0(27) : warning C7050: "pa[2].zw" might be used before being initialized
 
 
-[03:40:55.308] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.327] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.352] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.372] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.393] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.415] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.435] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.456] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.476] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.497] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.518] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.538] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.559] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.579] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.599] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.620] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.640] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.660] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.681] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.702] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.722] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.742] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.763] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.783] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.804] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.824] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.845] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.866] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.887] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.907] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.928] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.948] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.969] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:55.991] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.011] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.031] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.052] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.072] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.092] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.115] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.135] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.156] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.177] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.197] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.218] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.239] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.263] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.283] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.304] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.324] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.344] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.364] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.386] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.412] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:56.413] |I| [renderer::gl::load_shader_generic]: Generating frag shader 910f07bc49e3054af6f4673d50ad994c635d188502e13e18b1e10c1901216f9d
-[03:40:56.420] |I| [renderer::gl::load_shader_generic]: Generating vert shader dad868d785ab31571bce6ab3032b9072b52a15dd7e9b972536c9e3871d70cc29
-[03:40:56.421] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) pos
-[03:40:56.421] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) uv
-[03:40:56.422] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) offset
-[03:40:56.447] |E| [renderer::gl::compile_program]: Fragment info
+[03:53:26.811] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.831] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.851] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.871] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.892] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.917] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.937] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.958] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:26.980] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.000] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.020] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.040] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.061] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.085] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.106] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.128] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.148] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.169] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.189] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.209] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.229] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.248] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.268] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.289] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.311] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.331] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.350] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.371] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.391] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.411] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.431] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.450] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.470] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.491] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.511] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.530] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.550] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.570] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.590] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.611] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.631] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.652] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.672] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.691] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.711] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.731] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.750] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.770] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.790] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.810] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.830] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.850] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.871] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.894] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:27.895] |I| [renderer::gl::load_shader_generic]: Generating frag shader 910f07bc49e3054af6f4673d50ad994c635d188502e13e18b1e10c1901216f9d
+[03:53:27.904] |I| [renderer::gl::load_shader_generic]: Generating vert shader dad868d785ab31571bce6ab3032b9072b52a15dd7e9b972536c9e3871d70cc29
+[03:53:27.905] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) pos
+[03:53:27.905] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) uv
+[03:53:27.906] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) offset
+[03:53:27.927] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(24) : warning C7050: "sa[0]" might be used before being initialized
 
 
-[03:40:56.449] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:56.449] |I| [renderer::gl::load_shader_generic]: Generating frag shader 6f9d72e1b279aea0a7052a7cead4c6a6f4c126618e5e8144cb009b8e895c8395
-[03:40:56.450] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) weights
-[03:40:56.458] |I| [renderer::gl::load_shader_generic]: Generating vert shader b81ee89e26b80bfde28b4f49c297d7cb7c4e90bafaa9c92ba8873d25c6be6c5b
-[03:40:56.460] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) pos
-[03:40:56.461] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) uv
-[03:40:56.461] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) offset
-[03:40:56.492] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:56.502] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:56.502] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.503] |I| [renderer::gl::load_shader_generic]: Generating frag shader 5f984d329a5c1520a611e44f0b65729497867c1a994426b2c051854afaccef64
-[03:40:56.504] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) opacity
-[03:40:56.511] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9c426e94b28ccd5563e7a16a17174c5593b54c48e82ba2f0069fdfcd259020dc
-[03:40:56.512] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
-[03:40:56.513] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) tex0
-[03:40:56.513] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) tex1
-[03:40:56.534] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.554] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.575] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.575] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.576] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.576] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.577] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.577] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.578] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.579] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.579] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.580] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.581] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.582] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.582] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.583] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.583] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.584] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.585] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.585] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.588] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.588] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.590] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.590] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.591] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.591] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.592] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.592] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:56.593] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.593] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.594] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.594] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.595] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.596] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.596] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.597] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.597] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.598] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.598] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.599] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.599] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.600] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.600] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.601] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.601] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.605] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.611] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.611] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.612] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.612] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.613] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.613] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.614] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.614] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.615] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.615] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.616] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.617] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.619] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.619] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.619] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.620] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.620] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.621] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.621] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.622] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.623] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.623] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
-[03:40:56.626] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.639] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:56.640] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
-[03:40:56.640] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.641] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.641] |I| [renderer::gl::load_shader_generic]: Generating frag shader 19c5949822bda4d22ce0a8e0fc880edbb4c9f2007445b08374636891832e0f8a
-[03:40:56.642] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) brightness
-[03:40:56.643] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) contrast
-[03:40:56.643] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) gamma
-[03:40:56.644] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) randomInfo
-[03:40:56.663] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3b80775915129caf0be0648a9a2b4f3d87e9fd6a8dac3d2573547cdac33d9f13
-[03:40:56.664] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
-[03:40:56.666] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) textureUV
-[03:40:56.675] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) bloomUV
-[03:40:56.675] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) randomInfoVtx
-[03:40:56.716] |D| [display_wait]: vcount: 2
-[03:40:56.717] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.718] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.741] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.744] |I| [export_sceIoOpen]: Opening file: savedata0:/SAVEGAME.TXT
-[03:40:56.746] |I| [export_sceIoOpen]: Opening file: savedata0:/SAVEGAME.TXT
-[03:40:56.750] |D| [display_wait]: vcount: 1
-[03:40:56.763] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.785] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.806] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.828] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.850] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.871] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.891] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.913] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.935] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.956] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.978] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:56.999] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.020] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.042] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.062] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.083] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.104] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.124] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.145] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.166] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.187] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.209] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.230] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.250] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.270] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.291] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.312] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.333] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.355] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.375] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.396] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.418] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.438] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.459] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.479] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.499] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.519] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.540] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.560] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.581] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.601] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.626] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.646] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.667] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.687] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.708] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.728] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.749] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.770] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.791] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.812] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.844] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.865] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.885] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.906] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.926] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.947] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.972] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:57.993] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.016] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.037] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.057] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.078] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.099] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.119] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.141] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.163] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.184] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.194] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.215] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.236] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.261] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.282] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.302] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.322] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.333] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.397] |D| [display_wait]: vcount: 2
-[03:40:58.416] |D| [display_wait]: vcount: 1
-[03:40:58.430] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.509] |D| [display_wait]: vcount: 2
-[03:40:58.522] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/77911966.wem
-[03:40:58.535] |D| [display_wait]: vcount: 1
-[03:40:58.606] |D| [display_wait]: vcount: 2
-[03:40:58.607] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.629] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.637] |D| [display_wait]: vcount: 1
-[03:40:58.650] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.671] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.693] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.715] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.736] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.757] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.777] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.798] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.820] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.841] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.862] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.884] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.905] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.925] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.946] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.968] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:58.988] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.011] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.031] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.053] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.076] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.098] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.119] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.140] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.162] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.183] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.204] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.228] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.249] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.273] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.293] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.327] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.349] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.369] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.391] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.412] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.433] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.453] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.475] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.498] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.520] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.532] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.552] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.572] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.593] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.614] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.625] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:40:59.686] |D| [display_wait]: vcount: 2
-[03:40:59.708] |D| [display_wait]: vcount: 1
-[03:40:59.767] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:40:59.796] |D| [display_wait]: vcount: 2
-[03:40:59.827] |D| [display_wait]: vcount: 1
-[03:40:59.894] |D| [display_wait]: vcount: 2
-[03:40:59.912] |D| [display_wait]: vcount: 1
-[03:40:59.989] |D| [display_wait]: vcount: 2
-[03:41:00.014] |D| [display_wait]: vcount: 1
-[03:41:00.083] |D| [display_wait]: vcount: 2
-[03:41:00.116] |D| [display_wait]: vcount: 1
-[03:41:00.177] |D| [display_wait]: vcount: 2
-[03:41:00.201] |D| [display_wait]: vcount: 1
-[03:41:00.266] |D| [display_wait]: vcount: 2
-[03:41:00.286] |D| [display_wait]: vcount: 1
-[03:41:00.355] |D| [display_wait]: vcount: 2
-[03:41:00.388] |D| [display_wait]: vcount: 1
-[03:41:00.445] |D| [display_wait]: vcount: 2
-[03:41:00.473] |D| [display_wait]: vcount: 1
-[03:41:00.532] |D| [display_wait]: vcount: 2
-[03:41:00.558] |D| [display_wait]: vcount: 1
-[03:41:00.611] |D| [display_wait]: vcount: 2
-[03:41:00.643] |D| [display_wait]: vcount: 1
-[03:41:00.669] |D| [display_wait]: vcount: 2
-[03:41:00.694] |D| [display_wait]: vcount: 1
-[03:41:00.726] |D| [display_wait]: vcount: 2
-[03:41:00.745] |D| [display_wait]: vcount: 1
-[03:41:00.785] |D| [display_wait]: vcount: 2
-[03:41:00.813] |D| [display_wait]: vcount: 1
-[03:41:00.844] |D| [display_wait]: vcount: 2
-[03:41:00.864] |D| [display_wait]: vcount: 1
-[03:41:00.904] |D| [display_wait]: vcount: 2
-[03:41:00.932] |D| [display_wait]: vcount: 1
-[03:41:00.963] |D| [display_wait]: vcount: 2
-[03:41:00.983] |D| [display_wait]: vcount: 1
-[03:41:01.022] |D| [display_wait]: vcount: 2
-[03:41:01.051] |D| [display_wait]: vcount: 1
-[03:41:01.079] |D| [display_wait]: vcount: 2
-[03:41:01.102] |D| [display_wait]: vcount: 1
-[03:41:01.139] |D| [display_wait]: vcount: 2
-[03:41:01.170] |D| [display_wait]: vcount: 1
-[03:41:01.196] |D| [display_wait]: vcount: 2
-[03:41:01.221] |D| [display_wait]: vcount: 1
-[03:41:01.255] |D| [display_wait]: vcount: 2
-[03:41:01.272] |D| [display_wait]: vcount: 1
-[03:41:01.315] |D| [display_wait]: vcount: 2
-[03:41:01.340] |D| [display_wait]: vcount: 1
-[03:41:01.372] |D| [display_wait]: vcount: 2
-[03:41:01.391] |D| [display_wait]: vcount: 1
-[03:41:01.430] |D| [display_wait]: vcount: 2
-[03:41:01.459] |D| [display_wait]: vcount: 1
-[03:41:01.489] |D| [display_wait]: vcount: 2
-[03:41:01.510] |D| [display_wait]: vcount: 1
-[03:41:01.546] |D| [display_wait]: vcount: 2
-[03:41:01.578] |D| [display_wait]: vcount: 1
-[03:41:01.603] |D| [display_wait]: vcount: 2
-[03:41:01.629] |D| [display_wait]: vcount: 1
-[03:41:01.660] |D| [display_wait]: vcount: 2
-[03:41:01.680] |D| [display_wait]: vcount: 1
-[03:41:01.717] |D| [display_wait]: vcount: 2
-[03:41:01.748] |D| [display_wait]: vcount: 1
-[03:41:01.773] |D| [display_wait]: vcount: 2
-[03:41:01.799] |D| [display_wait]: vcount: 1
-[03:41:01.828] |D| [display_wait]: vcount: 2
-[03:41:01.850] |D| [display_wait]: vcount: 1
-[03:41:01.884] |D| [display_wait]: vcount: 2
-[03:41:01.901] |D| [display_wait]: vcount: 1
-[03:41:01.940] |D| [display_wait]: vcount: 2
-[03:41:01.969] |D| [display_wait]: vcount: 1
-[03:41:01.996] |D| [display_wait]: vcount: 2
-[03:41:02.020] |D| [display_wait]: vcount: 1
-[03:41:02.054] |D| [display_wait]: vcount: 2
-[03:41:02.071] |D| [display_wait]: vcount: 1
-[03:41:02.109] |D| [display_wait]: vcount: 2
-[03:41:02.139] |D| [display_wait]: vcount: 1
-[03:41:02.166] |D| [display_wait]: vcount: 2
-[03:41:02.190] |D| [display_wait]: vcount: 1
-[03:41:02.221] |D| [display_wait]: vcount: 2
-[03:41:02.241] |D| [display_wait]: vcount: 1
-[03:41:02.277] |D| [display_wait]: vcount: 2
-[03:41:02.309] |D| [display_wait]: vcount: 1
-[03:41:02.331] |D| [display_wait]: vcount: 2
-[03:41:02.360] |D| [display_wait]: vcount: 1
-[03:41:02.388] |D| [display_wait]: vcount: 2
-[03:41:02.411] |D| [display_wait]: vcount: 1
-[03:41:02.444] |D| [display_wait]: vcount: 2
-[03:41:02.462] |D| [display_wait]: vcount: 1
-[03:41:02.501] |D| [display_wait]: vcount: 2
-[03:41:02.530] |D| [display_wait]: vcount: 1
-[03:41:02.555] |D| [display_wait]: vcount: 2
-[03:41:02.581] |D| [display_wait]: vcount: 1
-[03:41:02.612] |D| [display_wait]: vcount: 2
-[03:41:02.632] |D| [display_wait]: vcount: 1
-[03:41:02.671] |D| [display_wait]: vcount: 2
-[03:41:02.700] |D| [display_wait]: vcount: 1
-[03:41:02.726] |D| [display_wait]: vcount: 2
-[03:41:02.751] |D| [display_wait]: vcount: 1
-[03:41:02.784] |D| [display_wait]: vcount: 2
-[03:41:02.802] |D| [display_wait]: vcount: 1
-[03:41:02.839] |D| [display_wait]: vcount: 2
-[03:41:02.870] |D| [display_wait]: vcount: 1
-[03:41:02.894] |D| [display_wait]: vcount: 2
-[03:41:02.921] |D| [display_wait]: vcount: 1
-[03:41:02.949] |D| [display_wait]: vcount: 2
-[03:41:02.972] |D| [display_wait]: vcount: 1
-[03:41:03.006] |D| [display_wait]: vcount: 2
-[03:41:03.023] |D| [display_wait]: vcount: 1
-[03:41:03.063] |D| [display_wait]: vcount: 2
-[03:41:03.091] |D| [display_wait]: vcount: 1
-[03:41:03.119] |D| [display_wait]: vcount: 2
-[03:41:03.142] |D| [display_wait]: vcount: 1
-[03:41:03.175] |D| [display_wait]: vcount: 2
-[03:41:03.193] |D| [display_wait]: vcount: 1
-[03:41:03.230] |D| [display_wait]: vcount: 2
-[03:41:03.261] |D| [display_wait]: vcount: 1
-[03:41:03.284] |D| [display_wait]: vcount: 2
-[03:41:03.312] |D| [display_wait]: vcount: 1
-[03:41:03.340] |D| [display_wait]: vcount: 2
-[03:41:03.363] |D| [display_wait]: vcount: 1
-[03:41:03.395] |D| [display_wait]: vcount: 2
-[03:41:03.414] |D| [display_wait]: vcount: 1
-[03:41:03.451] |D| [display_wait]: vcount: 2
-[03:41:03.482] |D| [display_wait]: vcount: 1
-[03:41:03.505] |D| [display_wait]: vcount: 2
-[03:41:03.533] |D| [display_wait]: vcount: 1
-[03:41:03.561] |D| [display_wait]: vcount: 2
-[03:41:03.584] |D| [display_wait]: vcount: 1
-[03:41:03.616] |D| [display_wait]: vcount: 2
-[03:41:03.635] |D| [display_wait]: vcount: 1
-[03:41:03.672] |D| [display_wait]: vcount: 2
-[03:41:03.703] |D| [display_wait]: vcount: 1
-[03:41:03.726] |D| [display_wait]: vcount: 2
-[03:41:03.754] |D| [display_wait]: vcount: 1
-[03:41:03.784] |D| [display_wait]: vcount: 2
-[03:41:03.805] |D| [display_wait]: vcount: 1
-[03:41:03.838] |D| [display_wait]: vcount: 2
-[03:41:03.856] |D| [display_wait]: vcount: 1
-[03:41:03.892] |D| [display_wait]: vcount: 2
-[03:41:03.924] |D| [display_wait]: vcount: 1
-[03:41:03.947] |D| [display_wait]: vcount: 2
-[03:41:03.975] |D| [display_wait]: vcount: 1
-[03:41:04.006] |D| [display_wait]: vcount: 2
-[03:41:04.026] |D| [display_wait]: vcount: 1
-[03:41:04.061] |D| [display_wait]: vcount: 2
-[03:41:04.094] |D| [display_wait]: vcount: 1
-[03:41:04.117] |D| [display_wait]: vcount: 2
-[03:41:04.145] |D| [display_wait]: vcount: 1
-[03:41:04.172] |D| [display_wait]: vcount: 2
-[03:41:04.196] |D| [display_wait]: vcount: 1
-[03:41:04.227] |D| [display_wait]: vcount: 2
-[03:41:04.247] |D| [display_wait]: vcount: 1
-[03:41:04.284] |D| [display_wait]: vcount: 2
-[03:41:04.315] |D| [display_wait]: vcount: 1
-[03:41:04.339] |D| [display_wait]: vcount: 2
-[03:41:04.366] |D| [display_wait]: vcount: 1
-[03:41:04.395] |D| [display_wait]: vcount: 2
-[03:41:04.417] |D| [display_wait]: vcount: 1
-[03:41:04.450] |D| [display_wait]: vcount: 2
-[03:41:04.468] |D| [display_wait]: vcount: 1
-[03:41:04.505] |D| [display_wait]: vcount: 2
-[03:41:04.536] |D| [display_wait]: vcount: 1
-[03:41:04.560] |D| [display_wait]: vcount: 2
-[03:41:04.587] |D| [display_wait]: vcount: 1
-[03:41:04.615] |D| [display_wait]: vcount: 2
-[03:41:04.638] |D| [display_wait]: vcount: 1
-[03:41:04.673] |D| [display_wait]: vcount: 2
-[03:41:04.706] |D| [display_wait]: vcount: 1
-[03:41:04.729] |D| [display_wait]: vcount: 2
-[03:41:04.757] |D| [display_wait]: vcount: 1
-[03:41:04.787] |D| [display_wait]: vcount: 2
-[03:41:04.808] |D| [display_wait]: vcount: 1
-[03:41:04.842] |D| [display_wait]: vcount: 2
-[03:41:04.859] |D| [display_wait]: vcount: 1
-[03:41:04.899] |D| [display_wait]: vcount: 2
-[03:41:04.927] |D| [display_wait]: vcount: 1
-[03:41:04.956] |D| [display_wait]: vcount: 2
-[03:41:04.978] |D| [display_wait]: vcount: 1
-[03:41:05.014] |D| [display_wait]: vcount: 2
-[03:41:05.046] |D| [display_wait]: vcount: 1
-[03:41:05.070] |D| [display_wait]: vcount: 2
-[03:41:05.097] |D| [display_wait]: vcount: 1
-[03:41:05.127] |D| [display_wait]: vcount: 2
-[03:41:05.148] |D| [display_wait]: vcount: 1
-[03:41:05.185] |D| [display_wait]: vcount: 2
-[03:41:05.216] |D| [display_wait]: vcount: 1
-[03:41:05.241] |D| [display_wait]: vcount: 2
-[03:41:05.267] |D| [display_wait]: vcount: 1
-[03:41:05.296] |D| [display_wait]: vcount: 2
-[03:41:05.318] |D| [display_wait]: vcount: 1
-[03:41:05.352] |D| [display_wait]: vcount: 2
-[03:41:05.386] |D| [display_wait]: vcount: 1
-[03:41:05.406] |D| [display_wait]: vcount: 2
-[03:41:05.437] |D| [display_wait]: vcount: 1
-[03:41:05.462] |D| [display_wait]: vcount: 2
-[03:41:05.488] |D| [display_wait]: vcount: 1
-[03:41:05.518] |D| [display_wait]: vcount: 2
-[03:41:05.539] |D| [display_wait]: vcount: 1
-[03:41:05.572] |D| [display_wait]: vcount: 2
-[03:41:05.590] |D| [display_wait]: vcount: 1
-[03:41:05.630] |D| [display_wait]: vcount: 2
-[03:41:05.658] |D| [display_wait]: vcount: 1
-[03:41:05.687] |D| [display_wait]: vcount: 2
-[03:41:05.709] |D| [display_wait]: vcount: 1
-[03:41:05.741] |D| [display_wait]: vcount: 2
-[03:41:05.760] |D| [display_wait]: vcount: 1
-[03:41:05.796] |D| [display_wait]: vcount: 2
-[03:41:05.828] |D| [display_wait]: vcount: 1
-[03:41:05.853] |D| [display_wait]: vcount: 2
-[03:41:05.879] |D| [display_wait]: vcount: 1
-[03:41:05.906] |D| [display_wait]: vcount: 2
-[03:41:05.930] |D| [display_wait]: vcount: 1
-[03:41:05.960] |D| [display_wait]: vcount: 2
-[03:41:05.981] |D| [display_wait]: vcount: 1
-[03:41:06.017] |D| [display_wait]: vcount: 2
-[03:41:06.049] |D| [display_wait]: vcount: 1
-[03:41:06.073] |D| [display_wait]: vcount: 2
-[03:41:06.100] |D| [display_wait]: vcount: 1
-[03:41:06.129] |D| [display_wait]: vcount: 2
-[03:41:06.151] |D| [display_wait]: vcount: 1
-[03:41:06.182] |D| [display_wait]: vcount: 2
-[03:41:06.202] |D| [display_wait]: vcount: 1
-[03:41:06.239] |D| [display_wait]: vcount: 2
-[03:41:06.270] |D| [display_wait]: vcount: 1
-[03:41:06.295] |D| [display_wait]: vcount: 2
-[03:41:06.321] |D| [display_wait]: vcount: 1
-[03:41:06.348] |D| [display_wait]: vcount: 2
-[03:41:06.372] |D| [display_wait]: vcount: 1
-[03:41:06.402] |D| [display_wait]: vcount: 2
-[03:41:06.423] |D| [display_wait]: vcount: 1
-[03:41:06.455] |D| [display_wait]: vcount: 2
-[03:41:06.474] |D| [display_wait]: vcount: 1
-[03:41:06.510] |D| [display_wait]: vcount: 2
-[03:41:06.542] |D| [display_wait]: vcount: 1
-[03:41:06.567] |D| [display_wait]: vcount: 2
-[03:41:06.593] |D| [display_wait]: vcount: 1
-[03:41:06.622] |D| [display_wait]: vcount: 2
-[03:41:06.644] |D| [display_wait]: vcount: 1
-[03:41:06.678] |D| [display_wait]: vcount: 2
-[03:41:06.712] |D| [display_wait]: vcount: 1
-[03:41:06.733] |D| [display_wait]: vcount: 2
-[03:41:06.763] |D| [display_wait]: vcount: 1
-[03:41:06.788] |D| [display_wait]: vcount: 2
-[03:41:06.814] |D| [display_wait]: vcount: 1
-[03:41:06.834] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
-[03:41:06.843] |D| [display_wait]: vcount: 2
-[03:41:06.865] |D| [display_wait]: vcount: 1
-[03:41:06.901] |D| [display_wait]: vcount: 2
-[03:41:06.933] |D| [display_wait]: vcount: 1
-[03:41:06.957] |D| [display_wait]: vcount: 2
-[03:41:06.984] |D| [display_wait]: vcount: 1
-[03:41:07.012] |D| [display_wait]: vcount: 2
-[03:41:07.035] |D| [display_wait]: vcount: 1
-[03:41:07.069] |D| [display_wait]: vcount: 2
-[03:41:07.086] |D| [display_wait]: vcount: 1
-[03:41:07.120] |D| [display_wait]: vcount: 2
-[03:41:07.137] |D| [display_wait]: vcount: 1
-[03:41:07.170] |D| [display_wait]: vcount: 2
-[03:41:07.188] |D| [display_wait]: vcount: 1
-[03:41:07.221] |D| [display_wait]: vcount: 2
-[03:41:07.239] |D| [display_wait]: vcount: 1
-[03:41:07.261] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/288041556.wem
-[03:41:07.274] |D| [display_wait]: vcount: 2
-[03:41:07.307] |D| [display_wait]: vcount: 1
-[03:41:07.326] |D| [display_wait]: vcount: 2
-[03:41:07.358] |D| [display_wait]: vcount: 1
-[03:41:07.377] |D| [display_wait]: vcount: 2
-[03:41:07.409] |D| [display_wait]: vcount: 1
-[03:41:07.429] |D| [display_wait]: vcount: 2
-[03:41:07.460] |D| [display_wait]: vcount: 1
-[03:41:07.482] |D| [display_wait]: vcount: 2
-[03:41:07.511] |D| [display_wait]: vcount: 1
-[03:41:07.535] |D| [display_wait]: vcount: 2
-[03:41:07.562] |D| [display_wait]: vcount: 1
-[03:41:07.589] |D| [display_wait]: vcount: 2
-[03:41:07.613] |D| [display_wait]: vcount: 1
-[03:41:07.641] |D| [display_wait]: vcount: 2
-[03:41:07.664] |D| [display_wait]: vcount: 1
-[03:41:07.693] |D| [display_wait]: vcount: 2
-[03:41:07.715] |D| [display_wait]: vcount: 1
-[03:41:07.747] |D| [display_wait]: vcount: 2
-[03:41:07.766] |D| [display_wait]: vcount: 1
-[03:41:07.800] |D| [display_wait]: vcount: 2
-[03:41:07.817] |D| [display_wait]: vcount: 1
-[03:41:07.853] |D| [display_wait]: vcount: 2
-[03:41:07.885] |D| [display_wait]: vcount: 1
-[03:41:07.905] |D| [display_wait]: vcount: 2
-[03:41:07.936] |D| [display_wait]: vcount: 1
-[03:41:07.956] |D| [display_wait]: vcount: 2
-[03:41:07.987] |D| [display_wait]: vcount: 1
-[03:41:08.010] |D| [display_wait]: vcount: 2
-[03:41:08.038] |D| [display_wait]: vcount: 1
-[03:41:08.061] |I| [export_sceIoOpen]: Opening file: app0:data/audio/psp2/58923886.wem
-[03:41:08.065] |D| [display_wait]: vcount: 2
-[03:41:08.089] |D| [display_wait]: vcount: 1
-[03:41:12.001] |D| [display_wait]: vcount: 2
-[03:41:12.026] |D| [display_wait]: vcount: 1
-[03:41:12.160] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.161] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.162] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.162] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.163] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.187] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.197] |D| [display_wait]: vcount: 2
-[03:41:12.211] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.230] |D| [display_wait]: vcount: 1
-[03:41:12.235] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.261] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.284] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.303] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.323] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.343] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.363] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.383] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.404] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.426] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.446] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.466] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.485] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.505] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.526] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.547] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.568] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.589] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.609] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.631] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.655] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.675] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.695] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.715] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.737] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.758] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.780] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.800] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.820] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.840] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.861] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.881] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.902] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.922] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.946] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.965] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:12.986] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.008] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.028] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.048] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.071] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.092] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.113] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.133] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.152] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.173] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.193] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.214] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.236] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.265] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.286] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.306] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.326] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.351] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.372] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.395] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.416] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.436] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.456] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.477] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.497] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.497] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.517] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.537] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.557] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.576] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.596] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.607] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.627] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.653] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.673] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.692] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.713] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.737] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.758] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.769] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.790] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.811] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.831] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.877] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.907] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.932] |I| [renderer::gl::load_shader_generic]: Generating frag shader 7fba2ba0898bcecfee9c93d4fcd8810670794273089b202082fc17bf391a7b28
-[03:41:13.934] |D| [shader::create_parameters]: [BUFFER0  + 16] sa16 = (float4) viewport
-[03:41:13.934] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_Position
-[03:41:13.935] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color0
-[03:41:13.935] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_Color1
-[03:41:13.972] |E| [renderer::gl::compile_program]: Fragment info
+[03:53:27.929] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:27.929] |I| [renderer::gl::load_shader_generic]: Generating frag shader 6f9d72e1b279aea0a7052a7cead4c6a6f4c126618e5e8144cb009b8e895c8395
+[03:53:27.931] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) weights
+[03:53:27.940] |I| [renderer::gl::load_shader_generic]: Generating vert shader b81ee89e26b80bfde28b4f49c297d7cb7c4e90bafaa9c92ba8873d25c6be6c5b
+[03:53:27.941] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) pos
+[03:53:27.941] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) uv
+[03:53:27.942] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) offset
+[03:53:27.974] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:27.985] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:27.985] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:27.985] |I| [renderer::gl::load_shader_generic]: Generating frag shader 5f984d329a5c1520a611e44f0b65729497867c1a994426b2c051854afaccef64
+[03:53:27.987] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) opacity
+[03:53:27.994] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9c426e94b28ccd5563e7a16a17174c5593b54c48e82ba2f0069fdfcd259020dc
+[03:53:27.998] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
+[03:53:27.998] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) tex0
+[03:53:27.999] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) tex1
+[03:53:28.023] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.044] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.064] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.064] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.065] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.065] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.066] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.066] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.067] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.068] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.068] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.068] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.069] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.070] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.070] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.071] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.071] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.072] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.073] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.076] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.076] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.077] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.078] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.079] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.080] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.080] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.080] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.081] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:28.081] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.082] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.083] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.083] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.083] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.084] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.084] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.085] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.085] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.086] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.086] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.087] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.087] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.088] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.088] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.088] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.089] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.093] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.100] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.100] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.101] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.101] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.102] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.102] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.102] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.103] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.103] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.104] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.104] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.105] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.107] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.108] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.108] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.109] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.109] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.110] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.110] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.111] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.111] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.112] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 20480
+[03:53:28.114] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.133] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:28.134] |D| [renderer::gl::texture::translate_swizzle]: base format: 234881024, swizzle: 0
+[03:53:28.135] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.135] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.136] |I| [renderer::gl::load_shader_generic]: Generating frag shader 19c5949822bda4d22ce0a8e0fc880edbb4c9f2007445b08374636891832e0f8a
+[03:53:28.138] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) brightness
+[03:53:28.138] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) contrast
+[03:53:28.139] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) gamma
+[03:53:28.139] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) randomInfo
+[03:53:28.157] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3b80775915129caf0be0648a9a2b4f3d87e9fd6a8dac3d2573547cdac33d9f13
+[03:53:28.167] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) screen_pos
+[03:53:28.167] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) textureUV
+[03:53:28.167] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) bloomUV
+[03:53:28.168] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) randomInfoVtx
+[03:53:28.210] |D| [display_wait]: vcount: 1
+[03:53:28.211] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.212] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.220] |I| [export_sceIoOpen]: Opening file: savedata0:/SAVEGAME.TXT
+[03:53:28.222] |I| [export_sceIoOpen]: Opening file: savedata0:/SAVEGAME.TXT
+[03:53:28.232] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.254] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.274] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.294] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.316] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.336] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.356] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.376] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.397] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.417] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.438] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.459] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.480] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.500] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.520] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.540] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.560] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.580] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.600] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.620] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.640] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.660] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.680] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.700] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.720] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.740] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.760] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.781] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.800] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.822] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.842] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.862] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.883] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.903] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.923] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.943] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.962] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:28.982] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.002] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.022] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.042] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.062] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.084] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.104] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.124] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.144] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.164] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.184] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.204] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.225] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.245] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.265] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.297] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.318] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.337] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.358] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.378] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.398] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.418] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.438] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.459] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.479] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.499] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.519] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.539] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.560] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.580] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.601] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.621] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.632] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.651] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.672] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.691] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.712] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.731] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.751] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.762] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.815] |D| [display_wait]: vcount: 1
+[03:53:29.846] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:29.923] |D| [display_wait]: vcount: 1
+[03:53:30.010] |D| [display_wait]: vcount: 1
+[03:53:30.011] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.033] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.053] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.073] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.095] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.116] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.137] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.157] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.178] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.198] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.219] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.240] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.261] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.282] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.302] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.321] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.342] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.363] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.384] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.406] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.426] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.447] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.468] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.489] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.510] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.532] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.554] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.574] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.594] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.617] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.638] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.658] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.678] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.710] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.731] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.751] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.772] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.792] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.812] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.832] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.852] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.874] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.896] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.907] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.927] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.947] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.967] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.987] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:30.997] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:31.049] |D| [display_wait]: vcount: 1
+[03:53:31.122] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:31.141] |D| [display_wait]: vcount: 1
+[03:53:31.226] |D| [display_wait]: vcount: 1
+[03:53:31.316] |D| [display_wait]: vcount: 1
+[03:53:31.404] |D| [display_wait]: vcount: 1
+[03:53:31.489] |D| [display_wait]: vcount: 1
+[03:53:31.561] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 28672
+[03:53:31.579] |D| [display_wait]: vcount: 1
+[03:53:31.671] |D| [display_wait]: vcount: 1
+[03:53:31.761] |D| [display_wait]: vcount: 1
+[03:53:31.843] |D| [display_wait]: vcount: 1
+[03:53:31.904] |D| [display_wait]: vcount: 1
+[03:53:31.964] |D| [display_wait]: vcount: 1
+[03:53:32.021] |D| [display_wait]: vcount: 1
+[03:53:32.085] |D| [display_wait]: vcount: 1
+[03:53:32.143] |D| [display_wait]: vcount: 1
+[03:53:32.202] |D| [display_wait]: vcount: 1
+[03:53:32.253] |D| [display_wait]: vcount: 1
+[03:53:32.304] |D| [display_wait]: vcount: 1
+[03:53:32.354] |D| [display_wait]: vcount: 1
+[03:53:32.404] |D| [display_wait]: vcount: 1
+[03:53:32.455] |D| [display_wait]: vcount: 1
+[03:53:32.507] |D| [display_wait]: vcount: 1
+[03:53:32.558] |D| [display_wait]: vcount: 1
+[03:53:32.608] |D| [display_wait]: vcount: 1
+[03:53:32.660] |D| [display_wait]: vcount: 1
+[03:53:36.184] |D| [display_wait]: vcount: 1
+[03:53:36.342] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.343] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.344] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.345] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.347] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.357] |D| [display_wait]: vcount: 1
+[03:53:36.366] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.386] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.406] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.427] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.447] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.466] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.485] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.504] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.523] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.543] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.562] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.582] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.601] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.620] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.639] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.659] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.678] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.698] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.718] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.738] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.757] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.777] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.796] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.815] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.835] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.854] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.875] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.895] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.914] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.934] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.954] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.974] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:36.993] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.013] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.033] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.052] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.074] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.098] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.117] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.139] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.159] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.178] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.199] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.221] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.242] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.261] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.280] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.300] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.320] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.341] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.361] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.381] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.401] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.421] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.444] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.482] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.502] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.524] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.545] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.565] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.585] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.606] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.625] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.627] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.647] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.666] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.686] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.705] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.725] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.735] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.755] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.780] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.800] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.819] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.839] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.862] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.883] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.893] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.913] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.935] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.954] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:37.998] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.028] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.056] |I| [renderer::gl::load_shader_generic]: Generating frag shader 7fba2ba0898bcecfee9c93d4fcd8810670794273089b202082fc17bf391a7b28
+[03:53:38.059] |D| [shader::create_parameters]: [BUFFER0  + 16] sa16 = (float4) viewport
+[03:53:38.059] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_Position
+[03:53:38.060] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color0
+[03:53:38.060] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_Color1
+[03:53:38.093] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(25) : warning C7050: "pa[0].zw" might be used before being initialized
 0(25) : warning C7050: "pa[1].zw" might be used before being initialized
 0(28) : warning C7050: "r[0].zw" might be used before being initialized
 
 
-[03:41:13.974] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:13.996] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.007] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.034] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.046] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.068] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.092] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.114] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.135] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.157] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.176] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.196] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.217] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.237] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.259] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.279] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.300] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.319] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.339] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.358] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.378] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.398] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.418] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.438] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.458] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.478] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.507] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.527] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.546] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.566] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
-[03:41:14.597] |D| [display_wait]: vcount: 2
-[03:41:14.627] |D| [display_wait]: vcount: 1
-[03:41:14.756] |D| [display_wait]: vcount: 2
-[03:41:14.780] |D| [display_wait]: vcount: 1
-[03:41:14.912] |D| [display_wait]: vcount: 2
-[03:41:14.933] |D| [display_wait]: vcount: 1
-[03:41:15.069] |D| [display_wait]: vcount: 2
-[03:41:15.103] |D| [display_wait]: vcount: 1
-[03:41:15.226] |D| [display_wait]: vcount: 2
-[03:41:15.256] |D| [display_wait]: vcount: 1
-[03:41:15.384] |D| [display_wait]: vcount: 2
-[03:41:15.409] |D| [display_wait]: vcount: 1
-[03:41:15.543] |D| [display_wait]: vcount: 2
-[03:41:15.562] |D| [display_wait]: vcount: 1
-[03:41:15.701] |D| [display_wait]: vcount: 2
-[03:41:15.732] |D| [display_wait]: vcount: 1
-[03:41:15.868] |D| [display_wait]: vcount: 2
-[03:41:15.902] |D| [display_wait]: vcount: 1
-[03:41:16.030] |D| [display_wait]: vcount: 2
-[03:41:16.055] |D| [display_wait]: vcount: 1
-[03:41:16.183] |I| [renderer::gl::load_shader_generic]: Generating frag shader c2e00901e36e8ba42a235cfe768cce95a623d5efe0ee9d4cf90aa72784c4603d
-[03:41:16.185] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) brightness
-[03:41:16.186] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) contrast
-[03:41:16.186] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) gamma
-[03:41:16.186] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) randomInfo
-[03:41:16.244] |D| [display_wait]: vcount: 2
-[03:41:16.276] |D| [display_wait]: vcount: 1
-[03:41:16.396] |D| [display_wait]: vcount: 2
-[03:41:16.429] |D| [display_wait]: vcount: 1
-[03:41:16.562] |D| [display_wait]: vcount: 2
-[03:41:16.582] |D| [display_wait]: vcount: 1
-[03:41:16.715] |D| [display_wait]: vcount: 2
-[03:41:16.735] |D| [display_wait]: vcount: 1
-[03:41:16.867] |D| [display_wait]: vcount: 2
-[03:41:16.888] |D| [display_wait]: vcount: 1
-[03:41:17.023] |D| [display_wait]: vcount: 2
-[03:41:17.041] |D| [display_wait]: vcount: 1
-[03:41:17.182] |D| [display_wait]: vcount: 2
-[03:41:17.211] |D| [display_wait]: vcount: 1
-[03:41:17.338] |D| [display_wait]: vcount: 2
-[03:41:17.364] |D| [display_wait]: vcount: 1
-[03:41:17.497] |D| [display_wait]: vcount: 2
-[03:41:17.517] |D| [display_wait]: vcount: 1
-[03:41:17.655] |D| [display_wait]: vcount: 2
-[03:41:17.687] |D| [display_wait]: vcount: 1
-[03:41:17.816] |D| [display_wait]: vcount: 2
-[03:41:17.840] |D| [display_wait]: vcount: 1
-[03:41:17.978] |D| [display_wait]: vcount: 2
-[03:41:18.010] |D| [display_wait]: vcount: 1
-[03:41:18.137] |D| [display_wait]: vcount: 2
-[03:41:18.163] |D| [display_wait]: vcount: 1
-[03:41:18.301] |D| [display_wait]: vcount: 2
-[03:41:18.333] |D| [display_wait]: vcount: 1
-[03:41:18.478] |D| [display_wait]: vcount: 2
-[03:41:18.503] |D| [display_wait]: vcount: 1
-[03:41:18.644] |D| [display_wait]: vcount: 2
-[03:41:18.673] |D| [display_wait]: vcount: 1
-[03:41:18.803] |D| [display_wait]: vcount: 2
-[03:41:18.826] |D| [display_wait]: vcount: 1
-[03:41:18.958] |D| [display_wait]: vcount: 2
-[03:41:18.979] |D| [display_wait]: vcount: 1
+[03:53:38.096] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.118] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.129] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.155] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.166] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.187] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.210] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.233] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.254] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.276] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.296] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.315] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.336] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.356] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.377] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.397] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.418] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.440] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.461] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.481] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.500] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.520] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.539] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.559] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.580] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.599] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.618] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.638] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.657] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.676] |D| [renderer::gl::texture::translate_swizzle]: base format: 117440512, swizzle: 8192
+[03:53:38.715] |D| [display_wait]: vcount: 1
+[03:53:38.872] |D| [display_wait]: vcount: 1
+[03:53:39.039] |D| [display_wait]: vcount: 1
+[03:53:39.208] |D| [display_wait]: vcount: 1
+[03:53:39.374] |D| [display_wait]: vcount: 1
+[03:53:39.536] |D| [display_wait]: vcount: 1
+[03:53:39.700] |D| [display_wait]: vcount: 1
+[03:53:39.864] |D| [display_wait]: vcount: 1
+[03:53:40.029] |D| [display_wait]: vcount: 1
+[03:53:40.189] |D| [display_wait]: vcount: 1
+[03:53:40.356] |D| [display_wait]: vcount: 1
