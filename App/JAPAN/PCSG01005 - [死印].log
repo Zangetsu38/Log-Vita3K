@@ -1,578 +1,246 @@
-[13:36:39.283] |I| [load_app_impl]: cpu-backend: Dynarmic
-[13:36:39.283] |I| [load_app_impl]: CPU Optimisation state: true
-[13:36:39.283] |I| [load_app_impl]: at9 audio decoder state: true
-[13:36:39.284] |I| [load_app_impl]: ngs experimental state: true
-[13:36:39.284] |I| [load_app_impl]: video player state: true
-[13:36:39.284] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[13:36:39.284] |I| [load_app_impl]: Title: 死印
-[13:36:39.284] |I| [load_app_impl]: Serial: PCSG01005
-[13:36:39.284] |I| [load_app_impl]: Version: 1.00
-[13:36:39.284] |I| [load_app_impl]: Category: gd
-[13:36:39.356] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[13:36:39.356] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSG01005\sce_module\libc.suprx
-[13:36:39.356] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSG01005\sce_module\libc.suprx
-[13:36:39.357] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libc.suprx
-[13:36:39.357] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[13:36:39.357] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[13:36:39.358] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[13:36:39.358] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[13:36:39.359] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG01005\sce_module\libc.suprx") loaded
-[13:36:39.382] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[13:36:39.382] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSG01005\sce_module\libface.suprx
-[13:36:39.382] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSG01005\sce_module\libface.suprx
-[13:36:39.382] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libface.suprx
-[13:36:39.382] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
-[13:36:39.382] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
-[13:36:39.382] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG01005\sce_module\libface.suprx") loaded
-[13:36:39.412] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[13:36:39.412] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
-[13:36:39.412] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
-[13:36:39.412] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libfios2.suprx
-[13:36:39.413] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
-[13:36:39.413] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
-[13:36:39.413] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG01005\sce_module\libfios2.suprx") loaded
-[13:36:39.466] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[13:36:39.467] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
-[13:36:39.467] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
-[13:36:39.467] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libsmart.suprx
-[13:36:39.467] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
-[13:36:39.468] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
-[13:36:39.468] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG01005\sce_module\libsmart.suprx") loaded
-[13:36:39.476] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[13:36:39.476] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSG01005\sce_module\libult.suprx
-[13:36:39.476] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSG01005\sce_module\libult.suprx
-[13:36:39.477] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libult.suprx
-[13:36:39.477] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
-[13:36:39.477] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
-[13:36:39.477] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG01005\sce_module\libult.suprx") loaded
-[13:36:39.485] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[13:36:39.486] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[13:36:39.486] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[13:36:39.486] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
-[13:36:39.486] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
-[13:36:39.486] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[13:36:39.489] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[13:36:39.489] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[13:36:39.489] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[13:36:39.489] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
-[13:36:39.489] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
-[13:36:39.490] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[13:36:39.565] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[13:36:39.565] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x0048D550 / 0x81000000] (size: 0x00158550) of module app0:eboot.bin
-[13:36:39.565] |I| [load_self]: Loaded module segment 1 @ [0x0048E000 - 0x00723824 / 0x81159000] (size: 0x00295824) of module app0:eboot.bin
-[13:36:39.566] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[13:36:39.566] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x447C7C
-[13:36:39.566] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x498E54
-[13:36:39.566] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x46C3DC
-[13:36:39.566] |I| [load_app_impl]: Main executable HRV (eboot.bin) loaded
-[13:36:39.575] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[13:36:39.630] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG01005\sce_module\libc.suprx") module_start returned 0x0
-[13:36:39.634] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
-[13:36:39.643] |I| [run_app]: Module SceFace (at "ux0:app\PCSG01005\sce_module\libface.suprx") module_start returned 0x0
-[13:36:39.647] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
-[13:36:39.655] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[13:36:39.655] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[13:36:39.656] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[13:36:39.656] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG01005\sce_module\libfios2.suprx") module_start returned 0x0
-[13:36:39.660] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
-[13:36:39.670] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG01005\sce_module\libsmart.suprx") module_start returned 0x0
-[13:36:39.674] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
-[13:36:39.681] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[13:36:39.681] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG01005\sce_module\libult.suprx") module_start returned 0x0
-[13:36:39.739] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[13:36:39.741] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[13:36:39.744] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG01005, thread ID: 10)
-[13:36:39.768] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[13:36:39.769] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[13:36:39.819] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[13:36:39.820] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
-[13:36:39.820] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[13:36:39.821] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[13:36:39.876] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[13:36:39.880] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[13:36:39.990] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[13:36:40.029] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[13:36:40.048] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[13:36:40.100] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_v.vpo
-[13:36:40.115] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_f.fpo
-[13:36:40.158] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_model.vpo
-[13:36:40.167] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_sprite.vpo
-[13:36:40.170] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_other.vpo
-[13:36:40.171] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_wipe.vpo
-[13:36:40.173] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvs_tileshader.vpo
-[13:36:40.176] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_blursprite.vpo
-[13:36:40.178] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_modelinstance.vpo
-[13:36:40.182] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_spot.vpo
-[13:36:40.184] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
-[13:36:40.184] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.184] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianv.vpo
-[13:36:40.185] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
-[13:36:40.185] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:40.185] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
-[13:36:40.186] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.186] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
-[13:36:40.186] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.187] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianh.vpo
-[13:36:40.187] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
-[13:36:40.187] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:40.187] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
-[13:36:40.187] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.188] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default.fpo
-[13:36:40.191] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default_noblend.fpo
-[13:36:40.192] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash.fpo
-[13:36:40.194] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash_noblend.fpo
-[13:36:40.197] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono.fpo
-[13:36:40.201] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono_noblend.fpo
-[13:36:40.202] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli.fpo
-[13:36:40.204] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli_noblend.fpo
-[13:36:40.206] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model.fpo
-[13:36:40.208] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model_noblend.fpo
-[13:36:40.210] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_blursprite.fpo
-[13:36:40.212] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlight.fpo
-[13:36:40.215] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlightflash.fpo
-[13:36:40.217] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_gausianfilter.fpo
-[13:36:40.221] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[13:36:40.278] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
-[13:36:40.318] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
-[13:36:40.349] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
-[13:36:40.359] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
-[13:36:40.365] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_object09.exg (target path: app0:/graphic_comtex_object09.exg)
-[13:36:40.365] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.394] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_comtex.exg (target path: app0:/graphic_comtex_comtex.exg)
-[13:36:40.395] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.718] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[13:36:40.720] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
-[13:36:40.722] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[13:36:40.722] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[13:36:40.722] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[13:36:40.723] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
-[13:36:40.733] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_bgm.gpd (target path: app0:/table_bgm.gpd)
-[13:36:40.733] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.776] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_se.gpd (target path: app0:/table_se.gpd)
-[13:36:40.777] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.778] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_voice.gpd (target path: app0:/table_voice.gpd)
-[13:36:40.778] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:40.862] |W| [unimplemented_impl]: Unimplemented sceAtracCreateDecoderGroup import called.
-[13:36:40.869] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
-[13:36:40.869] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
-[13:36:40.879] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[13:36:40.879] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[13:36:40.880] |D| [export_sceNgsVoiceInit]: flags: 7
-[13:36:40.880] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[13:36:40.882] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[13:36:40.882] |D| [export_sceNgsVoiceInit]: flags: 7
-[13:36:40.884] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:36:40.889] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[13:36:40.896] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:36:40.896] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:36:40.920] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_bgm.bnk
-[13:36:40.950] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_se.bnk
-[13:36:41.011] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_voice.bnk
-[13:36:41.041] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
-[13:36:41.045] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
-[13:36:41.048] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
-[13:36:41.048] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.049] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
-[13:36:41.049] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.050] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
-[13:36:41.050] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.119] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
-[13:36:41.120] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.122] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata01.exp (target path: app0:/fontdata_fontdata01.exp)
-[13:36:41.122] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.302] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata02.exp (target path: app0:/fontdata_fontdata02.exp)
-[13:36:41.303] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.323] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_layout.lod (target path: app0:/table_layout.lod)
-[13:36:41.324] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.325] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_texparts.lod (target path: app0:/table_texparts.lod)
-[13:36:41.325] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.484] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[13:36:41.521] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[13:36:41.522] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
-[13:36:41.522] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
-[13:36:41.531] |W| [unimplemented_impl]: Unimplemented sceKernelGetSemaInfo import called.
-[13:36:41.532] |W| [unimplemented_impl]: Unimplemented sceKernelGetEventFlagInfo import called.
-[13:36:41.550] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
-[13:36:41.550] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestEnable import called.
-[13:36:41.552] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[13:36:41.574] |I| [renderer::gl::load_shader_generic]: Generating frag shader bb8cabb0006f3af752d21c3f61e564512d20b19f5a851e47ef509498c0a6b786
-[13:36:41.576] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
-[13:36:41.579] |I| [renderer::gl::load_shader_generic]: Generating vert shader d74f365afc606e520fe52b8b5165b92a10ae4a59c5978ed6a8b9e049b2346418
-[13:36:41.579] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[13:36:41.582] |E| [renderer::gl::compile_program]: Fragment info
+[03:35:54.974] |I| [load_app_impl]: cpu-backend: Dynarmic
+[03:35:54.974] |I| [load_app_impl]: CPU Optimisation state: true
+[03:35:54.974] |I| [load_app_impl]: at9 audio decoder state: true
+[03:35:54.974] |I| [load_app_impl]: ngs experimental state: true
+[03:35:54.975] |I| [load_app_impl]: video player state: true
+[03:35:54.975] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,librudp,liblocation,libhandwriting,libSceJson
+[03:35:54.975] |I| [load_app_impl]: Title: 死印
+[03:35:54.975] |I| [load_app_impl]: Serial: PCSG01005
+[03:35:54.975] |I| [load_app_impl]: Version: 1.00
+[03:35:54.975] |I| [load_app_impl]: Category: gd
+[03:35:55.091] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:35:55.091] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSG01005\sce_module\libc.suprx
+[03:35:55.091] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSG01005\sce_module\libc.suprx
+[03:35:55.092] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libc.suprx
+[03:35:55.093] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[03:35:55.093] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[03:35:55.093] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[03:35:55.095] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[03:35:55.096] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG01005\sce_module\libc.suprx") loaded
+[03:35:55.132] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:35:55.132] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSG01005\sce_module\libface.suprx
+[03:35:55.133] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSG01005\sce_module\libface.suprx
+[03:35:55.134] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libface.suprx
+[03:35:55.134] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
+[03:35:55.135] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
+[03:35:55.135] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG01005\sce_module\libface.suprx") loaded
+[03:35:55.163] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:35:55.164] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
+[03:35:55.165] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
+[03:35:55.165] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libfios2.suprx
+[03:35:55.166] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
+[03:35:55.166] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
+[03:35:55.167] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG01005\sce_module\libfios2.suprx") loaded
+[03:35:55.235] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:35:55.235] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
+[03:35:55.236] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
+[03:35:55.237] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libsmart.suprx
+[03:35:55.237] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
+[03:35:55.238] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
+[03:35:55.238] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG01005\sce_module\libsmart.suprx") loaded
+[03:35:55.260] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:35:55.260] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSG01005\sce_module\libult.suprx
+[03:35:55.261] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSG01005\sce_module\libult.suprx
+[03:35:55.262] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libult.suprx
+[03:35:55.262] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
+[03:35:55.263] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
+[03:35:55.263] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG01005\sce_module\libult.suprx") loaded
+[03:35:55.270] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[03:35:55.271] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[03:35:55.272] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[03:35:55.272] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
+[03:35:55.273] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
+[03:35:55.273] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[03:35:55.276] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[03:35:55.277] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[03:35:55.277] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[03:35:55.278] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
+[03:35:55.278] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
+[03:35:55.279] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[03:35:55.391] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:35:55.391] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x0048D550 / 0x81000000] (size: 0x00158550) of module app0:eboot.bin
+[03:35:55.393] |I| [load_self]: Loaded module segment 1 @ [0x0048E000 - 0x00723824 / 0x81159000] (size: 0x00295824) of module app0:eboot.bin
+[03:35:55.393] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[03:35:55.394] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x447C7C
+[03:35:55.394] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x498E54
+[03:35:55.395] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x46C3DC
+[03:35:55.395] |I| [load_app_impl]: Main executable HRV (eboot.bin) loaded
+[03:35:55.436] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[03:35:55.555] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG01005\sce_module\libc.suprx") module_start returned 0x0
+[03:35:55.576] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
+[03:35:55.624] |I| [run_app]: Module SceFace (at "ux0:app\PCSG01005\sce_module\libface.suprx") module_start returned 0x0
+[03:35:55.643] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
+[03:35:55.686] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[03:35:55.687] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[03:35:55.687] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[03:35:55.689] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG01005\sce_module\libfios2.suprx") module_start returned 0x0
+[03:35:55.706] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
+[03:35:55.759] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG01005\sce_module\libsmart.suprx") module_start returned 0x0
+[03:35:55.779] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
+[03:35:55.819] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[03:35:55.820] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG01005\sce_module\libult.suprx") module_start returned 0x0
+[03:35:56.067] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[03:35:56.072] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[03:35:56.080] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG01005, thread ID: 10)
+[03:35:56.149] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[03:35:56.151] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[03:35:56.341] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[03:35:56.342] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[03:35:56.343] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[03:35:56.344] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[03:35:56.498] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[03:35:56.502] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[03:35:56.535] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[03:35:56.565] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[03:35:56.627] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[03:35:56.720] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_v.vpo
+[03:35:56.795] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_f.fpo
+[03:35:56.872] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_model.vpo
+[03:35:56.894] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_sprite.vpo
+[03:35:56.900] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_other.vpo
+[03:35:56.904] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_wipe.vpo
+[03:35:56.909] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvs_tileshader.vpo
+[03:35:56.915] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_blursprite.vpo
+[03:35:56.919] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_modelinstance.vpo
+[03:35:56.984] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_spot.vpo
+[03:35:56.989] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
+[03:35:56.989] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:56.990] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianv.vpo
+[03:35:56.991] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
+[03:35:56.992] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:35:56.995] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
+[03:35:56.996] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:56.998] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
+[03:35:56.999] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:57.000] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianh.vpo
+[03:35:57.000] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
+[03:35:57.003] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:35:57.004] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
+[03:35:57.004] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:57.007] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default.fpo
+[03:35:57.014] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default_noblend.fpo
+[03:35:57.019] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash.fpo
+[03:35:57.024] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash_noblend.fpo
+[03:35:57.029] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono.fpo
+[03:35:57.034] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono_noblend.fpo
+[03:35:57.038] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli.fpo
+[03:35:57.043] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli_noblend.fpo
+[03:35:57.048] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model.fpo
+[03:35:57.054] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model_noblend.fpo
+[03:35:57.059] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_blursprite.fpo
+[03:35:57.064] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlight.fpo
+[03:35:57.068] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlightflash.fpo
+[03:35:57.073] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_gausianfilter.fpo
+[03:35:57.083] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[03:35:57.151] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
+[03:35:57.224] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
+[03:35:57.298] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
+[03:35:57.345] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
+[03:35:57.355] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_object09.exg (target path: app0:/graphic_comtex_object09.exg)
+[03:35:57.355] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:57.447] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_comtex.exg (target path: app0:/graphic_comtex_comtex.exg)
+[03:35:57.448] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:57.787] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[03:35:57.790] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
+[03:35:57.799] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[03:35:57.799] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[03:35:57.800] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[03:35:57.801] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[03:35:57.855] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_bgm.gpd (target path: app0:/table_bgm.gpd)
+[03:35:57.856] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:57.861] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_se.gpd (target path: app0:/table_se.gpd)
+[03:35:57.861] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:57.863] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_voice.gpd (target path: app0:/table_voice.gpd)
+[03:35:57.863] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:57.960] |W| [unimplemented_impl]: Unimplemented sceAtracCreateDecoderGroup import called.
+[03:35:57.985] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
+[03:35:57.985] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
+[03:35:58.036] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[03:35:58.037] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[03:35:58.039] |D| [export_sceNgsVoiceInit]: flags: 7
+[03:35:58.039] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[03:35:58.048] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[03:35:58.050] |D| [export_sceNgsVoiceInit]: flags: 7
+[03:35:58.055] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:35:58.071] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[03:35:58.096] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:35:58.096] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:35:58.184] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[03:35:58.245] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_bgm.bnk
+[03:35:58.275] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_se.bnk
+[03:35:58.331] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_voice.bnk
+[03:35:58.417] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
+[03:35:58.418] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.421] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
+[03:35:58.422] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.425] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
+[03:35:58.426] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.428] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
+[03:35:58.429] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.435] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata01.exp (target path: app0:/fontdata_fontdata01.exp)
+[03:35:58.435] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.721] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata02.exp (target path: app0:/fontdata_fontdata02.exp)
+[03:35:58.722] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.811] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_layout.lod (target path: app0:/table_layout.lod)
+[03:35:58.813] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.815] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_texparts.lod (target path: app0:/table_texparts.lod)
+[03:35:58.816] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:58.912] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[03:35:59.035] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[03:35:59.036] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
+[03:35:59.037] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
+[03:35:59.110] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
+[03:35:59.111] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestEnable import called.
+[03:35:59.122] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[03:35:59.141] |I| [renderer::gl::load_shader_generic]: Generating frag shader bb8cabb0006f3af752d21c3f61e564512d20b19f5a851e47ef509498c0a6b786
+[03:35:59.147] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
+[03:35:59.171] |I| [renderer::gl::load_shader_generic]: Generating vert shader d74f365afc606e520fe52b8b5165b92a10ae4a59c5978ed6a8b9e049b2346418
+[03:35:59.175] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[03:35:59.196] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[13:36:41.584] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[13:36:41.624] |I| [renderer::gl::load_shader_generic]: Generating frag shader c82285efae0fdc6a394a6f2a7eede34e1019a7d377f669eaf7a71d1f8623a6d4
-[13:36:41.625] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[13:36:41.628] |I| [renderer::gl::load_shader_generic]: Generating vert shader 59ea1ad9b42d876ab3f57296af83a7f6fd6fa3d970e183394ea16bb4b87223f4
-[13:36:41.629] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
-[13:36:41.629] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_DifColor
-[13:36:41.824] |I| [renderer::gl::load_shader_generic]: Generating frag shader f917c2d46e1b81ab2febd8937627488b0da467bbd9326b32c5521ef160b85ee6
-[13:36:41.826] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[13:36:41.828] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(16) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[13:36:41.842] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_script.dat (target path: app0:/event_script.dat)
-[13:36:41.842] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.876] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_mazeevent.dat (target path: app0:/event_mazeevent.dat)
-[13:36:41.877] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.882] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.dat (target path: app0:/graphic_pc_portrait.dat)
-[13:36:41.882] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.882] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.hed (target path: app0:/graphic_pc_portrait.hed)
-[13:36:41.882] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.901] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.dat (target path: app0:/table_tablepack.dat)
-[13:36:41.901] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.905] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.hed (target path: app0:/table_tablepack.hed)
-[13:36:41.905] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.921] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.hed (target path: app0:/map_mapdatpack.hed)
-[13:36:41.921] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.925] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.dat (target path: app0:/map_mapdatpack.dat)
-[13:36:41.926] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.927] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_efc_effect.hed (target path: app0:/graphic_efc_effect.hed)
-[13:36:41.928] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.931] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_efc_effect.dat (target path: app0:/graphic_efc_effect.dat)
-[13:36:41.931] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:41.943] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
-[13:36:43.645] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_title.exg (target path: app0:/graphic_title.exg)
-[13:36:43.646] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:43.832] |I| [export_sceIoOpen]: Opening file: savedata0:data01.bin
-[13:36:43.832] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data01.bin (target path: savedata0:data01.bin)
-[13:36:43.832] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.833] |I| [export_sceIoOpen]: Opening file: savedata0:data02.bin
-[13:36:43.833] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data02.bin (target path: savedata0:data02.bin)
-[13:36:43.833] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.833] |I| [export_sceIoOpen]: Opening file: savedata0:data03.bin
-[13:36:43.833] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data03.bin (target path: savedata0:data03.bin)
-[13:36:43.833] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.834] |I| [export_sceIoOpen]: Opening file: savedata0:data04.bin
-[13:36:43.834] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data04.bin (target path: savedata0:data04.bin)
-[13:36:43.834] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.834] |I| [export_sceIoOpen]: Opening file: savedata0:data05.bin
-[13:36:43.834] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data05.bin (target path: savedata0:data05.bin)
-[13:36:43.834] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.834] |I| [export_sceIoOpen]: Opening file: savedata0:data06.bin
-[13:36:43.835] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data06.bin (target path: savedata0:data06.bin)
-[13:36:43.835] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.835] |I| [export_sceIoOpen]: Opening file: savedata0:data07.bin
-[13:36:43.835] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data07.bin (target path: savedata0:data07.bin)
-[13:36:43.835] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.835] |I| [export_sceIoOpen]: Opening file: savedata0:data08.bin
-[13:36:43.835] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data08.bin (target path: savedata0:data08.bin)
-[13:36:43.836] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.836] |I| [export_sceIoOpen]: Opening file: savedata0:data09.bin
-[13:36:43.836] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data09.bin (target path: savedata0:data09.bin)
-[13:36:43.836] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.836] |I| [export_sceIoOpen]: Opening file: savedata0:data10.bin
-[13:36:43.836] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data10.bin (target path: savedata0:data10.bin)
-[13:36:43.836] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.837] |I| [export_sceIoOpen]: Opening file: savedata0:data11.bin
-[13:36:43.837] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data11.bin (target path: savedata0:data11.bin)
-[13:36:43.837] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.837] |I| [export_sceIoOpen]: Opening file: savedata0:data12.bin
-[13:36:43.837] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data12.bin (target path: savedata0:data12.bin)
-[13:36:43.837] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.838] |I| [export_sceIoOpen]: Opening file: savedata0:data13.bin
-[13:36:43.838] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data13.bin (target path: savedata0:data13.bin)
-[13:36:43.838] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.838] |I| [export_sceIoOpen]: Opening file: savedata0:data14.bin
-[13:36:43.838] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data14.bin (target path: savedata0:data14.bin)
-[13:36:43.838] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.838] |I| [export_sceIoOpen]: Opening file: savedata0:data15.bin
-[13:36:43.838] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data15.bin (target path: savedata0:data15.bin)
-[13:36:43.839] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.839] |I| [export_sceIoOpen]: Opening file: savedata0:data16.bin
-[13:36:43.839] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data16.bin (target path: savedata0:data16.bin)
-[13:36:43.839] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.841] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
-[13:36:43.842] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
-[13:36:43.842] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
-[13:36:43.842] |I| [export_sceIoOpen]: Opening file: savedata0:system.bin
-[13:36:43.842] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/system.bin (target path: savedata0:system.bin)
-[13:36:43.842] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:43.908] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:36:43.914] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3d0258be7cdb2f39261f1aed2c1dc50a6859839f6eae2a952a74582536009d51
-[13:36:43.915] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[13:36:43.918] |I| [renderer::gl::load_shader_generic]: Generating vert shader f825584fa77282f43c89c1ea1260dc7c938932fe29fd728a9df31fbbbd9aa29f
-[13:36:43.919] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
-[13:36:43.919] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_DifColor
-[13:36:43.919] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_Tex
-[13:36:52.649] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:36:52.661] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetParamsBlock import called.
-[13:36:52.661] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:36:54.778] |I| [export_sceIoOpen]: Opening file: savedata0:data01.bin
-[13:36:54.778] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data01.bin (target path: savedata0:data01.bin)
-[13:36:54.778] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.778] |I| [export_sceIoOpen]: Opening file: savedata0:data02.bin
-[13:36:54.778] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data02.bin (target path: savedata0:data02.bin)
-[13:36:54.779] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.779] |I| [export_sceIoOpen]: Opening file: savedata0:data03.bin
-[13:36:54.779] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data03.bin (target path: savedata0:data03.bin)
-[13:36:54.779] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.779] |I| [export_sceIoOpen]: Opening file: savedata0:data04.bin
-[13:36:54.779] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data04.bin (target path: savedata0:data04.bin)
-[13:36:54.779] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.780] |I| [export_sceIoOpen]: Opening file: savedata0:data05.bin
-[13:36:54.780] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data05.bin (target path: savedata0:data05.bin)
-[13:36:54.780] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.780] |I| [export_sceIoOpen]: Opening file: savedata0:data06.bin
-[13:36:54.780] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data06.bin (target path: savedata0:data06.bin)
-[13:36:54.780] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.780] |I| [export_sceIoOpen]: Opening file: savedata0:data07.bin
-[13:36:54.781] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data07.bin (target path: savedata0:data07.bin)
-[13:36:54.781] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.781] |I| [export_sceIoOpen]: Opening file: savedata0:data08.bin
-[13:36:54.781] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data08.bin (target path: savedata0:data08.bin)
-[13:36:54.781] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.781] |I| [export_sceIoOpen]: Opening file: savedata0:data09.bin
-[13:36:54.781] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data09.bin (target path: savedata0:data09.bin)
-[13:36:54.781] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.782] |I| [export_sceIoOpen]: Opening file: savedata0:data10.bin
-[13:36:54.782] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data10.bin (target path: savedata0:data10.bin)
-[13:36:54.782] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.782] |I| [export_sceIoOpen]: Opening file: savedata0:data11.bin
-[13:36:54.782] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data11.bin (target path: savedata0:data11.bin)
-[13:36:54.782] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.782] |I| [export_sceIoOpen]: Opening file: savedata0:data12.bin
-[13:36:54.783] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data12.bin (target path: savedata0:data12.bin)
-[13:36:54.783] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.783] |I| [export_sceIoOpen]: Opening file: savedata0:data13.bin
-[13:36:54.783] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data13.bin (target path: savedata0:data13.bin)
-[13:36:54.783] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.783] |I| [export_sceIoOpen]: Opening file: savedata0:data14.bin
-[13:36:54.783] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data14.bin (target path: savedata0:data14.bin)
-[13:36:54.784] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.784] |I| [export_sceIoOpen]: Opening file: savedata0:data15.bin
-[13:36:54.784] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data15.bin (target path: savedata0:data15.bin)
-[13:36:54.784] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:54.784] |I| [export_sceIoOpen]: Opening file: savedata0:data16.bin
-[13:36:54.784] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data16.bin (target path: savedata0:data16.bin)
-[13:36:54.784] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[13:36:56.588] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:36:56.592] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:36:56.734] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_light00.exg (target path: app0:/graphic_comtex_light00.exg)
-[13:36:56.735] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:56.758] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:36:56.774] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:36:56.791] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:36:57.403] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_011.hed (target path: app0:/graphic_ev_ev_011.hed)
-[13:36:57.404] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:57.404] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_011.dat (target path: app0:/graphic_ev_ev_011.dat)
-[13:36:57.404] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:57.561] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_010.hed (target path: app0:/graphic_ev_ev_010.hed)
-[13:36:57.562] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:57.562] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_010.dat (target path: app0:/graphic_ev_ev_010.dat)
-[13:36:57.562] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:57.591] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_080.hed (target path: app0:/graphic_ev_ev_080.hed)
-[13:36:57.591] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:57.592] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_080.dat (target path: app0:/graphic_ev_ev_080.dat)
-[13:36:57.592] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[13:36:57.691] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
-[13:36:57.725] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:36:57.726] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:36:57.941] |I| [renderer::gl::load_shader_generic]: Generating frag shader 47591ac7a7004a458c09f59cf3860424dc4f63cee67f875652c07a08e09cb371
-[13:36:57.943] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[13:36:57.945] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(18) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[13:37:03.342] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:03.359] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.376] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.392] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:03.409] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.426] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:03.442] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.476] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.509] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.543] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.576] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.609] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.642] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.676] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.709] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.743] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.776] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.809] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.842] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.876] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.909] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.942] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.976] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:03.992] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.455] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:05.456] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:05.476] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.492] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.526] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.542] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.559] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:05.576] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.592] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:05.609] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.642] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.676] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.709] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.742] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.776] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.809] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.842] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.876] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.909] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.942] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:05.976] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:06.009] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:06.042] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:06.059] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:06.305] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:06.306] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:06.306] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:06.342] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:06.359] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:07.409] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:07.426] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:07.442] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:07.459] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:07.492] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:07.526] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:07.559] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:07.576] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.495] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:08.496] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:08.496] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:08.509] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.526] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.559] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.576] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.592] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.609] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.626] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:08.642] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.659] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:08.676] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.709] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.743] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.776] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.809] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.842] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.876] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.909] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.942] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:08.976] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.009] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.026] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.315] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:09.316] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:09.316] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:09.342] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.359] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.392] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.409] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.426] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:09.442] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.459] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:09.476] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.509] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.542] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.576] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.609] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.642] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.676] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.709] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.742] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.776] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.809] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.842] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.876] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.909] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.943] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.976] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:09.992] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:10.825] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:10.826] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:10.826] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:10.842] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:10.859] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:10.892] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:10.909] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:10.926] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:10.942] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:10.959] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:10.976] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.009] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.043] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.076] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.109] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.142] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.176] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.209] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.226] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.385] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:11.386] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:11.386] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:11.426] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:11.443] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.493] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:12.509] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.526] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:12.542] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.576] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.609] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.643] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.676] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.709] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.742] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.776] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.809] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.843] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:12.859] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:13.135] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:13.136] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:13.136] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:13.160] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:13.176] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.226] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:14.243] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.259] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[13:37:14.276] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.309] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.343] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.376] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.409] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.443] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.476] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.509] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.543] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.576] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.609] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.643] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.659] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.817] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:14.817] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:14.817] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:14.843] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.909] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.943] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:14.976] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.009] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.043] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.076] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.109] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.143] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.176] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.209] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.243] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.276] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.309] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.326] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.636] |D| [export_sceNgsVoiceInit]: flags: 0
-[13:37:15.636] |D| [export_sceNgsVoiceKeyOff]: sceNgsVoiceKeyOff
-[13:37:15.636] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[13:37:15.659] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.676] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[13:37:15.709] |D| [renderer::gl::texture::translate_swizz
+[03:35:59.200] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[03:35:59.201] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.263] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_script.dat (target path: app0:/event_script.dat)
+[03:35:59.264] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.317] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.326] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.343] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.362] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.376] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.395] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.412] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.412] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.413] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.414] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.426] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.426] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_mazeevent.dat (target path: app0:/event_mazeevent.dat)
+[03:35:59.428] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.442] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.445] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.dat (target path: app0:/graphic_pc_portrait.dat)
+[03:35:59.446] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.447] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.hed (target path: app0:/graphic_pc_portrait.hed)
+[03:35:59.447] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.459] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.474] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.dat (target path: app0:/table_tablepack.dat)
+[03:35:59.475] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.476] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.486] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.hed (target path: app0:/table_tablepack.hed)
+[03:35:59.486] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.492] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.509] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.510] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.510] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.511] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.526] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.539] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.hed (target path: app0:/map_mapdatpack.hed)
+[03:35:59.539] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.542] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.551] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.dat (target path: app0:/map_mapdatpack.dat)
+[03:35:59.552] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.555] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_efc_effect.hed (target path: app0:/graphic_efc_effect.hed)
+[03:35:59.556] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[03:35:59.559] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[03:35:59.564] |E| [stat_file]: Miss
