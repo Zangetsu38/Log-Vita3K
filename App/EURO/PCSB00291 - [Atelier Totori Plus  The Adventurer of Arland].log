@@ -1,799 +1,1166 @@
-[01:23:45.293] |I| [load_app_impl]: cpu-backend: Dynarmic
-[01:23:45.294] |I| [load_app_impl]: CPU Optimisation state: true
-[01:23:45.294] |I| [load_app_impl]: at9 audio decoder state: true
-[01:23:45.294] |I| [load_app_impl]: ngs experimental state: true
-[01:23:45.294] |I| [load_app_impl]: video player state: true
-[01:23:45.294] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp,libscemp4
-[01:23:45.294] |I| [load_app_impl]: Title: Atelier Totori Plus: The Adventurer of Arland
-[01:23:45.295] |I| [load_app_impl]: Serial: PCSB00291
-[01:23:45.295] |I| [load_app_impl]: Version: 1.00
-[01:23:45.295] |I| [load_app_impl]: Category: gd
-[01:23:45.335] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[01:23:45.335] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00042C2C / 0x81000000] (size: 0x0003BC2C) of module ux0:app\PCSB00291\sce_module\libc.suprx
-[01:23:45.335] |I| [load_self]: Loaded module segment 1 @ [0x00043000 - 0x00045380 / 0x8103C000] (size: 0x00002380) of module ux0:app\PCSB00291\sce_module\libc.suprx
-[01:23:45.335] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00291\sce_module\libc.suprx
-[01:23:45.336] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34540
-[01:23:45.336] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x37D88, setting to stub value 0xDEADBEEF
-[01:23:45.336] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00291\sce_module\libc.suprx") loaded
-[01:23:45.343] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[01:23:45.343] |I| [load_self]: Loaded module segment 0 @ [0x00047000 - 0x000683BC / 0x81000000] (size: 0x000213BC) of module ux0:app\PCSB00291\sce_module\libfios2.suprx
-[01:23:45.343] |I| [load_self]: Loaded module segment 1 @ [0x00069000 - 0x0006E1B8 / 0x81022000] (size: 0x000051B8) of module ux0:app\PCSB00291\sce_module\libfios2.suprx
-[01:23:45.343] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00291\sce_module\libfios2.suprx
-[01:23:45.343] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x61D84
-[01:23:45.343] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00291\sce_module\libfios2.suprx") loaded
-[01:23:45.351] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[01:23:45.351] |I| [load_self]: Loaded module segment 0 @ [0x0006F000 - 0x0008277C / 0x81000000] (size: 0x0001377C) of module ux0:app\PCSB00291\sce_module\libult.suprx
-[01:23:45.352] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x00083814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00291\sce_module\libult.suprx
-[01:23:45.352] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00291\sce_module\libult.suprx
-[01:23:45.352] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7EA1C
-[01:23:45.352] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00291\sce_module\libult.suprx") loaded
-[01:23:45.360] |I| [load_self]: Loaded module segment 0 @ [0x00084000 - 0x000D4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[01:23:45.360] |I| [load_self]: Loaded module segment 1 @ [0x000D5000 - 0x000D52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[01:23:45.360] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[01:23:45.360] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC07DC
-[01:23:45.360] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBFF10
-[01:23:45.361] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD4EE0, setting to stub value 0xDEADBEEF
-[01:23:45.361] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[01:23:45.364] |I| [load_self]: Loaded module segment 0 @ [0x000D7000 - 0x000E6F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[01:23:45.364] |I| [load_self]: Loaded module segment 1 @ [0x000E7000 - 0x000E7008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[01:23:45.364] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[01:23:45.364] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE5710
-[01:23:45.365] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE5300
-[01:23:45.365] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[01:23:45.522] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[01:23:45.522] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x8164A2F4 / 0x81000000] (size: 0x0064A2F4) of module app0:eboot.bin
-[01:23:45.522] |I| [load_self]: Loaded module segment 1 @ [0x8164B000 - 0x819076AC / 0x8164B000] (size: 0x002BC6AC) of module app0:eboot.bin
-[01:23:45.522] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[01:23:45.522] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8148E1A4
-[01:23:45.522] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x817C2404
-[01:23:45.523] |I| [load_app_impl]: Main executable A12V_Release (eboot.bin) loaded
-[01:23:45.531] |D| [run_app]: Running module_start of library: SceLibc at address 0x75B1
-[01:23:45.549] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00291\sce_module\libc.suprx") module_start returned 0x0
-[01:23:45.553] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x47001
-[01:23:45.562] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[01:23:45.562] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayGetList import called. (Set pActualIDs to 0)
-[01:23:45.562] |D| [export__sceFiosKernelOverlayGetList]: pid: 0
-[01:23:45.563] |D| [export__sceFiosKernelOverlayGetList]: buffer_size: 0
-[01:23:45.563] |D| [export__sceFiosKernelOverlayGetList]: maxIDs: 0
-[01:23:45.563] |D| [export__sceFiosKernelOverlayGetList]: pActualIDs: 0
-[01:23:45.563] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00291\sce_module\libfios2.suprx") module_start returned 0x0
-[01:23:45.567] |D| [run_app]: Running module_start of library: SceUlt at address 0x729D5
-[01:23:45.574] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[01:23:45.575] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00291\sce_module\libult.suprx") module_start returned 0x0
-[01:23:45.580] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
-[01:23:45.746] |I| [export_sceIoOpen]: Opening file: sampleArg.txt
-[01:23:45.746] |E| [open_file]: Cannot find device for path: sampleArg.txt
-[01:23:45.746] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[01:23:45.792] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[01:23:45.825] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[01:23:45.861] |W| [unimplemented_impl]: Unimplemented sceKernelCreateCallback import called.
-[01:23:45.861] |W| [unimplemented_impl]: Unimplemented sceDisplayRegisterVblankStartCallback import called.
-[01:23:45.863] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[01:23:45.864] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[01:23:45.867] |W| [unimplemented_impl]: Unimplemented sceGxmProgramParameterIsRegFormat import called.
-[01:23:46.017] |W| [unimplemented_impl]: Unimplemented ksceKernelGetThreadCurrentPriority import called.
-[01:23:46.018] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCpuAffinityMask import called.
-[01:23:46.050] |I| [export_sceIoOpen]: Opening file: app0:./Res/debug/ascii.g1t
-[01:23:46.051] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00291/./Res/debug/ascii.g1t (target path: app0:./Res/debug/ascii.g1t)
-[01:23:46.051] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[01:23:46.075] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[01:23:46.075] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
-[01:23:46.125] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
-[01:23:46.131] |I| [export_sceIoOpen]: Opening file: app0:/resources.psarc
-[01:23:46.184] |I| [export_sceIoOpen]: Opening file: app0:/resources.psarc
-[01:23:46.318] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[01:23:46.319] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
-[01:23:46.341] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[01:23:46.403] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[01:23:46.405] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[01:23:46.405] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[01:23:46.405] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[01:23:47.051] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[01:23:47.072] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[01:23:47.072] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[01:23:47.250] |I| [renderer::gl::load_shader_generic]: Generating frag shader 03bc6fa19e35ffa1f17b9ec8a99f1f792dc292904859b28effc0de13d6a006a0
-[01:23:47.252] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[01:23:47.254] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2b751d8d120775c77b3661f6a7074bb40c626228e70f8d3593179ce529865309
-[01:23:47.255] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float2) pos
-[01:23:47.255] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color_depth[2]
-[01:23:47.258] |E| [renderer::gl::compile_program]: Vertex info
+[03:52:08.817] |I| [load_app_impl]: cpu-backend: Dynarmic
+[03:52:08.817] |I| [load_app_impl]: CPU Optimisation state: true
+[03:52:08.818] |I| [load_app_impl]: at9 audio decoder state: true
+[03:52:08.818] |I| [load_app_impl]: ngs experimental state: true
+[03:52:08.818] |I| [load_app_impl]: video player state: true
+[03:52:08.818] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp,libscemp4
+[03:52:08.818] |I| [load_app_impl]: Title: Atelier Totori Plus: The Adventurer of Arland
+[03:52:08.818] |I| [load_app_impl]: Serial: PCSB00291
+[03:52:08.818] |I| [load_app_impl]: Version: 1.00
+[03:52:08.818] |I| [load_app_impl]: Category: gd
+[03:52:08.892] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:52:08.892] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00042C2C / 0x81000000] (size: 0x0003BC2C) of module ux0:app\PCSB00291\sce_module\libc.suprx
+[03:52:08.892] |I| [load_self]: Loaded module segment 1 @ [0x00043000 - 0x00045380 / 0x8103C000] (size: 0x00002380) of module ux0:app\PCSB00291\sce_module\libc.suprx
+[03:52:08.892] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00291\sce_module\libc.suprx
+[03:52:08.893] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34540
+[03:52:08.893] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x37D88, setting to stub value 0xDEADBEEF
+[03:52:08.895] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00291\sce_module\libc.suprx") loaded
+[03:52:08.900] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:52:08.901] |I| [load_self]: Loaded module segment 0 @ [0x00047000 - 0x000683BC / 0x81000000] (size: 0x000213BC) of module ux0:app\PCSB00291\sce_module\libfios2.suprx
+[03:52:08.901] |I| [load_self]: Loaded module segment 1 @ [0x00069000 - 0x0006E1B8 / 0x81022000] (size: 0x000051B8) of module ux0:app\PCSB00291\sce_module\libfios2.suprx
+[03:52:08.902] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00291\sce_module\libfios2.suprx
+[03:52:08.903] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x61D84
+[03:52:08.903] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00291\sce_module\libfios2.suprx") loaded
+[03:52:08.918] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:52:08.918] |I| [load_self]: Loaded module segment 0 @ [0x0006F000 - 0x0008277C / 0x81000000] (size: 0x0001377C) of module ux0:app\PCSB00291\sce_module\libult.suprx
+[03:52:08.919] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x00083814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00291\sce_module\libult.suprx
+[03:52:08.919] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00291\sce_module\libult.suprx
+[03:52:08.920] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7EA1C
+[03:52:08.920] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00291\sce_module\libult.suprx") loaded
+[03:52:08.927] |I| [load_self]: Loaded module segment 0 @ [0x00084000 - 0x000D4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[03:52:08.928] |I| [load_self]: Loaded module segment 1 @ [0x000D5000 - 0x000D52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[03:52:08.929] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[03:52:08.929] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC07DC
+[03:52:08.930] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBFF10
+[03:52:08.932] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD4EE0, setting to stub value 0xDEADBEEF
+[03:52:08.933] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[03:52:08.935] |I| [load_self]: Loaded module segment 0 @ [0x000D7000 - 0x000E6F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[03:52:08.936] |I| [load_self]: Loaded module segment 1 @ [0x000E7000 - 0x000E7008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[03:52:08.937] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[03:52:08.937] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE5710
+[03:52:08.938] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE5300
+[03:52:08.938] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[03:52:09.118] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:52:09.118] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x8164A2F4 / 0x81000000] (size: 0x0064A2F4) of module app0:eboot.bin
+[03:52:09.119] |I| [load_self]: Loaded module segment 1 @ [0x8164B000 - 0x819076AC / 0x8164B000] (size: 0x002BC6AC) of module app0:eboot.bin
+[03:52:09.120] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[03:52:09.120] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8148E1A4
+[03:52:09.121] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x817C2404
+[03:52:09.122] |I| [load_app_impl]: Main executable A12V_Release (eboot.bin) loaded
+[03:52:09.130] |D| [run_app]: Running module_start of library: SceLibc at address 0x75B1
+[03:52:09.146] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00291\sce_module\libc.suprx") module_start returned 0x0
+[03:52:09.150] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x47001
+[03:52:09.158] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[03:52:09.158] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayGetList import called. (Set pActualIDs to 0)
+[03:52:09.159] |D| [export__sceFiosKernelOverlayGetList]: pid: 0
+[03:52:09.159] |D| [export__sceFiosKernelOverlayGetList]: buffer_size: 0
+[03:52:09.159] |D| [export__sceFiosKernelOverlayGetList]: maxIDs: 0
+[03:52:09.160] |D| [export__sceFiosKernelOverlayGetList]: pActualIDs: 0
+[03:52:09.160] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00291\sce_module\libfios2.suprx") module_start returned 0x0
+[03:52:09.165] |D| [run_app]: Running module_start of library: SceUlt at address 0x729D5
+[03:52:09.173] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[03:52:09.173] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00291\sce_module\libult.suprx") module_start returned 0x0
+[03:52:09.178] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[03:52:09.321] |I| [export_sceIoOpen]: Opening file: sampleArg.txt
+[03:52:09.321] |E| [open_file]: Cannot find device for path: sampleArg.txt
+[03:52:09.321] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:52:09.367] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[03:52:09.399] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[03:52:09.433] |D| [export_sceKernelCreateCallback]: Create callbcack: thread id: 8, cb id: 102, name: KTGLGraphVBlankCB
+[03:52:09.434] |W| [unimplemented_impl]: Unimplemented sceDisplayRegisterVblankStartCallback import called.
+[03:52:09.436] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[03:52:09.437] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[03:52:09.440] |W| [unimplemented_impl]: Unimplemented sceGxmProgramParameterIsRegFormat import called.
+[03:52:09.572] |W| [unimplemented_impl]: Unimplemented ksceKernelGetThreadCurrentPriority import called.
+[03:52:09.573] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCpuAffinityMask import called.
+[03:52:09.604] |I| [export_sceIoOpen]: Opening file: app0:./Res/debug/ascii.g1t
+[03:52:09.605] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00291/./Res/debug/ascii.g1t (target path: app0:./Res/debug/ascii.g1t)
+[03:52:09.605] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:52:09.628] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[03:52:09.629] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[03:52:09.677] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[03:52:09.682] |I| [export_sceIoOpen]: Opening file: app0:/resources.psarc
+[03:52:09.734] |I| [export_sceIoOpen]: Opening file: app0:/resources.psarc
+[03:52:09.858] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[03:52:09.858] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[03:52:09.880] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[03:52:09.941] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[03:52:09.942] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[03:52:09.943] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[03:52:09.943] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[03:52:10.601] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[03:52:10.627] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[03:52:10.628] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[03:52:10.742] |I| [renderer::gl::load_shader_generic]: Generating frag shader 03bc6fa19e35ffa1f17b9ec8a99f1f792dc292904859b28effc0de13d6a006a0
+[03:52:10.745] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[03:52:10.760] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2b751d8d120775c77b3661f6a7074bb40c626228e70f8d3593179ce529865309
+[03:52:10.761] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float2) pos
+[03:52:10.761] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color_depth[2]
+[03:52:10.787] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
-Fragment info
--------------
-0(16) : warning C7050: "pa[0].zw" might be used before being initialized
 
-
-[01:23:47.259] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 0
-[01:23:47.260] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 1024, height: 1024
-[01:23:47.265] |I| [renderer::gl::load_shader_generic]: Generating frag shader b91cc6fecdfd6e75a432206ed7d18ad3db4ab753c2f57d2c635f91fb80a577c3
-[01:23:47.266] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) rate
-[01:23:47.268] |I| [renderer::gl::load_shader_generic]: Generating vert shader 61b48a7556af59deed310a7a78ec2877a80079014ddf525a1ece56d3432e3108
-[01:23:47.269] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
-[01:23:47.270] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_uv
-[01:23:47.270] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
-[01:23:47.273] |E| [renderer::gl::compile_program]: Fragment info
+[03:52:10.788] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 0
+[03:52:10.789] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 1024, height: 1024
+[03:52:10.793] |D| [export_sceNpTrophyCreateContext]: sceNpTrophyCreateContext
+[03:52:10.794] |I| [renderer::gl::load_shader_generic]: Generating frag shader b91cc6fecdfd6e75a432206ed7d18ad3db4ab753c2f57d2c635f91fb80a577c3
+[03:52:10.796] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) rate
+[03:52:10.802] |I| [renderer::gl::load_shader_generic]: Generating vert shader 61b48a7556af59deed310a7a78ec2877a80079014ddf525a1ece56d3432e3108
+[03:52:10.803] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[03:52:10.803] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_uv
+[03:52:10.804] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ModelViewProj[4]
+[03:52:10.821] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(25) : warning C7050: "r[0]" might be used before being initialized
 0(24) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[01:23:47.276] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartMultiCB import called. (wait for vblank)
-[01:23:47.551] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[01:23:47.554] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
-[01:23:47.554] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[01:23:47.555] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[01:23:47.555] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[01:23:47.561] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[01:23:47.561] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[01:23:47.561] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[01:23:47.562] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[01:23:47.570] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
-[01:23:47.582] |W| [unimplemented_impl]: Unimplemented sceNgsSystemLock import called.
-[01:23:47.582] |W| [unimplemented_impl]: Unimplemented sceNgsSystemUnlock import called.
-[01:23:47.696] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC01.whd
-[01:23:47.721] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC01.wbd
-[01:23:47.745] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC02.whd
-[01:23:47.754] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC02.wbd
-[01:23:47.770] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/PSSG_OBJ01.whd
-[01:23:47.771] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/PSSG_OBJ01.wbd
-[01:23:49.921] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 0
-[01:23:49.922] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 1024, height: 1024
-[01:23:54.154] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 1024, height: 1024
-[01:23:54.159] |I| [renderer::gl::load_shader_generic]: Generating frag shader f1fd6d9a0c5d3552444db2d3a4fbf2a7ee0756a95a875c9102ec4cc57a9e6d5e
-[01:23:54.160] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[01:23:54.163] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3f2c9627abb524c41b79aca6f3fec82b912422da287e53151cb250cacd9269cb
-[01:23:54.163] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
-[01:23:54.164] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
-[01:23:54.167] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[01:23:54.167] |I| [renderer::gl::load_shader_generic]: Generating frag shader 05849b4d6c1dd5ad1c940cb777f66ec4f6ea412109f9e0a4174517e573c820f4
-[01:23:54.168] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[01:23:54.168] |D| [shader::usse::USSETranslatorVisitor::vtst]: load_data_type: 5, bits max: 8
-[01:23:54.171] |I| [renderer::gl::load_shader_generic]: Generating vert shader f374175331aa138ee12df179e677a680d1ac962ffa277a8fd476e8c6c6186177
-[01:23:54.172] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
-[01:23:54.172] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
-[01:23:54.172] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord
-[01:23:54.175] |E| [renderer::gl::compile_program]: Fragment info
+[03:52:10.825] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartMultiCB import called. (wait for vblank)
+[03:52:10.826] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:10.912] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:10.916] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:10.932] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:10.979] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:10.997] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.047] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.080] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.114] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.148] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.180] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.213] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.244] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.280] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.314] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.326] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[03:52:11.329] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
+[03:52:11.329] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[03:52:11.330] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[03:52:11.331] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[03:52:11.336] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:52:11.336] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:52:11.337] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:52:11.337] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[03:52:11.345] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[03:52:11.347] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.356] |W| [unimplemented_impl]: Unimplemented sceNgsSystemLock import called.
+[03:52:11.357] |W| [unimplemented_impl]: Unimplemented sceNgsSystemUnlock import called.
+[03:52:11.460] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.483] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC01.whd
+[03:52:11.539] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC01.wbd
+[03:52:11.548] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.559] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.562] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC02.whd
+[03:52:11.570] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/BASIC02.wbd
+[03:52:11.575] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.587] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/PSSG_OBJ01.whd
+[03:52:11.588] |I| [export_sceIoOpen]: Opening file: app0:./Res/sound/se/PSSG_OBJ01.wbd
+[03:52:11.620] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.634] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.687] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.701] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.754] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.818] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.836] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.880] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.913] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.947] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:11.980] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.013] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.046] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.080] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.113] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.146] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.180] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.213] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.246] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.280] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.330] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.348] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.396] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.414] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.464] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.479] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.530] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.546] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.601] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.611] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.661] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.694] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.728] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.761] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.795] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.828] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.861] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.895] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.928] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.961] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:12.995] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.027] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.061] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.094] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.128] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.161] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.211] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.227] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.278] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.311] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.344] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.378] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.411] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.444] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.478] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.728] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 0
+[03:52:13.728] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 1024, height: 1024
+[03:52:13.736] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.742] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.759] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.797] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.828] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.865] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.897] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.928] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:13.965] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.000] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.031] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.089] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.103] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.156] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.170] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.223] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.234] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.285] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.302] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.344] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.378] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.411] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.445] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.478] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.511] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.544] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.577] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.611] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.644] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.677] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.710] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.744] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.777] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.810] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.844] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.877] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.927] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.944] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:14.994] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.027] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.060] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.095] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.127] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.160] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.195] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.227] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.261] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.294] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.328] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.361] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.395] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.428] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.460] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.494] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.527] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.561] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.594] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.627] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.661] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.694] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.727] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.777] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.794] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.844] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.861] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.910] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.944] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:15.977] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.010] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.044] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.077] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.115] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.146] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.180] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.214] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.247] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.281] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.315] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.347] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.381] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.415] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.447] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.481] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.514] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.548] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.581] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.632] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.649] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.696] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.714] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.764] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.782] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.831] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.848] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.899] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.914] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.965] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:16.999] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.031] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.065] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.097] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.130] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.165] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.197] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.232] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.265] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:17.959] |D| [renderer::texture::tiled_texture_to_linear_texture]: Using tiled_texture_to_linear_texture, width: 1024, height: 1024
+[03:52:17.965] |I| [renderer::gl::load_shader_generic]: Generating frag shader f1fd6d9a0c5d3552444db2d3a4fbf2a7ee0756a95a875c9102ec4cc57a9e6d5e
+[03:52:17.967] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[03:52:17.970] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3f2c9627abb524c41b79aca6f3fec82b912422da287e53151cb250cacd9269cb
+[03:52:17.971] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
+[03:52:17.971] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[03:52:17.986] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[03:52:17.987] |I| [renderer::gl::load_shader_generic]: Generating frag shader 05849b4d6c1dd5ad1c940cb777f66ec4f6ea412109f9e0a4174517e573c820f4
+[03:52:17.988] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[03:52:17.996] |I| [renderer::gl::load_shader_generic]: Generating vert shader f374175331aa138ee12df179e677a680d1ac962ffa277a8fd476e8c6c6186177
+[03:52:17.997] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_ScreenVertex
+[03:52:17.997] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[03:52:17.998] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord
+[03:52:18.016] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(19) : warning C7050: "sa[0].w" might be used before being initialized
 
 
-[01:23:56.999] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0000
-[01:23:56.999] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00291/USR-DATA0000 (target path: savedata0:USR-DATA0000)
-[01:23:56.999] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[01:23:57.001] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0001
-[01:23:57.095] |I| [float_to_half_init]: AVX+F16C instruction set supported. Use fast f32 to f16 conversion
-[01:23:57.098] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[01:23:57.107] |I| [export_sceIoOpen]: Opening file: savedata0:SYS-DATA
-[01:23:57.124] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[01:23:57.125] |I| [renderer::gl::load_shader_generic]: Generating frag shader 66ec8c9d8dfad80708e51c91ffad476e7b648597d5ed6f4f4fa5195e72734e15
-[01:23:57.126] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[01:23:57.129] |I| [renderer::gl::load_shader_generic]: Generating vert shader f2d2135028f6473af3f4e429ef98c8aff33855073b89fafdf78ef429c5252c0e
-[01:23:57.130] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (half4) vi_pos
-[01:23:57.130] |D| [shader::create_parameters]: [BUFFER0  + 2] pa2 = (uchar4) vi_clr
-[01:23:57.130] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (half2) vi_tex
-[01:23:57.131] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) ktglViewport
-[01:23:57.131] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) ktglPointSize
-[01:23:57.135] |E| [renderer::gl::compile_program]: Vertex info
+[03:52:18.019] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.106] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.109] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.165] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.228] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.301] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.369] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.452] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.510] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.580] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.647] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.714] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.780] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.847] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.914] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:18.980] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.048] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.130] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.197] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.264] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.330] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.397] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.463] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.530] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.597] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.664] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.731] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.797] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.880] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:19.947] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.014] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.080] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.173] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.215] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.282] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.356] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.420] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.489] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.547] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.614] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.697] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.765] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.830] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.861] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0000
+[03:52:20.861] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00291/USR-DATA0000 (target path: savedata0:USR-DATA0000)
+[03:52:20.862] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[03:52:20.864] |I| [export_sceIoOpen]: Opening file: savedata0:USR-DATA0001
+[03:52:20.959] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:20.969] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[03:52:20.972] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[03:52:20.974] |I| [export_sceIoOpen]: Opening file: savedata0:SYS-DATA
+[03:52:20.998] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
+[03:52:20.999] |I| [renderer::gl::load_shader_generic]: Generating frag shader 66ec8c9d8dfad80708e51c91ffad476e7b648597d5ed6f4f4fa5195e72734e15
+[03:52:21.000] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[03:52:21.006] |I| [renderer::gl::load_shader_generic]: Generating vert shader f2d2135028f6473af3f4e429ef98c8aff33855073b89fafdf78ef429c5252c0e
+[03:52:21.007] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (half4) vi_pos
+[03:52:21.007] |D| [shader::create_parameters]: [BUFFER0  + 2] pa2 = (uchar4) vi_clr
+[03:52:21.008] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (half2) vi_tex
+[03:52:21.008] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) ktglViewport
+[03:52:21.009] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) ktglPointSize
+[03:52:21.036] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(23) : warning C7050: "pa[0].zw" might be used before being initialized
 0(23) : warning C7050: "pa[1]" might be used before being initialized
 
 
-[01:23:57.136] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.182] |I| [export_sceIoOpen]: Opening file: addcont0:SPECIALFREE00001/dlc/costume_swimware00_03.dat
-[01:23:57.184] |I| [export_sceIoOpen]: Opening file: addcont0:SPECIALFREE00001/dlc/costume_swimware01_03.dat
-[01:23:57.208] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.216] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.650] |W| [stubbed_impl]: Stubbed sceKernelWaitSemaCB import called. (no CB)
-[01:23:57.655] |I| [load_module]: Loading module ID: 0x2D
-[01:23:57.657] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[01:23:57.657] |I| [load_self]: Loaded module segment 0 @ [0x15099000 - 0x150A8D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
-[01:23:57.657] |I| [load_self]: Loaded module segment 1 @ [0x14E93000 - 0x14E93028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
-[01:23:57.657] |I| [load_self]: Loading symbols for SELF: sys/external/libscemp4.suprx
-[01:23:57.657] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x150A89D0
-[01:23:57.658] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x150A78C4
-[01:23:57.658] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
-[01:23:57.672] |I| [export_sceIoOpen]: Opening file: app0:./Res/movie/opening.mp4
-[01:23:57.758] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.766] |W| [unimplemented_impl]: Unimplemented sceKernelGetProcessTitleId import called.
-[01:23:57.772] |E| [call_import]: Import function for NID 0xE341C509 not found (thread name: avPlayer Controller, thread ID: 544)
-[01:23:57.776] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.777] |E| [logging::ret_error_impl]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
-[01:23:57.778] |E| [logging::ret_error_impl]: sceKernelUnlockLwMutex2 returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
-[01:23:57.786] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
-[01:23:57.788] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
-[01:23:57.791] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.796] |W| [stubbed_impl]: Stubbed sceAudiodecGetContextSize import called. (fake size)
-[01:23:57.797] |D| [export_sceAudiodecCreateDecoderExternal]: sceAudiodecCreateDecoderExternal, codec: 4101
-[01:23:57.797] |W| [stubbed_impl]: Stubbed sceAudiodecCreateDecoderExternal import called. (Hack for LLE MP4)
-[01:23:57.807] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.857] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.858] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.860] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.860] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.861] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.861] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.861] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.861] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.862] |W| [H264DecoderState::receive]: Error receiving H264 frame: 0xFFFFFFF5.
-[01:23:57.864] |E| [logging::ret_error_impl]: sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
-[01:23:57.882] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
-[01:23:57.894] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.904] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.912] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.924] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.928] |E| [logging::ret_error_impl]: sceAudioOutOpenPort returned SCE_AUDIO_OUT_ERROR_NOT_OPENED (0x80260001)
-[01:23:57.932] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.932] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.932] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.932] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.932] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.932] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.941] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.949] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.949] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.949] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.949] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.949] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.949] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.957] |W| [renderer::gl::sync_texture]: Texture has null data.
-[01:23:57.969] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.969] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.969] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.969] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.969] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.969] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.987] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[01:23:57.990] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.990] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.990] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.990] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:57.990] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:57.990] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.003] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[01:23:58.009] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.009] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.009] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.009] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.009] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.009] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.020] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[01:23:58.030] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.030] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.030] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.030] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.030] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.030] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.037] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
-[01:23:58.048] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.048] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.048] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.048] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.048] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.048] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.069] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.069] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.069] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.069] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.069] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.070] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.089] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.089] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.089] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.089] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.089] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.089] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.109] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.109] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.109] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.109] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.109] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.109] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.128] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.128] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.128] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.128] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.129] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.129] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.150] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.150] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.150] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.150] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.150] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.150] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.169] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.169] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.169] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.169] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.169] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.169] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.188] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.188] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.188] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.188] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.188] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.188] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.210] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.210] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.210] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.210] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.210] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.211] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.229] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.229] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.229] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.229] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.229] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.229] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.249] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.249] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.249] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.249] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.249] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.249] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.269] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.269] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.269] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.269] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.269] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.269] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.288] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.288] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.288] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.288] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.288] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.288] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.309] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.309] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.309] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.309] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.309] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.309] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.329] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.329] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.329] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.329] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.329] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.329] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.349] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.349] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.349] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.349] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.349] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.350] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.369] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.369] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.369] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.369] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.369] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.369] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.389] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.389] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.389] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.389] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.389] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.389] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.408] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.408] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.408] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.408] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.408] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.408] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.429] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.429] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.429] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.429] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.429] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.430] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.448] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.448] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.448] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.448] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.448] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.448] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.468] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.468] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.468] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.468] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.468] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.468] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.488] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.488] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.488] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.488] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.489] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.489] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.509] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.509] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.509] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.509] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.509] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.509] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.529] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.529] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.529] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.529] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.529] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.529] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.550] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.550] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.550] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.550] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.550] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.550] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.568] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.568] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.568] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.568] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.568] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.569] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.589] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.589] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.589] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.589] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.589] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.589] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.609] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.609] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.609] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.609] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.609] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.609] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.629] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.629] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.629] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.629] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.629] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.629] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.649] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.649] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.649] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.649] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.649] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.650] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.669] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.669] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.669] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.669] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.669] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.669] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.689] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.689] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.689] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.689] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.689] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.689] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.708] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.708] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.708] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.708] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.708] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.708] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.729] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.729] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.729] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.729] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.729] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.729] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.748] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.748] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.748] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.748] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.748] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.748] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.768] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.768] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.768] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.768] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.768] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.768] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.789] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.789] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.789] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.789] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.789] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.790] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.809] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.809] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.809] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.809] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.809] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.810] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.828] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.828] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.828] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.828] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.828] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.828] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.848] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.848] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.848] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.848] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.848] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.848] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.869] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.869] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.869] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.869] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.869] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.870] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.889] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.889] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.889] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.889] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.889] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.889] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.908] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.908] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.908] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.908] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.908] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.908] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.928] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.928] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.928] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.928] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.928] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.928] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.948] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.948] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.948] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.948] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.948] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.949] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.969] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.969] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.969] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.969] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.969] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.969] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.988] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.988] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.988] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.988] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:58.988] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:58.988] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.008] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.008] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.008] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.008] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.008] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.009] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.029] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.029] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.029] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.029] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.029] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.029] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.048] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.048] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.048] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.048] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.048] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.048] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.068] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.068] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.068] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.068] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.068] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.068] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.089] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.089] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.089] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.089] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.089] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.089] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.108] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.108] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.108] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.108] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.108] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.108] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.129] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.129] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.129] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.129] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.129] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.129] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.149] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.149] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.149] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.149] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.149] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.149] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.168] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.168] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.168] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.168] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.168] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.169] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.190] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.190] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.190] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.190] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.190] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.190] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.209] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.209] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.209] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.209] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.209] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.209] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.229] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.229] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.229] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.229] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.229] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.229] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.249] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.249] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.249] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.249] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.249] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.250] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.270] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.270] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.270] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.270] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.270] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.270] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.287] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.287] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.287] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.287] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.287] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.287] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.309] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.309] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.309] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.309] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.309] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.310] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.329] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.329] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.329] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.329] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.329] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.329] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.349] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.349] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.349] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.349] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.349] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.349] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.370] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.370] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.370] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.370] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.370] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.370] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.389] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.389] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.389] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.389] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.390] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.390] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.408] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.408] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.408] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.408] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.408] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.408] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.429] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.429] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.429] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.429] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.429] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.429] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.449] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.449] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.449] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.449] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.449] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.449] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.469] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.469] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.469] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.469] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.469] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.470] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.489] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.489] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.489] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.489] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.489] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.489] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.508] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.508] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.508] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.508] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.508] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.508] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.529] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.529] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.529] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.529] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.529] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.529] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.549] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.549] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.549] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.549] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.549] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.549] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.569] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.569] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.569] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.569] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.569] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.569] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.589] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.589] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.589] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.589] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.589] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.589] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.609] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.609] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.609] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.609] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.610] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.610] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.628] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.628] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.628] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.628] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.628] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.628] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.648] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.648] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.648] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.648] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.648] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.648] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.668] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.668] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.668] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.668] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.668] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.668] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.688] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.688] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.688] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.688] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.688] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.688] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.709] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.709] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.709] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.709] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.709] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.709] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.728] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.728] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.728] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.728] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.728] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.728] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.749] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.749] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.749] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.749] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.749] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.749] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.769] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.769] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.769] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.769] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.769] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
-[01:23:59.770] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
-[01:23:59.802] |E| [logging::ret_error_impl]: sceKernelSignalSema returned SCE_KERNEL_ERROR_LW_MUTEX_UNLOCK_UDF (0x80028184)
-[01:24:00.670] |D| [export_sceCodecEngineFreeMemoryFromUnmapMemBlock]: uid: 625
-[01:24:00.671] |W| [stubbed_impl]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
-[01:24:00.671] |D| [export_sceCodecEngineFreeMemoryFromUnmapMemBlock]: uid: 625
-[01:24:00.672] |W| [unimplemented_impl]: Unimplemented sceKernelCloseMutex import called.
-[01:24:00.674] |D| [export_sceCodecEngineFreeMemoryFromUnmapMemBlock]: uid: 637
-[01:24:00.686] |W| [renderer::gl::sync_texture]: Texture has freed data.
-[01:24:00.689] |W| [unimplemented_imp
+[03:52:21.037] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.039] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.043] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.049] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.053] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.060] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.074] |I| [export_sceIoOpen]: Opening file: addcont0:SPECIALFREE00001/dlc/costume_swimware00_03.dat
+[03:52:21.075] |I| [export_sceIoOpen]: Opening file: addcont0:SPECIALFREE00001/dlc/costume_swimware01_03.dat
+[03:52:21.523] |D| [export__sceKernelWaitSemaCB]: thread id:533, count: 1
+[03:52:21.523] |D| [semaphore_wait]: Callback run
+[03:52:21.525] |D| [export__sceKernelWaitSemaCB]: thread id:533, count: 1
+[03:52:21.526] |D| [semaphore_wait]: Callback run
+[03:52:21.529] |I| [load_module]: Loading module ID: 0x2D
+[03:52:21.531] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[03:52:21.531] |I| [load_self]: Loaded module segment 0 @ [0x1509A000 - 0x150A9D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
+[03:52:21.532] |I| [load_self]: Loaded module segment 1 @ [0x14E93000 - 0x14E93028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
+[03:52:21.534] |I| [load_self]: Loading symbols for SELF: sys/external/libscemp4.suprx
+[03:52:21.536] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x150A99D0
+[03:52:21.536] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x150A88C4
+[03:52:21.537] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
+[03:52:21.550] |I| [export_sceIoOpen]: Opening file: app0:./Res/movie/opening.mp4
+[03:52:21.616] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.617] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.668] |W| [unimplemented_impl]: Unimplemented sceKernelGetProcessTitleId import called.
+[03:52:21.675] |E| [call_import]: Import function for NID 0xE341C509 not found (thread name: avPlayer Controller, thread ID: 545)
+[03:52:21.683] |E| [logging::ret_error_impl]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[03:52:21.684] |E| [logging::ret_error_impl]: sceKernelUnlockLwMutex2 returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[03:52:21.696] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[03:52:21.699] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[03:52:21.709] |W| [stubbed_impl]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[03:52:21.711] |D| [export_sceAudiodecCreateDecoderExternal]: sceAudiodecCreateDecoderExternal, codec: 4101
+[03:52:21.711] |W| [stubbed_impl]: Stubbed sceAudiodecCreateDecoderExternal import called. (Hack for LLE MP4)
+[03:52:21.719] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.722] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.726] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.727] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.734] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.740] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.765] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.766] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.770] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.770] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.770] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.771] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.771] |W| [H264DecoderState::receive]: Error receiving H264 frame: 0xFFFFFFF5.
+[03:52:21.771] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.772] |D| [export__sceKernelWaitSemaCB]: thread id:533, count: 1
+[03:52:21.772] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.773] |D| [semaphore_wait]: Callback run
+[03:52:21.775] |E| [logging::ret_error_impl]: sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[03:52:21.790] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[03:52:21.833] |E| [logging::ret_error_impl]: sceAudioOutOpenPort returned SCE_AUDIO_OUT_ERROR_NOT_OPENED (0x80260001)
+[03:52:21.835] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.837] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.837] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.837] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.838] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.838] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.839] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.839] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.849] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.851] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.855] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.855] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.856] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.856] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.857] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.857] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.864] |W| [renderer::gl::sync_texture]: Texture has null data.
+[03:52:21.866] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.874] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.874] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.874] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.875] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.875] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.876] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.895] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.895] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.896] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.896] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.897] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.897] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.909] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[03:52:21.915] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.915] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.915] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.917] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.918] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.918] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.920] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.925] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[03:52:21.935] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.935] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.935] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.936] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.936] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.937] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.937] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.942] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[03:52:21.953] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.955] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.955] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.955] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.956] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.957] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.957] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.959] |D| [renderer::gl::texture::translate_swizzle]: base format: -1879048192, swizzle: 12288
+[03:52:21.969] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.975] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.975] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.976] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.976] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.976] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.977] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.986] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:21.995] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.996] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:21.996] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:21.999] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.000] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.001] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.004] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.014] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.014] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.014] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.015] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.015] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.016] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.019] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.034] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.034] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.034] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.035] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.035] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.036] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.036] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.052] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.054] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.054] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.054] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.055] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.055] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.056] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.068] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.075] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.075] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.075] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.076] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.076] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.077] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.085] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.095] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.095] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.096] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.097] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.097] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.097] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.101] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.115] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.115] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.115] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.116] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.116] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.117] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.119] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.134] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.135] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.135] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.136] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.136] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.137] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.138] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.148] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.155] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.155] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.155] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.156] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.156] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.157] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.165] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.175] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.175] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.175] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.176] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.176] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.177] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.182] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.195] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.195] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.196] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.196] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.196] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.197] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.199] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.215] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.216] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.216] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.217] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.217] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.218] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.218] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.233] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.234] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.234] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.234] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.235] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.235] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.236] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.250] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.254] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.254] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.254] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.255] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.255] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.256] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.267] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.275] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.275] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.276] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.276] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.276] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.277] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.284] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.295] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.296] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.297] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.297] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.298] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.298] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.301] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.315] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.315] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.316] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.316] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.316] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.317] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.318] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.334] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.334] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.334] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.335] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.335] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.336] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.336] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.352] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.354] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.354] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.354] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.355] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.355] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.356] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.369] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.374] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.375] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.375] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.376] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.376] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.377] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.386] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.395] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.395] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.396] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.396] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.396] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.397] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.403] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.415] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.415] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.415] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.416] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.416] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.417] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.420] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.434] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.434] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.434] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.435] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.435] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.436] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.437] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.454] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.454] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.454] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.455] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.456] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.456] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.456] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.471] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.474] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.474] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.474] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.475] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.475] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.476] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.488] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.494] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.494] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.494] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.495] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.495] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.496] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.505] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.515] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.515] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.515] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.516] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.516] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.517] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.522] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.534] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.534] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.534] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.535] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.535] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.536] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.539] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.554] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.554] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.554] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.555] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.555] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.556] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.556] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.573] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.575] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.575] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.575] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.576] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.576] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.577] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.590] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.595] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.595] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.596] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.596] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.597] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.599] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.607] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.615] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.615] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.615] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.616] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.616] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.617] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.624] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.635] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.635] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.635] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.636] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.636] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.637] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.641] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.654] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.654] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.654] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.655] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.655] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.656] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.658] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.674] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.674] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.674] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.675] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.675] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.676] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.676] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.692] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.695] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.695] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.695] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.696] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.696] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.697] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.709] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.715] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.715] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.715] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.716] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.716] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.717] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.726] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.734] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.734] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.734] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.735] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.735] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.736] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.743] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.754] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.754] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.754] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.755] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.755] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.756] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.760] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.775] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.775] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.776] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.777] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.778] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.781] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.782] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.794] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.795] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.795] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.795] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.796] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.796] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.797] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.811] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.814] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.814] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.815] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.816] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.816] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.817] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.828] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.835] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.835] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.835] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.836] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.836] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.837] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.845] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.854] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.854] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.854] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.855] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.855] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.856] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.862] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.875] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.875] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.876] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.877] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.878] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.878] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.879] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.894] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.894] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.895] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.895] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.895] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.896] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.896] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.913] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.914] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.915] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.916] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.916] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.916] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.917] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.930] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.935] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.935] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.935] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.936] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.936] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.937] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.947] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.955] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.955] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.955] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.956] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.956] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.957] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.964] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.975] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.975] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.975] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.976] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.976] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.978] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.981] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:22.995] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.995] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.996] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.996] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.996] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:22.997] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:22.998] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.015] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.015] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.015] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.016] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.017] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.017] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.018] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.032] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.034] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.034] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.034] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.035] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.036] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.036] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.049] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.055] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.055] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.055] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.056] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.056] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.057] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.066] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.074] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.074] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.074] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.075] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.075] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.078] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.083] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.094] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.094] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.096] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.097] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.097] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.098] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.100] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.115] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.115] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.115] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.116] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.116] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.117] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.117] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.134] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.135] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.135] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.135] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.136] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.136] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.137] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.151] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.154] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.154] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.154] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.155] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.155] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.156] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.168] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.175] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.175] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.176] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.176] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.177] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.178] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.185] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.194] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.194] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.195] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.196] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.196] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.197] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.202] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.214] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.214] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.215] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.216] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.217] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.217] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.219] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.234] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.234] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.234] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.235] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.235] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.236] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.236] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.253] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.255] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.255] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.255] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.256] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.256] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.257] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.270] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.275] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.275] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.275] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.276] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.277] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.278] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.287] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.294] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.295] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.296] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.296] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.297] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.297] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.304] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.315] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.315] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.316] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.316] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.317] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.317] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.321] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.334] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.334] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.334] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.335] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.335] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.336] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.338] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.354] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.354] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.354] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.355] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.355] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.356] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.356] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.372] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.375] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.375] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.376] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.376] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.377] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.377] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.389] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.395] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.395] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.395] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.396] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.396] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.397] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.406] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.415] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.415] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.415] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.416] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.416] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.417] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.423] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.434] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.435] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.435] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.436] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.436] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.436] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.440] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.454] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.454] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.454] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.455] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.455] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.456] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.457] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.474] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.474] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.474] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.475] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.475] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.476] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.476] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.491] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.494] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.494] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.495] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.495] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.495] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.496] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.508] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.514] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.515] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.515] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.516] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.516] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.516] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.525] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.534] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.534] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.534] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.535] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.535] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.536] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.542] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.554] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.554] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.554] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.555] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.555] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.556] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.559] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.575] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.575] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.576] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.576] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.576] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.577] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.578] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.593] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.594] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.595] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.596] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.596] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.597] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.597] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.610] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.615] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.615] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.615] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.616] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.616] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.617] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.627] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.634] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.634] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.634] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.635] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.635] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.636] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.644] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.655] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.655] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.655] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.656] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.656] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.657] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.661] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.674] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.675] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.675] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.676] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.676] |W| [Mp3DecoderState::send]: Error sending Mp3 packet: 0xFFFFFFEA.
+[03:52:23.677] |W| [Mp3DecoderState::receive]: Error receiving Mp3 frame: 0xFFFFFFF5.
+[03:52:23.678] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.692] |D| [export__sceKernelWaitSemaCB]: thread id:533, count: 1
+[03:52:23.692] |D| [semaphore_wait]: Callback run
+[03:52:23.695] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.708] |E| [logging::ret_error_impl]: sceKernelSignalSema returned SCE_KERNEL_ERROR_LW_MUTEX_UNLOCK_UDF (0x80028184)
+[03:52:23.712] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.729] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.746] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.763] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.780] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.797] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.814] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.831] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.848] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.864] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.881] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.898] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.915] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.932] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.949] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.966] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:23.983] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.000] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.017] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.034] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.051] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.068] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.085] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.102] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.119] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.136] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.153] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.170] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.187] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.204] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.221] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.238] |D| [export_sceDisplayWaitVblankStartMultiCB]: WaitVblankStartMultiCB: 1
+[03:52:24.255] |D| [export_sc
