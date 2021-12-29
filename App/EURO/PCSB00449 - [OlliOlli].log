@@ -1,913 +1,1074 @@
-[00:50:34.131] |I| [load_app_impl]: cpu-backend: Dynarmic
-[00:50:34.132] |I| [load_app_impl]: CPU Optimisation state: true
-[00:50:34.132] |I| [load_app_impl]: at9 audio decoder state: true
-[00:50:34.133] |I| [load_app_impl]: ngs experimental state: true
-[00:50:34.133] |I| [load_app_impl]: video player state: true
-[00:50:34.134] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[00:50:34.134] |I| [load_app_impl]: Title: OlliOlli
-[00:50:34.135] |I| [load_app_impl]: Serial: PCSB00449
-[00:50:34.135] |I| [load_app_impl]: Version: 1.02
-[00:50:34.136] |I| [load_app_impl]: Category: gp
-[00:50:34.223] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:50:34.223] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000543BC / 0x81000000] (size: 0x0004D3BC) of module ux0:app\PCSB00449\sce_module\libc.suprx
-[00:50:34.224] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F0 / 0x8104E000] (size: 0x000026F0) of module ux0:app\PCSB00449\sce_module\libc.suprx
-[00:50:34.226] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libc.suprx
-[00:50:34.227] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A164
-[00:50:34.228] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x400FC
-[00:50:34.228] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x440BC, setting to stub value 0xDEADBEEF
-[00:50:34.230] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x45B70, setting to stub value 0xDEADBEEF
-[00:50:34.231] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00449\sce_module\libc.suprx") loaded
-[00:50:34.235] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:50:34.236] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x00071ED8 / 0x81000000] (size: 0x00017ED8) of module ux0:app\PCSB00449\sce_module\libface.suprx
-[00:50:34.236] |I| [load_self]: Loaded module segment 1 @ [0x00072000 - 0x000720F8 / 0x81018000] (size: 0x000000F8) of module ux0:app\PCSB00449\sce_module\libface.suprx
-[00:50:34.237] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libface.suprx
-[00:50:34.238] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6ED70
-[00:50:34.238] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00449\sce_module\libface.suprx") loaded
-[00:50:34.246] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:50:34.246] |I| [load_self]: Loaded module segment 0 @ [0x00073000 - 0x0009E12C / 0x81000000] (size: 0x0002B12C) of module ux0:app\PCSB00449\sce_module\libfios2.suprx
-[00:50:34.247] |I| [load_self]: Loaded module segment 1 @ [0x0009F000 - 0x000A423D / 0x8102C000] (size: 0x0000523D) of module ux0:app\PCSB00449\sce_module\libfios2.suprx
-[00:50:34.248] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libfios2.suprx
-[00:50:34.248] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9E034
-[00:50:34.248] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x95548
-[00:50:34.250] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00449\sce_module\libfios2.suprx") loaded
-[00:50:34.296] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:50:34.297] |I| [load_self]: Loaded module segment 0 @ [0x000A5000 - 0x002A3E9C / 0x81000000] (size: 0x001FEE9C) of module ux0:app\PCSB00449\sce_module\libsmart.suprx
-[00:50:34.298] |I| [load_self]: Loaded module segment 1 @ [0x002A4000 - 0x002A75C4 / 0x811FF000] (size: 0x000035C4) of module ux0:app\PCSB00449\sce_module\libsmart.suprx
-[00:50:34.299] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libsmart.suprx
-[00:50:34.299] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x145258
-[00:50:34.300] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00449\sce_module\libsmart.suprx") loaded
-[00:50:34.305] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:50:34.305] |I| [load_self]: Loaded module segment 0 @ [0x002A8000 - 0x002BBA9C / 0x81000000] (size: 0x00013A9C) of module ux0:app\PCSB00449\sce_module\libult.suprx
-[00:50:34.306] |I| [load_self]: Loaded module segment 1 @ [0x002BC000 - 0x002BC814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00449\sce_module\libult.suprx
-[00:50:34.307] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libult.suprx
-[00:50:34.307] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2BA3C8
-[00:50:34.308] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2B7944
-[00:50:34.309] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00449\sce_module\libult.suprx") loaded
-[00:50:34.317] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x0030DF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[00:50:34.318] |I| [load_self]: Loaded module segment 1 @ [0x0030E000 - 0x0030E2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[00:50:34.318] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[00:50:34.319] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2F97DC
-[00:50:34.319] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F8F10
-[00:50:34.320] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[00:50:34.322] |I| [load_self]: Loaded module segment 0 @ [0x0030F000 - 0x0031EF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[00:50:34.323] |I| [load_self]: Loaded module segment 1 @ [0x0031F000 - 0x0031F008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[00:50:34.324] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[00:50:34.324] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x31D710
-[00:50:34.325] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31D300
-[00:50:34.326] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[00:50:34.371] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:50:34.372] |I| [load_self]: Loaded module segment 0 @ [0x00320000 - 0x003D3EF4 / 0x81000000] (size: 0x000B3EF4) of module app0:eboot.bin
-[00:50:34.373] |I| [load_self]: Loaded module segment 1 @ [0x003D4000 - 0x0052FBD0 / 0x810B4000] (size: 0x0015BBD0) of module app0:eboot.bin
-[00:50:34.374] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[00:50:34.374] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x39A4D0
-[00:50:34.375] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x3DFC10
-[00:50:34.376] |I| [load_app_impl]: Main executable OlliOlli (eboot.bin) loaded
-[00:50:34.385] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
-[00:50:34.404] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00449\sce_module\libc.suprx") module_start returned 0x0
-[00:50:34.408] |D| [run_app]: Running module_start of library: SceFace at address 0x6E23D
-[00:50:34.418] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00449\sce_module\libface.suprx") module_start returned 0x0
-[00:50:34.422] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x73001
-[00:50:34.432] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[00:50:34.432] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
-[00:50:34.433] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[00:50:34.433] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00449\sce_module\libfios2.suprx") module_start returned 0x0
-[00:50:34.438] |D| [run_app]: Running module_start of library: SceSmart at address 0xA517D
-[00:50:34.449] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00449\sce_module\libsmart.suprx") module_start returned 0x0
-[00:50:34.454] |D| [run_app]: Running module_start of library: SceUlt at address 0x2AB769
-[00:50:34.462] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[00:50:34.463] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00449\sce_module\libult.suprx") module_start returned 0x0
-[00:50:34.490] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[00:50:34.507] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[00:50:34.508] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[00:50:34.537] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[00:50:34.541] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00449/data.arc (target path: app0:/data.arc)
-[00:50:34.542] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[00:50:34.550] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[00:50:34.561] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[00:50:34.562] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[00:50:34.562] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2Init import called.
-[00:50:34.563] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[00:50:34.566] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSB00449, thread ID: 10)
-[00:50:34.569] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCurrentPriority import called.
-[00:50:34.582] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
-[00:50:34.584] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
-[00:50:34.761] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[00:50:34.762] |W| [stubbed_impl]: Stubbed sceNpManagerGetContentRatingFlag import called. (Stub)
-[00:50:34.762] |W| [stubbed_impl]: Stubbed sceNpManagerGetAccountRegion import called. (Stub)
-[00:50:34.763] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
-[00:50:34.831] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[00:50:34.832] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[00:50:34.833] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[00:50:34.985] |I| [export_sceIoOpen]: Opening file: app0:/settings/gamedata.ini
-[00:50:35.036] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/switchF.gxt
-[00:50:35.161] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/regularF.gxt
-[00:50:35.238] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/nollieF.gxt
-[00:50:35.318] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/fakieF.gxt
-[00:50:35.407] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/gapandgrind.gxt
-[00:50:35.410] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/board.gxt
-[00:50:35.435] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/entities.gxt
-[00:50:35.437] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChequer.gxt
-[00:50:35.478] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiDiamonds.gxt
-[00:50:35.489] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTag.gxt
-[00:50:35.499] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiPixels.gxt
-[00:50:35.509] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnBig.gxt
-[00:50:35.527] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnYellow.gxt
-[00:50:35.536] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnWhite.gxt
-[00:50:35.544] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnPro.gxt
-[00:50:35.545] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnTextYellow.gxt
-[00:50:35.547] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnText.gxt
-[00:50:35.551] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTab.gxt
-[00:50:35.552] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTabInfinity.gxt
-[00:50:35.553] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagComplete.gxt
-[00:50:35.558] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagNew.gxt
-[00:50:35.579] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiStarSmall.gxt
-[00:50:35.580] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiStarBig.gxt
-[00:50:35.581] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLocked.gxt
-[00:50:35.601] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoRestartBig.gxt
-[00:50:35.610] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoPlay.gxt
-[00:50:35.623] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoNext.gxt
-[00:50:35.624] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLevel.gxt
-[00:50:35.626] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum1.gxt
-[00:50:35.642] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum2.gxt
-[00:50:35.644] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum3.gxt
-[00:50:35.645] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum4.gxt
-[00:50:35.647] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum5.gxt
-[00:50:35.648] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoMain.gxt
-[00:50:35.649] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Birds.gxt
-[00:50:35.659] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/CrowdSprites.gxt
-[00:50:35.663] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiRedStriped.gxt
-[00:50:35.665] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiRedStripedBorder.gxt
-[00:50:35.666] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/DECALSSMALL.gxt
-[00:50:35.668] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Filmer.gxt
-[00:50:35.669] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/BUTTONHINTS.gxt
-[00:50:35.670] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMultiplierBorders.gxt
-[00:50:35.672] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/TutorialImages.gxt
-[00:50:35.728] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoOptions.gxt
-[00:50:35.745] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoClock.gxt
-[00:50:35.747] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoBook.gxt
-[00:50:35.748] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagKingScore.gxt
-[00:50:35.749] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoInfinite.gxt
-[00:50:35.750] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagKingDistance.gxt
-[00:50:35.752] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagKingAll.gxt
-[00:50:35.753] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMaskOuter.gxt
-[00:50:35.775] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMaskInner.gxt
-[00:50:35.789] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoBack.gxt
-[00:50:35.790] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronRed.gxt
-[00:50:35.791] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronGreen.gxt
-[00:50:35.792] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronYellow.gxt
-[00:50:35.793] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronPurple.gxt
-[00:50:35.794] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronOrange.gxt
-[00:50:35.795] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoWorld.gxt
-[00:50:35.796] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoKing.gxt
-[00:50:35.796] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoPractice.gxt
-[00:50:35.798] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnRad.gxt
-[00:50:35.799] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/bonus.gxt
-[00:50:35.800] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/SovietDecals.gxt
-[00:50:35.803] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Neondecals.gxt
-[00:50:35.805] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/5pixels.gxt
-[00:50:35.806] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiDailyDiamond.gxt
-[00:50:35.811] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiScrubber.gxt
-[00:50:35.812] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMusic.gxt
-[00:50:35.813] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiSFX.gxt
-[00:50:35.814] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/JUNKDECALS.gxt
-[00:50:35.815] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/NEONDECALS2.gxt
-[00:50:35.826] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/SFX.gxt
-[00:50:35.828] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/PlayerTrails.gxt
-[00:50:35.830] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiController.gxt
-[00:50:35.852] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Particles.gxt
-[00:50:35.854] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiLanguage.gxt
-[00:50:35.855] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/PortDecals.gxt
-[00:50:35.856] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoWorldBig.gxt
-[00:50:35.856] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoCredits.gxt
-[00:50:35.857] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLang.gxt
-[00:50:35.858] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoResetData.gxt
-[00:50:35.860] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoTutorial.gxt
-[00:50:35.861] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoNextLevel.gxt
-[00:50:35.874] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoRestartSmall.gxt
-[00:50:35.875] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoConnect.gxt
-[00:50:35.876] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoTick.gxt
-[00:50:35.877] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoDailyLocked.gxt
-[00:50:35.879] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBackground.gxt
-[00:50:35.909] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagRad.gxt
-[00:50:35.911] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/LOGO.gxt
-[00:50:35.913] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLBSmall.gxt
-[00:50:35.918] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiControllerButtonsPS.gxt
-[00:50:35.925] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoSkipToMe.gxt
-[00:50:35.930] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoSkipToTop.gxt
-[00:50:35.933] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnTabSmall.gxt
-[00:50:35.942] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnTabNoArrowSmall.gxt
-[00:50:35.944] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoSkipToBottom.gxt
-[00:50:35.960] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/OlliOlli.gxt
-[00:50:35.963] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/loadingText.gxt
-[00:50:36.021] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/splashScreenBlit.gxt
-[00:50:36.030] |I| [export_sceIoOpen]: Opening file: savedata0:data.bin
-[00:50:36.063] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/LOGO.gxt
-[00:50:36.065] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[00:50:36.065] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
-[00:50:36.066] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
-[00:50:36.071] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[00:50:36.092] |I| [renderer::gl::load_shader_generic]: Generating frag shader f7366ad2761a011460947b61c4516f9a3e040dff6542bfb1fef10117e8149abd
-[00:50:36.094] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
-[00:50:36.111] |I| [renderer::gl::load_shader_generic]: Generating vert shader d29a1843c9138e54da36ea6830fcb1fa9a6ba5df0f96b3001aaf95e9451163ab
-[00:50:36.113] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[00:50:36.137] |E| [renderer::gl::compile_program]: Fragment info
+[06:50:26.005] |I| [load_app_impl]: cpu-backend: Dynarmic
+[06:50:26.006] |I| [load_app_impl]: CPU Optimisation state: true
+[06:50:26.006] |I| [load_app_impl]: at9 audio decoder state: true
+[06:50:26.006] |I| [load_app_impl]: ngs experimental state: true
+[06:50:26.006] |I| [load_app_impl]: video player state: true
+[06:50:26.006] |I| [load_app_impl]: modules mode: Automatic
+[06:50:26.006] |I| [load_app_impl]: Title: OlliOlli
+[06:50:26.006] |I| [load_app_impl]: Serial: PCSB00449
+[06:50:26.006] |I| [load_app_impl]: Version: 1.02
+[06:50:26.006] |I| [load_app_impl]: Category: gp
+[06:50:26.109] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:50:26.109] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000543BC / 0x81000000] (size: 0x0004D3BC) of module ux0:app\PCSB00449\sce_module\libc.suprx
+[06:50:26.109] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F0 / 0x8104E000] (size: 0x000026F0) of module ux0:app\PCSB00449\sce_module\libc.suprx
+[06:50:26.109] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libc.suprx
+[06:50:26.110] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A164
+[06:50:26.110] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x400FC
+[06:50:26.110] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x440BC, setting to stub value 0xDEADBEEF
+[06:50:26.111] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x45B70, setting to stub value 0xDEADBEEF
+[06:50:26.113] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00449\sce_module\libc.suprx") loaded
+[06:50:26.161] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:50:26.161] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x00071ED8 / 0x81000000] (size: 0x00017ED8) of module ux0:app\PCSB00449\sce_module\libface.suprx
+[06:50:26.162] |I| [load_self]: Loaded module segment 1 @ [0x00072000 - 0x000720F8 / 0x81018000] (size: 0x000000F8) of module ux0:app\PCSB00449\sce_module\libface.suprx
+[06:50:26.163] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libface.suprx
+[06:50:26.164] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6ED70
+[06:50:26.164] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00449\sce_module\libface.suprx") loaded
+[06:50:26.171] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:50:26.171] |I| [load_self]: Loaded module segment 0 @ [0x00073000 - 0x0009E12C / 0x81000000] (size: 0x0002B12C) of module ux0:app\PCSB00449\sce_module\libfios2.suprx
+[06:50:26.173] |I| [load_self]: Loaded module segment 1 @ [0x0009F000 - 0x000A423D / 0x8102C000] (size: 0x0000523D) of module ux0:app\PCSB00449\sce_module\libfios2.suprx
+[06:50:26.174] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libfios2.suprx
+[06:50:26.175] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9E034
+[06:50:26.175] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x95548
+[06:50:26.176] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00449\sce_module\libfios2.suprx") loaded
+[06:50:26.241] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:50:26.242] |I| [load_self]: Loaded module segment 0 @ [0x000A5000 - 0x002A3E9C / 0x81000000] (size: 0x001FEE9C) of module ux0:app\PCSB00449\sce_module\libsmart.suprx
+[06:50:26.242] |I| [load_self]: Loaded module segment 1 @ [0x002A4000 - 0x002A75C4 / 0x811FF000] (size: 0x000035C4) of module ux0:app\PCSB00449\sce_module\libsmart.suprx
+[06:50:26.243] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libsmart.suprx
+[06:50:26.244] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x145258
+[06:50:26.244] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00449\sce_module\libsmart.suprx") loaded
+[06:50:26.249] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:50:26.249] |I| [load_self]: Loaded module segment 0 @ [0x002A8000 - 0x002BBA9C / 0x81000000] (size: 0x00013A9C) of module ux0:app\PCSB00449\sce_module\libult.suprx
+[06:50:26.250] |I| [load_self]: Loaded module segment 1 @ [0x002BC000 - 0x002BC814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00449\sce_module\libult.suprx
+[06:50:26.251] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00449\sce_module\libult.suprx
+[06:50:26.253] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2BA3C8
+[06:50:26.253] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2B7944
+[06:50:26.254] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00449\sce_module\libult.suprx") loaded
+[06:50:26.261] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x0030DF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[06:50:26.261] |I| [load_self]: Loaded module segment 1 @ [0x0030E000 - 0x0030E2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[06:50:26.263] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[06:50:26.263] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2F97DC
+[06:50:26.263] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F8F10
+[06:50:26.264] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[06:50:26.266] |I| [load_self]: Loaded module segment 0 @ [0x0030F000 - 0x0031EF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[06:50:26.269] |I| [load_self]: Loaded module segment 1 @ [0x0031F000 - 0x0031F008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[06:50:26.273] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[06:50:26.273] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x31D710
+[06:50:26.273] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31D300
+[06:50:26.274] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[06:50:26.331] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:50:26.331] |I| [load_self]: Loaded module segment 0 @ [0x00320000 - 0x003D3EF4 / 0x81000000] (size: 0x000B3EF4) of module app0:eboot.bin
+[06:50:26.332] |I| [load_self]: Loaded module segment 1 @ [0x003D4000 - 0x0052FBD0 / 0x810B4000] (size: 0x0015BBD0) of module app0:eboot.bin
+[06:50:26.332] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[06:50:26.333] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x39A4D0
+[06:50:26.333] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x3DFC10
+[06:50:26.334] |I| [load_app_impl]: Main executable OlliOlli (eboot.bin) loaded
+[06:50:26.343] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
+[06:50:26.363] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00449\sce_module\libc.suprx") module_start returned 0x0
+[06:50:26.367] |D| [run_app]: Running module_start of library: SceFace at address 0x6E23D
+[06:50:26.378] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00449\sce_module\libface.suprx") module_start returned 0x0
+[06:50:26.383] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x73001
+[06:50:26.393] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[06:50:26.393] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
+[06:50:26.393] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[06:50:26.394] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00449\sce_module\libfios2.suprx") module_start returned 0x0
+[06:50:26.400] |D| [run_app]: Running module_start of library: SceSmart at address 0xA517D
+[06:50:26.411] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00449\sce_module\libsmart.suprx") module_start returned 0x0
+[06:50:26.416] |D| [run_app]: Running module_start of library: SceUlt at address 0x2AB769
+[06:50:26.424] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[06:50:26.424] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00449\sce_module\libult.suprx") module_start returned 0x0
+[06:50:26.452] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[06:50:26.472] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[06:50:26.472] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[06:50:26.509] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[06:50:26.513] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00449/data.arc (target path: app0:/data.arc)
+[06:50:26.514] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[06:50:26.522] |D| [export_sceSysmoduleLoadModule]: module id: 1
+[06:50:26.522] |D| [export_sceSysmoduleLoadModule]: module: libnet
+[06:50:26.524] |D| [export_sceSysmoduleLoadModule]: module: libnetctl
+[06:50:26.525] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[06:50:26.538] |D| [export_sceSysmoduleLoadModule]: module id: 21
+[06:50:26.538] |D| [export_sceSysmoduleLoadModule]: module: np_common
+[06:50:26.539] |D| [export_sceSysmoduleLoadModule]: module: np_manager
+[06:50:26.540] |D| [export_sceSysmoduleLoadModule]: module id: 37
+[06:50:26.540] |D| [export_sceSysmoduleLoadModule]: module: np_trophy
+[06:50:26.541] |D| [export_sceSysmoduleLoadModule]: module id: 30
+[06:50:26.541] |D| [export_sceSysmoduleLoadModule]: module: np_ranking
+[06:50:26.542] |D| [export_sceSysmoduleLoadModule]: module id: 18
+[06:50:26.542] |D| [export_sceSysmoduleLoadModule]: module: np_basic
+[06:50:26.543] |D| [export_sceSysmoduleLoadModule]: module id: 1
+[06:50:26.543] |D| [export_sceSysmoduleLoadModule]: module: libnet
+[06:50:26.544] |D| [export_sceSysmoduleLoadModule]: module: libnetctl
+[06:50:26.544] |D| [export_sceSysmoduleLoadModule]: module id: 4
+[06:50:26.545] |D| [export_sceSysmoduleLoadModule]: module: libhttp
+[06:50:26.545] |D| [export_sceSysmoduleLoadModule]: module: libssl
+[06:50:26.546] |D| [export_sceSysmoduleLoadModule]: module id: 25
+[06:50:26.547] |D| [export_sceSysmoduleLoadModule]: module: np_utility
+[06:50:26.547] |D| [export_sceSysmoduleLoadModule]: module id: 24
+[06:50:26.547] |D| [export_sceSysmoduleLoadModule]: module: np_commerce2
+[06:50:26.548] |D| [export_sceSysmoduleLoadModule]: module id: 44
+[06:50:26.548] |D| [export_sceSysmoduleLoadModule]: module: np_tus
+[06:50:26.549] |D| [export_sceSysmoduleLoadModule]: module id: 7
+[06:50:26.550] |D| [export_sceSysmoduleLoadModule]: module: libult
+[06:50:26.551] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[06:50:26.551] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[06:50:26.552] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2Init import called.
+[06:50:26.552] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[06:50:26.555] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSB00449, thread ID: 10)
+[06:50:26.561] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCurrentPriority import called.
+[06:50:26.569] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
+[06:50:26.572] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[06:50:26.756] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[06:50:26.757] |W| [stubbed_impl]: Stubbed sceNpManagerGetContentRatingFlag import called. (Stub)
+[06:50:26.757] |W| [stubbed_impl]: Stubbed sceNpManagerGetAccountRegion import called. (Stub)
+[06:50:26.758] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
+[06:50:26.846] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[06:50:26.847] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[06:50:26.847] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[06:50:26.949] |I| [export_sceIoOpen]: Opening file: app0:/settings/gamedata.ini
+[06:50:26.980] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/switchF.gxt
+[06:50:27.148] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/regularF.gxt
+[06:50:27.240] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/nollieF.gxt
+[06:50:27.337] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/fakieF.gxt
+[06:50:27.443] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/gapandgrind.gxt
+[06:50:27.446] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/board.gxt
+[06:50:27.471] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/entities.gxt
+[06:50:27.474] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChequer.gxt
+[06:50:27.498] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiDiamonds.gxt
+[06:50:27.534] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTag.gxt
+[06:50:27.561] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiPixels.gxt
+[06:50:27.578] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnBig.gxt
+[06:50:27.597] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnYellow.gxt
+[06:50:27.606] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnWhite.gxt
+[06:50:27.614] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnPro.gxt
+[06:50:27.615] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnTextYellow.gxt
+[06:50:27.617] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnText.gxt
+[06:50:27.621] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTab.gxt
+[06:50:27.627] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTabInfinity.gxt
+[06:50:27.628] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagComplete.gxt
+[06:50:27.629] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagNew.gxt
+[06:50:27.652] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiStarSmall.gxt
+[06:50:27.653] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiStarBig.gxt
+[06:50:27.654] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLocked.gxt
+[06:50:27.705] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoRestartBig.gxt
+[06:50:27.713] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoPlay.gxt
+[06:50:27.726] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoNext.gxt
+[06:50:27.728] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLevel.gxt
+[06:50:27.746] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum1.gxt
+[06:50:27.754] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum2.gxt
+[06:50:27.755] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum3.gxt
+[06:50:27.757] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum4.gxt
+[06:50:27.758] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiNum5.gxt
+[06:50:27.759] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoMain.gxt
+[06:50:27.761] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Birds.gxt
+[06:50:27.779] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/CrowdSprites.gxt
+[06:50:27.783] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiRedStriped.gxt
+[06:50:27.785] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiRedStripedBorder.gxt
+[06:50:27.786] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/DECALSSMALL.gxt
+[06:50:27.787] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Filmer.gxt
+[06:50:27.788] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/BUTTONHINTS.gxt
+[06:50:27.789] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMultiplierBorders.gxt
+[06:50:27.794] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/TutorialImages.gxt
+[06:50:27.855] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoOptions.gxt
+[06:50:27.857] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoClock.gxt
+[06:50:27.858] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoBook.gxt
+[06:50:27.859] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagKingScore.gxt
+[06:50:27.874] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoInfinite.gxt
+[06:50:27.875] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagKingDistance.gxt
+[06:50:27.876] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagKingAll.gxt
+[06:50:27.877] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMaskOuter.gxt
+[06:50:27.962] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMaskInner.gxt
+[06:50:27.992] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoBack.gxt
+[06:50:27.994] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronRed.gxt
+[06:50:27.995] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronGreen.gxt
+[06:50:27.995] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronYellow.gxt
+[06:50:27.996] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronPurple.gxt
+[06:50:27.997] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiChevronOrange.gxt
+[06:50:27.998] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoWorld.gxt
+[06:50:28.000] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoKing.gxt
+[06:50:28.000] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoPractice.gxt
+[06:50:28.002] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnRad.gxt
+[06:50:28.045] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/bonus.gxt
+[06:50:28.046] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/SovietDecals.gxt
+[06:50:28.057] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Neondecals.gxt
+[06:50:28.074] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/5pixels.gxt
+[06:50:28.075] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiDailyDiamond.gxt
+[06:50:28.076] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiScrubber.gxt
+[06:50:28.077] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiMusic.gxt
+[06:50:28.078] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiSFX.gxt
+[06:50:28.079] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/JUNKDECALS.gxt
+[06:50:28.082] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/NEONDECALS2.gxt
+[06:50:28.084] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/SFX.gxt
+[06:50:28.098] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/PlayerTrails.gxt
+[06:50:28.100] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiController.gxt
+[06:50:28.114] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/Particles.gxt
+[06:50:28.115] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiLanguage.gxt
+[06:50:28.116] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/PortDecals.gxt
+[06:50:28.117] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoWorldBig.gxt
+[06:50:28.117] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoCredits.gxt
+[06:50:28.119] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLang.gxt
+[06:50:28.120] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoResetData.gxt
+[06:50:28.137] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoTutorial.gxt
+[06:50:28.138] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoNextLevel.gxt
+[06:50:28.138] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoRestartSmall.gxt
+[06:50:28.139] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoConnect.gxt
+[06:50:28.140] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoTick.gxt
+[06:50:28.141] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoDailyLocked.gxt
+[06:50:28.142] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBackground.gxt
+[06:50:28.163] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiTagRad.gxt
+[06:50:28.164] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/LOGO.gxt
+[06:50:28.166] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoLBSmall.gxt
+[06:50:28.179] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiControllerButtonsPS.gxt
+[06:50:28.187] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoSkipToMe.gxt
+[06:50:28.192] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoSkipToTop.gxt
+[06:50:28.194] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnTabSmall.gxt
+[06:50:28.204] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiBtnTabNoArrowSmall.gxt
+[06:50:28.205] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/guiIcoSkipToBottom.gxt
+[06:50:28.221] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/OlliOlli.gxt
+[06:50:28.224] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/loadingText.gxt
+[06:50:28.233] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/splashScreenBlit.gxt
+[06:50:28.283] |I| [export_sceIoOpen]: Opening file: app0:/spritesheets/LOGO.gxt
+[06:50:28.286] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[06:50:28.286] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[06:50:28.287] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
+[06:50:28.293] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[06:50:28.300] |I| [export_sceIoOpen]: Opening file: savedata0:data.bin
+[06:50:28.315] |I| [renderer::gl::load_shader_generic]: Generating frag shader f7366ad2761a011460947b61c4516f9a3e040dff6542bfb1fef10117e8149abd
+[06:50:28.316] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
+[06:50:28.332] |I| [renderer::gl::load_shader_generic]: Generating vert shader d29a1843c9138e54da36ea6830fcb1fa9a6ba5df0f96b3001aaf95e9451163ab
+[06:50:28.333] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[06:50:28.355] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[00:50:36.138] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
-[00:50:36.140] |I| [renderer::gl::load_shader_generic]: Generating frag shader 51ce6b9d5563de2a1a6700ffcda049e208f9c844d8edd375ea22b20a582d9e4c
-[00:50:36.141] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[00:50:36.154] |I| [renderer::gl::load_shader_generic]: Generating vert shader ae9051dbc24c4a84022671f0d91fe33c05bba873845d92edf70542722e594306
-[00:50:36.155] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_Pos
-[00:50:36.158] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_Uv
-[00:50:36.162] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_Color
-[00:50:36.166] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float3) g_CameraMatrix[2]
-[00:50:36.207] |E| [renderer::gl::compile_program]: Vertex info
+[06:50:28.356] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[06:50:28.357] |I| [renderer::gl::load_shader_generic]: Generating frag shader 51ce6b9d5563de2a1a6700ffcda049e208f9c844d8edd375ea22b20a582d9e4c
+[06:50:28.358] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:50:28.366] |I| [renderer::gl::load_shader_generic]: Generating vert shader ae9051dbc24c4a84022671f0d91fe33c05bba873845d92edf70542722e594306
+[06:50:28.371] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_Pos
+[06:50:28.371] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_Uv
+[06:50:28.372] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_Color
+[06:50:28.372] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float3) g_CameraMatrix[2]
+[06:50:28.414] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "internals[0].w" might be used before being initialized
 0(25) : warning C7050: "internals[1].w" might be used before being initialized
 
 
-[00:50:36.210] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:36.214] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[00:50:39.229] |I| [export_sceIoOpen]: Opening file: app0:/settings/backgroundSettings.ini
-[00:50:39.234] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG4.gxt
-[00:50:39.242] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:39.243] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:39.244] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
-[00:50:39.280] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG5.gxt
-[00:50:39.305] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG3.gxt
-[00:50:39.330] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG6.gxt
-[00:50:39.337] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG2.gxt
-[00:50:39.351] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG1.gxt
-[00:50:39.370] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG4.gxt
-[00:50:39.398] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG5.gxt
-[00:50:39.424] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG3.gxt
-[00:50:39.448] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG6.gxt
-[00:50:39.463] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG2.gxt
-[00:50:39.494] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG1.gxt
-[00:50:39.527] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG4.gxt
-[00:50:39.540] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG5.gxt
-[00:50:39.553] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG3.gxt
-[00:50:39.583] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG6.gxt
-[00:50:39.583] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG2.gxt
-[00:50:39.606] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG1.gxt
-[00:50:39.632] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG4.gxt
-[00:50:39.660] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG5.gxt
-[00:50:39.669] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG3.gxt
-[00:50:39.689] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG6.gxt
-[00:50:39.703] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG2.gxt
-[00:50:39.726] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG1.gxt
-[00:50:39.757] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG4.gxt
-[00:50:39.790] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG5.gxt
-[00:50:39.833] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG3.gxt
-[00:50:39.856] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG6.gxt
-[00:50:39.897] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG2.gxt
-[00:50:39.899] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG1.gxt
-[00:50:39.920] |I| [export_sceIoOpen]: Opening file: app0:/settings/fontdata.ini
-[00:50:41.169] |I| [export_sceIoOpen]: Opening file: app0:/settings/blockSettings.ini
-[00:50:42.189] |I| [export_sceIoOpen]: Opening file: app0:/fonts/ollifont_100_white.gxt
-[00:50:42.600] |I| [export_sceIoOpen]: Opening file: app0:/fonts/ollifont_24_white.gxt
-[00:50:42.625] |I| [export_sceIoOpen]: Opening file: app0:/fonts/jpfont.gxt
-[00:50:42.739] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Jblankfloor.csv
-[00:50:42.765] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Jblankfloor.csv
-[00:50:42.769] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/jshortblock.csv
-[00:50:42.773] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/block_2floor.csv
-[00:50:42.781] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/FINISH.csv
-[00:50:42.784] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/jshortblock.csv
-[00:50:42.788] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASS.csv
-[00:50:42.792] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSBLOCKSTART.csv
-[00:50:42.796] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSBLOCKMID.csv
-[00:50:42.800] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSBLOCKEND.csv
-[00:50:42.804] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSRAILSTART.csv
-[00:50:42.808] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSRAILMID.csv
-[00:50:42.812] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSRAILEND.csv
-[00:50:42.816] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SHORT3STAIR.csv
-[00:50:42.835] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SHORT5STAIR.csv
-[00:50:42.840] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LONG3STAIR.csv
-[00:50:42.850] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LONG5STAIR.csv
-[00:50:42.854] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1Start.csv
-[00:50:42.876] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1Slope.csv
-[00:50:42.880] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1End.csv
-[00:50:42.884] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1KinkStart.csv
-[00:50:42.888] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1Flat.csv
-[00:50:42.892] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1KinkEnd.csv
-[00:50:42.896] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaStart.csv
-[00:50:42.900] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaSlope.csv
-[00:50:42.903] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaEnd.csv
-[00:50:42.907] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaKinkStart.csv
-[00:50:42.911] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaKinkFlat.csv
-[00:50:42.915] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaKinkEnd.csv
-[00:50:42.918] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGESTART.csv
-[00:50:42.922] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEMID.csv
-[00:50:42.926] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEEND.csv
-[00:50:42.930] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/RAILSTART.csv
-[00:50:42.934] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/RAILMID.csv
-[00:50:42.937] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/RAILEND.csv
-[00:50:42.941] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DROP4DOWN.csv
-[00:50:42.944] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DROP8DOWN.csv
-[00:50:42.948] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DROP11DOWN.csv
-[00:50:42.952] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/DUMPSTER.csv
-[00:50:42.970] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/block_whippyvan.csv
-[00:50:42.976] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/BENCH.csv
-[00:50:42.993] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/BENCHTODROP.csv
-[00:50:42.997] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/CRASHBARRIER.csv
-[00:50:43.001] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL1.csv
-[00:50:43.005] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL2.csv
-[00:50:43.009] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL3.csv
-[00:50:43.013] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL4.csv
-[00:50:43.017] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL5.csv
-[00:50:43.021] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL6.csv
-[00:50:43.024] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/BEEFEATER.csv
-[00:50:43.034] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HUBBASTARTFLAT.csv
-[00:50:43.038] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HUBBAENDFLAT.csv
-[00:50:43.041] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILSTART.csv
-[00:50:43.045] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILSLOPE.csv
-[00:50:43.049] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILKINKSTART.csv
-[00:50:43.053] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILKINKFLAT.csv
-[00:50:43.056] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILKINKEND.csv
-[00:50:43.060] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILEND.csv
-[00:50:43.064] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/TALLPLANTER.csv
-[00:50:43.067] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEUP2.csv
-[00:50:43.071] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATHCONE.csv
-[00:50:43.084] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATHPLANTER.csv
-[00:50:43.087] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/BINS1.csv
-[00:50:43.106] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/BINS2.csv
-[00:50:43.110] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/BINS3.csv
-[00:50:43.114] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH6X5.csv
-[00:50:43.117] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH5X5.csv
-[00:50:43.121] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH4X5.csv
-[00:50:43.124] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH3X5.csv
-[00:50:43.128] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH2X5.csv
-[00:50:43.131] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH5X4.csv
-[00:50:43.135] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH3X4.csv
-[00:50:43.138] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH2X4.csv
-[00:50:43.142] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH4X3.csv
-[00:50:43.145] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH3X3.csv
-[00:50:43.149] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH2X3.csv
-[00:50:43.152] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/FORCEJUMP.csv
-[00:50:43.156] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HOLDUP.csv
-[00:50:43.159] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/RELEASEUP.csv
-[00:50:43.163] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD3.csv
-[00:50:43.167] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD4.csv
-[00:50:43.170] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD1.csv
-[00:50:43.174] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD2.csv
-[00:50:43.178] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGUP1.csv
-[00:50:43.192] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGUP2.csv
-[00:50:43.216] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGUP3.csv
-[00:50:43.220] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT2.csv
-[00:50:43.289] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT3.csv
-[00:50:43.319] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT1.csv
-[00:50:43.322] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT4.csv
-[00:50:43.326] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGDOWN3.csv
-[00:50:43.330] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGDOWN2.csv
-[00:50:43.333] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGDOWN1.csv
-[00:50:43.337] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/WAVERAIL.csv
-[00:50:43.340] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/FISHSIGN.csv
-[00:50:43.344] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/MARKETSIGN.csv
-[00:50:43.347] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/GUARDTOWER.csv
-[00:50:43.351] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HELIPAD.csv
-[00:50:43.354] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HIND.csv
-[00:50:43.358] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HIND2.csv
-[00:50:43.361] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/JET.csv
-[00:50:43.365] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/NUKE.csv
-[00:50:43.368] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SCUD.csv
-[00:50:43.371] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SNOW.csv
-[00:50:43.375] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/TANK.csv
-[00:50:43.378] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/STAIRSLOPE1.csv
-[00:50:43.382] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/STAIRSLOPE2.csv
-[00:50:43.386] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/STAIRSLOPE3.csv
-[00:50:43.389] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_LOW.csv
-[00:50:43.411] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_MID.csv
-[00:50:43.414] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_HIGH.csv
-[00:50:43.427] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_UP.csv
-[00:50:43.431] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL1_HIGH.csv
-[00:50:43.434] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL2_HIGH.csv
-[00:50:43.438] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL1_LOW.csv
-[00:50:43.441] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL2_LOW.csv
-[00:50:43.444] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT1_HIGH.csv
-[00:50:43.448] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT2_HIGH.csv
-[00:50:43.451] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT3_HIGH.csv
-[00:50:43.455] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT4_HIGH.csv
-[00:50:43.458] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT1_LOW.csv
-[00:50:43.461] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT2_LOW.csv
-[00:50:43.465] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT3_LOW.csv
-[00:50:43.468] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT4_LOW.csv
-[00:50:43.471] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_KANJI_1.csv
-[00:50:43.474] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_KANJI_2.csv
-[00:50:43.478] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_KANJI_3.csv
-[00:50:43.481] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/ZILLA.csv
-[00:50:43.485] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/MECHA.csv
-[00:50:43.488] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/KITTYRAIL.csv
-[00:50:43.491] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/CURVERAIL.csv
-[00:50:43.499] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEDROP.csv
-[00:50:43.502] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DLEDGELOW.csv
-[00:50:43.506] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DLEDGEMID.csv
-[00:50:43.509] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DLEDGEHIGH.csv
-[00:50:43.513] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH1.csv
-[00:50:43.516] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH3.csv
-[00:50:43.519] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH2.csv
-[00:50:43.522] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH4.csv
-[00:50:43.526] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH7DIAGDOWN.csv
-[00:50:43.534] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH6DIAGUP.csv
-[00:50:43.537] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH5DIAGUP.csv
-[00:50:43.540] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH8.csv
-[00:50:43.544] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH9.csv
-[00:50:43.547] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH10.csv
-[00:50:43.556] |I| [export_sceIoOpen]: Opening file: app0:/settings/gamedata.ini
-[00:50:43.570] |I| [export_sceIoOpen]: Opening file: app0:/settings/tutLevelSettings.ini
-[00:50:43.571] |I| [export_sceIoOpen]: Opening file: app0:/settings/levelSpotSettings.ini
-[00:50:43.578] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/URBAN.gxt
-[00:50:43.606] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/JUNK.gxt
-[00:50:43.630] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/MARSAY.gxt
-[00:50:43.659] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/SOVIET.gxt
-[00:50:43.717] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/NEON.gxt
-[00:50:43.744] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial0.lvl
-[00:50:43.749] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial0Entities.lvl
-[00:50:43.750] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial1.lvl
-[00:50:43.752] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial1Entities.lvl
-[00:50:43.753] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial2.lvl
-[00:50:43.755] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial2Entities.lvl
-[00:50:43.756] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial3.lvl
-[00:50:43.758] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial3Entities.lvl
-[00:50:43.759] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial4.lvl
-[00:50:43.761] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial4Entities.lvl
-[00:50:43.762] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial5.lvl
-[00:50:43.764] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial5Entities.lvl
-[00:50:43.765] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial6.lvl
-[00:50:43.767] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial6Entities.lvl
-[00:50:43.768] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial7.lvl
-[00:50:43.770] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial7Entities.lvl
-[00:50:43.771] |I| [export_sceIoOpen]: Opening file: app0:/levels/DoNotEdit.lvl
-[00:50:43.782] |I| [export_sceIoOpen]: Opening file: app0:/levels/DoNotEdit_ENTITIES.lvl
-[00:50:43.783] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1.lvl
-[00:50:43.786] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1Entities.lvl
-[00:50:43.787] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2.lvl
-[00:50:43.804] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2Entities.lvl
-[00:50:43.805] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3.lvl
-[00:50:43.808] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3Entities.lvl
-[00:50:43.809] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4.lvl
-[00:50:43.812] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4Entities.lvl
-[00:50:43.813] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5.lvl
-[00:50:43.815] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5Entities.lvl
-[00:50:43.816] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1Pro.lvl
-[00:50:43.818] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1ProEntities.lvl
-[00:50:43.819] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2Pro.lvl
-[00:50:43.821] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2ProEntities.lvl
-[00:50:43.822] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3Pro.lvl
-[00:50:43.824] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3ProEntities.lvl
-[00:50:43.825] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4Pro.lvl
-[00:50:43.828] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4ProEntities.lvl
-[00:50:43.829] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5Pro.lvl
-[00:50:43.831] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5ProEntities.lvl
-[00:50:43.832] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1.lvl
-[00:50:43.851] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1Entities.lvl
-[00:50:43.853] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2.lvl
-[00:50:43.855] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2Entities.lvl
-[00:50:43.857] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3.lvl
-[00:50:43.860] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3Entities.lvl
-[00:50:43.861] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4.lvl
-[00:50:43.863] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4Entities.lvl
-[00:50:43.865] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5.lvl
-[00:50:43.867] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5Entities.lvl
-[00:50:43.868] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1Pro.lvl
-[00:50:43.871] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1ProEntities.lvl
-[00:50:43.872] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2Pro.lvl
-[00:50:43.874] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2ProEntities.lvl
-[00:50:43.875] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3Pro.lvl
-[00:50:43.878] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3ProEntities.lvl
-[00:50:43.879] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4Pro.lvl
-[00:50:43.881] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4ProEntities.lvl
-[00:50:43.882] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5Pro.lvl
-[00:50:43.884] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5ProEntities.lvl
-[00:50:43.885] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1.lvl
-[00:50:43.889] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1Entities.lvl
-[00:50:43.890] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2.lvl
-[00:50:43.892] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2Entities.lvl
-[00:50:43.893] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3.lvl
-[00:50:43.895] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3Entities.lvl
-[00:50:43.896] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4.lvl
-[00:50:43.899] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4Entities.lvl
-[00:50:43.899] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5.lvl
-[00:50:43.902] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5Entities.lvl
-[00:50:43.902] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1Pro.lvl
-[00:50:43.904] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1ProEntities.lvl
-[00:50:43.906] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2Pro.lvl
-[00:50:43.908] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2ProEntities.lvl
-[00:50:43.909] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3Pro.lvl
-[00:50:43.911] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3ProEntities.lvl
-[00:50:43.912] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4Pro.lvl
-[00:50:43.914] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4ProEntities.lvl
-[00:50:43.915] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5Pro.lvl
-[00:50:43.917] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5ProEntities.lvl
-[00:50:43.918] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1.lvl
-[00:50:43.924] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1Entities.lvl
-[00:50:43.925] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2.lvl
-[00:50:43.927] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2Entities.lvl
-[00:50:43.928] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3.lvl
-[00:50:43.933] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3Entities.lvl
-[00:50:43.933] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4.lvl
-[00:50:43.935] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4Entities.lvl
-[00:50:43.936] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5.lvl
-[00:50:43.938] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5Entities.lvl
-[00:50:43.939] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1Pro.lvl
-[00:50:43.941] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1ProEntities.lvl
-[00:50:43.942] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2Pro.lvl
-[00:50:43.945] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2ProEntities.lvl
-[00:50:43.946] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3Pro.lvl
-[00:50:43.948] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3ProEntities.lvl
-[00:50:43.948] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4Pro.lvl
-[00:50:43.951] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4ProEntities.lvl
-[00:50:43.952] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5Pro.lvl
-[00:50:43.954] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5ProEntities.lvl
-[00:50:43.954] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1.lvl
-[00:50:43.961] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1Entities.lvl
-[00:50:43.962] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2.lvl
-[00:50:43.964] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2Entities.lvl
-[00:50:43.965] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3.lvl
-[00:50:43.968] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3Entities.lvl
-[00:50:43.969] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4.lvl
-[00:50:43.971] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4Entities.lvl
-[00:50:43.972] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5.lvl
-[00:50:43.974] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5Entities.lvl
-[00:50:43.975] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1Pro.lvl
-[00:50:43.977] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1ProEntities.lvl
-[00:50:43.978] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2Pro.lvl
-[00:50:43.980] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2ProEntities.lvl
-[00:50:43.981] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3Pro.lvl
-[00:50:43.984] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3ProEntities.lvl
-[00:50:43.985] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4Pro.lvl
-[00:50:43.987] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4ProEntities.lvl
-[00:50:43.988] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5Pro.lvl
-[00:50:43.990] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5ProEntities.lvl
-[00:50:43.992] |I| [export_sceIoOpen]: Opening file: app0:/spots/DoNotEdit.lvl
-[00:50:44.003] |I| [export_sceIoOpen]: Opening file: app0:/spots/DoNotEdit_ENTITIES.lvl
-[00:50:44.004] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1.lvl
-[00:50:44.017] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1Entities.lvl
-[00:50:44.018] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2.lvl
-[00:50:44.020] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2Entities.lvl
-[00:50:44.021] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3.lvl
-[00:50:44.023] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3Entities.lvl
-[00:50:44.024] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4.lvl
-[00:50:44.040] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4Entities.lvl
-[00:50:44.041] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5.lvl
-[00:50:44.044] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5Entities.lvl
-[00:50:44.045] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1Pro.lvl
-[00:50:44.047] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1ProEntities.lvl
-[00:50:44.047] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2Pro.lvl
-[00:50:44.049] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2ProEntities.lvl
-[00:50:44.051] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3Pro.lvl
-[00:50:44.053] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3ProEntities.lvl
-[00:50:44.054] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4Pro.lvl
-[00:50:44.056] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4ProEntities.lvl
-[00:50:44.057] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5Pro.lvl
-[00:50:44.059] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5ProEntities.lvl
-[00:50:44.059] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1.lvl
-[00:50:44.075] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1Entities.lvl
-[00:50:44.076] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2.lvl
-[00:50:44.078] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2Entities.lvl
-[00:50:44.079] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3.lvl
-[00:50:44.081] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3Entities.lvl
-[00:50:44.082] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4.lvl
-[00:50:44.084] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4Entities.lvl
-[00:50:44.085] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5.lvl
-[00:50:44.087] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5Entities.lvl
-[00:50:44.088] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1Pro.lvl
-[00:50:44.090] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1ProEntities.lvl
-[00:50:44.091] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2Pro.lvl
-[00:50:44.093] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2ProEntities.lvl
-[00:50:44.093] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3Pro.lvl
-[00:50:44.095] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3ProEntities.lvl
-[00:50:44.096] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4Pro.lvl
-[00:50:44.098] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4ProEntities.lvl
-[00:50:44.099] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5Pro.lvl
-[00:50:44.101] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5ProEntities.lvl
-[00:50:44.102] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1.lvl
-[00:50:44.104] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1Entities.lvl
-[00:50:44.105] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2.lvl
-[00:50:44.107] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2Entities.lvl
-[00:50:44.108] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3.lvl
-[00:50:44.111] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3Entities.lvl
-[00:50:44.112] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4.lvl
-[00:50:44.114] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4Entities.lvl
-[00:50:44.115] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5.lvl
-[00:50:44.117] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5Entities.lvl
-[00:50:44.117] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1Pro.lvl
-[00:50:44.119] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1ProEntities.lvl
-[00:50:44.120] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2Pro.lvl
-[00:50:44.122] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2ProEntities.lvl
-[00:50:44.123] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3Pro.lvl
-[00:50:44.125] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3ProEntities.lvl
-[00:50:44.125] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4Pro.lvl
-[00:50:44.127] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4ProEntities.lvl
-[00:50:44.128] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5Pro.lvl
-[00:50:44.130] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5ProEntities.lvl
-[00:50:44.131] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1.lvl
-[00:50:44.133] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1Entities.lvl
-[00:50:44.134] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2.lvl
-[00:50:44.136] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2Entities.lvl
-[00:50:44.137] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3.lvl
-[00:50:44.139] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3Entities.lvl
-[00:50:44.141] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4.lvl
-[00:50:44.143] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4Entities.lvl
-[00:50:44.143] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5.lvl
-[00:50:44.145] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5Entities.lvl
-[00:50:44.146] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1Pro.lvl
-[00:50:44.148] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1ProEntities.lvl
-[00:50:44.149] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2Pro.lvl
-[00:50:44.151] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2ProEntities.lvl
-[00:50:44.152] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3Pro.lvl
-[00:50:44.154] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3ProEntities.lvl
-[00:50:44.154] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4Pro.lvl
-[00:50:44.156] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4ProEntities.lvl
-[00:50:44.157] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5Pro.lvl
-[00:50:44.159] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5ProEntities.lvl
-[00:50:44.159] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1.lvl
-[00:50:44.162] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1Entities.lvl
-[00:50:44.163] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2.lvl
-[00:50:44.165] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2Entities.lvl
-[00:50:44.165] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3.lvl
-[00:50:44.167] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3Entities.lvl
-[00:50:44.168] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4.lvl
-[00:50:44.170] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4Entities.lvl
-[00:50:44.170] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5.lvl
-[00:50:44.173] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5Entities.lvl
-[00:50:44.173] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1Pro.lvl
-[00:50:44.176] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1ProEntities.lvl
-[00:50:44.176] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2Pro.lvl
-[00:50:44.178] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2ProEntities.lvl
-[00:50:44.179] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3Pro.lvl
-[00:50:44.183] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3ProEntities.lvl
-[00:50:44.184] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4Pro.lvl
-[00:50:44.186] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4ProEntities.lvl
-[00:50:44.187] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5Pro.lvl
-[00:50:44.190] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5ProEntities.lvl
-[00:50:44.193] |I| [export_sceIoOpen]: Opening file: app0:/settings/AnimationData.ini
-[00:50:44.229] |I| [export_sceIoOpen]: Opening file: app0:/settings/TricksData.ini
-[00:50:44.329] |I| [export_sceIoOpen]: Opening file: app0:/settings/config.txt
-[00:50:44.348] |E| [call_import]: Import function for NID 0xE340C007 not found (thread name: PCSB00449, thread ID: 10)
-[00:50:44.351] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_ollie.at9
-[00:50:44.392] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_ollie.at9
-[00:50:44.392] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_shovit.at9
-[00:50:44.394] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_shovit.at9
-[00:50:44.395] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_kickflip.at9
-[00:50:44.398] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_heelflip.at9
-[00:50:44.399] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_180.at9
-[00:50:44.400] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_180.at9
-[00:50:44.412] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_shovit_flip.at9
-[00:50:44.413] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_flip.at9
-[00:50:44.414] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_flip.at9
-[00:50:44.414] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_hardflip.at9
-[00:50:44.422] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_varial_heelflip.at9
-[00:50:44.425] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_heelflip.at9
-[00:50:44.426] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_360_shovit.at9
-[00:50:44.427] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_360_shovit.at9
-[00:50:44.428] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_360_flip.at9
-[00:50:44.435] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_impossible.at9
-[00:50:44.436] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_laserflip.at9
-[00:50:44.437] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_bigspin.at9
-[00:50:44.440] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_bigspin.at9
-[00:50:44.441] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bigspin_flip.at9
-[00:50:44.442] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bigspin_heel.at9
-[00:50:44.442] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_360_hardflip.at9
-[00:50:44.443] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_truck_double_lp_01.at9
-[00:50:44.498] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_truck_single_lp_01.at9
-[00:50:44.499] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_nose_lp_01.at9
-[00:50:44.500] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_board_lp_01.at9
-[00:50:44.501] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_bluntside_lp_01.at9
-[00:50:44.506] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_01.at9
-[00:50:44.514] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_02.at9
-[00:50:44.515] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_fall_off_rnd_01.at9
-[00:50:44.516] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_fall_off_rnd_02.at9
-[00:50:44.517] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_kink_rnd_01.at9
-[00:50:44.517] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_kink_rnd_02.at9
-[00:50:44.518] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_land_rnd_01.at9
-[00:50:44.520] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_land_rnd_01.at9
-[00:50:44.520] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_truck_double_lp_01.at9
-[00:50:44.535] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_truck_single_lp_01.at9
-[00:50:44.536] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_nose_lp_01.at9
-[00:50:44.543] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_board_lp_01.at9
-[00:50:44.544] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_bluntside_lp_01.at9
-[00:50:44.545] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_exit_rnd_01.at9
-[00:50:44.545] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_exit_rnd_01.at9
-[00:50:44.546] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_fall_off_rnd_01.at9
-[00:50:44.546] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_fall_off_rnd_01.at9
-[00:50:44.547] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_kink_rnd_01.at9
-[00:50:44.556] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_kink_rnd_02.at9
-[00:50:44.587] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_land_rnd_01.at9
-[00:50:44.589] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_land_rnd_01.at9
-[00:50:44.589] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_truck_double_lp_01.at9
-[00:50:44.630] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_truck_single_lp_01.at9
-[00:50:44.647] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_nose_lp_01.at9
-[00:50:44.662] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_board_lp_01.at9
-[00:50:44.663] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_bluntside_lp_01.at9
-[00:50:44.664] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_exit_rnd_01.at9
-[00:50:44.665] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_exit_rnd_02.at9
-[00:50:44.666] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_fall_off_rnd_01.at9
-[00:50:44.666] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_fall_off_rnd_02.at9
-[00:50:44.667] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_kink_rnd_01.at9
-[00:50:44.667] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_kink_rnd_02.at9
-[00:50:44.668] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_land_rnd_01.at9
-[00:50:44.670] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_land_rnd_02.at9
-[00:50:44.670] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_truck_double_lp_01.at9
-[00:50:44.671] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_truck_single_lp_01.at9
-[00:50:44.672] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_nose_lp_01.at9
-[00:50:44.679] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_board_lp_01.at9
-[00:50:44.680] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_bluntside_lp_01.at9
-[00:50:44.681] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_exit_rnd_01.at9
-[00:50:44.683] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_exit_rnd_02.at9
-[00:50:44.684] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_fall_off_rnd_01.at9
-[00:50:44.685] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_fall_off_rnd_02.at9
-[00:50:44.685] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_kink_rnd_01.at9
-[00:50:44.686] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_kink_rnd_02.at9
-[00:50:44.686] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_land_rnd_01.at9
-[00:50:44.688] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_land_rnd_02.at9
-[00:50:44.688] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_truck_double_lp_01.at9
-[00:50:44.689] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_truck_single_lp_01.at9
-[00:50:44.691] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_nose_lp_01.at9
-[00:50:44.691] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_board_lp_01.at9
-[00:50:44.692] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_bluntside_lp_01.at9
-[00:50:44.695] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_01.at9
-[00:50:44.695] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_02.at9
-[00:50:44.696] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_fall_off_rnd_01.at9
-[00:50:44.697] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_fall_off_rnd_02.at9
-[00:50:44.697] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_kink_rnd_01.at9
-[00:50:44.698] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_kink_rnd_02.at9
-[00:50:44.698] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_land_rnd_01.at9
-[00:50:44.699] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_land_rnd_01.at9
-[00:50:44.699] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_truck_double_lp_01.at9
-[00:50:44.711] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_truck_single_lp_01.at9
-[00:50:44.721] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_nose_lp_01.at9
-[00:50:44.722] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_bluntside_lp_01.at9
-[00:50:44.741] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_board_lp_01.at9
-[00:50:44.766] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_01.at9
-[00:50:44.767] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_02.at9
-[00:50:44.767] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_fall_off_rnd_01.at9
-[00:50:44.769] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_fall_off_rnd_02.at9
-[00:50:44.791] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_kink_rnd_01.at9
-[00:50:44.793] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_kink_rnd_02.at9
-[00:50:44.809] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_land_rnd_01.at9
-[00:50:44.810] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_land_rnd_01.at9
-[00:50:44.810] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_truck_double_lp_01.at9
-[00:50:44.820] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_truck_single_lp_01.at9
-[00:50:44.821] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_nose_lp_01.at9
-[00:50:44.827] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_board_lp_01.at9
-[00:50:44.829] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_bluntside_lp_01.at9
-[00:50:44.830] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_01.at9
-[00:50:44.830] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_02.at9
-[00:50:44.831] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_fall_off_rnd_01.at9
-[00:50:44.848] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_fall_off_rnd_01.at9
-[00:50:44.849] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_kink_rnd_01.at9
-[00:50:44.850] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_kink_rnd_02.at9
-[00:50:44.850] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_land_rnd_01.at9
-[00:50:44.851] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_land_rnd_02.at9
-[00:50:44.852] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_truck_double_lp_01.at9
-[00:50:44.862] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_truck_single_lp_01.at9
-[00:50:44.863] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_nose_lp_01.at9
-[00:50:44.864] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_board_lp_01.at9
-[00:50:44.865] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_bluntside_lp_01.at9
-[00:50:44.866] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_exit_rnd_01.at9
-[00:50:44.867] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_exit_rnd_02.at9
-[00:50:44.869] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_fall_off_rnd_01.at9
-[00:50:44.870] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_fall_off_rnd_02.at9
-[00:50:44.870] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_kink_rnd_01.at9
-[00:50:44.871] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_kink_rnd_02.at9
-[00:50:44.871] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_land_rnd_01.at9
-[00:50:44.872] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_land_rnd_02.at9
-[00:50:44.872] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_truck_double_lp_01.at9
-[00:50:44.874] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_truck_single_lp_01.at9
-[00:50:44.894] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_nose_lp_01.at9
-[00:50:44.895] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_board_lp_01.at9
-[00:50:44.896] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_bluntside_lp_01.at9
-[00:50:44.897] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_exit_rnd_01.at9
-[00:50:44.898] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_exit_rnd_01.at9
-[00:50:44.898] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_fall_off_rnd_01.at9
-[00:50:44.899] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_fall_off_rnd_02.at9
-[00:50:44.900] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_kink_rnd_01.at9
-[00:50:44.901] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_kink_rnd_02.at9
-[00:50:44.901] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_land_rnd_01.at9
-[00:50:44.902] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_land_rnd_01.at9
-[00:50:44.902] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/amb_crowd_lp_01.at9
-[00:50:44.904] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_paved_concrete_lp_01.at9
-[00:50:44.930] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_rough_concrete_lp_01.at9
-[00:50:44.932] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_paved_rough_concrete_lp_01.at9
-[00:50:44.933] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_paved_marble_lp_01.at9
-[00:50:44.934] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_concrete_lp_01.at9
-[00:50:44.936] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_marble_lp_01.at9
-[00:50:44.937] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_01.at9
-[00:50:44.938] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_02.at9
-[00:50:44.939] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_03.at9
-[00:50:44.939] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_05.at9
-[00:50:44.941] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_06.at9
-[00:50:44.941] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_07.at9
-[00:50:44.943] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_l_01.at9
-[00:50:44.947] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_l_02.at9
-[00:50:44.948] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_l_03.at9
-[00:50:44.948] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_r_01.at9
-[00:50:44.949] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_r_02.at9
-[00:50:44.950] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_r_03.at9
-[00:50:44.950] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_land_perfect_02.at9
-[00:50:44.969] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_land_sloppy_01.at9
-[00:50:44.970] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_jump_on_rnd_01.at9
-[00:50:44.982] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_jump_on_rnd_02.at9
-[00:50:44.983] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_jump_on_rnd_03.at9
-[00:50:44.984] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_normal_rnd_01.at9
-[00:50:44.984] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_normal_rnd_02.at9
-[00:50:44.985] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_perfect_rnd_01.at9
-[00:50:44.995] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_perfect_rnd_02.at9
-[00:50:45.004] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_perfect_rnd_03.at9
-[00:50:45.004] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_sketchy_rnd_03.at9
-[00:50:45.012] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_sloppy_rnd_01.at9
-[00:50:45.013] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_grab_rnd_01.at9
-[00:50:45.013] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_wheelspin_01.at9
-[00:50:45.015] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_01.at9
-[00:50:45.016] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_02.at9
-[00:50:45.016] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_03.at9
-[00:50:45.017] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_04.at9
-[00:50:45.018] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_collision_slide_01.at9
-[00:50:45.031] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_01.at9
-[00:50:45.062] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_02.at9
-[00:50:45.074] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_03.at9
-[00:50:45.075] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_04.at9
-[00:50:45.089] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_05.at9
-[00:50:45.090] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_06.at9
-[00:50:45.091] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_07.at9
-[00:50:45.091] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_08.at9
-[00:50:45.092] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_09.at9
-[00:50:45.093] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_10.at9
-[00:50:45.094] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_11.at9
-[00:50:45.095] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_12.at9
-[00:50:45.095] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_13.at9
-[00:50:45.096] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_challenge_complete_slide_on.at9
-[00:50:45.097] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_challenge_complete_slide_off.at9
-[00:50:45.098] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_Collect_01.at9
-[00:50:45.098] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_hi_score.at9
-[00:50:45.106] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_score_appear.at9
-[00:50:45.111] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_Rad_Mode_on.at9
-[00:50:45.112] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_Rad_Mode_off_rnd_01.at9
-[00:50:45.113] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_pro_mode_unlocked.at9
-[00:50:45.123] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_pause.at9
-[00:50:45.124] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_open_trick_book.at9
-[00:50:45.126] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_Logo_in.at9
-[00:50:45.127] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_Logo_out.at9
-[00:50:45.128] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_daily_grind_wimp_out.at9
-[00:50:45.147] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_daily_grind_live_go.at9
-[00:50:45.148] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_cursor_move_locked.at9
-[00:50:45.149] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_cursor_move.at9
-[00:50:45.150] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_cursor_back.at9
-[00:50:45.150] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_error.at9
-[00:50:45.151] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_select.at9
-[00:50:45.152] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_snap.at9
-[00:50:45.153] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_level_unlocked.at9
-[00:50:45.154] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_land_perfect_02.at9
-[00:50:45.154] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_button_on.at9
-[00:50:45.155] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_button_off.at9
-[00:50:45.155] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_01.at9
-[00:50:45.156] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_02.at9
-[00:50:45.157] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_03.at9
-[00:50:45.157] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_04.at9
-[00:50:45.158] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_05.at9
-[00:50:45.159] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_06.at9
-[00:50:45.160] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_07.at9
-[00:50:45.161] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_08.at9
-[00:50:45.161] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_09.at9
-[00:50:45.162] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_10.at9
-[00:50:45.163] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_11.at9
-[00:50:45.163] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_12.at9
-[00:50:45.164] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_13.at9
-[00:50:45.166] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_14.at9
-[00:50:45.167] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_15.at9
-[00:50:45.168] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_press.at9
-[00:50:45.168] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_01.at9
-[00:50:45.169] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_02.at9
-[00:50:45.170] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_03.at9
-[00:50:45.171] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_04.at9
-[00:50:45.171] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_05.at9
-[00:50:45.172] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_06.at9
-[00:50:45.172] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_07.at9
-[00:50:45.175] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[00:50:45.178] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
-[00:50:45.181] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[00:50:45.184] |I| [export_sceClibPrintf]: sceFiosInitialize: WARNING: FIOS has already been initialized. Updating parameters with new values.
+[06:50:28.417] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:28.425] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[06:50:31.496] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:31.497] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:31.498] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
+[06:50:31.501] |I| [export_sceIoOpen]: Opening file: app0:/settings/backgroundSettings.ini
+[06:50:31.503] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG4.gxt
+[06:50:31.575] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG5.gxt
+[06:50:31.583] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG3.gxt
+[06:50:31.608] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG6.gxt
+[06:50:31.615] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG2.gxt
+[06:50:31.629] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/urban/urbanBG1.gxt
+[06:50:31.648] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG4.gxt
+[06:50:31.668] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG5.gxt
+[06:50:31.694] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG3.gxt
+[06:50:31.718] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG6.gxt
+[06:50:31.742] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG2.gxt
+[06:50:31.773] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/junkyard/junkBG1.gxt
+[06:50:31.797] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG4.gxt
+[06:50:31.810] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG5.gxt
+[06:50:31.823] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG3.gxt
+[06:50:31.852] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG6.gxt
+[06:50:31.853] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG2.gxt
+[06:50:31.867] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/marseilles/marseillesBG1.gxt
+[06:50:31.893] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG4.gxt
+[06:50:31.921] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG5.gxt
+[06:50:31.931] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG3.gxt
+[06:50:31.950] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG6.gxt
+[06:50:31.964] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG2.gxt
+[06:50:31.987] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/soviet/sovietBG1.gxt
+[06:50:32.019] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG4.gxt
+[06:50:32.059] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG5.gxt
+[06:50:32.095] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG3.gxt
+[06:50:32.126] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG6.gxt
+[06:50:32.158] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG2.gxt
+[06:50:32.161] |I| [export_sceIoOpen]: Opening file: app0:/backgrounds/neon/neonBG1.gxt
+[06:50:32.182] |I| [export_sceIoOpen]: Opening file: app0:/settings/fontdata.ini
+[06:50:33.331] |I| [export_sceIoOpen]: Opening file: app0:/settings/blockSettings.ini
+[06:50:34.253] |I| [export_sceIoOpen]: Opening file: app0:/fonts/ollifont_100_white.gxt
+[06:50:34.648] |I| [export_sceIoOpen]: Opening file: app0:/fonts/ollifont_24_white.gxt
+[06:50:34.671] |I| [export_sceIoOpen]: Opening file: app0:/fonts/jpfont.gxt
+[06:50:34.759] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Jblankfloor.csv
+[06:50:34.784] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Jblankfloor.csv
+[06:50:34.788] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/jshortblock.csv
+[06:50:34.792] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/block_2floor.csv
+[06:50:34.796] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/FINISH.csv
+[06:50:34.800] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/jshortblock.csv
+[06:50:34.803] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASS.csv
+[06:50:34.842] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSBLOCKSTART.csv
+[06:50:34.846] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSBLOCKMID.csv
+[06:50:34.850] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSBLOCKEND.csv
+[06:50:34.854] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSRAILSTART.csv
+[06:50:34.858] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSRAILMID.csv
+[06:50:34.861] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Grass/GRASSRAILEND.csv
+[06:50:34.865] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SHORT3STAIR.csv
+[06:50:34.880] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SHORT5STAIR.csv
+[06:50:34.885] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LONG3STAIR.csv
+[06:50:34.895] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LONG5STAIR.csv
+[06:50:34.899] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1Start.csv
+[06:50:34.908] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1Slope.csv
+[06:50:34.915] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1End.csv
+[06:50:34.919] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1KinkStart.csv
+[06:50:34.923] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1Flat.csv
+[06:50:34.926] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/Rail1KinkEnd.csv
+[06:50:34.930] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaStart.csv
+[06:50:34.937] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaSlope.csv
+[06:50:34.940] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaEnd.csv
+[06:50:34.944] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaKinkStart.csv
+[06:50:34.948] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaKinkFlat.csv
+[06:50:34.952] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HubbaKinkEnd.csv
+[06:50:34.956] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGESTART.csv
+[06:50:34.960] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEMID.csv
+[06:50:34.963] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEEND.csv
+[06:50:34.967] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/RAILSTART.csv
+[06:50:34.971] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/RAILMID.csv
+[06:50:34.975] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Rail/RAILEND.csv
+[06:50:34.979] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DROP4DOWN.csv
+[06:50:34.982] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DROP8DOWN.csv
+[06:50:34.986] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DROP11DOWN.csv
+[06:50:34.989] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/DUMPSTER.csv
+[06:50:35.007] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/block_whippyvan.csv
+[06:50:35.010] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/BENCH.csv
+[06:50:35.021] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/BENCHTODROP.csv
+[06:50:35.025] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/CRASHBARRIER.csv
+[06:50:35.029] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL1.csv
+[06:50:35.033] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL2.csv
+[06:50:35.036] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL3.csv
+[06:50:35.040] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL4.csv
+[06:50:35.043] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL5.csv
+[06:50:35.047] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/SPECIAL6.csv
+[06:50:35.051] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Special/BEEFEATER.csv
+[06:50:35.055] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HUBBASTARTFLAT.csv
+[06:50:35.058] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Hubba/HUBBAENDFLAT.csv
+[06:50:35.062] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILSTART.csv
+[06:50:35.065] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILSLOPE.csv
+[06:50:35.069] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILKINKSTART.csv
+[06:50:35.073] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILKINKFLAT.csv
+[06:50:35.076] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILKINKEND.csv
+[06:50:35.080] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SRail/SRAILEND.csv
+[06:50:35.084] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/TALLPLANTER.csv
+[06:50:35.088] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEUP2.csv
+[06:50:35.091] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATHCONE.csv
+[06:50:35.095] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATHPLANTER.csv
+[06:50:35.099] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/BINS1.csv
+[06:50:35.102] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/BINS2.csv
+[06:50:35.106] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/BINS3.csv
+[06:50:35.109] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH6X5.csv
+[06:50:35.112] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH5X5.csv
+[06:50:35.116] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH4X5.csv
+[06:50:35.119] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH3X5.csv
+[06:50:35.123] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH2X5.csv
+[06:50:35.126] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH5X4.csv
+[06:50:35.129] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH3X4.csv
+[06:50:35.133] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH2X4.csv
+[06:50:35.136] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH4X3.csv
+[06:50:35.139] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH3X3.csv
+[06:50:35.143] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Death/DEATH2X3.csv
+[06:50:35.146] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/FORCEJUMP.csv
+[06:50:35.150] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HOLDUP.csv
+[06:50:35.154] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/RELEASEUP.csv
+[06:50:35.157] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD3.csv
+[06:50:35.161] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD4.csv
+[06:50:35.164] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD1.csv
+[06:50:35.168] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Junk/JUNKYARD2.csv
+[06:50:35.172] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGUP1.csv
+[06:50:35.175] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGUP2.csv
+[06:50:35.179] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGUP3.csv
+[06:50:35.183] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT2.csv
+[06:50:35.187] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT3.csv
+[06:50:35.190] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT1.csv
+[06:50:35.193] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Flat/FLAT4.csv
+[06:50:35.197] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGDOWN3.csv
+[06:50:35.201] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGDOWN2.csv
+[06:50:35.204] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Diag/DIAGDOWN1.csv
+[06:50:35.209] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/WAVERAIL.csv
+[06:50:35.212] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/FISHSIGN.csv
+[06:50:35.216] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/MARKETSIGN.csv
+[06:50:35.219] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/GUARDTOWER.csv
+[06:50:35.224] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HELIPAD.csv
+[06:50:35.228] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HIND.csv
+[06:50:35.231] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/HIND2.csv
+[06:50:35.235] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/JET.csv
+[06:50:35.240] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/NUKE.csv
+[06:50:35.243] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SCUD.csv
+[06:50:35.246] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/SNOW.csv
+[06:50:35.250] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/TANK.csv
+[06:50:35.255] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/STAIRSLOPE1.csv
+[06:50:35.258] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/STAIRSLOPE2.csv
+[06:50:35.262] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/STAIRSLOPE3.csv
+[06:50:35.265] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_LOW.csv
+[06:50:35.272] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_MID.csv
+[06:50:35.276] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_HIGH.csv
+[06:50:35.280] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_D_UP.csv
+[06:50:35.283] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL1_HIGH.csv
+[06:50:35.286] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL2_HIGH.csv
+[06:50:35.290] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL1_LOW.csv
+[06:50:35.293] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_SMALL2_LOW.csv
+[06:50:35.297] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT1_HIGH.csv
+[06:50:35.300] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT2_HIGH.csv
+[06:50:35.304] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT3_HIGH.csv
+[06:50:35.307] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT4_HIGH.csv
+[06:50:35.311] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT1_LOW.csv
+[06:50:35.314] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT2_LOW.csv
+[06:50:35.318] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT3_LOW.csv
+[06:50:35.321] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_FLAT4_LOW.csv
+[06:50:35.325] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_KANJI_1.csv
+[06:50:35.328] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_KANJI_2.csv
+[06:50:35.331] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGN_KANJI_3.csv
+[06:50:35.334] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/ZILLA.csv
+[06:50:35.339] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/MECHA.csv
+[06:50:35.342] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/KITTYRAIL.csv
+[06:50:35.345] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/CURVERAIL.csv
+[06:50:35.350] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/LEDGEDROP.csv
+[06:50:35.353] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DLEDGELOW.csv
+[06:50:35.356] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DLEDGEMID.csv
+[06:50:35.360] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/DLEDGEHIGH.csv
+[06:50:35.363] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH1.csv
+[06:50:35.366] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH3.csv
+[06:50:35.370] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH2.csv
+[06:50:35.373] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH4.csv
+[06:50:35.376] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH7DIAGDOWN.csv
+[06:50:35.387] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH6DIAGUP.csv
+[06:50:35.390] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH5DIAGUP.csv
+[06:50:35.394] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH8.csv
+[06:50:35.397] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH9.csv
+[06:50:35.401] |I| [export_sceIoOpen]: Opening file: app0:/tileblocks/flatPieces/Sign/SIGNSUPERHIGH10.csv
+[06:50:35.415] |I| [export_sceIoOpen]: Opening file: app0:/settings/gamedata.ini
+[06:50:35.428] |I| [export_sceIoOpen]: Opening file: app0:/settings/tutLevelSettings.ini
+[06:50:35.430] |I| [export_sceIoOpen]: Opening file: app0:/settings/levelSpotSettings.ini
+[06:50:35.436] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/URBAN.gxt
+[06:50:35.468] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/JUNK.gxt
+[06:50:35.492] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/MARSAY.gxt
+[06:50:35.521] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/SOVIET.gxt
+[06:50:35.578] |I| [export_sceIoOpen]: Opening file: app0:/tilesheets/NEON.gxt
+[06:50:35.638] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial0.lvl
+[06:50:35.642] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial0Entities.lvl
+[06:50:35.643] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial1.lvl
+[06:50:35.645] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial1Entities.lvl
+[06:50:35.647] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial2.lvl
+[06:50:35.650] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial2Entities.lvl
+[06:50:35.650] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial3.lvl
+[06:50:35.652] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial3Entities.lvl
+[06:50:35.653] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial4.lvl
+[06:50:35.655] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial4Entities.lvl
+[06:50:35.656] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial5.lvl
+[06:50:35.658] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial5Entities.lvl
+[06:50:35.659] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial6.lvl
+[06:50:35.661] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial6Entities.lvl
+[06:50:35.663] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial7.lvl
+[06:50:35.666] |I| [export_sceIoOpen]: Opening file: app0:/tutorialLevels/Tutorial7Entities.lvl
+[06:50:35.667] |I| [export_sceIoOpen]: Opening file: app0:/levels/DoNotEdit.lvl
+[06:50:35.678] |I| [export_sceIoOpen]: Opening file: app0:/levels/DoNotEdit_ENTITIES.lvl
+[06:50:35.679] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1.lvl
+[06:50:35.682] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1Entities.lvl
+[06:50:35.683] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2.lvl
+[06:50:35.701] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2Entities.lvl
+[06:50:35.702] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3.lvl
+[06:50:35.704] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3Entities.lvl
+[06:50:35.706] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4.lvl
+[06:50:35.708] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4Entities.lvl
+[06:50:35.709] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5.lvl
+[06:50:35.713] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5Entities.lvl
+[06:50:35.714] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1Pro.lvl
+[06:50:35.717] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban1ProEntities.lvl
+[06:50:35.718] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2Pro.lvl
+[06:50:35.720] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban2ProEntities.lvl
+[06:50:35.720] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3Pro.lvl
+[06:50:35.722] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban3ProEntities.lvl
+[06:50:35.723] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4Pro.lvl
+[06:50:35.725] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban4ProEntities.lvl
+[06:50:35.726] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5Pro.lvl
+[06:50:35.729] |I| [export_sceIoOpen]: Opening file: app0:/levels/Urban/Urban5ProEntities.lvl
+[06:50:35.730] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1.lvl
+[06:50:35.755] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1Entities.lvl
+[06:50:35.757] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2.lvl
+[06:50:35.759] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2Entities.lvl
+[06:50:35.761] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3.lvl
+[06:50:35.763] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3Entities.lvl
+[06:50:35.765] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4.lvl
+[06:50:35.767] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4Entities.lvl
+[06:50:35.768] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5.lvl
+[06:50:35.771] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5Entities.lvl
+[06:50:35.772] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1Pro.lvl
+[06:50:35.774] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk1ProEntities.lvl
+[06:50:35.776] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2Pro.lvl
+[06:50:35.778] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk2ProEntities.lvl
+[06:50:35.779] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3Pro.lvl
+[06:50:35.781] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk3ProEntities.lvl
+[06:50:35.783] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4Pro.lvl
+[06:50:35.785] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk4ProEntities.lvl
+[06:50:35.786] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5Pro.lvl
+[06:50:35.789] |I| [export_sceIoOpen]: Opening file: app0:/levels/Junk/Junk5ProEntities.lvl
+[06:50:35.791] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1.lvl
+[06:50:35.793] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1Entities.lvl
+[06:50:35.794] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2.lvl
+[06:50:35.822] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2Entities.lvl
+[06:50:35.830] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3.lvl
+[06:50:35.833] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3Entities.lvl
+[06:50:35.834] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4.lvl
+[06:50:35.837] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4Entities.lvl
+[06:50:35.838] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5.lvl
+[06:50:35.840] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5Entities.lvl
+[06:50:35.841] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1Pro.lvl
+[06:50:35.843] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay1ProEntities.lvl
+[06:50:35.844] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2Pro.lvl
+[06:50:35.846] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay2ProEntities.lvl
+[06:50:35.847] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3Pro.lvl
+[06:50:35.849] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay3ProEntities.lvl
+[06:50:35.850] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4Pro.lvl
+[06:50:35.852] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay4ProEntities.lvl
+[06:50:35.853] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5Pro.lvl
+[06:50:35.870] |I| [export_sceIoOpen]: Opening file: app0:/levels/Port/Marsay5ProEntities.lvl
+[06:50:35.871] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1.lvl
+[06:50:35.886] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1Entities.lvl
+[06:50:35.887] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2.lvl
+[06:50:35.889] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2Entities.lvl
+[06:50:35.890] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3.lvl
+[06:50:35.894] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3Entities.lvl
+[06:50:35.895] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4.lvl
+[06:50:35.897] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4Entities.lvl
+[06:50:35.898] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5.lvl
+[06:50:35.902] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5Entities.lvl
+[06:50:35.903] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1Pro.lvl
+[06:50:35.905] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase1ProEntities.lvl
+[06:50:35.906] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2Pro.lvl
+[06:50:35.908] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase2ProEntities.lvl
+[06:50:35.908] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3Pro.lvl
+[06:50:35.910] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase3ProEntities.lvl
+[06:50:35.911] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4Pro.lvl
+[06:50:35.913] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase4ProEntities.lvl
+[06:50:35.914] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5Pro.lvl
+[06:50:35.918] |I| [export_sceIoOpen]: Opening file: app0:/levels/Base/AirBase5ProEntities.lvl
+[06:50:35.919] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1.lvl
+[06:50:35.922] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1Entities.lvl
+[06:50:35.923] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2.lvl
+[06:50:35.926] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2Entities.lvl
+[06:50:35.926] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3.lvl
+[06:50:35.929] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3Entities.lvl
+[06:50:35.930] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4.lvl
+[06:50:35.934] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4Entities.lvl
+[06:50:35.935] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5.lvl
+[06:50:35.937] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5Entities.lvl
+[06:50:35.938] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1Pro.lvl
+[06:50:35.940] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo1ProEntities.lvl
+[06:50:35.941] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2Pro.lvl
+[06:50:35.943] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo2ProEntities.lvl
+[06:50:35.944] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3Pro.lvl
+[06:50:35.946] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo3ProEntities.lvl
+[06:50:35.948] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4Pro.lvl
+[06:50:35.951] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo4ProEntities.lvl
+[06:50:35.951] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5Pro.lvl
+[06:50:35.953] |I| [export_sceIoOpen]: Opening file: app0:/levels/Neon/NeonTokyo5ProEntities.lvl
+[06:50:35.955] |I| [export_sceIoOpen]: Opening file: app0:/spots/DoNotEdit.lvl
+[06:50:35.965] |I| [export_sceIoOpen]: Opening file: app0:/spots/DoNotEdit_ENTITIES.lvl
+[06:50:35.966] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1.lvl
+[06:50:36.005] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1Entities.lvl
+[06:50:36.006] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2.lvl
+[06:50:36.008] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2Entities.lvl
+[06:50:36.009] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3.lvl
+[06:50:36.011] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3Entities.lvl
+[06:50:36.012] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4.lvl
+[06:50:36.014] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4Entities.lvl
+[06:50:36.015] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5.lvl
+[06:50:36.018] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5Entities.lvl
+[06:50:36.019] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1Pro.lvl
+[06:50:36.021] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban1ProEntities.lvl
+[06:50:36.022] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2Pro.lvl
+[06:50:36.024] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban2ProEntities.lvl
+[06:50:36.025] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3Pro.lvl
+[06:50:36.027] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban3ProEntities.lvl
+[06:50:36.029] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4Pro.lvl
+[06:50:36.032] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban4ProEntities.lvl
+[06:50:36.033] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5Pro.lvl
+[06:50:36.035] |I| [export_sceIoOpen]: Opening file: app0:/spots/Urban/Urban5ProEntities.lvl
+[06:50:36.036] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1.lvl
+[06:50:36.056] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1Entities.lvl
+[06:50:36.056] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2.lvl
+[06:50:36.063] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2Entities.lvl
+[06:50:36.064] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3.lvl
+[06:50:36.066] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3Entities.lvl
+[06:50:36.067] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4.lvl
+[06:50:36.069] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4Entities.lvl
+[06:50:36.070] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5.lvl
+[06:50:36.072] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5Entities.lvl
+[06:50:36.073] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1Pro.lvl
+[06:50:36.079] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk1ProEntities.lvl
+[06:50:36.080] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2Pro.lvl
+[06:50:36.082] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk2ProEntities.lvl
+[06:50:36.083] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3Pro.lvl
+[06:50:36.084] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk3ProEntities.lvl
+[06:50:36.085] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4Pro.lvl
+[06:50:36.087] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk4ProEntities.lvl
+[06:50:36.088] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5Pro.lvl
+[06:50:36.090] |I| [export_sceIoOpen]: Opening file: app0:/spots/Junk/Junk5ProEntities.lvl
+[06:50:36.092] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1.lvl
+[06:50:36.110] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1Entities.lvl
+[06:50:36.111] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2.lvl
+[06:50:36.113] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2Entities.lvl
+[06:50:36.114] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3.lvl
+[06:50:36.116] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3Entities.lvl
+[06:50:36.117] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4.lvl
+[06:50:36.119] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4Entities.lvl
+[06:50:36.120] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5.lvl
+[06:50:36.122] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5Entities.lvl
+[06:50:36.123] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1Pro.lvl
+[06:50:36.125] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay1ProEntities.lvl
+[06:50:36.126] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2Pro.lvl
+[06:50:36.128] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay2ProEntities.lvl
+[06:50:36.128] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3Pro.lvl
+[06:50:36.130] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay3ProEntities.lvl
+[06:50:36.131] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4Pro.lvl
+[06:50:36.133] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay4ProEntities.lvl
+[06:50:36.134] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5Pro.lvl
+[06:50:36.149] |I| [export_sceIoOpen]: Opening file: app0:/spots/Port/Marsay5ProEntities.lvl
+[06:50:36.150] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1.lvl
+[06:50:36.152] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1Entities.lvl
+[06:50:36.152] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2.lvl
+[06:50:36.154] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2Entities.lvl
+[06:50:36.155] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3.lvl
+[06:50:36.158] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3Entities.lvl
+[06:50:36.158] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4.lvl
+[06:50:36.160] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4Entities.lvl
+[06:50:36.161] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5.lvl
+[06:50:36.163] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5Entities.lvl
+[06:50:36.164] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1Pro.lvl
+[06:50:36.166] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase1ProEntities.lvl
+[06:50:36.167] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2Pro.lvl
+[06:50:36.169] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase2ProEntities.lvl
+[06:50:36.171] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3Pro.lvl
+[06:50:36.173] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase3ProEntities.lvl
+[06:50:36.174] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4Pro.lvl
+[06:50:36.176] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase4ProEntities.lvl
+[06:50:36.176] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5Pro.lvl
+[06:50:36.178] |I| [export_sceIoOpen]: Opening file: app0:/spots/Base/AirBase5ProEntities.lvl
+[06:50:36.179] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1.lvl
+[06:50:36.181] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1Entities.lvl
+[06:50:36.182] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2.lvl
+[06:50:36.184] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2Entities.lvl
+[06:50:36.184] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3.lvl
+[06:50:36.187] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3Entities.lvl
+[06:50:36.187] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4.lvl
+[06:50:36.190] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4Entities.lvl
+[06:50:36.190] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5.lvl
+[06:50:36.192] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5Entities.lvl
+[06:50:36.193] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1Pro.lvl
+[06:50:36.195] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo1ProEntities.lvl
+[06:50:36.195] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2Pro.lvl
+[06:50:36.197] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo2ProEntities.lvl
+[06:50:36.198] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3Pro.lvl
+[06:50:36.200] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo3ProEntities.lvl
+[06:50:36.201] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4Pro.lvl
+[06:50:36.205] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo4ProEntities.lvl
+[06:50:36.206] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5Pro.lvl
+[06:50:36.215] |I| [export_sceIoOpen]: Opening file: app0:/spots/Neon/NeonTokyo5ProEntities.lvl
+[06:50:36.218] |I| [export_sceIoOpen]: Opening file: app0:/settings/AnimationData.ini
+[06:50:36.251] |I| [export_sceIoOpen]: Opening file: app0:/settings/TricksData.ini
+[06:50:36.341] |D| [export_sceSysmoduleLoadModule]: module id: 11
+[06:50:36.341] |D| [export_sceSysmoduleLoadModule]: module: libngs
+[06:50:36.343] |D| [log_import_call]: [LLE] TID: 10  FUNC: 0xEE681E1D sceFiosFHOpenWithModeSync at 0x400F0
+[06:50:36.345] |I| [export_sceIoOpen]: Opening file: app0:/settings/config.txt
+[06:50:36.348] |D| [log_import_call]: [LLE] TID: 10  FUNC: 0xA75F3C4A sceFiosFHSeek at 0x400A0
+[06:50:36.349] |D| [log_import_call]: [LLE] TID: 10  FUNC: 0xB309E327 sceFiosIsValidHandle at 0x400C0
+[06:50:36.349] |D| [log_import_call]: [LLE] TID: 10  FUNC: 0x76945919 sceFiosFHReadSync at 0x40080
+[06:50:36.364] |E| [call_import]: Import function for NID 0xE340C007 not found (thread name: PCSB00449, thread ID: 10)
+[06:50:36.366] |D| [log_import_call]: [LLE] TID: 10  FUNC: 0x45182328 sceFiosFHCloseSync at 0x40060
+[06:50:36.368] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_ollie.at9
+[06:50:36.420] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_ollie.at9
+[06:50:36.421] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_shovit.at9
+[06:50:36.422] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_shovit.at9
+[06:50:36.423] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_kickflip.at9
+[06:50:36.427] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_heelflip.at9
+[06:50:36.428] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_180.at9
+[06:50:36.429] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_180.at9
+[06:50:36.440] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_shovit_flip.at9
+[06:50:36.442] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_flip.at9
+[06:50:36.443] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_flip.at9
+[06:50:36.443] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_hardflip.at9
+[06:50:36.444] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_varial_heelflip.at9
+[06:50:36.445] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_heelflip.at9
+[06:50:36.445] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_360_shovit.at9
+[06:50:36.446] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_360_shovit.at9
+[06:50:36.447] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_360_flip.at9
+[06:50:36.472] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_impossible.at9
+[06:50:36.473] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_laserflip.at9
+[06:50:36.474] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_fs_bigspin.at9
+[06:50:36.476] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bs_bigspin.at9
+[06:50:36.477] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bigspin_flip.at9
+[06:50:36.478] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_bigspin_heel.at9
+[06:50:36.479] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/trick/trick_360_hardflip.at9
+[06:50:36.480] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_truck_double_lp_01.at9
+[06:50:36.537] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_truck_single_lp_01.at9
+[06:50:36.538] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_nose_lp_01.at9
+[06:50:36.539] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_board_lp_01.at9
+[06:50:36.540] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_bluntside_lp_01.at9
+[06:50:36.552] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_01.at9
+[06:50:36.560] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_02.at9
+[06:50:36.561] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_fall_off_rnd_01.at9
+[06:50:36.561] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_fall_off_rnd_02.at9
+[06:50:36.562] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_kink_rnd_01.at9
+[06:50:36.562] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_kink_rnd_02.at9
+[06:50:36.563] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_land_rnd_01.at9
+[06:50:36.564] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_land_rnd_01.at9
+[06:50:36.564] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_truck_double_lp_01.at9
+[06:50:36.572] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_truck_single_lp_01.at9
+[06:50:36.573] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_nose_lp_01.at9
+[06:50:36.580] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_board_lp_01.at9
+[06:50:36.581] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_bluntside_lp_01.at9
+[06:50:36.581] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_exit_rnd_01.at9
+[06:50:36.582] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_exit_rnd_01.at9
+[06:50:36.582] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_fall_off_rnd_01.at9
+[06:50:36.585] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_fall_off_rnd_01.at9
+[06:50:36.585] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_kink_rnd_01.at9
+[06:50:36.593] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_kink_rnd_02.at9
+[06:50:36.594] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_land_rnd_01.at9
+[06:50:36.595] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rail_land_rnd_01.at9
+[06:50:36.595] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_truck_double_lp_01.at9
+[06:50:36.633] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_truck_single_lp_01.at9
+[06:50:36.635] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_nose_lp_01.at9
+[06:50:36.641] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_board_lp_01.at9
+[06:50:36.642] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_bluntside_lp_01.at9
+[06:50:36.642] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_exit_rnd_01.at9
+[06:50:36.643] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_exit_rnd_02.at9
+[06:50:36.644] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_fall_off_rnd_01.at9
+[06:50:36.644] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_fall_off_rnd_02.at9
+[06:50:36.645] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_kink_rnd_01.at9
+[06:50:36.645] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_kink_rnd_02.at9
+[06:50:36.646] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_land_rnd_01.at9
+[06:50:36.648] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_fat_rusty_rail_land_rnd_02.at9
+[06:50:36.649] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_truck_double_lp_01.at9
+[06:50:36.650] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_truck_single_lp_01.at9
+[06:50:36.651] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_nose_lp_01.at9
+[06:50:36.658] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_board_lp_01.at9
+[06:50:36.658] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_bluntside_lp_01.at9
+[06:50:36.659] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_exit_rnd_01.at9
+[06:50:36.662] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_exit_rnd_02.at9
+[06:50:36.663] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_fall_off_rnd_01.at9
+[06:50:36.664] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_fall_off_rnd_02.at9
+[06:50:36.665] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_kink_rnd_01.at9
+[06:50:36.665] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_kink_rnd_02.at9
+[06:50:36.666] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_land_rnd_01.at9
+[06:50:36.668] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_plastic_land_rnd_02.at9
+[06:50:36.668] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_truck_double_lp_01.at9
+[06:50:36.669] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_truck_single_lp_01.at9
+[06:50:36.677] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_nose_lp_01.at9
+[06:50:36.686] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_board_lp_01.at9
+[06:50:36.687] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_bluntside_lp_01.at9
+[06:50:36.688] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_01.at9
+[06:50:36.689] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_02.at9
+[06:50:36.689] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_fall_off_rnd_01.at9
+[06:50:36.690] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_fall_off_rnd_02.at9
+[06:50:36.691] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_kink_rnd_01.at9
+[06:50:36.691] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_kink_rnd_02.at9
+[06:50:36.692] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_land_rnd_01.at9
+[06:50:36.692] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_land_rnd_01.at9
+[06:50:36.692] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_truck_double_lp_01.at9
+[06:50:36.731] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_truck_single_lp_01.at9
+[06:50:36.741] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_nose_lp_01.at9
+[06:50:36.747] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_bluntside_lp_01.at9
+[06:50:36.751] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_board_lp_01.at9
+[06:50:36.751] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_01.at9
+[06:50:36.752] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_concrete_exit_rnd_02.at9
+[06:50:36.752] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_fall_off_rnd_01.at9
+[06:50:36.760] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_fall_off_rnd_02.at9
+[06:50:36.761] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_kink_rnd_01.at9
+[06:50:36.762] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_kink_rnd_02.at9
+[06:50:36.779] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_land_rnd_01.at9
+[06:50:36.780] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_stone_land_rnd_01.at9
+[06:50:36.781] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_truck_double_lp_01.at9
+[06:50:36.798] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_truck_single_lp_01.at9
+[06:50:36.799] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_nose_lp_01.at9
+[06:50:36.806] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_board_lp_01.at9
+[06:50:36.809] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_bluntside_lp_01.at9
+[06:50:36.810] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_01.at9
+[06:50:36.810] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindone/grind_solid_metal_exit_rnd_02.at9
+[06:50:36.811] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_fall_off_rnd_01.at9
+[06:50:36.812] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_fall_off_rnd_01.at9
+[06:50:36.812] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_kink_rnd_01.at9
+[06:50:36.814] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_kink_rnd_02.at9
+[06:50:36.815] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_land_rnd_01.at9
+[06:50:36.815] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rail_land_rnd_02.at9
+[06:50:36.816] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_truck_double_lp_01.at9
+[06:50:36.832] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_truck_single_lp_01.at9
+[06:50:36.834] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_nose_lp_01.at9
+[06:50:36.834] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_board_lp_01.at9
+[06:50:36.835] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_bluntside_lp_01.at9
+[06:50:36.836] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_exit_rnd_01.at9
+[06:50:36.837] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_exit_rnd_02.at9
+[06:50:36.838] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_fall_off_rnd_01.at9
+[06:50:36.840] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_fall_off_rnd_02.at9
+[06:50:36.840] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_kink_rnd_01.at9
+[06:50:36.841] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_kink_rnd_02.at9
+[06:50:36.841] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_land_rnd_01.at9
+[06:50:36.842] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_thin_rusty_rail_land_rnd_02.at9
+[06:50:36.842] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_truck_double_lp_01.at9
+[06:50:36.843] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_truck_single_lp_01.at9
+[06:50:36.864] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_nose_lp_01.at9
+[06:50:36.865] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_board_lp_01.at9
+[06:50:36.866] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_bluntside_lp_01.at9
+[06:50:36.867] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_exit_rnd_01.at9
+[06:50:36.867] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_exit_rnd_01.at9
+[06:50:36.868] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_fall_off_rnd_01.at9
+[06:50:36.868] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_fall_off_rnd_02.at9
+[06:50:36.869] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_kink_rnd_01.at9
+[06:50:36.871] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_kink_rnd_02.at9
+[06:50:36.871] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_land_rnd_01.at9
+[06:50:36.875] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/grindtwo/grind_wood_land_rnd_01.at9
+[06:50:36.875] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/amb_crowd_lp_01.at9
+[06:50:36.877] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_paved_concrete_lp_01.at9
+[06:50:36.891] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_rough_concrete_lp_01.at9
+[06:50:36.893] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_paved_rough_concrete_lp_01.at9
+[06:50:36.894] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_paved_marble_lp_01.at9
+[06:50:36.896] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_concrete_lp_01.at9
+[06:50:36.897] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/roll/roll_marble_lp_01.at9
+[06:50:36.898] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_01.at9
+[06:50:36.900] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_02.at9
+[06:50:36.900] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_03.at9
+[06:50:36.901] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_05.at9
+[06:50:36.904] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_06.at9
+[06:50:36.904] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_push_07.at9
+[06:50:36.907] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_l_01.at9
+[06:50:36.917] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_l_02.at9
+[06:50:36.926] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_l_03.at9
+[06:50:36.926] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_r_01.at9
+[06:50:36.928] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_r_02.at9
+[06:50:36.928] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/step/step_run_r_03.at9
+[06:50:36.929] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_land_perfect_02.at9
+[06:50:36.989] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_land_sloppy_01.at9
+[06:50:36.990] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_jump_on_rnd_01.at9
+[06:50:37.002] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_jump_on_rnd_02.at9
+[06:50:37.003] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_jump_on_rnd_03.at9
+[06:50:37.004] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_normal_rnd_01.at9
+[06:50:37.004] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_normal_rnd_02.at9
+[06:50:37.005] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_perfect_rnd_01.at9
+[06:50:37.015] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_perfect_rnd_02.at9
+[06:50:37.024] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_perfect_rnd_03.at9
+[06:50:37.025] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_sketchy_rnd_03.at9
+[06:50:37.032] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_land_sloppy_rnd_01.at9
+[06:50:37.033] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_grab_rnd_01.at9
+[06:50:37.033] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/board/board_wheelspin_01.at9
+[06:50:37.045] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_01.at9
+[06:50:37.046] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_02.at9
+[06:50:37.047] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_03.at9
+[06:50:37.048] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_bodyfall_rnd_04.at9
+[06:50:37.048] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/foley/foley_collision_slide_01.at9
+[06:50:37.063] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_01.at9
+[06:50:37.090] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_02.at9
+[06:50:37.091] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_03.at9
+[06:50:37.093] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_04.at9
+[06:50:37.109] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_05.at9
+[06:50:37.110] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_06.at9
+[06:50:37.111] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_07.at9
+[06:50:37.111] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_08.at9
+[06:50:37.112] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_09.at9
+[06:50:37.113] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_10.at9
+[06:50:37.114] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_11.at9
+[06:50:37.114] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_12.at9
+[06:50:37.115] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_13.at9
+[06:50:37.116] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_challenge_complete_slide_on.at9
+[06:50:37.117] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_challenge_complete_slide_off.at9
+[06:50:37.117] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_Collect_01.at9
+[06:50:37.118] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_hi_score.at9
+[06:50:37.126] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_score_appear.at9
+[06:50:37.131] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_Rad_Mode_on.at9
+[06:50:37.132] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_Rad_Mode_off_rnd_01.at9
+[06:50:37.133] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_pro_mode_unlocked.at9
+[06:50:37.143] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_pause.at9
+[06:50:37.144] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_open_trick_book.at9
+[06:50:37.145] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_Logo_in.at9
+[06:50:37.146] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_Logo_out.at9
+[06:50:37.147] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_daily_grind_wimp_out.at9
+[06:50:37.150] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_daily_grind_live_go.at9
+[06:50:37.157] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_cursor_move_locked.at9
+[06:50:37.158] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_cursor_move.at9
+[06:50:37.159] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_cursor_back.at9
+[06:50:37.160] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_error.at9
+[06:50:37.160] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_select.at9
+[06:50:37.161] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_snap.at9
+[06:50:37.162] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_level_unlocked.at9
+[06:50:37.163] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_land_perfect_02.at9
+[06:50:37.163] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_button_on.at9
+[06:50:37.164] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/UI_button_off.at9
+[06:50:37.165] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_01.at9
+[06:50:37.166] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_02.at9
+[06:50:37.167] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_03.at9
+[06:50:37.167] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_04.at9
+[06:50:37.168] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_05.at9
+[06:50:37.171] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_06.at9
+[06:50:37.171] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_07.at9
+[06:50:37.172] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_08.at9
+[06:50:37.173] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_09.at9
+[06:50:37.174] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_10.at9
+[06:50:37.174] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_11.at9
+[06:50:37.175] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_12.at9
+[06:50:37.176] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_13.at9
+[06:50:37.176] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_14.at9
+[06:50:37.186] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/vox/vox_pain_initial_15.at9
+[06:50:37.211] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_press.at9
+[06:50:37.226] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_01.at9
+[06:50:37.227] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_02.at9
+[06:50:37.227] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_03.at9
+[06:50:37.228] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_04.at9
+[06:50:37.230] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_05.at9
+[06:50:37.230] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_06.at9
+[06:50:37.232] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ui/ui_radio_tuning_07.at9
+[06:50:37.236] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[06:50:37.236] |D| [ngs::create_voice_definition]: type: 14
+[06:50:37.239] |D| [ngs::create_voice_definition]: type: 6
+[06:50:37.239] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
+[06:50:37.240] |D| [ngs::create_voice_definition]: type: 0
+[06:50:37.242] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[06:50:37.246] |I| [export_sceClibPrintf]: sceFiosInitialize: WARNING: FIOS has already been initialized. Updating parameters with new values.
 
-[00:50:45.186] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/music/little_things.at9
-[00:50:45.219] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[00:50:45.220] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ambience/ambience_london_lp.at9
-[00:50:45.234] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:50:45.234] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:50:45.304] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/music/ackryte.at9
-[00:50:45.314] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[00:50:45.315] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
-[00:50:45.325] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[00:50:45.348] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:45.349] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:45.349] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:45.350] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:45.351] |D| [renderer::gl::texture::translate_swizzle]: base format: 33554432, swizzle: 4096
-[00:50:45.351] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:45.352] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:50:45.352] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
-[00:50:45.352] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[00:50:45.357] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[00:51:01.893] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
+[06:50:37.247] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/music/little_things.at9
+[06:50:37.273] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[06:50:37.273] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ambience/ambience_london_lp.at9
+[06:50:37.304] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:50:37.304] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:50:37.368] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/music/leave.at9
+[06:50:37.380] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
+[06:50:37.381] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:50:37.383] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
+[06:50:37.403] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:37.404] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:37.405] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:37.405] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:37.406] |D| [renderer::gl::texture::translate_swizzle]: base format: 33554432, swizzle: 4096
+[06:50:37.407] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:37.408] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:50:37.408] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
+[06:50:37.409] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
+[06:50:37.414] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.453] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:00.481] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[06:51:00.482] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[06:51:00.495] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.496] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[06:51:00.509] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[06:51:00.537] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[06:51:00.592] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
+[06:51:00.592] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
+[06:51:00.592] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.593] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.594] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.594] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.594] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.595] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.595] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.596] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.596] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:00.597] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:01.835] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:01.848] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:01.848] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[06:51:01.849] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:01.849] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:01.850] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:01.899] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:01.899] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:03.086] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.283] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.301] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.315] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:04.317] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:04.318] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:04.323] |I| [export_sceIoOpen]: Opening file: app0:/data/sfx/ambience/ambience_london_lp.at9
+[06:51:04.343] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.429] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.445] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.461] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.477] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:04.688] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.704] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.721] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:04.738] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:04.951] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.968] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:04.985] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.001] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:05.218] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.235] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.251] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:05.268] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.485] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.502] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.519] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:05.536] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.751] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.767] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:05.784] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:05.800] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:06.014] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.030] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.046] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.062] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:06.274] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.291] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.307] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.323] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:06.537] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.553] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.569] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.599] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:06.600] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:06.600] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
+[06:51:06.601] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
+[06:51:06.616] |D| [renderer::gl::texture::translate_swizzle]: base format: 67108864, swizzle: 4096
+[06:51:06.617] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:06.617] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[06:51:06.733] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.750] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.766] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.783] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:06.998] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.014] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.030] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.046] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.259] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.275] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:07.291] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.307] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:07.521] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.537] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.554] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.570] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.786] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.803] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:07.819] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:07.835] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.051] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:08.067] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:08.084] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.101] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:08.200] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:08.216] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.233] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.250] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.266] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.445] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:08.445] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:08.462] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.462] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.478] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.478] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.495] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.495] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.512] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.512] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.528] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.528] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2
+[06:51:08.544] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:10.302] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:10.538] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:10.539] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:10.539] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:51:10.550] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[06:51:10.584] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 4096
+[06:51:11.199] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 2

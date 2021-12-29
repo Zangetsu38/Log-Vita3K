@@ -1,485 +1,228 @@
-[06:03:01.635] |I| [load_app_impl]: cpu-backend: Dynarmic
-[06:03:01.636] |I| [load_app_impl]: CPU Optimisation state: true
-[06:03:01.636] |I| [load_app_impl]: at9 audio decoder state: true
-[06:03:01.636] |I| [load_app_impl]: ngs experimental state: true
-[06:03:01.636] |I| [load_app_impl]: video player state: true
-[06:03:01.636] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,librudp,liblocation,libhandwriting
-[06:03:01.636] |I| [load_app_impl]: Title: Joe Danger
-[06:03:01.636] |I| [load_app_impl]: Serial: PCSB00475
-[06:03:01.636] |I| [load_app_impl]: Version: 1.01
-[06:03:01.636] |I| [load_app_impl]: Category: gp
-[06:03:01.757] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:03:01.758] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00056BD4 / 0x81000000] (size: 0x0004FBD4) of module ux0:app\PCSB00475\sce_module\libc.suprx
-[06:03:01.758] |I| [load_self]: Loaded module segment 1 @ [0x00057000 - 0x00059688 / 0x81050000] (size: 0x00002688) of module ux0:app\PCSB00475\sce_module\libc.suprx
-[06:03:01.758] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libc.suprx
-[06:03:01.759] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4C6C4
-[06:03:01.759] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x42488
-[06:03:01.759] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x464A8, setting to stub value 0xDEADBEEF
-[06:03:01.761] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x4802C, setting to stub value 0xDEADBEEF
-[06:03:01.761] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00475\sce_module\libc.suprx") loaded
-[06:03:01.791] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:03:01.791] |I| [load_self]: Loaded module segment 0 @ [0x0005C000 - 0x00074CF4 / 0x81000000] (size: 0x00018CF4) of module ux0:app\PCSB00475\sce_module\libface.suprx
-[06:03:01.792] |I| [load_self]: Loaded module segment 1 @ [0x00075000 - 0x000750F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB00475\sce_module\libface.suprx
-[06:03:01.792] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libface.suprx
-[06:03:01.793] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x71AC0
-[06:03:01.793] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x74478
-[06:03:01.794] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00475\sce_module\libface.suprx") loaded
-[06:03:01.810] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:03:01.810] |I| [load_self]: Loaded module segment 0 @ [0x00076000 - 0x000A0AA8 / 0x81000000] (size: 0x0002AAA8) of module ux0:app\PCSB00475\sce_module\libfios2.suprx
-[06:03:01.811] |I| [load_self]: Loaded module segment 1 @ [0x000A1000 - 0x000A623D / 0x8102B000] (size: 0x0000523D) of module ux0:app\PCSB00475\sce_module\libfios2.suprx
-[06:03:01.812] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libfios2.suprx
-[06:03:01.812] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA09B0
-[06:03:01.813] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98138
-[06:03:01.813] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00475\sce_module\libfios2.suprx") loaded
-[06:03:01.862] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:03:01.862] |I| [load_self]: Loaded module segment 0 @ [0x000A7000 - 0x002AC054 / 0x81000000] (size: 0x00205054) of module ux0:app\PCSB00475\sce_module\libsmart.suprx
-[06:03:01.863] |I| [load_self]: Loaded module segment 1 @ [0x002AD000 - 0x002B05C4 / 0x81206000] (size: 0x000035C4) of module ux0:app\PCSB00475\sce_module\libsmart.suprx
-[06:03:01.864] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libsmart.suprx
-[06:03:01.864] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x14A6AC
-[06:03:01.865] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x151308
-[06:03:01.865] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00475\sce_module\libsmart.suprx") loaded
-[06:03:01.888] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:03:01.888] |I| [load_self]: Loaded module segment 0 @ [0x002B1000 - 0x002C49C4 / 0x81000000] (size: 0x000139C4) of module ux0:app\PCSB00475\sce_module\libult.suprx
-[06:03:01.889] |I| [load_self]: Loaded module segment 1 @ [0x002C5000 - 0x002C5814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00475\sce_module\libult.suprx
-[06:03:01.889] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libult.suprx
-[06:03:01.890] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2C32F0
-[06:03:01.890] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2C0874
-[06:03:01.891] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00475\sce_module\libult.suprx") loaded
-[06:03:01.898] |I| [load_self]: Loaded module segment 0 @ [0x002C6000 - 0x00316F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[06:03:01.898] |I| [load_self]: Loaded module segment 1 @ [0x00317000 - 0x003172F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[06:03:01.899] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[06:03:01.902] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x3027DC
-[06:03:01.902] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x301F10
-[06:03:01.902] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[06:03:01.905] |I| [load_self]: Loaded module segment 0 @ [0x00318000 - 0x00327F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[06:03:01.905] |I| [load_self]: Loaded module segment 1 @ [0x00328000 - 0x00328008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[06:03:01.906] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[06:03:01.907] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x326710
-[06:03:01.908] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x326300
-[06:03:01.909] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[06:03:02.070] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:03:02.070] |I| [load_self]: Loaded module segment 0 @ [0x00329000 - 0x0086E274 / 0x81000000] (size: 0x00545274) of module app0:eboot.bin
-[06:03:02.071] |I| [load_self]: Loaded module segment 1 @ [0x0086F000 - 0x03A53F54 / 0x81546000] (size: 0x031E4F54) of module app0:eboot.bin
-[06:03:02.072] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[06:03:02.073] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x803EB4
-[06:03:02.073] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x873F3C
-[06:03:02.074] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x852714
-[06:03:02.075] |I| [load_app_impl]: Main executable Application (eboot.bin) loaded
-[06:03:02.084] |D| [run_app]: Running module_start of library: SceLibc at address 0x7805
-[06:03:02.133] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00475\sce_module\libc.suprx") module_start returned 0x0
-[06:03:02.137] |D| [run_app]: Running module_start of library: SceFace at address 0x70FC5
-[06:03:02.146] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00475\sce_module\libface.suprx") module_start returned 0x0
-[06:03:02.150] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x76001
-[06:03:02.158] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[06:03:02.159] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[06:03:02.159] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[06:03:02.160] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00475\sce_module\libfios2.suprx") module_start returned 0x0
-[06:03:02.164] |D| [run_app]: Running module_start of library: SceSmart at address 0xA717D
-[06:03:02.174] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00475\sce_module\libsmart.suprx") module_start returned 0x0
-[06:03:02.178] |D| [run_app]: Running module_start of library: SceUlt at address 0x2B4771
-[06:03:02.185] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[06:03:02.185] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00475\sce_module\libult.suprx") module_start returned 0x0
-[06:03:04.008] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[06:03:04.048] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[06:03:04.058] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[06:03:04.063] |W| [unimplemented_impl]: Unimplemented sceGxmShaderPatcherGetVertexUsseMemAllocated import called.
-[06:03:04.098] |I| [export_sceIoOpen]: Opening file: app0:/GameData/GamedataJD1Patch.mpk
-[06:03:04.152] |I| [export_sceIoOpen]: Opening file: app0:/GameData/GLOBALS.mpk
-[06:03:04.214] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[06:03:04.214] |I| [export_sceIoOpen]: Opening file: app0:/GameData/GamedataJD1.mpk
-[06:03:04.254] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
-[06:03:04.316] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\language\ps3\jdlocalisationversion2french.mbin
-[06:03:04.317] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/language/ps3/jdlocalisationversion2french.mbin (target path: app0:/GameData/JD1\language\ps3\jdlocalisationversion2french.mbin)
-[06:03:04.317] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.344] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[06:03:04.345] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:03:04.388] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
-[06:03:04.480] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[06:03:04.481] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
-[06:03:04.481] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[06:03:04.482] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[06:03:04.485] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[06:03:04.486] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
-[06:03:04.522] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
-[06:03:04.523] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
-[06:03:04.523] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
-[06:03:04.525] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[06:03:04.527] |W| [unimplemented_impl]: Unimplemented sceNpBasicCheckCallback import called.
-[06:03:04.865] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
-[06:03:04.865] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
-[06:03:04.866] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.867] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
-[06:03:04.868] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
-[06:03:04.869] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.871] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
-[06:03:04.872] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
-[06:03:04.872] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.873] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
-[06:03:04.874] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
-[06:03:04.875] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.877] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
-[06:03:04.877] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
-[06:03:04.879] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.879] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
-[06:03:04.880] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
-[06:03:04.884] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.886] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
-[06:03:04.886] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
-[06:03:04.887] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.888] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
-[06:03:04.888] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
-[06:03:04.889] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.891] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
-[06:03:04.892] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
-[06:03:04.893] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.894] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
-[06:03:04.894] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
-[06:03:04.895] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.897] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
-[06:03:04.900] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
-[06:03:04.901] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:04.902] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
-[06:03:04.902] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
-[06:03:04.904] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:05.082] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[06:03:05.319] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[06:03:05.331] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
-[06:03:05.338] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[06:03:05.359] |I| [renderer::gl::load_shader_generic]: Generating frag shader 270059f24097cae4ca6e2aaafff8310b136b28d9778cf0bc70c79a9cf11d8449
-[06:03:05.361] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[06:03:05.378] |I| [renderer::gl::load_shader_generic]: Generating vert shader 4c7aa04a0ac0fbf9299f7e6d2b61861d0828cf638762ef9ba09074e641677c9b
-[06:03:05.380] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vertPos
-[06:03:05.380] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
-[06:03:05.392] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\audio.fev
-[06:03:05.406] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[06:03:05.409] |I| [renderer::gl::load_shader_generic]: Generating frag shader a48b206783211a9c09277e4b6ebb1955f59d6bd8abd3fcc518d2545bb9b33b73
-[06:03:05.410] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[06:03:05.417] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9f89be8b9c8929c9bf2da3dfb0f9097f4b75f6f675e104cf5770472cda62417c
-[06:03:05.418] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_vertPos32
-[06:03:05.418] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float2) In_texCoords0132
-[06:03:05.419] |D| [shader::create_parameters]: [BUFFER0  + 6] pa6 = (float4) In_color32
-[06:03:05.419] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) gMatWVP[4]
-[06:03:05.420] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) userZ
-[06:03:05.456] |E| [renderer::gl::compile_program]: Vertex info
+[04:15:12.997] |I| [load_app_impl]: cpu-backend: Dynarmic
+[04:15:12.997] |I| [load_app_impl]: CPU Optimisation state: true
+[04:15:12.997] |I| [load_app_impl]: at9 audio decoder state: true
+[04:15:12.997] |I| [load_app_impl]: ngs experimental state: true
+[04:15:12.997] |I| [load_app_impl]: video player state: true
+[04:15:12.997] |I| [load_app_impl]: modules mode: 0
+[04:15:12.997] |I| [load_app_impl]: Title: Joe Danger
+[04:15:12.997] |I| [load_app_impl]: Serial: PCSB00475
+[04:15:12.997] |I| [load_app_impl]: Version: 1.01
+[04:15:12.997] |I| [load_app_impl]: Category: gp
+[04:15:13.006] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[04:15:13.006] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00056BD4 / 0x81000000] (size: 0x0004FBD4) of module ux0:app\PCSB00475\sce_module\libc.suprx
+[04:15:13.006] |I| [load_self]: Loaded module segment 1 @ [0x00057000 - 0x00059688 / 0x81050000] (size: 0x00002688) of module ux0:app\PCSB00475\sce_module\libc.suprx
+[04:15:13.006] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libc.suprx
+[04:15:13.007] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4C6C4
+[04:15:13.007] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x42488
+[04:15:13.007] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x464A8, setting to stub value 0xDEADBEEF
+[04:15:13.009] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x4802C, setting to stub value 0xDEADBEEF
+[04:15:13.012] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00475\sce_module\libc.suprx") loaded
+[04:15:13.048] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[04:15:13.049] |I| [load_self]: Loaded module segment 0 @ [0x0005C000 - 0x00074CF4 / 0x81000000] (size: 0x00018CF4) of module ux0:app\PCSB00475\sce_module\libface.suprx
+[04:15:13.050] |I| [load_self]: Loaded module segment 1 @ [0x00075000 - 0x000750F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSB00475\sce_module\libface.suprx
+[04:15:13.050] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libface.suprx
+[04:15:13.051] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x71AC0
+[04:15:13.051] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x74478
+[04:15:13.052] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSB00475\sce_module\libface.suprx") loaded
+[04:15:13.057] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[04:15:13.058] |I| [load_self]: Loaded module segment 0 @ [0x00076000 - 0x000A0AA8 / 0x81000000] (size: 0x0002AAA8) of module ux0:app\PCSB00475\sce_module\libfios2.suprx
+[04:15:13.059] |I| [load_self]: Loaded module segment 1 @ [0x000A1000 - 0x000A623D / 0x8102B000] (size: 0x0000523D) of module ux0:app\PCSB00475\sce_module\libfios2.suprx
+[04:15:13.060] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libfios2.suprx
+[04:15:13.061] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA09B0
+[04:15:13.061] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98138
+[04:15:13.061] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00475\sce_module\libfios2.suprx") loaded
+[04:15:13.111] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[04:15:13.112] |I| [load_self]: Loaded module segment 0 @ [0x000A7000 - 0x002AC054 / 0x81000000] (size: 0x00205054) of module ux0:app\PCSB00475\sce_module\libsmart.suprx
+[04:15:13.112] |I| [load_self]: Loaded module segment 1 @ [0x002AD000 - 0x002B05C4 / 0x81206000] (size: 0x000035C4) of module ux0:app\PCSB00475\sce_module\libsmart.suprx
+[04:15:13.114] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libsmart.suprx
+[04:15:13.114] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x14A6AC
+[04:15:13.114] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x151308
+[04:15:13.115] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSB00475\sce_module\libsmart.suprx") loaded
+[04:15:13.119] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[04:15:13.119] |I| [load_self]: Loaded module segment 0 @ [0x002B1000 - 0x002C49C4 / 0x81000000] (size: 0x000139C4) of module ux0:app\PCSB00475\sce_module\libult.suprx
+[04:15:13.120] |I| [load_self]: Loaded module segment 1 @ [0x002C5000 - 0x002C5814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSB00475\sce_module\libult.suprx
+[04:15:13.123] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00475\sce_module\libult.suprx
+[04:15:13.123] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2C32F0
+[04:15:13.124] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2C0874
+[04:15:13.124] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00475\sce_module\libult.suprx") loaded
+[04:15:13.132] |I| [load_self]: Loaded module segment 0 @ [0x002C6000 - 0x00316F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[04:15:13.132] |I| [load_self]: Loaded module segment 1 @ [0x00317000 - 0x003172F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[04:15:13.133] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[04:15:13.133] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x3027DC
+[04:15:13.134] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x301F10
+[04:15:13.134] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[04:15:13.137] |I| [load_self]: Loaded module segment 0 @ [0x00318000 - 0x00327F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[04:15:13.138] |I| [load_self]: Loaded module segment 1 @ [0x00328000 - 0x00328008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[04:15:13.140] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[04:15:13.140] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x326710
+[04:15:13.141] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x326300
+[04:15:13.141] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[04:15:13.284] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[04:15:13.284] |I| [load_self]: Loaded module segment 0 @ [0x00329000 - 0x0086E274 / 0x81000000] (size: 0x00545274) of module app0:eboot.bin
+[04:15:13.285] |I| [load_self]: Loaded module segment 1 @ [0x0086F000 - 0x03A53F54 / 0x81546000] (size: 0x031E4F54) of module app0:eboot.bin
+[04:15:13.286] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[04:15:13.286] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x803EB4
+[04:15:13.287] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x873F3C
+[04:15:13.287] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x852714
+[04:15:13.288] |I| [load_app_impl]: Main executable Application (eboot.bin) loaded
+[04:15:13.297] |D| [run_app]: Running module_start of library: SceLibc at address 0x7805
+[04:15:13.348] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00475\sce_module\libc.suprx") module_start returned 0x0
+[04:15:13.353] |D| [run_app]: Running module_start of library: SceFace at address 0x70FC5
+[04:15:13.361] |I| [run_app]: Module SceFace (at "ux0:app\PCSB00475\sce_module\libface.suprx") module_start returned 0x0
+[04:15:13.366] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x76001
+[04:15:13.373] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[04:15:13.374] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[04:15:13.375] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[04:15:13.376] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00475\sce_module\libfios2.suprx") module_start returned 0x0
+[04:15:13.380] |D| [run_app]: Running module_start of library: SceSmart at address 0xA717D
+[04:15:13.390] |I| [run_app]: Module SceSmart (at "ux0:app\PCSB00475\sce_module\libsmart.suprx") module_start returned 0x0
+[04:15:13.396] |D| [run_app]: Running module_start of library: SceUlt at address 0x2B4771
+[04:15:13.403] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[04:15:13.403] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00475\sce_module\libult.suprx") module_start returned 0x0
+[04:15:15.259] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[04:15:15.300] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[04:15:15.361] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[04:15:15.366] |W| [unimplemented_impl]: Unimplemented sceGxmShaderPatcherGetVertexUsseMemAllocated import called.
+[04:15:15.458] |I| [export_sceIoOpen]: Opening file: app0:/GameData/GamedataJD1Patch.mpk
+[04:15:15.462] |I| [export_sceIoOpen]: Opening file: app0:/GameData/GLOBALS.mpk
+[04:15:15.518] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[04:15:15.518] |I| [export_sceIoOpen]: Opening file: app0:/GameData/GamedataJD1.mpk
+[04:15:15.523] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[04:15:15.580] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\language\ps3\jdlocalisationversion2french.mbin
+[04:15:15.580] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/language/ps3/jdlocalisationversion2french.mbin (target path: app0:/GameData/JD1\language\ps3\jdlocalisationversion2french.mbin)
+[04:15:15.581] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.605] |D| [export_sceSysmoduleLoadModule]: module id: 11
+[04:15:15.605] |D| [export_sceSysmoduleLoadModule]: module: libngs
+[04:15:15.606] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[04:15:15.606] |D| [ngs::create_voice_definition]: type: 0
+[04:15:15.607] |D| [ngs::create_voice_definition]: type: 12
+[04:15:15.608] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[04:15:15.650] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[04:15:15.701] |D| [export_sceSysmoduleLoadModule]: module id: 44
+[04:15:15.701] |D| [export_sceSysmoduleLoadModule]: module: np_tus
+[04:15:15.730] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[04:15:15.730] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
+[04:15:15.732] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[04:15:15.732] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[04:15:15.734] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[04:15:15.736] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
+[04:15:15.740] |D| [export_sceSysmoduleLoadModule]: module id: 37
+[04:15:15.740] |D| [export_sceSysmoduleLoadModule]: module: np_trophy
+[04:15:15.770] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[04:15:15.771] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[04:15:15.772] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
+[04:15:15.774] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[04:15:15.775] |W| [unimplemented_impl]: Unimplemented sceNpBasicCheckCallback import called.
+[04:15:15.892] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
+[04:15:15.892] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
+[04:15:15.893] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.894] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
+[04:15:15.894] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
+[04:15:15.895] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.896] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
+[04:15:15.896] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
+[04:15:15.897] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.898] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
+[04:15:15.898] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
+[04:15:15.899] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.900] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
+[04:15:15.900] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
+[04:15:15.901] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.901] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
+[04:15:15.902] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
+[04:15:15.903] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.904] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
+[04:15:15.904] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
+[04:15:15.908] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.909] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
+[04:15:15.909] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
+[04:15:15.910] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.911] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
+[04:15:15.912] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
+[04:15:15.912] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.913] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
+[04:15:15.913] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
+[04:15:15.914] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.915] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin
+[04:15:15.915] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/upslopefollowdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\upslopefollowdata.mbin)
+[04:15:15.916] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:15.917] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin
+[04:15:15.917] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/metadata/world/cameras/multiplayerdata.mbin (target path: app0:/GameData/JD1\metadata\world\cameras\multiplayerdata.mbin)
+[04:15:15.925] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:16.140] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[04:15:16.294] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[04:15:16.304] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[04:15:16.314] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[04:15:16.340] |I| [renderer::gl::load_shader_generic]: Generating frag shader 270059f24097cae4ca6e2aaafff8310b136b28d9778cf0bc70c79a9cf11d8449
+[04:15:16.343] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
+[04:15:16.347] |I| [renderer::gl::load_shader_generic]: Generating vert shader 4c7aa04a0ac0fbf9299f7e6d2b61861d0828cf638762ef9ba09074e641677c9b
+[04:15:16.348] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vertPos
+[04:15:16.348] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) color
+[04:15:16.353] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[04:15:16.357] |I| [renderer::gl::load_shader_generic]: Generating frag shader a48b206783211a9c09277e4b6ebb1955f59d6bd8abd3fcc518d2545bb9b33b73
+[04:15:16.358] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[04:15:16.362] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, width: 64, height: 64, texFormat: -2063597568
+[04:15:16.363] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9f89be8b9c8929c9bf2da3dfb0f9097f4b75f6f675e104cf5770472cda62417c
+[04:15:16.365] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_vertPos32
+[04:15:16.366] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\audio.fev
+[04:15:16.367] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float2) In_texCoords0132
+[04:15:16.368] |D| [shader::create_parameters]: [BUFFER0  + 6] pa6 = (float4) In_color32
+[04:15:16.369] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) gMatWVP[4]
+[04:15:16.369] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) userZ
+[04:15:16.382] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(23) : warning C7050: "pa[1].zw" might be used before being initialized
 0(23) : warning C7050: "pa[2].zw" might be used before being initialized
 
 
-[06:03:05.460] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[06:03:05.462] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[06:03:05.466] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[06:03:05.466] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.469] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.473] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.481] |W| [stubbed_impl]: Stubbed sceGxmTextureInitCube import called. (Stub InitCube)
-[06:03:05.481] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 256, height: 256
-[06:03:05.485] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.500] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 64, height: 64
-[06:03:05.503] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.521] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:05.532] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.561] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.590] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.618] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.647] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.677] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.679] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:05.697] |I| [export_sceIoOpen]: Opening file: savedata0:JD1_profile.dat
-[06:03:05.697] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00475/JD1_profile.dat (target path: savedata0:JD1_profile.dat)
-[06:03:05.698] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:05.699] |I| [export_sceIoOpen]: Opening file: savedata0:JD1_ghosts.dat
-[06:03:05.699] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00475/JD1_ghosts.dat (target path: savedata0:JD1_ghosts.dat)
-[06:03:05.700] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:05.701] |I| [export_sceIoOpen]: Opening file: savedata0:JD1_levels.dat
-[06:03:05.701] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00475/JD1_levels.dat (target path: savedata0:JD1_levels.dat)
-[06:03:05.702] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:05.705] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.732] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:05.734] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.764] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.793] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.822] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.852] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.881] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.910] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.927] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:05.938] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.955] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:05.968] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:05.983] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:05.997] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.011] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.026] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.054] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.064] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.084] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.094] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.113] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.133] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.143] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.146] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.160] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.172] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.173] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.186] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.199] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.201] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.212] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.229] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.238] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.251] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.259] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.283] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.288] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.296] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.308] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.317] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.335] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.346] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.347] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.360] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.375] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.375] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.388] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.401] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.403] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.414] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.427] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.432] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.439] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.454] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.462] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.469] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.483] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.490] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.506] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.520] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.522] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.536] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
-[06:03:06.549] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.558] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\ai\vita\ai.fev
-[06:03:06.564] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\ai\vita\sfx_ai.fsb
-[06:03:06.577] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.607] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.636] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.666] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.697] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.723] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.752] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.782] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.812] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.839] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.867] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.897] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.926] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:06.978] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetParamsBlock import called.
-[06:03:06.979] |D| [export_sceNgsVoicePause]: sceNgsVoicePause
-[06:03:06.986] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:03:07.000] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.017] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
-[06:03:07.025] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.047] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.076] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.105] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.134] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.163] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.193] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.220] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.249] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.278] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.307] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.337] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.366] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.394] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.423] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.453] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.482] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.510] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.540] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.569] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.598] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.626] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.656] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.684] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.714] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.743] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.771] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.801] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.830] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.858] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.888] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.917] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.938] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\scene\background\skydusk.scene.mbin
-[06:03:07.938] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/scene/background/skydusk.scene.mbin (target path: app0:/GameData/JD1\models\scene\background\skydusk.scene.mbin)
-[06:03:07.941] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:07.947] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:07.976] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.005] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.034] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.063] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.091] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.121] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.150] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.178] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.208] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.237] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.266] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.295] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.323] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.353] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.381] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.411] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.412] |E| [call_import]: Import function for NID 0xE340C007 not found (thread name: LoadThread, thread ID: 115)
-[06:03:08.413] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\scene\background\cloudsdusk.scene.mbin
-[06:03:08.413] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/scene/background/cloudsdusk.scene.mbin (target path: app0:/GameData/JD1\models\scene\background\cloudsdusk.scene.mbin)
-[06:03:08.414] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:08.442] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.458] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\scene\background\backdrop5.scene.mbin
-[06:03:08.458] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/scene/background/backdrop5.scene.mbin (target path: app0:/GameData/JD1\models\scene\background\backdrop5.scene.mbin)
-[06:03:08.460] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:08.471] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.500] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.529] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.557] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.586] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.615] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.644] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.674] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.702] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.732] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.761] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.789] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.819] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.848] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.876] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.885] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\environments\ui\ground\uiground.scene.mbin
-[06:03:08.885] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/environments/ui/ground/uiground.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\environments\ui\ground\uiground.scene.mbin)
-[06:03:08.886] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:08.906] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.936] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.964] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:08.994] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.023] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.052] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.081] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.110] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.139] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.168] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.196] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.226] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.255] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.283] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.317] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.343] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.371] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.400] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.429] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.457] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.486] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.515] |D| [renderer::gl::texture::translate_swizzle]: base format: -1744830464, swizzle: 0
-[06:03:09.517] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.530] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\environments\ui\ground\uireferences.scene.mbin
-[06:03:09.531] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/environments/ui/ground/uireferences.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\environments\ui\ground\uireferences.scene.mbin)
-[06:03:09.532] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:09.543] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\vehicles\caravanstatic.scene.mbin
-[06:03:09.544] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/vehicles/caravanstatic.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\vehicles\caravanstatic.scene.mbin)
-[06:03:09.545] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.545] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:09.574] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.592] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\vehicles\trailer.scene.mbin
-[06:03:09.593] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/vehicles/trailer.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\vehicles\trailer.scene.mbin)
-[06:03:09.594] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:09.603] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.632] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.661] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.690] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.718] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.747] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.777] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.808] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.836] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.851] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\structural\rampmedium.scene.mbin
-[06:03:09.852] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/structural/rampmedium.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\structural\rampmedium.scene.mbin)
-[06:03:09.853] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:09.859] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\structural\ramplow.scene.mbin
-[06:03:09.860] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/structural/ramplow.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\structural\ramplow.scene.mbin)
-[06:03:09.861] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:09.866] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.869] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\vehicles\joebikeui.scene.mbin
-[06:03:09.870] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/vehicles/joebikeui.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\vehicles\joebikeui.scene.mbin)
-[06:03:09.871] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:09.894] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.924] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.953] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.981] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:09.991] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\sunflower.scene.mbin
-[06:03:09.992] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/clumps/sunflower.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\sunflower.scene.mbin)
-[06:03:09.992] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.011] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.040] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.068] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.085] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\cactus_01.scene.mbin
-[06:03:10.086] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/clumps/cactus_01.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\cactus_01.scene.mbin)
-[06:03:10.087] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.097] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.114] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\robot\robot.scene.mbin
-[06:03:10.114] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/robot/robot.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\robot\robot.scene.mbin)
-[06:03:10.115] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.127] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.156] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.160] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\clump_03.scene.mbin
-[06:03:10.161] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/clumps/clump_03.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\clump_03.scene.mbin)
-[06:03:10.162] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.184] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.187] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\clump_04.scene.mbin
-[06:03:10.187] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/clumps/clump_04.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\clump_04.scene.mbin)
-[06:03:10.188] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.193] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\clump_02.scene.mbin
-[06:03:10.194] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/clumps/clump_02.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\clumps\clump_02.scene.mbin)
-[06:03:10.195] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.204] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\interactive\balls\ball_01.scene.mbin
-[06:03:10.205] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/interactive/balls/ball_01.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\interactive\balls\ball_01.scene.mbin)
-[06:03:10.207] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.214] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.215] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\food\burger.scene.mbin
-[06:03:10.216] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/food/burger.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\food\burger.scene.mbin)
-[06:03:10.217] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.225] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\cactus_post.scene.mbin
-[06:03:10.226] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/billboards/cactus_post.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\cactus_post.scene.mbin)
-[06:03:10.226] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.234] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\joelogo.scene.mbin
-[06:03:10.234] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/billboards/joelogo.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\joelogo.scene.mbin)
-[06:03:10.235] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.243] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.246] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\dlcboard.scene.mbin
-[06:03:10.247] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/billboards/dlcboard.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\dlcboard.scene.mbin)
-[06:03:10.248] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.271] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.301] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.329] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.342] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\uicostumeboard.scene.mbin
-[06:03:10.342] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/jd1se/levelprops/detail/billboards/uicostumeboard.scene.mbin (target path: app0:/GameData/JD1\models\jd1se\levelprops\detail\billboards\uicostumeboard.scene.mbin)
-[06:03:10.343] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.350] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\levelprops\lab\detail\calculator\calculator.scene.mbin
-[06:03:10.351] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/levelprops/lab/detail/calculator/calculator.scene.mbin (target path: app0:/GameData/JD1\models\levelprops\lab\detail\calculator\calculator.scene.mbin)
-[06:03:10.352] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.360] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.362] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\levelprops\lab\detail\pens\markerandlid.scene.mbin
-[06:03:10.363] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/levelprops/lab/detail/pens/markerandlid.scene.mbin (target path: app0:/GameData/JD1\models\levelprops\lab\detail\pens\markerandlid.scene.mbin)
-[06:03:10.365] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.388] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.394] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\levelprops\lab\detail\lego\brick2x4.scene.mbin
-[06:03:10.395] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/levelprops/lab/detail/lego/brick2x4.scene.mbin (target path: app0:/GameData/JD1\models\levelprops\lab\detail\lego\brick2x4.scene.mbin)
-[06:03:10.396] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.416] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.446] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.476] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.504] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.533] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.554] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\models\tests\archive\background\blimpmonkey.scene.mbin
-[06:03:10.555] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00475/GameData/JD1/models/tests/archive/background/blimpmonkey.scene.mbin (target path: app0:/GameData/JD1\models\tests\archive\background\blimpmonkey.scene.mbin)
-[06:03:10.556] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[06:03:10.561] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.591] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:03:10.620] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
+[04:15:16.388] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[04:15:16.391] |D| [renderer::gl::texture::translate_swizzle]: base format: -2130706432, swizzle: 0
+[04:15:16.397] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[04:15:16.466] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, width: 256, height: 256, texFormat: -2063597568
+[04:15:16.474] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.511] |I| [export_sceIoOpen]: Opening file: savedata0:JD1_profile.dat
+[04:15:16.511] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00475/JD1_profile.dat (target path: savedata0:JD1_profile.dat)
+[04:15:16.512] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:16.513] |I| [export_sceIoOpen]: Opening file: savedata0:JD1_ghosts.dat
+[04:15:16.513] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00475/JD1_ghosts.dat (target path: savedata0:JD1_ghosts.dat)
+[04:15:16.514] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:16.515] |I| [export_sceIoOpen]: Opening file: savedata0:JD1_levels.dat
+[04:15:16.515] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00475/JD1_levels.dat (target path: savedata0:JD1_levels.dat)
+[04:15:16.516] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[04:15:16.524] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.552] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.617] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.634] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.658] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.674] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.689] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.716] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.730] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.743] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.756] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.769] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.782] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.795] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.808] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.821] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.834] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.853] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.866] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.878] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.891] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.903] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.917] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.931] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.944] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.956] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.969] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.982] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:16.994] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:17.008] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:17.020] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:17.035] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:17.056] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:17.072] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:17.086] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\vita\sfx.fsb
+[04:15:17.108] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\ai\vita\ai.fev
+[04:15:17.110] |I| [export_sceIoOpen]: Opening file: app0:/GameData/JD1\audio\ai\vita\sfx_ai.fsb

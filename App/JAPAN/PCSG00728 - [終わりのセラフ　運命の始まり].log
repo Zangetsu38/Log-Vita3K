@@ -1,516 +1,132 @@
-[06:57:53.983] |I| [load_app_impl]: cpu-backend: Dynarmic
-[06:57:53.983] |I| [load_app_impl]: CPU Optimisation state: true
-[06:57:53.983] |I| [load_app_impl]: at9 audio decoder state: true
-[06:57:53.984] |I| [load_app_impl]: ngs experimental state: true
-[06:57:53.984] |I| [load_app_impl]: video player state: true
-[06:57:53.984] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,librudp,liblocation,libhandwriting,libSceJson
-[06:57:53.984] |I| [load_app_impl]: Title: 終わりのセラフ　運命の始まり
-[06:57:53.984] |I| [load_app_impl]: Serial: PCSG00728
-[06:57:53.984] |I| [load_app_impl]: Version: 1.00
-[06:57:53.984] |I| [load_app_impl]: Category: gd
-[06:57:53.985] |D| [load_app_impl]: app path: D:\Emulateurs\Vita3K\mc/ux0\app\PCSG00728\sce_module
-[06:57:53.994] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:57:53.994] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module vs0:sys/external/libc.suprx
-[06:57:53.994] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module vs0:sys/external/libc.suprx
-[06:57:53.995] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libc.suprx
-[06:57:53.995] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[06:57:53.996] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[06:57:53.996] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[06:57:53.997] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[06:57:53.998] |I| [pre_load_module]: Pre-load module SceLibc (at "sys/external/libc.suprx") loaded
-[06:57:54.003] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:57:54.004] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module vs0:sys/external/libfios2.suprx
-[06:57:54.004] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module vs0:sys/external/libfios2.suprx
-[06:57:54.005] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libfios2.suprx
-[06:57:54.006] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
-[06:57:54.006] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
-[06:57:54.007] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sys/external/libfios2.suprx") loaded
-[06:57:54.007] |W| [pre_load_module]: Pre-load module at "sys/external/libsmart.suprx" not present
-[06:57:54.011] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[06:57:54.011] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module vs0:sys/external/libult.suprx
-[06:57:54.012] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module vs0:sys/external/libult.suprx
-[06:57:54.012] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libult.suprx
-[06:57:54.013] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
-[06:57:54.013] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
-[06:57:54.014] |I| [pre_load_module]: Pre-load module SceUlt (at "sys/external/libult.suprx") loaded
-[06:57:54.021] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[06:57:54.021] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[06:57:54.022] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[06:57:54.023] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
-[06:57:54.023] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
-[06:57:54.023] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[06:57:54.026] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[06:57:54.027] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[06:57:54.027] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[06:57:54.028] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
-[06:57:54.028] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
-[06:57:54.029] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[06:57:54.123] |I| [load_self]: Loaded module segment 0 @ [0x81000D10 - 0x8149C5DC / 0x81000D10] (size: 0x0049B8CC) of module app0:eboot.bin
-[06:57:54.125] |I| [load_self]: Loaded module segment 1 @ [0x81580140 - 0x8165ECF0 / 0x81580140] (size: 0x000DEBB0) of module app0:eboot.bin
-[06:57:54.127] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[06:57:54.127] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8138E8F4
-[06:57:54.128] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81580E68
-[06:57:54.128] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x813E4B38
-[06:57:54.129] |I| [load_app_impl]: Main executable seraphPSP2 (eboot.bin) loaded
-[06:57:54.137] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[06:57:54.156] |I| [run_app]: Module SceLibc (at "vs0:sys/external/libc.suprx") module_start returned 0x0
-[06:57:54.160] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
-[06:57:54.169] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[06:57:54.169] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[06:57:54.169] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[06:57:54.170] |I| [run_app]: Module SceLibFios2 (at "vs0:sys/external/libfios2.suprx") module_start returned 0x0
-[06:57:54.174] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
-[06:57:54.183] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[06:57:54.183] |I| [run_app]: Module SceUlt (at "vs0:sys/external/libult.suprx") module_start returned 0x0
-[06:57:54.188] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG00728/sce_module/steroid.suprx (target path: app0:sce_module/steroid.suprx)
-[06:57:54.189] |W| [io_error_impl]: open_file (_sceKernelLoadStartModule) returned 0x80010002
-[06:57:54.189] |E| [logging::ret_error_impl]: _sceKernelLoadStartModule returned file (0x80010002)
-[06:57:54.373] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[06:57:54.375] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[06:57:54.391] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[06:57:54.548] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[06:57:54.548] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[06:57:55.025] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[06:57:55.068] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCurrentPriority import called.
-[06:57:55.069] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
-[06:57:55.078] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[06:57:55.081] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
-[06:57:55.081] |W| [unimplemented_impl]: Unimplemented sceMotionSetDeadband import called.
-[06:57:55.082] |W| [unimplemented_impl]: Unimplemented sceMotionSetTiltCorrection import called.
-[06:57:55.082] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
-[06:57:55.082] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
-[06:57:55.106] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[06:57:55.107] |W| [unimplemented_impl]: Unimplemented sceCommonDialogGetWorkerThreadId import called.
-[06:57:55.107] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadPriority2 import called.
-[06:57:55.107] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadCpuAffinityMask import called.
-[06:57:55.113] |W| [stubbed_impl]: Stubbed sceGxmTextureInitCube import called. (Stub InitCube)
-[06:57:55.113] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 4, height: 4
-[06:57:55.114] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 4, height: 4
-[06:57:55.139] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
-[06:57:55.162] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[06:57:55.179] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
-[06:57:55.180] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[06:57:55.188] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.189] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.190] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.190] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.191] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.191] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.192] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.193] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.194] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[06:57:55.208] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
-[06:57:55.247] |I| [export_sceIoOpen]: Opening file: app0:files.cpk
-[06:57:55.324] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[06:57:55.338] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[06:57:55.338] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[06:57:55.339] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[06:57:55.359] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[06:57:55.360] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
-[06:57:55.362] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
-[06:57:55.362] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
-[06:57:55.369] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
-[06:57:55.380] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[06:57:55.387] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[06:57:55.474] |I| [renderer::gl::load_shader_generic]: Generating frag shader 69b9b304cde06f2104cdd01b9cb2f78ff1c0a47ce70e885c209bd52b6908ba13
-[06:57:55.477] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) color
-[06:57:55.481] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9b7a001d2d99e62e3959e9d73b0875a6f9d39ed660362a067af57d9b2d9ed37d
-[06:57:55.482] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_position
-[06:57:55.482] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) depth
-[06:57:55.489] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[06:57:55.489] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.499] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.587] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.599] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.616] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.633] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.650] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.667] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.684] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.701] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.718] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.735] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.752] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.769] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.786] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.803] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.820] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.837] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.854] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.871] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.888] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.905] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.922] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:55.993] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.007] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.024] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.041] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.058] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.075] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.092] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.109] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.126] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.143] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.160] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.177] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.194] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.211] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.228] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.245] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.262] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.279] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.288] |I| [export_sceIoOpen]: Opening file: savedata0:system.bin
-[06:57:56.296] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.313] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.330] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.347] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.364] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.381] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.398] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.415] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.493] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.503] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.517] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.534] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.551] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.568] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.585] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.602] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.619] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.625] |I| [renderer::gl::load_shader_generic]: Generating frag shader a67754c654555ec4f67093a1e549d35f7b0cb5b0696ab168ecaf7e2883b3ac77
-[06:57:56.629] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3496e2237b8b560171b40b7560500a1e2343088cab93948abd0e0ec149d97783
-[06:57:56.630] |I| [shader::create_parameters]: Shader stripped all symbols, trying to use hint attributes
-[06:57:56.637] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(21) : warning C7050: "internals[0].w" might be used before being initialized
-
-Fragment info
--------------
-0(20) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[06:57:56.641] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[06:57:56.642] |I| [renderer::gl::load_shader_generic]: Generating frag shader d04494319bb48714852e497a33ff8ea117fe6b88cc95737fa78cc5b102758c33
-[06:57:56.643] |I| [shader::create_fragment_inputs]: Sample symbol stripped, using anonymous name
-[06:57:56.646] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9cba3432a418b110e94323c1779ba4f248e02d9d23c3d4f9cf85ee1d2b8d85d4
-[06:57:56.647] |I| [shader::create_parameters]: Shader stripped all symbols, trying to use hint attributes
-[06:57:56.656] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(23) : warning C7050: "internals[0].w" might be used before being initialized
-
-Fragment info
--------------
-0(22) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[06:57:56.659] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.670] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.687] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.704] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.721] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.738] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.755] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.772] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.789] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.806] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.823] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.840] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.857] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.874] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.891] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.908] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.925] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.942] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.959] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.976] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:56.993] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.010] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.027] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.044] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.061] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.078] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.095] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.112] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.129] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.146] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.163] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.180] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.197] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.214] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.231] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.248] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.265] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.282] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.299] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.316] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.333] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.350] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.367] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.383] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.400] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.416] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.433] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.450] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.466] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.483] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.500] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.516] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.533] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.550] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.566] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.583] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.599] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.616] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.633] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.650] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.666] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.682] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.699] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.715] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.731] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.747] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.764] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.780] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.796] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.813] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.830] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.847] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.864] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.880] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.897] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.914] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.931] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.948] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.965] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.982] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:57.998] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.015] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.032] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.049] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.066] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.083] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.099] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.115] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.132] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.149] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.166] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.183] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.200] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.217] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.233] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.249] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.266] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.282] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.298] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.314] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.331] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.347] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.364] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.381] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.398] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.414] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.431] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.448] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.464] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.480] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.497] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.514] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.530] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.546] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.563] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.579] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.595] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.611] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.628] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.645] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.662] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.678] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.695] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.711] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.727] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.744] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.761] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.778] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.794] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.810] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.827] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.843] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.860] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.877] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.894] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.910] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.926] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.943] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.960] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.976] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:58.993] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.010] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.026] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.042] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.059] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.076] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.092] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.108] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.124] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.141] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.157] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.174] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.191] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.207] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.223] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.240] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.256] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.273] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.289] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.306] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.322] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.338] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.354] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.371] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.388] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.404] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.421] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.437] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.454] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.470] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.487] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.504] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.520] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.537] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.553] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.570] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.587] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.604] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.621] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.638] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.655] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.672] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.689] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.706] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.722] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.739] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.756] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.773] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.790] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.807] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.824] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.841] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.858] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.875] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.892] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.909] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.926] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.942] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.958] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.975] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:57:59.991] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.008] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.025] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.042] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.058] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.075] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.091] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.108] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.125] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.142] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.159] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.176] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.193] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.210] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.226] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.242] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.259] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.275] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.291] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.308] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.325] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.342] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.359] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.375] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.391] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.408] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.425] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.442] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.458] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.475] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.492] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.509] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.526] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.543] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.560] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.577] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.594] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.611] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.628] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.645] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.662] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.679] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.696] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.713] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.730] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.747] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.764] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.781] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.798] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.815] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.832] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.849] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.866] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.883] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.900] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.917] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.934] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.951] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.968] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:00.985] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.002] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.019] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.035] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.052] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.069] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.086] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.102] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.119] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.136] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.153] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.170] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.187] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.204] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.221] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.237] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.254] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.271] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.287] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.304] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.321] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.338] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.354] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.371] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.388] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.405] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.422] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.439] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.456] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.473] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.490] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.507] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.524] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.540] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.557] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.573] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.590] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.606] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.623] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.640] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.657] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.674] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.691] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.708] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.725] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.742] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.758] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.775] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.792] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.809] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58:01.826] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[06:58
+[16:41:21.539] |I| [load_app_impl]: cpu-backend: Dynarmic
+[16:41:21.540] |I| [load_app_impl]: CPU Optimisation state: true
+[16:41:21.540] |I| [load_app_impl]: at9 audio decoder state: true
+[16:41:21.540] |I| [load_app_impl]: ngs experimental state: true
+[16:41:21.540] |I| [load_app_impl]: video player state: true
+[16:41:21.541] |I| [load_app_impl]: 1 Controllers Connected
+[16:41:21.541] |I| [load_app_impl]: Controller 0: PS4 Controller
+[16:41:21.541] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson
+[16:41:21.541] |I| [load_app_impl]: Title: 終わりのセラフ　運命の始まり
+[16:41:21.542] |I| [load_app_impl]: Serial: PCSG00728
+[16:41:21.542] |I| [load_app_impl]: Version: 1.00
+[16:41:21.542] |I| [load_app_impl]: Category: gd
+[16:41:21.578] |D| [load_app_impl]: app path: D:\Emulateurs\Vita3K\mc/ux0\app\PCSG00728\sce_module
+[16:41:21.632] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:41:21.632] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module vs0:sys/external/libc.suprx
+[16:41:21.632] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module vs0:sys/external/libc.suprx
+[16:41:21.633] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libc.suprx
+[16:41:21.634] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[16:41:21.635] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[16:41:21.637] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[16:41:21.638] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[16:41:21.639] |I| [pre_load_module]: Pre-load module SceLibc (at "sys/external/libc.suprx") loaded
+[16:41:21.683] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:41:21.684] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module vs0:sys/external/libfios2.suprx
+[16:41:21.685] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module vs0:sys/external/libfios2.suprx
+[16:41:21.686] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libfios2.suprx
+[16:41:21.686] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
+[16:41:21.686] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
+[16:41:21.689] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sys/external/libfios2.suprx") loaded
+[16:41:21.690] |W| [pre_load_module]: Pre-load module at "sys/external/libsmart.suprx" not present
+[16:41:21.724] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[16:41:21.724] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module vs0:sys/external/libult.suprx
+[16:41:21.725] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module vs0:sys/external/libult.suprx
+[16:41:21.726] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libult.suprx
+[16:41:21.726] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
+[16:41:21.727] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
+[16:41:21.727] |I| [pre_load_module]: Pre-load module SceUlt (at "sys/external/libult.suprx") loaded
+[16:41:21.736] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[16:41:21.737] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[16:41:21.738] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[16:41:21.739] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
+[16:41:21.739] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
+[16:41:21.740] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[16:41:21.743] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[16:41:21.743] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[16:41:21.744] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[16:41:21.745] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
+[16:41:21.745] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
+[16:41:21.746] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[16:41:21.864] |I| [load_self]: Loaded module segment 0 @ [0x81000D10 - 0x8149C5DC / 0x81000D10] (size: 0x0049B8CC) of module app0:eboot.bin
+[16:41:21.865] |I| [load_self]: Loaded module segment 1 @ [0x81580140 - 0x8165ECF0 / 0x81580140] (size: 0x000DEBB0) of module app0:eboot.bin
+[16:41:21.867] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[16:41:21.867] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8138E8F4
+[16:41:21.868] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81580E68
+[16:41:21.869] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x813E4B38
+[16:41:21.872] |I| [load_app_impl]: Main executable seraphPSP2 (eboot.bin) loaded
+[16:41:21.881] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[16:41:21.901] |I| [run_app]: Module SceLibc (at "vs0:sys/external/libc.suprx") module_start returned 0x0
+[16:41:21.905] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
+[16:41:21.914] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[16:41:21.914] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[16:41:21.915] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[16:41:21.918] |I| [run_app]: Module SceLibFios2 (at "vs0:sys/external/libfios2.suprx") module_start returned 0x0
+[16:41:21.923] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
+[16:41:21.932] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[16:41:21.932] |I| [run_app]: Module SceUlt (at "vs0:sys/external/libult.suprx") module_start returned 0x0
+[16:41:21.936] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG00728/sce_module/steroid.suprx (target path: app0:sce_module/steroid.suprx)
+[16:41:21.937] |W| [io_error_impl]: open_file (_sceKernelLoadStartModule) returned 0x80010002
+[16:41:21.938] |E| [logging::ret_error_impl]: _sceKernelLoadStartModule returned file (0x80010002)
+[16:41:21.968] |D| [export_sceSysmoduleLoadModule]: module id: 29
+[16:41:21.968] |D| [export_sceSysmoduleLoadModule]: module: libSceScreenShot
+[16:41:22.137] |D| [export_sceSysmoduleLoadModule]: module id: 1
+[16:41:22.138] |D| [export_sceSysmoduleLoadModule]: module: libnet
+[16:41:22.138] |D| [export_sceSysmoduleLoadModule]: module: libnetctl
+[16:41:22.139] |D| [export_sceSysmoduleLoadModule]: module id: 19
+[16:41:22.139] |D| [export_sceSysmoduleLoadModule]: module: libsystemgesture
+[16:41:22.140] |D| [export_sceSysmoduleLoadModule]: module id: 76
+[16:41:22.140] |D| [export_sceSysmoduleLoadModule]: module: libsceavplayer
+[16:41:22.141] |D| [export_sceSysmoduleLoadModule]: module: libscemp4
+[16:41:22.154] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[16:41:22.156] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[16:41:22.180] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[16:41:22.268] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[16:41:22.269] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[16:41:22.752] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[16:41:22.800] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadCurrentPriority import called.
+[16:41:22.801] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
+[16:41:22.811] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[16:41:22.813] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
+[16:41:22.813] |W| [unimplemented_impl]: Unimplemented sceMotionSetDeadband import called.
+[16:41:22.814] |W| [unimplemented_impl]: Unimplemented sceMotionSetTiltCorrection import called.
+[16:41:22.815] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
+[16:41:22.819] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[16:41:22.828] |D| [export_sceSysmoduleLoadModule]: module id: 37
+[16:41:22.829] |D| [export_sceSysmoduleLoadModule]: module: np_trophy
+[16:41:23.338] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[16:41:23.338] |W| [unimplemented_impl]: Unimplemented sceCommonDialogGetWorkerThreadId import called.
+[16:41:23.339] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadPriority2 import called.
+[16:41:23.339] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadCpuAffinityMask import called.
+[16:41:23.346] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 4, height: 4
+[16:41:23.347] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, Unimplemeted: width: 4, height: 4
+[16:41:23.375] |W| [stubbed_impl]: Stubbed _sceKernelWaitEventFlagCB import called. (Try CB)
+[16:41:23.396] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (Try CB)
+[16:41:23.413] |D| [ngs::create_voice_definition]: type: 17
+[16:41:23.414] |D| [ngs::create_voice_definition]: type: 13
+[16:41:23.416] |D| [ngs::create_voice_definition]: type: 7
+[16:41:23.419] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
+[16:41:23.420] |D| [ngs::create_voice_definition]: type: 0
+[16:41:23.421] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[16:41:23.427] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.428] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.428] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.429] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.429] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.430] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.432] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.432] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.436] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[16:41:23.452] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
+[16:41:23.488] |I| [export_sceIoOpen]: Opening file: app0:files.cpk
+[16:41:23.604] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[16:41:23.623] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[16:41:23.624] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[16:41:23.624] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[16:41:23.654] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[16:41:23.655] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[16:41:23.658] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
+[16:41:23.659] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
+[16:41:23.665] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[16:41:23.678] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
+[16:41:23.686] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[16:41:23.714] |I| [renderer::gl::load_shader_generic]: Generating fr

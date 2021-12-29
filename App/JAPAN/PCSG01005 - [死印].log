@@ -1,246 +1,855 @@
-[03:35:54.974] |I| [load_app_impl]: cpu-backend: Dynarmic
-[03:35:54.974] |I| [load_app_impl]: CPU Optimisation state: true
-[03:35:54.974] |I| [load_app_impl]: at9 audio decoder state: true
-[03:35:54.974] |I| [load_app_impl]: ngs experimental state: true
-[03:35:54.975] |I| [load_app_impl]: video player state: true
-[03:35:54.975] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,librudp,liblocation,libhandwriting,libSceJson
-[03:35:54.975] |I| [load_app_impl]: Title: 死印
-[03:35:54.975] |I| [load_app_impl]: Serial: PCSG01005
-[03:35:54.975] |I| [load_app_impl]: Version: 1.00
-[03:35:54.975] |I| [load_app_impl]: Category: gd
-[03:35:55.091] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:35:55.091] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSG01005\sce_module\libc.suprx
-[03:35:55.091] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSG01005\sce_module\libc.suprx
-[03:35:55.092] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libc.suprx
-[03:35:55.093] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[03:35:55.093] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[03:35:55.093] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[03:35:55.095] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[03:35:55.096] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG01005\sce_module\libc.suprx") loaded
-[03:35:55.132] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:35:55.132] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSG01005\sce_module\libface.suprx
-[03:35:55.133] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSG01005\sce_module\libface.suprx
-[03:35:55.134] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libface.suprx
-[03:35:55.134] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
-[03:35:55.135] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
-[03:35:55.135] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG01005\sce_module\libface.suprx") loaded
-[03:35:55.163] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:35:55.164] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
-[03:35:55.165] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
-[03:35:55.165] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libfios2.suprx
-[03:35:55.166] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
-[03:35:55.166] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
-[03:35:55.167] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG01005\sce_module\libfios2.suprx") loaded
-[03:35:55.235] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:35:55.235] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
-[03:35:55.236] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
-[03:35:55.237] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libsmart.suprx
-[03:35:55.237] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
-[03:35:55.238] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
-[03:35:55.238] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG01005\sce_module\libsmart.suprx") loaded
-[03:35:55.260] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:35:55.260] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSG01005\sce_module\libult.suprx
-[03:35:55.261] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSG01005\sce_module\libult.suprx
-[03:35:55.262] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libult.suprx
-[03:35:55.262] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
-[03:35:55.263] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
-[03:35:55.263] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG01005\sce_module\libult.suprx") loaded
-[03:35:55.270] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[03:35:55.271] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[03:35:55.272] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[03:35:55.272] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
-[03:35:55.273] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
-[03:35:55.273] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[03:35:55.276] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[03:35:55.277] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[03:35:55.277] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[03:35:55.278] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
-[03:35:55.278] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
-[03:35:55.279] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[03:35:55.391] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[03:35:55.391] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x0048D550 / 0x81000000] (size: 0x00158550) of module app0:eboot.bin
-[03:35:55.393] |I| [load_self]: Loaded module segment 1 @ [0x0048E000 - 0x00723824 / 0x81159000] (size: 0x00295824) of module app0:eboot.bin
-[03:35:55.393] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[03:35:55.394] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x447C7C
-[03:35:55.394] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x498E54
-[03:35:55.395] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x46C3DC
-[03:35:55.395] |I| [load_app_impl]: Main executable HRV (eboot.bin) loaded
-[03:35:55.436] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[03:35:55.555] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG01005\sce_module\libc.suprx") module_start returned 0x0
-[03:35:55.576] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
-[03:35:55.624] |I| [run_app]: Module SceFace (at "ux0:app\PCSG01005\sce_module\libface.suprx") module_start returned 0x0
-[03:35:55.643] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
-[03:35:55.686] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[03:35:55.687] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[03:35:55.687] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[03:35:55.689] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG01005\sce_module\libfios2.suprx") module_start returned 0x0
-[03:35:55.706] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
-[03:35:55.759] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG01005\sce_module\libsmart.suprx") module_start returned 0x0
-[03:35:55.779] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
-[03:35:55.819] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[03:35:55.820] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG01005\sce_module\libult.suprx") module_start returned 0x0
-[03:35:56.067] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[03:35:56.072] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[03:35:56.080] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG01005, thread ID: 10)
-[03:35:56.149] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[03:35:56.151] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[03:35:56.341] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[03:35:56.342] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
-[03:35:56.343] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[03:35:56.344] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[03:35:56.498] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[03:35:56.502] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[03:35:56.535] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[03:35:56.565] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[03:35:56.627] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[03:35:56.720] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_v.vpo
-[03:35:56.795] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_f.fpo
-[03:35:56.872] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_model.vpo
-[03:35:56.894] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_sprite.vpo
-[03:35:56.900] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_other.vpo
-[03:35:56.904] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_wipe.vpo
-[03:35:56.909] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvs_tileshader.vpo
-[03:35:56.915] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_blursprite.vpo
-[03:35:56.919] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_modelinstance.vpo
-[03:35:56.984] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_spot.vpo
-[03:35:56.989] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
-[03:35:56.989] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:56.990] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianv.vpo
-[03:35:56.991] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
-[03:35:56.992] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:35:56.995] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
-[03:35:56.996] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:56.998] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
-[03:35:56.999] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:57.000] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianh.vpo
-[03:35:57.000] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
-[03:35:57.003] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:35:57.004] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
-[03:35:57.004] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:57.007] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default.fpo
-[03:35:57.014] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default_noblend.fpo
-[03:35:57.019] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash.fpo
-[03:35:57.024] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash_noblend.fpo
-[03:35:57.029] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono.fpo
-[03:35:57.034] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono_noblend.fpo
-[03:35:57.038] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli.fpo
-[03:35:57.043] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli_noblend.fpo
-[03:35:57.048] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model.fpo
-[03:35:57.054] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model_noblend.fpo
-[03:35:57.059] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_blursprite.fpo
-[03:35:57.064] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlight.fpo
-[03:35:57.068] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlightflash.fpo
-[03:35:57.073] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_gausianfilter.fpo
-[03:35:57.083] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[03:35:57.151] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
-[03:35:57.224] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
-[03:35:57.298] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
-[03:35:57.345] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
-[03:35:57.355] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_object09.exg (target path: app0:/graphic_comtex_object09.exg)
-[03:35:57.355] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:57.447] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_comtex.exg (target path: app0:/graphic_comtex_comtex.exg)
-[03:35:57.448] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:57.787] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[03:35:57.790] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
-[03:35:57.799] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[03:35:57.799] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[03:35:57.800] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[03:35:57.801] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
-[03:35:57.855] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_bgm.gpd (target path: app0:/table_bgm.gpd)
-[03:35:57.856] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:57.861] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_se.gpd (target path: app0:/table_se.gpd)
-[03:35:57.861] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:57.863] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_voice.gpd (target path: app0:/table_voice.gpd)
-[03:35:57.863] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:57.960] |W| [unimplemented_impl]: Unimplemented sceAtracCreateDecoderGroup import called.
-[03:35:57.985] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
-[03:35:57.985] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
-[03:35:58.036] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[03:35:58.037] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[03:35:58.039] |D| [export_sceNgsVoiceInit]: flags: 7
-[03:35:58.039] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[03:35:58.048] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[03:35:58.050] |D| [export_sceNgsVoiceInit]: flags: 7
-[03:35:58.055] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[03:35:58.071] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[03:35:58.096] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[03:35:58.096] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[03:35:58.184] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
-[03:35:58.245] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_bgm.bnk
-[03:35:58.275] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_se.bnk
-[03:35:58.331] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_voice.bnk
-[03:35:58.417] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
-[03:35:58.418] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.421] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
-[03:35:58.422] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.425] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
-[03:35:58.426] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.428] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
-[03:35:58.429] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.435] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata01.exp (target path: app0:/fontdata_fontdata01.exp)
-[03:35:58.435] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.721] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata02.exp (target path: app0:/fontdata_fontdata02.exp)
-[03:35:58.722] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.811] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_layout.lod (target path: app0:/table_layout.lod)
-[03:35:58.813] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.815] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_texparts.lod (target path: app0:/table_texparts.lod)
-[03:35:58.816] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:58.912] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[03:35:59.035] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[03:35:59.036] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
-[03:35:59.037] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
-[03:35:59.110] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
-[03:35:59.111] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestEnable import called.
-[03:35:59.122] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[03:35:59.141] |I| [renderer::gl::load_shader_generic]: Generating frag shader bb8cabb0006f3af752d21c3f61e564512d20b19f5a851e47ef509498c0a6b786
-[03:35:59.147] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
-[03:35:59.171] |I| [renderer::gl::load_shader_generic]: Generating vert shader d74f365afc606e520fe52b8b5165b92a10ae4a59c5978ed6a8b9e049b2346418
-[03:35:59.175] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[03:35:59.196] |E| [renderer::gl::compile_program]: Fragment info
+[11:42:43.081] |I| [load_app_impl]: cpu-backend: Dynarmic
+[11:42:43.081] |I| [load_app_impl]: CPU Optimisation state: true
+[11:42:43.081] |I| [load_app_impl]: at9 audio decoder state: true
+[11:42:43.081] |I| [load_app_impl]: ngs experimental state: true
+[11:42:43.081] |I| [load_app_impl]: video player state: true
+[11:42:43.081] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson
+[11:42:43.082] |I| [load_app_impl]: Title: 死印
+[11:42:43.082] |I| [load_app_impl]: Serial: PCSG01005
+[11:42:43.082] |I| [load_app_impl]: Version: 1.00
+[11:42:43.082] |I| [load_app_impl]: Category: gd
+[11:42:43.153] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[11:42:43.154] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSG01005\sce_module\libc.suprx
+[11:42:43.154] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSG01005\sce_module\libc.suprx
+[11:42:43.154] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libc.suprx
+[11:42:43.155] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[11:42:43.155] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[11:42:43.155] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[11:42:43.156] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[11:42:43.158] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG01005\sce_module\libc.suprx") loaded
+[11:42:43.167] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[11:42:43.167] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSG01005\sce_module\libface.suprx
+[11:42:43.168] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSG01005\sce_module\libface.suprx
+[11:42:43.171] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libface.suprx
+[11:42:43.172] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
+[11:42:43.173] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
+[11:42:43.173] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG01005\sce_module\libface.suprx") loaded
+[11:42:43.197] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[11:42:43.197] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
+[11:42:43.198] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSG01005\sce_module\libfios2.suprx
+[11:42:43.198] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libfios2.suprx
+[11:42:43.200] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
+[11:42:43.201] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
+[11:42:43.201] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG01005\sce_module\libfios2.suprx") loaded
+[11:42:43.253] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[11:42:43.253] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
+[11:42:43.255] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSG01005\sce_module\libsmart.suprx
+[11:42:43.256] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libsmart.suprx
+[11:42:43.257] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
+[11:42:43.258] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
+[11:42:43.259] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG01005\sce_module\libsmart.suprx") loaded
+[11:42:43.269] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[11:42:43.269] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSG01005\sce_module\libult.suprx
+[11:42:43.271] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSG01005\sce_module\libult.suprx
+[11:42:43.272] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG01005\sce_module\libult.suprx
+[11:42:43.273] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
+[11:42:43.273] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
+[11:42:43.274] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG01005\sce_module\libult.suprx") loaded
+[11:42:43.282] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[11:42:43.283] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[11:42:43.284] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[11:42:43.285] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
+[11:42:43.286] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
+[11:42:43.287] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[11:42:43.291] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[11:42:43.292] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[11:42:43.293] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[11:42:43.296] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
+[11:42:43.296] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
+[11:42:43.297] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[11:42:43.390] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[11:42:43.391] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x0048D550 / 0x81000000] (size: 0x00158550) of module app0:eboot.bin
+[11:42:43.392] |I| [load_self]: Loaded module segment 1 @ [0x0048E000 - 0x00723824 / 0x81159000] (size: 0x00295824) of module app0:eboot.bin
+[11:42:43.393] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[11:42:43.393] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x447C7C
+[11:42:43.394] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x498E54
+[11:42:43.394] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x46C3DC
+[11:42:43.395] |I| [load_app_impl]: Main executable HRV (eboot.bin) loaded
+[11:42:43.405] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[11:42:43.478] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG01005\sce_module\libc.suprx") module_start returned 0x0
+[11:42:43.483] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
+[11:42:43.492] |I| [run_app]: Module SceFace (at "ux0:app\PCSG01005\sce_module\libface.suprx") module_start returned 0x0
+[11:42:43.496] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
+[11:42:43.505] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[11:42:43.505] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[11:42:43.506] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[11:42:43.506] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG01005\sce_module\libfios2.suprx") module_start returned 0x0
+[11:42:43.511] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
+[11:42:43.521] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG01005\sce_module\libsmart.suprx") module_start returned 0x0
+[11:42:43.526] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
+[11:42:43.533] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[11:42:43.534] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG01005\sce_module\libult.suprx") module_start returned 0x0
+[11:42:43.596] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (Try CB)
+[11:42:43.597] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[11:42:43.598] |D| [export_sceSysmoduleLoadModule]: module id: 7
+[11:42:43.598] |D| [export_sceSysmoduleLoadModule]: module: libult
+[11:42:43.601] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG01005, thread ID: 10)
+[11:42:43.620] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[11:42:43.621] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[11:42:43.665] |D| [export_sceSysmoduleLoadModule]: module id: 29
+[11:42:43.666] |D| [export_sceSysmoduleLoadModule]: module: libSceScreenShot
+[11:42:43.666] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[11:42:43.667] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[11:42:43.667] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[11:42:43.668] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[11:42:43.723] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[11:42:43.725] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[11:42:43.765] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[11:42:43.795] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[11:42:43.814] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[11:42:43.852] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_v.vpo
+[11:42:43.879] |I| [export_sceIoOpen]: Opening file: app0:/shader_clear_f.fpo
+[11:42:43.926] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_model.vpo
+[11:42:43.935] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_sprite.vpo
+[11:42:43.937] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_other.vpo
+[11:42:43.940] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_wipe.vpo
+[11:42:43.943] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvs_tileshader.vpo
+[11:42:43.945] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_blursprite.vpo
+[11:42:43.949] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_modelinstance.vpo
+[11:42:43.985] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_spot.vpo
+[11:42:43.988] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
+[11:42:43.988] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:43.989] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianv.vpo
+[11:42:43.989] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
+[11:42:43.990] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:43.992] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianv.vpo (target path: app0:/shader_expvertexshader_gausianv.vpo)
+[11:42:43.992] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:43.993] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
+[11:42:43.994] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:43.994] |I| [export_sceIoOpen]: Opening file: app0:/shader_expvertexshader_gausianh.vpo
+[11:42:43.995] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
+[11:42:43.996] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:43.996] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/shader_expvertexshader_gausianh.vpo (target path: app0:/shader_expvertexshader_gausianh.vpo)
+[11:42:43.997] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:43.999] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default.fpo
+[11:42:44.002] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_default_noblend.fpo
+[11:42:44.005] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash.fpo
+[11:42:44.010] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_flash_noblend.fpo
+[11:42:44.013] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono.fpo
+[11:42:44.016] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_mono_noblend.fpo
+[11:42:44.018] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli.fpo
+[11:42:44.021] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_poli_noblend.fpo
+[11:42:44.024] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model.fpo
+[11:42:44.026] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_model_noblend.fpo
+[11:42:44.029] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_blursprite.fpo
+[11:42:44.032] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlight.fpo
+[11:42:44.034] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_spotlightflash.fpo
+[11:42:44.037] |I| [export_sceIoOpen]: Opening file: app0:/shader_expps_gausianfilter.fpo
+[11:42:44.044] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[11:42:44.109] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
+[11:42:44.153] |I| [export_sceIoOpen]: Opening file: app0:/image.pac
+[11:42:44.184] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
+[11:42:44.195] |I| [export_sceIoOpen]: Opening file: app0:/sound.pac
+[11:42:44.201] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_object09.exg (target path: app0:/graphic_comtex_object09.exg)
+[11:42:44.201] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.238] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_comtex.exg (target path: app0:/graphic_comtex_comtex.exg)
+[11:42:44.240] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.570] |D| [export_sceSysmoduleLoadModule]: module id: 19
+[11:42:44.570] |D| [export_sceSysmoduleLoadModule]: module: libsystemgesture
+[11:42:44.572] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[11:42:44.572] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
+[11:42:44.575] |D| [export_sceSysmoduleLoadModule]: module id: 1
+[11:42:44.575] |D| [export_sceSysmoduleLoadModule]: module: libnet
+[11:42:44.575] |D| [export_sceSysmoduleLoadModule]: module: libnetctl
+[11:42:44.576] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[11:42:44.576] |D| [export_sceSysmoduleLoadModule]: module id: 4
+[11:42:44.577] |D| [export_sceSysmoduleLoadModule]: module: libhttp
+[11:42:44.577] |D| [export_sceSysmoduleLoadModule]: module: libssl
+[11:42:44.578] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[11:42:44.578] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[11:42:44.579] |D| [export_sceSysmoduleLoadModule]: module id: 21
+[11:42:44.579] |D| [export_sceSysmoduleLoadModule]: module: np_common
+[11:42:44.580] |D| [export_sceSysmoduleLoadModule]: module: np_manager
+[11:42:44.580] |D| [export_sceSysmoduleLoadModule]: module: np_basic
+[11:42:44.581] |D| [export_sceSysmoduleLoadModule]: module id: 18
+[11:42:44.581] |D| [export_sceSysmoduleLoadModule]: module: np_basic
+[11:42:44.582] |D| [export_sceSysmoduleLoadModule]: module id: 25
+[11:42:44.582] |D| [export_sceSysmoduleLoadModule]: module: np_utility
+[11:42:44.583] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[11:42:44.584] |D| [export_sceSysmoduleLoadModule]: module id: 37
+[11:42:44.584] |D| [export_sceSysmoduleLoadModule]: module: np_trophy
+[11:42:44.595] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_bgm.gpd (target path: app0:/table_bgm.gpd)
+[11:42:44.596] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.628] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_se.gpd (target path: app0:/table_se.gpd)
+[11:42:44.629] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.631] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_voice.gpd (target path: app0:/table_voice.gpd)
+[11:42:44.631] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.683] |D| [export_sceSysmoduleLoadModule]: module id: 48
+[11:42:44.683] |D| [export_sceSysmoduleLoadModule]: module: libatrac
+[11:42:44.684] |W| [unimplemented_impl]: Unimplemented sceAtracCreateDecoderGroup import called.
+[11:42:44.688] |D| [export_sceSysmoduleLoadModule]: module id: 11
+[11:42:44.688] |D| [export_sceSysmoduleLoadModule]: module: libngs
+[11:42:44.694] |D| [ngs::create_voice_definition]: type: 15
+[11:42:44.694] |D| [ngs::create_voice_definition]: type: 16
+[11:42:44.704] |D| [export_sceNgsSystemSetFlags]: flags: 0
+[11:42:44.705] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[11:42:44.706] |D| [ngs::create_voice_definition]: type: 1
+[11:42:44.706] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[11:42:44.707] |D| [export_sceNgsVoiceInit]: flags: 7
+[11:42:44.707] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[11:42:44.708] |D| [ngs::create_voice_definition]: type: 0
+[11:42:44.710] |D| [ngs::create_voice_definition]: type: 10
+[11:42:44.710] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[11:42:44.711] |D| [export_sceNgsVoiceInit]: flags: 7
+[11:42:44.713] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:42:44.718] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[11:42:44.727] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:42:44.728] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:42:44.758] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_bgm.bnk
+[11:42:44.809] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_se.bnk
+[11:42:44.880] |I| [export_sceIoOpen]: Opening file: app0:/sound_hrv_voice.bnk
+[11:42:44.940] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
+[11:42:44.941] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.962] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_sjis2uni.tbl (target path: app0:/table_sjis2uni.tbl)
+[11:42:44.963] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.964] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
+[11:42:44.965] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.979] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_uni2sjis.tbl (target path: app0:/table_uni2sjis.tbl)
+[11:42:44.980] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:44.982] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata01.exp (target path: app0:/fontdata_fontdata01.exp)
+[11:42:44.983] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.132] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/fontdata_fontdata02.exp (target path: app0:/fontdata_fontdata02.exp)
+[11:42:45.133] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.149] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_layout.lod (target path: app0:/table_layout.lod)
+[11:42:45.149] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.152] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_texparts.lod (target path: app0:/table_texparts.lod)
+[11:42:45.152] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.377] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[11:42:45.377] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
+[11:42:45.378] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
+[11:42:45.413] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
+[11:42:45.414] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestEnable import called.
+[11:42:45.417] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[11:42:45.439] |I| [renderer::gl::load_shader_generic]: Generating frag shader bb8cabb0006f3af752d21c3f61e564512d20b19f5a851e47ef509498c0a6b786
+[11:42:45.441] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
+[11:42:45.447] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[11:42:45.460] |I| [renderer::gl::load_shader_generic]: Generating vert shader d74f365afc606e520fe52b8b5165b92a10ae4a59c5978ed6a8b9e049b2346418
+[11:42:45.461] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[11:42:45.492] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[03:35:59.200] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[03:35:59.201] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.263] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_script.dat (target path: app0:/event_script.dat)
-[03:35:59.264] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.317] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.326] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.343] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.362] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.376] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.395] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.412] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.412] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.413] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.414] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.426] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.426] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_mazeevent.dat (target path: app0:/event_mazeevent.dat)
-[03:35:59.428] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.442] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.445] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.dat (target path: app0:/graphic_pc_portrait.dat)
-[03:35:59.446] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.447] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.hed (target path: app0:/graphic_pc_portrait.hed)
-[03:35:59.447] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.459] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.474] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.dat (target path: app0:/table_tablepack.dat)
-[03:35:59.475] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.476] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.486] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.hed (target path: app0:/table_tablepack.hed)
-[03:35:59.486] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.492] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.509] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.510] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.510] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.511] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.526] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.539] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.hed (target path: app0:/map_mapdatpack.hed)
-[03:35:59.539] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.542] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.551] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.dat (target path: app0:/map_mapdatpack.dat)
-[03:35:59.552] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.555] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_efc_effect.hed (target path: app0:/graphic_efc_effect.hed)
-[03:35:59.556] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[03:35:59.559] |D| [export_sceDisplayWaitSetFrameBuf]: WaitSetFrameBuf: 1
-[03:35:59.564] |E| [stat_file]: Miss
+[11:42:45.498] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[11:42:45.596] |I| [renderer::gl::load_shader_generic]: Generating frag shader c82285efae0fdc6a394a6f2a7eede34e1019a7d377f669eaf7a71d1f8623a6d4
+[11:42:45.599] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[11:42:45.604] |I| [renderer::gl::load_shader_generic]: Generating vert shader 59ea1ad9b42d876ab3f57296af83a7f6fd6fa3d970e183394ea16bb4b87223f4
+[11:42:45.606] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
+[11:42:45.606] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_DifColor
+[11:42:45.739] |I| [renderer::gl::load_shader_generic]: Generating frag shader f917c2d46e1b81ab2febd8937627488b0da467bbd9326b32c5521ef160b85ee6
+[11:42:45.741] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[11:42:45.754] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(16) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[11:42:45.791] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_script.dat (target path: app0:/event_script.dat)
+[11:42:45.793] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.856] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/event_mazeevent.dat (target path: app0:/event_mazeevent.dat)
+[11:42:45.857] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.862] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.dat (target path: app0:/graphic_pc_portrait.dat)
+[11:42:45.863] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.864] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_pc_portrait.hed (target path: app0:/graphic_pc_portrait.hed)
+[11:42:45.864] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.878] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.dat (target path: app0:/table_tablepack.dat)
+[11:42:45.879] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.882] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/table_tablepack.hed (target path: app0:/table_tablepack.hed)
+[11:42:45.883] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.900] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.hed (target path: app0:/map_mapdatpack.hed)
+[11:42:45.901] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.910] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/map_mapdatpack.dat (target path: app0:/map_mapdatpack.dat)
+[11:42:45.911] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.913] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_efc_effect.hed (target path: app0:/graphic_efc_effect.hed)
+[11:42:45.913] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.924] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_efc_effect.dat (target path: app0:/graphic_efc_effect.dat)
+[11:42:45.925] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:45.937] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[11:42:45.939] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_title.exg (target path: app0:/graphic_title.exg)
+[11:42:45.940] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:42:46.114] |I| [export_sceIoOpen]: Opening file: savedata0:data01.bin
+[11:42:46.114] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data01.bin (target path: savedata0:data01.bin)
+[11:42:46.115] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.116] |I| [export_sceIoOpen]: Opening file: savedata0:data02.bin
+[11:42:46.116] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data02.bin (target path: savedata0:data02.bin)
+[11:42:46.117] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.117] |I| [export_sceIoOpen]: Opening file: savedata0:data03.bin
+[11:42:46.118] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data03.bin (target path: savedata0:data03.bin)
+[11:42:46.119] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.119] |I| [export_sceIoOpen]: Opening file: savedata0:data04.bin
+[11:42:46.120] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data04.bin (target path: savedata0:data04.bin)
+[11:42:46.120] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.121] |I| [export_sceIoOpen]: Opening file: savedata0:data05.bin
+[11:42:46.121] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data05.bin (target path: savedata0:data05.bin)
+[11:42:46.122] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.123] |I| [export_sceIoOpen]: Opening file: savedata0:data06.bin
+[11:42:46.126] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data06.bin (target path: savedata0:data06.bin)
+[11:42:46.128] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.128] |I| [export_sceIoOpen]: Opening file: savedata0:data07.bin
+[11:42:46.129] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data07.bin (target path: savedata0:data07.bin)
+[11:42:46.130] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.130] |I| [export_sceIoOpen]: Opening file: savedata0:data08.bin
+[11:42:46.131] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data08.bin (target path: savedata0:data08.bin)
+[11:42:46.131] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.132] |I| [export_sceIoOpen]: Opening file: savedata0:data09.bin
+[11:42:46.132] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data09.bin (target path: savedata0:data09.bin)
+[11:42:46.133] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.134] |I| [export_sceIoOpen]: Opening file: savedata0:data10.bin
+[11:42:46.134] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data10.bin (target path: savedata0:data10.bin)
+[11:42:46.135] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.135] |I| [export_sceIoOpen]: Opening file: savedata0:data11.bin
+[11:42:46.136] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data11.bin (target path: savedata0:data11.bin)
+[11:42:46.136] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.137] |I| [export_sceIoOpen]: Opening file: savedata0:data12.bin
+[11:42:46.138] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data12.bin (target path: savedata0:data12.bin)
+[11:42:46.139] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.142] |I| [export_sceIoOpen]: Opening file: savedata0:data13.bin
+[11:42:46.147] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data13.bin (target path: savedata0:data13.bin)
+[11:42:46.148] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.148] |I| [export_sceIoOpen]: Opening file: savedata0:data14.bin
+[11:42:46.149] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data14.bin (target path: savedata0:data14.bin)
+[11:42:46.149] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.150] |I| [export_sceIoOpen]: Opening file: savedata0:data15.bin
+[11:42:46.150] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data15.bin (target path: savedata0:data15.bin)
+[11:42:46.151] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.152] |I| [export_sceIoOpen]: Opening file: savedata0:data16.bin
+[11:42:46.152] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data16.bin (target path: savedata0:data16.bin)
+[11:42:46.153] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.156] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[11:42:46.158] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[11:42:46.159] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[11:42:46.161] |I| [export_sceIoOpen]: Opening file: savedata0:system.bin
+[11:42:46.161] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/system.bin (target path: savedata0:system.bin)
+[11:42:46.162] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:46.325] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:42:46.333] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3d0258be7cdb2f39261f1aed2c1dc50a6859839f6eae2a952a74582536009d51
+[11:42:46.334] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[11:42:46.341] |I| [renderer::gl::load_shader_generic]: Generating vert shader f825584fa77282f43c89c1ea1260dc7c938932fe29fd728a9df31fbbbd9aa29f
+[11:42:46.342] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_ObjPos
+[11:42:46.342] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_DifColor
+[11:42:46.343] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) In_Tex
+[11:42:47.023] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[11:42:55.817] |D| [export_sceNgsVoiceInit]: flags: 0
+[11:42:55.828] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:42:55.828] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:42:55.829] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 16000, loop count: 0
+[11:42:55.829] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 0, numbytes: 0, loop count: 0
+[11:42:55.830] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 0, numbytes: 0, loop count: 0
+[11:42:55.830] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:42:55.831] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:42:55.831] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:42:55.832] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:42:55.832] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:42:55.832] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:42:55.833] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:42:55.847] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:42:55.847] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:42:55.848] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:42:55.848] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16000, loop count: 0
+[11:42:55.849] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 16000, loop count: 0
+[11:42:55.849] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:42:55.850] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:42:55.850] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:42:55.851] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:42:55.852] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:42:55.853] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:42:56.893] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:42:56.894] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:42:56.894] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:42:56.895] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16000, loop count: 0
+[11:42:56.895] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16000, loop count: 0
+[11:42:56.896] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 16000, loop count: 0
+[11:42:56.896] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:42:56.897] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:42:56.897] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:42:56.898] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:42:56.899] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:42:57.957] |I| [export_sceIoOpen]: Opening file: savedata0:data01.bin
+[11:42:57.958] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data01.bin (target path: savedata0:data01.bin)
+[11:42:57.959] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.959] |I| [export_sceIoOpen]: Opening file: savedata0:data02.bin
+[11:42:57.960] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data02.bin (target path: savedata0:data02.bin)
+[11:42:57.961] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.962] |I| [export_sceIoOpen]: Opening file: savedata0:data03.bin
+[11:42:57.962] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data03.bin (target path: savedata0:data03.bin)
+[11:42:57.963] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.964] |I| [export_sceIoOpen]: Opening file: savedata0:data04.bin
+[11:42:57.964] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:42:57.964] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data04.bin (target path: savedata0:data04.bin)
+[11:42:57.965] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:42:57.965] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.966] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 16000, loop count: 0
+[11:42:57.966] |I| [export_sceIoOpen]: Opening file: savedata0:data05.bin
+[11:42:57.967] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16000, loop count: 0
+[11:42:57.967] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data05.bin (target path: savedata0:data05.bin)
+[11:42:57.968] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16000, loop count: 0
+[11:42:57.969] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.969] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16000, loop count: 0
+[11:42:57.970] |I| [export_sceIoOpen]: Opening file: savedata0:data06.bin
+[11:42:57.970] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:42:57.971] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data06.bin (target path: savedata0:data06.bin)
+[11:42:57.971] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:42:57.973] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.973] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:42:57.974] |I| [export_sceIoOpen]: Opening file: savedata0:data07.bin
+[11:42:57.975] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:42:57.975] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data07.bin (target path: savedata0:data07.bin)
+[11:42:57.976] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:42:57.977] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.978] |I| [export_sceIoOpen]: Opening file: savedata0:data08.bin
+[11:42:57.982] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data08.bin (target path: savedata0:data08.bin)
+[11:42:57.982] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.983] |I| [export_sceIoOpen]: Opening file: savedata0:data09.bin
+[11:42:57.984] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data09.bin (target path: savedata0:data09.bin)
+[11:42:57.985] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.985] |I| [export_sceIoOpen]: Opening file: savedata0:data10.bin
+[11:42:57.986] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data10.bin (target path: savedata0:data10.bin)
+[11:42:57.986] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.987] |I| [export_sceIoOpen]: Opening file: savedata0:data11.bin
+[11:42:57.987] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data11.bin (target path: savedata0:data11.bin)
+[11:42:57.988] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.989] |I| [export_sceIoOpen]: Opening file: savedata0:data12.bin
+[11:42:57.989] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data12.bin (target path: savedata0:data12.bin)
+[11:42:57.990] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.991] |I| [export_sceIoOpen]: Opening file: savedata0:data13.bin
+[11:42:57.991] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data13.bin (target path: savedata0:data13.bin)
+[11:42:57.992] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.993] |I| [export_sceIoOpen]: Opening file: savedata0:data14.bin
+[11:42:57.993] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data14.bin (target path: savedata0:data14.bin)
+[11:42:57.997] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:57.998] |I| [export_sceIoOpen]: Opening file: savedata0:data15.bin
+[11:42:57.998] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data15.bin (target path: savedata0:data15.bin)
+[11:42:57.999] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:58.000] |I| [export_sceIoOpen]: Opening file: savedata0:data16.bin
+[11:42:58.000] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG01005/data16.bin (target path: savedata0:data16.bin)
+[11:42:58.001] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:42:59.033] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:42:59.033] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:42:59.034] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:42:59.034] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: -1, numbytes: 16000, loop count: 0
+[11:42:59.035] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16000, loop count: 0
+[11:42:59.036] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16000, loop count: 0
+[11:42:59.036] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:42:59.037] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:42:59.037] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:42:59.038] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:42:59.039] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:00.103] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:00.103] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:00.104] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:43:00.104] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16000, loop count: 0
+[11:43:00.105] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 16000, loop count: 0
+[11:43:00.105] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16000, loop count: 0
+[11:43:00.106] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:00.107] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:00.107] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:00.108] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:00.109] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:01.173] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:01.174] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:01.174] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:43:01.175] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16000, loop count: 0
+[11:43:01.175] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16000, loop count: 0
+[11:43:01.176] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 16000, loop count: 0
+[11:43:01.176] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:01.177] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:01.177] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:01.178] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:01.178] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:02.233] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:02.233] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:02.234] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 16000, loop count: 0
+[11:43:02.234] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16000, loop count: 0
+[11:43:02.235] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16000, loop count: 0
+[11:43:02.235] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16000, loop count: 0
+[11:43:02.236] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:02.236] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:02.236] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:02.237] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:02.237] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:03.303] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:03.303] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:03.304] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:43:03.304] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:03.305] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16000, loop count: 0
+[11:43:03.306] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16000, loop count: 0
+[11:43:03.307] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:03.307] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:03.308] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:03.308] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:03.309] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:04.373] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:04.374] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:04.374] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:43:04.375] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:04.375] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:04.376] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16000, loop count: 0
+[11:43:04.376] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:04.377] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:04.377] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:04.378] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:04.378] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:05.433] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:05.434] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:05.434] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16000, loop count: 0
+[11:43:05.435] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:05.435] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:05.436] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:05.437] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:05.437] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:05.438] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:05.438] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:05.440] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:06.523] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:06.524] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:06.525] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:06.526] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:06.527] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:06.528] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16320, loop count: 0
+[11:43:06.528] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:06.529] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:06.530] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:06.531] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:06.531] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:07.613] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:07.614] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:07.614] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16320, loop count: 0
+[11:43:07.615] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:07.615] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:07.616] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16320, loop count: 0
+[11:43:07.616] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:07.617] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:07.617] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:07.618] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:07.618] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:08.703] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:08.703] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:08.704] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16320, loop count: 0
+[11:43:08.705] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:08.706] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:08.707] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16320, loop count: 0
+[11:43:08.707] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:08.708] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:08.708] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:08.709] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:08.709] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:09.783] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:09.783] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:09.784] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16320, loop count: 0
+[11:43:09.784] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:09.785] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:09.785] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:09.787] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:09.788] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:09.789] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:09.790] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:09.792] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:10.873] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:10.877] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:10.882] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:10.883] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:10.886] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:10.888] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16320, loop count: 0
+[11:43:10.889] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:10.889] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:10.899] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:10.900] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:10.901] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:11.973] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:11.974] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:11.975] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16320, loop count: 0
+[11:43:11.976] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:11.976] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:11.977] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16320, loop count: 0
+[11:43:11.978] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:11.978] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:11.979] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:11.979] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:11.980] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:13.063] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:13.065] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:13.072] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16320, loop count: 0
+[11:43:13.085] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:13.086] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:13.086] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16320, loop count: 0
+[11:43:13.087] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:13.087] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:13.088] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:13.088] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:13.089] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:14.163] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:14.163] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:14.164] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 16320, loop count: 0
+[11:43:14.164] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:14.165] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:14.165] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:14.165] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:14.166] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:14.166] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:14.167] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:14.167] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:14.866] |D| [export_sceNgsVoiceInit]: flags: 0
+[11:43:14.870] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: PLAYER, size: 84
+[11:43:14.870] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 0.91875
+[11:43:14.870] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 35168, loop count: 0
+[11:43:14.871] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 0, numbytes: 0, loop count: 0
+[11:43:14.871] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 0, numbytes: 0, loop count: 0
+[11:43:14.872] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:43:14.872] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:14.873] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:14.873] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:14.874] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:14.874] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:14.875] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:43:15.011] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_comtex_light00.exg (target path: app0:/graphic_comtex_light00.exg)
+[11:43:15.012] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:43:15.263] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:15.263] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:15.264] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 16320, loop count: 0
+[11:43:15.264] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 16320, loop count: 0
+[11:43:15.265] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 16320, loop count: 0
+[11:43:15.265] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 16320, loop count: 0
+[11:43:15.266] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:15.266] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:15.266] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:15.267] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:15.267] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:15.658] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_011.hed (target path: app0:/graphic_ev_ev_011.hed)
+[11:43:15.659] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:43:15.660] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_011.dat (target path: app0:/graphic_ev_ev_011.dat)
+[11:43:15.660] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:43:15.789] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_010.hed (target path: app0:/graphic_ev_ev_010.hed)
+[11:43:15.791] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:43:15.792] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_010.dat (target path: app0:/graphic_ev_ev_010.dat)
+[11:43:15.794] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:43:15.823] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_080.hed (target path: app0:/graphic_ev_ev_080.hed)
+[11:43:15.824] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:43:15.826] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSG01005/graphic_ev_ev_080.dat (target path: app0:/graphic_ev_ev_080.dat)
+[11:43:15.826] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[11:43:15.889] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 4096
+[11:43:15.943] |D| [export_sceNgsVoiceInit]: flags: 0
+[11:43:15.944] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:15.944] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:15.944] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:15.945] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 0, loop count: 0
+[11:43:15.945] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 0, loop count: 0
+[11:43:15.946] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:43:15.946] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:15.946] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:15.947] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:15.947] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:15.948] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:15.948] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:43:15.953] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:15.954] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:15.954] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:15.955] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:15.955] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:15.956] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:43:15.956] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:15.957] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:15.957] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:15.958] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:15.958] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:16.140] |I| [renderer::gl::load_shader_generic]: Generating frag shader 47591ac7a7004a458c09f59cf3860424dc4f63cee67f875652c07a08e09cb371
+[11:43:16.142] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[11:43:16.158] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(18) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[11:43:16.823] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:16.823] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:16.824] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:16.825] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:16.825] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:16.826] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:16.826] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:16.827] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:16.827] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:16.827] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:16.828] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:17.693] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:17.693] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:17.694] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:17.694] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:17.695] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:17.695] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:17.696] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:17.696] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:17.696] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:17.697] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:17.697] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:18.573] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:18.574] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:18.574] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:18.575] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:18.576] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:18.576] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:18.577] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:18.577] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:18.578] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:18.579] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:18.580] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:19.443] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:19.444] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:19.444] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:19.445] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:19.445] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:19.446] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:19.446] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:19.447] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:19.447] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:19.448] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:19.448] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:20.323] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:20.324] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:20.325] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:20.326] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:20.327] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:20.328] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:20.328] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:20.329] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:20.330] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:20.330] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:20.331] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:21.193] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:21.193] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:21.194] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:21.194] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:21.195] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:21.195] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:21.196] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:21.196] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:21.197] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:21.197] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:21.197] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:21.541] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:21.558] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:21.574] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:22.073] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:22.074] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:22.074] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:22.075] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:22.075] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:22.076] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:22.076] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:22.077] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:22.077] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:22.078] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:22.078] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:22.393] |D| [export_sceNgsVoiceInit]: flags: 0
+[11:43:22.394] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: PLAYER, size: 84
+[11:43:22.394] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 0.91875
+[11:43:22.394] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 26336, loop count: 0
+[11:43:22.395] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 0, numbytes: 0, loop count: 0
+[11:43:22.395] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 0, numbytes: 0, loop count: 0
+[11:43:22.396] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:43:22.396] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:22.397] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:22.397] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:22.398] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:22.398] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:22.399] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:43:22.407] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:22.424] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:22.457] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:22.943] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:22.944] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:22.944] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:22.944] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:22.945] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:22.945] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:22.946] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:22.946] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:22.946] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:22.947] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:22.948] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:23.463] |D| [export_sceNgsVoiceInit]: flags: 0
+[11:43:23.464] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: PLAYER, size: 84
+[11:43:23.464] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 0.91875
+[11:43:23.464] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 26336, loop count: 0
+[11:43:23.465] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 0, numbytes: 0, loop count: 0
+[11:43:23.465] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 0, numbytes: 0, loop count: 0
+[11:43:23.466] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:43:23.466] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:23.467] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:23.467] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:23.468] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:23.468] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:23.469] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:43:23.813] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:23.813] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:23.814] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:23.815] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:23.815] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:23.816] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:23.816] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:23.816] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:23.817] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:23.817] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:23.818] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:24.541] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:24.557] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:24.693] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:24.694] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:24.694] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:24.695] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:24.695] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:24.695] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:24.696] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:24.696] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:24.697] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:24.697] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:24.698] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:25.093] |D| [export_sceNgsVoiceInit]: flags: 0
+[11:43:25.093] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: PLAYER, size: 84
+[11:43:25.094] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 0.91875
+[11:43:25.094] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 26336, loop count: 0
+[11:43:25.095] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 0, numbytes: 0, loop count: 0
+[11:43:25.095] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 0, numbytes: 0, loop count: 0
+[11:43:25.096] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:43:25.097] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:25.097] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:25.098] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:25.098] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:25.099] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:25.099] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:43:25.124] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:25.141] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:25.174] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:25.207] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:25.563] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:25.563] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:25.564] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:25.565] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:25.565] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 3, numbytes: 15744, loop count: 0
+[11:43:25.566] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:25.566] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:25.566] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:25.567] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:25.567] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:25.568] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:25.873] |D| [export_sceNgsVoiceInit]: flags: 0
+[11:43:25.874] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: PLAYER, size: 84
+[11:43:25.874] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 0.91875
+[11:43:25.874] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: -1, numbytes: 26336, loop count: 0
+[11:43:25.875] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 0, numbytes: 0, loop count: 0
+[11:43:25.875] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: 0, numbytes: 0, loop count: 0
+[11:43:25.876] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 0, loop count: 0
+[11:43:25.876] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:25.877] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 2, module name: DISTORTION, size: 32
+[11:43:25.877] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 3, module name: PARAM_EQ, size: 72
+[11:43:25.878] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 4, module name: FILTER, size: 24
+[11:43:25.878] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 5, module name: PAUSER, size: 16
+[11:43:25.879] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[11:43:25.891] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:25.907] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:25.941] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
+[11:43:26.443] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 0, module name: ATRAC9, size: 96
+[11:43:26.443] |D| [export_sceNgsVoiceSetParamsBlock]: playback, freq: 48000, scal: 1
+[11:43:26.444] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 0, next buff: 1, numbytes: 15744, loop count: 0
+[11:43:26.444] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 1, next buff: 2, numbytes: 15744, loop count: 0
+[11:43:26.445] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 2, next buff: -1, numbytes: 15744, loop count: 0
+[11:43:26.445] |D| [export_sceNgsVoiceSetParamsBlock]: buffer 3, next buff: 0, numbytes: 15744, loop count: 0
+[11:43:26.446] |I| [export_sceNgsVoiceSetParamsBlock]: module id: 1, module name: ENVELOPE, size: 72
+[11:43:26.44
