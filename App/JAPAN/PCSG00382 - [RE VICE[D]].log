@@ -1,163 +1,130 @@
-[09:42:29.534] |I| [load_app_impl]: cpu-backend: Dynarmic
-[09:42:29.534] |I| [load_app_impl]: CPU Optimisation state: true
-[09:42:29.534] |I| [load_app_impl]: at9 audio decoder state: true
-[09:42:29.534] |I| [load_app_impl]: ngs experimental state: true
-[09:42:29.535] |I| [load_app_impl]: video player state: true
-[09:42:29.535] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson,librudp
-[09:42:29.535] |I| [load_app_impl]: Title: RE:VICE[D]
-[09:42:29.535] |I| [load_app_impl]: Serial: PCSG00382
-[09:42:29.535] |I| [load_app_impl]: Version: 1.00
-[09:42:29.535] |I| [load_app_impl]: Category: gd
-[09:42:29.600] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[09:42:29.600] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000543BC / 0x81000000] (size: 0x0004D3BC) of module ux0:app\PCSG00382\sce_module\libc.suprx
-[09:42:29.600] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F0 / 0x8104E000] (size: 0x000026F0) of module ux0:app\PCSG00382\sce_module\libc.suprx
-[09:42:29.600] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00382\sce_module\libc.suprx
-[09:42:29.601] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A164
-[09:42:29.601] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x400FC
-[09:42:29.601] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x440BC, setting to stub value 0xDEADBEEF
-[09:42:29.602] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x45B70, setting to stub value 0xDEADBEEF
-[09:42:29.602] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG00382\sce_module\libc.suprx") loaded
-[09:42:29.606] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[09:42:29.606] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x00071ED8 / 0x81000000] (size: 0x00017ED8) of module ux0:app\PCSG00382\sce_module\libface.suprx
-[09:42:29.606] |I| [load_self]: Loaded module segment 1 @ [0x00072000 - 0x000720F8 / 0x81018000] (size: 0x000000F8) of module ux0:app\PCSG00382\sce_module\libface.suprx
-[09:42:29.607] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00382\sce_module\libface.suprx
-[09:42:29.607] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6ED70
-[09:42:29.607] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG00382\sce_module\libface.suprx") loaded
-[09:42:29.615] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[09:42:29.617] |I| [load_self]: Loaded module segment 0 @ [0x00073000 - 0x0009E12C / 0x81000000] (size: 0x0002B12C) of module ux0:app\PCSG00382\sce_module\libfios2.suprx
-[09:42:29.617] |I| [load_self]: Loaded module segment 1 @ [0x0009F000 - 0x000A423D / 0x8102C000] (size: 0x0000523D) of module ux0:app\PCSG00382\sce_module\libfios2.suprx
-[09:42:29.617] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00382\sce_module\libfios2.suprx
-[09:42:29.617] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9E034
-[09:42:29.618] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x95548
-[09:42:29.618] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG00382\sce_module\libfios2.suprx") loaded
-[09:42:29.672] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[09:42:29.672] |I| [load_self]: Loaded module segment 0 @ [0x000A5000 - 0x002A3E9C / 0x81000000] (size: 0x001FEE9C) of module ux0:app\PCSG00382\sce_module\libsmart.suprx
-[09:42:29.672] |I| [load_self]: Loaded module segment 1 @ [0x002A4000 - 0x002A75C4 / 0x811FF000] (size: 0x000035C4) of module ux0:app\PCSG00382\sce_module\libsmart.suprx
-[09:42:29.673] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00382\sce_module\libsmart.suprx
-[09:42:29.673] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x145258
-[09:42:29.673] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG00382\sce_module\libsmart.suprx") loaded
-[09:42:29.678] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[09:42:29.678] |I| [load_self]: Loaded module segment 0 @ [0x002A8000 - 0x002BBA9C / 0x81000000] (size: 0x00013A9C) of module ux0:app\PCSG00382\sce_module\libult.suprx
-[09:42:29.678] |I| [load_self]: Loaded module segment 1 @ [0x002BC000 - 0x002BC814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSG00382\sce_module\libult.suprx
-[09:42:29.678] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00382\sce_module\libult.suprx
-[09:42:29.678] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2BA3C8
-[09:42:29.679] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2B7944
-[09:42:29.679] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG00382\sce_module\libult.suprx") loaded
-[09:42:29.686] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x0030DF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[09:42:29.687] |I| [load_self]: Loaded module segment 1 @ [0x0030E000 - 0x0030E2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[09:42:29.687] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[09:42:29.687] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2F97DC
-[09:42:29.687] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F8F10
-[09:42:29.687] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[09:42:29.690] |I| [load_self]: Loaded module segment 0 @ [0x0030F000 - 0x0031EF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[09:42:29.690] |I| [load_self]: Loaded module segment 1 @ [0x0031F000 - 0x0031F008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[09:42:29.690] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[09:42:29.690] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x31D710
-[09:42:29.690] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31D300
-[09:42:29.691] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[09:42:29.745] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[09:42:29.745] |I| [load_self]: Loaded module segment 0 @ [0x00320000 - 0x0051050C / 0x81000000] (size: 0x001F050C) of module app0:eboot.bin
-[09:42:29.746] |I| [load_self]: Loaded module segment 1 @ [0x00511000 - 0x009A9198 / 0x811F1000] (size: 0x00498198) of module app0:eboot.bin
-[09:42:29.746] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[09:42:29.746] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4B4344
-[09:42:29.746] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x511C30
-[09:42:29.746] |I| [load_app_impl]: Main executable eboot (eboot.bin) loaded
-[09:42:29.755] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
-[09:42:29.783] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG00382\sce_module\libc.suprx") module_start returned 0x0
-[09:42:29.788] |D| [run_app]: Running module_start of library: SceFace at address 0x6E23D
-[09:42:29.796] |I| [run_app]: Module SceFace (at "ux0:app\PCSG00382\sce_module\libface.suprx") module_start returned 0x0
-[09:42:29.800] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x73001
-[09:42:29.808] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[09:42:29.808] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
-[09:42:29.808] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[09:42:29.809] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG00382\sce_module\libfios2.suprx") module_start returned 0x0
-[09:42:29.813] |D| [run_app]: Running module_start of library: SceSmart at address 0xA517D
-[09:42:29.822] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG00382\sce_module\libsmart.suprx") module_start returned 0x0
-[09:42:29.826] |D| [run_app]: Running module_start of library: SceUlt at address 0x2AB769
-[09:42:29.834] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[09:42:29.834] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG00382\sce_module\libult.suprx") module_start returned 0x0
-[09:42:29.847] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[09:42:29.969] |W| [stubbed_impl]: Stubbed sceKernelGetThreadInfo import called. (STUB)
-[09:42:29.987] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG00382, thread ID: 10)
-[09:42:29.990] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
-[09:42:30.001] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
-[09:42:30.001] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
-[09:42:30.002] |W| [unimplemented_impl]: Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
-[09:42:30.002] |W| [unimplemented_impl]: Unimplemented sceSystemGestureCreateTouchRecognizer import called.
-[09:42:30.003] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
-[09:42:30.003] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
-[09:42:30.003] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOn import called.
-[09:42:30.023] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[09:42:30.024] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[09:42:30.064] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[09:42:30.101] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[09:42:30.103] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[09:42:30.125] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampEnable import called.
-[09:42:30.125] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampValue import called.
-[09:42:30.125] |W| [unimplemented_impl]: Unimplemented sceGxmSetWBufferEnable import called.
-[09:42:30.126] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
-[09:42:30.126] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[09:42:30.126] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[09:42:30.131] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
-[09:42:30.132] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[09:42:30.152] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
-[09:42:30.174] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
-[09:42:30.187] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
-[09:42:30.191] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.192] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.192] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.192] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.192] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.193] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.193] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.193] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.194] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[09:42:30.209] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
-[09:42:30.244] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[09:42:30.309] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[09:42:30.310] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[09:42:30.346] |E| [logging::ret_error_impl]: sceAppUtilDrmClose returned SCE_APPUTIL_ERROR_NOT_MOUNTED (0x80100604)
-[09:42:30.548] |I| [float_to_half_init]: AVX+F16C instruction set supported. Use fast f32 to f16 conversion
-[09:42:30.559] |I| [export_sceIoOpen]: Opening file: app0:/data/SYSTEM.cpk
-[09:42:30.562] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[09:42:30.565] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
-[09:42:30.565] |W| [unimplemented_impl]: Unimplemented sceSystemGestureUpdateTouchRecognizer import called.
-[09:42:30.566] |W| [unimplemented_impl]: Unimplemented sceSystemGestureGetTouchEventsCount import called.
-[09:42:30.567] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
-[09:42:30.576] |I| [renderer::gl::load_shader_generic]: Generating frag shader 2d37151ab27fb8bd8ed4ffff304045c408af48958ad021d6f40082083855102f
-[09:42:30.577] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) Color
-[09:42:30.593] |I| [renderer::gl::load_shader_generic]: Generating vert shader 4d166ae937fa40e54e5a28f945b7f4b9cab28cd91b9ab2cc3fabb3a43e3409ce
-[09:42:30.594] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) invtx_Position
-[09:42:30.594] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) Depth
-[09:42:30.620] |I| [export_sceIoOpen]: Opening file: app0:/data/SYSTEM.cpk
-[09:42:30.640] |I| [export_sceIoOpen]: Opening file: app0:/data/GAME.cpk
-[09:42:30.644] |I| [export_sceIoOpen]: Opening file: app0:/data/GAME.cpk
-[09:42:30.659] |I| [export_sceIoOpen]: Opening file: app0:/data/MOVIE.cpk
-[09:42:30.684] |I| [export_sceIoOpen]: Opening file: app0:/data/MOVIE.cpk
-[09:42:30.691] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[09:42:30.692] |I| [renderer::gl::load_shader_generic]: Generating frag shader 6a0b3a7c93b116a0aab38bb195489970cb5e51c00b9a2d6a0acbd818f63c3458
-[09:42:30.696] |I| [renderer::gl::load_shader_generic]: Generating vert shader d12e6cd7fec1c8a22f3d6407733e475e4cddc7f9b410ba80679434c626ce6402
-[09:42:30.696] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) invtx_Position
-[09:42:30.697] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) invtx_TexCoord
-[09:42:30.706] |I| [export_sceIoOpen]: Opening file: app0:/data/SOUND.cpk
-[09:42:30.707] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
-[09:42:30.731] |I| [export_sceIoOpen]: Opening file: app0:/data/SOUND.cpk
-[09:42:31.792] |I| [renderer::gl::load_shader_generic]: Generating frag shader b199b1c8d42c9fc7b72113d73d67d5a075623d0004fa71708609fb7829ca15d7
-[09:42:31.794] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[09:42:31.797] |I| [renderer::gl::load_shader_generic]: Generating vert shader b5ec0f2b813d62b98c366c67bc9346e18c4c494a196b29398c8865e0623ac06c
-[09:42:31.797] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) invtx_Position
-[09:42:31.797] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) invtx_Color
-[09:42:31.798] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) Mat2dCamera[4]
-[09:42:31.798] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) MatTransform[4]
-[09:42:31.810] |E| [renderer::gl::compile_program]: Vertex info
------------
-0(23) : warning C7050: "internals[0].w" might be used before being initialized
-0(23) : warning C7050: "internals[1].w" might be used before being initialized
-
-Fragment info
--------------
-0(16) : warning C7050: "pa[0].zw" might be used before being initialized
-
-
-[09:42:41.413] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
-[09:42:41.414] |E| [discordrpc::update_presence::<lambda_50ee3771c9ac2f7a4b17591668a7e6b3>::operator ()]: Error updating discord rich presence, err_code: 43
+[01:37:27.930] |I| [load_app_impl]: cpu-backend: Dynarmic
+[01:37:27.930] |I| [load_app_impl]: CPU Optimisation state: true
+[01:37:27.930] |I| [load_app_impl]: at9 audio decoder state: true
+[01:37:27.930] |I| [load_app_impl]: ngs experimental state: true
+[01:37:27.930] |I| [load_app_impl]: video player state: true
+[01:37:27.930] |I| [load_app_impl]: modules mode: Automatic
+[01:37:27.930] |I| [load_app_impl]: Title: RE:VICE[D]
+[01:37:27.930] |I| [load_app_impl]: Serial: PCSG00382
+[01:37:27.930] |I| [load_app_impl]: Version: 1.00
+[01:37:27.931] |I| [load_app_impl]: Category: gd
+[01:37:27.988] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:37:27.989] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000543BC / 0x81000000] (size: 0x0004D3BC) of module app0:sce_module/libc.suprx
+[01:37:27.989] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x000576F0 / 0x8104E000] (size: 0x000026F0) of module app0:sce_module/libc.suprx
+[01:37:27.989] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[01:37:27.989] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4A164
+[01:37:27.989] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x400FC
+[01:37:27.989] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x440BC, setting to stub value 0xDEADBEEF
+[01:37:27.990] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x45B70, setting to stub value 0xDEADBEEF
+[01:37:27.991] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[01:37:27.997] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:37:27.997] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x0008512C / 0x81000000] (size: 0x0002B12C) of module app0:sce_module/libfios2.suprx
+[01:37:27.997] |I| [load_self]: Loaded module segment 1 @ [0x00086000 - 0x0008B23D / 0x8102C000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[01:37:27.997] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[01:37:27.997] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x85034
+[01:37:27.997] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7C548
+[01:37:27.998] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[01:37:28.002] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:37:28.002] |I| [load_self]: Loaded module segment 0 @ [0x0008C000 - 0x0009FA9C / 0x81000000] (size: 0x00013A9C) of module app0:sce_module/libult.suprx
+[01:37:28.002] |I| [load_self]: Loaded module segment 1 @ [0x000A0000 - 0x000A0814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[01:37:28.002] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[01:37:28.002] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9E3C8
+[01:37:28.002] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9B944
+[01:37:28.003] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[01:37:28.010] |I| [load_self]: Loaded module segment 0 @ [0x000A1000 - 0x000F1F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[01:37:28.010] |I| [load_self]: Loaded module segment 1 @ [0x000F2000 - 0x000F22F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[01:37:28.010] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[01:37:28.010] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xDD7DC
+[01:37:28.010] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xDCF10
+[01:37:28.010] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[01:37:28.013] |I| [load_self]: Loaded module segment 0 @ [0x000F3000 - 0x00102F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[01:37:28.013] |I| [load_self]: Loaded module segment 1 @ [0x00103000 - 0x00103008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[01:37:28.013] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[01:37:28.013] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x101710
+[01:37:28.013] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x101300
+[01:37:28.013] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[01:37:28.075] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:37:28.076] |I| [load_self]: Loaded module segment 0 @ [0x00104000 - 0x002F450C / 0x81000000] (size: 0x001F050C) of module app0:eboot.bin
+[01:37:28.076] |I| [load_self]: Loaded module segment 1 @ [0x002F5000 - 0x0078D198 / 0x811F1000] (size: 0x00498198) of module app0:eboot.bin
+[01:37:28.076] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[01:37:28.076] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x298344
+[01:37:28.076] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x2F5C30
+[01:37:28.076] |I| [load_app_impl]: Main executable eboot (eboot.bin) loaded
+[01:37:28.085] |D| [run_app]: Running module_start of library: SceLibc at address 0x7809
+[01:37:28.113] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[01:37:28.118] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5A001
+[01:37:28.125] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[01:37:28.126] |D| [export_sceFiosOverlayGetList02]: maxIDs: 255
+[01:37:28.126] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[01:37:28.126] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[01:37:28.130] |D| [run_app]: Running module_start of library: SceUlt at address 0x8F769
+[01:37:28.137] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[01:37:28.137] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[01:37:28.150] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[01:37:28.237] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[01:37:28.255] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG00382, thread ID: 8)
+[01:37:28.259] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[01:37:28.269] |I| [load_module]: Loading module ID: 0x13
+[01:37:28.271] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[01:37:28.272] |I| [load_self]: Loaded module segment 0 @ [0x0D1DC000 - 0x0D1DF08C / 0x81000000] (size: 0x0000308C) of module sys/external/libsystemgesture.suprx
+[01:37:28.272] |I| [load_self]: Loaded module segment 1 @ [0x0D1E0000 - 0x0D1E0BF0 / 0x81004000] (size: 0x00000BF0) of module sys/external/libsystemgesture.suprx
+[01:37:28.272] |I| [load_self]: Loading symbols for SELF: sys/external/libsystemgesture.suprx
+[01:37:28.272] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xD1DF074
+[01:37:28.272] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xD1DEBD4
+[01:37:28.272] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") loaded
+[01:37:28.272] |D| [load_module]: Running module_start of module: SceSystemGesture
+[01:37:28.273] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") module_start returned 0x0
+[01:37:28.273] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[01:37:28.274] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[01:37:28.274] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x6078A08B sceSystemGestureInitializePrimitiveTouchRecognizer at 0x297BC8
+[01:37:28.274] |W| [unimplemented_impl]: Unimplemented sceTouchGetPixelDensity2 import called.
+[01:37:28.275] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xC3367370 sceSystemGestureCreateTouchRecognizer at 0x297BF8
+[01:37:28.275] |E| [call_import]: Import function for NID 0xE340CD1D not found (thread name: PCSG00382, thread ID: 8)
+[01:37:28.276] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[01:37:28.276] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
+[01:37:28.277] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOn import called.
+[01:37:28.293] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[01:37:28.294] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[01:37:28.318] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[01:37:28.345] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 2
+[01:37:28.354] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[01:37:28.355] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[01:37:28.376] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampEnable import called.
+[01:37:28.376] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampValue import called.
+[01:37:28.377] |W| [unimplemented_impl]: Unimplemented sceGxmSetWBufferEnable import called.
+[01:37:28.377] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[01:37:28.377] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[01:37:28.379] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[01:37:28.384] |D| [ngs::create_voice_definition]: type: 17
+[01:37:28.384] |D| [ngs::create_voice_definition]: type: 13
+[01:37:28.384] |D| [ngs::create_voice_definition]: type: 7
+[01:37:28.384] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
+[01:37:28.384] |D| [ngs::create_voice_definition]: type: 0
+[01:37:28.385] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[01:37:28.405] |W| [stubbed_impl]: Stubbed _sceKernelWaitEventFlagCB import called. (Try CB)
+[01:37:28.426] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (Try CB)
+[01:37:28.440] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.441] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.441] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.441] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.441] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.441] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.441] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.441] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.442] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[01:37:28.454] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
+[01:37:28.481] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[01:37:28.539] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[01:37:28.540] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[01:37:28.569] |E| [logging::ret_error_impl]: sceAppUtilDrmClose returned SCE_APPUTIL_ERROR_NOT_MOUNTED (0x80100604)
+[01:37:28.662] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[01:37:28.695] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[01:37:28.729] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[01:37:28.767] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[01:37:28.779] |I| [export_sceIoOpen]: Opening file: app0:/data/SYSTEM.cpk
+[01:37:28.781] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[01:37:28.783] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xDF4C665A sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x297C08
+[01:37:28.785] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x851FB144 sceSystemGestureUpdateTouchRecognizer at 0x297BE8
+[01:37:28.788] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x13AD2218 sceSystemGestureGetTouchEventsCount at 0x297BA8
+[01:37:28.788] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[01:37:28.796] |I| [renderer::gl::load_shader_generic]: Generating frag shader 2d3

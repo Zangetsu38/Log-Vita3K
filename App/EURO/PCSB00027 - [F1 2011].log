@@ -1,275 +1,88 @@
-[02:55:32.649] |I| [load_app_impl]: cpu-backend: Dynarmic
-[02:55:32.649] |I| [load_app_impl]: CPU Optimisation state: true
-[02:55:32.649] |I| [load_app_impl]: at9 audio decoder state: true
-[02:55:32.649] |I| [load_app_impl]: ngs experimental state: false
-[02:55:32.649] |I| [load_app_impl]: video player state: true
-[02:55:32.656] |I| [load_app_impl]: 1 Controllers Connected
-[02:55:32.656] |I| [load_app_impl]: Controller 0: PS5 Controller
-[02:55:32.656] |I| [load_app_impl]: modules mode: Automatic
-[02:55:32.656] |I| [load_app_impl]: Title: F1 2011
-[02:55:32.657] |I| [load_app_impl]: Serial: PCSB00027
-[02:55:32.657] |I| [load_app_impl]: Version: 1.00
-[02:55:32.657] |I| [load_app_impl]: Category: gd
-[02:55:32.665] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[02:55:32.666] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00042F34 / 0x81000000] (size: 0x0003BF34) of module ux0:app\PCSB00027\sce_module\libc.suprx
-[02:55:32.666] |I| [load_self]: Loaded module segment 1 @ [0x00043000 - 0x0004533C / 0x8103C000] (size: 0x0000233C) of module ux0:app\PCSB00027\sce_module\libc.suprx
-[02:55:32.667] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00027\sce_module\libc.suprx
-[02:55:32.667] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34A70
-[02:55:32.668] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x38220, setting to stub value 0xDEADBEEF
-[02:55:32.669] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSB00027\sce_module\libc.suprx") loaded
-[02:55:32.674] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[02:55:32.674] |I| [load_self]: Loaded module segment 0 @ [0x00047000 - 0x00067398 / 0x81000000] (size: 0x00020398) of module ux0:app\PCSB00027\sce_module\libfios2.suprx
-[02:55:32.675] |I| [load_self]: Loaded module segment 1 @ [0x00068000 - 0x0006D1AC / 0x81021000] (size: 0x000051AC) of module ux0:app\PCSB00027\sce_module\libfios2.suprx
-[02:55:32.676] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00027\sce_module\libfios2.suprx
-[02:55:32.677] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6135C
-[02:55:32.677] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSB00027\sce_module\libfios2.suprx") loaded
-[02:55:32.681] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[02:55:32.683] |I| [load_self]: Loaded module segment 0 @ [0x0006E000 - 0x0008268C / 0x81000000] (size: 0x0001468C) of module ux0:app\PCSB00027\sce_module\libult.suprx
-[02:55:32.684] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x00083810 / 0x81015000] (size: 0x00000810) of module ux0:app\PCSB00027\sce_module\libult.suprx
-[02:55:32.685] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSB00027\sce_module\libult.suprx
-[02:55:32.686] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7F370
-[02:55:32.686] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSB00027\sce_module\libult.suprx") loaded
-[02:55:32.694] |I| [load_self]: Loaded module segment 0 @ [0x00084000 - 0x000D4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[02:55:32.694] |I| [load_self]: Loaded module segment 1 @ [0x000D5000 - 0x000D52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[02:55:32.695] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[02:55:32.696] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC07DC
-[02:55:32.696] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBFF10
-[02:55:32.697] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD4EE0, setting to stub value 0xDEADBEEF
-[02:55:32.700] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[02:55:32.703] |I| [load_self]: Loaded module segment 0 @ [0x000D7000 - 0x000E6F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[02:55:32.703] |I| [load_self]: Loaded module segment 1 @ [0x000E7000 - 0x000E7008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[02:55:32.704] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[02:55:32.704] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE5710
-[02:55:32.705] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE5300
-[02:55:32.705] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[02:55:32.750] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[02:55:32.751] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81230008 / 0x81000000] (size: 0x00230008) of module app0:eboot.bin
-[02:55:32.751] |I| [load_self]: Loaded module segment 1 @ [0x81231000 - 0x8133F7DC / 0x81231000] (size: 0x0010E7DC) of module app0:eboot.bin
-[02:55:32.752] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[02:55:32.753] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x811E8FF4
-[02:55:32.753] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8123502C
-[02:55:32.754] |I| [load_app_impl]: Main executable F1_2010 (eboot.bin) loaded
-[02:55:32.763] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
-[02:55:32.776] |I| [export_sceIoOpen]: Opening file: tty0:
-[02:55:32.777] |I| [export_sceIoOpen]: Opening file: tty0:
-[02:55:32.778] |I| [export_sceIoOpen]: Opening file: tty1:
-[02:55:32.785] |I| [run_app]: Module SceLibc (at "ux0:app\PCSB00027\sce_module\libc.suprx") module_start returned 0x0
-[02:55:32.789] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x47001
-[02:55:32.797] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSB00027\sce_module\libfios2.suprx") module_start returned 0x0
-[02:55:32.802] |D| [run_app]: Running module_start of library: SceUlt at address 0x71D59
-[02:55:32.809] |I| [run_app]: Module SceUlt (at "ux0:app\PCSB00027\sce_module\libult.suprx") module_start returned 0x0
-[02:55:32.894] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
-[02:55:32.923] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[02:55:32.924] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
-[02:55:32.925] |W| [stubbed_impl]: Stubbed _sceKernelWaitLwCondCB import called. (Try CB)
-[02:55:32.974] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[02:55:32.975] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayResolveWithRangeSync import called. (Using strncpy)
-[02:55:32.985] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
-[02:55:32.991] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/F1AUDIO.PSARC
-[02:55:33.016] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/F1AUDIO.PSARC
-[02:55:33.341] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[02:55:33.347] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[02:55:33.348] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[02:55:33.348] |W| [unimplemented_impl]: Unimplemented sceAppUtilShutdown import called.
-[02:55:33.349] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
-[02:55:33.368] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[02:55:33.369] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[02:55:33.628] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
-[02:55:33.634] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, width: 64, height: 64, texFormat: -1711267840
-[02:55:33.634] |E| [logging::ret_error_impl]: sceGxmTextureSetUAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
-[02:55:33.635] |E| [logging::ret_error_impl]: sceGxmTextureSetVAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
-[02:55:33.826] |D| [export_sceSysmoduleLoadModule]: module id: 1
-[02:55:33.826] |D| [export_sceSysmoduleLoadModule]: module: libnet
-[02:55:33.827] |D| [export_sceSysmoduleLoadModule]: module: libnetctl
-[02:55:33.828] |D| [export_sceSysmoduleLoadModule]: module id: 4
-[02:55:33.828] |D| [export_sceSysmoduleLoadModule]: module: libhttp
-[02:55:33.828] |D| [export_sceSysmoduleLoadModule]: module: libssl
-[02:55:33.829] |D| [export_sceSysmoduleLoadModule]: module id: 21
-[02:55:33.829] |D| [export_sceSysmoduleLoadModule]: module: np_common
-[02:55:33.830] |D| [export_sceSysmoduleLoadModule]: module: np_manager
-[02:55:33.831] |D| [export_sceSysmoduleLoadModule]: module id: 18
-[02:55:33.831] |D| [export_sceSysmoduleLoadModule]: module: np_basic
-[02:55:33.832] |D| [export_sceSysmoduleLoadModule]: module id: 28
-[02:55:33.832] |D| [export_sceSysmoduleLoadModule]: module: np_matching2
-[02:55:33.833] |D| [export_sceSysmoduleLoadModule]: module id: 37
-[02:55:33.833] |D| [export_sceSysmoduleLoadModule]: module: np_trophy
-[02:55:33.834] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[02:55:33.834] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[02:55:33.835] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[02:55:33.836] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[02:55:33.836] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
-[02:55:33.837] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
-[02:55:33.871] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/_GAMECONFIG.INI
-[02:55:33.896] |D| [export_sceSysmoduleLoadModule]: module id: 11
-[02:55:33.897] |D| [export_sceSysmoduleLoadModule]: module: libngs
-[02:55:33.922] |W| [unimplemented_impl]: Unimplemented sceSulphaNgsTrace import called.
-[02:55:35.112] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA.GPU
-[02:55:35.114] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA.DAT
-[02:55:35.115] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA.REL
-[02:55:35.116] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.DAT
-[02:55:35.118] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.REL
-[02:55:35.119] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.GPU
-[02:55:35.119] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.GPU (target path: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.GPU)
-[02:55:35.120] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:35.128] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING.GPU
-[02:55:35.129] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING.DAT
-[02:55:35.130] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING.REL
-[02:55:35.130] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING_FR.DAT
-[02:55:35.131] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING_FR.REL
-[02:55:35.132] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING_FR.GPU
-[02:55:35.141] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/FRONTENDSCRIPTS.SBN
-[02:55:35.143] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SUMEMCARDSCRIPTS.SBN
-[02:55:35.160] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[02:55:35.186] |I| [renderer::gl::load_shader_generic]: Generating frag shader 69d9ebaa5567de875f1e0f1481d7952f60848e800cd380df8c66a7357f6c1442
-[02:55:35.188] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) colour
-[02:55:35.194] |I| [renderer::gl::load_shader_generic]: Generating vert shader 8d6a0eab66df1235eacffa5a9fba3c298cbd3a44d568af9268ba26a23adab96f
-[02:55:35.194] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/SPLASH_SCREENS.GPU
-[02:55:35.195] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:55:35.202] |E| [renderer::gl::compile_program]: Fragment info
+[07:56:41.381] |I| [load_app_impl]: cpu-backend: Dynarmic
+[07:56:41.382] |I| [load_app_impl]: CPU Optimisation state: true
+[07:56:41.382] |I| [load_app_impl]: at9 audio decoder state: true
+[07:56:41.382] |I| [load_app_impl]: ngs experimental state: false
+[07:56:41.382] |I| [load_app_impl]: video player state: true
+[07:56:41.382] |I| [load_app_impl]: modules mode: Automatic
+[07:56:41.382] |I| [load_app_impl]: Title: F1 2011
+[07:56:41.382] |I| [load_app_impl]: Serial: PCSB00027
+[07:56:41.382] |I| [load_app_impl]: Version: 1.00
+[07:56:41.382] |I| [load_app_impl]: Category: gd
+[07:56:41.470] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:56:41.470] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00042F34 / 0x81000000] (size: 0x0003BF34) of module app0:sce_module/libc.suprx
+[07:56:41.470] |I| [load_self]: Loaded module segment 1 @ [0x00043000 - 0x0004533C / 0x8103C000] (size: 0x0000233C) of module app0:sce_module/libc.suprx
+[07:56:41.471] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[07:56:41.472] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x34A70
+[07:56:41.472] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x38220, setting to stub value 0xDEADBEEF
+[07:56:41.473] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[07:56:41.481] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:56:41.482] |I| [load_self]: Loaded module segment 0 @ [0x00047000 - 0x00067398 / 0x81000000] (size: 0x00020398) of module app0:sce_module/libfios2.suprx
+[07:56:41.484] |I| [load_self]: Loaded module segment 1 @ [0x00068000 - 0x0006D1AC / 0x81021000] (size: 0x000051AC) of module app0:sce_module/libfios2.suprx
+[07:56:41.485] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[07:56:41.485] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6135C
+[07:56:41.486] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[07:56:41.502] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:56:41.502] |I| [load_self]: Loaded module segment 0 @ [0x0006E000 - 0x0008268C / 0x81000000] (size: 0x0001468C) of module app0:sce_module/libult.suprx
+[07:56:41.504] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x00083810 / 0x81015000] (size: 0x00000810) of module app0:sce_module/libult.suprx
+[07:56:41.505] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[07:56:41.505] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7F370
+[07:56:41.506] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[07:56:41.514] |I| [load_self]: Loaded module segment 0 @ [0x00084000 - 0x000D4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[07:56:41.515] |I| [load_self]: Loaded module segment 1 @ [0x000D5000 - 0x000D52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[07:56:41.516] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[07:56:41.516] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC07DC
+[07:56:41.518] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBFF10
+[07:56:41.519] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0xD4EE0, setting to stub value 0xDEADBEEF
+[07:56:41.520] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[07:56:41.523] |I| [load_self]: Loaded module segment 0 @ [0x000D7000 - 0x000E6F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[07:56:41.523] |I| [load_self]: Loaded module segment 1 @ [0x000E7000 - 0x000E7008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[07:56:41.524] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[07:56:41.525] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE5710
+[07:56:41.525] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE5300
+[07:56:41.526] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[07:56:41.600] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[07:56:41.601] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81230008 / 0x81000000] (size: 0x00230008) of module app0:eboot.bin
+[07:56:41.602] |I| [load_self]: Loaded module segment 1 @ [0x81231000 - 0x8133F7DC / 0x81231000] (size: 0x0010E7DC) of module app0:eboot.bin
+[07:56:41.603] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[07:56:41.604] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x811E8FF4
+[07:56:41.604] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8123502C
+[07:56:41.605] |I| [load_app_impl]: Main executable F1_2010 (eboot.bin) loaded
+[07:56:41.620] |I| [renderer::gl::compile_shader]: frag shader compiled: 69d9ebaa5567de875f1e0f1481d7952f60848e800cd380df8c66a7357f6c1442
+[07:56:41.622] |I| [renderer::gl::compile_shader]: vert shader compiled: 8d6a0eab66df1235eacffa5a9fba3c298cbd3a44d568af9268ba26a23adab96f
+[07:56:41.641] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[02:55:35.208] |I| [renderer::gl::load_shader_generic]: Generating frag shader 7e91bc14c2c3fa9cd2f0a4f8afd8e492b08c2c90ae4462d7e12ff401f388d5d2
-[02:55:35.210] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) gamma
-[02:55:35.210] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) bc
-[02:55:35.232] |I| [renderer::gl::load_shader_generic]: Generating vert shader b6ce20953e4710d60d1953224451fa48dad5df88cfcc481e104a0699ab811cde
-[02:55:35.235] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:55:35.237] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord0
-[02:55:35.252] |E| [renderer::gl::compile_program]: Fragment info
+[07:56:41.644] |I| [renderer::gl::pre_compile_program]: Program Compiled 1/31
+[07:56:41.734] |I| [renderer::gl::compile_shader]: frag shader compiled: 7e91bc14c2c3fa9cd2f0a4f8afd8e492b08c2c90ae4462d7e12ff401f388d5d2
+[07:56:41.738] |I| [renderer::gl::compile_shader]: vert shader compiled: b6ce20953e4710d60d1953224451fa48dad5df88cfcc481e104a0699ab811cde
+[07:56:41.749] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(24) : warning C7050: "internals[1]" might be used before being initialized
 0(24) : warning C7050: "internals[2]" might be used before being initialized
 
 
-[02:55:35.258] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[02:55:35.272] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/SPLASH_SCREENS.DAT
-[02:55:35.343] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/SPLASH_SCREENS.REL
-[02:55:35.458] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/SPLASH_SCREENS_FR.DAT
-[02:55:35.508] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/SPLASH_SCREENS_FR.REL
-[02:55:35.557] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/SPLASH_SCREENS_FR.GPU
-[02:55:35.620] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/POP_UPS.GPU
-[02:55:35.654] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/POP_UPS.DAT
-[02:55:35.655] |I| [renderer::gl::load_shader_generic]: Generating frag shader 63084daf351b3aae9d4a80cde1271af07a405fdb6cdba56b16f84c072ac9e02a
-[02:55:35.657] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[02:55:35.659] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1a43b9eb7630d0cb29d761e5b71e9595c69b3461bbd2da935c08ffe4871209ab
-[02:55:35.662] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) iPosition
-[02:55:35.662] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) iCol
-[02:55:35.662] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ScissorLeft
-[02:55:35.663] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) ScissorRight
-[02:55:35.663] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) ScissorTop
-[02:55:35.664] |D| [shader::create_parameters]: [DEFAULT  + 3] sa3 = (float1) ScissorBottom
-[02:55:35.664] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) OrthoProjection[4]
-[02:55:35.682] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:41.749] |I| [renderer::gl::pre_compile_program]: Program Compiled 2/31
+[07:56:41.753] |I| [renderer::gl::compile_shader]: frag shader compiled: 63084daf351b3aae9d4a80cde1271af07a405fdb6cdba56b16f84c072ac9e02a
+[07:56:41.755] |I| [renderer::gl::compile_shader]: vert shader compiled: 1a43b9eb7630d0cb29d761e5b71e9595c69b3461bbd2da935c08ffe4871209ab
+[07:56:41.883] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[02:55:35.737] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/POP_UPS.REL
-[02:55:35.786] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/POP_UPS_FR.DAT
-[02:55:35.834] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/POP_UPS_FR.REL
-[02:55:35.883] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/POP_UPS_FR.GPU
-[02:55:35.933] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS.GPU
-[02:55:35.933] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/NEWUI/MCMSGS.GPU (target path: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS.GPU)
-[02:55:35.934] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:35.965] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS.DAT
-[02:55:36.015] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS.REL
-[02:55:36.063] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS_FR.DAT
-[02:55:36.111] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS_FR.REL
-[02:55:36.159] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS_FR.GPU
-[02:55:36.160] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/NEWUI/MCMSGS_FR.GPU (target path: app0:/PSP_GAME/USRDIR/NEWUI/MCMSGS_FR.GPU)
-[02:55:36.161] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:36.176] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PREPOSTLOADING.GPU
-[02:55:36.224] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PREPOSTLOADING.DAT
-[02:55:36.273] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PREPOSTLOADING.REL
-[02:55:36.322] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PREPOSTLOADING_FR.DAT
-[02:55:36.370] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PREPOSTLOADING_FR.REL
-[02:55:36.418] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PREPOSTLOADING_FR.GPU
-[02:55:36.473] |W| [stubbed_impl]: Stubbed sceMp4OpenFile import called. (Fake Handle)
-[02:55:36.481] |W| [unimplemented_impl]: Unimplemented sceMp4StartFileStreaming import called.
-[02:55:36.496] |W| [unimplemented_impl]: Unimplemented sceMp4CloseFile import called.
-[02:55:36.496] |W| [unimplemented_impl]: Unimplemented sceMp4ReleaseBuffer import called.
-[02:55:36.497] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
-[02:55:36.497] |W| [unimplemented_impl]: Unimplemented sceKernelCloseMutex import called.
-[02:55:36.588] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:55:36.595] |I| [renderer::gl::load_shader_generic]: Generating frag shader 16b1bc074f520803a1913eb43269981f3dfcd1e20751102e09e01e3fe673c3f6
-[02:55:36.597] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[02:55:36.602] |I| [renderer::gl::load_shader_generic]: Generating vert shader 6056c60c812b1f51c80a21d4d38c9b9759b223056a3b0e20132e3efcf8b192d9
-[02:55:36.604] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) iPosition
-[02:55:36.604] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) iTexCoord
-[02:55:36.605] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) iCol
-[02:55:36.606] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ScissorLeft
-[02:55:36.606] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) ScissorRight
-[02:55:36.607] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) ScissorTop
-[02:55:36.608] |D| [shader::create_parameters]: [DEFAULT  + 3] sa3 = (float1) ScissorBottom
-[02:55:36.608] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) OrthoProjection[4]
-[02:55:36.631] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:41.886] |I| [renderer::gl::pre_compile_program]: Program Compiled 3/31
+[07:56:41.890] |I| [renderer::gl::compile_shader]: frag shader compiled: 16b1bc074f520803a1913eb43269981f3dfcd1e20751102e09e01e3fe673c3f6
+[07:56:41.893] |I| [renderer::gl::compile_shader]: vert shader compiled: 6056c60c812b1f51c80a21d4d38c9b9759b223056a3b0e20132e3efcf8b192d9
+[07:56:42.024] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(29) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[02:55:40.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:55:40.834] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DEFAULTTIMES.INI
-[02:55:40.845] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
-[02:55:40.845] |W| [unimplemented_impl]: Unimplemented sceNpBasicCheckCallback import called.
-[02:55:40.845] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[02:55:40.847] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/_FRONTEND.INI
-[02:55:40.912] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/FE.PAK
-[02:55:40.913] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/FE.PAK (target path: app0:/PSP_GAME/USRDIR/FE.PAK)
-[02:55:40.914] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:40.952] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE.INI
-[02:55:41.054] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/COMMON.PAK
-[02:55:41.054] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/COMMON.PAK (target path: app0:/PSP_GAME/USRDIR/COMMON.PAK)
-[02:55:41.055] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:41.102] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/COMMON.COG
-[02:55:41.169] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/COMMON.GOG
-[02:55:41.260] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FE.COG
-[02:55:41.318] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FE.GOG
-[02:55:41.386] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FE.KOL
-[02:55:41.451] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_REPLAYCAMERA.INI
-[02:55:41.451] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_REPLAYCAMERA.INI (target path: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_REPLAYCAMERA.INI)
-[02:55:41.453] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:41.500] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.DAT
-[02:55:41.500] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.DAT (target path: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.DAT)
-[02:55:41.501] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:41.549] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.REL
-[02:55:41.550] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.REL (target path: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.REL)
-[02:55:41.551] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:55:41.598] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE
-[02:55:41.665] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE
-[02:55:41.730] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/TSO/TSO.COG
-[02:55:41.796] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TSOLIST.INI
-[02:55:41.863] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/TSO/TSO.GOG
-[02:55:41.976] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PENALTY.INI
-[02:55:42.091] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/LENSFLARE.INI
-[02:55:42.107] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WEATHER.INI
-[02:55:42.191] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WEATHER.COG
-[02:55:42.257] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WEATHER.GOG
-[02:55:42.324] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/RAIN.INI
-[02:55:42.391] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/RACINGLINE.INI
-[02:55:42.478] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/PARTICLES.INI
-[02:55:43.012] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE.GPU
-[02:55:43.055] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE.DAT
-[02:55:43.105] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE.REL
-[02:55:43.155] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE_FR.DAT
-[02:55:43.206] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE_FR.REL
-[02:55:43.255] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE_FR.GPU
-[02:55:43.406] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[02:55:43.688] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:55:44.422] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:55:44.449] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:55:57.918] |W| [unimplemented_impl]: Unimplemented sceSulphaNgsSetVoiceName import called.
-[02:55:58.672] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:55:58.679] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:00.539] |I| [export_sceIoOpen]: Opening file: savedata0:data.bin
-[02:56:04.106] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:04.213] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 4096
-[02:56:09.673] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3e3ada42ded2d4a7b5899add33fff69918180842bcc485fa7880b54740fa357f
-[02:56:09.676] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[02:56:09.676] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float2) v_TexCoord1
-[02:56:09.676] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (float2) v_TexCoord2
-[02:56:09.677] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float2) v_TexCoord3
-[02:56:09.688] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:42.026] |I| [renderer::gl::pre_compile_program]: Program Compiled 4/31
+[07:56:42.029] |I| [renderer::gl::compile_shader]: frag shader compiled: 3e3ada42ded2d4a7b5899add33fff69918180842bcc485fa7880b54740fa357f
+[07:56:42.031] |I| [renderer::gl::compile_shader]: vert shader compiled: 6056c60c812b1f51c80a21d4d38c9b9759b223056a3b0e20132e3efcf8b192d9
+[07:56:42.191] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(29) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -280,154 +93,10 @@ Fragment info
 0(21) : warning C7050: "pa[3].zw" might be used before being initialized
 
 
-[02:56:09.690] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:16.604] |W| [unimplemented_impl]: Unimplemented sceGxmRenderTargetGetDriverMemBlock import called.
-[02:56:16.643] |E| [logging::ret_error_impl]: sceKernelFreeMemBlock returned SCE_KERNEL_ERROR_ILLEGAL_BLOCK_ID (0x80024701)
-[02:56:16.683] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/FEINI/BASE_QUICK_RACE.INI
-[02:56:16.781] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/AUSTRALIA.PAK
-[02:56:16.781] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/AUSTRALIA.PAK (target path: app0:/PSP_GAME/USRDIR/AUSTRALIA.PAK)
-[02:56:16.782] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:56:16.827] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA.INI
-[02:56:16.897] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA.GPU
-[02:56:17.010] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA.DAT
-[02:56:17.076] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA.REL
-[02:56:17.125] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA_FR.DAT
-[02:56:17.175] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA_FR.REL
-[02:56:17.225] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA_FR.GPU
-[02:56:17.226] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA_FR.GPU (target path: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/AUSTRALIA_FR.GPU)
-[02:56:17.227] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:56:17.247] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/CORE_HUD.GPU
-[02:56:17.255] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:17.259] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:17.324] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/CORE_HUD.DAT
-[02:56:17.406] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/CORE_HUD.REL
-[02:56:17.472] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/CORE_HUD_FR.DAT
-[02:56:17.538] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/CORE_HUD_FR.REL
-[02:56:17.588] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/CORE_HUD_FR.GPU
-[02:56:17.639] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PAUSE_MENU.GPU
-[02:56:17.688] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PAUSE_MENU.DAT
-[02:56:17.737] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PAUSE_MENU.REL
-[02:56:17.787] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PAUSE_MENU_FR.DAT
-[02:56:17.836] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PAUSE_MENU_FR.REL
-[02:56:17.885] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/PAUSE_MENU_FR.GPU
-[02:56:17.934] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/UNLOCK_SCREEN.GPU
-[02:56:17.999] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/UNLOCK_SCREEN.DAT
-[02:56:18.048] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/UNLOCK_SCREEN.REL
-[02:56:18.096] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/UNLOCK_SCREEN_FR.DAT
-[02:56:18.146] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/UNLOCK_SCREEN_FR.REL
-[02:56:18.194] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/UNLOCK_SCREEN_FR.GPU
-[02:56:18.244] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_INTRO.GPU
-[02:56:18.309] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_INTRO.DAT
-[02:56:18.359] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_INTRO.REL
-[02:56:18.409] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_INTRO_FR.DAT
-[02:56:18.458] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_INTRO_FR.REL
-[02:56:18.506] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_INTRO_FR.GPU
-[02:56:18.572] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_OUTRO.GPU
-[02:56:18.639] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_OUTRO.DAT
-[02:56:18.688] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_OUTRO.REL
-[02:56:18.738] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_OUTRO_FR.DAT
-[02:56:18.787] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_OUTRO_FR.REL
-[02:56:18.837] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/RACE_OUTRO_FR.GPU
-[02:56:18.890] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/COMMON.PAK
-[02:56:18.890] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/COMMON.PAK (target path: app0:/PSP_GAME/USRDIR/COMMON.PAK)
-[02:56:18.891] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:56:18.935] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/COMMON.COG
-[02:56:19.001] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/COMMON.GOG
-[02:56:19.082] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/AUSTRALIA.COG
-[02:56:19.164] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/AUSTRALIA.GOG
-[02:56:19.425] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/AUSTRALIA.KOL
-[02:56:19.491] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/AUSTRALIA_REPLAYCAMERA.INI
-[02:56:19.556] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/AUSTRALIA_AI.DAT
-[02:56:19.622] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/AUSTRALIA_AI.REL
-[02:56:19.686] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA
-[02:56:19.752] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA
-[02:56:19.817] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/TSO.COG
-[02:56:19.882] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TSOINI/AUSTRALIA_TSO.INI
-[02:56:19.964] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/TSO.GOG
-[02:56:20.095] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PENALTY.INI
-[02:56:20.223] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/LENSFLARE.INI
-[02:56:20.257] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WEATHER.INI
-[02:56:20.339] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/RAIN.INI
-[02:56:20.405] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/RACINGLINE.INI
-[02:56:20.548] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/PARTICLES.INI
-[02:56:20.623] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/TYRES_SOFT-HARD.INI
-[02:56:20.697] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/F1MECHANICS.CSV
-[02:56:20.762] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DRIVERS/DRIVERS.INI
-[02:56:20.860] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/REDBULL.INI
-[02:56:20.908] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/AUSTRALIA/AI_AUSTRALIA.CSV
-[02:56:20.973] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/MCLAREN.INI
-[02:56:21.039] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/FERRARI.INI
-[02:56:21.106] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/MERCEDES_GP.INI
-[02:56:21.172] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/RENAULT.INI
-[02:56:21.239] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/WILLIAMS.INI
-[02:56:21.304] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/FORCEINDIA.INI
-[02:56:21.369] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/SAUBER.INI
-[02:56:21.434] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/TOROROSSO.INI
-[02:56:21.515] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/LOTUS.INI
-[02:56:21.596] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/HRT.INI
-[02:56:21.662] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/VIRGIN.INI
-[02:56:21.781] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DRIVERS/DEFAULTHELMETS.COG
-[02:56:21.782] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/DRIVERS/DEFAULTHELMETS.COG (target path: app0:/PSP_GAME/USRDIR/DRIVERS/DEFAULTHELMETS.COG)
-[02:56:21.783] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:56:21.809] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DRIVERS/DEFAULTHELMETS.GOG
-[02:56:21.809] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/DRIVERS/DEFAULTHELMETS.GOG (target path: app0:/PSP_GAME/USRDIR/DRIVERS/DEFAULTHELMETS.GOG)
-[02:56:21.810] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:56:21.875] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DRIVERS/DRIVEROUTFITS.COG
-[02:56:21.875] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/DRIVERS/DRIVEROUTFITS.COG (target path: app0:/PSP_GAME/USRDIR/DRIVERS/DRIVEROUTFITS.COG)
-[02:56:21.876] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:56:21.925] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DRIVERS/DRIVEROUTFITS.GOG
-[02:56:21.925] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/DRIVERS/DRIVEROUTFITS.GOG (target path: app0:/PSP_GAME/USRDIR/DRIVERS/DRIVEROUTFITS.GOG)
-[02:56:21.926] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[02:56:21.975] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DRIVERS/GENERICDRIVER.COG
-[02:56:22.058] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/DRIVERS/GENERICDRIVER.GOG
-[02:56:22.141] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PITCREWS/REDBULL.INI
-[02:56:22.206] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/REDBULL/REDBULL.COG
-[02:56:22.273] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/REDBULL/REDBULL.GOG
-[02:56:22.337] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/AIPERFORMANCE.INI
-[02:56:22.404] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/MCLAREN/MCLAREN.COG
-[02:56:22.470] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/MCLAREN/MCLAREN.GOG
-[02:56:22.552] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/FERRARI/FERRARI.COG
-[02:56:22.617] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/FERRARI/FERRARI.GOG
-[02:56:22.681] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/MERCEDES_GP/MERCEDES_GP.COG
-[02:56:22.748] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/MERCEDES_GP/MERCEDES_GP.GOG
-[02:56:22.830] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/RENAULT/RENAULT.COG
-[02:56:22.895] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/RENAULT/RENAULT.GOG
-[02:56:22.961] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/WILLIAMS/WILLIAMS.COG
-[02:56:23.027] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/WILLIAMS/WILLIAMS.GOG
-[02:56:23.093] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/FORCEINDIA/FORCEINDIA.COG
-[02:56:23.159] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/FORCEINDIA/FORCEINDIA.GOG
-[02:56:23.224] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/SAUBER/SAUBER.COG
-[02:56:23.291] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/SAUBER/SAUBER.GOG
-[02:56:23.374] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/TOROROSSO/TOROROSSO.COG
-[02:56:23.440] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/TOROROSSO/TOROROSSO.GOG
-[02:56:23.521] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/LOTUS/LOTUS.COG
-[02:56:23.605] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/LOTUS/LOTUS.GOG
-[02:56:23.687] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/HRT/HRT.COG
-[02:56:23.754] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/HRT/HRT.GOG
-[02:56:23.820] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/VIRGIN/VIRGIN.COG
-[02:56:23.888] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/CARS/VIRGIN/VIRGIN.GOG
-[02:56:23.970] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WINGVORTEX.INI
-[02:56:24.133] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PITCREWS/GENERIC/GENERIC.COG
-[02:56:24.248] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PITCREWS/GENERIC/GENERIC.GOG
-[02:56:24.326] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PITCREWS/REDBULL/REDBULL.COG
-[02:56:24.391] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PITCREWS/REDBULL/REDBULL.GOG
-[02:56:26.536] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.537] |I| [renderer::gl::load_shader_generic]: Generating frag shader afac69208ac2b8df25301371e8b136aeb3f5a1ad50c8d8654f6afa0b2e84cdd4
-[02:56:26.539] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:26.539] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half3) v_TexCoord2
-[02:56:26.539] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord1
-[02:56:26.545] |I| [renderer::gl::load_shader_generic]: Generating vert shader 7bface13f78e2ec8d0138b7eceda61791b0378109bb8fc999a08c30d54826ec7
-[02:56:26.546] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:26.546] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord0
-[02:56:26.547] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aColor
-[02:56:26.547] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fog_start
-[02:56:26.548] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) fog_end
-[02:56:26.548] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float3) vertbloom
-[02:56:26.551] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[4]
-[02:56:26.552] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:26.552] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:26.553] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:26.584] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:42.194] |I| [renderer::gl::pre_compile_program]: Program Compiled 5/31
+[07:56:42.197] |I| [renderer::gl::compile_shader]: frag shader compiled: afac69208ac2b8df25301371e8b136aeb3f5a1ad50c8d8654f6afa0b2e84cdd4
+[07:56:42.202] |I| [renderer::gl::compile_shader]: vert shader compiled: 7bface13f78e2ec8d0138b7eceda61791b0378109bb8fc999a08c30d54826ec7
+[07:56:42.584] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(28) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -437,37 +106,10 @@ Fragment info
 0(24) : warning C7050: "pa[1].yzw" might be used before being initialized
 
 
-[02:56:26.587] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.589] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.590] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.591] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.592] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.592] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.593] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.596] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.599] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.599] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.600] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.600] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.601] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.601] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.602] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.602] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.602] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.603] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.603] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.604] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.605] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.605] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.606] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.606] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.607] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:26.607] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3f8a9fb4d5dd3f076afb9c2ef593cdf02edf84a9fe1645d025b591b09ef2d96a
-[02:56:26.609] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:26.609] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord2
-[02:56:26.610] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord1
-[02:56:26.626] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:42.586] |I| [renderer::gl::pre_compile_program]: Program Compiled 6/31
+[07:56:42.590] |I| [renderer::gl::compile_shader]: frag shader compiled: 3f8a9fb4d5dd3f076afb9c2ef593cdf02edf84a9fe1645d025b591b09ef2d96a
+[07:56:42.591] |I| [renderer::gl::compile_shader]: vert shader compiled: 7bface13f78e2ec8d0138b7eceda61791b0378109bb8fc999a08c30d54826ec7
+[07:56:42.894] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(28) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -477,39 +119,10 @@ Fragment info
 0(24) : warning C7050: "pa[1].yzw" might be used before being initialized
 
 
-[02:56:26.628] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.640] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.651] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.652] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.652] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.664] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.665] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.665] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.666] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4fc49d292873c39b79dec6c06143d862f4f727cc1775ffe743eefbf4268fa915
-[02:56:26.668] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:26.668] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) sunDir
-[02:56:26.668] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) sunColour
-[02:56:26.669] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half3) v_TexCoord2
-[02:56:26.669] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half3) v_TexCoord5
-[02:56:26.670] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half3) v_TexCoord6
-[02:56:26.670] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_Color0
-[02:56:26.671] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float3) v_TexCoord3
-[02:56:26.671] |D| [shader::create_fragment_inputs]: Iterator: pa15 = (half2) v_TexCoord7
-[02:56:26.714] |I| [renderer::gl::load_shader_generic]: Generating vert shader 5c9b78dda37d82b2bbdc8b6a531f7422cd38faab112ab3a99cda3111e3f51acb
-[02:56:26.715] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:26.715] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:26.716] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTangent
-[02:56:26.716] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord0
-[02:56:26.717] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aTexCoord1
-[02:56:26.717] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) aColor
-[02:56:26.718] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fog_start
-[02:56:26.718] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) fog_end
-[02:56:26.719] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:26.720] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:26.720] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:26.721] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:26.762] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
-[02:56:26.787] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:42.897] |I| [renderer::gl::pre_compile_program]: Program Compiled 7/31
+[07:56:42.905] |I| [renderer::gl::compile_shader]: frag shader compiled: 4fc49d292873c39b79dec6c06143d862f4f727cc1775ffe743eefbf4268fa915
+[07:56:42.911] |I| [renderer::gl::compile_shader]: vert shader compiled: 5c9b78dda37d82b2bbdc8b6a531f7422cd38faab112ab3a99cda3111e3f51acb
+[07:56:43.753] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(36) : warning C7050: "internals[0].w" might be used before being initialized
 0(36) : warning C7050: "internals[2].w" might be used before being initialized
@@ -526,26 +139,10 @@ Fragment info
 0(32) : warning C7050: "internals[1].w" might be used before being initialized
 
 
-[02:56:26.792] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.792] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.793] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.793] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.794] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.795] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.795] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.796] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.796] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.796] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.797] |I| [renderer::gl::load_shader_generic]: Generating vert shader fa1341883122a724b4d060019262b6365e10a5687538a6ada528f1f67f071653
-[02:56:26.798] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:26.798] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord0
-[02:56:26.799] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fog_start
-[02:56:26.799] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) fog_end
-[02:56:26.800] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[4]
-[02:56:26.800] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:26.801] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:26.801] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:26.833] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:43.756] |I| [renderer::gl::pre_compile_program]: Program Compiled 8/31
+[07:56:43.757] |I| [renderer::gl::compile_shader]: frag shader compiled: afac69208ac2b8df25301371e8b136aeb3f5a1ad50c8d8654f6afa0b2e84cdd4
+[07:56:43.764] |I| [renderer::gl::compile_shader]: vert shader compiled: fa1341883122a724b4d060019262b6365e10a5687538a6ada528f1f67f071653
+[07:56:44.032] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -555,25 +152,10 @@ Fragment info
 0(24) : warning C7050: "pa[1].yzw" might be used before being initialized
 
 
-[02:56:26.836] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.838] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.838] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.839] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.839] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.840] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.840] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.841] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.841] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.842] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.843] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:26.843] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.844] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.844] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.849] |I| [renderer::gl::load_shader_generic]: Generating frag shader ffef1a91145ec192481df113095fba4ba267ae92ff4d9a44eef28b146755a628
-[02:56:26.856] |I| [renderer::gl::load_shader_generic]: Generating vert shader d58300ba4294ca074ba4be81e9a5f79c301ebc781b90b9ae8106fe47a7e2fa67
-[02:56:26.857] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:26.857] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
-[02:56:26.864] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:44.034] |I| [renderer::gl::pre_compile_program]: Program Compiled 9/31
+[07:56:44.037] |I| [renderer::gl::compile_shader]: frag shader compiled: ffef1a91145ec192481df113095fba4ba267ae92ff4d9a44eef28b146755a628
+[07:56:44.039] |I| [renderer::gl::compile_shader]: vert shader compiled: d58300ba4294ca074ba4be81e9a5f79c301ebc781b90b9ae8106fe47a7e2fa67
+[07:56:44.047] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(21) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -583,18 +165,10 @@ Fragment info
 0(15) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[02:56:26.867] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.869] |I| [renderer::gl::load_shader_generic]: Generating vert shader 6d5c4b04924bc040d908275293d56720eba3f74ddb5c540bf02282087540961f
-[02:56:26.872] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:26.872] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord0
-[02:56:26.873] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float1) fog_start
-[02:56:26.873] |D| [shader::create_parameters]: [DEFAULT  + 9] sa9 = (float1) fog_end
-[02:56:26.873] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uvt[2]
-[02:56:26.874] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[4]
-[02:56:26.874] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:26.875] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:26.875] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:26.913] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:44.048] |I| [renderer::gl::pre_compile_program]: Program Compiled 10/31
+[07:56:44.050] |I| [renderer::gl::compile_shader]: frag shader compiled: afac69208ac2b8df25301371e8b136aeb3f5a1ad50c8d8654f6afa0b2e84cdd4
+[07:56:44.061] |I| [renderer::gl::compile_shader]: vert shader compiled: 6d5c4b04924bc040d908275293d56720eba3f74ddb5c540bf02282087540961f
+[07:56:44.341] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -604,26 +178,10 @@ Fragment info
 0(24) : warning C7050: "pa[1].yzw" might be used before being initialized
 
 
-[02:56:26.916] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.922] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.922] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.923] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.924] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.933] |I| [renderer::gl::load_shader_generic]: Generating frag shader 687fe49e3120c9196bdc38d495cd0121188021e96f328695359eb82c575fef04
-[02:56:26.934] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:26.934] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord2
-[02:56:26.935] |D| [shader::create_fragment_inputs]: Iterator: pa5 = (half1) v_TexCoord3
-[02:56:26.941] |I| [renderer::gl::load_shader_generic]: Generating vert shader 96518b65fffb97d740003391d1e1ab2e098f7d2cc115c54d24f3ab3ee11711b9
-[02:56:26.943] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:26.943] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord0
-[02:56:26.943] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord1
-[02:56:26.944] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fog_start
-[02:56:26.944] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) fog_end
-[02:56:26.945] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[4]
-[02:56:26.945] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:26.945] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:26.946] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:26.976] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:44.343] |I| [renderer::gl::pre_compile_program]: Program Compiled 11/31
+[07:56:44.351] |I| [renderer::gl::compile_shader]: frag shader compiled: 687fe49e3120c9196bdc38d495cd0121188021e96f328695359eb82c575fef04
+[07:56:44.355] |I| [renderer::gl::compile_shader]: vert shader compiled: 96518b65fffb97d740003391d1e1ab2e098f7d2cc115c54d24f3ab3ee11711b9
+[07:56:44.613] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(29) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -633,29 +191,10 @@ Fragment info
 0(26) : warning C7050: "pa[1].yzw" might be used before being initialized
 
 
-[02:56:26.979] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.982] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.983] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:26.992] |I| [renderer::gl::load_shader_generic]: Generating frag shader 13205e7d506207d1c7558bcdd085f9c0e2a52c4098fe936430966d78ead7e93d
-[02:56:26.993] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:26.994] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) sunDir
-[02:56:26.994] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) sunColour
-[02:56:26.995] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half3) v_TexCoord2
-[02:56:26.995] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float3) v_TexCoord3
-[02:56:26.996] |D| [shader::create_fragment_inputs]: Iterator: pa7 = (half2) v_TexCoord5
-[02:56:26.996] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (half1) v_TexCoord6
-[02:56:27.025] |I| [renderer::gl::load_shader_generic]: Generating vert shader 83777014d9930dc34b2f1791a5ae61735c847fd1844914b5b0c1df4f46ef3bbd
-[02:56:27.028] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:27.028] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:27.029] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord0
-[02:56:27.030] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord1
-[02:56:27.030] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fog_start
-[02:56:27.031] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) fog_end
-[02:56:27.031] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:27.032] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:27.032] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:27.033] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:27.087] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:44.615] |I| [renderer::gl::pre_compile_program]: Program Compiled 12/31
+[07:56:44.625] |I| [renderer::gl::compile_shader]: frag shader compiled: 13205e7d506207d1c7558bcdd085f9c0e2a52c4098fe936430966d78ead7e93d
+[07:56:44.630] |I| [renderer::gl::compile_shader]: vert shader compiled: 83777014d9930dc34b2f1791a5ae61735c847fd1844914b5b0c1df4f46ef3bbd
+[07:56:45.701] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(33) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -669,25 +208,10 @@ Fragment info
 0(32) : warning C7050: "internals[1].w" might be used before being initialized
 
 
-[02:56:27.092] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.102] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.111] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.122] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.124] |I| [renderer::gl::load_shader_generic]: Generating frag shader 0e825a219605948eecac7d72f7e540afa038d3fb301bfd7a957fe710edd2cbc1
-[02:56:27.125] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:27.125] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half1) v_TexCoord3
-[02:56:27.125] |D| [shader::create_fragment_inputs]: Iterator: pa7 = (half2) v_TexCoord4
-[02:56:27.134] |I| [renderer::gl::load_shader_generic]: Generating vert shader 444256b126d1044aee979085d9d647a19dbc4f720123385a8cf94ab417cd312e
-[02:56:27.138] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:27.139] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord0
-[02:56:27.139] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord1
-[02:56:27.140] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fog_start
-[02:56:27.141] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) fog_end
-[02:56:27.141] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvpw[8]
-[02:56:27.142] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:27.142] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:27.142] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:27.187] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:45.704] |I| [renderer::gl::pre_compile_program]: Program Compiled 13/31
+[07:56:45.709] |I| [renderer::gl::compile_shader]: frag shader compiled: 0e825a219605948eecac7d72f7e540afa038d3fb301bfd7a957fe710edd2cbc1
+[07:56:45.713] |I| [renderer::gl::compile_shader]: vert shader compiled: 444256b126d1044aee979085d9d647a19dbc4f720123385a8cf94ab417cd312e
+[07:56:46.554] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(30) : warning C7050: "internals[0].w" might be used before being initialized
 0(30) : warning C7050: "internals[1].w" might be used before being initialized
@@ -700,58 +224,10 @@ Fragment info
 0(31) : warning C7050: "r[0].yzw" might be used before being initialized
 
 
-[02:56:27.192] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.194] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.197] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.200] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.203] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.209] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.214] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.218] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.218] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.223] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.229] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.230] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.234] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.236] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.239] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.249] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.251] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.252] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.253] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.255] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.258] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.259] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.261] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.263] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.265] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.266] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.267] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.269] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.272] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.275] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.276] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.276] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.278] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.280] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.282] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.284] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.285] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.286] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.287] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.290] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.292] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.293] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.294] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.296] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.297] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.302] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.303] |I| [renderer::gl::load_shader_generic]: Generating frag shader ecd480851141681e63a626c8007566c9877d8eb744d28a6294a380bb5884bf84
-[02:56:27.304] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:27.304] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord2
-[02:56:27.305] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord1
-[02:56:27.315] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:46.557] |I| [renderer::gl::pre_compile_program]: Program Compiled 14/31
+[07:56:46.560] |I| [renderer::gl::compile_shader]: frag shader compiled: ecd480851141681e63a626c8007566c9877d8eb744d28a6294a380bb5884bf84
+[07:56:46.562] |I| [renderer::gl::compile_shader]: vert shader compiled: 7bface13f78e2ec8d0138b7eceda61791b0378109bb8fc999a08c30d54826ec7
+[07:56:46.839] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(28) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -761,18 +237,10 @@ Fragment info
 0(24) : warning C7050: "pa[1].yzw" might be used before being initialized
 
 
-[02:56:27.317] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.318] |I| [renderer::gl::load_shader_generic]: Generating frag shader fcabcce928df0a714a9ca6fa1d595fef4dfdd82d00eb2ea4340afbdb0ba92d94
-[02:56:27.319] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half3) v_TexCoord2
-[02:56:27.324] |I| [renderer::gl::load_shader_generic]: Generating vert shader 62f9920baec19c3bc0f509df7578183079bf25e94560e5679e010dcdebb8f19e
-[02:56:27.325] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:27.325] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord0
-[02:56:27.328] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aColor
-[02:56:27.329] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[4]
-[02:56:27.329] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:27.330] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:27.330] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:27.344] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:46.842] |I| [renderer::gl::pre_compile_program]: Program Compiled 15/31
+[07:56:46.845] |I| [renderer::gl::compile_shader]: frag shader compiled: fcabcce928df0a714a9ca6fa1d595fef4dfdd82d00eb2ea4340afbdb0ba92d94
+[07:56:46.848] |I| [renderer::gl::compile_shader]: vert shader compiled: 62f9920baec19c3bc0f509df7578183079bf25e94560e5679e010dcdebb8f19e
+[07:56:46.997] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "sa[0]" might be used before being initialized
 0(25) : warning C7050: "sa[1]" might be used before being initialized
@@ -787,32 +255,19 @@ Fragment info
 0(18) : warning C7050: "pa[0].yzw" might be used before being initialized
 
 
-[02:56:27.346] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.347] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.348] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.349] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.350] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.351] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.353] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.356] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.363] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.364] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.365] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.366] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.367] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.367] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.372] |I| [renderer::gl::load_shader_generic]: Generating frag shader dc0a9f06dfff38f64e55481491484dbf3039302e3f18120e09091cb007513b60
-[02:56:27.375] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) bloom
-[02:56:27.375] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
-[02:56:27.396] |E| [renderer::gl::compile_program]: Fragment info
+[07:56:47.001] |I| [renderer::gl::pre_compile_program]: Program Compiled 16/31
+[07:56:47.005] |I| [renderer::gl::compile_shader]: frag shader compiled: dc0a9f06dfff38f64e55481491484dbf3039302e3f18120e09091cb007513b60
+[07:56:47.006] |I| [renderer::gl::compile_shader]: vert shader compiled: b6ce20953e4710d60d1953224451fa48dad5df88cfcc481e104a0699ab811cde
+[07:56:47.042] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(22) : warning C7050: "pa[0].zw" might be used before being initialized
 0(25) : warning C7050: "r[0].zw" might be used before being initialized
 
 
-[02:56:27.400] |I| [renderer::gl::load_shader_generic]: Generating frag shader ff5ff1939f93f8e3543c9edc74cc9bcffd92bfe070e8cdd0e94f8785d315eb6f
-[02:56:27.401] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
-[02:56:27.414] |E| [renderer::gl::compile_program]: Fragment info
+[07:56:47.044] |I| [renderer::gl::pre_compile_program]: Program Compiled 17/31
+[07:56:47.048] |I| [renderer::gl::compile_shader]: frag shader compiled: ff5ff1939f93f8e3543c9edc74cc9bcffd92bfe070e8cdd0e94f8785d315eb6f
+[07:56:47.048] |I| [renderer::gl::compile_shader]: vert shader compiled: b6ce20953e4710d60d1953224451fa48dad5df88cfcc481e104a0699ab811cde
+[07:56:47.066] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(18) : warning C7050: "sa[1].xy" might be used before being initialized
 0(18) : warning C7050: "sa[2].zw" might be used before being initialized
@@ -822,9 +277,10 @@ Fragment info
 0(20) : warning C7050: "r[0].zw" might be used before being initialized
 
 
-[02:56:27.416] |I| [renderer::gl::load_shader_generic]: Generating frag shader 2e7e038105c78f239675a4a67ac500a27efc713a9d1a114b280c39bd796c2add
-[02:56:27.417] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
-[02:56:27.435] |E| [renderer::gl::compile_program]: Fragment info
+[07:56:47.067] |I| [renderer::gl::pre_compile_program]: Program Compiled 18/31
+[07:56:47.071] |I| [renderer::gl::compile_shader]: frag shader compiled: 2e7e038105c78f239675a4a67ac500a27efc713a9d1a114b280c39bd796c2add
+[07:56:47.072] |I| [renderer::gl::compile_shader]: vert shader compiled: b6ce20953e4710d60d1953224451fa48dad5df88cfcc481e104a0699ab811cde
+[07:56:47.092] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(18) : warning C7050: "sa[1].xy" might be used before being initialized
 0(18) : warning C7050: "sa[2].zw" might be used before being initialized
@@ -834,31 +290,19 @@ Fragment info
 0(20) : warning C7050: "r[0].zw" might be used before being initialized
 
 
-[02:56:27.440] |I| [renderer::gl::load_shader_generic]: Generating frag shader a05d18ad4682a0d0353245dc934bedc85cf87a9cf468966ae41830a27301429b
-[02:56:27.441] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) gamma
-[02:56:27.441] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) bc
-[02:56:27.441] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
-[02:56:27.464] |E| [renderer::gl::compile_program]: Fragment info
+[07:56:47.094] |I| [renderer::gl::pre_compile_program]: Program Compiled 19/31
+[07:56:47.098] |I| [renderer::gl::compile_shader]: frag shader compiled: a05d18ad4682a0d0353245dc934bedc85cf87a9cf468966ae41830a27301429b
+[07:56:47.098] |I| [renderer::gl::compile_shader]: vert shader compiled: b6ce20953e4710d60d1953224451fa48dad5df88cfcc481e104a0699ab811cde
+[07:56:47.134] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(23) : warning C7050: "pa[0].zw" might be used before being initialized
 0(23) : warning C7050: "pa[1].zw" might be used before being initialized
 
 
-[02:56:27.465] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.465] |I| [renderer::gl::load_shader_generic]: Generating frag shader 478720e024af9e03994a0cc39ad45c3076307a1ca0eca267727d348af316f5b2
-[02:56:27.467] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) clipDist
-[02:56:27.467] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[02:56:27.470] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half2) v_TexCoord0
-[02:56:27.470] |D| [shader::create_fragment_inputs]: Iterator: pa3 = (half2) v_TexCoord1
-[02:56:27.484] |I| [renderer::gl::load_shader_generic]: Generating vert shader 55442b185581f2f3b67659361ae263805e34cc2aaa10ae1602380118fe2fca23
-[02:56:27.488] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:27.488] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColor
-[02:56:27.488] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord0
-[02:56:27.489] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
-[02:56:27.489] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float2) scale
-[02:56:27.490] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) offset
-[02:56:27.490] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float1) y_asp
-[02:56:27.501] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:47.139] |I| [renderer::gl::pre_compile_program]: Program Compiled 20/31
+[07:56:47.144] |I| [renderer::gl::compile_shader]: frag shader compiled: 478720e024af9e03994a0cc39ad45c3076307a1ca0eca267727d348af316f5b2
+[07:56:47.146] |I| [renderer::gl::compile_shader]: vert shader compiled: 55442b185581f2f3b67659361ae263805e34cc2aaa10ae1602380118fe2fca23
+[07:56:47.173] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(26) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -869,14 +313,10 @@ Fragment info
 0(27) : warning C7050: "r[0].zw" might be used before being initialized
 
 
-[02:56:27.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.505] |I| [renderer::gl::load_shader_generic]: Generating frag shader d26a3639d48736e1838e3d87570b922e5c114b1f90b60dc60dafe40ca8363873
-[02:56:27.506] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
-[02:56:27.506] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float2) v_TexCoord1
-[02:56:27.507] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float2) v_TexCoord2
-[02:56:27.507] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float2) v_TexCoord3
-[02:56:27.517] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:47.175] |I| [renderer::gl::pre_compile_program]: Program Compiled 21/31
+[07:56:47.178] |I| [renderer::gl::compile_shader]: frag shader compiled: d26a3639d48736e1838e3d87570b922e5c114b1f90b60dc60dafe40ca8363873
+[07:56:47.179] |I| [renderer::gl::compile_shader]: vert shader compiled: 1a43b9eb7630d0cb29d761e5b71e9595c69b3461bbd2da935c08ffe4871209ab
+[07:56:47.316] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
@@ -887,48 +327,13 @@ Fragment info
 0(19) : warning C7050: "pa[2].zw" might be used before being initialized
 
 
-[02:56:27.522] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.528] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.533] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.535] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.537] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.539] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.540] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:27.542] |I| [renderer::gl::load_shader_generic]: Generating frag shader 249aa178655cd7e3619477e2cfad2bcfdf8c905e43c62365e4a0c48074c95909
-[02:56:27.543] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[02:56:27.545] |I| [renderer::gl::load_shader_generic]: Generating vert shader 5cfed0a8898988991a1bfa1aff53e35b8988024c04ac4eec73e9249b8912c023
-[02:56:27.546] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:27.547] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColour
-[02:56:27.565] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.570] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.582] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.593] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.602] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.605] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.608] |I| [renderer::gl::load_shader_generic]: Generating frag shader 3f8916c5d3809b6fd8c1dd05f912fef5d56d186f0f73025eb62c1813a061e232
-[02:56:27.610] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:27.610] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) sunDir
-[02:56:27.610] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) sunColour
-[02:56:27.611] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half3) v_TexCoord2
-[02:56:27.611] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half3) v_TexCoord5
-[02:56:27.613] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half3) v_TexCoord6
-[02:56:27.613] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float3) v_TexCoord3
-[02:56:27.614] |D| [shader::create_fragment_inputs]: Iterator: pa15 = (half2) v_TexCoord7
-[02:56:27.657] |I| [renderer::gl::load_shader_generic]: Generating vert shader ceb493f31408532dfb2b97c47bbe56a23214f62ddf45b7da5cac0e8fa7b1d473
-[02:56:27.658] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:27.658] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:27.660] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTangent
-[02:56:27.660] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord0
-[02:56:27.661] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aTexCoord2
-[02:56:27.661] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fog_start
-[02:56:27.662] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) fog_end
-[02:56:27.662] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:27.662] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:27.663] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:27.663] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:27.732] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:47.318] |I| [renderer::gl::pre_compile_program]: Program Compiled 22/31
+[07:56:47.321] |I| [renderer::gl::compile_shader]: frag shader compiled: 249aa178655cd7e3619477e2cfad2bcfdf8c905e43c62365e4a0c48074c95909
+[07:56:47.323] |I| [renderer::gl::compile_shader]: vert shader compiled: 5cfed0a8898988991a1bfa1aff53e35b8988024c04ac4eec73e9249b8912c023
+[07:56:47.330] |I| [renderer::gl::pre_compile_program]: Program Compiled 23/31
+[07:56:47.339] |I| [renderer::gl::compile_shader]: frag shader compiled: 3f8916c5d3809b6fd8c1dd05f912fef5d56d186f0f73025eb62c1813a061e232
+[07:56:47.345] |I| [renderer::gl::compile_shader]: vert shader compiled: ceb493f31408532dfb2b97c47bbe56a23214f62ddf45b7da5cac0e8fa7b1d473
+[07:56:48.511] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(35) : warning C7050: "internals[0].w" might be used before being initialized
 0(35) : warning C7050: "internals[2].w" might be used before being initialized
@@ -944,82 +349,10 @@ Fragment info
 0(34) : warning C7050: "internals[1].w" might be used before being initialized
 
 
-[02:56:27.737] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.741] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.742] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.743] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.744] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.745] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.747] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.750] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.753] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.755] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.758] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.759] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.760] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.762] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.763] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.782] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.783] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.789] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.798] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.808] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.810] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.820] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.822] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.825] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.835] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.837] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.842] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.851] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.856] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.857] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.860] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.861] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.872] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.877] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.882] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.892] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.894] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.904] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.907] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.908] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.908] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.918] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.919] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.929] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.939] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.942] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.947] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.949] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.951] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.954] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.959] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.968] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.978] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.988] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:27.988] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.989] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.991] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:27.999] |I| [renderer::gl::load_shader_generic]: Generating frag shader 0aac4c60e1aee362eb1843e75d96f04d90d90b71f8ca22f521ee43876d3e4ec2
-[02:56:28.001] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:28.001] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) sunDir
-[02:56:28.001] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) sunColour
-[02:56:28.002] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float3) v_TexCoord1
-[02:56:28.002] |D| [shader::create_fragment_inputs]: Iterator: pa3 = (half2) v_TexCoord4
-[02:56:28.003] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float3) v_TexCoord2
-[02:56:28.051] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9f56bd2347c3f752fd49fba03999f4d10afef55e423f507fa924fe7b47d991ef
-[02:56:28.053] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:28.053] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:28.053] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord0
-[02:56:28.054] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) occlusionControl
-[02:56:28.054] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) fog_start
-[02:56:28.054] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) fog_end
-[02:56:28.057] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:28.057] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:28.059] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:28.059] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:28.110] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:48.514] |I| [renderer::gl::pre_compile_program]: Program Compiled 24/31
+[07:56:48.521] |I| [renderer::gl::compile_shader]: frag shader compiled: 0aac4c60e1aee362eb1843e75d96f04d90d90b71f8ca22f521ee43876d3e4ec2
+[07:56:48.525] |I| [renderer::gl::compile_shader]: vert shader compiled: 9f56bd2347c3f752fd49fba03999f4d10afef55e423f507fa924fe7b47d991ef
+[07:56:49.243] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(30) : warning C7050: "internals[0].w" might be used before being initialized
 0(30) : warning C7050: "internals[2].zw" might be used before being initialized
@@ -1036,31 +369,10 @@ Fragment info
 0(31) : warning C7050: "r[2]" might be used before being initialized
 
 
-[02:56:28.114] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.117] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.119] |I| [renderer::gl::load_shader_generic]: Generating frag shader f56c073a2f6138e494de680c7db89517c8dc2325f63c7068cace8a8d08d0f70c
-[02:56:28.121] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:28.122] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) sunDir
-[02:56:28.122] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) sunColour
-[02:56:28.123] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half3) v_TexCoord5
-[02:56:28.123] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half3) v_TexCoord6
-[02:56:28.123] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float3) v_TexCoord2
-[02:56:28.124] |D| [shader::create_fragment_inputs]: Iterator: pa11 = (half2) v_TexCoord7
-[02:56:28.125] |D| [shader::create_fragment_inputs]: Iterator: pa14 = (float3) v_TexCoord3
-[02:56:28.182] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9c0bcbd618d78c3dd181b0ad717e3d56e4ac72955fa9a64356e8f4db9fdae706
-[02:56:28.184] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:28.184] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:28.184] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTangent
-[02:56:28.185] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord0
-[02:56:28.185] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aTexCoord1
-[02:56:28.185] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) occlusionControl
-[02:56:28.186] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) fog_start
-[02:56:28.186] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) fog_end
-[02:56:28.187] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:28.187] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:28.188] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:28.189] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:28.259] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:49.246] |I| [renderer::gl::pre_compile_program]: Program Compiled 25/31
+[07:56:49.256] |I| [renderer::gl::compile_shader]: frag shader compiled: f56c073a2f6138e494de680c7db89517c8dc2325f63c7068cace8a8d08d0f70c
+[07:56:49.263] |I| [renderer::gl::compile_shader]: vert shader compiled: 9c0bcbd618d78c3dd181b0ad717e3d56e4ac72955fa9a64356e8f4db9fdae706
+[07:56:50.078] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(35) : warning C7050: "internals[0].w" might be used before being initialized
 0(35) : warning C7050: "internals[2].w" might be used before being initialized
@@ -1079,39 +391,10 @@ Fragment info
 0(34) : warning C7050: "internals[2].w" might be used before being initialized
 
 
-[02:56:28.263] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.266] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.269] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.269] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.270] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.270] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.271] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.273] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.276] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.276] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.277] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.281] |I| [renderer::gl::load_shader_generic]: Generating frag shader 688a3c4527a4659e9a477645e2f91289a48aece99ae198a6b72d6d5be825a2d7
-[02:56:28.283] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) fog_colour
-[02:56:28.283] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) sunDir
-[02:56:28.284] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) sunColour
-[02:56:28.284] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float3) v_TexCoord1
-[02:56:28.284] |D| [shader::create_fragment_inputs]: Iterator: pa3 = (half2) v_TexCoord4
-[02:56:28.285] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float3) v_TexCoord2
-[02:56:28.329] |I| [renderer::gl::load_shader_generic]: Generating vert shader 0d69f997851e68ed9cd9b8366cfdd6416626b40b3ff6d533b356ac6ae87319d0
-[02:56:28.330] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:28.330] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:28.330] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord0
-[02:56:28.331] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aBlendWeights
-[02:56:28.331] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aBlendIndices
-[02:56:28.332] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) occlusionControl
-[02:56:28.332] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) skinMatrices[192]
-[02:56:28.333] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) fog_start
-[02:56:28.333] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) fog_end
-[02:56:28.334] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:28.334] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:28.334] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:28.335] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:28.428] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:50.082] |I| [renderer::gl::pre_compile_program]: Program Compiled 26/31
+[07:56:50.089] |I| [renderer::gl::compile_shader]: frag shader compiled: 688a3c4527a4659e9a477645e2f91289a48aece99ae198a6b72d6d5be825a2d7
+[07:56:50.095] |I| [renderer::gl::compile_shader]: vert shader compiled: 0d69f997851e68ed9cd9b8366cfdd6416626b40b3ff6d533b356ac6ae87319d0
+[07:56:53.660] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(33) : warning C7050: "r[0]" might be used before being initialized
 0(33) : warning C7050: "r[1]" might be used before being initialized
@@ -1141,19 +424,10 @@ Fragment info
 0(31) : warning C7050: "r[2].yzw" might be used before being initialized
 
 
-[02:56:28.441] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.444] |I| [renderer::gl::load_shader_generic]: Generating vert shader 714298621f20650dd31b8cc808e7a970a2820b761c29799f880bffa7d811e0cb
-[02:56:28.446] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:28.446] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:28.446] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord0
-[02:56:28.447] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) occlusionControl
-[02:56:28.447] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) fog_start
-[02:56:28.448] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) fog_end
-[02:56:28.448] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:28.448] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:28.449] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:28.449] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:28.499] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:53.665] |I| [renderer::gl::pre_compile_program]: Program Compiled 27/31
+[07:56:53.668] |I| [renderer::gl::compile_shader]: frag shader compiled: 688a3c4527a4659e9a477645e2f91289a48aece99ae198a6b72d6d5be825a2d7
+[07:56:53.673] |I| [renderer::gl::compile_shader]: vert shader compiled: 714298621f20650dd31b8cc808e7a970a2820b761c29799f880bffa7d811e0cb
+[07:56:54.415] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(30) : warning C7050: "internals[0].w" might be used before being initialized
 0(30) : warning C7050: "internals[2].zw" might be used before being initialized
@@ -1170,51 +444,10 @@ Fragment info
 0(31) : warning C7050: "r[2].yzw" might be used before being initialized
 
 
-[02:56:28.503] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.506] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.507] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.510] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.514] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.515] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.519] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.526] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.537] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.540] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.546] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.547] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.552] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.554] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.556] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.557] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.567] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.568] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.568] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.571] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.572] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.572] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.573] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.575] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.576] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:28.576] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.577] |I| [renderer::gl::load_shader_generic]: Generating frag shader 81b90a9a4d57a7a2b98e3eb10d1e8cf32c733206a2a5f9bac95d0002b949d602
-[02:56:28.579] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) sunDir
-[02:56:28.579] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) sunColour
-[02:56:28.579] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) dirt
-[02:56:28.580] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half3) v_TexCoord3
-[02:56:28.580] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half3) v_TexCoord5
-[02:56:28.583] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half3) v_TexCoord6
-[02:56:28.583] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float3) v_TexCoord4
-[02:56:28.618] |I| [renderer::gl::load_shader_generic]: Generating vert shader 80eece1c545a676c75ef9341d30f75396cd6f8fe0482022984e6d86ac550ccc6
-[02:56:28.619] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:28.620] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aNormal
-[02:56:28.620] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTangent
-[02:56:28.620] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord0
-[02:56:28.621] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[8]
-[02:56:28.621] |D| [shader::create_parameters]: [BUFFER1  + 0] sa0 = (float4) pfData_shadow[4]
-[02:56:28.622] |D| [shader::create_parameters]: [BUFFER1  + 16] sa16 = (float3) pfData_eyePos
-[02:56:28.622] |D| [shader::create_parameters]: [BUFFER1  + 19] sa19 = (float1) pfData_exposure
-[02:56:28.673] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:54.418] |I| [renderer::gl::pre_compile_program]: Program Compiled 28/31
+[07:56:54.425] |I| [renderer::gl::compile_shader]: frag shader compiled: 81b90a9a4d57a7a2b98e3eb10d1e8cf32c733206a2a5f9bac95d0002b949d602
+[07:56:54.430] |I| [renderer::gl::compile_shader]: vert shader compiled: 80eece1c545a676c75ef9341d30f75396cd6f8fe0482022984e6d86ac550ccc6
+[07:56:54.836] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(30) : warning C7050: "sa[0]" might be used before being initialized
 0(30) : warning C7050: "sa[1]" might be used before being initialized
@@ -1241,30 +474,10 @@ Fragment info
 0(30) : warning C7050: "internals[1].w" might be used before being initialized
 
 
-[02:56:28.678] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.680] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.680] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.681] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.681] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.681] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.682] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.686] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.686] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.693] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.699] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:28.711] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:28.711] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:37.583] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:37.586] |I| [renderer::gl::load_shader_generic]: Generating frag shader 4dbbb58948a2784f2ce19620973227aa9e710ee615c1d9e82d9abf60c6270e97
-[02:56:37.588] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[02:56:37.590] |I| [renderer::gl::load_shader_generic]: Generating vert shader fcc1f4d60fb73b87520cd48e212c110d9c8bee5fad57a9b49e32b511d3f94fbf
-[02:56:37.591] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[02:56:37.592] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColor
-[02:56:37.592] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord0
-[02:56:37.594] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aTexCoord1
-[02:56:37.595] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) inv_cam[3]
-[02:56:37.595] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) wvp[4]
-[02:56:37.609] |E| [renderer::gl::compile_program]: Vertex info
+[07:56:54.841] |I| [renderer::gl::pre_compile_program]: Program Compiled 29/31
+[07:56:54.844] |I| [renderer::gl::compile_shader]: frag shader compiled: 4dbbb58948a2784f2ce19620973227aa9e710ee615c1d9e82d9abf60c6270e97
+[07:56:54.847] |I| [renderer::gl::compile_shader]: vert shader compiled: fcc1f4d60fb73b87520cd48e212c110d9c8bee5fad57a9b49e32b511d3f94fbf
+[07:56:54.981] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].zw" might be used before being initialized
 0(27) : warning C7050: "internals[1].w" might be used before being initialized
@@ -1274,232 +487,69 @@ Fragment info
 0(18) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[02:56:39.246] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.688] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.698] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.700] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.843] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.846] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.883] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.885] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.925] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:39.963] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:40.036] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:40.037] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:40.037] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:42.606] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:42.986] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:42.996] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:43.172] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:43.181] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:43.184] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:43.228] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:56:45.482] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:46.511] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:46.542] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:46.544] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:46.545] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:46.673] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:47.496] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:48.085] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:57.181] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:56:58.796] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:58.797] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:58.825] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:58.855] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:58.885] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:58.888] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:58.944] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.004] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.007] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.066] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.070] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.126] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.128] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.218] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:56:59.250] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.039] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.100] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.368] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.369] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.400] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.402] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:00.433] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.434] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.441] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:57:00.442] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:00.443] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.465] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.494] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.527] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.528] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:00.528] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.531] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:00.534] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.536] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:00.539] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.543] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:00.558] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:00.578] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.638] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.646] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:00.698] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.238] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.240] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.243] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.278] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.282] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.284] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.285] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.316] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.318] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.323] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.325] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.331] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.332] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:01.334] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.334] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:01.334] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.335] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:01.337] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.337] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:01.338] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.377] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:01.399] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.403] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.406] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.444] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.475] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.485] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.487] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.494] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.499] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.504] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.540] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.573] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.574] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.611] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.612] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.614] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.647] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:01.648] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:03.759] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:03.759] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:03.760] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:04.428] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:04.429] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:04.430] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:04.431] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:04.431] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:04.432] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:04.433] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:04.434] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:04.434] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:04.435] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:04.884] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:04.885] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:05.813] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:05.814] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:05.814] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:05.817] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:08.405] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:08.406] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.470] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.475] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.478] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.478] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.481] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.516] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.520] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.524] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.534] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.543] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.598] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:14.640] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.711] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.749] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.754] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.869] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.910] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.915] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.919] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.924] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.929] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.934] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.938] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.943] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.948] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.953] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.954] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:14.970] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:14.971] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:14.971] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:14.972] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:14.972] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:57:14.996] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:15.001] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:15.006] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:57:20.178] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[02:57:47.297] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[02:58:00.398] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:09.772] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:12.339] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:12.452] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:12.455] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:12.833] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:13.059] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:13.253] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:13.447] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:13.639] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:13.830] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:14.023] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:14.218] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:14.374] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:14.562] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:14.750] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[02:58:14.895] |D| [renderer::gl::texture::translate_swizzle]: base format: -2063597568, swizzle: 0
-[03:00:19.871] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[03:00:19.910] |D| [renderer::gl::texture::translate_swizzle]: base format: -2030043136, swizzle: 0
-[03:01:20.826] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[03:01:25.435] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[03:01:25.442] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[03:01:25.448] |D| [renderer::gl::texture::translate_swizzle]: base format: -2046820352, swizzle: 0
-[03:01:31.327] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/_FRONTEND.INI
-[03:01:31.403] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/FE.PAK
-[03:01:31.404] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/FE.PAK (target path: app0:/PSP_GAME/USRDIR/FE.PAK)
-[03:01:31.405] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:01:31.452] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE.INI
-[03:01:31.552] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/COMMON.PAK
-[03:01:31.552] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/COMMON.PAK (target path: app0:/PSP_GAME/USRDIR/COMMON.PAK)
-[03:01:31.553] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:01:31.601] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/COMMON.COG
-[03:01:31.669] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/COMMON.GOG
-[03:01:31.753] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FE.COG
-[03:01:31.819] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FE.GOG
-[03:01:31.886] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FE.KOL
-[03:01:31.953] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_REPLAYCAMERA.INI
-[03:01:31.953] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_REPLAYCAMERA.INI (target path: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_REPLAYCAMERA.INI)
-[03:01:31.955] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:01:32.003] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.DAT
-[03:01:32.003] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.DAT (target path: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.DAT)
-[03:01:32.004] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:01:32.053] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.REL
-[03:01:32.054] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.REL (target path: app0:/PSP_GAME/USRDIR/TRACKS/FE/FRONTEND_AI.REL)
-[03:01:32.055] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
-[03:01:32.102] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE
-[03:01:32.169] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/FE
-[03:01:32.235] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/TSO/TSO.COG
-[03:01:32.302] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TSOLIST.INI
-[03:01:32.370] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/TRACKS/TSO/TSO.GOG
-[03:01:32.487] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/PENALTY.INI
-[03:01:32.574] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/LENSFLARE.INI
-[03:01:32.637] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WEATHER.INI
-[03:01:32.704] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WEATHER.COG
-[03:01:32.772] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/WEATHER.GOG
-[03:01:32.838] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/RAIN.INI
-[03:01:32.905] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/RACINGLINE.INI
-[03:01:32.988] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/SFX/PARTICLES.INI
-[03:01:33.720] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE.GPU
-[03:01:33.770] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE.DAT
-[03:01:33.821] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/MAINFE.REL
-[03:01:33.871] |I| [export_sceIoOpen]: Openi
+[07:56:54.985] |I| [renderer::gl::pre_compile_program]: Program Compiled 30/31
+[07:56:54.989] |I| [renderer::gl::compile_shader]: frag shader compiled: ecd480851141681e63a626c8007566c9877d8eb744d28a6294a380bb5884bf84
+[07:56:54.989] |I| [renderer::gl::compile_shader]: vert shader compiled: fa1341883122a724b4d060019262b6365e10a5687538a6ada528f1f67f071653
+[07:56:55.282] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(27) : warning C7050: "internals[0].w" might be used before being initialized
+
+Fragment info
+-------------
+0(24) : warning C7050: "pa[0].zw" might be used before being initialized
+0(24) : warning C7050: "pa[1].yzw" might be used before being initialized
+
+
+[07:56:55.285] |I| [renderer::gl::pre_compile_program]: Program Compiled 31/31
+[07:56:55.295] |D| [run_app]: Running module_start of library: SceLibc at address 0x75E5
+[07:56:55.311] |I| [export_sceIoOpen]: Opening file: tty0:
+[07:56:55.311] |I| [export_sceIoOpen]: Opening file: tty0:
+[07:56:55.312] |I| [export_sceIoOpen]: Opening file: tty1:
+[07:56:55.317] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[07:56:55.323] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x47001
+[07:56:55.332] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[07:56:55.336] |D| [run_app]: Running module_start of library: SceUlt at address 0x71D59
+[07:56:55.345] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[07:56:55.439] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[07:56:55.470] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[07:56:55.470] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[07:56:55.472] |W| [stubbed_impl]: Stubbed _sceKernelWaitLwCondCB import called. (Try CB)
+[07:56:55.531] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[07:56:55.532] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayResolveWithRangeSync import called. (Using strncpy)
+[07:56:55.544] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[07:56:55.549] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/F1AUDIO.PSARC
+[07:56:55.604] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/F1AUDIO.PSARC
+[07:56:55.965] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[07:56:55.973] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[07:56:55.974] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[07:56:55.974] |W| [unimplemented_impl]: Unimplemented sceAppUtilShutdown import called.
+[07:56:55.975] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[07:56:56.069] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[07:56:56.070] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[07:56:56.306] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[07:56:56.311] |E| [logging::ret_error_impl]: sceGxmTextureSetUAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[07:56:56.312] |E| [logging::ret_error_impl]: sceGxmTextureSetVAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[07:56:56.494] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[07:56:56.495] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[07:56:56.495] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[07:56:56.496] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[07:56:56.497] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
+[07:56:56.497] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
+[07:56:57.323] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/_GAMECONFIG.INI
+[07:56:57.393] |W| [unimplemented_impl]: Unimplemented sceSulphaNgsTrace import called.
+[07:56:58.721] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA.GPU
+[07:56:58.814] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA.DAT
+[07:56:58.817] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA.REL
+[07:56:58.819] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.DAT
+[07:56:58.822] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.REL
+[07:56:58.824] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.GPU
+[07:56:58.824] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSB00027/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.GPU (target path: app0:/PSP_GAME/USRDIR/NEWUI/TRACKS/INDIA_FR.GPU)
+[07:56:58.825] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:56:58.832] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING.GPU
+[07:56:58.881] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING.DAT
+[07:56:58.887] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING.REL
+[07:56:58.889] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING_FR.DAT
+[07:56:58.890] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING_FR.REL
+[07:56:58.892] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/NEWUI/LOADING_FR.GPU
+[07:56:58.914] |I| [export_sceIoOpen]: Opening file: app0:/PSP_GAME/USRDIR/FRONTENDSCRIPTS.SBN
+[07:56:58.925] |I| [export_sceIoOpen]

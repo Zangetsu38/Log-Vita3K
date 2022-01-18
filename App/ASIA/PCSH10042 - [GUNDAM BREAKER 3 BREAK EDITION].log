@@ -1,661 +1,314 @@
-[17:16:41.464] |I| [load_app_impl]: cpu-backend: Dynarmic
-[17:16:41.464] |I| [load_app_impl]: CPU Optimisation state: true
-[17:16:41.464] |I| [load_app_impl]: at9 audio decoder state: true
-[17:16:41.464] |I| [load_app_impl]: ngs experimental state: true
-[17:16:41.464] |I| [load_app_impl]: video player state: true
-[17:16:41.465] |I| [load_app_impl]: V-Sync state: false
-[17:16:41.465] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson
-[17:16:41.465] |I| [load_app_impl]: Title: GUNDAM BREAKER 3 BREAK EDITION
-[17:16:41.465] |I| [load_app_impl]: Serial: PCSH10042
-[17:16:41.465] |I| [load_app_impl]: Version: 1.00
-[17:16:41.465] |I| [load_app_impl]: Category: gd
-[17:16:41.541] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:41.541] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSH10042\sce_module\libc.suprx
-[17:16:41.541] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSH10042\sce_module\libc.suprx
-[17:16:41.541] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSH10042\sce_module\libc.suprx
-[17:16:41.542] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[17:16:41.542] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[17:16:41.542] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[17:16:41.542] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[17:16:41.543] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSH10042\sce_module\libc.suprx") loaded
-[17:16:41.565] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:41.565] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSH10042\sce_module\libface.suprx
-[17:16:41.565] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSH10042\sce_module\libface.suprx
-[17:16:41.565] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSH10042\sce_module\libface.suprx
-[17:16:41.565] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
-[17:16:41.565] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
-[17:16:41.565] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSH10042\sce_module\libface.suprx") loaded
-[17:16:41.574] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:41.575] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSH10042\sce_module\libfios2.suprx
-[17:16:41.575] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSH10042\sce_module\libfios2.suprx
-[17:16:41.575] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSH10042\sce_module\libfios2.suprx
-[17:16:41.575] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
-[17:16:41.575] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
-[17:16:41.575] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSH10042\sce_module\libfios2.suprx") loaded
-[17:16:41.630] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:41.631] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSH10042\sce_module\libsmart.suprx
-[17:16:41.631] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSH10042\sce_module\libsmart.suprx
-[17:16:41.631] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSH10042\sce_module\libsmart.suprx
-[17:16:41.631] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
-[17:16:41.631] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
-[17:16:41.631] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSH10042\sce_module\libsmart.suprx") loaded
-[17:16:41.636] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:41.636] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSH10042\sce_module\libult.suprx
-[17:16:41.636] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSH10042\sce_module\libult.suprx
-[17:16:41.636] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSH10042\sce_module\libult.suprx
-[17:16:41.636] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
-[17:16:41.636] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
-[17:16:41.636] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSH10042\sce_module\libult.suprx") loaded
-[17:16:41.644] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[17:16:41.645] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[17:16:41.645] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[17:16:41.645] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
-[17:16:41.645] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
-[17:16:41.645] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[17:16:41.647] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[17:16:41.648] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[17:16:41.648] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[17:16:41.648] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
-[17:16:41.648] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
-[17:16:41.648] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[17:16:41.899] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:41.899] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x00DD0884 / 0x81000000] (size: 0x00A9B884) of module app0:eboot.bin
-[17:16:41.900] |I| [load_self]: Loaded module segment 1 @ [0x00DD1000 - 0x00F20980 / 0x81A9C000] (size: 0x0014F980) of module app0:eboot.bin
-[17:16:41.900] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[17:16:41.900] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC6C758
-[17:16:41.900] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0xDD4B3C
-[17:16:41.900] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xD3D61C
-[17:16:41.900] |I| [load_app_impl]: Main executable GP (eboot.bin) loaded
-[17:16:41.911] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[17:16:41.930] |I| [run_app]: Module SceLibc (at "ux0:app\PCSH10042\sce_module\libc.suprx") module_start returned 0x0
-[17:16:41.934] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
-[17:16:41.944] |I| [run_app]: Module SceFace (at "ux0:app\PCSH10042\sce_module\libface.suprx") module_start returned 0x0
-[17:16:41.948] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
-[17:16:41.958] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[17:16:41.959] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[17:16:41.959] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[17:16:41.959] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSH10042\sce_module\libfios2.suprx") module_start returned 0x0
-[17:16:41.963] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
-[17:16:41.974] |I| [run_app]: Module SceSmart (at "ux0:app\PCSH10042\sce_module\libsmart.suprx") module_start returned 0x0
-[17:16:41.979] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
-[17:16:41.987] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[17:16:41.987] |I| [run_app]: Module SceUlt (at "ux0:app\PCSH10042\sce_module\libult.suprx") module_start returned 0x0
-[17:16:41.995] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
-[17:16:43.331] |D| [export_sceSysmoduleLoadModule]: module id: 29
-[17:16:43.332] |D| [export_sceSysmoduleLoadModule]: module: libSceScreenShot
-[17:16:43.332] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[17:16:43.335] |D| [export_sceSysmoduleLoadModule]: module id: 20
-[17:16:43.335] |D| [export_sceSysmoduleLoadModule]: module: liblocation
-[17:16:43.335] |I| [load_module]: Loading module ID: 0x14
-[17:16:43.364] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:43.364] |I| [load_self]: Loaded module segment 0 @ [0x00F83000 - 0x00F863D0 / 0x81000000] (size: 0x000033D0) of module sys/external/liblocation.suprx
-[17:16:43.364] |I| [load_self]: Loaded module segment 1 @ [0x00F87000 - 0x00F87040 / 0x81004000] (size: 0x00000040) of module sys/external/liblocation.suprx
-[17:16:43.365] |I| [load_self]: Loading symbols for SELF: sys/external/liblocation.suprx
-[17:16:43.365] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xF863B8
-[17:16:43.365] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xF85888
-[17:16:43.365] |I| [load_module]: Module SceLibLocation (at "sys/external/liblocation.suprx") loaded
-[17:16:43.365] |E| [call_import]: Import function for NID 0x9F793F84 not found (thread name: PCSH10042, thread ID: 10)
-[17:16:43.507] |D| [export_sceSysmoduleLoadModule]: module id: 11
-[17:16:43.507] |D| [export_sceSysmoduleLoadModule]: module: libngs
-[17:16:43.508] |D| [export_sceSysmoduleLoadModule]: module id: 12
-[17:16:43.508] |D| [export_sceSysmoduleLoadModule]: module: libsulpha
-[17:16:43.508] |D| [export_sceSysmoduleLoadModule]: module id: 76
-[17:16:43.508] |D| [export_sceSysmoduleLoadModule]: module: libsceavplayer
-[17:16:43.508] |D| [export_sceSysmoduleLoadModule]: module: libscemp4
-[17:16:43.508] |D| [export_sceSysmoduleLoadModule]: module id: 1
-[17:16:43.508] |D| [export_sceSysmoduleLoadModule]: module: libnet
-[17:16:43.509] |D| [export_sceSysmoduleLoadModule]: module: libnetctl
-[17:16:43.509] |D| [export_sceSysmoduleLoadModule]: module id: 42
-[17:16:43.509] |D| [export_sceSysmoduleLoadModule]: module: adhoc_matching
-[17:16:43.509] |D| [export_sceSysmoduleLoadModule]: module id: 4
-[17:16:43.509] |D| [export_sceSysmoduleLoadModule]: module: libhttp
-[17:16:43.509] |D| [export_sceSysmoduleLoadModule]: module: libssl
-[17:16:43.509] |D| [export_sceSysmoduleLoadModule]: module id: 21
-[17:16:43.510] |D| [export_sceSysmoduleLoadModule]: module: np_common
-[17:16:43.510] |D| [export_sceSysmoduleLoadModule]: module: np_manager
-[17:16:43.510] |D| [export_sceSysmoduleLoadModule]: module: np_basic
-[17:16:43.510] |D| [export_sceSysmoduleLoadModule]: module id: 25
-[17:16:43.510] |D| [export_sceSysmoduleLoadModule]: module: np_utility
-[17:16:43.510] |D| [export_sceSysmoduleLoadModule]: module id: 38
-[17:16:43.510] |D| [export_sceSysmoduleLoadModule]: module: np_message_padding
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module: np_message
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module id: 18
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module: np_basic
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module id: 28
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module: np_matching2
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module id: 30
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module: np_ranking
-[17:16:43.511] |D| [export_sceSysmoduleLoadModule]: module id: 24
-[17:16:43.512] |D| [export_sceSysmoduleLoadModule]: module: np_commerce2
-[17:16:43.512] |D| [export_sceSysmoduleLoadModule]: module id: 83
-[17:16:43.512] |D| [export_sceSysmoduleLoadModule]: module: np_webapi
-[17:16:43.512] |D| [export_sceSysmoduleLoadModule]: module id: 85
-[17:16:43.512] |D| [export_sceSysmoduleLoadModule]: module: libSceJson
-[17:16:43.512] |I| [load_module]: Loading module ID: 0x55
-[17:16:43.514] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[17:16:43.514] |I| [load_self]: Loaded module segment 0 @ [0x00FB9000 - 0x00FBF230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
-[17:16:43.514] |I| [load_self]: Loaded module segment 1 @ [0x00FC0000 - 0x00FC0049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
-[17:16:43.515] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
-[17:16:43.515] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xFBF0A8
-[17:16:43.515] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xFBE020
-[17:16:43.515] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
-[17:16:43.515] |D| [export_sceSysmoduleLoadModule]: module id: 1
-[17:16:43.515] |D| [export_sceSysmoduleLoadModule]: module: libnet
-[17:16:43.515] |D| [export_sceSysmoduleLoadModule]: module: libnetctl
-[17:16:43.516] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[17:16:43.522] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
-[17:16:43.680] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[17:16:43.686] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[17:16:43.686] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
-[17:16:43.701] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[17:16:43.726] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, width: 1, height: 1, texFormat: 201347072
-[17:16:43.768] |W| [unimplemented_impl]: Unimplemented sceKernelCreateRWLock import called.
-[17:16:43.952] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[17:16:43.953] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[17:16:44.072] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[17:16:44.099] |I| [export_sceIoOpen]: Opening file: app0:/masterPSP2/GxArchivedFile000.dat
-[17:16:44.127] |I| [export_sceIoOpen]: Opening file: app0:/masterPSP2/GxArchivedFile001.dat
-[17:16:44.192] |I| [export_sceIoOpen]: Opening file: app0:/masterPSP2/GxArchivedFile002.dat
-[17:16:44.226] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 0
-[17:16:44.227] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 0
-[17:16:44.227] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
-[17:16:44.227] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOn import called.
-[17:16:44.228] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
-[17:16:44.228] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
-[17:16:44.228] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
-[17:16:44.228] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
-[17:16:44.229] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
-[17:16:44.229] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
-[17:16:44.229] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
-[17:16:44.229] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
-[17:16:44.239] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/clearHDR.vsb (target path: app0:/masterPSP2/GxCore/shader/clearHDR.vsb)
-[17:16:44.241] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.242] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/clearHDR.vsb
-[17:16:44.308] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/clearHDR.psb (target path: app0:/masterPSP2/GxCore/shader/clearHDR.psb)
-[17:16:44.309] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.309] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/clearHDR.psb
-[17:16:44.314] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/stretchRect.vsb (target path: app0:/masterPSP2/GxCore/shader/stretchRect.vsb)
-[17:16:44.314] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.314] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/stretchRect.vsb
-[17:16:44.316] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/stretchRect.psb (target path: app0:/masterPSP2/GxCore/shader/stretchRect.psb)
-[17:16:44.316] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.316] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/stretchRect.psb
-[17:16:44.321] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/sysRender.spk (target path: app0:/masterPSP2/GxCore/shader/sysRender.spk)
-[17:16:44.322] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.322] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/sysRender.spk
-[17:16:44.342] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitive2D.vsb (target path: app0:/masterPSP2/GxCore/shader/primitive2D.vsb)
-[17:16:44.343] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.343] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitive2D.vsb
-[17:16:44.345] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/gammaCorrectionPSP2.psb (target path: app0:/masterPSP2/GxCore/shader/gammaCorrectionPSP2.psb)
-[17:16:44.345] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.345] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/gammaCorrectionPSP2.psb
-[17:16:44.352] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
-[17:16:44.354] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/model.spk (target path: app0:/masterPSP2/GxShader/shader/model.spk)
-[17:16:44.354] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.354] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/model.spk
-[17:16:44.377] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelHighSpeed.vsb (target path: app0:/masterPSP2/GxShader/shader/modelHighSpeed.vsb)
-[17:16:44.378] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.378] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelHighSpeed.vsb
-[17:16:44.380] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelHighSpeed.psb (target path: app0:/masterPSP2/GxShader/shader/modelHighSpeed.psb)
-[17:16:44.380] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.381] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelHighSpeed.psb
-[17:16:44.382] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/primitiveSemiTransparence.psb (target path: app0:/masterPSP2/GxShader/shader/primitiveSemiTransparence.psb)
-[17:16:44.384] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.384] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/primitiveSemiTransparence.psb
-[17:16:44.387] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/projector.spk (target path: app0:/masterPSP2/GxShader/shader/projector.spk)
-[17:16:44.387] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.388] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/projector.spk
-[17:16:44.406] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/projectorPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/projectorPSP2.spk)
-[17:16:44.406] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.407] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/projectorPSP2.spk
-[17:16:44.419] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/csv/shaderWireFrame.dt2 (target path: app0:/masterPSP2/GP/shader/csv/shaderWireFrame.dt2)
-[17:16:44.419] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.449] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/texture/digitalParticle.tex (target path: app0:/masterPSP2/GxShader/texture/digitalParticle.tex)
-[17:16:44.449] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.450] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/texture/digitalParticle.tex
-[17:16:44.453] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/texture/noise.tex (target path: app0:/masterPSP2/GxShader/texture/noise.tex)
-[17:16:44.453] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.454] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/texture/noise.tex
-[17:16:44.459] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPeffect.spk (target path: app0:/masterPSP2/GxShader/shader/GPeffect.spk)
-[17:16:44.460] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.460] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPeffect.spk
-[17:16:44.505] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPeffectPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/GPeffectPSP2.spk)
-[17:16:44.506] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.507] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPeffectPSP2.spk
-[17:16:44.644] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPmodel.spk (target path: app0:/masterPSP2/GxShader/shader/GPmodel.spk)
-[17:16:44.645] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.645] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPmodel.spk
-[17:16:44.648] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPmodelPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/GPmodelPSP2.spk)
-[17:16:44.648] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.648] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPmodelPSP2.spk
-[17:16:44.652] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/modelPSP2.spk)
-[17:16:44.652] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.653] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelPSP2.spk
-[17:16:44.685] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelManteauPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/modelManteauPSP2.spk)
-[17:16:44.686] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.686] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelManteauPSP2.spk
-[17:16:44.730] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/simpleShadowMap.spk (target path: app0:/masterPSP2/GxShader/shader/simpleShadowMap.spk)
-[17:16:44.731] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.731] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/simpleShadowMap.spk
-[17:16:44.735] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/simpleShadowSkinning.vsb (target path: app0:/masterPSP2/GxShader/shader/simpleShadowSkinning.vsb)
-[17:16:44.736] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.736] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/simpleShadowSkinning.vsb
-[17:16:44.738] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/simpleShadowSkinning.psb (target path: app0:/masterPSP2/GxShader/shader/simpleShadowSkinning.psb)
-[17:16:44.738] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.738] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/simpleShadowSkinning.psb
-[17:16:44.744] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, width: 1, height: 1, texFormat: 201347072
-[17:16:44.744] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxGISolution/texture/dummyLightMap.tex (target path: app0:/masterPSP2/GxGISolution/texture/dummyLightMap.tex)
-[17:16:44.745] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.745] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxGISolution/texture/dummyLightMap.tex
-[17:16:44.747] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelShadow.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelShadow.spk)
-[17:16:44.747] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.748] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelDepth.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelDepth.spk)
-[17:16:44.748] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.767] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelGeometry.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelGeometry.spk)
-[17:16:44.768] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.769] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelForward.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelForward.spk)
-[17:16:44.770] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.793] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelEffect.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelEffect.spk)
-[17:16:44.793] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.813] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelError.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelError.spk)
-[17:16:44.813] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:44.819] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/psp2ModelCharacter.spk (target path: app0:/masterPSP2/GP/shader/shader/model/psp2ModelCharacter.spk)
-[17:16:44.819] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.335] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/psp2ModelBackground.spk (target path: app0:/masterPSP2/GP/shader/shader/model/psp2ModelBackground.spk)
-[17:16:45.337] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.685] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelLighting.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelLighting.spk)
-[17:16:45.687] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.688] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/texture/envmap/default.tex (target path: app0:/masterPSP2/GP/shader/texture/envmap/default.tex)
-[17:16:45.688] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.732] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, width: 128, height: 128, texFormat: 201330688
-[17:16:45.733] |D| [export_sceGxmTextureInitCube]: sceGxmTextureInitCube, width: 1, height: 1, texFormat: 201347072
-[17:16:45.737] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/primitiveTextureMasked.psb (target path: app0:/masterPSP2/GP/shader/shader/primitiveTextureMasked.psb)
-[17:16:45.737] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.739] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/texture/guandam_yaki.tex (target path: app0:/masterPSP2/GP/shader/texture/guandam_yaki.tex)
-[17:16:45.739] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.741] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/yuvConvert.spk (target path: app0:/masterPSP2/GP/shader/shader/yuvConvert.spk)
-[17:16:45.741] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.744] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2LightingOutput.spk (target path: app0:/masterPSP2/GP/shader/shader/psp2LightingOutput.spk)
-[17:16:45.744] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.746] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2NullUchar4.psb (target path: app0:/masterPSP2/GP/shader/shader/psp2NullUchar4.psb)
-[17:16:45.746] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.748] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2NullUchar4Msaa.psb (target path: app0:/masterPSP2/GP/shader/shader/psp2NullUchar4Msaa.psb)
-[17:16:45.748] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.750] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/materialSphere.vsb (target path: app0:/masterPSP2/GP/shader/shader/materialSphere.vsb)
-[17:16:45.751] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.752] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/materialSphere.psb (target path: app0:/masterPSP2/GP/shader/shader/materialSphere.psb)
-[17:16:45.752] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.754] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/damageWall.vsb (target path: app0:/masterPSP2/GP/shader/shader/damageWall.vsb)
-[17:16:45.754] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.756] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/damageWall.psb (target path: app0:/masterPSP2/GP/shader/shader/damageWall.psb)
-[17:16:45.756] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.758] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/skyMap.vsb (target path: app0:/masterPSP2/GP/shader/shader/skyMap.vsb)
-[17:16:45.760] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.762] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/skyMap.psb (target path: app0:/masterPSP2/GP/shader/shader/skyMap.psb)
-[17:16:45.762] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.767] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitive3D.vsb (target path: app0:/masterPSP2/GxCore/shader/primitive3D.vsb)
-[17:16:45.767] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.767] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitive3D.vsb
-[17:16:45.769] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveModel2D.vsb (target path: app0:/masterPSP2/GxCore/shader/primitiveModel2D.vsb)
-[17:16:45.769] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.770] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveModel2D.vsb
-[17:16:45.772] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitive.psb (target path: app0:/masterPSP2/GxCore/shader/primitive.psb)
-[17:16:45.772] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.772] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitive.psb
-[17:16:45.774] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveTexture.psb (target path: app0:/masterPSP2/GxCore/shader/primitiveTexture.psb)
-[17:16:45.777] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.777] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveTexture.psb
-[17:16:45.779] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveAlphatest.psb (target path: app0:/masterPSP2/GxCore/shader/primitiveAlphatest.psb)
-[17:16:45.779] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.779] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveAlphatest.psb
-[17:16:45.781] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveTexRefAlphatest.psb (target path: app0:/masterPSP2/GxCore/shader/primitiveTexRefAlphatest.psb)
-[17:16:45.781] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.781] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveTexRefAlphatest.psb
-[17:16:45.783] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveTexturePSP2.spk (target path: app0:/masterPSP2/GxCore/shader/primitiveTexturePSP2.spk)
-[17:16:45.783] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.784] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveTexturePSP2.spk
-[17:16:45.797] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/effectInput.spk (target path: app0:/masterPSP2/GP/shader/shader/effectInput.spk)
-[17:16:45.797] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.802] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/pacPSP2/effect/shaderPac.pac (target path: app0:/masterPSP2/pacPSP2/effect/shaderPac.pac)
-[17:16:45.802] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.846] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxHud/shader/polygonFont.vsb (target path: app0:/masterPSP2/GxHud/shader/polygonFont.vsb)
-[17:16:45.847] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.847] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxHud/shader/polygonFont.vsb
-[17:16:45.849] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxHud/shader/polygonFont.psb (target path: app0:/masterPSP2/GxHud/shader/polygonFont.psb)
-[17:16:45.849] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.850] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxHud/shader/polygonFont.psb
-[17:16:45.852] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxHud/shader/distanceFont.psb (target path: app0:/masterPSP2/GxHud/shader/distanceFont.psb)
-[17:16:45.852] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.852] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxHud/shader/distanceFont.psb
-[17:16:45.854] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/borderedFont.spk (target path: app0:/masterPSP2/GP/shader/shader/borderedFont.spk)
-[17:16:45.854] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.857] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/convertToBorderedFont.vsb (target path: app0:/masterPSP2/GP/shader/shader/convertToBorderedFont.vsb)
-[17:16:45.857] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.859] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/convertToBorderedFont.psb (target path: app0:/masterPSP2/GP/shader/shader/convertToBorderedFont.psb)
-[17:16:45.859] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.861] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxFilter/shader/GxFilter.spk (target path: app0:/masterPSP2/GxFilter/shader/GxFilter.spk)
-[17:16:45.861] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.862] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxFilter/shader/GxFilter.spk
-[17:16:45.982] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxFilter/shader/fullResolutionComposite.psb (target path: app0:/masterPSP2/GxFilter/shader/fullResolutionComposite.psb)
-[17:16:45.983] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:45.983] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxFilter/shader/fullResolutionComposite.psb
-[17:16:45.986] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/csv/uiBackgroundBlurFilter.dt2 (target path: app0:/masterPSP2/GP/ui/csv/uiBackgroundBlurFilter.dt2)
-[17:16:45.987] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.013] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/common/bg_blur.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/common/bg_blur.tex)
-[17:16:46.014] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.023] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/filterInput.spk (target path: app0:/masterPSP2/GP/shader/shader/filterInput.spk)
-[17:16:46.023] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.027] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/fullScreenEffect.spk (target path: app0:/masterPSP2/GP/shader/shader/fullScreenEffect.spk)
-[17:16:46.027] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.044] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/backgroundBlurFilter.spk (target path: app0:/masterPSP2/GP/shader/shader/backgroundBlurFilter.spk)
-[17:16:46.044] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.054] |D| [ngs::create_voice_definition]: type: 17
-[17:16:46.054] |D| [ngs::create_voice_definition]: type: 13
-[17:16:46.055] |D| [ngs::create_voice_definition]: type: 7
-[17:16:46.055] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
-[17:16:46.055] |D| [ngs::create_voice_definition]: type: 0
-[17:16:46.055] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
-[17:16:46.073] |W| [stubbed_impl]: Stubbed _sceKernelWaitEventFlagCB import called. (Try CB)
-[17:16:46.095] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (Try CB)
-[17:16:46.109] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.110] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.110] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.110] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.110] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.110] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.110] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.111] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.111] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.123] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
-[17:16:46.135] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
-[17:16:46.145] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[17:16:46.160] |W| [unimplemented_impl]: Unimplemented sceAppMgrReleaseBgmPort import called.
-[17:16:46.161] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/sound/data/GP.acf (target path: app0:/masterPSP2/GP/sound/data/GP.acf)
-[17:16:46.161] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.184] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/csv/sound/soundGroup.dt2 (target path: app0:/masterPSP2/GP/csv/sound/soundGroup.dt2)
-[17:16:46.184] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.189] |D| [ngs::create_voice_definition]: type: 10
-[17:16:46.189] |D| [ngs::create_voice_definition]: type: 3
-[17:16:46.190] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 3, using passthrough.
-[17:16:46.190] |D| [ngs::create_voice_definition]: type: 1
-[17:16:46.190] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[17:16:46.194] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
-[17:16:46.194] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.196] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.197] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[17:16:46.268] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveTextureYuv.psb (target path: app0:/masterPSP2/GxCore/shader/primitiveTextureYuv.psb)
-[17:16:46.269] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.270] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveTextureYuv.psb
-[17:16:46.289] |D| [export_sceSysmoduleLoadModule]: module id: 17
-[17:16:46.289] |D| [export_sceSysmoduleLoadModule]: module: libime
-[17:16:46.290] |D| [export_sceSysmoduleLoadModule]: module id: 44
-[17:16:46.290] |D| [export_sceSysmoduleLoadModule]: module: np_tus
-[17:16:46.291] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/csv/uiResource.dt2 (target path: app0:/masterPSP2/GP/ui/csv/uiResource.dt2)
-[17:16:46.291] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.298] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/csv/uiTextColor.dt2 (target path: app0:/masterPSP2/GP/ui/csv/uiTextColor.dt2)
-[17:16:46.298] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.301] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/texCombineColor.psb (target path: app0:/masterPSP2/GP/shader/shader/texCombineColor.psb)
-[17:16:46.303] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.305] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/texCombineMetallicGlossy.psb (target path: app0:/masterPSP2/GP/shader/shader/texCombineMetallicGlossy.psb)
-[17:16:46.305] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.307] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/texCombineCautionMark.psb (target path: app0:/masterPSP2/GP/shader/shader/texCombineCautionMark.psb)
-[17:16:46.307] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.309] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/texCombineCautionMarkBase.psb (target path: app0:/masterPSP2/GP/shader/shader/texCombineCautionMarkBase.psb)
-[17:16:46.309] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.311] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/texCombineDecal.vsb (target path: app0:/masterPSP2/GP/shader/shader/texCombineDecal.vsb)
-[17:16:46.311] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.312] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/texCombineDecal.psb (target path: app0:/masterPSP2/GP/shader/shader/texCombineDecal.psb)
-[17:16:46.312] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.314] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2DxtConvertSwizzle.psb (target path: app0:/masterPSP2/GP/shader/shader/psp2DxtConvertSwizzle.psb)
-[17:16:46.314] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.316] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2DxtConvertPalette.psb (target path: app0:/masterPSP2/GP/shader/shader/psp2DxtConvertPalette.psb)
-[17:16:46.316] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.317] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2DxtConvertBlock.psb (target path: app0:/masterPSP2/GP/shader/shader/psp2DxtConvertBlock.psb)
-[17:16:46.321] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.322] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/dxtInterleave.psb (target path: app0:/masterPSP2/GP/shader/shader/dxtInterleave.psb)
-[17:16:46.323] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.327] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/environmentParticle.psb (target path: app0:/masterPSP2/GP/shader/shader/environmentParticle.psb)
-[17:16:46.327] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.329] |D| [export_sceSysmoduleLoadModule]: module id: 29
-[17:16:46.329] |D| [export_sceSysmoduleLoadModule]: module: libSceScreenShot
-[17:16:46.330] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[17:16:46.330] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[17:16:46.331] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/csv/scoreAcePoint.dt2 (target path: app0:/masterPSP2/GP/csv/scoreAcePoint.dt2)
-[17:16:46.331] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.332] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/linkTexMaterial.dt2 (target path: app0:/masterPSP2/GP/unitData/linkTexMaterial.dt2)
-[17:16:46.332] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.360] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/listPartsData.dt2 (target path: app0:/masterPSP2/GP/unitData/listPartsData.dt2)
-[17:16:46.361] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.366] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/listEquipData.dt2 (target path: app0:/masterPSP2/GP/unitData/listEquipData.dt2)
-[17:16:46.366] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.370] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/cameraParam.dt2 (target path: app0:/masterPSP2/GP/unitData/cameraParam.dt2)
-[17:16:46.370] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.377] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/csv/uiTextChatDefaultData.dt2 (target path: app0:/masterPSP2/GP/ui/csv/uiTextChatDefaultData.dt2)
-[17:16:46.377] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.378] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/csv/uiTextChatEmoteData.dt2 (target path: app0:/masterPSP2/GP/ui/csv/uiTextChatEmoteData.dt2)
-[17:16:46.378] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.379] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/progressData.dt2 (target path: app0:/masterPSP2/GP/mission/common/progressData.dt2)
-[17:16:46.379] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.387] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/missionReleaseData.dt2 (target path: app0:/masterPSP2/GP/mission/common/missionReleaseData.dt2)
-[17:16:46.387] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.389] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/missionReleaseDLC.dt2 (target path: app0:/masterPSP2/GP/mission/common/missionReleaseDLC.dt2)
-[17:16:46.389] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.390] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/missionCommonData.dt2 (target path: app0:/masterPSP2/GP/mission/common/missionCommonData.dt2)
-[17:16:46.390] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.392] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/missionResultData.dt2 (target path: app0:/masterPSP2/GP/mission/common/missionResultData.dt2)
-[17:16:46.393] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.394] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/missionMovieList.dt2 (target path: app0:/masterPSP2/GP/mission/common/missionMovieList.dt2)
-[17:16:46.394] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.395] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/tornament/tournamentmissionData.dt2 (target path: app0:/masterPSP2/GP/mission/common/tornament/tournamentmissionData.dt2)
-[17:16:46.395] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.396] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/hotSpotBossList.dt2 (target path: app0:/masterPSP2/GP/mission/common/hotSpotBossList.dt2)
-[17:16:46.396] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.397] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/arenaCommonData.dt2 (target path: app0:/masterPSP2/GP/mission/common/arenaCommonData.dt2)
-[17:16:46.400] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.401] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/mission/common/arenaBountyHunterMapList.dt2 (target path: app0:/masterPSP2/GP/mission/common/arenaBountyHunterMapList.dt2)
-[17:16:46.402] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.403] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/csv/effectExtraParam.eexp (target path: app0:/masterPSP2/GP/effect/csv/effectExtraParam.eexp)
-[17:16:46.403] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.408] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/csv/effectDotParticleParam.edpp (target path: app0:/masterPSP2/GP/effect/csv/effectDotParticleParam.edpp)
-[17:16:46.408] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.415] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/csv/effectDotParticleAttach.edpa (target path: app0:/masterPSP2/GP/effect/csv/effectDotParticleAttach.edpa)
-[17:16:46.415] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.418] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/csv/effectSplineParam.eslp (target path: app0:/masterPSP2/GP/effect/csv/effectSplineParam.eslp)
-[17:16:46.418] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.420] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_barnia_11.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_barnia_11.tex)
-[17:16:46.420] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.431] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_17.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_17.tex)
-[17:16:46.431] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.433] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_11.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_11.tex)
-[17:16:46.433] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.435] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_14.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_14.tex)
-[17:16:46.435] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.437] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_transam_01_af_nf.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_transam_01_af_nf.tex)
-[17:16:46.437] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.445] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_12.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_12.tex)
-[17:16:46.445] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.446] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_shock_05.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_shock_05.tex)
-[17:16:46.448] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.459] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_16.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_16.tex)
-[17:16:46.460] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.461] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_funnel_vernier_chr2205.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_funnel_vernier_chr2205.tex)
-[17:16:46.463] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.474] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_locus_smoke_02.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_locus_smoke_02.tex)
-[17:16:46.475] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.478] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_chip_01bl.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_chip_01bl.tex)
-[17:16:46.479] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.483] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_15.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_15.tex)
-[17:16:46.483] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.488] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_rainbow_02.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_rainbow_02.tex)
-[17:16:46.488] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.489] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_rainbow_01.tex (target path: app0:/masterPSP2/GP/effect/PSP2/texture/ef_t_bsabel_rainbow_01.tex)
-[17:16:46.490] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.493] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/csv/effectSplineAttach.edpa (target path: app0:/masterPSP2/GP/effect/csv/effectSplineAttach.edpa)
-[17:16:46.493] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.494] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/csv/effectMapping.dt2 (target path: app0:/masterPSP2/GP/effect/csv/effectMapping.dt2)
-[17:16:46.495] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.497] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/csv/effectParticleForceFieldParam.pffp (target path: app0:/masterPSP2/GP/effect/csv/effectParticleForceFieldParam.pffp)
-[17:16:46.497] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.498] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/map/mapCommon.dt2 (target path: app0:/masterPSP2/GP/map/mapCommon.dt2)
-[17:16:46.498] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.499] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/event/gp3InvalidTriggerVoiceIdData.dt2 (target path: app0:/masterPSP2/GP/event/gp3InvalidTriggerVoiceIdData.dt2)
-[17:16:46.499] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.513] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/event/gp3SequentialVoiceGroupData.dt2 (target path: app0:/masterPSP2/GP/event/gp3SequentialVoiceGroupData.dt2)
-[17:16:46.513] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.515] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/event/gp3TriggerContentIdData.dt2 (target path: app0:/masterPSP2/GP/event/gp3TriggerContentIdData.dt2)
-[17:16:46.515] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.516] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/event/gp3TriggerVoiceMessageData.dt2 (target path: app0:/masterPSP2/GP/event/gp3TriggerVoiceMessageData.dt2)
-[17:16:46.516] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.519] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/event/gp3VoiceFacialData.dt2 (target path: app0:/masterPSP2/GP/event/gp3VoiceFacialData.dt2)
-[17:16:46.519] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.523] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/event/gp3VoiceMessageData.dt2 (target path: app0:/masterPSP2/GP/event/gp3VoiceMessageData.dt2)
-[17:16:46.523] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.525] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/event/gp3CharacterId.dt2 (target path: app0:/masterPSP2/GP/event/gp3CharacterId.dt2)
-[17:16:46.525] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.526] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/mse/mse_common.mse (target path: app0:/masterPSP2/GP/effect/mse/mse_common.mse)
-[17:16:46.528] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.541] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/effect/mse/mse_equip_common.mse (target path: app0:/masterPSP2/GP/effect/mse/mse_equip_common.mse)
-[17:16:46.542] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.544] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/csv/multiPlayerCorrection.dt2 (target path: app0:/masterPSP2/GP/csv/multiPlayerCorrection.dt2)
-[17:16:46.544] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.556] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/attachBoneTable.dt2 (target path: app0:/masterPSP2/GP/unitData/attachBoneTable.dt2)
-[17:16:46.556] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.583] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/userOffsetParam.dt2 (target path: app0:/masterPSP2/GP/unitData/userOffsetParam.dt2)
-[17:16:46.584] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.588] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/userOffsetType.dt2 (target path: app0:/masterPSP2/GP/unitData/userOffsetType.dt2)
-[17:16:46.588] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.592] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/text/text21_ui_help_PSV_en.dt2 (target path: app0:/masterPSP2/GP/text/text21_ui_help_PSV_en.dt2)
-[17:16:46.593] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.607] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/exSkillExpData.dt2 (target path: app0:/masterPSP2/GP/unitData/exSkillExpData.dt2)
-[17:16:46.607] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.617] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/unitData/exSkillLearningData.dt2 (target path: app0:/masterPSP2/GP/unitData/exSkillLearningData.dt2)
-[17:16:46.617] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.643] |W| [unimplemented_impl]: Unimplemented sceKernelLockWriteRWLock import called.
-[17:16:46.643] |W| [unimplemented_impl]: Unimplemented sceKernelUnlockWriteRWLock import called.
-[17:16:46.649] |W| [unimplemented_impl]: Unimplemented sceKernelLockReadRWLock import called.
-[17:16:46.649] |W| [unimplemented_impl]: Unimplemented sceKernelUnlockReadRWLock import called.
-[17:16:46.654] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
-[17:16:46.656] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
-[17:16:46.657] |W| [unimplemented_impl]: Unimplemented sceMotionGetSensorState import called.
-[17:16:46.657] |W| [unimplemented_impl]: Unimplemented sceMotionGetDeviceLocation import called.
-[17:16:46.676] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/font/DFHeiSeiGothicW7.csh (target path: app0:/masterPSP2/GP/ui/font/DFHeiSeiGothicW7.csh)
-[17:16:46.676] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.680] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/font/DFHeiSeiGothicW7_table.csh (target path: app0:/masterPSP2/GP/ui/font/DFHeiSeiGothicW7_table.csh)
-[17:16:46.681] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.684] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/font/DFHeiSeiGothicW7_0.tex (target path: app0:/masterPSP2/GP/ui/font/DFHeiSeiGothicW7_0.tex)
-[17:16:46.684] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.692] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/csv/radialBlur.dt2 (target path: app0:/masterPSP2/GP/shader/csv/radialBlur.dt2)
-[17:16:46.692] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.721] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceLoadMode import called.
-[17:16:46.722] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/font/gp_font_Square721_Cn_BT_size30.csh (target path: app0:/masterPSP2/GP/ui/font/gp_font_Square721_Cn_BT_size30.csh)
-[17:16:46.722] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.722] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceGetFormat import called.
-[17:16:46.723] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceGetStrideInSamples import called.
-[17:16:46.723] |E| [logging::ret_error_impl]: sceGxmDepthStencilSurfaceInit returned SCE_GXM_ERROR_INVALID_VALUE (0x805B0003)
-[17:16:46.723] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/font/gp_font_Square721_Cn_BT_size30_table.csh (target path: app0:/masterPSP2/GP/ui/font/gp_font_Square721_Cn_BT_size30_table.csh)
-[17:16:46.724] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.732] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/font/gp_font_Square721_Cn_BT_size30_0.tex (target path: app0:/masterPSP2/GP/ui/font/gp_font_Square721_Cn_BT_size30_0.tex)
-[17:16:46.732] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.761] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/csv/decalData.dt2 (target path: app0:/masterPSP2/GP/csv/decalData.dt2)
-[17:16:46.762] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.776] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/csv/psychoFrame.dt2 (target path: app0:/masterPSP2/GP/shader/csv/psychoFrame.dt2)
-[17:16:46.776] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.777] |W| [unimplemented_impl]: Unimplemented sceGxmProgramParameterIsRegFormat import called.
-[17:16:46.783] |I| [renderer::gl::load_shader_generic]: Generating frag shader 612cb04df9918db5d0a085b9a76a74bcb888dad6a11924b25779f6680bcaea1d
-[17:16:46.785] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[17:16:46.790] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[17:16:46.791] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/_little_/load/load.dsp (target path: app0:/masterPSP2/GP/ui/_little_/load/load.dsp)
-[17:16:46.791] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.796] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_01.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_01.tex)
-[17:16:46.796] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.797] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_02.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_02.tex)
-[17:16:46.798] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.800] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_03.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_03.tex)
-[17:16:46.800] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.800] |I| [renderer::gl::load_shader_generic]: Generating vert shader b77220e1530e7affce646817b58bf6f998a1173257472c03b38d3ab4866d3f63
-[17:16:46.801] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_04.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_04.tex)
-[17:16:46.801] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.801] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
-[17:16:46.801] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) gClearColor
-[17:16:46.802] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) gDepth
-[17:16:46.802] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_05.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_05.tex)
-[17:16:46.802] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.803] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_06.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_06.tex)
-[17:16:46.803] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.804] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_07.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_07.tex)
-[17:16:46.804] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.806] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_08.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_08.tex)
-[17:16:46.806] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.807] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_09.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_09.tex)
-[17:16:46.807] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.808] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_10.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_10.tex)
-[17:16:46.808] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.809] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_11.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_11.tex)
-[17:16:46.809] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.810] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_12.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_12.tex)
-[17:16:46.810] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.812] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_13.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_13.tex)
-[17:16:46.812] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.813] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_14.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_14.tex)
-[17:16:46.816] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.818] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_15.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_15.tex)
-[17:16:46.818] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.819] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_16.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_16.tex)
-[17:16:46.819] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.820] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_17.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_17.tex)
-[17:16:46.820] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.821] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_18.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_18.tex)
-[17:16:46.821] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.822] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_19.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_19.tex)
-[17:16:46.822] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.824] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_20.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_20.tex)
-[17:16:46.824] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.825] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_21.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_21.tex)
-[17:16:46.825] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.826] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_22.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_22.tex)
-[17:16:46.826] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.827] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_23.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/header/header_txt/header_txt_23.tex)
-[17:16:46.827] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.828] |I| [renderer::gl::load_shader_generic]: Generating frag shader 96199c7f78b892b78073e6dc29ac7b02ec146167b8e5476b9e79fc999644a1c4
-[17:16:46.828] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon0.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon0.tex)
-[17:16:46.832] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.836] |I| [renderer::gl::load_shader_generic]: Generating vert shader 530ff47bfa191af325216b1701df754e4c740a517ee61fab5b28130553f87873
-[17:16:46.837] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
-[17:16:46.838] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv
-[17:16:46.838] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) gProjectionMatrix2D[4]
-[17:16:46.849] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_01.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_01.tex)
-[17:16:46.849] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.850] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_02.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_02.tex)
-[17:16:46.851] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.852] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_03.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_03.tex)
-[17:16:46.852] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.853] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_04.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_04.tex)
-[17:16:46.853] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.854] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_05.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_05.tex)
-[17:16:46.854] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.855] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_06.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_06.tex)
-[17:16:46.855] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.856] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_07.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_07.tex)
-[17:16:46.857] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.858] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_08.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_08.tex)
-[17:16:46.858] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.859] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_09.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_09.tex)
-[17:16:46.861] |E| [renderer::gl::compile_program]: Fragment info
--------------
-0(21) : warning C7050: "sa[0]" might be used before being initialized
-0(20) : warning C7050: "pa[0].zw" might be used before being initialized
-0(20) : warning C7050: "pa[1].zw" might be used before being initialized
-
-
-[17:16:46.862] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.863] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_10.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_10.tex)
-[17:16:46.863] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.864] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_11.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_11.tex)
-[17:16:46.864] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.865] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_12.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/load/load_icon/load_icon_12.tex)
-[17:16:46.865] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.866] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/en/load/load_head_load.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/en/load/load_head_load.tex)
-[17:16:46.866] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
-[17:16:46.911] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[17:16:46.911] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[17:16:46.911] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[21:57:33.113] |I| [load_app_impl]: cpu-backend: Dynarmic
+[21:57:33.113] |I| [load_app_impl]: CPU Optimisation state: true
+[21:57:33.113] |I| [load_app_impl]: at9 audio decoder state: true
+[21:57:33.113] |I| [load_app_impl]: ngs experimental state: true
+[21:57:33.113] |I| [load_app_impl]: video player state: true
+[21:57:33.113] |I| [load_app_impl]: modules mode: Automatic
+[21:57:33.113] |I| [load_app_impl]: Title: GUNDAM BREAKER 3 BREAK EDITION
+[21:57:33.113] |I| [load_app_impl]: Serial: PCSH10042
+[21:57:33.113] |I| [load_app_impl]: Version: 1.00
+[21:57:33.113] |I| [load_app_impl]: Category: gd
+[21:57:33.122] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:57:33.122] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[21:57:33.122] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[21:57:33.122] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[21:57:33.123] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[21:57:33.123] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[21:57:33.123] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[21:57:33.125] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[21:57:33.126] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[21:57:33.131] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:57:33.131] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[21:57:33.132] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[21:57:33.133] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[21:57:33.134] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
+[21:57:33.141] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
+[21:57:33.143] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[21:57:33.146] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:57:33.146] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[21:57:33.147] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[21:57:33.148] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[21:57:33.149] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
+[21:57:33.149] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
+[21:57:33.150] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[21:57:33.157] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[21:57:33.158] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[21:57:33.160] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[21:57:33.160] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
+[21:57:33.160] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
+[21:57:33.161] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[21:57:33.164] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[21:57:33.164] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[21:57:33.165] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[21:57:33.166] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
+[21:57:33.166] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
+[21:57:33.167] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[21:57:33.406] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:57:33.406] |I| [load_self]: Loaded module segment 0 @ [0x00109000 - 0x00BA4884 / 0x81000000] (size: 0x00A9B884) of module app0:eboot.bin
+[21:57:33.407] |I| [load_self]: Loaded module segment 1 @ [0x00BA5000 - 0x00CF4980 / 0x81A9C000] (size: 0x0014F980) of module app0:eboot.bin
+[21:57:33.408] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[21:57:33.409] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA40758
+[21:57:33.409] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0xBA8B3C
+[21:57:33.410] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xB1161C
+[21:57:33.411] |I| [load_app_impl]: Main executable GP (eboot.bin) loaded
+[21:57:33.421] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[21:57:33.442] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[21:57:33.447] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
+[21:57:33.456] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[21:57:33.456] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[21:57:33.457] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[21:57:33.459] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[21:57:33.463] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
+[21:57:33.471] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[21:57:33.471] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[21:57:33.479] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[21:57:34.757] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[21:57:34.761] |I| [load_module]: Loading module ID: 0x14
+[21:57:34.762] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:57:34.762] |I| [load_self]: Loaded module segment 0 @ [0x00D57000 - 0x00D5A3D0 / 0x81000000] (size: 0x000033D0) of module sys/external/liblocation.suprx
+[21:57:34.764] |I| [load_self]: Loaded module segment 1 @ [0x00D5B000 - 0x00D5B040 / 0x81004000] (size: 0x00000040) of module sys/external/liblocation.suprx
+[21:57:34.765] |I| [load_self]: Loading symbols for SELF: sys/external/liblocation.suprx
+[21:57:34.765] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xD5A3B8
+[21:57:34.766] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xD59888
+[21:57:34.766] |I| [load_module]: Module SceLibLocation (at "sys/external/liblocation.suprx") loaded
+[21:57:34.767] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x9C4F674 sceLocationInit at 0xA3F2BC
+[21:57:34.906] |I| [load_module]: Loading module ID: 0x55
+[21:57:34.908] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[21:57:34.908] |I| [load_self]: Loaded module segment 0 @ [0x00D8D000 - 0x00D93230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
+[21:57:34.909] |I| [load_self]: Loaded module segment 1 @ [0x00D94000 - 0x00D94049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
+[21:57:34.910] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
+[21:57:34.911] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xD930A8
+[21:57:34.911] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xD92020
+[21:57:34.912] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
+[21:57:34.912] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[21:57:34.918] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[21:57:35.084] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[21:57:35.091] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[21:57:35.103] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MB host mem)
+[21:57:35.145] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[21:57:35.326] |W| [unimplemented_impl]: Unimplemented sceKernelCreateRWLock import called.
+[21:57:35.513] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[21:57:35.514] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[21:57:35.646] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[21:57:35.657] |I| [export_sceIoOpen]: Opening file: app0:/masterPSP2/GxArchivedFile000.dat
+[21:57:35.668] |I| [export_sceIoOpen]: Opening file: app0:/masterPSP2/GxArchivedFile001.dat
+[21:57:35.687] |I| [export_sceIoOpen]: Opening file: app0:/masterPSP2/GxArchivedFile002.dat
+[21:57:35.690] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 0
+[21:57:35.690] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 0
+[21:57:35.690] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[21:57:35.691] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOn import called.
+[21:57:35.692] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[21:57:35.693] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[21:57:35.693] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[21:57:35.694] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[21:57:35.694] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[21:57:35.695] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[21:57:35.695] |D| [export_sceTouchEnableTouchForce]: port: 0, state: 1
+[21:57:35.696] |D| [export_sceTouchEnableTouchForce]: port: 1, state: 1
+[21:57:35.705] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/clearHDR.vsb (target path: app0:/masterPSP2/GxCore/shader/clearHDR.vsb)
+[21:57:35.706] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.708] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/clearHDR.vsb
+[21:57:35.725] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/clearHDR.psb (target path: app0:/masterPSP2/GxCore/shader/clearHDR.psb)
+[21:57:35.726] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.727] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/clearHDR.psb
+[21:57:35.731] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/stretchRect.vsb (target path: app0:/masterPSP2/GxCore/shader/stretchRect.vsb)
+[21:57:35.732] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.732] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/stretchRect.vsb
+[21:57:35.734] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/stretchRect.psb (target path: app0:/masterPSP2/GxCore/shader/stretchRect.psb)
+[21:57:35.735] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.743] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/stretchRect.psb
+[21:57:35.748] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/sysRender.spk (target path: app0:/masterPSP2/GxCore/shader/sysRender.spk)
+[21:57:35.748] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.749] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/sysRender.spk
+[21:57:35.756] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitive2D.vsb (target path: app0:/masterPSP2/GxCore/shader/primitive2D.vsb)
+[21:57:35.757] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.760] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitive2D.vsb
+[21:57:35.762] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/gammaCorrectionPSP2.psb (target path: app0:/masterPSP2/GxCore/shader/gammaCorrectionPSP2.psb)
+[21:57:35.762] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.763] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/gammaCorrectionPSP2.psb
+[21:57:35.801] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceSetForceStoreMode import called.
+[21:57:35.834] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/model.spk (target path: app0:/masterPSP2/GxShader/shader/model.spk)
+[21:57:35.835] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.844] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/model.spk
+[21:57:35.853] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelHighSpeed.vsb (target path: app0:/masterPSP2/GxShader/shader/modelHighSpeed.vsb)
+[21:57:35.854] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.859] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelHighSpeed.vsb
+[21:57:35.861] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelHighSpeed.psb (target path: app0:/masterPSP2/GxShader/shader/modelHighSpeed.psb)
+[21:57:35.862] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.862] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelHighSpeed.psb
+[21:57:35.865] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/primitiveSemiTransparence.psb (target path: app0:/masterPSP2/GxShader/shader/primitiveSemiTransparence.psb)
+[21:57:35.865] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.866] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/primitiveSemiTransparence.psb
+[21:57:35.869] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/projector.spk (target path: app0:/masterPSP2/GxShader/shader/projector.spk)
+[21:57:35.870] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.876] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/projector.spk
+[21:57:35.885] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/projectorPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/projectorPSP2.spk)
+[21:57:35.885] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.892] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/projectorPSP2.spk
+[21:57:35.903] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/csv/shaderWireFrame.dt2 (target path: app0:/masterPSP2/GP/shader/csv/shaderWireFrame.dt2)
+[21:57:35.904] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.923] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/texture/digitalParticle.tex (target path: app0:/masterPSP2/GxShader/texture/digitalParticle.tex)
+[21:57:35.923] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.924] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/texture/digitalParticle.tex
+[21:57:35.927] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/texture/noise.tex (target path: app0:/masterPSP2/GxShader/texture/noise.tex)
+[21:57:35.928] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.929] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/texture/noise.tex
+[21:57:35.934] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPeffect.spk (target path: app0:/masterPSP2/GxShader/shader/GPeffect.spk)
+[21:57:35.934] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.938] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPeffect.spk
+[21:57:35.967] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPeffectPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/GPeffectPSP2.spk)
+[21:57:35.968] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:35.971] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPeffectPSP2.spk
+[21:57:36.099] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPmodel.spk (target path: app0:/masterPSP2/GxShader/shader/GPmodel.spk)
+[21:57:36.100] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.101] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPmodel.spk
+[21:57:36.107] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/GPmodelPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/GPmodelPSP2.spk)
+[21:57:36.107] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.108] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/GPmodelPSP2.spk
+[21:57:36.112] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/modelPSP2.spk)
+[21:57:36.113] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.113] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelPSP2.spk
+[21:57:36.145] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/modelManteauPSP2.spk (target path: app0:/masterPSP2/GxShader/shader/modelManteauPSP2.spk)
+[21:57:36.146] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.147] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/modelManteauPSP2.spk
+[21:57:36.190] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/simpleShadowMap.spk (target path: app0:/masterPSP2/GxShader/shader/simpleShadowMap.spk)
+[21:57:36.191] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.192] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/simpleShadowMap.spk
+[21:57:36.196] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/simpleShadowSkinning.vsb (target path: app0:/masterPSP2/GxShader/shader/simpleShadowSkinning.vsb)
+[21:57:36.197] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.197] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/simpleShadowSkinning.vsb
+[21:57:36.199] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxShader/shader/simpleShadowSkinning.psb (target path: app0:/masterPSP2/GxShader/shader/simpleShadowSkinning.psb)
+[21:57:36.200] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.201] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxShader/shader/simpleShadowSkinning.psb
+[21:57:36.284] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxGISolution/texture/dummyLightMap.tex (target path: app0:/masterPSP2/GxGISolution/texture/dummyLightMap.tex)
+[21:57:36.285] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.288] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxGISolution/texture/dummyLightMap.tex
+[21:57:36.290] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelShadow.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelShadow.spk)
+[21:57:36.290] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.292] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelDepth.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelDepth.spk)
+[21:57:36.292] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.311] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelGeometry.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelGeometry.spk)
+[21:57:36.312] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.314] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelForward.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelForward.spk)
+[21:57:36.314] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.337] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelEffect.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelEffect.spk)
+[21:57:36.339] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.359] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelError.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelError.spk)
+[21:57:36.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.366] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/psp2ModelCharacter.spk (target path: app0:/masterPSP2/GP/shader/shader/model/psp2ModelCharacter.spk)
+[21:57:36.367] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:36.869] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/psp2ModelBackground.spk (target path: app0:/masterPSP2/GP/shader/shader/model/psp2ModelBackground.spk)
+[21:57:36.870] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.211] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/model/modelLighting.spk (target path: app0:/masterPSP2/GP/shader/shader/model/modelLighting.spk)
+[21:57:37.212] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.214] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/texture/envmap/default.tex (target path: app0:/masterPSP2/GP/shader/texture/envmap/default.tex)
+[21:57:37.214] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.240] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/primitiveTextureMasked.psb (target path: app0:/masterPSP2/GP/shader/shader/primitiveTextureMasked.psb)
+[21:57:37.241] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.243] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/texture/guandam_yaki.tex (target path: app0:/masterPSP2/GP/shader/texture/guandam_yaki.tex)
+[21:57:37.244] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.246] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/yuvConvert.spk (target path: app0:/masterPSP2/GP/shader/shader/yuvConvert.spk)
+[21:57:37.246] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.250] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2LightingOutput.spk (target path: app0:/masterPSP2/GP/shader/shader/psp2LightingOutput.spk)
+[21:57:37.251] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.253] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2NullUchar4.psb (target path: app0:/masterPSP2/GP/shader/shader/psp2NullUchar4.psb)
+[21:57:37.256] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.258] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/psp2NullUchar4Msaa.psb (target path: app0:/masterPSP2/GP/shader/shader/psp2NullUchar4Msaa.psb)
+[21:57:37.258] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.261] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/materialSphere.vsb (target path: app0:/masterPSP2/GP/shader/shader/materialSphere.vsb)
+[21:57:37.262] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.264] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/materialSphere.psb (target path: app0:/masterPSP2/GP/shader/shader/materialSphere.psb)
+[21:57:37.264] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.266] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/damageWall.vsb (target path: app0:/masterPSP2/GP/shader/shader/damageWall.vsb)
+[21:57:37.268] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.273] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/damageWall.psb (target path: app0:/masterPSP2/GP/shader/shader/damageWall.psb)
+[21:57:37.273] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.276] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/skyMap.vsb (target path: app0:/masterPSP2/GP/shader/shader/skyMap.vsb)
+[21:57:37.276] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.278] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/skyMap.psb (target path: app0:/masterPSP2/GP/shader/shader/skyMap.psb)
+[21:57:37.278] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.284] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitive3D.vsb (target path: app0:/masterPSP2/GxCore/shader/primitive3D.vsb)
+[21:57:37.284] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.285] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitive3D.vsb
+[21:57:37.287] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveModel2D.vsb (target path: app0:/masterPSP2/GxCore/shader/primitiveModel2D.vsb)
+[21:57:37.289] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.290] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveModel2D.vsb
+[21:57:37.291] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitive.psb (target path: app0:/masterPSP2/GxCore/shader/primitive.psb)
+[21:57:37.292] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.292] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitive.psb
+[21:57:37.294] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveTexture.psb (target path: app0:/masterPSP2/GxCore/shader/primitiveTexture.psb)
+[21:57:37.294] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.295] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveTexture.psb
+[21:57:37.297] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveAlphatest.psb (target path: app0:/masterPSP2/GxCore/shader/primitiveAlphatest.psb)
+[21:57:37.297] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.298] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveAlphatest.psb
+[21:57:37.300] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveTexRefAlphatest.psb (target path: app0:/masterPSP2/GxCore/shader/primitiveTexRefAlphatest.psb)
+[21:57:37.301] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.305] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveTexRefAlphatest.psb
+[21:57:37.307] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxCore/shader/primitiveTexturePSP2.spk (target path: app0:/masterPSP2/GxCore/shader/primitiveTexturePSP2.spk)
+[21:57:37.307] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.308] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxCore/shader/primitiveTexturePSP2.spk
+[21:57:37.321] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/effectInput.spk (target path: app0:/masterPSP2/GP/shader/shader/effectInput.spk)
+[21:57:37.321] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.327] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/pacPSP2/effect/shaderPac.pac (target path: app0:/masterPSP2/pacPSP2/effect/shaderPac.pac)
+[21:57:37.328] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.354] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxHud/shader/polygonFont.vsb (target path: app0:/masterPSP2/GxHud/shader/polygonFont.vsb)
+[21:57:37.355] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.356] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxHud/shader/polygonFont.vsb
+[21:57:37.358] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxHud/shader/polygonFont.psb (target path: app0:/masterPSP2/GxHud/shader/polygonFont.psb)
+[21:57:37.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.359] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxHud/shader/polygonFont.psb
+[21:57:37.361] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxHud/shader/distanceFont.psb (target path: app0:/masterPSP2/GxHud/shader/distanceFont.psb)
+[21:57:37.362] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.362] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxHud/shader/distanceFont.psb
+[21:57:37.364] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/borderedFont.spk (target path: app0:/masterPSP2/GP/shader/shader/borderedFont.spk)
+[21:57:37.365] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.368] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/convertToBorderedFont.vsb (target path: app0:/masterPSP2/GP/shader/shader/convertToBorderedFont.vsb)
+[21:57:37.369] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.373] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/convertToBorderedFont.psb (target path: app0:/masterPSP2/GP/shader/shader/convertToBorderedFont.psb)
+[21:57:37.374] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.376] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxFilter/shader/GxFilter.spk (target path: app0:/masterPSP2/GxFilter/shader/GxFilter.spk)
+[21:57:37.376] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.377] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxFilter/shader/GxFilter.spk
+[21:57:37.711] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GxFilter/shader/fullResolutionComposite.psb (target path: app0:/masterPSP2/GxFilter/shader/fullResolutionComposite.psb)
+[21:57:37.712] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.712] |I| [export_sceIoOpen]: Opening file: app0:/finalizedPSP2/GxFilter/shader/fullResolutionComposite.psb
+[21:57:37.716] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/csv/uiBackgroundBlurFilter.dt2 (target path: app0:/masterPSP2/GP/ui/csv/uiBackgroundBlurFilter.dt2)
+[21:57:37.716] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.719] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/ui/ui_dds/cmn/common/bg_blur.tex (target path: app0:/masterPSP2/GP/ui/ui_dds/cmn/common/bg_blur.tex)
+[21:57:37.721] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.750] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/filterInput.spk (target path: app0:/masterPSP2/GP/shader/shader/filterInput.spk)
+[21:57:37.751] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.756] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/fullScreenEffect.spk (target path: app0:/masterPSP2/GP/shader/shader/fullScreenEffect.spk)
+[21:57:37.760] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.867] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/shader/shader/backgroundBlurFilter.spk (target path: app0:/masterPSP2/GP/shader/shader/backgroundBlurFilter.spk)
+[21:57:37.869] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:37.878] |D| [ngs::create_voice_definition]: type: 17
+[21:57:37.879] |D| [ngs::create_voice_definition]: type: 13
+[21:57:37.880] |D| [ngs::create_voice_definition]: type: 7
+[21:57:37.880] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
+[21:57:37.881] |D| [ngs::create_voice_definition]: type: 0
+[21:57:37.882] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[21:57:37.899] |W| [stubbed_impl]: Stubbed _sceKernelWaitEventFlagCB import called. (Try CB)
+[21:57:37.920] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (Try CB)
+[21:57:37.934] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.934] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.935] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.937] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.938] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.938] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.939] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.939] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.940] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[21:57:37.952] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
+[21:57:37.964] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[21:57:37.974] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[21:57:37.991] |W| [unimplemented_impl]: Unimplemented sceAppMgrReleaseBgmPort import called.
+[21:57:37.992] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/sound/data/GP.acf (target path: app0:/masterPSP2/GP/sound/data/GP.acf)
+[21:57:37.993] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:38.010] |E| [stat_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/app/PCSH10042/masterPSP2/GP/csv/sound/soundGroup.dt2 (target path: app0:/masterPSP2/GP/csv/sound/soundGroup.dt2)
+[21:57:38.010] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[21:57:38.018] |D| [ngs::create_voice_definition]: type: 10
+[21:57:38.018] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[21:57:38.019] |D| [ngs::create_voice_definition]: type: 3
+[21:57:38.020] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 3, 

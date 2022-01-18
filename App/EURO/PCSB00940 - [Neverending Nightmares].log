@@ -1,649 +1,78 @@
-[00:11:10.216] |I| [load_app_impl]: cpu-backend: Dynarmic
-[00:11:10.216] |I| [load_app_impl]: CPU Optimisation state: true
-[00:11:10.216] |I| [load_app_impl]: at9 audio decoder state: true
-[00:11:10.216] |I| [load_app_impl]: ngs experimental state: true
-[00:11:10.216] |I| [load_app_impl]: video player state: true
-[00:11:10.217] |I| [load_app_impl]: modules mode: Automatic
-[00:11:10.217] |I| [load_app_impl]: Title: Neverending Nightmares
-[00:11:10.217] |I| [load_app_impl]: Serial: PCSB00940
-[00:11:10.217] |I| [load_app_impl]: Version: 1.00
-[00:11:10.217] |I| [load_app_impl]: Category: gd
-[00:11:10.226] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:11:10.226] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
-[00:11:10.226] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
-[00:11:10.226] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
-[00:11:10.226] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[00:11:10.226] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[00:11:10.227] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[00:11:10.228] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[00:11:10.229] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
-[00:11:10.236] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:11:10.236] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
-[00:11:10.237] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
-[00:11:10.238] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
-[00:11:10.238] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
-[00:11:10.239] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
-[00:11:10.239] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
-[00:11:10.243] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:11:10.243] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
-[00:11:10.244] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
-[00:11:10.245] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
-[00:11:10.247] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
-[00:11:10.248] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
-[00:11:10.248] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
-[00:11:10.255] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[00:11:10.256] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[00:11:10.257] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[00:11:10.258] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
-[00:11:10.261] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
-[00:11:10.262] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[00:11:10.265] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[00:11:10.265] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[00:11:10.266] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[00:11:10.267] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
-[00:11:10.267] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
-[00:11:10.268] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[00:11:10.329] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:11:10.329] |I| [load_self]: Loaded module segment 0 @ [0x00109000 - 0x003E7DF8 / 0x81000000] (size: 0x002DEDF8) of module app0:eboot.bin
-[00:11:10.330] |I| [load_self]: Loaded module segment 1 @ [0x003E8000 - 0x0057F458 / 0x812DF000] (size: 0x00197458) of module app0:eboot.bin
-[00:11:10.331] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[00:11:10.331] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x361BD0
-[00:11:10.332] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x3E8254
-[00:11:10.332] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x387950
-[00:11:10.335] |I| [load_app_impl]: Main executable nightmare (eboot.bin) loaded
-[00:11:10.336] |I| [renderer::gl::compile_shader]: frag shader compiled: c6edf1f9284e5c454dee862815ba5433ab51933b6c7e25ba1b2a5448b923b75b
-[00:11:10.337] |I| [renderer::gl::compile_shader]: vert shader compiled: 5759ec42c5b98d9e159946d568f9030f303908caa4deb320e8848f5126c4b516
-[00:11:10.338] |E| [renderer::gl::compile_program]: Fragment info
+[00:47:49.516] |I| [load_app_impl]: cpu-backend: Dynarmic
+[00:47:49.516] |I| [load_app_impl]: CPU Optimisation state: true
+[00:47:49.516] |I| [load_app_impl]: at9 audio decoder state: true
+[00:47:49.516] |I| [load_app_impl]: ngs experimental state: true
+[00:47:49.516] |I| [load_app_impl]: video player state: true
+[00:47:49.516] |I| [load_app_impl]: modules mode: Automatic
+[00:47:49.516] |I| [load_app_impl]: Title: Neverending Nightmares
+[00:47:49.516] |I| [load_app_impl]: Serial: PCSB00940
+[00:47:49.516] |I| [load_app_impl]: Version: 1.00
+[00:47:49.516] |I| [load_app_impl]: Category: gd
+[00:47:49.537] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[00:47:49.537] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[00:47:49.537] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[00:47:49.537] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[00:47:49.538] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[00:47:49.538] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[00:47:49.539] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[00:47:49.540] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[00:47:49.541] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[00:47:49.578] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[00:47:49.578] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[00:47:49.580] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[00:47:49.581] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[00:47:49.581] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
+[00:47:49.582] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
+[00:47:49.582] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[00:47:49.586] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[00:47:49.587] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[00:47:49.587] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[00:47:49.588] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[00:47:49.589] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
+[00:47:49.589] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
+[00:47:49.590] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[00:47:49.597] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[00:47:49.598] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[00:47:49.599] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[00:47:49.599] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
+[00:47:49.600] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
+[00:47:49.600] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[00:47:49.603] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[00:47:49.604] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[00:47:49.605] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[00:47:49.606] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
+[00:47:49.606] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
+[00:47:49.606] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[00:47:49.689] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[00:47:49.689] |I| [load_self]: Loaded module segment 0 @ [0x00109000 - 0x003E7DF8 / 0x81000000] (size: 0x002DEDF8) of module app0:eboot.bin
+[00:47:49.690] |I| [load_self]: Loaded module segment 1 @ [0x003E8000 - 0x0057F458 / 0x812DF000] (size: 0x00197458) of module app0:eboot.bin
+[00:47:49.691] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[00:47:49.691] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x361BD0
+[00:47:49.692] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x3E8254
+[00:47:49.692] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x387950
+[00:47:49.693] |I| [load_app_impl]: Main executable nightmare (eboot.bin) loaded
+[00:47:49.696] |I| [renderer::gl::compile_shader]: frag shader compiled: c6edf1f9284e5c454dee862815ba5433ab51933b6c7e25ba1b2a5448b923b75b
+[00:47:49.697] |I| [renderer::gl::compile_shader]: vert shader compiled: 5759ec42c5b98d9e159946d568f9030f303908caa4deb320e8848f5126c4b516
+[00:47:49.698] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(20) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[00:11:10.339] |I| [renderer::gl::pre_compile_program]: Program Compiled 1/2
-[00:11:10.341] |I| [renderer::gl::compile_shader]: frag shader compiled: dee25105be38fa085875308fc0aaccdd9b7e5b9d1f25510aa5c3f221d1c226be
-[00:11:10.343] |I| [renderer::gl::compile_shader]: vert shader compiled: 596136829b2345ccb3e5e7bd1de2219f0ce97eebf7eafccbf5300e0da74a4453
-[00:11:10.344] |I| [renderer::gl::pre_compile_program]: Program Compiled 2/2
-[00:11:10.353] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[00:11:10.395] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
-[00:11:10.399] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
-[00:11:10.407] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[00:11:10.407] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[00:11:10.408] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[00:11:10.411] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
-[00:11:10.415] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
-[00:11:10.425] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[00:11:10.426] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
-[00:11:10.471] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[00:11:10.473] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xEE681E1D sceFiosFHOpenWithModeSync at 0x434C0
-[00:11:10.474] |I| [export_sceIoOpen]: Opening file: app0:/params.cfg
-[00:11:10.476] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xA75F3C4A sceFiosFHSeek at 0x43460
-[00:11:10.477] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xB309E327 sceFiosIsValidHandle at 0x43480
-[00:11:10.478] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x76945919 sceFiosFHReadSync at 0x43440
-[00:11:10.480] |E| [call_import]: Import function for NID 0xE340C006 not found (thread name: PCSB00940, thread ID: 8)
-[00:11:10.482] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x45182328 sceFiosFHCloseSync at 0x43420
-[00:11:10.501] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
-[00:11:10.501] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
-[00:11:10.502] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
-[00:11:10.503] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
-[00:11:10.505] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
-[00:11:10.505] |D| [export_sceSysmoduleLoadModule]: module id: 85
-[00:11:10.505] |D| [export_sceSysmoduleLoadModule]: module: libSceJson
-[00:11:10.506] |I| [load_module]: Loading module ID: 0x55
-[00:11:10.508] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[00:11:10.508] |I| [load_self]: Loaded module segment 0 @ [0x066C5000 - 0x066CB230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
-[00:11:10.509] |I| [load_self]: Loaded module segment 1 @ [0x005C4000 - 0x005C4049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
-[00:11:10.515] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
-[00:11:10.515] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x66CB0A8
-[00:11:10.516] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x66CA020
-[00:11:10.517] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
-[00:11:10.518] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterInGameDataMessageHandler import called.
-[00:11:10.531] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
-[00:11:10.553] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
-[00:11:10.553] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
-[00:11:10.554] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
-[00:11:10.556] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
-[00:11:10.569] |D| [export_sceAppUtilSaveDataSlotSearch]: cond, from: 0, key: 0, order: 0, range: 256, type: 0
-[00:11:10.569] |D| [export_sceAppUtilSaveDataSlotSearch]: workBuf is not null, size: 4096
-[00:11:10.570] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
-[00:11:10.571] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.572] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
-[00:11:10.574] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.575] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
-[00:11:10.579] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.580] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
-[00:11:10.581] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.581] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
-[00:11:10.582] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.582] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
-[00:11:10.583] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.584] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
-[00:11:10.584] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.585] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
-[00:11:10.586] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.586] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
-[00:11:10.587] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.588] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_10.bin (target path: savedata0:/SlotParam_10.bin)
-[00:11:10.591] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.592] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_11.bin (target path: savedata0:/SlotParam_11.bin)
-[00:11:10.596] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.597] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_12.bin (target path: savedata0:/SlotParam_12.bin)
-[00:11:10.597] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.598] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_13.bin (target path: savedata0:/SlotParam_13.bin)
-[00:11:10.599] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.599] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_14.bin (target path: savedata0:/SlotParam_14.bin)
-[00:11:10.600] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.600] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_15.bin (target path: savedata0:/SlotParam_15.bin)
-[00:11:10.601] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.602] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_16.bin (target path: savedata0:/SlotParam_16.bin)
-[00:11:10.602] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.603] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_17.bin (target path: savedata0:/SlotParam_17.bin)
-[00:11:10.604] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.607] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_18.bin (target path: savedata0:/SlotParam_18.bin)
-[00:11:10.608] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.608] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_19.bin (target path: savedata0:/SlotParam_19.bin)
-[00:11:10.612] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.613] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_20.bin (target path: savedata0:/SlotParam_20.bin)
-[00:11:10.614] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.614] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_21.bin (target path: savedata0:/SlotParam_21.bin)
-[00:11:10.615] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.616] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_22.bin (target path: savedata0:/SlotParam_22.bin)
-[00:11:10.616] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.617] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_23.bin (target path: savedata0:/SlotParam_23.bin)
-[00:11:10.618] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.618] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_24.bin (target path: savedata0:/SlotParam_24.bin)
-[00:11:10.619] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.619] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_25.bin (target path: savedata0:/SlotParam_25.bin)
-[00:11:10.623] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.624] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_26.bin (target path: savedata0:/SlotParam_26.bin)
-[00:11:10.625] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.629] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_27.bin (target path: savedata0:/SlotParam_27.bin)
-[00:11:10.630] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.631] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_28.bin (target path: savedata0:/SlotParam_28.bin)
-[00:11:10.632] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.632] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_29.bin (target path: savedata0:/SlotParam_29.bin)
-[00:11:10.633] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.633] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_30.bin (target path: savedata0:/SlotParam_30.bin)
-[00:11:10.634] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.635] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_31.bin (target path: savedata0:/SlotParam_31.bin)
-[00:11:10.636] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.637] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[00:11:10.638] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_32.bin (target path: savedata0:/SlotParam_32.bin)
-[00:11:10.639] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[00:11:10.640] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.640] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[00:11:10.641] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_33.bin (target path: savedata0:/SlotParam_33.bin)
-[00:11:10.646] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.646] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_34.bin (target path: savedata0:/SlotParam_34.bin)
-[00:11:10.647] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.648] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_35.bin (target path: savedata0:/SlotParam_35.bin)
-[00:11:10.649] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.649] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_36.bin (target path: savedata0:/SlotParam_36.bin)
-[00:11:10.650] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.650] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_37.bin (target path: savedata0:/SlotParam_37.bin)
-[00:11:10.653] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.654] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_38.bin (target path: savedata0:/SlotParam_38.bin)
-[00:11:10.655] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.655] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_39.bin (target path: savedata0:/SlotParam_39.bin)
-[00:11:10.656] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.657] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_40.bin (target path: savedata0:/SlotParam_40.bin)
-[00:11:10.658] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.662] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_41.bin (target path: savedata0:/SlotParam_41.bin)
-[00:11:10.662] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.663] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_42.bin (target path: savedata0:/SlotParam_42.bin)
-[00:11:10.664] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.664] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_43.bin (target path: savedata0:/SlotParam_43.bin)
-[00:11:10.665] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.665] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_44.bin (target path: savedata0:/SlotParam_44.bin)
-[00:11:10.666] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.667] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_45.bin (target path: savedata0:/SlotParam_45.bin)
-[00:11:10.670] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.670] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_46.bin (target path: savedata0:/SlotParam_46.bin)
-[00:11:10.671] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.672] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_47.bin (target path: savedata0:/SlotParam_47.bin)
-[00:11:10.672] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.673] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_48.bin (target path: savedata0:/SlotParam_48.bin)
-[00:11:10.674] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.674] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_49.bin (target path: savedata0:/SlotParam_49.bin)
-[00:11:10.678] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.679] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_50.bin (target path: savedata0:/SlotParam_50.bin)
-[00:11:10.680] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.680] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_51.bin (target path: savedata0:/SlotParam_51.bin)
-[00:11:10.681] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.681] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_52.bin (target path: savedata0:/SlotParam_52.bin)
-[00:11:10.684] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.685] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_53.bin (target path: savedata0:/SlotParam_53.bin)
-[00:11:10.686] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.687] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_54.bin (target path: savedata0:/SlotParam_54.bin)
-[00:11:10.687] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.688] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_55.bin (target path: savedata0:/SlotParam_55.bin)
-[00:11:10.689] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.690] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_56.bin (target path: savedata0:/SlotParam_56.bin)
-[00:11:10.690] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.691] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_57.bin (target path: savedata0:/SlotParam_57.bin)
-[00:11:10.695] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.696] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_58.bin (target path: savedata0:/SlotParam_58.bin)
-[00:11:10.696] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.697] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_59.bin (target path: savedata0:/SlotParam_59.bin)
-[00:11:10.698] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.700] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_60.bin (target path: savedata0:/SlotParam_60.bin)
-[00:11:10.701] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.702] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_61.bin (target path: savedata0:/SlotParam_61.bin)
-[00:11:10.702] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.703] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_62.bin (target path: savedata0:/SlotParam_62.bin)
-[00:11:10.704] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.704] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_63.bin (target path: savedata0:/SlotParam_63.bin)
-[00:11:10.705] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.705] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_64.bin (target path: savedata0:/SlotParam_64.bin)
-[00:11:10.706] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.707] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_65.bin (target path: savedata0:/SlotParam_65.bin)
-[00:11:10.711] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.711] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_66.bin (target path: savedata0:/SlotParam_66.bin)
-[00:11:10.712] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.713] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_67.bin (target path: savedata0:/SlotParam_67.bin)
-[00:11:10.713] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.714] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_68.bin (target path: savedata0:/SlotParam_68.bin)
-[00:11:10.718] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.719] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_69.bin (target path: savedata0:/SlotParam_69.bin)
-[00:11:10.719] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.720] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_70.bin (target path: savedata0:/SlotParam_70.bin)
-[00:11:10.721] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.721] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_71.bin (target path: savedata0:/SlotParam_71.bin)
-[00:11:10.722] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.723] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_72.bin (target path: savedata0:/SlotParam_72.bin)
-[00:11:10.724] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.724] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_73.bin (target path: savedata0:/SlotParam_73.bin)
-[00:11:10.728] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[00:11:10.729] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.732] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_74.bin (target path: savedata0:/SlotParam_74.bin)
-[00:11:10.733] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.734] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_75.bin (target path: savedata0:/SlotParam_75.bin)
-[00:11:10.735] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.735] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_76.bin (target path: savedata0:/SlotParam_76.bin)
-[00:11:10.736] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.737] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_77.bin (target path: savedata0:/SlotParam_77.bin)
-[00:11:10.737] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.738] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_78.bin (target path: savedata0:/SlotParam_78.bin)
-[00:11:10.739] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.740] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_79.bin (target path: savedata0:/SlotParam_79.bin)
-[00:11:10.741] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.741] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_80.bin (target path: savedata0:/SlotParam_80.bin)
-[00:11:10.746] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.748] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_81.bin (target path: savedata0:/SlotParam_81.bin)
-[00:11:10.750] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.750] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_82.bin (target path: savedata0:/SlotParam_82.bin)
-[00:11:10.751] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.752] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_83.bin (target path: savedata0:/SlotParam_83.bin)
-[00:11:10.752] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.753] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_84.bin (target path: savedata0:/SlotParam_84.bin)
-[00:11:10.754] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.754] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_85.bin (target path: savedata0:/SlotParam_85.bin)
-[00:11:10.755] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.755] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_86.bin (target path: savedata0:/SlotParam_86.bin)
-[00:11:10.756] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.757] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_87.bin (target path: savedata0:/SlotParam_87.bin)
-[00:11:10.757] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.759] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_88.bin (target path: savedata0:/SlotParam_88.bin)
-[00:11:10.762] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.763] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
-[00:11:10.765] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_89.bin (target path: savedata0:/SlotParam_89.bin)
-[00:11:10.767] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.767] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_90.bin (target path: savedata0:/SlotParam_90.bin)
-[00:11:10.768] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.769] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_91.bin (target path: savedata0:/SlotParam_91.bin)
-[00:11:10.769] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.770] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_92.bin (target path: savedata0:/SlotParam_92.bin)
-[00:11:10.771] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.771] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_93.bin (target path: savedata0:/SlotParam_93.bin)
-[00:11:10.772] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.772] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_94.bin (target path: savedata0:/SlotParam_94.bin)
-[00:11:10.773] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.774] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_95.bin (target path: savedata0:/SlotParam_95.bin)
-[00:11:10.774] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.775] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_96.bin (target path: savedata0:/SlotParam_96.bin)
-[00:11:10.781] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.782] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_97.bin (target path: savedata0:/SlotParam_97.bin)
-[00:11:10.783] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.783] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_98.bin (target path: savedata0:/SlotParam_98.bin)
-[00:11:10.784] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.784] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_99.bin (target path: savedata0:/SlotParam_99.bin)
-[00:11:10.785] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.786] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_100.bin (target path: savedata0:/SlotParam_100.bin)
-[00:11:10.786] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.787] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_101.bin (target path: savedata0:/SlotParam_101.bin)
-[00:11:10.788] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.788] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_102.bin (target path: savedata0:/SlotParam_102.bin)
-[00:11:10.789] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.790] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_103.bin (target path: savedata0:/SlotParam_103.bin)
-[00:11:10.791] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.791] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_104.bin (target path: savedata0:/SlotParam_104.bin)
-[00:11:10.797] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.797] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_105.bin (target path: savedata0:/SlotParam_105.bin)
-[00:11:10.798] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.799] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_106.bin (target path: savedata0:/SlotParam_106.bin)
-[00:11:10.800] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.800] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_107.bin (target path: savedata0:/SlotParam_107.bin)
-[00:11:10.801] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.801] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_108.bin (target path: savedata0:/SlotParam_108.bin)
-[00:11:10.802] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.803] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_109.bin (target path: savedata0:/SlotParam_109.bin)
-[00:11:10.803] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.804] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_110.bin (target path: savedata0:/SlotParam_110.bin)
-[00:11:10.805] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.805] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_111.bin (target path: savedata0:/SlotParam_111.bin)
-[00:11:10.806] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.807] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_112.bin (target path: savedata0:/SlotParam_112.bin)
-[00:11:10.807] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.808] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_113.bin (target path: savedata0:/SlotParam_113.bin)
-[00:11:10.814] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.814] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_114.bin (target path: savedata0:/SlotParam_114.bin)
-[00:11:10.815] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.816] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_115.bin (target path: savedata0:/SlotParam_115.bin)
-[00:11:10.817] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.817] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_116.bin (target path: savedata0:/SlotParam_116.bin)
-[00:11:10.818] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.818] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_117.bin (target path: savedata0:/SlotParam_117.bin)
-[00:11:10.819] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.819] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_118.bin (target path: savedata0:/SlotParam_118.bin)
-[00:11:10.820] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.821] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_119.bin (target path: savedata0:/SlotParam_119.bin)
-[00:11:10.821] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.822] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_120.bin (target path: savedata0:/SlotParam_120.bin)
-[00:11:10.823] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.823] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_121.bin (target path: savedata0:/SlotParam_121.bin)
-[00:11:10.827] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.828] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_122.bin (target path: savedata0:/SlotParam_122.bin)
-[00:11:10.829] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.829] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_123.bin (target path: savedata0:/SlotParam_123.bin)
-[00:11:10.830] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.830] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_124.bin (target path: savedata0:/SlotParam_124.bin)
-[00:11:10.831] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.832] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_125.bin (target path: savedata0:/SlotParam_125.bin)
-[00:11:10.833] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.833] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_126.bin (target path: savedata0:/SlotParam_126.bin)
-[00:11:10.834] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.834] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_127.bin (target path: savedata0:/SlotParam_127.bin)
-[00:11:10.835] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.835] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_128.bin (target path: savedata0:/SlotParam_128.bin)
-[00:11:10.836] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.837] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_129.bin (target path: savedata0:/SlotParam_129.bin)
-[00:11:10.838] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.838] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_130.bin (target path: savedata0:/SlotParam_130.bin)
-[00:11:10.839] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.840] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_131.bin (target path: savedata0:/SlotParam_131.bin)
-[00:11:10.845] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.845] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
-[00:11:10.845] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_132.bin (target path: savedata0:/SlotParam_132.bin)
-[00:11:10.846] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.847] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_133.bin (target path: savedata0:/SlotParam_133.bin)
-[00:11:10.848] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.848] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_134.bin (target path: savedata0:/SlotParam_134.bin)
-[00:11:10.849] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.849] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_135.bin (target path: savedata0:/SlotParam_135.bin)
-[00:11:10.850] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.851] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_136.bin (target path: savedata0:/SlotParam_136.bin)
-[00:11:10.851] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.852] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_137.bin (target path: savedata0:/SlotParam_137.bin)
-[00:11:10.853] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.853] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_138.bin (target path: savedata0:/SlotParam_138.bin)
-[00:11:10.854] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.854] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_139.bin (target path: savedata0:/SlotParam_139.bin)
-[00:11:10.858] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.859] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_140.bin (target path: savedata0:/SlotParam_140.bin)
-[00:11:10.862] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.863] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_141.bin (target path: savedata0:/SlotParam_141.bin)
-[00:11:10.864] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.864] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_142.bin (target path: savedata0:/SlotParam_142.bin)
-[00:11:10.866] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.866] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_143.bin (target path: savedata0:/SlotParam_143.bin)
-[00:11:10.867] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.868] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_144.bin (target path: savedata0:/SlotParam_144.bin)
-[00:11:10.869] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.869] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_145.bin (target path: savedata0:/SlotParam_145.bin)
-[00:11:10.870] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.871] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_146.bin (target path: savedata0:/SlotParam_146.bin)
-[00:11:10.874] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.875] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_147.bin (target path: savedata0:/SlotParam_147.bin)
-[00:11:10.879] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.879] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_148.bin (target path: savedata0:/SlotParam_148.bin)
-[00:11:10.880] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.881] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_149.bin (target path: savedata0:/SlotParam_149.bin)
-[00:11:10.881] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.882] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_150.bin (target path: savedata0:/SlotParam_150.bin)
-[00:11:10.883] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.883] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_151.bin (target path: savedata0:/SlotParam_151.bin)
-[00:11:10.884] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.884] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_152.bin (target path: savedata0:/SlotParam_152.bin)
-[00:11:10.885] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.886] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_153.bin (target path: savedata0:/SlotParam_153.bin)
-[00:11:10.886] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.887] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_154.bin (target path: savedata0:/SlotParam_154.bin)
-[00:11:10.890] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.891] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_155.bin (target path: savedata0:/SlotParam_155.bin)
-[00:11:10.895] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.895] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_156.bin (target path: savedata0:/SlotParam_156.bin)
-[00:11:10.896] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.896] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_157.bin (target path: savedata0:/SlotParam_157.bin)
-[00:11:10.897] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.898] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_158.bin (target path: savedata0:/SlotParam_158.bin)
-[00:11:10.898] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.899] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_159.bin (target path: savedata0:/SlotParam_159.bin)
-[00:11:10.900] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.900] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_160.bin (target path: savedata0:/SlotParam_160.bin)
-[00:11:10.901] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.902] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_161.bin (target path: savedata0:/SlotParam_161.bin)
-[00:11:10.902] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.903] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_162.bin (target path: savedata0:/SlotParam_162.bin)
-[00:11:10.906] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.907] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_163.bin (target path: savedata0:/SlotParam_163.bin)
-[00:11:10.908] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.911] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_164.bin (target path: savedata0:/SlotParam_164.bin)
-[00:11:10.912] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.912] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_165.bin (target path: savedata0:/SlotParam_165.bin)
-[00:11:10.913] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.913] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_166.bin (target path: savedata0:/SlotParam_166.bin)
-[00:11:10.914] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.915] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_167.bin (target path: savedata0:/SlotParam_167.bin)
-[00:11:10.915] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.916] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_168.bin (target path: savedata0:/SlotParam_168.bin)
-[00:11:10.917] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.917] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_169.bin (target path: savedata0:/SlotParam_169.bin)
-[00:11:10.918] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.919] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_170.bin (target path: savedata0:/SlotParam_170.bin)
-[00:11:10.922] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.922] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_171.bin (target path: savedata0:/SlotParam_171.bin)
-[00:11:10.923] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.924] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_172.bin (target path: savedata0:/SlotParam_172.bin)
-[00:11:10.928] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.928] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_173.bin (target path: savedata0:/SlotParam_173.bin)
-[00:11:10.929] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.929] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_174.bin (target path: savedata0:/SlotParam_174.bin)
-[00:11:10.930] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.930] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_175.bin (target path: savedata0:/SlotParam_175.bin)
-[00:11:10.931] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.932] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_176.bin (target path: savedata0:/SlotParam_176.bin)
-[00:11:10.933] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.933] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_177.bin (target path: savedata0:/SlotParam_177.bin)
-[00:11:10.934] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.934] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_178.bin (target path: savedata0:/SlotParam_178.bin)
-[00:11:10.937] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.938] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_179.bin (target path: savedata0:/SlotParam_179.bin)
-[00:11:10.939] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.940] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_180.bin (target path: savedata0:/SlotParam_180.bin)
-[00:11:10.941] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.944] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_181.bin (target path: savedata0:/SlotParam_181.bin)
-[00:11:10.945] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.945] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_182.bin (target path: savedata0:/SlotParam_182.bin)
-[00:11:10.946] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.947] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_183.bin (target path: savedata0:/SlotParam_183.bin)
-[00:11:10.948] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.948] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_184.bin (target path: savedata0:/SlotParam_184.bin)
-[00:11:10.949] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.949] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_185.bin (target path: savedata0:/SlotParam_185.bin)
-[00:11:10.950] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.951] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_186.bin (target path: savedata0:/SlotParam_186.bin)
-[00:11:10.954] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.955] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_187.bin (target path: savedata0:/SlotParam_187.bin)
-[00:11:10.956] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.956] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_188.bin (target path: savedata0:/SlotParam_188.bin)
-[00:11:10.957] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.958] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_189.bin (target path: savedata0:/SlotParam_189.bin)
-[00:11:10.960] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.960] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_190.bin (target path: savedata0:/SlotParam_190.bin)
-[00:11:10.961] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.961] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_191.bin (target path: savedata0:/SlotParam_191.bin)
-[00:11:10.962] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.963] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_192.bin (target path: savedata0:/SlotParam_192.bin)
-[00:11:10.963] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.964] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_193.bin (target path: savedata0:/SlotParam_193.bin)
-[00:11:10.965] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.965] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_194.bin (target path: savedata0:/SlotParam_194.bin)
-[00:11:10.966] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.968] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_195.bin (target path: savedata0:/SlotParam_195.bin)
-[00:11:10.969] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.970] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_196.bin (target path: savedata0:/SlotParam_196.bin)
-[00:11:10.970] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.971] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_197.bin (target path: savedata0:/SlotParam_197.bin)
-[00:11:10.972] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.972] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_198.bin (target path: savedata0:/SlotParam_198.bin)
-[00:11:10.973] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.974] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_199.bin (target path: savedata0:/SlotParam_199.bin)
-[00:11:10.975] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.976] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_200.bin (target path: savedata0:/SlotParam_200.bin)
-[00:11:10.977] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.978] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_201.bin (target path: savedata0:/SlotParam_201.bin)
-[00:11:10.979] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.979] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_202.bin (target path: savedata0:/SlotParam_202.bin)
-[00:11:10.980] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.980] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_203.bin (target path: savedata0:/SlotParam_203.bin)
-[00:11:10.984] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.984] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_204.bin (target path: savedata0:/SlotParam_204.bin)
-[00:11:10.985] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.985] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_205.bin (target path: savedata0:/SlotParam_205.bin)
-[00:11:10.986] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.987] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_206.bin (target path: savedata0:/SlotParam_206.bin)
-[00:11:10.987] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.988] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_207.bin (target path: savedata0:/SlotParam_207.bin)
-[00:11:10.989] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.989] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_208.bin (target path: savedata0:/SlotParam_208.bin)
-[00:11:10.990] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.991] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_209.bin (target path: savedata0:/SlotParam_209.bin)
-[00:11:10.991] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.993] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_210.bin (target path: savedata0:/SlotParam_210.bin)
-[00:11:10.994] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.994] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_211.bin (target path: savedata0:/SlotParam_211.bin)
-[00:11:10.995] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.996] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_212.bin (target path: savedata0:/SlotParam_212.bin)
-[00:11:10.997] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:10.997] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_213.bin (target path: savedata0:/SlotParam_213.bin)
-[00:11:11.000] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.001] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_214.bin (target path: savedata0:/SlotParam_214.bin)
-[00:11:11.002] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.002] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_215.bin (target path: savedata0:/SlotParam_215.bin)
-[00:11:11.003] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.003] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_216.bin (target path: savedata0:/SlotParam_216.bin)
-[00:11:11.004] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.005] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_217.bin (target path: savedata0:/SlotParam_217.bin)
-[00:11:11.005] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.006] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_218.bin (target path: savedata0:/SlotParam_218.bin)
-[00:11:11.007] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.007] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_219.bin (target path: savedata0:/SlotParam_219.bin)
-[00:11:11.008] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.009] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_220.bin (target path: savedata0:/SlotParam_220.bin)
-[00:11:11.011] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.011] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_221.bin (target path: savedata0:/SlotParam_221.bin)
-[00:11:11.012] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.015] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_222.bin (target path: savedata0:/SlotParam_222.bin)
-[00:11:11.016] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.016] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_223.bin (target path: savedata0:/SlotParam_223.bin)
-[00:11:11.017] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.017] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_224.bin (target path: savedata0:/SlotParam_224.bin)
-[00:11:11.018] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.019] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_225.bin (target path: savedata0:/SlotParam_225.bin)
-[00:11:11.020] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.020] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_226.bin (target path: savedata0:/SlotParam_226.bin)
-[00:11:11.021] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.021] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_227.bin (target path: savedata0:/SlotParam_227.bin)
-[00:11:11.022] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.023] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_228.bin (target path: savedata0:/SlotParam_228.bin)
-[00:11:11.024] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.025] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_229.bin (target path: savedata0:/SlotParam_229.bin)
-[00:11:11.027] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.027] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_230.bin (target path: savedata0:/SlotParam_230.bin)
-[00:11:11.031] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.031] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_231.bin (target path: savedata0:/SlotParam_231.bin)
-[00:11:11.032] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.032] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_232.bin (target path: savedata0:/SlotParam_232.bin)
-[00:11:11.033] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.034] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_233.bin (target path: savedata0:/SlotParam_233.bin)
-[00:11:11.034] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.035] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_234.bin (target path: savedata0:/SlotParam_234.bin)
-[00:11:11.036] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.036] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_235.bin (target path: savedata0:/SlotParam_235.bin)
-[00:11:11.037] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.037] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_236.bin (target path: savedata0:/SlotParam_236.bin)
-[00:11:11.038] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.039] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_237.bin (target path: savedata0:/SlotParam_237.bin)
-[00:11:11.040] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.041] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_238.bin (target path: savedata0:/SlotParam_238.bin)
-[00:11:11.041] |I| [export_sceIoOpen]: Opening file: app0:/main.itap
-[00:11:11.043] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.046] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_239.bin (target path: savedata0:/SlotParam_239.bin)
-[00:11:11.047] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.048] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_240.bin (target path: savedata0:/SlotParam_240.bin)
-[00:11:11.048] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.049] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_241.bin (target path: savedata0:/SlotParam_241.bin)
-[00:11:11.050] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.050] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_242.bin (target path: savedata0:/SlotParam_242.bin)
-[00:11:11.051] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.051] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_243.bin (target path: savedata0:/SlotParam_243.bin)
-[00:11:11.052] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.053] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_244.bin (target path: savedata0:/SlotParam_244.bin)
-[00:11:11.053] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.054] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_245.bin (target path: savedata0:/SlotParam_245.bin)
-[00:11:11.055] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.055] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_246.bin (target path: savedata0:/SlotParam_246.bin)
-[00:11:11.056] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.057] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_247.bin (target path: savedata0:/SlotParam_247.bin)
-[00:11:11.058] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.062] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_248.bin (target path: savedata0:/SlotParam_248.bin)
-[00:11:11.062] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.063] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_249.bin (target path: savedata0:/SlotParam_249.bin)
-[00:11:11.064] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.064] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_250.bin (target path: savedata0:/SlotParam_250.bin)
-[00:11:11.065] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.065] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_251.bin (target path: savedata0:/SlotParam_251.bin)
-[00:11:11.066] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.067] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_252.bin (target path: savedata0:/SlotParam_252.bin)
-[00:11:11.067] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.068] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_253.bin (target path: savedata0:/SlotParam_253.bin)
-[00:11:11.069] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.069] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_254.bin (target path: savedata0:/SlotParam_254.bin)
-[00:11:11.070] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.070] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_255.bin (target path: savedata0:/SlotParam_255.bin)
-[00:11:11.071] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
-[00:11:11.072] |D| [export_sceAppUtilSaveDataSlotSearch]: End, hitNum: 1
-[00:11:11.080] |I| [export_sceIoOpen]: Opening file: savedata0:/slot000/save.dat
-[00:11:11.199] |I| [export_sceIoOpen]: Opening file: app0:/sound.itap
-[00:11:11.241] |I| [export_sceIoOpen]: Opening file: app0:/sound.itap
-[00:11:11.461] |I| [export_sceIoOpen]: Opening file: app0:/main.itap
-[00:11:11.579] |I| [export_sceIoOpen]: Opening file: app0:/main.itap
-[00:11:12.013] |I| [export_sceIoOpen]: Opening file: app0:/sound.itap
-[00:11:12.038] |D| [export_sceSysmoduleLoadModule]: module id: 37
-[00:11:12.038] |D| [export_sceSysmoduleLoadModule]: module: np_trophy
-[00:11:12.043] |I| [renderer::gl::load_shader_generic]: Generating frag shader fcb6a7e6c13a1dc59b93aad4bac769758debd7d7e3e1fdd3b01443d8180e50de
-[00:11:12.076] |I| [renderer::gl::load_shader_generic]: Generating vert shader 99072272fa785a4a3861cd43c0a60d999fd75b106c787e9aa41eec0a682712ab
-[00:11:12.078] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) i__vertexPositionUV1
-[00:11:12.128] |E| [renderer::gl::compile_program]: Fragment info
+[00:47:49.699] |I| [renderer::gl::pre_compile_program]: Program Compiled 1/16
+[00:47:49.701] |I| [renderer::gl::compile_shader]: frag shader compiled: dee25105be38fa085875308fc0aaccdd9b7e5b9d1f25510aa5c3f221d1c226be
+[00:47:49.705] |I| [renderer::gl::compile_shader]: vert shader compiled: 596136829b2345ccb3e5e7bd1de2219f0ce97eebf7eafccbf5300e0da74a4453
+[00:47:49.706] |I| [renderer::gl::pre_compile_program]: Program Compiled 2/16
+[00:47:49.708] |I| [renderer::gl::compile_shader]: frag shader compiled: fcb6a7e6c13a1dc59b93aad4bac769758debd7d7e3e1fdd3b01443d8180e50de
+[00:47:49.709] |I| [renderer::gl::compile_shader]: vert shader compiled: 99072272fa785a4a3861cd43c0a60d999fd75b106c787e9aa41eec0a682712ab
+[00:47:49.710] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(17) : warning C7050: "pa[0].zw" might be used before being initialized
 
 
-[00:11:12.133] |I| [renderer::gl::load_shader_generic]: Generating frag shader b28d17a5b3af83c9c6a7734a23b9056529d9497be72c931f153532c7aa9a85da
-[00:11:12.147] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2d8b8784f0fa96787f195a07f3fdcafa14ed572fe91e95ac0c99d906ddb1a888
-[00:11:12.150] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) i__vertexPositionUV1
-[00:11:12.151] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) i__vertexUV23
-[00:11:12.178] |I| [export_sceIoOpen]: Opening file: app0:/main.itap
-[00:11:12.182] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[00:11:12.184] |E| [renderer::gl::compile_program]: Fragment info
+[00:47:49.711] |I| [renderer::gl::pre_compile_program]: Program Compiled 3/16
+[00:47:49.721] |I| [renderer::gl::compile_shader]: frag shader compiled: b28d17a5b3af83c9c6a7734a23b9056529d9497be72c931f153532c7aa9a85da
+[00:47:49.722] |I| [renderer::gl::compile_shader]: vert shader compiled: 2d8b8784f0fa96787f195a07f3fdcafa14ed572fe91e95ac0c99d906ddb1a888
+[00:47:49.724] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(22) : warning C7050: "sa[1].w" might be used before being initialized
 0(21) : warning C7050: "pa[0].zw" might be used before being initialized
@@ -651,42 +80,487 @@
 0(24) : warning C7050: "r[0].yzw" might be used before being initialized
 
 
-[00:11:12.723] |I| [renderer::gl::load_shader_generic]: Generating frag shader 625493271e8cb6c5fe9c93b3169f60b7423e2be9a9f1383cb2c530774cd4916f
-[00:11:12.726] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[00:11:12.741] |E| [renderer::gl::compile_program]: Fragment info
+[00:47:49.724] |I| [renderer::gl::pre_compile_program]: Program Compiled 4/16
+[00:47:49.738] |I| [renderer::gl::compile_shader]: frag shader compiled: 625493271e8cb6c5fe9c93b3169f60b7423e2be9a9f1383cb2c530774cd4916f
+[00:47:49.739] |I| [renderer::gl::compile_shader]: vert shader compiled: 596136829b2345ccb3e5e7bd1de2219f0ce97eebf7eafccbf5300e0da74a4453
+[00:47:49.740] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(20) : warning C7050: "internals[1]" might be used before being initialized
 
 
-[00:11:12.748] |I| [renderer::gl::load_shader_generic]: Generating frag shader 177a7550562c2fdf0523120a986c30eddec2a4eafb718f39f0138a1958c5b4ea
-[00:11:12.749] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _color
-[00:11:12.749] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) _distanceCutOff
-[00:11:12.750] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) _smoothing
-[00:11:12.762] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3fb8d40bb0dbdc79d7918f55e83044a6adec7fe38e0cf5d3f050ec94e0f661a9
-[00:11:12.763] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) i__vertexPositionUV
-[00:11:12.764] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) _fixedZ
-[00:11:12.764] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) _projection
-[00:11:12.784] |E| [renderer::gl::compile_program]: Fragment info
+[00:47:49.741] |I| [renderer::gl::pre_compile_program]: Program Compiled 5/16
+[00:47:49.755] |I| [renderer::gl::compile_shader]: frag shader compiled: 177a7550562c2fdf0523120a986c30eddec2a4eafb718f39f0138a1958c5b4ea
+[00:47:49.756] |I| [renderer::gl::compile_shader]: vert shader compiled: 3fb8d40bb0dbdc79d7918f55e83044a6adec7fe38e0cf5d3f050ec94e0f661a9
+[00:47:49.757] |E| [renderer::gl::compile_program]: Fragment info
 -------------
 0(24) : warning C7050: "internals[0]" might be used before being initialized
 0(24) : warning C7050: "internals[2].yzw" might be used before being initialized
 
 
-[00:11:12.786] |I| [renderer::gl::load_shader_generic]: Generating frag shader 51c5b7fe987d5b7a1ac71e8b60eb7490404236ad85ae86f3290353f5537015e7
-[00:11:12.788] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
-[00:11:12.795] |I| [renderer::gl::load_shader_generic]: Generating vert shader d12b848178e5d5bf746a6ab11ed19d864e4a269452af3f8db782ea4702b834ff
-[00:11:12.796] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) i__vertexColor
-[00:11:12.797] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) i__vertexPosition
-[00:11:12.797] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) _projection
-[00:11:12.813] |E| [renderer::gl::compile_program]: Vertex info
+[00:47:49.757] |I| [renderer::gl::pre_compile_program]: Program Compiled 6/16
+[00:47:49.771] |I| [renderer::gl::compile_shader]: frag shader compiled: 51c5b7fe987d5b7a1ac71e8b60eb7490404236ad85ae86f3290353f5537015e7
+[00:47:49.772] |I| [renderer::gl::compile_shader]: vert shader compiled: d12b848178e5d5bf746a6ab11ed19d864e4a269452af3f8db782ea4702b834ff
+[00:47:49.773] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(23) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[00:11:16.078] |I| [renderer::gl::load_shader_generic]: Generating frag shader 78f9e6e485379d7e5477e96a0d999f3a99d0f0ccefffcf4d0d32c7266c66ef98
-[00:11:16.080] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _color
-[00:11:16.085] |I| [renderer::gl::load_shader_generic]: Generating vert shader faf4f3cbb4e26c164b9a7ef8beb869a38a7d9fc4c3bf07f6f341eabce5990637
-[00:11:16.087] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) i__vertexPositionUV
-[00:11:16.087] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) _fixedZ
-[00:11:16.087] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _transform[4]
-[00:11:23.023] |E| [discordrpc::update_presence::<lambda_331f079a0acdd083d9cce7eefa67668c>::operator ()]: Error updating discord rich presence, err_code: 43
+[00:47:49.774] |I| [renderer::gl::pre_compile_program]: Program Compiled 7/16
+[00:47:49.788] |I| [renderer::gl::compile_shader]: frag shader compiled: 78f9e6e485379d7e5477e96a0d999f3a99d0f0ccefffcf4d0d32c7266c66ef98
+[00:47:49.789] |I| [renderer::gl::compile_shader]: vert shader compiled: faf4f3cbb4e26c164b9a7ef8beb869a38a7d9fc4c3bf07f6f341eabce5990637
+[00:47:49.790] |I| [renderer::gl::pre_compile_program]: Program Compiled 8/16
+[00:47:49.817] |I| [renderer::gl::compile_shader]: frag shader compiled: 79912d2dc8d7cbe05242e1aecfe05f720f361ea45b51b23dd1d4babfcc63fbd6
+[00:47:49.820] |I| [renderer::gl::compile_shader]: vert shader compiled: ae92031c98fab506249e5416e99a2602b0d559d0878f9aac10567626089cab1d
+[00:47:49.839] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(22) : warning C7050: "internals[0].zw" might be used before being initialized
+
+Fragment info
+-------------
+0(20) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[00:47:49.840] |I| [renderer::gl::pre_compile_program]: Program Compiled 9/16
+[00:47:49.926] |I| [renderer::gl::compile_shader]: frag shader compiled: 34de4b50bfaf3ffd2eced93fe932ac448869bbf5a66d29ae02ad2c8352ec0ebe
+[00:47:49.928] |I| [renderer::gl::compile_shader]: vert shader compiled: 596136829b2345ccb3e5e7bd1de2219f0ce97eebf7eafccbf5300e0da74a4453
+[00:47:49.935] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(20) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[00:47:49.936] |I| [renderer::gl::pre_compile_program]: Program Compiled 10/16
+[00:47:49.940] |I| [renderer::gl::compile_shader]: frag shader compiled: ab10aac8d8841231a8d63f11cffbdf67967afa9b76677b6e600ec8f40fefe6be
+[00:47:49.942] |I| [renderer::gl::compile_shader]: vert shader compiled: 95ffba529404a7039a09669e6435f6ca93b299f627d8c9016e8c0ce806060d84
+[00:47:49.951] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(24) : warning C7050: "internals[0].zw" might be used before being initialized
+
+Fragment info
+-------------
+0(24) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[00:47:49.951] |I| [renderer::gl::pre_compile_program]: Program Compiled 11/16
+[00:47:49.956] |I| [renderer::gl::compile_shader]: frag shader compiled: 95022ad40170c0933882e87ad8c3acdf613b2c48551487b381cf50272c5c6776
+[00:47:49.958] |I| [renderer::gl::compile_shader]: vert shader compiled: a7562907de7498c524278025fb0013b9792a58847682bcb6fa54f8887e06fb44
+[00:47:49.967] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(22) : warning C7050: "internals[0].w" might be used before being initialized
+
+Fragment info
+-------------
+0(24) : warning C7050: "internals[0].w" might be used before being initialized
+0(24) : warning C7050: "internals[1]" might be used before being initialized
+0(24) : warning C7050: "internals[2]" might be used before being initialized
+0(25) : warning C7050: "r[0]" might be used before being initialized
+
+
+[00:47:49.968] |I| [renderer::gl::pre_compile_program]: Program Compiled 12/16
+[00:47:49.973] |I| [renderer::gl::compile_shader]: frag shader compiled: 78f9e6e485379d7e5477e96a0d999f3a99d0f0ccefffcf4d0d32c7266c66ef98
+[00:47:49.974] |I| [renderer::gl::compile_shader]: vert shader compiled: 95ffba529404a7039a09669e6435f6ca93b299f627d8c9016e8c0ce806060d84
+[00:47:49.982] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(24) : warning C7050: "internals[0].zw" might be used before being initialized
+
+
+[00:47:49.983] |I| [renderer::gl::pre_compile_program]: Program Compiled 13/16
+[00:47:49.988] |I| [renderer::gl::compile_shader]: frag shader compiled: 79912d2dc8d7cbe05242e1aecfe05f720f361ea45b51b23dd1d4babfcc63fbd6
+[00:47:49.990] |I| [renderer::gl::compile_shader]: vert shader compiled: 3752bf7218b297c81cb58001a64e5da8a2ce99aeaf84ad324c7df5a8fb17045d
+[00:47:49.999] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(24) : warning C7050: "internals[0].zw" might be used before being initialized
+
+Fragment info
+-------------
+0(20) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[00:47:50.002] |I| [renderer::gl::pre_compile_program]: Program Compiled 14/16
+[00:47:50.005] |I| [renderer::gl::compile_shader]: frag shader compiled: 78f9e6e485379d7e5477e96a0d999f3a99d0f0ccefffcf4d0d32c7266c66ef98
+[00:47:50.007] |I| [renderer::gl::compile_shader]: vert shader compiled: bfab1dfebac4d8e8b4896d6e6556daba9fd62ebff104ead9906903982cd3fa77
+[00:47:50.017] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(26) : warning C7050: "internals[0].zw" might be used before being initialized
+
+
+[00:47:50.017] |I| [renderer::gl::pre_compile_program]: Program Compiled 15/16
+[00:47:50.023] |I| [renderer::gl::compile_shader]: frag shader compiled: b449d833a29c1ac623704f0025bcc7bf60c039fd1227a9f0cb44de44f9d3fa54
+[00:47:50.023] |I| [renderer::gl::compile_shader]: vert shader compiled: a7562907de7498c524278025fb0013b9792a58847682bcb6fa54f8887e06fb44
+[00:47:50.035] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(22) : warning C7050: "internals[0].w" might be used before being initialized
+
+Fragment info
+-------------
+0(25) : warning C7050: "r[0].zw" might be used before being initialized
+0(25) : warning C7050: "r[1].xy" might be used before being initialized
+0(24) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[00:47:50.035] |I| [renderer::gl::pre_compile_program]: Program Compiled 16/16
+[00:47:50.045] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[00:47:50.088] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[00:47:50.093] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
+[00:47:50.101] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[00:47:50.101] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[00:47:50.101] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[00:47:50.102] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[00:47:50.106] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
+[00:47:50.114] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[00:47:50.114] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[00:47:50.160] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[00:47:50.162] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xEE681E1D sceFiosFHOpenWithModeSync at 0x434C0
+[00:47:50.163] |I| [export_sceIoOpen]: Opening file: app0:/params.cfg
+[00:47:50.165] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xA75F3C4A sceFiosFHSeek at 0x43460
+[00:47:50.165] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0xB309E327 sceFiosIsValidHandle at 0x43480
+[00:47:50.166] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x76945919 sceFiosFHReadSync at 0x43440
+[00:47:50.168] |E| [call_import]: Import function for NID 0xE340C006 not found (thread name: PCSB00940, thread ID: 8)
+[00:47:50.169] |D| [log_import_call]: [LLE] TID: 8   FUNC: 0x45182328 sceFiosFHCloseSync at 0x43420
+[00:47:50.187] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[00:47:50.188] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
+[00:47:50.189] |W| [unimplemented_impl]: Unimplemented sceHttpInit import called.
+[00:47:50.191] |W| [unimplemented_impl]: Unimplemented sceSslInit import called.
+[00:47:50.193] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[00:47:50.196] |I| [load_module]: Loading module ID: 0x55
+[00:47:50.230] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[00:47:50.230] |I| [load_self]: Loaded module segment 0 @ [0x066C5000 - 0x066CB230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
+[00:47:50.231] |I| [load_self]: Loaded module segment 1 @ [0x005C4000 - 0x005C4049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
+[00:47:50.232] |I| [load_self]: Loading symbols for SELF: sys/external/libSceJson.suprx
+[00:47:50.233] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x66CB0A8
+[00:47:50.233] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x66CA020
+[00:47:50.234] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
+[00:47:50.236] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterInGameDataMessageHandler import called.
+[00:47:50.248] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[00:47:50.271] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[00:47:50.271] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[00:47:50.273] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetResult import called. (errorCode = SCE_NET_CTL_ERROR_FLIGHT_MODE_ENABLED)
+[00:47:50.274] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[00:47:50.284] |D| [export_sceAppUtilSaveDataSlotSearch]: cond, from: 0, key: 0, order: 0, range: 256, type: 0
+[00:47:50.284] |D| [export_sceAppUtilSaveDataSlotSearch]: workBuf is not null, size: 4096
+[00:47:50.286] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: 4, i: 0
+[00:47:50.296] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[00:47:50.297] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.298] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 1
+[00:47:50.298] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[00:47:50.299] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.300] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 2
+[00:47:50.300] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[00:47:50.303] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.306] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 3
+[00:47:50.306] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[00:47:50.307] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.308] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 4
+[00:47:50.308] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[00:47:50.309] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.309] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 5
+[00:47:50.310] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[00:47:50.311] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.312] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 6
+[00:47:50.312] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[00:47:50.313] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.313] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 7
+[00:47:50.314] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[00:47:50.314] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.315] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 8
+[00:47:50.315] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[00:47:50.316] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.320] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 9
+[00:47:50.321] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_10.bin (target path: savedata0:/SlotParam_10.bin)
+[00:47:50.322] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.323] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 10
+[00:47:50.324] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_11.bin (target path: savedata0:/SlotParam_11.bin)
+[00:47:50.325] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.325] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 11
+[00:47:50.326] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_12.bin (target path: savedata0:/SlotParam_12.bin)
+[00:47:50.326] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.327] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 12
+[00:47:50.327] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_13.bin (target path: savedata0:/SlotParam_13.bin)
+[00:47:50.328] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.329] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 13
+[00:47:50.329] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_14.bin (target path: savedata0:/SlotParam_14.bin)
+[00:47:50.330] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.331] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 14
+[00:47:50.331] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_15.bin (target path: savedata0:/SlotParam_15.bin)
+[00:47:50.332] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.336] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 15
+[00:47:50.339] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_16.bin (target path: savedata0:/SlotParam_16.bin)
+[00:47:50.340] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.341] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 16
+[00:47:50.341] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_17.bin (target path: savedata0:/SlotParam_17.bin)
+[00:47:50.342] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.342] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 17
+[00:47:50.343] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_18.bin (target path: savedata0:/SlotParam_18.bin)
+[00:47:50.344] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.345] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 18
+[00:47:50.345] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_19.bin (target path: savedata0:/SlotParam_19.bin)
+[00:47:50.346] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.347] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 19
+[00:47:50.347] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_20.bin (target path: savedata0:/SlotParam_20.bin)
+[00:47:50.348] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.348] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 20
+[00:47:50.349] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[00:47:50.352] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_21.bin (target path: savedata0:/SlotParam_21.bin)
+[00:47:50.353] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.353] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[00:47:50.354] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 21
+[00:47:50.354] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[00:47:50.356] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_22.bin (target path: savedata0:/SlotParam_22.bin)
+[00:47:50.357] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.358] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 22
+[00:47:50.358] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_23.bin (target path: savedata0:/SlotParam_23.bin)
+[00:47:50.359] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.359] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 23
+[00:47:50.360] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_24.bin (target path: savedata0:/SlotParam_24.bin)
+[00:47:50.361] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.362] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 24
+[00:47:50.362] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_25.bin (target path: savedata0:/SlotParam_25.bin)
+[00:47:50.363] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.363] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 25
+[00:47:50.364] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_26.bin (target path: savedata0:/SlotParam_26.bin)
+[00:47:50.365] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.368] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 26
+[00:47:50.371] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_27.bin (target path: savedata0:/SlotParam_27.bin)
+[00:47:50.373] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.373] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 27
+[00:47:50.374] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_28.bin (target path: savedata0:/SlotParam_28.bin)
+[00:47:50.374] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.375] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 28
+[00:47:50.375] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_29.bin (target path: savedata0:/SlotParam_29.bin)
+[00:47:50.376] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.377] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 29
+[00:47:50.377] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_30.bin (target path: savedata0:/SlotParam_30.bin)
+[00:47:50.378] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.379] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 30
+[00:47:50.379] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_31.bin (target path: savedata0:/SlotParam_31.bin)
+[00:47:50.380] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.380] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 31
+[00:47:50.381] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_32.bin (target path: savedata0:/SlotParam_32.bin)
+[00:47:50.384] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.385] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 32
+[00:47:50.385] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_33.bin (target path: savedata0:/SlotParam_33.bin)
+[00:47:50.386] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.387] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 33
+[00:47:50.387] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_34.bin (target path: savedata0:/SlotParam_34.bin)
+[00:47:50.389] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.390] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 34
+[00:47:50.390] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_35.bin (target path: savedata0:/SlotParam_35.bin)
+[00:47:50.391] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.392] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 35
+[00:47:50.392] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_36.bin (target path: savedata0:/SlotParam_36.bin)
+[00:47:50.393] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.393] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 36
+[00:47:50.394] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_37.bin (target path: savedata0:/SlotParam_37.bin)
+[00:47:50.395] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.395] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 37
+[00:47:50.396] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_38.bin (target path: savedata0:/SlotParam_38.bin)
+[00:47:50.397] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.400] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 38
+[00:47:50.401] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_39.bin (target path: savedata0:/SlotParam_39.bin)
+[00:47:50.402] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.402] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 39
+[00:47:50.402] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_40.bin (target path: savedata0:/SlotParam_40.bin)
+[00:47:50.403] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.404] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 40
+[00:47:50.404] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_41.bin (target path: savedata0:/SlotParam_41.bin)
+[00:47:50.406] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.406] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 41
+[00:47:50.407] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_42.bin (target path: savedata0:/SlotParam_42.bin)
+[00:47:50.408] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.409] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 42
+[00:47:50.409] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_43.bin (target path: savedata0:/SlotParam_43.bin)
+[00:47:50.410] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.411] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 43
+[00:47:50.411] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_44.bin (target path: savedata0:/SlotParam_44.bin)
+[00:47:50.412] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.412] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 44
+[00:47:50.416] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_45.bin (target path: savedata0:/SlotParam_45.bin)
+[00:47:50.417] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.418] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 45
+[00:47:50.418] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_46.bin (target path: savedata0:/SlotParam_46.bin)
+[00:47:50.419] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.419] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 46
+[00:47:50.420] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_47.bin (target path: savedata0:/SlotParam_47.bin)
+[00:47:50.421] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.422] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[00:47:50.422] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 47
+[00:47:50.424] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_48.bin (target path: savedata0:/SlotParam_48.bin)
+[00:47:50.425] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.425] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 48
+[00:47:50.426] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_49.bin (target path: savedata0:/SlotParam_49.bin)
+[00:47:50.426] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.427] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 49
+[00:47:50.428] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_50.bin (target path: savedata0:/SlotParam_50.bin)
+[00:47:50.428] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.429] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[00:47:50.432] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 50
+[00:47:50.437] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_51.bin (target path: savedata0:/SlotParam_51.bin)
+[00:47:50.439] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.439] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 51
+[00:47:50.440] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_52.bin (target path: savedata0:/SlotParam_52.bin)
+[00:47:50.441] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.441] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 52
+[00:47:50.442] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_53.bin (target path: savedata0:/SlotParam_53.bin)
+[00:47:50.443] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.443] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 53
+[00:47:50.443] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_54.bin (target path: savedata0:/SlotParam_54.bin)
+[00:47:50.444] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.445] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 54
+[00:47:50.448] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_55.bin (target path: savedata0:/SlotParam_55.bin)
+[00:47:50.449] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.449] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 55
+[00:47:50.450] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_56.bin (target path: savedata0:/SlotParam_56.bin)
+[00:47:50.451] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.451] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 56
+[00:47:50.452] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_57.bin (target path: savedata0:/SlotParam_57.bin)
+[00:47:50.453] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.453] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 57
+[00:47:50.454] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_58.bin (target path: savedata0:/SlotParam_58.bin)
+[00:47:50.455] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.455] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 58
+[00:47:50.456] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_59.bin (target path: savedata0:/SlotParam_59.bin)
+[00:47:50.457] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.457] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 59
+[00:47:50.458] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_60.bin (target path: savedata0:/SlotParam_60.bin)
+[00:47:50.458] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.459] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 60
+[00:47:50.459] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_61.bin (target path: savedata0:/SlotParam_61.bin)
+[00:47:50.460] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.461] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 61
+[00:47:50.462] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStart import called. (wait for vblank)
+[00:47:50.465] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_62.bin (target path: savedata0:/SlotParam_62.bin)
+[00:47:50.469] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.470] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 62
+[00:47:50.470] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_63.bin (target path: savedata0:/SlotParam_63.bin)
+[00:47:50.472] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.474] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 63
+[00:47:50.476] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_64.bin (target path: savedata0:/SlotParam_64.bin)
+[00:47:50.477] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.480] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 64
+[00:47:50.480] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_65.bin (target path: savedata0:/SlotParam_65.bin)
+[00:47:50.481] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.481] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 65
+[00:47:50.482] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_66.bin (target path: savedata0:/SlotParam_66.bin)
+[00:47:50.483] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.483] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 66
+[00:47:50.484] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_67.bin (target path: savedata0:/SlotParam_67.bin)
+[00:47:50.485] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.485] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 67
+[00:47:50.486] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_68.bin (target path: savedata0:/SlotParam_68.bin)
+[00:47:50.487] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.487] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 68
+[00:47:50.488] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_69.bin (target path: savedata0:/SlotParam_69.bin)
+[00:47:50.489] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.490] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 69
+[00:47:50.490] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_70.bin (target path: savedata0:/SlotParam_70.bin)
+[00:47:50.491] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.492] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 70
+[00:47:50.492] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_71.bin (target path: savedata0:/SlotParam_71.bin)
+[00:47:50.497] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.500] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 71
+[00:47:50.500] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_72.bin (target path: savedata0:/SlotParam_72.bin)
+[00:47:50.501] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.502] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 72
+[00:47:50.502] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_73.bin (target path: savedata0:/SlotParam_73.bin)
+[00:47:50.503] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.504] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 73
+[00:47:50.504] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_74.bin (target path: savedata0:/SlotParam_74.bin)
+[00:47:50.505] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.506] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 74
+[00:47:50.506] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_75.bin (target path: savedata0:/SlotParam_75.bin)
+[00:47:50.507] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.508] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 75
+[00:47:50.508] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_76.bin (target path: savedata0:/SlotParam_76.bin)
+[00:47:50.513] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.513] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 76
+[00:47:50.514] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_77.bin (target path: savedata0:/SlotParam_77.bin)
+[00:47:50.515] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.515] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 77
+[00:47:50.516] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_78.bin (target path: savedata0:/SlotParam_78.bin)
+[00:47:50.516] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.517] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 78
+[00:47:50.517] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_79.bin (target path: savedata0:/SlotParam_79.bin)
+[00:47:50.518] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.519] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 79
+[00:47:50.519] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_80.bin (target path: savedata0:/SlotParam_80.bin)
+[00:47:50.520] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.521] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 80
+[00:47:50.521] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_81.bin (target path: savedata0:/SlotParam_81.bin)
+[00:47:50.523] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.524] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 81
+[00:47:50.524] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_82.bin (target path: savedata0:/SlotParam_82.bin)
+[00:47:50.529] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.532] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 82
+[00:47:50.533] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_83.bin (target path: savedata0:/SlotParam_83.bin)
+[00:47:50.534] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.534] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 83
+[00:47:50.534] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_84.bin (target path: savedata0:/SlotParam_84.bin)
+[00:47:50.535] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.536] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 84
+[00:47:50.536] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_85.bin (target path: savedata0:/SlotParam_85.bin)
+[00:47:50.537] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.538] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 85
+[00:47:50.539] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_86.bin (target path: savedata0:/SlotParam_86.bin)
+[00:47:50.540] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.540] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 86
+[00:47:50.541] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_87.bin (target path: savedata0:/SlotParam_87.bin)
+[00:47:50.541] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[00:47:50.544] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.545] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 87
+[00:47:50.546] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_88.bin (target path: savedata0:/SlotParam_88.bin)
+[00:47:50.547] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.547] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 88
+[00:47:50.548] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_89.bin (target path: savedata0:/SlotParam_89.bin)
+[00:47:50.549] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.549] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 89
+[00:47:50.550] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_90.bin (target path: savedata0:/SlotParam_90.bin)
+[00:47:50.551] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.551] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 90
+[00:47:50.551] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_91.bin (target path: savedata0:/SlotParam_91.bin)
+[00:47:50.552] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.553] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 91
+[00:47:50.553] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_92.bin (target path: savedata0:/SlotParam_92.bin)
+[00:47:50.554] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.554] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 92
+[00:47:50.555] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_93.bin (target path: savedata0:/SlotParam_93.bin)
+[00:47:50.556] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.557] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 93
+[00:47:50.561] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_94.bin (target path: savedata0:/SlotParam_94.bin)
+[00:47:50.566] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.567] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 94
+[00:47:50.567] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_95.bin (target path: savedata0:/SlotParam_95.bin)
+[00:47:50.568] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.569] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 95
+[00:47:50.569] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_96.bin (target path: savedata0:/SlotParam_96.bin)
+[00:47:50.570] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.570] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 96
+[00:47:50.571] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_97.bin (target path: savedata0:/SlotParam_97.bin)
+[00:47:50.572] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.573] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 97
+[00:47:50.573] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_98.bin (target path: savedata0:/SlotParam_98.bin)
+[00:47:50.577] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.577] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 98
+[00:47:50.578] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_99.bin (target path: savedata0:/SlotParam_99.bin)
+[00:47:50.579] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.579] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 99
+[00:47:50.580] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_100.bin (target path: savedata0:/SlotParam_100.bin)
+[00:47:50.581] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.582] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 100
+[00:47:50.582] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_101.bin (target path: savedata0:/SlotParam_101.bin)
+[00:47:50.583] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.583] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 101
+[00:47:50.584] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_102.bin (target path: savedata0:/SlotParam_102.bin)
+[00:47:50.585] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.585] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 102
+[00:47:50.586] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_103.bin (target path: savedata0:/SlotParam_103.bin)
+[00:47:50.586] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.587] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 103
+[00:47:50.588] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_104.bin (target path: savedata0:/SlotParam_104.bin)
+[00:47:50.588] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.589] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 104
+[00:47:50.594] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_105.bin (target path: savedata0:/SlotParam_105.bin)
+[00:47:50.599] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.600] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 105
+[00:47:50.600] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_106.bin (target path: savedata0:/SlotParam_106.bin)
+[00:47:50.601] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[00:47:50.602] |D| [export_sceAppUtilSaveDataSlotSearch]: fd: -2147418110, i: 106
+[00:47:50.602] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSB00940/SlotParam_107.bin (target path: savedata0:/SlotParam_107.bin)

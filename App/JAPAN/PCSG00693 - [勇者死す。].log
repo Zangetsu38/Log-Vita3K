@@ -1,260 +1,1271 @@
-[05:10:53.142] |I| [load_app_impl]: cpu-backend: Dynarmic
-[05:10:53.142] |I| [load_app_impl]: CPU Optimisation state: true
-[05:10:53.142] |I| [load_app_impl]: at9 audio decoder state: true
-[05:10:53.142] |I| [load_app_impl]: ngs experimental state: true
-[05:10:53.142] |I| [load_app_impl]: video player state: true
-[05:10:53.142] |I| [load_app_impl]: lle-modules: libpgf,libSceXml,libsas,liblocation,libhandwriting,libSceJson
-[05:10:53.142] |I| [load_app_impl]: Title: 勇者死す。
-[05:10:53.142] |I| [load_app_impl]: Serial: PCSG00693
-[05:10:53.142] |I| [load_app_impl]: Version: 1.01
-[05:10:53.143] |I| [load_app_impl]: Category: gp
-[05:10:53.240] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[05:10:53.241] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module ux0:app\PCSG00693\sce_module\libc.suprx
-[05:10:53.241] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module ux0:app\PCSG00693\sce_module\libc.suprx
-[05:10:53.241] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00693\sce_module\libc.suprx
-[05:10:53.242] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
-[05:10:53.242] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
-[05:10:53.242] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
-[05:10:53.244] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
-[05:10:53.245] |I| [pre_load_module]: Pre-load module SceLibc (at "app\PCSG00693\sce_module\libc.suprx") loaded
-[05:10:53.254] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[05:10:53.254] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x00077000 / 0x81000000] (size: 0x00019000) of module ux0:app\PCSG00693\sce_module\libface.suprx
-[05:10:53.255] |I| [load_self]: Loaded module segment 1 @ [0x00077000 - 0x000770F8 / 0x81019000] (size: 0x000000F8) of module ux0:app\PCSG00693\sce_module\libface.suprx
-[05:10:53.258] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00693\sce_module\libface.suprx
-[05:10:53.259] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x73DA4
-[05:10:53.259] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x76784
-[05:10:53.260] |I| [pre_load_module]: Pre-load module SceFace (at "app\PCSG00693\sce_module\libface.suprx") loaded
-[05:10:53.275] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[05:10:53.275] |I| [load_self]: Loaded module segment 0 @ [0x00078000 - 0x000A4CBF / 0x81000000] (size: 0x0002CCBF) of module ux0:app\PCSG00693\sce_module\libfios2.suprx
-[05:10:53.276] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000AA255 / 0x8102D000] (size: 0x00005255) of module ux0:app\PCSG00693\sce_module\libfios2.suprx
-[05:10:53.278] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00693\sce_module\libfios2.suprx
-[05:10:53.278] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA4BC8
-[05:10:53.279] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9BF08
-[05:10:53.279] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "app\PCSG00693\sce_module\libfios2.suprx") loaded
-[05:10:53.324] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[05:10:53.324] |I| [load_self]: Loaded module segment 0 @ [0x000AB000 - 0x002B8AF4 / 0x81000000] (size: 0x0020DAF4) of module ux0:app\PCSG00693\sce_module\libsmart.suprx
-[05:10:53.325] |I| [load_self]: Loaded module segment 1 @ [0x002B9000 - 0x002BC444 / 0x8120E000] (size: 0x00003444) of module ux0:app\PCSG00693\sce_module\libsmart.suprx
-[05:10:53.326] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00693\sce_module\libsmart.suprx
-[05:10:53.326] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x156528
-[05:10:53.327] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x15D90C
-[05:10:53.328] |I| [pre_load_module]: Pre-load module SceSmart (at "app\PCSG00693\sce_module\libsmart.suprx") loaded
-[05:10:53.340] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[05:10:53.340] |I| [load_self]: Loaded module segment 0 @ [0x002BD000 - 0x002D09BC / 0x81000000] (size: 0x000139BC) of module ux0:app\PCSG00693\sce_module\libult.suprx
-[05:10:53.341] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002D1814 / 0x81014000] (size: 0x00000814) of module ux0:app\PCSG00693\sce_module\libult.suprx
-[05:10:53.342] |I| [load_self]: Loading symbols for SELF: ux0:app\PCSG00693\sce_module\libult.suprx
-[05:10:53.343] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2CF2E8
-[05:10:53.343] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2CC870
-[05:10:53.343] |I| [pre_load_module]: Pre-load module SceUlt (at "app\PCSG00693\sce_module\libult.suprx") loaded
-[05:10:53.351] |I| [load_self]: Loaded module segment 0 @ [0x002D2000 - 0x00322F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
-[05:10:53.351] |I| [load_self]: Loaded module segment 1 @ [0x00323000 - 0x003232F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
-[05:10:53.354] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
-[05:10:53.355] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x30E7DC
-[05:10:53.355] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x30DF10
-[05:10:53.355] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
-[05:10:53.358] |I| [load_self]: Loaded module segment 0 @ [0x00324000 - 0x00333F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
-[05:10:53.359] |I| [load_self]: Loaded module segment 1 @ [0x00334000 - 0x00334008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
-[05:10:53.360] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
-[05:10:53.360] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x332710
-[05:10:53.361] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x332300
-[05:10:53.362] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
-[05:10:53.493] |C| [load_self]: Unknown segment type 0x6FFFFF01
-[05:10:53.493] |I| [load_self]: Loaded module segment 0 @ [0x00335000 - 0x007D3E44 / 0x81000000] (size: 0x0049EE44) of module app0:eboot.bin
-[05:10:53.494] |I| [load_self]: Loaded module segment 1 @ [0x007D4000 - 0x009A7028 / 0x8149F000] (size: 0x001D3028) of module app0:eboot.bin
-[05:10:53.495] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
-[05:10:53.496] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x74BD74
-[05:10:53.496] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x7D5774
-[05:10:53.497] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x798DFC
-[05:10:53.497] |I| [load_app_impl]: Main executable diana (eboot.bin) loaded
-[05:10:53.507] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
-[05:10:53.528] |I| [run_app]: Module SceLibc (at "ux0:app\PCSG00693\sce_module\libc.suprx") module_start returned 0x0
-[05:10:53.532] |D| [run_app]: Running module_start of library: SceFace at address 0x73265
-[05:10:53.541] |I| [run_app]: Module SceFace (at "ux0:app\PCSG00693\sce_module\libface.suprx") module_start returned 0x0
-[05:10:53.546] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x78001
-[05:10:53.554] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
-[05:10:53.554] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
-[05:10:53.554] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
-[05:10:53.555] |I| [run_app]: Module SceLibFios2 (at "ux0:app\PCSG00693\sce_module\libfios2.suprx") module_start returned 0x0
-[05:10:53.559] |D| [run_app]: Running module_start of library: SceSmart at address 0xAB18D
-[05:10:53.569] |I| [run_app]: Module SceSmart (at "ux0:app\PCSG00693\sce_module\libsmart.suprx") module_start returned 0x0
-[05:10:53.573] |D| [run_app]: Running module_start of library: SceUlt at address 0x2C0771
-[05:10:53.582] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
-[05:10:53.582] |I| [run_app]: Module SceUlt (at "ux0:app\PCSG00693\sce_module\libult.suprx") module_start returned 0x0
-[05:10:54.122] |D| [export_sceSysmoduleLoadModule]: module id: 29
-[05:10:54.123] |D| [export_sceSysmoduleLoadModule]: module: libSceScreenShot
-[05:10:54.124] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
-[05:10:54.124] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
-[05:10:54.125] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
-[05:10:54.126] |D| [export_sceKernelCreateCallback]: Create callbcack: thread id: 10, cb id: 45, name: VblankCallback
-[05:10:54.126] |W| [unimplemented_impl]: Unimplemented sceDisplayRegisterVblankStartCallback import called.
-[05:10:54.127] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
-[05:10:54.223] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
-[05:10:54.257] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
-[05:10:54.282] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
-[05:10:54.792] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
-[05:10:55.038] |D| [export_sceSysmoduleLoadModule]: module id: 17
-[05:10:55.038] |D| [export_sceSysmoduleLoadModule]: module: libime
-[05:10:55.096] |D| [export_sceSysmoduleLoadModule]: module id: 11
-[05:10:55.096] |D| [export_sceSysmoduleLoadModule]: module: libngs
-[05:10:55.112] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
-[05:10:55.112] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
-[05:10:55.134] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 15, using passthrough.
-[05:10:55.134] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 16, using passthrough.
-[05:10:55.144] |D| [export_sceNgsSystemSetFlags]: flags: 0
-[05:10:55.144] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
-[05:10:55.145] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
-[05:10:55.146] |D| [export_sceNgsVoiceInit]: flags: 7
-[05:10:55.146] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
-[05:10:55.148] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
-[05:10:55.149] |D| [export_sceNgsVoiceInit]: flags: 7
-[05:10:55.150] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[05:10:55.155] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
-[05:10:55.162] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[05:10:55.162] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[05:10:55.187] |D| [export_sceSysmoduleLoadModule]: module id: 21
-[05:10:55.187] |D| [export_sceSysmoduleLoadModule]: module: np_common
-[05:10:55.187] |D| [export_sceSysmoduleLoadModule]: module: np_manager
-[05:10:55.188] |D| [export_sceSysmoduleLoadModule]: module: np_basic
-[05:10:55.188] |D| [export_sceSysmoduleLoadModule]: module id: 37
-[05:10:55.189] |D| [export_sceSysmoduleLoadModule]: module: np_trophy
-[05:10:55.642] |I| [export_sceIoOpen]: Opening file: app0:hud/title.pac
-[05:10:55.700] |I| [renderer::gl::load_shader_generic]: Generating frag shader f815f16356754610a0bdc1824a5e22661c684cef53ebfb13d54e3b216757f1d3
-[05:10:55.702] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
-[05:10:55.705] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
-[05:10:55.719] |I| [renderer::gl::load_shader_generic]: Generating vert shader f21bb29dc8beebe25dfd7f218f0c044e565d32f7985042dc3e63cb734e6f437d
-[05:10:55.720] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
-[05:10:55.725] |I| [export_sceIoOpen]: Opening file: app0:tips/tips001.pac
-[05:10:55.751] |I| [renderer::gl::load_shader_generic]: Generating frag shader 69a5c347f86ec0140f5f0dbe59c86ed20a0b3a0a552e350fa5cf2c6347d9db0e
-[05:10:55.754] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
-[05:10:55.754] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_TexCoord1
-[05:10:55.754] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
-[05:10:55.755] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord3
-[05:10:55.761] |I| [renderer::gl::load_shader_generic]: Generating vert shader 18fc2a36d7b4bc9c6c802da08b15fabe9ccda1ec6dcacefc3c5ec9f21c2a1711
-[05:10:55.762] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
-[05:10:55.764] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) colorTransform[4]
-[05:10:55.802] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[05:10:55.803] |I| [renderer::gl::load_shader_generic]: Generating frag shader 269a32c76128f5a18d7a274121d3ea4130d882c31f452debc0d8e0538d141852
-[05:10:55.804] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) rcpFrame
-[05:10:55.805] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
-[05:10:55.819] |I| [renderer::gl::load_shader_generic]: Generating vert shader fc14bf65ea67678f00a20bacfba328cb1cf3235b00231e635c98eec7416847a3
-[05:10:55.822] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
-[05:10:55.822] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_TexCoord0
-[05:10:55.854] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[05:10:55.855] |I| [renderer::gl::load_shader_generic]: Generating frag shader 29fda3db91bbcc682f761158c470800656e5cf4e5d53c2901dbdc2199d4bc471
-[05:10:55.856] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) blightness
-[05:10:55.884] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[05:10:55.884] |I| [renderer::gl::load_shader_generic]: Generating frag shader eedc4039a492a3f8daef48793afe9be50a54cb789df7c5c049bddf7a41843f18
-[05:10:55.886] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
-[05:10:55.886] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord2
-[05:10:55.886] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
-[05:10:55.901] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2862d6227d83fdc4f93ed4a8aec7c78a5d54aee575e4f0a5282a6f1f972a16ac
-[05:10:55.902] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
-[05:10:55.902] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_TexCoord0
-[05:10:55.906] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) rcpFrame
-[05:10:55.944] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[05:10:55.945] |I| [renderer::gl::load_shader_generic]: Generating frag shader 41a584f0406d1a6103621784cae9afdd7c9386a5ad53f50d2dc8a2af95d8f67a
-[05:10:55.946] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
-[05:10:55.947] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord2
-[05:10:55.947] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
-[05:10:55.959] |I| [renderer::gl::load_shader_generic]: Generating vert shader d34472aabb243ee862896f48aca881329d843b55a0fe524c05e2923a056d94bb
-[05:10:55.960] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
-[05:10:55.961] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_TexCoord0
-[05:10:55.961] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) rcpFrame
-[05:10:56.003] |D| [renderer::gl::texture::translate_swizzle]: base format: 201326592, swizzle: 0
-[05:10:56.004] |I| [renderer::gl::load_shader_generic]: Generating frag shader 12c3905a6f074b0075acd6f0b91ad5c8a3dd1c030018559e1047f4c5833ee289
-[05:10:56.025] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartMultiCB import called. (wait for vblank)
-[05:10:56.075] |I| [export_sceIoOpen]: Opening file: app0:sound/common.bnk
-[05:10:56.146] |I| [export_sceIoOpen]: Opening file: app0:sound/music.bnk
-[05:10:56.180] |I| [export_sceIoOpen]: Opening file: app0:sound/voice.bnk
-[05:10:56.231] |I| [export_sceIoOpen]: Opening file: app0:font/FOT-ChiaroStd-B.otf
-[05:10:56.296] |I| [export_sceIoOpen]: Opening file: app0:common/common.pac
-[05:10:56.639] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartCB import called. (wait for vblank)
-[05:10:56.647] |I| [export_sceIoOpen]: Opening file: app0:message/msg_system.pac
-[05:10:56.698] |I| [export_sceIoOpen]: Opening file: app0:talk/common.pac
-[05:10:56.726] |I| [export_sceIoOpen]: Opening file: app0:message/msg_character.pac
-[05:10:56.804] |I| [export_sceIoOpen]: Opening file: app0:message/msg_item.pac
-[05:10:56.827] |I| [export_sceIoOpen]: Opening file: app0:message/msg_map.pac
-[05:10:56.861] |I| [export_sceIoOpen]: Opening file: app0:message/msg_action.pac
-[05:10:56.895] |I| [export_sceIoOpen]: Opening file: app0:item/item.pac
-[05:10:56.938] |I| [export_sceIoOpen]: Opening file: app0:shop/shop.pac
-[05:10:56.982] |I| [export_sceIoOpen]: Opening file: app0:actor/000.pac
-[05:10:56.996] |I| [export_sceIoOpen]: Opening file: app0:battle/battle.pac
-[05:10:57.049] |I| [export_sceIoOpen]: Opening file: app0:effect/ef_common_tex.pac
-[05:10:57.099] |I| [export_sceIoOpen]: Opening file: app0:effect/efx_common.pac
-[05:10:57.269] |I| [export_sceIoOpen]: Opening file: app0:hud/common.pac
-[05:10:57.363] |I| [export_sceIoOpen]: Opening file: app0:shader/sh_custom.pac
-[05:10:58.432] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
-[05:10:58.433] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
-[05:10:58.529] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 0
-[05:10:58.530] |I| [renderer::gl::load_shader_generic]: Generating frag shader c1935b3f59c72e7aec72975fcfc807cbd264aab71c7c9ec109b8e59702040048
-[05:10:58.531] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[05:10:58.531] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[05:10:58.532] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord0
-[05:10:58.541] |I| [renderer::gl::load_shader_generic]: Generating vert shader 745ddee8f8cb44337893d7ae55abcdf4c6e276153ef584066cf4094f8a09a578
-[05:10:58.542] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
-[05:10:58.545] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
-[05:10:58.545] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
-[05:10:58.546] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
-[05:10:58.546] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
-[05:10:58.547] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vEmissionColor
-[05:10:58.547] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) vTexCoordOfs
-[05:10:58.585] |E| [renderer::gl::compile_program]: Vertex info
+[06:15:51.283] |I| [load_app_impl]: cpu-backend: Dynarmic
+[06:15:51.283] |I| [load_app_impl]: CPU Optimisation state: true
+[06:15:51.283] |I| [load_app_impl]: at9 audio decoder state: true
+[06:15:51.283] |I| [load_app_impl]: ngs experimental state: true
+[06:15:51.283] |I| [load_app_impl]: video player state: true
+[06:15:51.283] |I| [load_app_impl]: modules mode: Automatic
+[06:15:51.283] |I| [load_app_impl]: Title: 勇者死す。
+[06:15:51.283] |I| [load_app_impl]: Serial: PCSG00693
+[06:15:51.283] |I| [load_app_impl]: Version: 1.01
+[06:15:51.283] |I| [load_app_impl]: Category: gp
+[06:15:51.327] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:15:51.327] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x000588A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[06:15:51.327] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[06:15:51.327] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[06:15:51.328] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E314
+[06:15:51.328] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x434DC
+[06:15:51.328] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (UNRECOGNISED) at 0x4763C, setting to stub value 0xDEADBEEF
+[06:15:51.328] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x491D0, setting to stub value 0xDEADBEEF
+[06:15:51.329] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[06:15:51.353] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:15:51.353] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[06:15:51.353] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[06:15:51.353] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[06:15:51.353] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
+[06:15:51.353] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
+[06:15:51.353] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[06:15:51.367] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:15:51.367] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[06:15:51.367] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[06:15:51.367] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[06:15:51.368] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32E8
+[06:15:51.368] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0870
+[06:15:51.368] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[06:15:51.375] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[06:15:51.375] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[06:15:51.375] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[06:15:51.375] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
+[06:15:51.375] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
+[06:15:51.375] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[06:15:51.378] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[06:15:51.378] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[06:15:51.378] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[06:15:51.378] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
+[06:15:51.378] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
+[06:15:51.378] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[06:15:51.507] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[06:15:51.507] |I| [load_self]: Loaded module segment 0 @ [0x00109000 - 0x005A7E44 / 0x81000000] (size: 0x0049EE44) of module app0:eboot.bin
+[06:15:51.507] |I| [load_self]: Loaded module segment 1 @ [0x005A8000 - 0x0077B028 / 0x8149F000] (size: 0x001D3028) of module app0:eboot.bin
+[06:15:51.507] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[06:15:51.508] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x51FD74
+[06:15:51.508] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x5A9774
+[06:15:51.508] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x56CDFC
+[06:15:51.508] |I| [load_app_impl]: Main executable diana (eboot.bin) loaded
+[06:15:51.517] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[06:15:51.537] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[06:15:51.542] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
+[06:15:51.551] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[06:15:51.551] |D| [export_sceFiosOverlayGetList02]: maxIDs: 127
+[06:15:51.551] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[06:15:51.551] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[06:15:51.555] |D| [run_app]: Running module_start of library: SceUlt at address 0x94771
+[06:15:51.563] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[06:15:51.563] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[06:15:52.086] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[06:15:52.086] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[06:15:52.086] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[06:15:52.087] |D| [export_sceKernelCreateCallback]: Create callbcack: thread id: 8, cb id: 41, name: VblankCallback
+[06:15:52.087] |W| [unimplemented_impl]: Unimplemented sceDisplayRegisterVblankStartCallback import called.
+[06:15:52.088] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[06:15:52.182] |W| [stubbed_impl]: Stubbed sceGxmMapMemory import called. (always return success)
+[06:15:52.215] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[06:15:52.243] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[06:15:52.277] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[06:15:52.766] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[06:15:52.810] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[06:15:52.888] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[06:15:52.910] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[06:15:52.943] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[06:15:52.976] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[06:15:53.010] |D| [export_sceGxmCreateRenderTarget]: scene par frame: 1
+[06:15:53.089] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[06:15:53.090] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[06:15:53.111] |D| [ngs::create_voice_definition]: type: 15
+[06:15:53.111] |D| [ngs::create_voice_definition]: type: 16
+[06:15:53.121] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[06:15:53.121] |D| [ngs::create_voice_definition]: type: 1
+[06:15:53.121] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[06:15:53.122] |D| [export_sceNgsVoiceInit]: flags: 7
+[06:15:53.122] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[06:15:53.122] |D| [ngs::create_voice_definition]: type: 0
+[06:15:53.122] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[06:15:53.123] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[06:15:53.123] |I| [ngs::scream::Atrac9VoiceDefinition::new_modules]: Scream Atrac9 voice definition stubbed
+[06:15:53.124] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[06:15:53.124] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[06:15:53.124] |I| [ngs::scream::Atrac9VoiceDefinition::new_modules]: Scream Atrac9 voice definition stubbed
+[06:15:53.124] |D| [ngs::create_voice_definition]: type: 10
+[06:15:53.125] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[06:15:53.125] |D| [export_sceNgsVoiceInit]: flags: 7
+[06:15:53.126] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:15:53.130] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[06:15:53.137] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:15:53.137] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:15:53.719] |I| [export_sceIoOpen]: Opening file: app0:hud/title.pac
+[06:15:53.778] |I| [renderer::gl::load_shader_generic]: Generating frag shader f815f16356754610a0bdc1824a5e22661c684cef53ebfb13d54e3b216757f1d3
+[06:15:53.779] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[06:15:53.780] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
+[06:15:53.797] |I| [renderer::gl::load_shader_generic]: Generating vert shader f21bb29dc8beebe25dfd7f218f0c044e565d32f7985042dc3e63cb734e6f437d
+[06:15:53.798] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[06:15:53.806] |I| [export_sceIoOpen]: Opening file: app0:tips/tips001.pac
+[06:15:53.913] |I| [renderer::gl::load_shader_generic]: Generating frag shader 69a5c347f86ec0140f5f0dbe59c86ed20a0b3a0a552e350fa5cf2c6347d9db0e
+[06:15:53.915] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[06:15:53.915] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_TexCoord1
+[06:15:53.915] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[06:15:53.915] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord3
+[06:15:53.920] |I| [renderer::gl::load_shader_generic]: Generating vert shader 18fc2a36d7b4bc9c6c802da08b15fabe9ccda1ec6dcacefc3c5ec9f21c2a1711
+[06:15:53.921] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:15:53.921] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) colorTransform[4]
+[06:15:53.962] |I| [renderer::gl::load_shader_generic]: Generating frag shader 269a32c76128f5a18d7a274121d3ea4130d882c31f452debc0d8e0538d141852
+[06:15:53.963] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) rcpFrame
+[06:15:53.963] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
+[06:15:53.970] |I| [renderer::gl::load_shader_generic]: Generating vert shader fc14bf65ea67678f00a20bacfba328cb1cf3235b00231e635c98eec7416847a3
+[06:15:53.971] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:15:53.971] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_TexCoord0
+[06:15:54.002] |I| [renderer::gl::load_shader_generic]: Generating frag shader 29fda3db91bbcc682f761158c470800656e5cf4e5d53c2901dbdc2199d4bc471
+[06:15:54.003] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) blightness
+[06:15:54.032] |I| [renderer::gl::load_shader_generic]: Generating frag shader eedc4039a492a3f8daef48793afe9be50a54cb789df7c5c049bddf7a41843f18
+[06:15:54.032] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
+[06:15:54.032] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord2
+[06:15:54.032] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
+[06:15:54.040] |I| [renderer::gl::load_shader_generic]: Generating vert shader 2862d6227d83fdc4f93ed4a8aec7c78a5d54aee575e4f0a5282a6f1f972a16ac
+[06:15:54.041] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:15:54.041] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_TexCoord0
+[06:15:54.041] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) rcpFrame
+[06:15:54.081] |I| [renderer::gl::load_shader_generic]: Generating frag shader 41a584f0406d1a6103621784cae9afdd7c9386a5ad53f50d2dc8a2af95d8f67a
+[06:15:54.083] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
+[06:15:54.083] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_TexCoord2
+[06:15:54.083] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord3
+[06:15:54.090] |I| [renderer::gl::load_shader_generic]: Generating vert shader d34472aabb243ee862896f48aca881329d843b55a0fe524c05e2923a056d94bb
+[06:15:54.091] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:15:54.091] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_TexCoord0
+[06:15:54.091] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) rcpFrame
+[06:15:54.123] |I| [renderer::gl::load_shader_generic]: Generating frag shader 12c3905a6f074b0075acd6f0b91ad5c8a3dd1c030018559e1047f4c5833ee289
+[06:15:54.149] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartMultiCB import called. (Try CB)
+[06:15:54.194] |I| [export_sceIoOpen]: Opening file: app0:sound/common.bnk
+[06:15:54.223] |W| [stubbed_impl]: Stubbed sceDisplayWaitVblankStartCB import called. (Try CB)
+[06:15:54.248] |I| [export_sceIoOpen]: Opening file: app0:sound/music.bnk
+[06:15:54.280] |I| [export_sceIoOpen]: Opening file: app0:sound/voice.bnk
+[06:15:54.313] |I| [export_sceIoOpen]: Opening file: app0:font/FOT-ChiaroStd-B.otf
+[06:15:54.345] |I| [export_sceIoOpen]: Opening file: app0:common/common.pac
+[06:15:54.700] |I| [export_sceIoOpen]: Opening file: app0:message/msg_system.pac
+[06:15:54.764] |I| [export_sceIoOpen]: Opening file: app0:talk/common.pac
+[06:15:54.809] |I| [export_sceIoOpen]: Opening file: app0:message/msg_character.pac
+[06:15:54.885] |I| [export_sceIoOpen]: Opening file: app0:message/msg_item.pac
+[06:15:54.905] |I| [export_sceIoOpen]: Opening file: app0:message/msg_map.pac
+[06:15:54.937] |I| [export_sceIoOpen]: Opening file: app0:message/msg_action.pac
+[06:15:54.968] |I| [export_sceIoOpen]: Opening file: app0:item/item.pac
+[06:15:55.010] |I| [export_sceIoOpen]: Opening file: app0:shop/shop.pac
+[06:15:55.051] |I| [export_sceIoOpen]: Opening file: app0:actor/000.pac
+[06:15:55.065] |I| [export_sceIoOpen]: Opening file: app0:battle/battle.pac
+[06:15:55.116] |I| [export_sceIoOpen]: Opening file: app0:effect/ef_common_tex.pac
+[06:15:55.162] |I| [export_sceIoOpen]: Opening file: app0:effect/efx_common.pac
+[06:15:55.355] |I| [export_sceIoOpen]: Opening file: app0:hud/common.pac
+[06:15:55.477] |I| [export_sceIoOpen]: Opening file: app0:shader/sh_custom.pac
+[06:15:56.516] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[06:15:56.517] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[06:15:56.595] |I| [renderer::gl::load_shader_generic]: Generating frag shader c1935b3f59c72e7aec72975fcfc807cbd264aab71c7c9ec109b8e59702040048
+[06:15:56.597] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:15:56.597] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[06:15:56.597] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord0
+[06:15:56.603] |I| [renderer::gl::load_shader_generic]: Generating vert shader 745ddee8f8cb44337893d7ae55abcdf4c6e276153ef584066cf4094f8a09a578
+[06:15:56.604] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:15:56.604] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:15:56.604] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
+[06:15:56.604] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:15:56.604] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
+[06:15:56.604] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vEmissionColor
+[06:15:56.604] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) vTexCoordOfs
+[06:15:56.643] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(27) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[05:10:58.587] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 24576
-[05:10:58.588] |D| [renderer::gl::texture::translate_swizzle]: base format: 0, swizzle: 24576
-[05:10:58.589] |I| [renderer::gl::load_shader_generic]: Generating frag shader ca3417b3c38d5ff54d3b1813bb5ec2f83fb44a8d617fcff250e87087a57e25c5
-[05:10:58.590] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[05:10:58.590] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
-[05:10:58.601] |I| [renderer::gl::load_shader_generic]: Generating vert shader c531ac7f5f9701f2675fb356a764e0d371b74b35a6b7850a004cddbe1f9c0a10
-[05:10:58.602] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
-[05:10:58.602] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
-[05:10:58.602] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
-[05:10:58.603] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
-[05:10:58.603] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
-[05:10:58.604] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vTexCoordOfs
-[05:10:58.604] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) vOutlineColor
-[05:10:58.643] |E| [renderer::gl::compile_program]: Vertex info
+[06:15:56.644] |I| [renderer::gl::load_shader_generic]: Generating frag shader ca3417b3c38d5ff54d3b1813bb5ec2f83fb44a8d617fcff250e87087a57e25c5
+[06:15:56.645] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:15:56.645] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[06:15:56.652] |I| [renderer::gl::load_shader_generic]: Generating vert shader c531ac7f5f9701f2675fb356a764e0d371b74b35a6b7850a004cddbe1f9c0a10
+[06:15:56.653] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:15:56.653] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:15:56.653] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
+[06:15:56.653] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:15:56.653] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
+[06:15:56.653] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vTexCoordOfs
+[06:15:56.653] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) vOutlineColor
+[06:15:56.691] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(26) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[05:11:00.742] |I| [export_sceIoOpen]: Opening file: savedata0:sys
-[05:11:02.237] |I| [export_sceIoOpen]: Opening file: app0:actor/001.pac
-[05:11:02.372] |I| [export_sceIoOpen]: Opening file: app0:logo/logo.pac
-[05:11:02.442] |I| [renderer::gl::load_shader_generic]: Generating frag shader fdcc788cce3036b84a0247cbb7d81206268642c62a2f6273b19e369114602178
-[05:11:02.444] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
-[05:11:02.444] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_Color1
-[05:11:02.445] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
-[05:11:02.453] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3dcf5820c635bc88926eb55774a49c395832ba426aa17dec85e5ea7f8ed9f10c
-[05:11:02.454] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
-[05:11:02.455] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
-[05:11:02.455] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
-[05:11:02.455] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
-[05:11:02.456] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vEmissionColor
-[05:11:02.496] |E| [renderer::gl::compile_program]: Vertex info
+[06:15:58.059] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[06:15:58.652] |I| [export_sceIoOpen]: Opening file: savedata0:sys
+[06:16:00.036] |I| [export_sceIoOpen]: Opening file: app0:actor/001.pac
+[06:16:00.170] |I| [export_sceIoOpen]: Opening file: app0:logo/logo.pac
+[06:16:00.216] |I| [renderer::gl::load_shader_generic]: Generating frag shader fdcc788cce3036b84a0247cbb7d81206268642c62a2f6273b19e369114602178
+[06:16:00.218] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:00.218] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_Color1
+[06:16:00.218] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:16:00.224] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3dcf5820c635bc88926eb55774a49c395832ba426aa17dec85e5ea7f8ed9f10c
+[06:16:00.224] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:00.224] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:16:00.224] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:16:00.225] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
+[06:16:00.225] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vEmissionColor
+[06:16:00.264] |E| [renderer::gl::compile_program]: Vertex info
 -----------
 0(25) : warning C7050: "internals[0].w" might be used before being initialized
 
 
-[05:11:02.560] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 0
-[05:11:03.593] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 0
-[05:11:04.510] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 0
-[05:11:05.357] |I| [export_sceIoOpen]: Opening file: app0:title/title.pac
-[05:11:05.425] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
-[05:11:05.426] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
-[05:11:05.426] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
-[05:11:05.594] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
-[05:11:05.596] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
-[05:11:05.764] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
-[05:11:05.766] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
-[05:11:05.952] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
-[05:11:05.956] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_001.at9
-[05:11:06.009] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
-[05:11:06.030] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_001.at9
-[05:11:06.063] |D| [export_sceNgsVoiceInit]: flags: 0
-[05:11:06.074] |D| [export_sceNgsVoiceSetParamsBlock]: channel: 96, module id: 0x1015CAA, size: 360
-[05:11:06.074] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
-[05:11:06.967] |D| [renderer::gl::texture::translate_swizzle]: base format: -1795162112, swizzle: 0
-[05:11:06.969] |I| [renderer::gl::load_shader
+[06:16:02.078] |I| [export_sceIoOpen]: Opening file: app0:title/title.pac
+[06:16:02.133] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[06:16:02.133] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[06:16:02.134] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[06:16:02.295] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[06:16:02.296] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[06:16:02.456] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[06:16:02.457] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[06:16:02.649] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[06:16:02.652] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_001.at9
+[06:16:02.724] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_001.at9
+[06:16:02.764] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:02.775] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:03.595] |I| [renderer::gl::load_shader_generic]: Generating frag shader 31c293ec05be42869bdddc4f860928ee1295d2e57b87902babfc0dda33192c42
+[06:16:03.597] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:03.597] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:16:03.602] |I| [renderer::gl::load_shader_generic]: Generating vert shader a555ae22bb9f89146b5c25725a6a834bdc22c60db5845d457ddb26d6c39501e7
+[06:16:03.603] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:03.603] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:16:03.603] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
+[06:16:03.603] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:16:03.603] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vAmbientColor
+[06:16:03.603] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vModifierColor
+[06:16:03.603] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) vEmissionColor
+[06:16:03.603] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float4) vTexCoordOfs
+[06:16:03.637] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:16:04.515] |I| [renderer::gl::load_shader_generic]: Generating frag shader 64a738e68aab5a887adf0c8d5c85a6cc4fa7f70990330e3024ed24d82375cc3f
+[06:16:04.516] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:04.516] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:16:04.554] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:16:04.558] |I| [renderer::gl::load_shader_generic]: Generating frag shader 6ebbe2e59727409d49e1e9d1f4943832972dc93e1c451279f5771b5851ec2511
+[06:16:04.559] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:04.559] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:16:04.597] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:16:07.141] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:07.144] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:07.144] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:16:07.820] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:07.820] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:07.820] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:16:08.216] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_c0110.at9
+[06:16:08.243] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_c0110.at9
+[06:16:08.260] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:08.260] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:08.684] |I| [export_sceIoOpen]: Opening file: app0:savedata/pic1.png
+[06:16:10.295] |D| [export_sceSaveDataDialogInit]: slotListSize: 3
+[06:16:10.295] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[06:16:10.296] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[06:16:10.296] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[06:16:10.296] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[06:16:10.296] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[06:16:10.296] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[06:16:11.313] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[06:16:11.314] |W| [io_error_impl]: open_file (sceSaveDataDialogContinue) returned 0x80010002
+[06:16:11.910] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[06:16:11.910] |W| [io_error_impl]: open_file (sceSaveDataDialogContinue) returned 0x80010002
+[06:16:11.975] |E| [open_file]: Missing file at D:/Emulateurs/Vita3K/mc/ux0/user/00/savedata/PCSG00693/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[06:16:11.976] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[06:16:11.979] |D| [export_sceAppUtilSaveDataDataSave]: call: 1
+[06:16:11.979] |D| [export_sceAppUtilSaveDataDataSave]: Slot is no null
+[06:16:17.192] |I| [export_sceIoOpen]: Opening file: app0:map/00_common.pac
+[06:16:17.288] |I| [export_sceIoOpen]: Opening file: app0:map/13_event_map/00.pac
+[06:16:17.313] |I| [export_sceIoOpen]: Opening file: app0:map/13_event_map/01.pac
+[06:16:17.496] |I| [renderer::gl::load_shader_generic]: Generating vert shader b052add2de1af4d158bd1ac1429a94b1240114e8ba4d2b8a9a0fdb0f517ea8d1
+[06:16:17.497] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:17.497] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Weights
+[06:16:17.498] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_Indices
+[06:16:17.498] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_Color
+[06:16:17.498] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) IN_TexCoord0
+[06:16:17.498] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mP[4]
+[06:16:17.498] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mWV[4]
+[06:16:17.498] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) vAmbientColor
+[06:16:17.498] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) vModifierColor
+[06:16:17.498] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) vEmissionColor
+[06:16:17.498] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) vTexCoordOfs
+[06:16:17.498] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) mPallet[256]
+[06:16:17.498] |I| [export_sceIoOpen]: Opening file: app0:actor/508.pac
+[06:16:18.065] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(29) : warning C7050: "r[0]" might be used before being initialized
+0(29) : warning C7050: "r[1]" might be used before being initialized
+0(29) : warning C7050: "r[2]" might be used before being initialized
+0(29) : warning C7050: "r[3]" might be used before being initialized
+0(29) : warning C7050: "r[4]" might be used before being initialized
+0(29) : warning C7050: "r[5]" might be used before being initialized
+0(29) : warning C7050: "r[6]" might be used before being initialized
+0(29) : warning C7050: "r[7]" might be used before being initialized
+0(29) : warning C7050: "r[8]" might be used before being initialized
+0(29) : warning C7050: "r[9]" might be used before being initialized
+0(29) : warning C7050: "r[10]" might be used before being initialized
+0(29) : warning C7050: "r[11]" might be used before being initialized
+0(29) : warning C7050: "r[12]" might be used before being initialized
+0(29) : warning C7050: "r[13]" might be used before being initialized
+0(29) : warning C7050: "r[14]" might be used before being initialized
+0(28) : warning C7050: "internals[0].w" might be used before being initialized
+0(28) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[06:16:18.071] |I| [renderer::gl::load_shader_generic]: Generating frag shader 8a53525a6f05e2e68931934755e190850551fff11d053b44d06dab9288be38b4
+[06:16:18.072] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:18.077] |I| [renderer::gl::load_shader_generic]: Generating vert shader 50d14aa7abea7b55ce00c0e8826bf877fc22108065fca25b079e7290a289da4f
+[06:16:18.078] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:18.078] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Normal
+[06:16:18.078] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_Color
+[06:16:18.078] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_Weights
+[06:16:18.078] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) IN_Indices
+[06:16:18.079] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) mPallet[256]
+[06:16:18.079] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:16:18.079] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mWV[4]
+[06:16:18.079] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) vLineColor
+[06:16:18.079] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) vModifierColor
+[06:16:18.079] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) vLineParam2
+[06:16:18.508] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[06:16:18.686] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(27) : warning C7050: "r[0]" might be used before being initialized
+0(27) : warning C7050: "r[1]" might be used before being initialized
+0(27) : warning C7050: "r[2]" might be used before being initialized
+0(27) : warning C7050: "r[3]" might be used before being initialized
+0(27) : warning C7050: "r[4]" might be used before being initialized
+0(27) : warning C7050: "r[5]" might be used before being initialized
+0(27) : warning C7050: "r[6]" might be used before being initialized
+0(27) : warning C7050: "r[7]" might be used before being initialized
+0(27) : warning C7050: "r[8]" might be used before being initialized
+0(27) : warning C7050: "r[9]" might be used before being initialized
+0(27) : warning C7050: "r[10]" might be used before being initialized
+0(27) : warning C7050: "r[11]" might be used before being initialized
+0(27) : warning C7050: "r[12]" might be used before being initialized
+0(27) : warning C7050: "r[13]" might be used before being initialized
+0(27) : warning C7050: "r[14]" might be used before being initialized
+0(27) : warning C7050: "r[15]" might be used before being initialized
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+0(26) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[06:16:18.693] |I| [renderer::gl::load_shader_generic]: Generating frag shader 54ad2df10b027720ca20abab76dab85b5138b8333012d6b543951c32f798fee1
+[06:16:18.694] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vFogNearColor
+[06:16:18.694] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) vFogFarColor
+[06:16:18.694] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:18.695] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[06:16:18.695] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord0
+[06:16:18.695] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float1) v_Fog
+[06:16:18.703] |I| [renderer::gl::load_shader_generic]: Generating vert shader ee73f27a1658d4217b6b784b011fcac92c74a956c4693f99e9fed68bdd01fee8
+[06:16:18.703] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:18.703] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Normal
+[06:16:18.703] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_Color
+[06:16:18.703] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_TexCoord0
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWV[4]
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mWVP[4]
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) vModifierColor
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) vEmissionColor
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) vSpecularParam
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) vTexCoordOfs
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) vFogParam
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) vAmbientColor
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (int2) sLightCount
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 58] sa58 = (float4) vDirLightDir[4]
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float4) vDirLightColor[4]
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 90] sa90 = (float4) vPointLightPos[4]
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 106] sa106 = (float4) vPointLightColor[4]
+[06:16:18.704] |D| [shader::create_parameters]: [DEFAULT  + 122] sa122 = (float4) vPointLightAttn[4]
+[06:16:18.706] |D| [shader::usse::USSETranslatorVisitor::i16mad]: i16mad
+[06:16:18.707] |D| [shader::usse::USSETranslatorVisitor::i16mad]: i16mad
+[06:16:18.710] |D| [shader::usse::USSETranslatorVisitor::i16mad]: i16mad
+[06:16:18.715] |I| [export_sceIoOpen]: Opening file: app0:talk/event_opening.pac
+[06:16:18.871] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(29) : warning C7050: "internals[0].w" might be used before being initialized
+0(29) : warning C7050: "internals[1].w" might be used before being initialized
+0(29) : warning C7050: "internals[2].w" might be used before being initialized
+0(30) : warning C7050: "r[0]" might be used before being initialized
+0(30) : warning C7050: "r[1].xy" might be used before being initialized
+0(30) : warning C7050: "r[2].xy" might be used before being initialized
+0(30) : warning C7050: "r[3]" might be used before being initialized
+0(30) : warning C7050: "r[4].xy" might be used before being initialized
+0(32) : warning C7050: "idx[0]" might be used before being initialized
+0(32) : warning C7050: "idx[1]" might be used before being initialized
+
+
+[06:16:18.914] |I| [renderer::gl::load_shader_generic]: Generating vert shader 3894c373609da8ad1c68da6e0754b1fe140045104eecf22294882122d05673fb
+[06:16:18.916] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:18.916] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Normal
+[06:16:18.917] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_Color
+[06:16:18.917] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:16:18.917] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mWV[4]
+[06:16:18.917] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) vLineColor
+[06:16:18.917] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) vModifierColor
+[06:16:18.917] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) vLineParam2
+[06:16:18.947] |I| [export_sceIoOpen]: Opening file: app0:actor/106.pac
+[06:16:18.952] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(24) : warning C7050: "internals[0]" might be used before being initialized
+0(24) : warning C7050: "internals[1].w" might be used before being initialized
+0(24) : warning C7050: "internals[2].z" might be used before being initialized
+
+
+[06:16:19.526] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(29) : warning C7050: "r[0]" might be used before being initialized
+0(29) : warning C7050: "r[1]" might be used before being initialized
+0(29) : warning C7050: "r[2]" might be used before being initialized
+0(29) : warning C7050: "r[3]" might be used before being initialized
+0(29) : warning C7050: "r[4]" might be used before being initialized
+0(29) : warning C7050: "r[5]" might be used before being initialized
+0(29) : warning C7050: "r[6]" might be used before being initialized
+0(29) : warning C7050: "r[7]" might be used before being initialized
+0(29) : warning C7050: "r[8]" might be used before being initialized
+0(29) : warning C7050: "r[9]" might be used before being initialized
+0(29) : warning C7050: "r[10]" might be used before being initialized
+0(29) : warning C7050: "r[11]" might be used before being initialized
+0(29) : warning C7050: "r[12]" might be used before being initialized
+0(29) : warning C7050: "r[13]" might be used before being initialized
+0(29) : warning C7050: "r[14]" might be used before being initialized
+0(28) : warning C7050: "internals[0].w" might be used before being initialized
+0(28) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[06:16:19.535] |I| [renderer::gl::load_shader_generic]: Generating frag shader 7045f07c2b3ebbaba52f74b57da41c499bccb8c3e2f404d8fced2ce3385525ec
+[06:16:19.536] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:19.536] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[06:16:19.536] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord0
+[06:16:19.572] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(27) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:16:20.628] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/001.bmarc
+[06:16:20.667] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/007.bmarc
+[06:16:21.180] |I| [renderer::gl::load_shader_generic]: Generating vert shader 9bd725c6bcf5b9d0caefba4b5ba95236892b6b5509bce2aa0b2063eaeae61140
+[06:16:21.182] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:21.182] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:16:21.182] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
+[06:16:21.182] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_Extend1
+[06:16:21.182] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:16:21.182] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
+[06:16:21.182] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vTexCoordOfs
+[06:16:21.210] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(28) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:16:21.252] |I| [renderer::gl::load_shader_generic]: Generating frag shader ec1b3c48c554e8465a39fa0715e377139487fe3a1d345d026343683062505b71
+[06:16:21.253] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:16:21.258] |I| [renderer::gl::load_shader_generic]: Generating vert shader d2dd4c80df4b3157c9d905c02f707a8fbf858ac16b479ccccc1b0f7d51bb9154
+[06:16:21.259] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:16:21.259] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:16:21.259] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
+[06:16:21.259] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:16:21.260] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
+[06:16:21.260] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vTexCoordOfs
+[06:16:21.294] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(25) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:16:21.542] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0010.at9
+[06:16:21.588] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0010.at9
+[06:16:21.609] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:21.609] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:27.628] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0020.at9
+[06:16:27.666] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0020.at9
+[06:16:27.679] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:27.679] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:47.300] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_010.at9
+[06:16:47.323] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_010.at9
+[06:16:47.339] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:47.339] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:52.364] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0030.at9
+[06:16:52.398] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0030.at9
+[06:16:52.409] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:52.409] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:16:59.946] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0040.at9
+[06:16:59.972] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0040.at9
+[06:16:59.989] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:16:59.989] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:07.909] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:07.909] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:07.910] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:08.429] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:08.429] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:08.429] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:10.561] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0050.at9
+[06:17:10.567] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0050.at9
+[06:17:10.579] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:10.579] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:12.330] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0060.at9
+[06:17:12.338] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0060.at9
+[06:17:12.369] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:12.369] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:14.045] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0070.at9
+[06:17:14.051] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0070.at9
+[06:17:14.069] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:14.069] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:17.642] |I| [export_sceIoOpen]: Opening file: app0:map/13_event_map/05.pac
+[06:17:17.810] |I| [export_sceIoOpen]: Opening file: app0:actor/420.pac
+[06:17:17.867] |I| [renderer::gl::load_shader_generic]: Generating frag shader ad52bfa15484d06120105aa6921e67ea952c7a9e357e7e8be0568c2b50ad5f5f
+[06:17:17.869] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vModifierColor
+[06:17:17.869] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
+[06:17:17.875] |I| [renderer::gl::load_shader_generic]: Generating vert shader 37941f4cb5e926b5cd44de5a3cc6032416cede06fadee48cfe4eb4aedcfeecdf
+[06:17:17.875] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:17:17.875] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Weights
+[06:17:17.875] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_Indices
+[06:17:17.875] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mPallet[256]
+[06:17:17.876] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWLVP[4]
+[06:17:17.881] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_011.at9
+[06:17:17.889] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_011.at9
+[06:17:17.899] |I| [export_sceIoOpen]: Opening file: app0:actor/101.pac
+[06:17:17.909] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:17.909] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:18.421] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(25) : warning C7050: "r[0]" might be used before being initialized
+0(25) : warning C7050: "r[1]" might be used before being initialized
+0(25) : warning C7050: "r[2]" might be used before being initialized
+0(25) : warning C7050: "r[3]" might be used before being initialized
+0(25) : warning C7050: "r[4]" might be used before being initialized
+0(25) : warning C7050: "r[5]" might be used before being initialized
+0(25) : warning C7050: "r[6]" might be used before being initialized
+0(25) : warning C7050: "r[7]" might be used before being initialized
+0(25) : warning C7050: "r[8]" might be used before being initialized
+0(25) : warning C7050: "r[9]" might be used before being initialized
+0(25) : warning C7050: "r[10]" might be used before being initialized
+0(25) : warning C7050: "r[11]" might be used before being initialized
+0(25) : warning C7050: "r[12]" might be used before being initialized
+0(25) : warning C7050: "r[13]" might be used before being initialized
+0(25) : warning C7050: "r[14]" might be used before being initialized
+0(24) : warning C7050: "internals[0].w" might be used before being initialized
+0(24) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[06:17:18.461] |I| [renderer::gl::load_shader_generic]: Generating vert shader 6aae756d37f2ca0b6ca52dc76d8fd79c54835d389e98dc9d3d4901295c0db045
+[06:17:18.462] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:17:18.462] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWLVP[4]
+[06:17:18.480] |I| [export_sceIoOpen]: Opening file: app0:actor/509.pac
+[06:17:18.480] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(22) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:17:18.503] |I| [renderer::gl::load_shader_generic]: Generating frag shader 38c8ad7c08e32aa820f241de281c3c366a37e0822a18954a061502fe283dc761
+[06:17:18.504] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vFogNearColor
+[06:17:18.504] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) vFogFarColor
+[06:17:18.504] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:17:18.504] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:17:18.504] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float1) v_Fog
+[06:17:18.511] |I| [renderer::gl::load_shader_generic]: Generating vert shader a7a5c257c2bad6dde9a7eb8ca7db7fb85646b30b63313ae129daba37d7fa64b4
+[06:17:18.512] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:17:18.512] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:17:18.512] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
+[06:17:18.512] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWV[4]
+[06:17:18.512] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mWVP[4]
+[06:17:18.512] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) vAmbientColor
+[06:17:18.513] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) vModifierColor
+[06:17:18.513] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) vEmissionColor
+[06:17:18.513] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) vTexCoordOfs
+[06:17:18.513] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) vFogParam
+[06:17:18.562] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(27) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:17:18.574] |I| [renderer::gl::load_shader_generic]: Generating frag shader bc821b4b95997e1ba6d7c38e93b8bd300b03923f90dc44fc8bc8d2cc85d43dea
+[06:17:18.575] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vFogNearColor
+[06:17:18.575] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) vFogFarColor
+[06:17:18.575] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:17:18.575] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:17:18.576] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float1) v_Fog
+[06:17:18.626] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(27) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:17:18.642] |I| [renderer::gl::load_shader_generic]: Generating frag shader e783ab872ab7c0d2a87d15415d95e637837a12f79ea0a589be23f94c545ea2ae
+[06:17:18.643] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vFogNearColor
+[06:17:18.643] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) vFogFarColor
+[06:17:18.643] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) vShadowParam
+[06:17:18.643] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:17:18.643] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:17:18.643] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord2
+[06:17:18.643] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord3
+[06:17:18.643] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float1) v_Fog
+[06:17:18.653] |I| [renderer::gl::load_shader_generic]: Generating vert shader 41fbefb60b95fb22029cdadd5f7ae76cfb0c9a92c19307ec2949243bdeccdd5c
+[06:17:18.654] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:17:18.654] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:17:18.654] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_TexCoord0
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWV[4]
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mWVP[4]
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float4) vAmbientColor
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float4) vModifierColor
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 72] sa72 = (float4) vEmissionColor
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 76] sa76 = (float4) vTexCoordOfs
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 80] sa80 = (float4) vFogParam
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) mWLVP[4]
+[06:17:18.655] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) mWLVPB[4]
+[06:17:18.722] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(29) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:17:18.835] |I| [renderer::gl::load_shader_generic]: Generating frag shader d38f5a68437e72c9fc23dfcfbd8a5221ded8c5905a4d1b1d38f13aae23b9f7d1
+[06:17:18.836] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vFogNearColor
+[06:17:18.837] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) vFogFarColor
+[06:17:18.837] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) vShadowParam
+[06:17:18.837] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:17:18.837] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[06:17:18.837] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord2
+[06:17:18.837] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord3
+[06:17:18.837] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float1) v_Fog
+[06:17:18.904] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(29) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:17:18.941] |I| [export_sceIoOpen]: Opening file: app0:actor/529.pac
+[06:17:18.990] |I| [export_sceIoOpen]: Opening file: app0:actor/532.pac
+[06:17:19.023] |I| [export_sceIoOpen]: Opening file: app0:actor/107.pac
+[06:17:19.091] |I| [export_sceIoOpen]: Opening file: app0:actor/526.pac
+[06:17:19.120] |I| [export_sceIoOpen]: Opening file: app0:actor/108.pac
+[06:17:19.188] |I| [export_sceIoOpen]: Opening file: app0:actor/536.pac
+[06:17:19.551] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/001.bmarc
+[06:17:19.577] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/002.bmarc
+[06:17:19.609] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/009.bmarc
+[06:17:19.641] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/008.bmarc
+[06:17:21.530] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:21.531] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:21.531] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:21.569] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:21.569] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:21.570] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:21.570] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:21.570] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:21.570] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:21.699] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:21.699] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:21.699] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:21.789] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:21.789] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:21.789] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:21.789] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:21.789] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:21.790] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:21.859] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:21.859] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:21.859] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.019] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.019] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.019] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.049] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.049] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.049] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.129] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.130] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.130] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.209] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.209] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.209] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.289] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.289] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.289] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.290] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.290] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.290] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.509] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.509] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.509] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.509] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.509] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.510] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.539] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.539] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.539] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.669] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.669] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.669] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.769] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.769] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.769] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.769] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.770] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.770] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.859] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.859] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.859] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:22.989] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:22.989] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:22.989] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.029] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.029] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.029] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.089] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.090] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.090] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.159] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.159] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.159] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.259] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.259] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.259] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.259] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.259] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.260] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.489] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.489] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.489] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.519] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.519] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.519] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.519] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.519] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.520] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:23.749] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:23.749] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:23.750] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:24.009] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:24.009] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:24.009] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:24.239] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:24.239] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:24.239] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:26.041] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/008_zro/voice_008_o0080.at9
+[06:17:26.068] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/008_zro/voice_008_o0080.at9
+[06:17:26.090] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:26.090] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:32.094] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0090.at9
+[06:17:32.107] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0090.at9
+[06:17:32.119] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:32.119] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:35.223] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/002_ryu/voice_002_o0100.at9
+[06:17:35.262] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/002_ryu/voice_002_o0100.at9
+[06:17:35.279] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:35.279] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:38.838] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/200_enemy/voice_021_o0120_echo.at9
+[06:17:38.885] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/200_enemy/voice_021_o0120_echo.at9
+[06:17:38.899] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:38.899] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:39.434] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/200_enemy/voice_021_o0130_echo.at9
+[06:17:39.442] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/200_enemy/voice_021_o0130_echo.at9
+[06:17:39.459] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:39.459] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:43.115] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0140.at9
+[06:17:43.155] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0140.at9
+[06:17:43.169] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:43.169] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:45.423] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0150.at9
+[06:17:45.432] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0150.at9
+[06:17:45.449] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:45.449] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:46.939] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/008_zro/voice_008_o0160.at9
+[06:17:47.051] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/008_zro/voice_008_o0160.at9
+[06:17:47.749] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0170.at9
+[06:17:47.757] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0170.at9
+[06:17:47.769] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:47.769] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:49.114] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/002_ryu/voice_002_o0180.at9
+[06:17:49.121] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/002_ryu/voice_002_o0180.at9
+[06:17:49.139] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:49.139] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:49.271] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/002_ryu/voice_002_o0190.at9
+[06:17:49.310] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/002_ryu/voice_002_o0190.at9
+[06:17:50.616] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/008_zro/voice_008_o0200.at9
+[06:17:50.630] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/008_zro/voice_008_o0200.at9
+[06:17:50.649] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:50.649] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:51.989] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0210.at9
+[06:17:51.995] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0210.at9
+[06:17:52.010] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:52.010] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:52.750] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0220.at9
+[06:17:52.782] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0220.at9
+[06:17:52.799] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:52.799] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:54.189] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:54.189] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:54.189] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:17:55.490] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:17:55.490] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:17:55.490] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:00.807] |I| [export_sceIoOpen]: Opening file: app0:map/13_event_map/06.pac
+[06:18:01.210] |I| [export_sceIoOpen]: Opening file: app0:actor/111.pac
+[06:18:01.292] |I| [renderer::gl::load_shader_generic]: Generating frag shader 44b97594b9e10fa9abea7cbac217fc6f858b7733a3b2874e0921f7e1fa83f472
+[06:18:01.294] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vSpecularParamFs
+[06:18:01.294] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) vEmissionColor
+[06:18:01.294] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) vRimLightColor
+[06:18:01.294] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) vRimLightParameter
+[06:18:01.294] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vAmbientColor
+[06:18:01.294] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) vDirLightDir[4]
+[06:18:01.294] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) vDirLightColor[4]
+[06:18:01.294] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:18:01.294] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord0
+[06:18:01.294] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord1
+[06:18:01.308] |I| [renderer::gl::load_shader_generic]: Generating vert shader df9b84a89eed6713ad7c2ed890d635bf1f660ee023baf4f4751b7d3e6b0fe666
+[06:18:01.312] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:18:01.312] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Weights
+[06:18:01.312] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_Indices
+[06:18:01.312] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) IN_Normal
+[06:18:01.313] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) IN_Tangent
+[06:18:01.313] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) IN_Binormal
+[06:18:01.313] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) IN_Color
+[06:18:01.313] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) IN_TexCoord0
+[06:18:01.313] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mP[4]
+[06:18:01.313] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) mWV[4]
+[06:18:01.313] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) vModifierColor
+[06:18:01.313] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) mPallet[256]
+[06:18:01.939] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(35) : warning C7050: "r[0]" might be used before being initialized
+0(35) : warning C7050: "r[1]" might be used before being initialized
+0(35) : warning C7050: "r[2]" might be used before being initialized
+0(35) : warning C7050: "r[3]" might be used before being initialized
+0(35) : warning C7050: "r[4]" might be used before being initialized
+0(35) : warning C7050: "r[5]" might be used before being initialized
+0(35) : warning C7050: "r[6]" might be used before being initialized
+0(35) : warning C7050: "r[7]" might be used before being initialized
+0(35) : warning C7050: "r[8]" might be used before being initialized
+0(35) : warning C7050: "r[9]" might be used before being initialized
+0(35) : warning C7050: "r[10]" might be used before being initialized
+0(35) : warning C7050: "r[11]" might be used before being initialized
+0(35) : warning C7050: "r[12]" might be used before being initialized
+0(35) : warning C7050: "r[13]" might be used before being initialized
+0(35) : warning C7050: "r[14]" might be used before being initialized
+0(34) : warning C7050: "internals[0].w" might be used before being initialized
+0(34) : warning C7050: "internals[1]" might be used before being initialized
+
+
+[06:18:01.967] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(28) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:18:02.128] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/001.bmarc
+[06:18:02.156] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/111.bmarc
+[06:18:02.189] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:02.189] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:02.189] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:02.449] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:02.450] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:02.450] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:02.679] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:02.679] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:02.679] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:02.939] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:02.939] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:02.939] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:03.159] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:03.159] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:03.159] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:03.429] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:03.429] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:03.429] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:03.649] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:03.650] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:03.650] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:03.909] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:03.909] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:03.909] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:09.152] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0230.at9
+[06:18:09.195] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0230.at9
+[06:18:09.209] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:09.209] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:14.422] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:14.422] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:14.422] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:14.942] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:14.942] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:14.942] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:16.344] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/200_enemy/voice_021_o0240_echo.at9
+[06:18:16.348] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/200_enemy/voice_021_o0240_echo.at9
+[06:18:16.362] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:16.362] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:27.105] |I| [export_sceIoOpen]: Opening file: app0:map/14_battle/08.pac
+[06:18:27.163] |I| [export_sceIoOpen]: Opening file: app0:hud/battle.pac
+[06:18:27.230] |I| [export_sceIoOpen]: Opening file: app0:actor/204.pac
+[06:18:27.403] |I| [export_sceIoOpen]: Opening file: app0:actor/540.pac
+[06:18:27.441] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_008.at9
+[06:18:27.450] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_008.at9
+[06:18:27.472] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:27.472] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:28.790] |I| [export_sceIoOpen]: Opening file: app0:tips/tips009.pac
+[06:18:28.813] |I| [renderer::gl::load_shader_generic]: Generating frag shader 79d4e891e42d19314c375cb2e127d418bec922ff1d0fd6df11dc2fcb9459ef5e
+[06:18:28.814] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[06:18:28.814] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[06:18:28.814] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord0
+[06:18:28.845] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(27) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:18:30.862] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:30.862] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:30.862] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:44.292] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:44.293] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:44.293] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:45.142] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:45.142] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:45.142] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:45.592] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:45.592] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:45.592] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:45.922] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:45.922] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:45.922] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:45.962] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:45.963] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:46.002] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:46.002] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:46.002] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:46.032] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:46.032] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:46.032] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:46.032] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:46.033] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:48.502] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:48.502] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:48.502] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:48.952] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:48.952] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:48.952] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:49.412] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:49.412] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:49.412] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:49.742] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:49.742] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:49.742] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:49.772] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:49.772] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:49.802] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:49.802] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:49.803] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:18:49.843] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:49.843] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:49.843] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:49.844] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:52.442] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:52.442] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:53.322] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:53.322] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:54.882] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:54.882] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:55.362] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:55.362] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:55.402] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:55.402] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:55.403] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:55.403] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:58.038] |I| [export_sceIoOpen]: Opening file: app0:tips/tips010.pac
+[06:18:58.813] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:58.813] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:59.122] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:59.122] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:59.413] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:59.413] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:18:59.862] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:18:59.862] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:00.192] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:00.192] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:00.222] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:00.222] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:00.262] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:00.262] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:00.292] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:00.292] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:00.292] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:00.292] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:02.522] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:02.522] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:02.942] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:02.942] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:03.242] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:03.242] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:03.702] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:03.702] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:04.022] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:04.022] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:04.052] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:04.052] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:04.092] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:04.093] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:04.122] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:04.122] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:04.122] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:04.122] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:06.732] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:06.733] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:07.612] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:07.612] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:09.172] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:09.172] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:09.682] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:09.682] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:09.702] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:09.702] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:09.702] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:09.702] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:15.292] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:15.292] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:15.822] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:15.822] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:16.333] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:16.333] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:17.182] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:17.182] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:17.701] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:17.702] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:17.902] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:17.902] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:18.102] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:18.102] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:18.132] |I| [renderer::gl::load_shader_generic]: Generating vert shader 1b981409e97b66d8cf74a7a21cb70953b9332d4f70ea4e7de2d72c554bb02441
+[06:19:18.134] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_Position
+[06:19:18.134] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_Color
+[06:19:18.134] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_Extend1
+[06:19:18.134] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mWVP[4]
+[06:19:18.134] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vModifierColor
+[06:19:18.162] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(26) : warning C7050: "internals[0].w" might be used before being initialized
+
+
+[06:19:18.712] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:18.712] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:19.042] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:19.042] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:19.332] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:19.333] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:19.622] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:19.622] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:19.852] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:19.852] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:20.012] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:20.012] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:21.042] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:21.042] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:21.222] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:21.222] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:21.362] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:21.362] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:21.392] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:21.392] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:22.372] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:22.372] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:25.162] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:25.162] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:25.681] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:25.682] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:25.912] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:25.912] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:26.502] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:26.502] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:26.992] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:26.992] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:27.351] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:27.352] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:27.541] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:27.542] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:28.162] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:28.162] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:28.262] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:28.262] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:29.102] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:29.102] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:29.461] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:29.462] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:29.722] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:29.722] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:30.501] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:30.502] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:30.691] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:30.692] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:30.832] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:30.832] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:30.861] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:30.862] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:31.842] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:31.842] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:31.843] |D| [ngs::player::Module::process]: playback_scalar: 0.459375, source frequancy: 48000
+[06:19:38.412] |I| [export_sceIoOpen]: Opening file: app0:map/13_event_map/01.pac
+[06:19:38.562] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_022.at9
+[06:19:38.582] |I| [export_sceIoOpen]: Opening file: app0:actor/106.pac
+[06:19:38.597] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_022.at9
+[06:19:38.611] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:38.612] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:38.740] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/001.bmarc
+[06:19:38.769] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/007.bmarc
+[06:19:41.373] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0270.at9
+[06:19:41.406] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0270.at9
+[06:19:41.421] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:41.422] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:45.083] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0280.at9
+[06:19:45.087] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0280.at9
+[06:19:45.102] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:45.102] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:46.796] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0290.at9
+[06:19:46.819] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0290.at9
+[06:19:46.832] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:46.832] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:47.922] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0300.at9
+[06:19:47.961] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0300.at9
+[06:19:47.982] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:47.982] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:48.866] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0310.at9
+[06:19:48.901] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0310.at9
+[06:19:48.922] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:48.922] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:51.713] |I| [export_sceIoOpen]: Opening file: app0:map/01_capital_town/00.pac
+[06:19:51.772] |I| [export_sceIoOpen]: Opening file: app0:map/01_capital_town/02.pac
+[06:19:51.868] |I| [export_sceIoOpen]: Opening file: app0:map/14_battle/09.pac
+[06:19:51.937] |I| [export_sceIoOpen]: Opening file: app0:actor/401.pac
+[06:19:51.966] |I| [export_sceIoOpen]: Opening file: app0:actor/108.pac
+[06:19:51.998] |I| [export_sceIoOpen]: Opening file: app0:actor/115.pac
+[06:19:52.031] |I| [export_sceIoOpen]: Opening file: app0:actor/131.pac
+[06:19:52.064] |I| [export_sceIoOpen]: Opening file: app0:actor/130.pac
+[06:19:52.096] |I| [export_sceIoOpen]: Opening file: app0:actor/133.pac
+[06:19:52.129] |I| [export_sceIoOpen]: Opening file: app0:actor/127.pac
+[06:19:52.161] |I| [export_sceIoOpen]: Opening file: app0:actor/122.pac
+[06:19:52.194] |I| [export_sceIoOpen]: Opening file: app0:actor/142.pac
+[06:19:52.228] |I| [export_sceIoOpen]: Opening file: app0:actor/137.pac
+[06:19:52.701] |I| [export_sceIoOpen]: Opening file: app0:actor/106.pac
+[06:19:52.798] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/001.bmarc
+[06:19:52.822] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/007.bmarc
+[06:19:52.854] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/009.bmarc
+[06:19:56.692] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0320.at9
+[06:19:56.725] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0320.at9
+[06:19:56.741] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:19:56.742] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:19:57.273] |D| [export_sceAppUtilSaveDataDataSave]: call: 1
+[06:19:57.274] |D| [export_sceAppUtilSaveDataDataSave]: Slot is no null
+[06:20:00.587] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0330.at9
+[06:20:00.615] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0330.at9
+[06:20:00.631] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:00.632] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:01.516] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0340.at9
+[06:20:01.536] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0340.at9
+[06:20:01.552] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:01.552] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:02.338] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0350.at9
+[06:20:02.378] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0350.at9
+[06:20:02.391] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:02.392] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:02.475] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0360.at9
+[06:20:02.504] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0360.at9
+[06:20:02.521] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:02.522] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:02.599] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0370.at9
+[06:20:02.618] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0370.at9
+[06:20:02.631] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:02.632] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:02.767] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0380.at9
+[06:20:02.804] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/007_yur/voice_007_o0380.at9
+[06:20:03.311] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:03.312] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:05.517] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0390.at9
+[06:20:05.543] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0390.at9
+[06:20:05.562] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:05.562] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:07.782] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:07.782] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:08.342] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:08.342] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:09.091] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:09.092] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:09.651] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:09.652] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:10.392] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:10.392] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:11.126] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_009.at9
+[06:20:11.151] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_009.at9
+[06:20:11.181] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:11.182] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:17.437] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0400.at9
+[06:20:17.442] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0400.at9
+[06:20:17.461] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:17.462] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:18.954] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0410.at9
+[06:20:18.979] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0410.at9
+[06:20:18.992] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:18.992] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:19.732] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0420.at9
+[06:20:19.742] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0420.at9
+[06:20:19.761] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:19.762] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:19.839] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0430.at9
+[06:20:19.863] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0430.at9
+[06:20:19.882] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:19.882] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:20.612] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0440.at9
+[06:20:20.656] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0440.at9
+[06:20:20.672] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:20.672] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:20.752] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0450.at9
+[06:20:20.781] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0450.at9
+[06:20:20.811] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:20.812] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:20.880] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0460.at9
+[06:20:20.901] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0460.at9
+[06:20:20.922] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:20.922] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:21.001] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0470.at9
+[06:20:21.032] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/001_hero/voice_001_o0470.at9
+[06:20:21.052] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:21.052] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:21.785] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0480.at9
+[06:20:21.819] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0480.at9
+[06:20:21.831] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:21.832] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:21.917] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0490.at9
+[06:20:21.950] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0490.at9
+[06:20:21.972] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:21.973] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:22.321] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:22.322] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:23.408] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0510.at9
+[06:20:23.435] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_o0510.at9
+[06:20:23.451] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:23.452] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:26.283] |I| [export_sceIoOpen]: Opening file: app0:tips/tips001.pac
+[06:20:27.222] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:27.222] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:27.479] |I| [export_sceIoOpen]: Opening file: app0:tips/tips002.pac
+[06:20:28.171] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:28.172] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:28.563] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_003.at9
+[06:20:28.587] |I| [export_sceIoOpen]: Opening file: app0:/sound/music/snd_bgm_003.at9
+[06:20:28.622] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:28.622] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:28.781] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:28.782] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:29.041] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:29.042] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:30.142] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:30.143] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:30.248] |I| [export_sceIoOpen]: Opening file: app0:talk/event_thomas.pac
+[06:20:30.284] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/001.bmarc
+[06:20:30.306] |I| [export_sceIoOpen]: Opening file: app0:talk/facial/009.bmarc
+[06:20:31.355] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_00010.at9
+[06:20:31.396] |I| [export_sceIoOpen]: Opening file: app0:/sound/voice/009_tms/voice_009_00010.at9
+[06:20:31.411] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:31.412] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:32.852] |D| [export_sceNgsVoiceInit]: flags: 0
+[06:20:32.852] |D| [export_sceNgsVoicePlay]: sceNgsVoicePlay: 1
+[06:20:33.203] |I
